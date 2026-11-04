@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   publish:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-slim
     timeout-minutes: 10
     environment:
       name: github-pages
