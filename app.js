@@ -39,12 +39,11 @@ function renderWeek(week) {
     <section class="hero exam-hero" aria-labelledby="exam-title"><p class="eyebrow">NRBS 4210 / YOUR FINAL EXAM STUDY GUIDE</p><h1 id="exam-title">Med Search 3<br><span>Final Exam.</span></h1><p class="hero-copy">Start with the objectives. Build your understanding, one topic at a time.</p><div class="hero-meta">Weeks 7, 8, 9 & 12 <span aria-hidden="true">·</span> 7 learning objectives <span aria-hidden="true">·</span> 15 presentation topics</div></section>
     <nav class="week-nav" aria-label="Study weeks">${studyWeeks.map(w => `<a href="#/final/week-${w.number}" ${w.number === week.number ? 'aria-current="page"' : ''}><span>Week ${w.number}${w.focus ? '<span class="focus-label">START HERE</span>' : ''}</span><span class="week-subtitle">${w.number === 7 ? 'Parkinson’s disease' : w.number === 12 ? 'HIV / AIDS' : 'Student presentations'}</span></a>`).join('')}</nav>
     <section class="study-window" aria-labelledby="week-title">
-      <div class="window-bar"><span>Week ${week.number} / ${escapeHTML(week.label)}</span><span class="window-date">${week.date}</span></div>
+      <div class="window-bar"><span>Week ${week.number} / ${escapeHTML(week.label)}</span><span class="window-date">${week.objectives.length ? `${week.objectives.length} learning objectives` : `${week.presentations.length} presentation topics`}</span></div>
       <div class="study-window-body">
         <div class="week-intro"><div><p class="eyebrow">${week.focus ? 'OUR FIRST STUDY FOCUS' : week.objectives.length ? 'LEARNING OBJECTIVES' : 'IN-CLASS STUDENT PRESENTATIONS'}</p><h2 id="week-title">${escapeHTML(week.title)}</h2></div><span class="tag ${week.focus ? 'green-tag' : ''}">${week.focus ? 'CURRENT FOCUS' : 'CONTENT TO COME'}</span></div>
-        ${week.objectives.length ? `<p class="section-copy">${week.focus ? 'Three objectives to guide our review. Open each one to see the syllabus wording and its space for study notes.' : 'Four objectives from the syllabus, ready for a future study session.'}</p><div class="objectives">${week.objectives.map(objectiveCard).join('')}</div>` : '<p class="section-copy">Each presentation topic has a place below. We’ll add the material when it’s ready.</p>'}
+        ${week.objectives.length ? `<p class="section-copy">${week.focus ? 'Three objectives to guide our review. Open each one to see the learning objective and its space for study notes.' : 'Four objectives, ready for a future study session.'}</p><div class="objectives">${week.objectives.map(objectiveCard).join('')}</div>` : '<p class="section-copy">Each presentation topic has a place below. We’ll add the material when it’s ready.</p>'}
         ${week.presentations.length ? `<section class="presentations" aria-labelledby="presentations-title"><div class="section-heading"><h3 id="presentations-title">${week.objectives.length ? 'Also this week: student presentations' : 'Presentation topics'}</h3><span class="micro-label">${week.presentations.length} TOPICS</span></div><div class="presentation-list">${week.presentations.map(topic => `<article class="presentation"><span class="group-number">${topic.group}</span><h4>${escapeHTML(topic.title)}</h4><span class="presentation-state">Content to come</span>${topic.content.length ? `<div class="presentation-content">${paragraphs(topic.content)}</div>` : ''}</article>`).join('')}</div></section>` : ''}
-        <details class="source-details"><summary>Reading & syllabus reference</summary><p>${escapeHTML(week.reading)}</p><p class="source-note">NRBS 4210 syllabus · Fall 2026 · Page ${week.sourcePage}. Learning objectives follow the syllabus; presentation names use standard spelling.</p></details>
       </div>
     </section>
     <div class="guide-bottom"><a class="text-link" href="#/">← Back to the study shelf</a><span>Built a little at a time. Just like understanding.</span></div>`;
@@ -52,7 +51,7 @@ function renderWeek(week) {
 
 function render(focus = false) {
   const route = location.hash || '#/';
-  if (route === '#main') { main.focus(); return; }
+  if (route === '#main') { if (!main.innerHTML.trim()) renderHome(); main.focus(); return; }
   if (route === '#/' || route === '#') renderHome();
   else if (route === '#/final') renderWeek(studyWeeks[0]);
   else {

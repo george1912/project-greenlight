@@ -18,11 +18,9 @@ Run `python3 -m http.server 8000` in this folder and open http://localhost:8000.
 
 Routes use URL hashes so bookmarks and refreshes work under `/project-greenlight/` on GitHub Pages. Navigation remains keyboard accessible; objective panels use native disclosure controls.
 
-## Sources and scope
+## Content scope
 
-Outline transcribed and visually verified against the user-supplied NRBS 4210 Fall 2026 syllabus, pages 18–20. Objective wording retained, punctuation and presentation spelling normalized. The source PDF is not distributed in this repository.
-
-The syllabus overview (p. 14) lists final content as weeks 7–12; the dated final exam row (p. 20) says weeks 7–9. This guide follows the user’s explicit scope: weeks 7, 8, 9, and 12.
+Personal study outline for weeks 7, 8, 9, and 12. The user-supplied syllabus was used only to identify the requested objectives and presentation topics. The original PDF, reading assignments, faculty information, and course policies are not included.
 
 ## Hosting
 
