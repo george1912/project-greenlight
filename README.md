@@ -9,7 +9,7 @@ Run `python3 -m http.server 8000` in this folder and open http://localhost:8000.
 ## Study structure
 
 - Home: one large **Med Search 3 Final Exam** entry and room for future courses.
-- Week 7: three Parkinson disease learning objectives with the complete user-supplied notes, a separate reading reference section, pre-lecture assignments, and four cancer presentation placeholders.
+- Week 7: five study sections covering the three Parkinson disease learning objectives, with the complete user-supplied notes, a separate reading reference section, pre-lecture assignments, and four cancer presentation placeholders.
 - Week 8: six student presentation placeholders, reading references, and pre-lecture assignments.
 - Week 9: five student presentation placeholders.
 - Week 12: four HIV/AIDS learning objectives, reading references, and pre-lecture assignments.

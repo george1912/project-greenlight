@@ -1,4 +1,4 @@
-/* Study outline and supplied Course Final notes.
+/* Supplied Course Final notes, grouped for study.
    Week 7 text is preserved from the user-provided document.
    Empty answers and presentation content remain placeholders. */
 const studyWeeks = [
@@ -120,9 +120,9 @@ const studyWeeks = [
         ]
       },
       {
-        "id": "7-2",
-        "title": "Diagnostic tests & treatment options",
-        "text": "Identify the diagnostic tests and treatment options used to manage Parkinson’s disease.",
+        "id": "7-2-diagnosis",
+        "title": "Diagnostic tests",
+        "text": "Identify the diagnostic tests used to manage Parkinson’s disease.",
         "answer": [
           {
             "type": "heading",
@@ -139,7 +139,14 @@ const studyWeeks = [
           {
             "type": "paragraph",
             "text": "Diagnostic tools discussed include PET scans and single-photon emission CT scans. An L-dopa trial may also be performed. A positive response to the trial confirms Parkinson’s disease."
-          },
+          }
+        ]
+      },
+      {
+        "id": "7-2-treatment",
+        "title": "Treatment options",
+        "text": "Identify the treatment options used to manage Parkinson’s disease.",
+        "answer": [
           {
             "type": "heading",
             "text": "Treatment goals"
@@ -151,7 +158,14 @@ const studyWeeks = [
           {
             "type": "paragraph",
             "text": "Treatment approaches include pharmacological and surgical management. Surgery may be considered for patients with debilitating tremor, rigidity, or dyskinesia."
-          },
+          }
+        ]
+      },
+      {
+        "id": "7-3-medical",
+        "title": "Medical management",
+        "text": "Apply evidence-based medical management principles to the care of patients with Parkinson’s disease.",
+        "answer": [
           {
             "type": "heading",
             "text": "Pharmacological treatment"
@@ -175,9 +189,9 @@ const studyWeeks = [
         ]
       },
       {
-        "id": "7-3",
-        "title": "Medical & nursing management",
-        "text": "Apply evidence-based medical and nursing management principles to the care of patients with Parkinson’s disease.",
+        "id": "7-3-nursing",
+        "title": "Nursing management",
+        "text": "Apply evidence-based nursing management principles to the care of patients with Parkinson’s disease.",
         "answer": [
           {
             "type": "heading",
