@@ -24,4 +24,4 @@ Personal study outline for weeks 7, 8, 9, and 12. The user-supplied syllabus was
 
 ## Hosting
 
-Publish the root of the `main` branch with GitHub Pages. `.nojekyll` ensures static files are served directly. Fonts use Google Fonts with local system fallbacks.
+The Pages workflow publishes the static website from `main` using GitHub Actions. `.nojekyll` ensures static files are served directly. Fonts use Google Fonts with local system fallbacks.
