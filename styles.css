@@ -24,3 +24,10 @@
 .prelecture{margin-top:28px;padding:22px;background:var(--white);border:1px solid #a7ad98}
 .site-footer{justify-content:flex-end}
 @media(max-width:720px){.home-hero{padding-top:30px;padding-bottom:25px}.home-hero h1{font-size:clamp(35px,9vw,56px)}.answer-area{padding:16px 14px}.answer-area p,.answer-area li{font-size:16px}.reading-references{padding:17px}.reading-references h3,.prelecture h3{font-size:23px}.site-footer{align-items:flex-end}}
+
+.note-review{padding:20px 23px;margin-top:28px;background:var(--yellow);border:1px solid #b7aa8e}
+.note-review h3{font-size:23px;margin:0 0 12px}
+.note-review ul{padding-left:22px;font-size:15px;margin:0}
+.note-review li{margin:9px 0;overflow-wrap:anywhere}
+.reading-references .source-details ul{font-size:13px}
+.reading-references a{text-underline-offset:3px;overflow-wrap:anywhere}

@@ -1,6 +1,6 @@
-/* Supplied Course Final notes, grouped for study.
-   Week 7 text is preserved from the user-provided document.
-   Empty answers and presentation content remain placeholders. */
+/* User-supplied Course Final notes, grouped for study.
+   Week 7 notes are preserved; Week 12 notes are lightly edited with terminology clarifications.
+   Presentation content remains as supplied or as an empty placeholder. */
 const studyWeeks = [
   {
     "number": 7,
@@ -573,25 +573,455 @@ const studyWeeks = [
         "id": "12-1",
         "title": "Transmission, prevention & pathophysiology",
         "text": "Describe the transmission, prevention, and pathophysiology of HIV/AIDS.",
-        "answer": []
+        "answer": [
+          {
+            "type": "heading",
+            "text": "Transmission"
+          },
+          {
+            "type": "paragraph",
+            "text": "HIV is transmitted through body fluids that contain the virus, including blood, semen, vaginal secretions, and breast milk. Exposure may occur through sexual activity, sharing needles or injection equipment, and during pregnancy, labor, delivery, or breastfeeding. In healthcare settings, other potentially infectious fluids include amniotic fluid."
+          },
+          {
+            "type": "paragraph",
+            "text": "Breaks in the skin or mucous membranes, including those associated with inflammation, can increase the likelihood of infection when exposed to infectious fluids."
+          },
+          {
+            "type": "heading",
+            "text": "Prevention"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Use barrier methods, including latex external condoms and dental dams, to reduce exposure to infected genital secretions.",
+              "Use harm-reduction services, such as access to clean needles and safe sharps disposal, to reduce bloodborne infections. Avoid sharing injection equipment.",
+              "Provide treatment and care for people with HIV to reduce their viral load.",
+              "Consider pre-exposure prophylaxis (PrEP) for people without HIV who are at increased risk. Options discussed in these notes include daily oral medication and an injectable option given every two months.",
+              "Monitor HIV and STI status. PrEP prevents HIV but does not prevent other sexually transmitted infections."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The original notes also mention medication taken before and after sexual activity. Event-driven “2-1-1” PrEP is an off-label approach for selected patients; it is not FDA-approved or recommended by CDC. It should not be treated as a general dosing schedule."
+          },
+          {
+            "type": "heading",
+            "text": "Pregnancy planning and partner prevention"
+          },
+          {
+            "type": "paragraph",
+            "text": "People with HIV should receive antiretroviral (ARV) therapy and pregnancy-planning support. ART reduces perinatal HIV transmission. In serodifferent couples, the partner without HIV may consider PrEP. The partner with HIV should maintain medication adherence and an undetectable viral load."
+          },
+          {
+            "type": "heading",
+            "text": "Breastfeeding"
+          },
+          {
+            "type": "paragraph",
+            "text": "With ART and sustained viral suppression during pregnancy and breastfeeding, the risk of HIV transmission through breast milk is less than 1%, but it is not zero. Continue viral-load monitoring and clinical follow-up. Properly prepared formula or pasteurized donor human milk from a milk bank eliminates HIV transmission through breastfeeding; this does not eliminate other routes of transmission."
+          },
+          {
+            "type": "paragraph",
+            "text": "Breastfeeding is not recommended when ART is not being taken or viral suppression has not been achieved."
+          },
+          {
+            "type": "heading",
+            "text": "Healthcare worker prevention and exposure"
+          },
+          {
+            "type": "paragraph",
+            "text": "Use Standard Precautions, including hand hygiene, sharps safety, and appropriate protection against blood and body-fluid exposure. HIV alone does not require Contact Precautions."
+          },
+          {
+            "type": "paragraph",
+            "text": "After a potentially significant exposure, report it promptly and seek immediate evaluation for post-exposure prophylaxis (PEP), not PrEP. When indicated, begin PEP as soon as possible and no later than 72 hours after exposure. The course is 28 days of a prescribed three-drug ARV regimen."
+          },
+          {
+            "type": "heading",
+            "text": "Pathophysiology"
+          },
+          {
+            "type": "paragraph",
+            "text": "HIV is a retrovirus that carries its genetic material as RNA. It targets immune cells and integrates its genetic material into host cells, impairing the immune response. HIV-1 is the predominant type worldwide; HIV-2 is more common in West Africa."
+          },
+          {
+            "type": "paragraph",
+            "text": "HIV targets cells with CD4 receptors, including T lymphocytes, monocytes, dendritic cells, and brain microglia. Antiretroviral medications act at different steps of the viral life cycle."
+          },
+          {
+            "type": "heading",
+            "text": "Clinical progression"
+          },
+          {
+            "type": "paragraph",
+            "text": "The viral life cycle and the clinical stages of HIV infection are different concepts. The clinical course is commonly described in three stages:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Acute HIV infection: rapid viral replication, a high viral load, and destruction of CD4+ T cells. Transmission risk is high.",
+              "Chronic HIV infection: a prolonged stage that may be asymptomatic.",
+              "AIDS: advanced immune-system damage, with a CD4 count below 200 cells/mm³ or an AIDS-defining condition."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "CDC surveillance uses a separate classification with stages 0, 1, 2, 3, and unknown: stage 0 identifies recent infection; stages 1 and 2 use CD4 results; stage 3 is AIDS; and unknown means there is insufficient staging information. Clinical assessment uses the history, examination, and laboratory findings."
+          },
+          {
+            "type": "heading",
+            "text": "Diagnostic tests"
+          },
+          {
+            "type": "list",
+            "items": [
+              "HIV nucleic acid test (NAT): detects viral genetic material, usually HIV RNA.",
+              "HIV-1/HIV-2 antibody immunoassay: detects antibodies to HIV-1 and HIV-2.",
+              "HIV antigen/antibody combination immunoassay: detects HIV-1 p24 antigen and antibodies to HIV-1 and HIV-2.",
+              "HIV-1/HIV-2 antibody differentiation assay: distinguishes HIV-1 from HIV-2 antibodies.",
+              "HIV-1 p24 antigen test: detects viral antigen directly."
+            ]
+          }
+        ]
       },
       {
-        "id": "12-2",
-        "title": "Clinical manifestations & antiretroviral management",
-        "text": "Explain the clinical manifestations and antiretroviral management of HIV/AIDS.",
-        "answer": []
+        "id": "12-2-clinical",
+        "title": "Clinical manifestations",
+        "text": "Explain the clinical manifestations of HIV/AIDS.",
+        "answer": [
+          {
+            "type": "heading",
+            "text": "Respiratory manifestations"
+          },
+          {
+            "type": "paragraph",
+            "text": "Respiratory symptoms include shortness of breath or dyspnea, cough, chest pain, and fever. These can indicate infections in a person whose immune system is weakened. The notes discuss pneumonia, sinusitis, Pneumocystis pneumonia (PCP), MAC, and tuberculosis."
+          },
+          {
+            "type": "heading",
+            "text": "Pneumocystis pneumonia (PCP)"
+          },
+          {
+            "type": "paragraph",
+            "text": "PCP is caused by Pneumocystis jirovecii. Most cases occur with a CD4 count below 200 cells/mm³; a CD4 percentage below 14% is also associated with increased risk. Manifestations include progressive dyspnea, fever, a nonproductive cough, chest discomfort, and hypoxemia. Evaluation includes appropriate laboratory and diagnostic findings."
+          },
+          {
+            "type": "heading",
+            "text": "Mycobacterium avium complex (MAC)"
+          },
+          {
+            "type": "paragraph",
+            "text": "Disseminated MAC most often occurs with a CD4 count below 50 cells/mm³. Early symptoms may be minimal. Findings can include fever, night sweats, weight loss, fatigue, diarrhea, and abdominal pain. Diagnosis uses clinical findings and isolation of the organism from appropriate cultures."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Monitor temperature, weight, and gastrointestinal symptoms.",
+              "Assess fatigue and nutritional status.",
+              "Monitor laboratory results and the response to treatment."
+            ]
+          },
+          {
+            "type": "heading",
+            "text": "Tuberculosis (TB)"
+          },
+          {
+            "type": "paragraph",
+            "text": "TB can occur at any CD4 count, with risk increasing as immunodeficiency worsens. Test for latent TB at HIV diagnosis. TB may be pulmonary or extrapulmonary, involving sites such as the central nervous system, bones, or pericardium. In people with AIDS, TB may progress rapidly and be fatal."
+          },
+          {
+            "type": "paragraph",
+            "text": "The standard initial four-drug regimen for drug-susceptible TB includes isoniazid, rifampin, pyrazinamide, and ethambutol."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Assess for cough, fever, night sweats, and weight loss.",
+              "Use Airborne Precautions for suspected active pulmonary TB.",
+              "Reinforce medication adherence."
+            ]
+          },
+          {
+            "type": "heading",
+            "text": "Gastrointestinal manifestations"
+          },
+          {
+            "type": "paragraph",
+            "text": "Common manifestations include loss of appetite, nausea, vomiting, oral or esophageal candidiasis, and chronic diarrhea. Enteric pathogens named in the notes include Cryptosporidium, Salmonella, Shigella, cytomegalovirus (CMV), and Clostridioides difficile (C. diff). Two additional dictated organism names are listed under “Terms to confirm” below."
+          },
+          {
+            "type": "heading",
+            "text": "Chronic diarrhea"
+          },
+          {
+            "type": "list",
+            "items": [
+              "May lead to loss of more than 10% of body weight.",
+              "Can cause fluid and electrolyte imbalances.",
+              "Can impair perineal skin integrity.",
+              "Contributes to weakness and difficulty performing activities of daily living (ADLs)."
+            ]
+          },
+          {
+            "type": "heading",
+            "text": "Candidiasis"
+          },
+          {
+            "type": "paragraph",
+            "text": "Oral, pharyngeal, and esophageal candidiasis can occur with HIV, especially with immune suppression. Oral thrush causes painless, creamy white plaques on the buccal surfaces, palate, or tongue. These plaques can be scraped off."
+          },
+          {
+            "type": "paragraph",
+            "text": "Vulvovaginal candidiasis may cause:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "White, adherent vaginal discharge.",
+              "Burning and itching.",
+              "Sporadic recurrences."
+            ]
+          },
+          {
+            "type": "heading",
+            "text": "HIV wasting syndrome and frailty"
+          },
+          {
+            "type": "paragraph",
+            "text": "HIV wasting syndrome involves involuntary loss of more than 10% of body weight, including muscle and fat, together with chronic diarrhea or prolonged weakness and fever lasting more than 30 days. Contributing factors discussed in the notes include:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Low food intake.",
+              "Opportunistic infections.",
+              "Depression.",
+              "Medication side effects.",
+              "Poor nutrient absorption.",
+              "Altered metabolism.",
+              "Inflammation associated with HIV."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "There is no single standard approach described in these notes. Wasting has become less common with advances in ART but remains a concern, along with HIV-associated frailty."
+          },
+          {
+            "type": "heading",
+            "text": "Gastrointestinal nursing care"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Monitor weight, nutritional intake, hydration, and electrolytes.",
+              "Observe diarrhea characteristics and assess oral lesions and the ability to eat or swallow.",
+              "Monitor skin integrity, especially in the perineal area.",
+              "Assess functional status and the ability to perform ADLs."
+            ]
+          },
+          {
+            "type": "heading",
+            "text": "Oncological manifestations"
+          },
+          {
+            "type": "paragraph",
+            "text": "Cancers associated with HIV include Kaposi sarcoma, lymphoma, and invasive cervical cancer."
+          },
+          {
+            "type": "heading",
+            "text": "HIV-associated neurocognitive disorders (HAND)"
+          },
+          {
+            "type": "paragraph",
+            "text": "HAND refers to a spectrum of neurocognitive impairment; HIV-associated dementia is its severe form. Changes may involve cognition, behavior, and motor function. The original “over 60%” figure needs its source and population confirmed."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Early changes: memory loss, confusion, poor concentration, and psychomotor slowing.",
+              "Advanced changes: hallucinations, seizures, incontinence, and severe cognitive impairment."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Assessment may include neurological and neuropsychological evaluation, CT or MRI, and cerebrospinal fluid (CSF) studies as indicated. Early identification may support changes to antiretroviral therapy."
+          },
+          {
+            "type": "heading",
+            "text": "Peripheral neuropathy"
+          },
+          {
+            "type": "paragraph",
+            "text": "Peripheral neuropathy can occur at any stage. It may be associated with HIV, some ARV medications, and low CD4 counts. It causes pain and functional impairment, particularly in the hands and feet."
+          },
+          {
+            "type": "heading",
+            "text": "Cryptococcal disease"
+          },
+          {
+            "type": "paragraph",
+            "text": "Cryptococcosis is an opportunistic fungal infection associated with advanced immunosuppression, often when the CD4 count is below 100 cells/mm³. Cryptococcal meningitis may cause fever, headache, neck stiffness, seizures, and other neurological or mental-status changes. Diagnostic evaluation includes CSF analysis."
+          },
+          {
+            "type": "heading",
+            "text": "Progressive multifocal leukoencephalopathy (PML)"
+          },
+          {
+            "type": "paragraph",
+            "text": "PML is a demyelinating central nervous system disorder. Manifestations may include confusion, visual loss, aphasia, weakness, and paralysis; it may be fatal. ART may reduce mortality."
+          },
+          {
+            "type": "heading",
+            "text": "Cytomegalovirus (CMV) disease"
+          },
+          {
+            "type": "paragraph",
+            "text": "CMV disease commonly occurs with severe immunosuppression, especially a CD4 count below 50 cells/mm³. CMV retinitis can threaten vision. Remember the four Fs:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Floaters.",
+              "Flashes.",
+              "Field deficits.",
+              "Failing vision."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Other neurological infections discussed in the notes include Toxoplasma gondii and Mycobacterium tuberculosis."
+          },
+          {
+            "type": "heading",
+            "text": "Neurological nursing care"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Monitor neurological status, cognition, vision, mobility, and safety.",
+              "Support ADLs, nutrition, hydration, and overall caregiving needs."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "12-2-arv",
+        "title": "Antiretroviral management",
+        "text": "Explain the antiretroviral management of HIV/AIDS.",
+        "answer": [
+          {
+            "type": "heading",
+            "text": "Treatment goals"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Reduce HIV-associated morbidity and prolong survival.",
+              "Restore and preserve immunological function.",
+              "Suppress the plasma HIV viral load.",
+              "Reduce HIV transmission."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Combination antiretroviral regimens are essential. Adherence is crucial for achieving and maintaining viral suppression. Sustained undetectable viral load prevents sexual transmission; this should not be generalized to breastfeeding or all other exposure routes."
+          }
+        ]
       },
       {
         "id": "12-3",
         "title": "The nursing process",
         "text": "Apply the nursing process to the care of patients with HIV/AIDS.",
-        "answer": []
+        "answer": [
+          {
+            "type": "heading",
+            "text": "Assessment and therapy history"
+          },
+          {
+            "type": "paragraph",
+            "text": "Obtain a complete health history and ask about prescribed medications, complementary or traditional therapies, and other approaches to well-being. Assess for potential adverse interactions with antiretroviral therapy. Encourage patients to tell their primary provider about all therapies they use."
+          },
+          {
+            "type": "heading",
+            "text": "Outpatient and supportive care"
+          },
+          {
+            "type": "paragraph",
+            "text": "ART has shifted much HIV care to outpatient settings. Hospitalization may be required for exacerbations of comorbid conditions and complications. Supportive care discussed in the notes includes:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Nutritional support.",
+              "IV fluid and electrolyte replacement.",
+              "Skin care.",
+              "Pain management with analgesic agents and individualized approaches for patients with a history of drug misuse."
+            ]
+          },
+          {
+            "type": "heading",
+            "text": "Pulmonary symptoms"
+          },
+          {
+            "type": "paragraph",
+            "text": "Manage pulmonary symptoms with prescribed oxygen therapy, relaxation training, and energy-conservation techniques."
+          },
+          {
+            "type": "heading",
+            "text": "Advance care planning"
+          },
+          {
+            "type": "paragraph",
+            "text": "Discuss advance directives and end-of-life care preferences with patients as appropriate."
+          },
+          {
+            "type": "heading",
+            "text": "Ethical care and confidentiality"
+          },
+          {
+            "type": "paragraph",
+            "text": "Caring for people with HIV can raise concerns about infection, confidentiality, stigma, and personal beliefs related to sexuality, gender identity, or lifestyle. Religious or moral beliefs may also influence a nurse’s feelings. Nurses should recognize these concerns and provide compassionate care without discrimination."
+          },
+          {
+            "type": "paragraph",
+            "text": "The American Nurses Association (ANA) Code of Ethics emphasizes compassion, respect, and the inherent dignity and worth of every person. Safeguard confidential patient information. Support appropriate disclosure within the care team for quality care and partner notification through appropriate clinical or public-health processes, while maintaining confidentiality."
+          }
+        ]
       },
       {
         "id": "12-4",
         "title": "Resources & support systems",
         "text": "Identify resources and support systems for patients with immune deficiency disorders.",
-        "answer": []
+        "answer": [
+          {
+            "type": "heading",
+            "text": "Ethical guidance and nursing support"
+          },
+          {
+            "type": "paragraph",
+            "text": "The ANA Code of Ethics provides guidance for compassionate, respectful care. Nurses are encouraged to examine personal beliefs and use support systems to manage the emotional demands of care. The resources described in these notes focus on supporting the nursing team and its ability to provide patient care."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Interdisciplinary meetings.",
+              "Staff and support groups.",
+              "Understanding and emotional support.",
+              "Discussion of patient care and support needs.",
+              "Problem-solving.",
+              "Exploration of values and feelings.",
+              "A forum for grief."
+            ]
+          },
+          {
+            "type": "heading",
+            "text": "Additional support and education"
+          },
+          {
+            "type": "paragraph",
+            "text": "Support may come from nursing administrators, peers, and spiritual advisors. Education and up-to-date information can reduce apprehension and prepare nurses to provide safe, quality care."
+          }
+        ]
       }
     ],
     "presentations": [],
@@ -616,6 +1046,57 @@ const studyWeeks = [
         ]
       }
     ],
-    "date": "November 10, 2026"
+    "date": "November 10, 2026",
+    "reviewNotes": [
+      "“Trichuria” and “Mavibom Entercell” were unclear in the dictated enteric-pathogen list; confirm the intended organism names from the lecture.",
+      "“Sinus pneumonia” was unclear in the respiratory list; confirm whether a separate infection was intended.",
+      "The “over 60%” HAND figure needs its source and population confirmed. The corrected notes distinguish HAND from HIV-associated dementia."
+    ],
+    "sourceReferences": [
+      {
+        "title": "CDC · PEP and Standard Precautions",
+        "url": "https://www.cdc.gov/hiv/prevention/pep.html"
+      },
+      {
+        "title": "CDC · PrEP guidance",
+        "url": "https://www.cdc.gov/hivnexus/hcp/prep/"
+      },
+      {
+        "title": "NIH · HIV clinical stages",
+        "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/stages-hiv-infection"
+      },
+      {
+        "title": "CDC · HIV surveillance staging",
+        "url": "https://www.cdc.gov/hiv-data/nhss/"
+      },
+      {
+        "title": "NIH · Infant feeding and HIV",
+        "url": "https://clinicalinfo.hiv.gov/en/guidelines/perinatal/preventing-transmission-infant-feeding?view=brief"
+      },
+      {
+        "title": "NIH · Tuberculosis in people with HIV",
+        "url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/mycobacterium?view=full"
+      },
+      {
+        "title": "NIH · Candidiasis",
+        "url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/candidiasis"
+      },
+      {
+        "title": "CDC · HIV laboratory testing",
+        "url": "https://stacks.cdc.gov/view/cdc/23446/cdc_23446_DS1.pdf?download-document-submit=Download"
+      },
+      {
+        "title": "NCI · HIV-associated cancers",
+        "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/infectious-agents/hiv-fact-sheet"
+      },
+      {
+        "title": "NIH · HIV-associated neurocognitive disorders (HAND)",
+        "url": "https://clinicalinfo.hiv.gov/en/glossary/hiv-associated-neurocognitive-disorders-hand"
+      },
+      {
+        "title": "ANA · Code of Ethics for Nurses",
+        "url": "https://codeofethics.ana.org/home"
+      }
+    ]
   }
 ];

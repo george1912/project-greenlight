@@ -12,9 +12,9 @@ Run `python3 -m http.server 8000` in this folder and open http://localhost:8000.
 - Week 7: five study sections covering the three Parkinson disease learning objectives, with the complete user-supplied notes, a separate reading reference section, pre-lecture assignments, and four cancer presentation placeholders.
 - Week 8: six student presentation placeholders, reading references, and pre-lecture assignments.
 - Week 9: five student presentation placeholders.
-- Week 12: four HIV/AIDS learning objectives, reading references, and pre-lecture assignments.
+- Week 12: the four HIV/AIDS learning objectives covered across five populated study panels, reading references, clinical terminology references, pre-lecture assignments, and a short list of unclear dictated terms to confirm.
 
-`content.js` holds the syllabus outline. Each objective’s `answer` array supports paragraph, heading, and list blocks. Week 7 preserves the text from the supplied Course Final Word document. Presentation `content` arrays are intentionally empty. No additional clinical material has been generated.
+`content.js` holds the syllabus outline. Each objective’s `answer` array supports paragraph, heading, and list blocks. Week 7 preserves the text from the supplied Course Final Word document. Presentation `content` arrays are intentionally empty. Week 12 preserves the supplied notes with duplicate passages merged, wording cleaned up, and clear clinical terminology errors corrected against linked primary references.
 
 Routes use URL hashes so bookmarks and refreshes work under `/project-greenlight/` on GitHub Pages. Navigation remains keyboard accessible; objective panels use native disclosure controls.
 

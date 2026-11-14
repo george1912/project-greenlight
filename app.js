@@ -11,12 +11,17 @@ function studyContent(blocks) {
 
 function referenceSection(week) {
   if (!week.reading?.length) return '';
-  return `<section class="reading-references" aria-labelledby="reading-title"><h3 id="reading-title">Reading references</h3>${studyContent(week.reading)}</section>`;
+  return `<section class="reading-references" aria-labelledby="reading-title"><h3 id="reading-title">Reading references</h3>${studyContent(week.reading)}${week.sourceReferences?.length ? `<details class="source-details"><summary>Clinical terminology references</summary><ul>${week.sourceReferences.map(source => `<li><a href="${escapeHTML(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(source.title)}</a></li>`).join('')}</ul></details>` : ''}</section>`;
 }
 
 function assignmentSection(week) {
   if (!week.assignments?.length) return '';
   return `<section class="prelecture" aria-labelledby="assignments-title"><h3 id="assignments-title">Pre-Lecture Assignments</h3>${studyContent(week.assignments)}</section>`;
+}
+
+function noteReviewSection(week) {
+  if (!week.reviewNotes?.length) return '';
+  return `<section class="note-review" aria-labelledby="review-title"><h3 id="review-title">Terms to confirm</h3><ul>${week.reviewNotes.map(note => `<li>${escapeHTML(note)}</li>`).join('')}</ul></section>`;
 }
 
 function renderHome() {
@@ -30,7 +35,7 @@ function renderHome() {
       <a class="exam-card" href="#/final/week-7">
         <div class="window-bar"><span><span class="window-icon" aria-hidden="true">▤</span> NRBS 4210 · ADULT HEALTH III</span><span aria-hidden="true">↗</span></div>
         <div class="exam-card-body">
-          <div><span class="tag">FINAL EXAM REVIEW</span><h3>Med Search 3<br>Final Exam</h3><p>Your learning objectives, organized by week.</p><div class="card-scope">WEEKS 7, 8, 9 & 12 <span>·</span> WEEK 7 NOTES AVAILABLE</div></div>
+          <div><span class="tag">FINAL EXAM REVIEW</span><h3>Med Search 3<br>Final Exam</h3><p>Your learning objectives, organized by week.</p><div class="card-scope">WEEKS 7, 8, 9 & 12 <span>·</span> WEEKS 7 & 12 NOTES AVAILABLE</div></div>
           <span class="open-guide">Open study guide <span aria-hidden="true">→</span></span>
         </div>
       </a>
@@ -59,6 +64,7 @@ function renderWeek(week) {
         ${referenceSection(week)}
         ${week.objectives.length ? `<div class="objectives">${week.objectives.map(objectiveCard).join('')}</div>` : '<p class="section-copy">Each presentation topic has a place below. We’ll add the material when it’s ready.</p>'}
         ${week.presentations.length ? `<section class="presentations" aria-labelledby="presentations-title"><div class="section-heading"><h3 id="presentations-title">${week.objectives.length ? 'Also this week: student presentations' : 'Presentation topics'}</h3></div><div class="presentation-list">${week.presentations.map(topic => `<article class="presentation"><span class="group-number">${topic.group}</span><h4>${escapeHTML(topic.title)}</h4><span class="presentation-state">Content to come</span>${topic.content.length ? `<div class="presentation-content">${studyContent(topic.content)}</div>` : ''}</article>`).join('')}</div></section>` : ''}
+        ${noteReviewSection(week)}
         ${assignmentSection(week)}
       </div>
     </section>
