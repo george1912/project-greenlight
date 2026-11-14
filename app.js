@@ -63,9 +63,11 @@ function renderStudyGuide() {
     <p class="guide-intro">Review each condition through the full nursing process. The highlighted exam points add emphasis; they do not replace the general review. The exam is not limited to this guide.</p>
     <section class="condition-library" aria-labelledby="conditions-title"><div class="section-heading"><h2 id="conditions-title">Choose a condition</h2></div><p class="section-copy">The new study breakdowns are being added one condition at a time. Existing weekly notes and presentation PDFs remain available below.</p><div class="condition-topic-list">${examTopics.map(topic => {
       const ready = Boolean(conditionNotes[topic.id]);
-      const body = `<span class="objective-number">${String(topic.number).padStart(2, '0')}</span><span class="condition-topic-title">${escapeHTML(topic.title)}</span><span class="condition-topic-state">${ready ? 'Open study notes →' : 'Breakdown to come'}</span>`;
-      return ready ? `<a class="condition-topic" href="#/final/condition/${topic.id}">${body}</a>` : `<div class="condition-topic condition-topic-pending">${body}</div>`;
+      const count = VideoLibrary.available(topic.number).length;
+      const body = `<span class="objective-number">${String(topic.number).padStart(2, '0')}</span><span class="condition-topic-title">${escapeHTML(topic.title)}</span><span class="condition-topic-state">${ready ? 'Study notes · ' : 'Notes coming soon · '}${count} videos →</span>`;
+      return `<a class="condition-topic" href="#/final/condition/${topic.id}">${body}</a>`;
     }).join('')}</div></section>
+    <section class="video-guide-entry"><h2>Video resources</h2><p>Browse short reviews and nursing explainers, organized by the 14 study-guide topics.</p><a class="text-link" href="#/final/videos">Browse all videos →</a></section>
     <nav class="guide-resources" aria-label="Course materials"><h2>Course materials</h2><a class="text-link" href="#/final/week-7">Weekly notes & objectives →</a><a class="text-link" href="#/final/presentations">All presentation PDFs →</a></nav>`;
 }
 
@@ -84,8 +86,8 @@ function renderCondition(condition) {
   main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/final/study-guide">Final exam study guide</a><span aria-hidden="true">/</span><span>${escapeHTML(condition.abbreviation)}</span></nav>
     <section class="hero condition-hero"><p class="eyebrow">FINAL EXAM STUDY GUIDE / WEEK ${condition.week}</p><h1>${escapeHTML(condition.title)}</h1><p class="hero-copy">Understand the condition. Recognize the findings. Apply the nursing process.</p><a class="condition-slides text-link" href="${condition.deck ? `#/final/presentation/${condition.deck}` : `#/final/week-${condition.week}`}">${condition.deck ? 'Read the original presentation →' : `Read the Week ${condition.week} learning objectives →`}</a></section>
     <aside class="condition-focus" aria-labelledby="exam-focus-title"><h2 id="exam-focus-title">Exam focus</h2><p>Highlighted in your study guide. Review these alongside the full condition breakdown.</p><div class="condition-focus-links">${condition.focus.map(focus => `<button class="condition-jump" type="button" data-open-section="${focus.section}">${escapeHTML(focus.label)} <span aria-hidden="true">↘</span></button>`).join('')}</div></aside>
-    <div class="condition-tools"><details class="condition-index"><summary>Jump to a section</summary><ol>${conditionSections.map(section => `<li><button type="button" data-open-section="${section.id}">${escapeHTML(section.title)}</button></li>`).join('')}</ol></details><div class="condition-disclosures" role="group" aria-label="Study section controls"><button type="button" data-condition-action="expand">Expand all</button><button type="button" data-condition-action="collapse">Collapse all</button></div></div>
-    <div class="condition-sections">${conditionSections.map((section, index) => `<details class="condition-section" id="condition-${section.id}" ${index === 0 ? 'open' : ''}><summary><span class="objective-number" aria-hidden="true">${String(index + 1).padStart(2, '0')}</span><h2>${escapeHTML(section.title)}${condition.focus.some(focus => focus.section === section.id) ? '<span class="exam-focus-label">Exam focus</span>' : ''}</h2><span class="expand-icon" aria-hidden="true"></span></summary><div class="condition-body">${condition.content[section.id]?.length ? conditionBlocks(condition.content[section.id]) : '<p class="section-copy">Notes for this section are coming soon.</p>'}${condition.videos?.filter(video => video.section === section.id).length ? `<div class="condition-videos"><h3>Watch & understand</h3>${condition.videos.filter(video => video.section === section.id).map(video => `<p><a href="${escapeHTML(video.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(video.title)} ↗</a>${video.description ? `<span>${escapeHTML(video.description)}</span>` : ''}</p>`).join('')}</div>` : ''}</div></details>`).join('')}</div>
+    <div class="condition-tools"><details class="condition-index"><summary>Jump to a section</summary><ol>${conditionSections.map(section => `<li><button type="button" data-open-section="${section.id}">${escapeHTML(section.title)}</button></li>`).join('')}<li><button type="button" data-open-section="videos">Video resources</button></li></ol></details><div class="condition-disclosures" role="group" aria-label="Study section controls"><button type="button" data-condition-action="expand">Expand all</button><button type="button" data-condition-action="collapse">Collapse all</button></div></div>
+    <div class="condition-sections">${conditionSections.map((section, index) => `<details class="condition-section" id="condition-${section.id}" ${index === 0 ? 'open' : ''}><summary><span class="objective-number" aria-hidden="true">${String(index + 1).padStart(2, '0')}</span><h2>${escapeHTML(section.title)}${condition.focus.some(focus => focus.section === section.id) ? '<span class="exam-focus-label">Exam focus</span>' : ''}</h2><span class="expand-icon" aria-hidden="true"></span></summary><div class="condition-body">${condition.content[section.id]?.length ? conditionBlocks(condition.content[section.id]) : '<p class="section-copy">Notes for this section are coming soon.</p>'}${condition.videos?.filter(video => video.section === section.id).length ? `<div class="condition-videos"><h3>Watch & understand</h3>${condition.videos.filter(video => video.section === section.id).map(video => `<p><a href="${escapeHTML(video.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(video.title)} ↗</a>${video.description ? `<span>${escapeHTML(video.description)}</span>` : ''}</p>`).join('')}</div>` : ''}</div></details>`).join('')}${VideoLibrary.section(examTopics.find(t => t.id === Object.keys(conditionNotes).find(id => conditionNotes[id] === condition)).number)}</div>
     <details class="condition-clarifications"><summary>Clinical corrections & clarifications</summary><p>Your notes are preserved in the study sections, with clinical errors corrected and repeated ideas organized together. Individualized recommendations and unclear original wording are explained below.</p>${condition.clarifications.map(item => `<section><h3>${escapeHTML(item.title)}</h3><p>${escapeHTML(item.text)}</p></section>`).join('')}</details>
     <section class="reading-references condition-references" aria-labelledby="reading-title"><h2 id="reading-title">Reading references</h2><p class="reference-review-date">Clinical sources reviewed ${escapeHTML(condition.reviewed)}.</p><p>${escapeHTML(condition.reading)}</p><ol>${condition.references.map(reference => `<li><a href="${escapeHTML(reference.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(reference.title)} ↗</a><span>${escapeHTML(reference.supports)}</span></li>`).join('')}</ol></section>
     <nav class="guide-bottom" aria-label="Related study material"><a class="text-link" href="#/final/study-guide">← All study guide topics</a><a class="text-link" href="#/final/week-${condition.week}">Week ${condition.week} materials →</a></nav>`;
@@ -147,12 +149,22 @@ function renderPresentation(deck) {
   disposePresentation = PresentationViewer.mount(document.querySelector('.presentation-reader'), deck);
 }
 
+function renderVideoLibrary() {
+  document.title = 'Video resources · Project Green Light';
+  main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/final/study-guide">Study guide</a><span aria-hidden="true">/</span><span>Videos</span></nav><section class="hero"><p class="eyebrow">MED SEARCH 3 / FINAL EXAM</p><h1>Watch &amp;<br><span>understand.</span></h1><p class="hero-copy">Short reviews organized by your study-guide topics.</p></section>${VideoLibrary.section()}`;
+}
+function renderPendingCondition(topic) {
+  document.title = `${topic.title} · Project Green Light`;
+  main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/final/study-guide">Study guide</a><span aria-hidden="true">/</span><span>${escapeHTML(topic.title)}</span></nav><section class="hero condition-hero"><p class="eyebrow">FINAL EXAM / TOPIC ${topic.number}</p><h1>${escapeHTML(topic.title)}</h1><p class="hero-copy">Study notes are coming soon. Explore the video resources below.</p></section><div class="condition-sections">${VideoLibrary.section(topic.number)}</div><nav class="guide-bottom"><a class="text-link" href="#/final/study-guide">← All study guide topics</a><a class="text-link" href="#/final/videos">All videos →</a></nav>`;
+}
 function render(focus = false) {
   const route = location.hash || '#/';
   if (route === '#main') { if (!main.innerHTML.trim()) renderHome(); main.focus(); return; }
   disposePresentation(); disposePresentation = () => {};
   if (route === '#/final/study-guide') renderStudyGuide();
   else if (route.startsWith('#/final/condition/') && conditionNotes[route.slice('#/final/condition/'.length)]) renderCondition(conditionNotes[route.slice('#/final/condition/'.length)]);
+  else if (route === '#/final/videos') renderVideoLibrary();
+  else if (route.startsWith('#/final/condition/') && examTopics.some(t => t.id === route.slice('#/final/condition/'.length))) renderPendingCondition(examTopics.find(t => t.id === route.slice('#/final/condition/'.length)));
   else if (route === '#/final/presentations') renderPresentationLibrary();
   else if (route.startsWith('#/final/presentation/') && presentationDecks[route.slice('#/final/presentation/'.length)]) renderPresentation(presentationDecks[route.slice('#/final/presentation/'.length)]);
   else if (route === '#/' || route === '#') renderHome();
@@ -165,6 +177,7 @@ function render(focus = false) {
       main.innerHTML = '<section class="hero"><p class="eyebrow">A SMALL DETOUR</p><h1>Let’s head home.</h1><p>This study page hasn’t been added yet.</p><a class="text-link" href="#/">← Back to the study shelf</a></section>';
     }
   }
+  VideoLibrary.mount(main);
   if (focus) { main.focus({ preventScroll: true }); window.scrollTo(0, 0); }
 }
 window.addEventListener('hashchange', () => render(true));
