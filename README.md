@@ -25,3 +25,14 @@ Personal study outline for weeks 7, 8, 9, and 12. The user-supplied syllabus was
 ## Hosting
 
 The Pages workflow publishes the static website from `main` using GitHub Actions. `.nojekyll` ensures static files are served directly. Fonts use Google Fonts with local system fallbacks.
+
+
+## Presentation PDFs
+
+Ten supplied decks (147 pages) are available in a separate page-by-page viewer. Original PDFs are copied unchanged; slide previews are rendered at up to 2000 pixels and converted to WebP. Only the current and next slide image are loaded. Extracted slide text is available in a disclosure below the viewer; image-only source slides may have no selectable text.
+
+`presentations.js` maps decks to their syllabus week and group. Ménière disease is under Additional presentations, as requested. Missing topic PDFs remain marked as pending. `presentations/<id>/deck.json` contains each slide image, dimensions, and extracted text.
+
+To prepare future files, add their entries to `scripts/presentation-sources.json` and run `scripts/prepare-presentations.py --source-dir /path/to/provided/pdfs` using Python with Pillow, pypdf, and pdftoppm. The script only processes the explicitly listed files. Add the resulting assets and metadata to the repository. The workflow copies the presentation assets into the published site.
+
+Reader controls: Previous/Next, page jump, Fit/zoom, expanded view, and optional Auto (5–60 seconds). Auto starts only on request, stops on manual navigation or zoom, pauses when the tab is hidden, and ends at the final slide. Arrow keys work while focus is inside the viewer. Escape closes the expanded view.

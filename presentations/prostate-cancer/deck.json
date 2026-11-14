@@ -1,0 +1,72 @@
+{
+  "id": "prostate-cancer",
+  "title": "Prostate cancer",
+  "pages": [
+    {
+      "image": "page-001.webp",
+      "width": 2000,
+      "height": 1125,
+      "text": ""
+    },
+    {
+      "image": "page-002.webp",
+      "width": 2000,
+      "height": 1125,
+      "text": ""
+    },
+    {
+      "image": "page-003.webp",
+      "width": 2000,
+      "height": 1125,
+      "text": ""
+    },
+    {
+      "image": "page-004.webp",
+      "width": 2000,
+      "height": 1125,
+      "text": ""
+    },
+    {
+      "image": "page-005.webp",
+      "width": 2000,
+      "height": 1125,
+      "text": ""
+    },
+    {
+      "image": "page-006.webp",
+      "width": 2000,
+      "height": 1125,
+      "text": ""
+    },
+    {
+      "image": "page-007.webp",
+      "width": 2000,
+      "height": 1125,
+      "text": ""
+    },
+    {
+      "image": "page-008.webp",
+      "width": 2000,
+      "height": 1125,
+      "text": ""
+    },
+    {
+      "image": "page-009.webp",
+      "width": 2000,
+      "height": 1125,
+      "text": ""
+    },
+    {
+      "image": "page-010.webp",
+      "width": 2000,
+      "height": 1125,
+      "text": ""
+    },
+    {
+      "image": "page-011.webp",
+      "width": 2000,
+      "height": 1125,
+      "text": ""
+    }
+  ]
+}
