@@ -3,10 +3,10 @@ const PresentationViewer = {
   mount(root, deck) {
     const escape = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
     root.innerHTML = `
-      <div class="reader-heading"><div><p class="eyebrow">STUDENT PRESENTATION${deck.week ? ` / WEEK ${deck.week}` : ' / ADDITIONAL'}</p><h1>${escape(deck.title)}</h1></div><button type="button" class="reader-button" data-action="expand">Expand view</button></div>
+      <div class="reader-heading"><div><p class="eyebrow">STUDENT PRESENTATION${deck.week ? ` / WEEK ${deck.week}` : ' / ADDITIONAL'}</p><h1>${escape(deck.title)}</h1></div></div>
       <div class="reader-window">
         <div class="reader-toolbar" aria-label="Slide display controls">
-          <div class="zoom-controls"><button class="reader-button" type="button" data-action="zoom-out" aria-label="Zoom out" disabled>−</button><button class="reader-button" type="button" data-action="fit" disabled>Fit</button><button class="reader-button" type="button" data-action="zoom-in" aria-label="Zoom in" disabled>+</button><span class="zoom-label">100%</span></div>
+          <div class="zoom-controls"><button class="reader-button" type="button" data-action="zoom-out" aria-label="Zoom out" disabled>−</button><button class="reader-button fullscreen-button" type="button" data-action="expand" aria-pressed="false">⛶ Full screen</button><button class="reader-button" type="button" data-action="zoom-in" aria-label="Zoom in" disabled>+</button><button class="reader-button zoom-label" type="button" data-action="fit" aria-label="Reset zoom to fit slide" title="Reset zoom to fit slide" disabled>100%</button></div>
           <a class="reader-pdf-link" href="${escape(deck.pdf)}" target="_blank" rel="noopener">Open original PDF ↗</a>
         </div>
         <div class="slide-stage" tabindex="0" role="region" aria-label="Presentation slide. Use left and right arrow keys to change pages."><div class="slide-layout"><img class="slide-image" hidden alt="" draggable="false"><p class="slide-message">Loading presentation…</p></div></div>
@@ -31,7 +31,7 @@ const PresentationViewer = {
     const interval = root.querySelector('select');
     const button = action => root.querySelector(`[data-action="${action}"]`);
     let pages = [], pageIndex = 0, zoom = 1, auto = false, timer = null, version = 0, loading = false, alive = true;
-    let dialog = null, restoreMarker = null;
+    let dialog = null, restoreMarker = null, enteredNativeFullscreen = false;
 
     function controls() {
       const ready = pages.length > 0;
@@ -119,20 +119,28 @@ const PresentationViewer = {
       dialog.setAttribute('aria-label', deck.title);
       document.body.append(dialog);
       dialog.append(root);
-      button('expand').textContent = 'Close expanded view';
+      button('expand').textContent = '⛶ Exit full screen';
+      button('expand').setAttribute('aria-pressed', 'true');
       document.body.classList.add('reader-modal-open');
       dialog.addEventListener('close', () => {
         pause();
+        enteredNativeFullscreen = false;
+        if (document.fullscreenElement === dialog) document.exitFullscreen().catch(() => {});
         restoreMarker.replaceWith(root);
         restoreMarker = null;
         dialog.remove(); dialog = null;
         document.body.classList.remove('reader-modal-open');
-        button('expand').textContent = 'Expand view';
+        button('expand').textContent = '⛶ Full screen';
+        button('expand').setAttribute('aria-pressed', 'false');
         button('expand').focus();
         sizeImage();
       }, { once: true });
       dialog.showModal();
       sizeImage();
+      // Keep the full-window dialog as the fallback on browsers without this API.
+      if (document.fullscreenEnabled && dialog.requestFullscreen) {
+        dialog.requestFullscreen().catch(() => {});
+      }
     }
     root.addEventListener('click', event => {
       const action = event.target.closest('[data-action]')?.dataset.action;
@@ -161,6 +169,11 @@ const PresentationViewer = {
       if (event.key === 'ArrowRight') { event.preventDefault(); move(1); }
       if (event.key === 'Home') { event.preventDefault(); pause(); show(0); }
       if (event.key === 'End') { event.preventDefault(); pause(); show(pages.length - 1); }
+    }, { signal });
+    document.addEventListener('fullscreenchange', () => {
+      if (!dialog) return;
+      if (document.fullscreenElement === dialog) { enteredNativeFullscreen = true; sizeImage(); }
+      else if (enteredNativeFullscreen) dialog.close();
     }, { signal });
     document.addEventListener('visibilitychange', () => { if (document.hidden) pause(); }, { signal });
     const observer = new ResizeObserver(sizeImage);
