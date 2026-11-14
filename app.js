@@ -63,11 +63,11 @@ function renderWeek(week) {
       <div class="window-bar"><span>Week ${week.number} / ${escapeHTML(week.label)}</span><span class="window-date">${escapeHTML(week.date || '')}</span></div>
       <div class="study-window-body">
         <div class="week-intro"><div><p class="eyebrow">${week.objectives.length ? 'STUDY NOTES' : 'IN-CLASS STUDENT PRESENTATIONS'}</p><h2 id="week-title">${escapeHTML(week.title)}</h2></div></div>
-        ${referenceSection(week)}
         ${week.objectives.length ? `<div class="objectives">${week.objectives.map(objectiveCard).join('')}</div>` : '<p class="section-copy">Choose a presentation to read its slides.</p>'}
         ${week.presentations.length ? `<section class="presentations" aria-labelledby="presentations-title"><div class="section-heading"><h3 id="presentations-title">${week.objectives.length ? 'Also this week: student presentations' : 'Presentation topics'}</h3></div>${presentationList(week)}</section>` : ''}
         ${noteReviewSection(week)}
         ${assignmentSection(week)}
+        ${referenceSection(week)}
       </div>
     </section>
     <div class="guide-bottom"><a class="text-link" href="#/">← Back to the study shelf</a></div>`;
