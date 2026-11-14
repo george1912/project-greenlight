@@ -61,7 +61,8 @@ const PresentationViewer = {
       if (window.matchMedia('(max-width: 720px)').matches && !dialog) {
         stage.style.height = zoom === 1 ? `${Math.max(180, (stage.clientWidth - 24) * current.height / current.width + 24)}px` : '55svh';
       } else stage.style.height = '';
-      const scale = Math.min((stage.clientWidth - 24) / current.width, (stage.clientHeight - 24) / current.height);
+      const padding = dialog ? 0 : 24;
+      const scale = Math.min((stage.clientWidth - padding) / current.width, (stage.clientHeight - padding) / current.height);
       image.style.width = `${Math.max(1, current.width * scale * zoom)}px`;
       image.style.height = 'auto';
     }
@@ -125,21 +126,21 @@ const PresentationViewer = {
       dialog.addEventListener('close', () => {
         pause();
         enteredNativeFullscreen = false;
-        if (document.fullscreenElement === dialog) document.exitFullscreen().catch(() => {});
-        restoreMarker.replaceWith(root);
+        if (document.fullscreenElement === root) document.exitFullscreen().catch(() => {});
+        if (restoreMarker.isConnected) restoreMarker.replaceWith(root);
         restoreMarker = null;
         dialog.remove(); dialog = null;
         document.body.classList.remove('reader-modal-open');
         button('expand').textContent = '⛶ Full screen';
         button('expand').setAttribute('aria-pressed', 'false');
-        button('expand').focus();
+        if (alive && root.isConnected) button('expand').focus();
         sizeImage();
       }, { once: true });
       dialog.showModal();
       sizeImage();
       // Keep the full-window dialog as the fallback on browsers without this API.
-      if (document.fullscreenEnabled && dialog.requestFullscreen) {
-        dialog.requestFullscreen().catch(() => {});
+      if (document.fullscreenEnabled && root.requestFullscreen) {
+        root.requestFullscreen({ navigationUI: 'hide' }).catch(() => {});
       }
     }
     root.addEventListener('click', event => {
@@ -163,6 +164,11 @@ const PresentationViewer = {
     input.addEventListener('keydown', event => { if (event.key === 'Enter') { event.preventDefault(); jump(); } }, { signal });
     interval.addEventListener('change', schedule, { signal });
     root.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && dialog) {
+        event.preventDefault();
+        dialog.close();
+        return;
+      }
       if (event.target.matches('input, select, textarea') || event.altKey || event.ctrlKey || event.metaKey) return;
       if (!pages.length) return;
       if (event.key === 'ArrowLeft') { event.preventDefault(); move(-1); }
@@ -172,7 +178,7 @@ const PresentationViewer = {
     }, { signal });
     document.addEventListener('fullscreenchange', () => {
       if (!dialog) return;
-      if (document.fullscreenElement === dialog) { enteredNativeFullscreen = true; sizeImage(); }
+      if (document.fullscreenElement === root) { enteredNativeFullscreen = true; sizeImage(); }
       else if (enteredNativeFullscreen) dialog.close();
     }, { signal });
     document.addEventListener('visibilitychange', () => { if (document.hidden) pause(); }, { signal });
