@@ -89,5 +89,59 @@ const presentationDecks = {
     "pages": 17,
     "pdf": "presentations/meniere-disease/original.pdf",
     "manifest": "presentations/meniere-disease/deck.json"
+  },
+  "uterine-cancer": {
+    "id": "uterine-cancer",
+    "title": "Uterine cancer",
+    "week": 7,
+    "group": "2A",
+    "pages": 12,
+    "pdf": "presentations/uterine-cancer/original.pdf",
+    "manifest": "presentations/uterine-cancer/deck.json"
+  },
+  "cervical-cancer": {
+    "id": "cervical-cancer",
+    "title": "Cervical cancer",
+    "week": 7,
+    "group": "3A",
+    "pages": 13,
+    "pdf": "presentations/cervical-cancer/original.pdf",
+    "manifest": "presentations/cervical-cancer/deck.json"
+  },
+  "als": {
+    "id": "als",
+    "title": "Amyotrophic lateral sclerosis (ALS)",
+    "week": 8,
+    "group": "6A",
+    "pages": 11,
+    "pdf": "presentations/als/original.pdf",
+    "manifest": "presentations/als/deck.json"
+  },
+  "meningitis": {
+    "id": "meningitis",
+    "title": "Meningitis",
+    "week": 8,
+    "group": "8A",
+    "pages": 12,
+    "pdf": "presentations/meningitis/original.pdf",
+    "manifest": "presentations/meningitis/deck.json"
+  },
+  "myasthenia-gravis": {
+    "id": "myasthenia-gravis",
+    "title": "Myasthenia gravis",
+    "week": 8,
+    "group": "10A",
+    "pages": 11,
+    "pdf": "presentations/myasthenia-gravis/original.pdf",
+    "manifest": "presentations/myasthenia-gravis/deck.json"
+  },
+  "gout": {
+    "id": "gout",
+    "title": "Gout",
+    "week": 9,
+    "group": "15A",
+    "pages": 16,
+    "pdf": "presentations/gout/original.pdf",
+    "manifest": "presentations/gout/deck.json"
   }
 };

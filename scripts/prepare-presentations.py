@@ -14,6 +14,14 @@ def prepare(spec, source_dir):
     folder = ROOT / 'presentations' / spec['id']
     folder.mkdir(parents=True, exist_ok=True)
     target = folder / 'original.pdf'
+    manifest_path = folder / 'deck.json'
+    if target.exists() and manifest_path.exists() and hashlib.sha256(source.read_bytes()).digest() == hashlib.sha256(target.read_bytes()).digest():
+        manifest = json.loads(manifest_path.read_text())
+        if manifest.get('pages') and all((folder / page['image']).exists() for page in manifest['pages']):
+            meta = {key:spec[key] for key in ['id','title','week','group']}
+            meta.update({'pages':len(manifest['pages']),'pdf':f'presentations/{spec["id"]}/original.pdf','manifest':f'presentations/{spec["id"]}/deck.json'})
+            print(f'{spec["title"]}: existing previews unchanged',flush=True)
+            return spec['id'],meta
     shutil.copyfile(source, target)
     assert hashlib.sha256(source.read_bytes()).digest() == hashlib.sha256(target.read_bytes()).digest()
     reader = PdfReader(source)

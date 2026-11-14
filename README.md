@@ -29,9 +29,9 @@ The Pages workflow publishes the static website from `main` using GitHub Actions
 
 ## Presentation PDFs
 
-Ten supplied decks (147 pages) are available in a separate page-by-page viewer. Original PDFs are copied unchanged; slide previews are rendered at up to 2000 pixels and converted to WebP. Only the current and next slide image are loaded. Extracted slide text is available in a disclosure below the viewer; image-only source slides may have no selectable text.
+Sixteen supplied decks (222 pages) are available in a separate page-by-page viewer. Original PDFs are copied unchanged; slide previews are rendered at up to 2000 pixels and converted to WebP. Only the current and next slide image are loaded. Extracted slide text is available in a disclosure below the viewer; image-only source slides may have no selectable text.
 
-`presentations.js` maps decks to their syllabus week and group. Ménière disease is under Additional presentations, as requested. Missing topic PDFs remain marked as pending. `presentations/<id>/deck.json` contains each slide image, dimensions, and extracted text.
+`presentations.js` maps decks to their syllabus week and group. Ménière disease is under Additional presentations, as requested. All fifteen syllabus presentation topics have PDFs; the additional Ménière disease deck completes the set of sixteen. `presentations/<id>/deck.json` contains each slide image, dimensions, and extracted text.
 
 To prepare future files, add their entries to `scripts/presentation-sources.json` and run `scripts/prepare-presentations.py --source-dir /path/to/provided/pdfs` using Python with Pillow, pypdf, and pdftoppm. The script only processes the explicitly listed files. Add the resulting assets and metadata to the repository. The workflow copies the presentation assets into the published site.
 

@@ -1,12 +1,114 @@
 [
-  {"file":"MED SURG 3 Breast Cancer  - Copy (1).pdf","id":"breast-cancer","title":"Breast cancer","week":7,"group":"1A"},
-  {"file":"Prostate_Cancer_Nursing_Process_and_Collaborative_Care_Converted.pdf","id":"prostate-cancer","title":"Prostate cancer","week":7,"group":"4A"},
-  {"file":"Multiple Sclerosis Group 5A Presentation (2).pdf","id":"multiple-sclerosis","title":"Multiple sclerosis","week":8,"group":"5A"},
-  {"file":"MedSurg III GBS Presentation Final.pdf","id":"guillain-barre","title":"Guillain-Barré syndrome","week":8,"group":"7A"},
-  {"file":"SLE Medsurge III Project-5.pdf","id":"lupus","title":"Systemic lupus erythematosus (SLE)","week":8,"group":"9A"},
-  {"file":"Rheumatoid Arthritis (2).pdf","id":"rheumatoid-arthritis","title":"Rheumatoid arthritis","week":9,"group":"11A"},
-  {"file":"Osteoarthritis - NRBS 4210 Group 12 Final Presentation.pdf","id":"osteoarthritis","title":"Osteoarthritis","week":9,"group":"12A"},
-  {"file":"Osteomyelitis Med Surg Group Presentation FINAL.pdf","id":"osteomyelitis","title":"Osteomyelitis","week":9,"group":"13A"},
-  {"file":"Group 14A- Osteoporosis.pdf","id":"osteoporosis","title":"Osteoporosis","week":9,"group":"14A"},
-  {"file":"Med Surg III Ménière Disease.pdf","id":"meniere-disease","title":"Ménière disease","week":null,"group":null}
+  {
+    "file": "MED SURG 3 Breast Cancer  - Copy (1).pdf",
+    "id": "breast-cancer",
+    "title": "Breast cancer",
+    "week": 7,
+    "group": "1A"
+  },
+  {
+    "file": "Prostate_Cancer_Nursing_Process_and_Collaborative_Care_Converted.pdf",
+    "id": "prostate-cancer",
+    "title": "Prostate cancer",
+    "week": 7,
+    "group": "4A"
+  },
+  {
+    "file": "Multiple Sclerosis Group 5A Presentation (2).pdf",
+    "id": "multiple-sclerosis",
+    "title": "Multiple sclerosis",
+    "week": 8,
+    "group": "5A"
+  },
+  {
+    "file": "MedSurg III GBS Presentation Final.pdf",
+    "id": "guillain-barre",
+    "title": "Guillain-Barré syndrome",
+    "week": 8,
+    "group": "7A"
+  },
+  {
+    "file": "SLE Medsurge III Project-5.pdf",
+    "id": "lupus",
+    "title": "Systemic lupus erythematosus (SLE)",
+    "week": 8,
+    "group": "9A"
+  },
+  {
+    "file": "Rheumatoid Arthritis (2).pdf",
+    "id": "rheumatoid-arthritis",
+    "title": "Rheumatoid arthritis",
+    "week": 9,
+    "group": "11A"
+  },
+  {
+    "file": "Osteoarthritis - NRBS 4210 Group 12 Final Presentation.pdf",
+    "id": "osteoarthritis",
+    "title": "Osteoarthritis",
+    "week": 9,
+    "group": "12A"
+  },
+  {
+    "file": "Osteomyelitis Med Surg Group Presentation FINAL.pdf",
+    "id": "osteomyelitis",
+    "title": "Osteomyelitis",
+    "week": 9,
+    "group": "13A"
+  },
+  {
+    "file": "Group 14A- Osteoporosis.pdf",
+    "id": "osteoporosis",
+    "title": "Osteoporosis",
+    "week": 9,
+    "group": "14A"
+  },
+  {
+    "file": "Med Surg III Ménière Disease.pdf",
+    "id": "meniere-disease",
+    "title": "Ménière disease",
+    "week": null,
+    "group": null
+  },
+  {
+    "file": "Group 2A Uterine Cancer Presentation - Copy.pdf",
+    "id": "uterine-cancer",
+    "title": "Uterine cancer",
+    "week": 7,
+    "group": "2A"
+  },
+  {
+    "file": "Cervical Cancer (1).pdf",
+    "id": "cervical-cancer",
+    "title": "Cervical cancer",
+    "week": 7,
+    "group": "3A"
+  },
+  {
+    "file": "ALS Group Project Presentation (1).pdf",
+    "id": "als",
+    "title": "Amyotrophic lateral sclerosis (ALS)",
+    "week": 8,
+    "group": "6A"
+  },
+  {
+    "file": "Group 8A Meningitis Group Presentation.pdf",
+    "id": "meningitis",
+    "title": "Meningitis",
+    "week": 8,
+    "group": "8A"
+  },
+  {
+    "file": "10A_Group_Project_10.11.26.pdf",
+    "id": "myasthenia-gravis",
+    "title": "Myasthenia gravis",
+    "week": 8,
+    "group": "10A"
+  },
+  {
+    "file": "GOUTMS Final.pdf",
+    "id": "gout",
+    "title": "Gout",
+    "week": 9,
+    "group": "15A"
+  }
 ]
