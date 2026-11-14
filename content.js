@@ -1,5 +1,6 @@
 /* User-supplied Course Final notes, grouped for study.
-   Week 7 notes are preserved; Week 12 notes are lightly edited with terminology clarifications.
+   Week 7 retains the supplied detail with verified clinical corrections aligned to its condition guide.
+   Week 12 notes are lightly edited with terminology clarifications.
    Presentation content remains as supplied or as an empty placeholder. */
 const studyWeeks = [
   {
@@ -23,7 +24,7 @@ const studyWeeks = [
           },
           {
             "type": "paragraph",
-            "text": "Factors associated with Parkinson’s disease include age, environmental influences, and heredity. Secondary forms may have a known or suspected cause."
+            "text": "Factors associated with Parkinson’s disease include age, environmental influences, and heredity. Secondary parkinsonism may have a known or suspected cause and is distinct from idiopathic Parkinson’s disease."
           },
           {
             "type": "heading",
@@ -31,11 +32,11 @@ const studyWeeks = [
           },
           {
             "type": "paragraph",
-            "text": "The disease begins with destruction of dopamine-producing neurons in the substantia nigra within the brain’s basal ganglia. As these cells are destroyed, dopamine reserves become depleted and the dopamine neural pathway degenerates."
+            "text": "The motor manifestations are associated with degeneration of dopamine-producing neurons in the substantia nigra and reduced dopamine signaling to the striatum within the basal ganglia circuits. PD also affects other systems that contribute to non-motor symptoms."
           },
           {
             "type": "paragraph",
-            "text": "This degeneration leads to an imbalance between excitatory acetylcholine and inhibitory dopamine neurotransmitters in the corpus callosum. It then impairs the extrapyramidal tracts that control complex body movements. These changes lead to observable clinical manifestations: tremor, rigidity, bradykinesia, and postural changes."
+            "text": "This degeneration reduces dopamine signaling through the nigrostriatal pathway and disrupts basal ganglia circuits that help initiate and scale movement. The relevant pathway is not in the corpus callosum, and dopamine’s effects depend on the receptor and circuit. These changes contribute to tremor, rigidity, bradykinesia, and postural changes."
           },
           {
             "type": "heading",
@@ -64,7 +65,7 @@ const studyWeeks = [
           },
           {
             "type": "paragraph",
-            "text": "Parkinsonian tremors are often slow and unilateral. The resting tremor is commonly observed during diagnosis and disappears during active, purposeful movement. It is rhythmic, with a slow turning motion of the forearm and hand that appears as shaking or trembling. The thumb moves against the fingers in a motion resembling pill rolling."
+            "text": "Parkinsonian tremors are often slow and initially unilateral. The resting tremor commonly decreases during active, purposeful movement and typically subsides during sleep; these are usual patterns rather than absolute rules. It is rhythmic, with a slow turning motion of the forearm and hand that appears as shaking or trembling. The thumb moves against the fingers in a motion resembling pill rolling."
           },
           {
             "type": "heading",
@@ -111,7 +112,7 @@ const studyWeeks = [
             "items": [
               "Excessive sweating, drooling, low blood pressure, and reduced body movement may occur.",
               "Gastric and urinary retention, constipation, and sexual dysfunction may develop.",
-              "Vision and olfactory changes and dysphagia may occur, with choking risk increasing significantly, up to 50%.",
+              "Vision and olfactory changes and dysphagia may occur, with choking, aspiration, dehydration, and malnutrition risks that vary by patient.",
               "Patients may feel trapped in their own bodies as movement becomes increasingly limited.",
               "Mental health and cognitive concerns may include depression, anxiety, dementia, delirium, hallucinations, and psychosis.",
               "Cognitive changes may reduce executive function and attention, making thinking and managing tasks more difficult."
@@ -138,7 +139,7 @@ const studyWeeks = [
           },
           {
             "type": "paragraph",
-            "text": "Diagnostic tools discussed include PET scans and single-photon emission CT scans. An L-dopa trial may also be performed. A positive response to the trial confirms Parkinson’s disease."
+            "text": "Diagnosis is primarily clinical. A sustained response to prescribed levodopa can support the diagnosis but does not prove it by itself; an acute L-dopa challenge is not routine confirmation. Dopamine-transporter SPECT may help in selected uncertain cases, such as distinguishing degenerative parkinsonism from essential tremor. It cannot distinguish every degenerative parkinsonian disorder. PET is not routine diagnostic confirmation; NICE reserves its use in the differential diagnosis for clinical trials."
           }
         ]
       },
@@ -153,7 +154,7 @@ const studyWeeks = [
           },
           {
             "type": "paragraph",
-            "text": "Medical management focuses on controlling symptoms and helping the patient maintain functional independence. No medical or surgical approach prevents disease progression, but appropriate care can help improve function and symptom management."
+            "text": "Medical management focuses on controlling symptoms and helping the patient maintain functional independence. There is no established cure; medicines, rehabilitation, and selected procedures can improve function and symptom management without eliminating the underlying disease."
           },
           {
             "type": "paragraph",
@@ -172,7 +173,7 @@ const studyWeeks = [
           },
           {
             "type": "paragraph",
-            "text": "Most anti-Parkinson’s medications focus on increasing striatal dopaminergic activity and reducing the influence of excitatory cholinergic neurons. One key agent is L-dopa, which is converted to dopamine in the basal ganglia and is often combined with carbidopa. Adverse effects include dyskinesia, nausea, vomiting, increased blood pressure, and confusion."
+            "text": "Many anti-Parkinson’s medicines increase dopaminergic activity; selected therapies reduce cholinergic activity. L-dopa is converted to dopamine in the brain and is usually combined with carbidopa to reduce conversion outside the brain. Adverse effects to monitor include dyskinesia, nausea, vomiting, orthostatic hypotension, and confusion or hallucinations. Give the exact prescribed dose and formulation on time; avoid abrupt withdrawal and seek specialist/pharmacy advice if swallowing or NPO status disrupts the regimen."
           },
           {
             "type": "paragraph",
@@ -270,7 +271,7 @@ const studyWeeks = [
           },
           {
             "type": "paragraph",
-            "text": "Encourage, educate, and support patients during activities of daily living. Modify the environment to compensate for disability, using the bedside rails and overhead frames described in the notes. Keep the space clear of tripping hazards. Connect the patient with an occupational therapist to explore adaptive devices and identify education needs for the patient and caregiver."
+            "text": "Encourage, educate, and support patients during activities of daily living. Modify the environment to compensate for disability. Bedside rails or overhead transfer equipment require individual assessment because they may introduce entrapment or injury risks. Keep the space clear of tripping hazards. Connect the patient with an occupational therapist to explore adaptive devices and identify education needs for the patient and caregiver."
           },
           {
             "type": "heading",
@@ -290,7 +291,7 @@ const studyWeeks = [
           },
           {
             "type": "paragraph",
-            "text": "The notes advise avoiding laxatives. Psyllium may decrease constipation but also carries a risk of bowel obstruction. Improving sleep quality is also discussed because of its association with constipation."
+            "text": "Do not apply a blanket rule to avoid laxatives: supervised bowel medicines may be appropriate when lifestyle measures are insufficient. Psyllium requires adequate fluid and a safe swallow and may be unsuitable with obstruction risk or severe dysphagia. Review sleep, activity, intake, medications, and other contributors as part of the care plan."
           },
           {
             "type": "heading",
@@ -302,15 +303,15 @@ const studyWeeks = [
           },
           {
             "type": "paragraph",
-            "text": "Provide supplemental feedings to increase caloric intake. The notes discuss gastrostomy or PEG tube placement as the disease progresses and the patient becomes completely immobile. Nursing measures addressing swallowing difficulty and choking risk include the following:"
+            "text": "Provide supplements or additional calories when nutritional assessment shows a need. Consider gastrostomy or PEG through a multidisciplinary discussion if oral nutrition, hydration, or medication delivery remains unsafe or inadequate, taking goals and preferences into account. Immobility alone is not the indication, and a tube does not eliminate aspiration of saliva or reflux. Nursing measures addressing swallowing difficulty and choking risk include the following:"
           },
           {
             "type": "list",
             "items": [
               "Have the patient sitting upright during meals.",
-              "Provide a semisolid diet with thickened liquids that are easier to swallow.",
-              "Avoid thin liquids since it’s a choking risk.",
-              "Follow a swallowing sequence: place the food on the tongue, close the lips and cheeks, lift the tongue back, and swallow.",
+              "Use the food texture and liquid thickness recommended by SLP; soft, moist, semisolid foods may be suitable for some patients.",
+              "Thin liquids can be difficult for some patients, but do not automatically prohibit them or thicken every patient’s liquids. Monitor hydration and use the individual swallowing plan.",
+              "Use the swallowing sequence or maneuver taught for the individual patient by SLP. Chin tuck is not universally appropriate, and a gag check alone does not establish safe swallowing.",
               "Control saliva buildup.",
               "Have suction ready.",
               "Help the patient keep the head upright and coordinate the swallowing process."
@@ -367,7 +368,7 @@ const studyWeeks = [
           {
             "type": "list",
             "items": [
-              "Prevent daytime sleeping.",
+              "Assess excessive daytime sleepiness and promote an individualized sleep/activity pattern rather than prohibiting all daytime rest.",
               "Address disinterest associated with apathy.",
               "Prevent sleep disturbances.",
               "Limit caffeine intake.",
@@ -376,7 +377,7 @@ const studyWeeks = [
               "Assess activity level and emotional engagement.",
               "Use an interdisciplinary approach to provide a strong support system.",
               "Manage psychiatric disturbances.",
-              "Use low doses of antipsychotic medications to minimize psychiatric medication effects."
+              "Use specialist-selected PD-compatible treatment for psychiatric symptoms. Avoid haloperidol and other unsuitable dopamine-blocking medicines; a low dose alone does not make an antipsychotic appropriate."
             ]
           },
           {
@@ -467,7 +468,14 @@ const studyWeeks = [
         ]
       }
     ],
-    "date": "October 6, 2026"
+    "date": "October 6, 2026",
+    "sourceReferences": [
+      { "title": "NICE · Parkinson’s disease recommendations", "url": "https://www.nice.org.uk/guidance/ng71/chapter/Recommendations" },
+      { "title": "ASHA · Adult dysphagia", "url": "https://www.asha.org/practice-portal/clinical-topics/adult-dysphagia/" },
+      { "title": "Parkinson’s Foundation · Hospital medication safety", "url": "https://www.parkinson.org/sites/default/files/documents/hospital-care-recommendations-april2023.pdf" },
+      { "title": "Parkinson’s Foundation · Levodopa", "url": "https://www.parkinson.org/living-with-parkinsons/treatment/prescription-medications/levodopa" },
+      { "title": "Parkinson’s Foundation · Constipation", "url": "https://www.parkinson.org/understanding-parkinsons/non-movement-symptoms/constipation" }
+    ]
   },
   {
     "number": 8,
