@@ -18,6 +18,14 @@ Run `python3 -m http.server 8000` in this folder and open http://localhost:8000.
 
 Routes use URL hashes so bookmarks and refreshes work under `/project-greenlight/` on GitHub Pages. Navigation remains keyboard accessible; objective panels use native disclosure controls.
 
+## Condition study guide
+
+`#/final/study-guide` lists the faculty guide’s 14 numbered topic groups. A prominent entry on each weekly page opens it. Only populated condition breakdowns are links; weekly notes and original PDFs remain accessible. `#/final/condition/myasthenia-gravis` is the first completed condition page, linked to and from its presentation viewer.
+
+`conditions.js` defines the shared `conditionSections` array of 16 fixed section IDs and headings. Each condition supplies a `content` object keyed by those IDs; the renderer always follows the shared order. To add a condition, add its data to `conditionNotes` under the matching `examTopics` ID. Keep each section populated or explicitly pending; do not reorder or rename headings per disease. The template supports paragraphs, subheadings, lists, callouts, and labeled fact cards. It includes two exam-focus shortcuts, an accessible section index, Expand all/Collapse all, and optional contextual video links supplied as `videos: [{ section, title, url, description }]`. No video links have been invented or added.
+
+MG retains the supplied notes’ detailed tests, therapies, adverse effects, nutrition, assessments, diagnoses, priorities, care plan, interventions, teaching, and evaluation. Clinical corrections are documented in a separate disclosure, with reviewed references at the bottom on every screen. Unidentifiable dictated names are not represented as confirmed transcriptions: the applicable clinical concepts are supplied using verified terminology. The clinical review uses current retrieved guidance including the 2025 ABN update, international consensus guidance, MGFA materials, NIH/NLM resources, and prescribing information; the review date is November 14, 2026. Existing Parkinson/HIV notes and PDFs are not migrated or rewritten by this addition.
+
 ## Content scope
 
 Personal study outline for weeks 7, 8, 9, and 12. The user-supplied syllabus was used only to identify the requested objectives and presentation topics. The original PDF, faculty information, and course policies are not included. Reading references and pre-lecture assignments are taken from the later user-supplied Course Final Word document.
