@@ -30,6 +30,8 @@ MG retains the supplied notes’ detailed tests, therapies, adverse effects, nut
 
 ## Content scope
 
+`#/final/condition/multiple-sclerosis` adds the supplied MS notes to all 16 shared study sections, with the clinical manifestations/Uhthoff exam-focus shortcut, original Week 8 presentation, existing section 17 videos, and references at the bottom. Missing overview, risks, diagnosis, and nursing-process content is completed from linked clinical sources reviewed November 15, 2026. Corrections cover withdrawn injectable daclizumab, glatiramer anaphylaxis, short-course steroid tapering, drug-specific first-dose monitoring, nutrition claims, and individualized swallowing/bladder care. Unidentifiable “Pyronarbitirate” is explicitly excluded from active recommendations; the walking indication is covered with verified dalfampridine. Diagnostic content follows the 2024 revised McDonald framework cited in current NICE guidance.
+
 Personal study outline for weeks 7, 8, 9, and 12. The user-supplied syllabus was used only to identify the requested objectives and presentation topics. The original PDF, faculty information, and course policies are not included. Reading references and pre-lecture assignments are taken from the later user-supplied Course Final Word document.
 
 ## Hosting
