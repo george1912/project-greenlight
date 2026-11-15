@@ -18,6 +18,7 @@ vm.runInContext(`
     if (!main.innerHTML.includes('id="condition-videos"') || !main.innerHTML.includes('>17</span>')) throw Error('Missing resources: ' + topic.id);
     if (main.innerHTML.includes('data-video-search') || main.innerHTML.includes('<select')) throw Error('Unexpected topic search/dropdown');
     if ((main.innerHTML.match(/data-video-platform-button=/g)||[]).length !== 2) throw Error('Missing platform buttons');
+    if (main.innerHTML.includes('<iframe')) throw Error('Player loaded before a tap');
     const indices = [...main.innerHTML.matchAll(/data-video-index="(\\d+)"/g)].map(m=>Number(m[1]));
     if (indices.length !== VideoLibrary.available(topic.number).length || indices.some(i=>videoResources[i].topic !== topic.number)) throw Error('Incorrect topic mapping');
     if (conditionNotes[topic.id] && (main.innerHTML.match(/class="condition-section"/g)||[]).length !== 16) throw Error('Study sections lost');

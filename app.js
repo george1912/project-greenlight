@@ -1,5 +1,6 @@
 const main = document.querySelector('#main');
 let disposePresentation = () => {};
+let disposeVideos = () => {};
 const escapeHTML = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 function studyContent(blocks) {
   return blocks.map(block => {
@@ -161,6 +162,7 @@ function render(focus = false) {
   const route = location.hash || '#/';
   if (route === '#main') { if (!main.innerHTML.trim()) renderHome(); main.focus(); return; }
   disposePresentation(); disposePresentation = () => {};
+  disposeVideos(); disposeVideos = () => {};
   if (route === '#/final/study-guide') renderStudyGuide();
   else if (route.startsWith('#/final/condition/') && conditionNotes[route.slice('#/final/condition/'.length)]) renderCondition(conditionNotes[route.slice('#/final/condition/'.length)]);
   else if (route === '#/final/videos') renderVideoLibrary();
@@ -177,7 +179,7 @@ function render(focus = false) {
       main.innerHTML = '<section class="hero"><p class="eyebrow">A SMALL DETOUR</p><h1>Let’s head home.</h1><p>This study page hasn’t been added yet.</p><a class="text-link" href="#/">← Back to the study shelf</a></section>';
     }
   }
-  VideoLibrary.mount(main);
+  disposeVideos = VideoLibrary.mount(main);
   if (focus) { main.focus({ preventScroll: true }); window.scrollTo(0, 0); }
 }
 window.addEventListener('hashchange', () => render(true));

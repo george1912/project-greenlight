@@ -60,3 +60,11 @@ Run `node scripts/check-videos.cjs` to check import counts, ID formats, all topi
 ### Topic video disclosure
 
 Each illness page presents **17 · Video resources** as a closed-by-default disclosure using the same styling as study sections 1–16. Pending-note topics also expose section 17. Inside, YouTube and TikTok buttons show counts and switch the visible cards; YouTube is selected initially when available. Topic pages have no search box or platform dropdown. The separate browse-all library retains those controls. The topic's section index and Expand all/Collapse all include videos, and collapsing section 17 removes any active player. The 16 written-note sections and all imported resource metadata are preserved.
+
+### Slow-connection video experience
+
+All cards show a lightweight preview before playback. YouTube thumbnails use the 320×180 provider image, requested near the viewport through IntersectionObserver, with native lazy loading and async decoding. Until an image arrives, or if it fails, the card still shows the title, creator, platform, and watch action. TikTok uses a locally rendered title/creator preview because the supplied metadata has no stable thumbnail URLs. No iframe or YouTube API is requested before a watch action.
+
+On a watch action, the preview remains visible with a loading indicator until YouTube's documented onReady callback or TikTok's origin/source-validated onPlayerReady message. An iframe load event alone does not imply a ready player. Offline, provider error, and 15-second timeout states preserve the preview and show a retry action and source-link fallback. Closing, filtering, collapsing, or navigating away cleans up the active player, listeners, and timeout; one active player is allowed. No video downloads or offline playback are provided.
+
+Browser checks included actual YouTube readiness, a controlled stalled-provider fixture, timeout/retry, filtering cleanup, deferred image/player requests, and mobile layout. These checks do not replicate a subway's real network conditions.
