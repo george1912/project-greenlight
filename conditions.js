@@ -37,6 +37,917 @@ const examTopics = [
 ].map(([id, title], index) => ({ id, title, number: index + 1 }));
 
 const conditionNotes = {
+  hiv: {
+    "title": "HIV & opportunistic infections",
+    "abbreviation": "HIV / AIDS",
+    "week": 12,
+    "reviewed": "November 15, 2026",
+    "reading": "Course study guide, Topic 14: HIV—opportunistic infections, PEP and PrEP, and education for partners with different HIV statuses. Combines your Week 12 notes with the supplied high-yield focus; repeated points are consolidated and missing nursing-process sections completed. Current clinical references and correction notes follow the study content and existing videos.",
+    "focus": [
+      {
+        "section": "manifestations",
+        "label": "Opportunistic infections"
+      },
+      {
+        "section": "medical",
+        "label": "PEP vs. PrEP"
+      },
+      {
+        "section": "medications",
+        "label": "PrEP & OI medicines"
+      },
+      {
+        "section": "education",
+        "label": "Partner education: U = U"
+      }
+    ],
+    "content": {
+      "overview": [
+        {
+          "type": "paragraph",
+          "text": "HIV (human immunodeficiency virus) is a retrovirus that progressively impairs cell-mediated immunity by infecting and depleting CD4+ T lymphocytes. It also infects cells of the monocyte/macrophage lineage. Viral RNA is reverse-transcribed into DNA and integrated into host DNA; latent reservoirs persist despite effective treatment. ART suppresses replication and allows immune recovery but does not eradicate HIV."
+        },
+        {
+          "type": "paragraph",
+          "text": "HIV-1 causes most infections worldwide; HIV-2 is less common and concentrated in West Africa, with different testing and treatment considerations. The viral life cycle (binding, fusion, reverse transcription, integration, replication, assembly, and budding) is different from the clinical stages of infection."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Acute infection",
+              "fields": [
+                [
+                  "What happens",
+                  "Early high-level replication may cause a flu/mononucleosis-like illness, although symptoms can be absent. A negative antibody-only test does not exclude acute infection."
+                ]
+              ]
+            },
+            {
+              "title": "Chronic infection",
+              "fields": [
+                [
+                  "What happens",
+                  "Symptoms may be absent for years, especially with treatment. Without effective ART, ongoing replication and immune damage can lead to advanced disease."
+                ]
+              ]
+            },
+            {
+              "title": "AIDS / advanced HIV",
+              "fields": [
+                [
+                  "Definition",
+                  "In a person with HIV, CD4 <200 cells/mm³ or an AIDS-defining illness establishes AIDS, even if the CD4 count is above 200. CDC surveillance staging also uses age-specific criteria and CD4 percentage; it is not the viral life cycle."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "CD4 count and viral load answer different questions",
+          "text": "CD4 reflects immune function and helps guide OI prevention. HIV RNA viral load measures replication and response to ART. OIs do not suddenly begin only below 200: risk varies by organism, prior exposure, treatment, and immune status; TB can occur at any CD4 count."
+        }
+      ],
+      "manifestations": [
+        {
+          "type": "heading",
+          "text": "General and early findings"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Acute HIV may cause fever, rash, sore throat, lymphadenopathy, fatigue, myalgia, or diarrhea. These findings are nonspecific; test according to the exposure and clinical picture.",
+            "Advanced untreated disease may cause recurrent infections, persistent fever/night sweats, weight loss, chronic diarrhea, oral lesions, fatigue, and neurological changes. Effective ART greatly reduces these complications."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Exam focus: opportunistic infections"
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Pneumocystis jirovecii pneumonia (PCP / PJP)",
+              "fields": [
+                [
+                  "Typical risk",
+                  "Most cases occur with CD4 <200 cells/mm³, especially without effective ART or prophylaxis."
+                ],
+                [
+                  "Recognize",
+                  "Progressive dyspnea, dry/nonproductive cough, fever, chest discomfort, and hypoxemia. Diffuse interstitial/ground-glass changes may occur; early chest X-ray can be normal. Worsening oxygenation needs urgent assessment."
+                ]
+              ]
+            },
+            {
+              "title": "Candidiasis",
+              "fields": [
+                [
+                  "Oral thrush",
+                  "Creamy, cottage-cheese-like white plaques on tongue/buccal mucosa/palate that can be scraped away, leaving a red base."
+                ],
+                [
+                  "Esophageal / genital",
+                  "Odynophagia (painful swallowing), dysphagia, or retrosternal discomfort suggests esophageal disease, which may occur without oral thrush. Vulvovaginal candidiasis can cause itching/burning and white discharge; oral or vaginal candidiasis alone is not an AIDS-defining illness, whereas esophageal candidiasis is."
+                ]
+              ]
+            },
+            {
+              "title": "Toxoplasma encephalitis",
+              "fields": [
+                [
+                  "Typical risk",
+                  "Reactivation is especially associated with CD4 <100 cells/mm³ and prior Toxoplasma infection."
+                ],
+                [
+                  "Recognize",
+                  "Headache, confusion, seizures, focal weakness/neurological deficits; brain imaging commonly shows multiple ring-enhancing lesions, but imaging is not diagnostic by itself."
+                ]
+              ]
+            },
+            {
+              "title": "Disseminated Mycobacterium avium complex (MAC)",
+              "fields": [
+                [
+                  "Typical risk",
+                  "Usually CD4 <50 cells/mm³ with uncontrolled HIV."
+                ],
+                [
+                  "Recognize",
+                  "Persistent fever, night sweats, weight loss, fatigue, chronic diarrhea, abdominal pain, and sometimes anemia. Disseminated MAC is a systemic infection, not simply another name for pneumonia."
+                ]
+              ]
+            },
+            {
+              "title": "Cytomegalovirus (CMV) retinitis",
+              "fields": [
+                [
+                  "Typical risk",
+                  "Usually CD4 <50 cells/mm³, particularly without effective ART."
+                ],
+                [
+                  "Recognize",
+                  "Floaters, blurred/failing vision, field defects, or painless progressive visual loss. The notes’ four Fs are floaters, flashes, field deficits, and failing vision. Hemorrhagic yellow-white retinal lesions are sometimes described as “pizza-pie” changes. New visual symptoms need urgent ophthalmology assessment."
+                ]
+              ]
+            },
+            {
+              "title": "Cryptococcal meningitis",
+              "fields": [
+                [
+                  "Typical risk",
+                  "Advanced immunosuppression, often CD4 <100 cells/mm³."
+                ],
+                [
+                  "Recognize",
+                  "Subacute severe headache, fever, altered mental status, nausea/vomiting, or visual symptoms. Neck stiffness may be absent; do not wait for the complete classic meningitis triad. Raised intracranial pressure can be life-threatening."
+                ]
+              ]
+            },
+            {
+              "title": "Tuberculosis (TB)",
+              "fields": [
+                [
+                  "Typical risk",
+                  "Active TB can occur at any CD4 count; advanced immune deficiency increases disseminated/extrapulmonary disease and atypical findings."
+                ],
+                [
+                  "Recognize",
+                  "Persistent cough, fever, night sweats, weight loss, or organ-specific extrapulmonary findings. Suspected infectious pulmonary/laryngeal TB requires airborne precautions while evaluated."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Other findings retained from Week 12"
+        },
+        {
+          "type": "list",
+          "items": [
+            "GI illness: anorexia, nausea/vomiting, diarrhea, and malabsorption. Potential causes include Cryptosporidium, Salmonella, Shigella, CMV, C. difficile, MAC, medicines, and noninfectious disorders. Persistent diarrhea can cause dehydration, electrolyte loss, perineal skin damage, weakness, and impaired ADLs.",
+            "HIV wasting syndrome: involuntary loss of >10% of body weight with chronic diarrhea or prolonged weakness and fever for >30 days, after excluding another cause. Low intake, infection, depression, adverse effects, malabsorption, inflammation, and altered metabolism can contribute. Frailty and weight/metabolic problems also deserve assessment in treated HIV.",
+            "HIV-associated neurocognitive disorders (HAND) affect cognition, behavior, or motor function; HIV-associated dementia is the severe form. Memory/concentration problems and psychomotor slowing warrant assessment. New confusion, hallucinations, seizures, or incontinence require evaluation for OI, delirium, medicines, metabolic disease, and other causes rather than an automatic dementia diagnosis.",
+            "Peripheral neuropathy may cause painful/numb hands or feet and impair balance/ADLs. HIV, selected older ARVs, nutritional problems, diabetes, and other causes should be considered.",
+            "Progressive multifocal leukoencephalopathy (PML): JC-virus reactivation causes CNS demyelination, often with progressive focal weakness, visual change, aphasia, or ataxia. Effective ART is central; there is no proven specific anti-JC-virus cure.",
+            "Kaposi sarcoma: HHV-8-associated malignancy with often painless purple/brown vascular skin or mucosal lesions; internal disease can affect lungs/GI tract. It is a cancer, not itself an OI. Other HIV-associated cancers include lymphoma and invasive cervical cancer."
+          ]
+        }
+      ],
+      "risk": [
+        {
+          "type": "heading",
+          "text": "Transmission and prevention"
+        },
+        {
+          "type": "list",
+          "items": [
+            "HIV can be transmitted through blood, semen/pre-seminal fluid, vaginal/rectal fluids, and breast milk when an infectious fluid reaches susceptible mucosa, damaged tissue, or the bloodstream. Routes include sexual exposure without effective prevention, shared injection equipment, and pregnancy/birth/breastfeeding. Occupational sharps and mucosal/nonintact-skin exposures require immediate assessment. Potentially infectious occupational fluids, including amniotic fluid and certain other normally sterile fluids, are evaluated under the exposure protocol.",
+            "HIV is not transmitted by ordinary touching, sharing toilets/utensils, air/water, insects, or saliva alone. Standard Precautions apply in healthcare; HIV status alone is not a reason for Contact Precautions or social isolation.",
+            "Effective ART and sustained viral suppression prevent sexual transmission (U = U). Offer PrEP to people without HIV who want it; use urgent PEP assessment after a recent substantial-risk exposure. Address access barriers without labeling or blaming patients.",
+            "Offer external/internal condoms, dental dams as appropriate, STI screening/treatment, and sterile syringe/equipment services. Do not share needles, syringes, or other injection equipment; provide safe disposal and substance-use treatment access.",
+            "Prevent advanced disease through diagnosis, durable ART access/adherence, vaccination, indicated OI prophylaxis, and follow-up. Low CD4, unsuppressed virus, previous OIs, and interrupted care increase OI risk."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Everyday infection prevention"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use hand hygiene and food/water safety; avoid undercooked meat, unpasteurized products, and unwashed produce. For toxoplasmosis prevention, have someone else change cat litter when possible; otherwise use gloves, change it daily, and wash hands. Gloves/handwashing also apply to gardening/soil. Do not advise giving away a healthy pet solely because of HIV. Review vaccine history with the HIV team; some live vaccines, including MMR with CD4 <200, are contraindicated. Not every vaccine is live or contraindicated."
+        }
+      ],
+      "diagnostics": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Establish HIV infection",
+              "fields": [
+                [
+                  "Testing",
+                  "Begin the usual laboratory algorithm with a fourth-generation HIV-1/2 antigen/antibody assay. A reactive screen is followed by an HIV-1/HIV-2 antibody differentiation test; negative/indeterminate supplemental findings require HIV-1 NAT to assess acute infection."
+                ],
+                [
+                  "Window period",
+                  "Recent exposure or acute symptoms can require HIV RNA testing and repeat testing even with a negative initial screen. PrEP/PEP and long-acting drugs can alter detection; follow the regimen-specific algorithm. A positive screening test alone is not the same as a completed diagnostic algorithm."
+                ]
+              ]
+            },
+            {
+              "title": "Baseline and ongoing assessment",
+              "fields": [
+                [
+                  "HIV-specific",
+                  "HIV RNA, CD4 count, resistance genotype, prior ART/PrEP exposure, clinical stage and OI history. Viral load monitors treatment response; CD4 helps assess immunity/prophylaxis."
+                ],
+                [
+                  "Other tests",
+                  "CBC, renal/hepatic tests, HBV/HCV and STI screening, TB screening/evaluation, pregnancy testing when applicable, and other tests according to symptoms/therapy. Review immunizations, interactions, mental health, and social needs."
+                ]
+              ]
+            },
+            {
+              "title": "Investigate the suspected complication",
+              "fields": [
+                [
+                  "Respiratory",
+                  "Oxygenation/ABG when indicated, chest imaging and appropriate sputum/BAL testing for PCP; TB sputum NAAT, smear, culture and susceptibility as indicated. A TB blood/skin test does not establish or exclude active TB."
+                ],
+                [
+                  "Neurological / visual",
+                  "Brain imaging, organism testing, and LP when safe/indicated. Cryptococcal evaluation includes serum/CSF antigen, CSF culture and opening pressure. Suspected retinitis needs a dilated ophthalmological examination."
+                ],
+                [
+                  "GI / systemic",
+                  "Stool testing directed by symptoms, exposure and immune status; blood cultures including mycobacterial cultures when indicated; evaluate dysphagia and persistent lesions. Imaging or an organism-positive PCR alone may not prove that organism is causing the illness."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "PrEP baseline testing is a safety step",
+          "text": "Confirm absence of HIV using current blood-based testing and assess for acute infection. HIV RNA testing depends on symptoms, recent PrEP/PEP and the planned product. Do not treat an ambiguous result as negative. Check renal function for oral tenofovir-based PrEP, HBV status, STIs and pregnancy when relevant; routine tenofovir renal monitoring does not apply identically to injectable PrEP."
+        }
+      ],
+      "medical": [
+        {
+          "type": "heading",
+          "text": "Treat HIV and the present illness"
+        },
+        {
+          "type": "paragraph",
+          "text": "Offer ART to all people with HIV and link promptly to experienced care. Choose the regimen using resistance, HBV status, renal/hepatic function, pregnancy, interactions, previous long-acting PrEP, and patient preferences. Most care is outpatient; severe infection, hypoxemia, neurological deterioration, dehydration, or other instability may require hospital care. ART timing during an OI is organism-specific: CNS cryptococcosis usually requires delaying ART initiation about 4–6 weeks after antifungals begin. Do not independently stop established ART."
+        },
+        {
+          "type": "heading",
+          "text": "Exam focus: PEP versus PrEP"
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "PEP — after an exposure",
+              "fields": [
+                [
+                  "Who / purpose",
+                  "A person without established HIV after an exposure judged to carry substantial transmission risk. Examples include relevant sexual exposure, sexual assault, shared injection equipment, or occupational sharps injury; not every condom break or body-fluid contact requires PEP."
+                ],
+                [
+                  "Timing / duration",
+                  "Seek immediate assessment. Start indicated PEP as soon as possible, ideally within 24 hours and no later than 72 hours; prescribed course is 28 days. Do not delay the first dose while waiting for source information or laboratory results."
+                ],
+                [
+                  "Current nPEP examples",
+                  "Preferred adult/adolescent options include BIC/FTC/TAF or dolutegravir plus TAF or TDF plus FTC or 3TC. Selection and dosing are clinician-specific. Raltegravir-based regimens are no longer the preferred 2025 CDC nPEP options."
+                ],
+                [
+                  "Follow-up",
+                  "Baseline HIV and safety tests, early adherence/tolerability review, and HIV laboratory follow-up generally at 4–6 and 12 weeks after PEP initiation using the CDC nPEP algorithm, including Ag/Ab and diagnostic NAT. Occupational exposures follow the separate occupational-health guideline. Plan a seamless transition to PrEP when ongoing prevention is desired."
+                ]
+              ]
+            },
+            {
+              "title": "PrEP — before potential exposure",
+              "fields": [
+                [
+                  "Who / purpose",
+                  "Antiretroviral medication taken by a person without HIV to prevent acquisition. Offer according to exposure, preference and eligibility, including to people who request it without disclosing risk."
+                ],
+                [
+                  "Timing / duration",
+                  "Use the prescribed prevention schedule during periods of potential exposure: daily oral tablets or long-acting injections. Protection is not instant, and missed/stopped doses require an individualized plan. PrEP does not replace PEP assessment for an exposure that has already occurred without adequate protection."
+                ],
+                [
+                  "Options",
+                  "TDF/FTC (Truvada/generic), TAF/FTC (Descovy), IM cabotegravir (Apretude), and six-monthly subcutaneous lenacapavir (Yeztugo). Indications and monitoring differ; see pharmacological therapies."
+                ],
+                [
+                  "Key distinction",
+                  "PrEP is not a complete HIV-treatment regimen and does not prevent other STIs or pregnancy. If HIV is diagnosed, arrange prompt full ART care rather than continuing PrEP alone."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "PEP testing needs are not a reason to wait until the end of the 72-hour window. After a workplace exposure, wash skin with soap/water or irrigate mucous membranes, report immediately, and activate occupational health; do not squeeze aggressively or use caustic disinfectant in a wound."
+        }
+      ],
+      "medications": [
+        {
+          "type": "heading",
+          "text": "Antiretroviral therapy (ART)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Most initial regimens use an integrase inhibitor such as bictegravir or dolutegravir with an NRTI backbone. Selected two-drug regimens are appropriate only when their eligibility criteria are met. Other drug classes include NNRTIs, protease inhibitors, entry/fusion and capsid inhibitors. ART is a complete combination regimen, not single-drug treatment. Long-acting treatment options exist for selected patients; follow the prescribed injection schedule rather than assuming every ART regimen is a daily pill."
+        },
+        {
+          "type": "heading",
+          "text": "PrEP options and nursing considerations"
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Daily oral TDF/FTC — Truvada or generic",
+              "fields": [
+                [
+                  "Exposure coverage",
+                  "Sexual and injection-drug-use prevention; daily adherence matters."
+                ],
+                [
+                  "Before / during",
+                  "Check HIV status, HBV and renal function; use calculated creatinine clearance, not serum creatinine alone. CDC specifies eCrCl >60 mL/min. Ongoing HIV Ag/Ab and HIV-1 RNA testing is at least every 3 months, with risk-based STI and renal follow-up. Stopping tenofovir/FTC in active HBV can cause hepatitis flare."
+                ]
+              ]
+            },
+            {
+              "title": "Daily oral TAF/FTC — Descovy",
+              "fields": [
+                [
+                  "Exposure coverage",
+                  "Sexual prevention excluding receptive vaginal exposure; it is not interchangeable with TDF/FTC for every exposure route."
+                ],
+                [
+                  "Before / during",
+                  "eCrCl ≥30 mL/min, HBV screening, and lipid/weight monitoring in addition to HIV follow-up. Plan HBV care before stopping or switching."
+                ]
+              ]
+            },
+            {
+              "title": "IM cabotegravir — Apretude",
+              "fields": [
+                [
+                  "Schedule",
+                  "First injection, another 1 month later, then every 2 months; an oral lead-in is optional. Used for sexual HIV prevention."
+                ],
+                [
+                  "Before / during",
+                  "HIV Ag/Ab plus HIV-1 RNA testing at injection visits, assess acute symptoms and injection reactions, and arrange missed-dose/tail coverage. The tenofovir renal-monitoring requirement does not apply to CAB."
+                ]
+              ]
+            },
+            {
+              "title": "Subcutaneous lenacapavir — Yeztugo",
+              "fields": [
+                [
+                  "Schedule",
+                  "An additional current option approved in 2025 for sexual HIV-1 prevention in eligible adults/adolescents ≥35 kg: oral loading plus injections, then every 6 months. It is not the same schedule as cabotegravir."
+                ],
+                [
+                  "Before / during",
+                  "Exclude HIV before initiation and every injection using the current product/CDC testing algorithm; obtain RNA testing when indicated, especially with possible acute infection. Review interactions, injection reactions and missed-dose/tail plans. Arrange STI care more often than six-month visits when needed."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "OI treatment versus prophylaxis"
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "PCP",
+              "fields": [
+                [
+                  "Treat",
+                  "TMP-SMX is preferred; treatment doses differ from prophylaxis and are usually given for 21 days in HIV. Moderate/severe hypoxemia may require adjunctive corticosteroids under protocol."
+                ],
+                [
+                  "Prevent",
+                  "Current NIH: initiate prophylaxis at CD4 <200 if not on ART or starting ART. For people already on ART, use CD4 <100 regardless of viral load, or CD4 100–200 with persistently detectable/rising HIV RNA. TMP-SMX is preferred; stopping/restarting depends on documented immune/virologic recovery and the treating team."
+                ]
+              ]
+            },
+            {
+              "title": "Toxoplasma encephalitis",
+              "fields": [
+                [
+                  "Treat",
+                  "TMP-SMX or pyrimethamine + sulfadiazine + leucovorin are specialist-directed regimens, followed by maintenance when indicated. Leucovorin reduces pyrimethamine marrow toxicity."
+                ],
+                [
+                  "Prevent",
+                  "TMP-SMX when Toxoplasma IgG is positive and CD4 <100; CD4 alone is not the entire indication. A suitable TMP-SMX regimen also protects against PCP."
+                ]
+              ]
+            },
+            {
+              "title": "Candidiasis",
+              "fields": [
+                [
+                  "Treat",
+                  "Oral fluconazole is preferred for oropharyngeal disease; topical nystatin (swish and swallow as ordered) is an alternative for appropriate oral disease. Esophageal disease requires systemic antifungal therapy, usually fluconazole; nystatin alone is inadequate."
+                ],
+                [
+                  "Prevent",
+                  "Routine long-term antifungal primary prophylaxis is not recommended for everyone. Assess swallowing, intake and interactions."
+                ]
+              ]
+            },
+            {
+              "title": "Disseminated MAC",
+              "fields": [
+                [
+                  "Treat",
+                  "At least two active drugs, typically azithromycin or clarithromycin plus ethambutol; additional drugs may be indicated. Do not treat established disease with a macrolide alone."
+                ],
+                [
+                  "Prevent",
+                  "Primary prophylaxis is considered with CD4 <50 when not on effective ART, remaining viremic, or without a suppressive regimen option. It is not routinely indicated when effective ART is promptly initiated. Exclude active disseminated MAC before prophylactic monotherapy."
+                ]
+              ]
+            },
+            {
+              "title": "CMV retinitis",
+              "fields": [
+                [
+                  "Treat",
+                  "Urgent ophthalmology plus systemic valganciclovir or IV ganciclovir; sight-threatening disease may also need intravitreal treatment. Follow induction, maintenance and eye-exam plans."
+                ],
+                [
+                  "Prevent",
+                  "ART/immune recovery is central; routine valganciclovir primary prophylaxis is not recommended solely for low CD4 or CMV viremia."
+                ]
+              ]
+            },
+            {
+              "title": "Cryptococcal meningitis",
+              "fields": [
+                [
+                  "Treat",
+                  "Induction commonly uses liposomal amphotericin B + flucytosine in a resource-available setting, followed by fluconazole consolidation and maintenance. Manage raised intracranial pressure; induction alone is not the whole course."
+                ],
+                [
+                  "Timing",
+                  "ART initiation is usually deferred about 4–6 weeks for CNS disease to reduce harm from inflammatory complications; specialist supervision is essential."
+                ]
+              ]
+            },
+            {
+              "title": "Active TB and HIV-associated cancer",
+              "fields": [
+                [
+                  "TB",
+                  "Use a susceptibility- and site-specific multidrug regimen. A common drug-susceptible regimen begins with isoniazid, rifampin, pyrazinamide and ethambutol (RIPE), with pyridoxine when indicated. ART/rifamycin interactions and ART timing require HIV/TB expertise."
+                ],
+                [
+                  "Kaposi / lymphoma / cervical cancer",
+                  "Optimize ART and coordinate oncology-directed care; ART alone is not sufficient for every cancer or stage."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Give medicines on the actual prescribed schedule, verify formulation/food instructions, and reconcile OTC drugs, supplements, antacids/minerals, anticonvulsants, rifamycins and herbals. Integrase-inhibitor/mineral timing and azole/rifamycin interactions require product-specific pharmacy review. Do not stop or substitute treatment independently."
+        }
+      ],
+      "nonpharmacological": [
+        {
+          "type": "list",
+          "items": [
+            "Use Standard Precautions for all patients. Add transmission-based precautions for the diagnosed/suspected pathogen, such as airborne precautions for infectious pulmonary TB, rather than for HIV status itself.",
+            "Support rest/activity pacing, mobility and ADLs; provide orientation/cognitive aids, fall prevention and neuropathy foot/skin care according to deficits.",
+            "Provide gentle oral/perineal care, skin protection, diarrhea management, fluid support and symptom relief. Persistent dysphagia or aspiration concerns need appropriate specialist assessment.",
+            "Coordinate confidential, nonjudgmental interdisciplinary care, peer support, mental-health services, social work and practical medication/transport support. Include chosen support people only with permission.",
+            "Discuss goals, advance care planning and palliative symptom support when appropriate to the clinical situation; an HIV diagnosis alone does not imply terminal illness."
+          ]
+        }
+      ],
+      "adverse-effects": [
+        {
+          "type": "heading",
+          "text": "Monitor the actual regimen"
+        },
+        {
+          "type": "list",
+          "items": [
+            "ART/PrEP: nausea, diarrhea, headache or sleep changes may affect adherence. TDF can cause renal and bone toxicity; some regimens affect weight, lipids, glucose or liver tests. Do not assume every drug causes every class effect. New severe rash, mucosal lesions, jaundice, marked weakness or systemic symptoms needs urgent review.",
+            "TMP-SMX: rash, severe cutaneous reactions, cytopenias, renal changes and hyperkalemia; monitor CBC, renal function and potassium as ordered. Dapsone alternatives require G6PD assessment because of hemolysis/methemoglobinemia risk.",
+            "Ganciclovir/valganciclovir and flucytosine can suppress marrow; renal function guides dosing. Amphotericin B can cause infusion reactions, nephrotoxicity and potassium/magnesium loss. Monitor laboratory trends and replace/support according to orders.",
+            "Azoles, macrolides, rifamycins and ART have important interactions; selected agents can affect QT interval or liver function. Ethambutol requires visual monitoring. Teach symptom reporting and verify interactions with pharmacy.",
+            "Injection-site pain/nodules can occur with long-acting PrEP. Missed injections or stopping without alternative prevention can leave a prolonged drug tail and risk of resistant HIV; arrange a product-specific prevention/testing plan.",
+            "Immune reconstitution inflammatory syndrome (IRIS): symptoms from a known or previously unrecognized infection may worsen after ART begins despite improving immune function. Assess for infection progression, toxicity or another cause; urgently escalate severe CNS/respiratory findings rather than independently stopping ART.",
+            "Stopping tenofovir-based PrEP or ART in active HBV can cause a hepatitis flare. Any switch to an injectable regimen requires a separate HBV-treatment plan when needed."
+          ]
+        }
+      ],
+      "nutrition": [
+        {
+          "type": "list",
+          "items": [
+            "Assess serial weight, muscle/function, intake, food access, oral/esophageal pain, nausea, diarrhea and malabsorption. HIV can involve wasting or excess weight/metabolic risk; a high-calorie diet is not universal.",
+            "For undernutrition/wasting, offer small frequent energy- and protein-dense meals and dietitian-directed supplements. Treat infection, swallowing pain, depression and other barriers rather than relying on calories alone.",
+            "Use soft, nonirritating foods for oral discomfort as tolerated. Odynophagia needs assessment and treatment; adjust texture to individual swallowing safety, not HIV status alone.",
+            "Replace fluid/electrolyte losses as prescribed; monitor intake/output, stool losses, orthostatic symptoms and relevant labs. Tailor intake in renal/cardiac disease.",
+            "Use safe water, wash produce and hands, separate raw/cooked foods, cook meat/eggs thoroughly, and avoid unpasteurized products. Check food requirements and supplement/mineral timing for the specific medicines. No supplement or diet replaces ART."
+          ]
+        }
+      ],
+      "assessment": [
+        {
+          "type": "paragraph",
+          "text": "Assess the person’s current symptoms, immune/virologic status, actual medicines and goals. Ask respectfully about exposures, sexual/injection practices and support needs; do not infer them from identity or appearance."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Immediate status: ABCs, respiratory rate/work, SpO₂, vital signs/perfusion, fever, pain, mental status and hydration. Ask about dyspnea, severe headache, visual changes, focal deficits or seizures.",
+            "Immune/infection history: current and previous CD4/viral-load trends, ART/prophylaxis adherence, prior OIs, recent exposures/travel, vaccination, TB/STI symptoms, and access interruptions.",
+            "Head-to-toe: mouth/swallowing; skin/mucosal lesions; lungs; weight/intake, abdomen/stool and perineal skin; neurological/cognitive status, neuropathy, gait and ADL ability; visual complaints.",
+            "Medication safety: complete regimen, last doses/injections, allergies, side effects, interactions, CBC/renal/hepatic and drug-specific monitoring. Assess readiness and barriers without blame.",
+            "Psychosocial: anxiety/depression, cognition, stigma, privacy/disclosure safety, relationships, housing, food, insurance, transport, language/health literacy and the person’s chosen support system.",
+            "For prevention visits: exact exposure time, route/fluid, source information if available, current/recent PrEP/PEP, acute-HIV symptoms, pregnancy potential and baseline tests. Do not delay time-critical PEP while completing routine history."
+          ]
+        }
+      ],
+      "diagnoses": [
+        {
+          "type": "paragraph",
+          "text": "Select program-approved nursing-diagnosis terms and support actual problems with assessment findings. HIV alone does not establish every diagnosis."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Impaired gas exchange / ineffective breathing pattern when supported by hypoxemia or respiratory findings.",
+            "Risk for infection, or an actual infection-related nursing problem with documented findings, based on immune status and exposures.",
+            "Inadequate nutritional intake, deficient fluid volume or risk for electrolyte imbalance with poor intake, wasting or diarrhea.",
+            "Impaired oral mucous membrane or skin integrity with thrush, lesions or perineal breakdown.",
+            "Acute/chronic pain, fatigue, activity intolerance, impaired mobility or risk for falls when supported by symptoms/function.",
+            "Acute confusion, self-management/learning needs, anxiety, social-isolation concerns or ineffective coping according to the person’s actual findings and preferences. Suspected sepsis, meningitis, retinal disease or respiratory failure requires urgent medical evaluation in addition to the care plan."
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "type": "callout",
+          "title": "First action follows the urgent problem",
+          "text": "Assess ABCs, oxygenation/perfusion and neurological status. New hypoxemia/dyspnea, sepsis features, severe headache/altered consciousness, focal deficits or seizures take priority over routine teaching. Activate the appropriate emergency pathway, provide ordered immediate support, and do not wait for a low CD4 result to act."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Possible PCP or other severe pneumonia: sit upright as tolerated, assess respiratory status and SpO₂, provide prescribed oxygen/support and escalate promptly. Obtain ordered specimens without delaying urgent treatment.",
+            "New floaters, field loss or failing vision: arrange urgent ophthalmology assessment; do not wait for pain or the next routine visit.",
+            "Suspected cryptococcal meningitis/raised intracranial pressure: urgent neurological/infectious-disease assessment and preparation for safe diagnostic/pressure management. Neck stiffness may be absent.",
+            "Possible infectious pulmonary TB: institute airborne precautions according to policy while evaluating and treating. HIV itself does not require airborne precautions.",
+            "Recent substantial-risk HIV exposure: immediate PEP evaluation; every hour matters. Do not substitute routine PrEP or wait for all baseline results.",
+            "Then address dehydration/intake, skin/oral care, medication continuity and toxicity, falls/cognition, confidentiality and discharge access according to findings."
+          ]
+        }
+      ],
+      "plan": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "1. Stabilize the present complication",
+              "fields": [
+                [
+                  "Goal",
+                  "Maintain patient-specific oxygenation/perfusion and neurological safety, with prompt assessment/treatment of the suspected OI."
+                ],
+                [
+                  "Actions",
+                  "Monitor respiratory/neurological and fluid trends, use pathogen-specific precautions, obtain ordered specimens and administer/support prescribed therapy."
+                ],
+                [
+                  "Evaluate",
+                  "Work of breathing, oxygenation, mental status, fever and symptoms improve without missed deterioration or treatment toxicity."
+                ]
+              ]
+            },
+            {
+              "title": "2. Sustain HIV treatment and prevention",
+              "fields": [
+                [
+                  "Goal",
+                  "Maintain a feasible complete ART plan, appropriate OI prophylaxis, and scheduled monitoring; use the chosen prevention plan for partners without HIV."
+                ],
+                [
+                  "Actions",
+                  "Reconcile medicines, coordinate pharmacy/HIV team, solve access barriers, plan injection/refill dates and teach ART versus PrEP versus PEP."
+                ],
+                [
+                  "Evaluate",
+                  "Viral load trends toward/maintains suppression, immune recovery is reviewed over time, and teach-back/attendance demonstrate a workable regimen."
+                ]
+              ]
+            },
+            {
+              "title": "3. Restore function, nutrition and support",
+              "fields": [
+                [
+                  "Goal",
+                  "Meet individualized intake/hydration, skin, activity, comfort and psychosocial goals."
+                ],
+                [
+                  "Actions",
+                  "Treat oral/GI symptoms, collaborate with dietitian/rehab/social work and chosen supports, protect privacy, and arrange follow-up/community resources."
+                ],
+                [
+                  "Evaluate",
+                  "Weight/intake and hydration stabilize, skin/ADLs improve, and the person can obtain medicines and identify whom to contact."
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "list",
+          "items": [
+            "Administer ordered ART, OI treatment/prophylaxis and symptom medicines; verify doses, interactions and renal/hepatic adjustments. Monitor response and adverse effects, and coordinate any missed-dose or vomiting plan with the prescriber/pharmacist.",
+            "Trend temperature, respiratory status, neurological/visual symptoms, intake/output, stool losses, weight and laboratory findings. Escalate deterioration rather than attributing it automatically to chronic HIV.",
+            "Provide oral care and ordered antifungals; assess swallowing pain and ability to take medicines/food. Use perineal cleansing/barrier protection for diarrhea and protect pressure areas.",
+            "Support hydration/nutrition, energy conservation, safe mobilization, neuropathy/fall care and ADLs. Reassess pain and comfort after interventions.",
+            "Use correct precautions and safe sharps practice. Promote vaccination and food/sexual/injection prevention education appropriate to current immune status and preferences.",
+            "Protect confidentiality; use respectful language and private discussions. Coordinate partner services with trained staff and applicable policy rather than independently disclosing status to family or partners.",
+            "Before discharge, confirm actual access to ART/prophylaxis, dates for labs/refills/injections, urgent warning signs, transport and a reachable HIV-care contact. Involve social work/case management, dietitian, mental health, pharmacy and peer support as needed.",
+            "Offer interdisciplinary debriefing, peer/leadership, ethics or voluntary spiritual support for staff distress while preserving confidentiality and equitable patient care."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "type": "heading",
+          "text": "Exam focus: one partner has HIV, the other does not"
+        },
+        {
+          "type": "callout",
+          "title": "U = U: Undetectable = Untransmittable",
+          "text": "A person taking effective ART who achieves and maintains viral suppression (<200 HIV RNA copies/mL) does not transmit HIV through sex. Confirm and maintain suppression with monitoring; simply taking tablets for six months is not proof. NIH recommends an additional prevention method for at least the first six months of ART and until <200 copies/mL is documented. U = U does not establish zero transmission through breast milk or shared injection equipment."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Explain ART adherence and viral-load follow-up for the partner with HIV; CD4 monitoring addresses immunity and is individualized. For prescribed long-acting treatment, adherence means keeping injection appointments and following the missed-dose plan.",
+            "Offer PrEP to the partner without HIV, particularly if suppression is not yet confirmed, is inconsistent/unknown, or there are other exposures. PrEP remains a personal option even with U = U; it is not medically mandatory solely because a partner with HIV has durable suppression.",
+            "Condoms can prevent other STIs and pregnancy and provide HIV protection when suppression is uncertain. Use latex or appropriate synthetic condoms with compatible water- or silicone-based lubricant; oil damages latex. Natural-membrane condoms are not reliable HIV protection. Barrier choices should support the couple’s informed goals.",
+            "Keep prevention follow-up drug-specific: oral PrEP HIV testing at least every 3 months, CAB testing at injection visits, and LEN HIV testing before each six-month injection with additional assessment/testing as indicated. STI screening can be needed more frequently than injection visits. Do not wait for a scheduled visit after acute symptoms or a significant unprotected exposure.",
+            "PrEP is highly effective when used as prescribed (oral/CAB sexual prevention about 99%); missed doses, delayed injections or stopping require a prevention plan. PrEP does not prevent other STIs or pregnancy. Do not share ART/PrEP medicines or use a partner’s regimen as PEP."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Family planning and infant feeding"
+        },
+        {
+          "type": "paragraph",
+          "text": "Before attempting conception, coordinate HIV and reproductive care, screen/treat STIs, and establish sustained suppression in the partner with HIV. NIH describes sustained suppression for this setting using two undetectable viral loads at least three months apart. With sustained suppression, condomless intercourse permits conception without sexual HIV transmission; PrEP can be chosen as additional prevention. Sperm washing or assisted reproduction is not routinely required solely for HIV prevention, but may be appropriate for infertility or other goals. If suppression is uncertain, discuss PrEP and specialist-guided options rather than treating “and/or PrEP” as a guarantee."
+        },
+        {
+          "type": "paragraph",
+          "text": "Preventing infant HIV is a separate care pathway: ART, viral-load monitoring, obstetric planning, infant ARVs and testing. With sustained suppression during pregnancy/breastfeeding, breast-milk transmission risk is less than 1% but not zero. Properly prepared formula or pasteurized banked donor milk eliminates the breast-milk route. Provide shared decision-making and follow the specialist infant-feeding plan; sexual U = U does not make breastfeeding risk zero."
+        },
+        {
+          "type": "heading",
+          "text": "Living well, safety and resources"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Teach urgent reporting of dyspnea, persistent fever, severe headache/confusion, seizures/focal changes, new visual symptoms, inability to swallow medicines/fluids, significant diarrhea/dehydration or severe drug reactions.",
+            "Review medication/food instructions, refill/injection reminders, avoiding independent interruptions, safer injection practices, hygiene/food safety and vaccine follow-up. Use teach-back without stigma.",
+            "Offer HIV-clinic case management, social work, pharmacy, dietitian, mental-health and peer/community support. Ryan White HIV/AIDS Program services and ADAP may help eligible people obtain care/medicines; housing, food and transport resources are assessed locally. HRSA’s HIV-care locator is linked in the references. Do not promise universal eligibility.",
+            "Respect autonomy, confidentiality, sexual/gender identity and chosen supports. Discuss disclosure/partner-service options in a private, safety-conscious way. Invite questions about relationships, school/work and long-term health; HIV care includes more than infection control."
+          ]
+        }
+      ],
+      "evaluation": [
+        {
+          "type": "list",
+          "items": [
+            "Acute safety: oxygenation/perfusion and neurological status are stable/improving; OI symptoms and fever trend appropriately, with no untreated visual decline, dehydration, sepsis or other deterioration.",
+            "Treatment response: HIV RNA achieves/maintains suppression; CD4 and OI history inform prophylaxis decisions. Symptoms, function and laboratory trends are reviewed alongside viral load rather than declaring success from one test.",
+            "Medication safety: complete prescribed therapy is obtainable/tolerated, renal/hepatic/CBC/electrolyte issues are addressed, and injection/refill and interaction plans are understood. No unsupervised ART or HBV-active drug interruption.",
+            "Nutrition/function: individualized weight/intake/hydration, skin integrity, pain, activity and ADL goals improve or prompt plan adjustment.",
+            "Teach-back: explain HIV versus AIDS, CD4 versus viral load, urgent OI warnings, PEP’s ≤72-hour/28-day framework, PrEP eligibility/testing, and the sexual scope of U = U.",
+            "Partnership/support: both partners understand the chosen prevention and testing plan without coercion; reproductive questions, privacy needs, mental health, medication access and follow-up are addressed."
+          ]
+        }
+      ]
+    },
+    "clarifications": [
+      {
+        "title": "CD4 thresholds and OI prevention",
+        "text": "OIs do not all start below 200, and AIDS can be diagnosed by a defining illness at a higher CD4 count. Used the May 2026 NIH PCP distinction for people starting/not on ART versus already on ART. Toxoplasma prophylaxis requires positive IgG with CD4 <100; MAC prophylaxis is not automatic at <50 if effective ART begins promptly. Routine CMV/candidiasis primary prophylaxis is not added."
+      },
+      {
+        "title": "Infection-specific treatment and urgency",
+        "text": "Separated oral thrush from esophageal disease (systemic treatment required), MAC combination treatment from prophylaxis, and cryptococcal induction from the complete treatment/pressure-management course. Added urgent visual/neurological warning signs and the CNS cryptococcosis ART-timing exception. Kaposi sarcoma is HHV-8-associated cancer, not itself an infection."
+      },
+      {
+        "title": "PEP versus PrEP and current options",
+        "text": "Kept ≤72-hour/28-day PEP teaching and updated preferred nPEP regimens/follow-up to CDC 2025. Occupational exposures have their own guideline. Added six-monthly lenacapavir, clarified TAF/FTC’s receptive-vaginal limitation and CAB loading, and made renal/HBV/testing and missed-injection plans regimen-specific. Not every PrEP user takes a daily pill or follows a quarterly injection schedule."
+      },
+      {
+        "title": "U = U, partners and family planning",
+        "text": "U = U requires maintained suppression, not simply six months of tablet use. Retained NIH’s additional-prevention recommendation during at least the first six months of ART and until suppression is documented. PrEP is offered according to preference/exposure rather than made mandatory for every durably suppressed partnership. Sexual transmission, conception, perinatal and breast-milk risks are distinguished; sperm washing is not a universal requirement."
+      },
+      {
+        "title": "Earlier dictated fragments resolved without guessing",
+        "text": "Removed the unsupported “over 60%” HAND statistic; it cannot be applied without a source/population. Retained the verified neurocognitive spectrum and urgent differential. Unidentifiable “Trichuria,” “Mavibom Entercell,” and “sinus pneumonia” are not used as clinical organism/diagnosis recommendations; verified enteric infections, MAC, sinusitis and pneumonia are covered by their established names. Week 12 remains available as the supporting objective notes."
+      }
+    ],
+    "references": [
+      {
+        "title": "NIH · HIV stages",
+        "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/stages-hiv-infection",
+        "supports": "Acute/chronic infection, AIDS and immune deterioration."
+      },
+      {
+        "title": "NIH · HIV life cycle",
+        "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/hiv-life-cycle",
+        "supports": "Retroviral replication and antiretroviral drug classes."
+      },
+      {
+        "title": "CDC · How HIV spreads",
+        "url": "https://www.cdc.gov/hiv/causes/index.html",
+        "supports": "Infectious fluids, exposure routes and casual-contact misconceptions."
+      },
+      {
+        "title": "NIH · Initial ART regimens",
+        "url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-arv/what-start-initial-combination-regimens",
+        "supports": "Current combination treatment and individualized regimen selection."
+      },
+      {
+        "title": "CDC · HIV testing algorithm",
+        "url": "https://www.cdc.gov/std/treatment-guidelines/hiv.htm",
+        "supports": "Ag/Ab, differentiation, NAT and acute-infection assessment."
+      },
+      {
+        "title": "CDC · Nonoccupational PEP (2025)",
+        "url": "https://www.cdc.gov/mmwr/volumes/74/rr/rr7401a1.htm",
+        "supports": "Urgent initiation, preferred regimens, 28-day course, follow-up and PrEP transition."
+      },
+      {
+        "title": "US Public Health Service · Occupational PEP (2025)",
+        "url": "https://stacks.cdc.gov/view/cdc/258795",
+        "supports": "Healthcare-worker exposure management; separate from the nPEP pathway."
+      },
+      {
+        "title": "CDC · PrEP clinical guidance",
+        "url": "https://www.cdc.gov/hivnexus/hcp/prep/",
+        "supports": "Oral/CAB prevention, eligibility, renal/HBV safety and regimen-specific monitoring."
+      },
+      {
+        "title": "CDC · Six-monthly lenacapavir PrEP",
+        "url": "https://www.cdc.gov/mmwr/volumes/74/wr/mm7435a1.htm",
+        "supports": "Additional prevention option, initiation, HIV testing, interactions and follow-up."
+      },
+      {
+        "title": "DailyMed · Yeztugo prescribing information",
+        "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1c241af1-ce62-4b0a-9eb7-f6b626174f01",
+        "supports": "Current lenacapavir label, HIV testing, loading/injections and resistance/tail safety."
+      },
+      {
+        "title": "NIH · PCP (May 2026 update)",
+        "url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/pneumocystis",
+        "supports": "Symptoms, diagnostic limitations, treatment and ART-specific prophylaxis thresholds."
+      },
+      {
+        "title": "NIH · Toxoplasmosis",
+        "url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/toxoplasmosis",
+        "supports": "IgG-positive/CD4 <100 prophylaxis, treatment and food/cat-litter prevention."
+      },
+      {
+        "title": "NIH · Disseminated MAC",
+        "url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/disseminated",
+        "supports": "Systemic findings, combination treatment and when primary prophylaxis is unnecessary."
+      },
+      {
+        "title": "NIH · Mucocutaneous candidiasis",
+        "url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/candidiasis",
+        "supports": "Oral versus esophageal disease and systemic treatment requirements."
+      },
+      {
+        "title": "NIH · CMV disease",
+        "url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/cytomegalovirus",
+        "supports": "Retinitis warning signs, treatment and no routine valganciclovir primary prophylaxis."
+      },
+      {
+        "title": "NIH · Cryptococcosis",
+        "url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/cryptococcosis",
+        "supports": "Induction/consolidation/maintenance, intracranial pressure and delayed ART initiation in CNS disease."
+      },
+      {
+        "title": "NIH · Tuberculosis",
+        "url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/mycobacterium",
+        "supports": "Any-CD4 risk, diagnostic testing, multidrug therapy and ART/rifamycin considerations."
+      },
+      {
+        "title": "NIH · PML / JC virus",
+        "url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/progressive",
+        "supports": "Focal CNS demyelination and the central role of effective ART."
+      },
+      {
+        "title": "NIH · HAND terminology",
+        "url": "https://clinicalinfo.hiv.gov/en/glossary/hiv-associated-neurocognitive-disorders-hand",
+        "supports": "Neurocognitive spectrum rather than equating all cognitive symptoms with dementia."
+      },
+      {
+        "title": "NCI · HIV and cancer",
+        "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/infectious-agents/hiv-fact-sheet",
+        "supports": "Kaposi sarcoma, lymphoma and cervical-cancer associations."
+      },
+      {
+        "title": "NIH · HIV immunizations",
+        "url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/immunizations",
+        "supports": "Vaccine selection according to immune status; live-vaccine restrictions."
+      },
+      {
+        "title": "NIH · Medicine side effects",
+        "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/hiv-medicines-and-side-effects",
+        "supports": "Regimen-specific adverse effects, monitoring and adherence support."
+      },
+      {
+        "title": "NIH · Nutrition and food safety",
+        "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/hiv-and-nutrition-and-food-safety",
+        "supports": "Individualized nutrition, weight and food-safety support."
+      },
+      {
+        "title": "NIH · ART to prevent sexual transmission",
+        "url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-arv/arv-therapy-as-prevention",
+        "supports": "U = U, <200 copies/mL, initial prevention interval and sustained suppression."
+      },
+      {
+        "title": "NIH · Reproductive options for partners",
+        "url": "https://clinicalinfo.hiv.gov/en/guidelines/perinatal/prepregnancy-counseling-childbearing-age-reproductive-options-partners",
+        "supports": "Conception with sustained suppression, optional PrEP and reproductive choices."
+      },
+      {
+        "title": "NIH · Infant feeding and HIV",
+        "url": "https://clinicalinfo.hiv.gov/en/guidelines/perinatal/preventing-transmission-infant-feeding?view=brief",
+        "supports": "Breast-milk risk, shared decision-making and replacement-feeding options."
+      },
+      {
+        "title": "HRSA · Ryan White care and services",
+        "url": "https://ryanwhite.hrsa.gov/hiv-care/services",
+        "supports": "Eligibility-dependent HIV medical/support services and medication access."
+      },
+      {
+        "title": "HRSA · Find HIV care",
+        "url": "https://findhivcare.hrsa.gov/",
+        "supports": "Locator for Ryan White HIV/AIDS Program providers."
+      }
+    ]
+  },
   'prostate-cancer': {
     title: 'Prostate cancer', abbreviation: 'Prostate cancer', week: 7, deck: 'prostate-cancer',
     reviewed: 'November 15, 2026',

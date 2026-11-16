@@ -604,7 +604,7 @@ const studyWeeks = [
               "Use barrier methods, including latex external condoms and dental dams, to reduce exposure to infected genital secretions.",
               "Use harm-reduction services, such as access to clean needles and safe sharps disposal, to reduce bloodborne infections. Avoid sharing injection equipment.",
               "Provide treatment and care for people with HIV to reduce their viral load.",
-              "Consider pre-exposure prophylaxis (PrEP) for people without HIV who are at increased risk. Options discussed in these notes include daily oral medication and an injectable option given every two months.",
+              "Consider pre-exposure prophylaxis (PrEP) for people without HIV who are at increased risk. Options include daily oral TDF/FTC or eligible-use TAF/FTC, IM cabotegravir every two months after initiation, and subcutaneous lenacapavir every six months after loading. Product-specific eligibility, HIV testing, and monitoring differ.",
               "Monitor HIV and STI status. PrEP prevents HIV but does not prevent other sexually transmitted infections."
             ]
           },
@@ -755,7 +755,7 @@ const studyWeeks = [
           },
           {
             "type": "paragraph",
-            "text": "Common manifestations include loss of appetite, nausea, vomiting, oral or esophageal candidiasis, and chronic diarrhea. Enteric pathogens named in the notes include Cryptosporidium, Salmonella, Shigella, cytomegalovirus (CMV), and Clostridioides difficile (C. diff). Two additional dictated organism names are listed under “Terms to confirm” below."
+            "text": "Common manifestations include loss of appetite, nausea, vomiting, oral or esophageal candidiasis, and chronic diarrhea. Enteric pathogens named in the notes include Cryptosporidium, Salmonella, Shigella, cytomegalovirus (CMV), and Clostridioides difficile (C. diff). Unidentifiable dictated fragments are not treated as verified organism names; the final-exam HIV page uses established diagnoses and current references."
           },
           {
             "type": "heading",
@@ -841,7 +841,7 @@ const studyWeeks = [
           },
           {
             "type": "paragraph",
-            "text": "HAND refers to a spectrum of neurocognitive impairment; HIV-associated dementia is its severe form. Changes may involve cognition, behavior, and motor function. The original “over 60%” figure needs its source and population confirmed."
+            "text": "HAND refers to a spectrum of neurocognitive impairment; HIV-associated dementia is its severe form. Changes may involve cognition, behavior, and motor function. New confusion, hallucinations, seizures, or incontinence requires assessment for infection, delirium, medication effects, metabolic disease, and other causes; do not assume every neurological symptom is HAND."
           },
           {
             "type": "list",
@@ -1056,9 +1056,9 @@ const studyWeeks = [
     ],
     "date": "November 10, 2026",
     "reviewNotes": [
-      "“Trichuria” and “Mavibom Entercell” were unclear in the dictated enteric-pathogen list; confirm the intended organism names from the lecture.",
-      "“Sinus pneumonia” was unclear in the respiratory list; confirm whether a separate infection was intended.",
-      "The “over 60%” HAND figure needs its source and population confirmed. The corrected notes distinguish HAND from HIV-associated dementia."
+      "Unidentifiable dictated enteric fragments were excluded from clinical recommendations; verified pathogens remain named and disseminated MAC is covered separately.",
+      "The unclear phrase “sinus pneumonia” is not a separate diagnosis; sinusitis and pneumonia are retained as distinct established terms.",
+      "The unsupported “over 60%” statistic was omitted. HAND is a spectrum; HIV-associated dementia is its severe form and acute neurological changes require differential assessment."
     ],
     "sourceReferences": [
       {
@@ -1068,6 +1068,10 @@ const studyWeeks = [
       {
         "title": "CDC · PrEP guidance",
         "url": "https://www.cdc.gov/hivnexus/hcp/prep/"
+      },
+      {
+        "title": "CDC · Lenacapavir PrEP (2025)",
+        "url": "https://www.cdc.gov/mmwr/volumes/74/wr/mm7435a1.htm"
       },
       {
         "title": "NIH · HIV clinical stages",
