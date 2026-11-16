@@ -41,7 +41,7 @@ function renderHome() {
       <a class="exam-card" href="#/final">
         <div class="window-bar"><span><span class="window-icon" aria-hidden="true">▤</span> NRBS 4210 · ADULT HEALTH III</span><span aria-hidden="true">↗</span></div>
         <div class="exam-card-body">
-          <div><span class="tag">FINAL EXAM REVIEW</span><h3>Med Search 3<br>Final Exam</h3><p>Your study guide, weekly notes, presentations, podcast, and practice quiz.</p><div class="card-scope">WEEKS 7, 8, 9 & 12</div></div>
+          <div><span class="tag">FINAL EXAM REVIEW</span><h3>Med Search 3<br>Final Exam</h3><p>Your final exam guide and weekly course materials.</p><div class="card-scope">WEEKS 7, 8, 9 & 12</div></div>
           <span class="open-guide">Open exam overview <span aria-hidden="true">→</span></span>
         </div>
       </a>
@@ -58,22 +58,19 @@ function objectiveCard(objective, index) {
 }
 
 function studyGuideEntry() {
-  return `<a class="study-guide-entry" href="#/final/study-guide"><span class="study-guide-entry-copy"><span class="micro-label">STUDY BY CONDITION</span><strong>Final exam<br>study guide</strong><span class="study-guide-description">Pathophysiology, clinical findings, treatment, and the nursing process.</span></span><span class="entry-arrow">Open study guide <span aria-hidden="true">→</span></span></a>`;
+  return `<a class="study-guide-entry" href="#/final/study-guide"><span class="study-guide-entry-copy"><strong>Final exam<br>study guide</strong><span class="study-guide-description">Condition notes, practice questions, and a study podcast.</span></span><span class="entry-arrow">Open study guide <span aria-hidden="true">→</span></span></a>`;
 }
 
 function renderStudyGuide() {
   document.title = 'Final exam study guide · Project Green Light';
   main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/final">Med Search 3</a><span aria-hidden="true">/</span><span>Study guide</span></nav>
-    <section class="hero condition-hero study-guide-hero"><p class="eyebrow">MED SEARCH 3 / FINAL EXAM</p><h1>Final exam<br><span>study guide.</span></h1><p class="hero-copy">One familiar order for every condition.</p></section>
-    <p class="guide-intro">Review each condition through the full nursing process. The highlighted exam points add emphasis; they do not replace the general review. The exam is not limited to this guide.</p>
-    <section class="condition-library" aria-labelledby="conditions-title"><div class="section-heading"><h2 id="conditions-title">Choose a condition</h2></div><p class="section-copy">Each condition includes the full study breakdown and highlighted exam focus. Weekly notes and presentation PDFs remain available below.</p><div class="condition-topic-list">${examTopics.map(topic => {
-      const ready = Boolean(conditionNotes[topic.id]);
-      const count = VideoLibrary.available(topic.number).length;
-      const body = `<span class="objective-number">${String(topic.number).padStart(2, '0')}</span><span class="condition-topic-title">${escapeHTML(topic.title)}</span><span class="condition-topic-state">${ready ? 'Study notes · ' : 'Notes coming soon · '}${count} videos →</span>`;
+    <section class="hero condition-hero study-guide-hero"><p class="eyebrow">MED SEARCH 3 / FINAL EXAM</p><h1>Final exam<br><span>study guide.</span></h1><p class="hero-copy">Review a condition, test yourself, or listen.</p></section>
+    <nav class="study-guide-tools" aria-label="Study guide tools"><a href="#/final/quiz"><strong>Practice quiz</strong><span>Answer & review</span><span class="study-tool-arrow" aria-hidden="true">→</span></a><a href="#/final/podcast"><strong>Podcast</strong><span>Listen & review</span><span class="study-tool-arrow" aria-hidden="true">→</span></a><a href="#/final/videos"><strong>Videos</strong><span>Watch & understand</span><span class="study-tool-arrow" aria-hidden="true">→</span></a></nav>
+    <section class="condition-library" aria-labelledby="conditions-title"><div class="section-heading"><h2 id="conditions-title">Choose a condition</h2></div><div class="condition-topic-list">${examTopics.map(topic => {
+      const body = `<span class="objective-number">${String(topic.number).padStart(2, '0')}</span><span class="condition-topic-title">${escapeHTML(topic.title)}</span><span class="condition-topic-state" aria-hidden="true">→</span>`;
       return `<a class="condition-topic" href="#/final/condition/${topic.id}">${body}</a>`;
     }).join('')}</div></section>
-    <section class="video-guide-entry"><h2>Video resources</h2><p>Browse short reviews and nursing explainers, organized by the 14 study-guide topics.</p><a class="text-link" href="#/final/videos">Browse all videos →</a></section>
-    <nav class="guide-resources" aria-label="Course materials"><h2>Course materials</h2><a class="text-link" href="#/final">Weekly notes & objectives →</a><a class="text-link" href="#/final/podcast">Study podcast →</a><a class="text-link" href="#/final/quiz">Practice quiz →</a><a class="text-link" href="#/final/presentations">All presentation PDFs →</a></nav>`;
+    <nav class="guide-resources" aria-label="Course materials"><h2>Course materials</h2><a class="text-link" href="#/final">Weekly notes & objectives →</a><a class="text-link" href="#/final/presentations">All presentation PDFs →</a></nav>`;
 }
 
 function conditionBlocks(blocks) {
@@ -115,26 +112,24 @@ function renderCondition(condition) {
 }
 
 function examNavigation(active) {
-  return `<nav class="week-nav exam-section-nav" aria-label="Exam sections">${studyWeeks.map(w => `<a href="#/final/week-${w.number}" ${w.number === active ? 'aria-current="page"' : ''}><span>Week ${w.number}</span><span class="week-subtitle">${w.number === 7 ? 'Parkinson’s disease' : w.number === 12 ? 'HIV / AIDS' : 'Student presentations'}</span></a>`).join('')}<a class="podcast-nav-link" href="#/final/podcast" ${active === 'podcast' ? 'aria-current="page"' : ''}><span>Podcast</span><span class="week-subtitle">Listen & review</span></a><a class="quiz-nav-link" href="#/final/quiz" ${active === 'quiz' ? 'aria-current="page"' : ''}><span>Practice quiz</span><span class="week-subtitle">Answer & review</span></a></nav>`;
+  return `<nav class="week-nav exam-section-nav" aria-label="Weekly materials">${studyWeeks.map(w => `<a href="#/final/week-${w.number}" ${w.number === active ? 'aria-current="page"' : ''}><span>Week ${w.number}</span><span class="week-subtitle">${w.number === 7 ? 'Parkinson’s disease' : w.number === 12 ? 'HIV / AIDS' : 'Student presentations'}</span></a>`).join('')}</nav>`;
 }
 
 function renderPodcast() {
   document.title = 'Study podcast · Project Green Light';
-  main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/final">Med Search 3</a><span aria-hidden="true">/</span><span>Podcast</span></nav>
-    <section class="hero podcast-hero"><p class="eyebrow">MED SEARCH 3 / FINAL EXAM</p><h1>Study <span>podcast.</span></h1><p class="hero-copy">A different way to review.</p></section>
-    ${examNavigation('podcast')}
+  main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/final/study-guide">Final exam study guide</a><span aria-hidden="true">/</span><span>Podcast</span></nav>
+    <section class="hero podcast-hero"><p class="eyebrow">FINAL EXAM STUDY GUIDE</p><h1>Study <span>podcast.</span></h1><p class="hero-copy">A different way to review.</p></section>
     ${PodcastPlayer.section()}
-    <nav class="guide-bottom" aria-label="More study options"><a class="text-link" href="#/final">← Exam overview & weekly notes</a><a class="text-link" href="#/final/study-guide">Final exam study guide →</a></nav>`;
+    <nav class="guide-bottom" aria-label="Study guide"><a class="text-link" href="#/final/study-guide">← Final exam study guide</a></nav>`;
   disposePodcast = PodcastPlayer.mount(main);
 }
 
 function renderPracticeQuiz() {
   document.title = 'Practice quiz · Project Green Light';
-  main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/final">Med Search 3</a><span aria-hidden="true">/</span><span>Practice quiz</span></nav>
-    <section class="hero quiz-hero"><p class="eyebrow">MED SEARCH 3 / FINAL EXAM</p><h1>Practice <span>quiz.</span></h1><p class="hero-copy">Answer, submit, then review.</p></section>
-    ${examNavigation('quiz')}
+  main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/final/study-guide">Final exam study guide</a><span aria-hidden="true">/</span><span>Practice quiz</span></nav>
+    <section class="hero quiz-hero"><p class="eyebrow">FINAL EXAM STUDY GUIDE</p><h1>Practice <span>quiz.</span></h1><p class="hero-copy">Answer, submit, then review.</p></section>
     ${PracticeQuiz.section()}
-    <nav class="guide-bottom" aria-label="More study options"><a class="text-link" href="#/final">← Exam overview & weekly notes</a><a class="text-link" href="#/final/study-guide">Final exam study guide →</a></nav>`;
+    <nav class="guide-bottom" aria-label="Study guide"><a class="text-link" href="#/final/study-guide">← Final exam study guide</a></nav>`;
   disposeQuiz = PracticeQuiz.mount(main);
 }
 

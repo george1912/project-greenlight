@@ -126,7 +126,7 @@ body.reader-modal-open{overflow:hidden}
 .condition-topic:last-child{border-bottom:0}
 a.condition-topic:hover{background:var(--yellow)}
 .condition-topic-title{font:500 23px/1.3 var(--pixel)}
-.condition-topic-state{font-size:12px;color:var(--green);white-space:nowrap}
+.condition-topic-state{font-size:21px;color:var(--green);white-space:nowrap}
 .condition-topic-pending{background:var(--white)}
 .condition-topic-pending .condition-topic-state{color:var(--muted)}
 .guide-resources{margin-top:35px;padding-top:22px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:12px 25px;font-size:14px}
@@ -186,9 +186,9 @@ a.condition-topic:hover{background:var(--yellow)}
   .study-guide-entry{padding:24px 20px;gap:22px;flex-direction:column;align-items:stretch}
   .study-guide-entry strong{font-size:clamp(34px,8vw,46px)}
   .study-guide-entry .entry-arrow{align-self:flex-start;max-width:100%;gap:14px;padding:12px 14px;font-size:18px;white-space:normal}
-  .condition-topic{grid-template-columns:28px minmax(0,1fr);padding:16px 13px;gap:5px 10px}
+  .condition-topic{grid-template-columns:28px minmax(0,1fr) auto;padding:16px 13px;gap:5px 10px}
   .condition-topic-title{font-size:21px}
-  .condition-topic-state{grid-column:2;font-size:11px;white-space:normal;margin-top:4px}
+  .condition-topic-state{grid-column:3;font-size:21px;margin:0}
   .condition-tools{flex-direction:column;gap:8px}
   .condition-index{width:100%}
   .condition-disclosures{width:100%}
@@ -228,7 +228,7 @@ a.condition-topic:hover{background:var(--yellow)}
 .video-slot-vertical iframe{aspect-ratio:9/16;max-height:650px;max-width:366px;margin:auto}
 .video-source{font-size:13px;color:var(--green)}
 .video-card[hidden],.video-topic[hidden],.video-no-results[hidden]{display:none}
-.video-guide-entry{margin:30px 0}.video-guide-entry h2{font:500 30px/1.3 var(--pixel)}
+
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 @media(max-width:720px){.video-grid{grid-template-columns:minmax(0,1fr)}.video-card{padding:17px}.video-filters{gap:12px}.video-resources{margin-top:30px}}
 @media print{.video-slot,.video-filters{display:none}.video-grid{display:block}.video-card{break-inside:avoid}}
@@ -272,7 +272,7 @@ a.condition-topic:hover{background:var(--yellow)}
 @media(prefers-reduced-motion:reduce){.video-spinner{animation:none}}
 
 /* Podcast listening page and the restored exam overview. */
-.exam-section-nav{grid-template-columns:repeat(6,minmax(0,1fr))}
+
 .podcast-hero{padding-top:28px;padding-bottom:27px}.podcast-hero h1{font-size:57px}
 .podcast-window{border:2px solid var(--ink);background:var(--white);box-shadow:5px 5px 0 #c9cbbf}
 .podcast-content{padding:27px}.podcast-thanks{display:inline-block;margin:0 0 16px;padding:6px 12px;background:var(--yellow);border:1px solid var(--line);font-size:14px;color:var(--green)}
@@ -289,7 +289,7 @@ a.condition-topic:hover{background:var(--yellow)}
 .podcast-position{display:block;width:100%;min-height:44px;accent-color:var(--green);cursor:pointer;margin:0}.podcast-position:disabled{cursor:default}
 .podcast-details{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-top:8px}.podcast-time{font-size:14px;font-variant-numeric:tabular-nums}.podcast-speed{display:flex;align-items:center;gap:10px;font-size:13px}.podcast-speed select{min-height:44px;border:1px solid var(--line);background:var(--paper);color:var(--green);font:inherit;padding:7px 11px}
 .podcast-status{font-size:14px;color:var(--muted);text-align:center;min-height:23px;margin:18px 0 8px}.podcast-source{font-size:14px;text-align:center;margin:0}
-@media(max-width:680px){.exam-section-nav{grid-template-columns:repeat(2,minmax(0,1fr))}.exam-section-nav .podcast-nav-link,.exam-section-nav .quiz-nav-link{border-top:1px solid var(--line)}.podcast-hero h1{font-size:43px}.podcast-content{padding:20px 16px}.podcast-content h2{font-size:27px}.podcast-cover{min-height:220px;padding:22px 16px}.podcast-transport{gap:10px}.podcast-transport button{min-width:63px;padding:9px}.podcast-transport .podcast-play{min-width:125px;font-size:23px}.podcast-window .window-bar{font-size:15px}.podcast-speed{gap:7px}}
+@media(max-width:680px){.podcast-hero h1{font-size:43px}.podcast-content{padding:20px 16px}.podcast-content h2{font-size:27px}.podcast-cover{min-height:220px;padding:22px 16px}.podcast-transport{gap:10px}.podcast-transport button{min-width:63px;padding:9px}.podcast-transport .podcast-play{min-width:125px;font-size:23px}.podcast-window .window-bar{font-size:15px}.podcast-speed{gap:7px}}
 
 /* Practice questions keep the supplied key hidden until submission. */
 .quiz-hero{padding-top:28px;padding-bottom:27px}.quiz-hero h1{font-size:57px}
@@ -304,7 +304,7 @@ a.condition-topic:hover{background:var(--yellow)}
 .quiz-results[hidden],.quiz-feedback[hidden]{display:none}.quiz-buttons button:focus-visible,.quiz-results:focus-visible{outline:3px solid #ac542f;outline-offset:4px}
 @media(max-width:680px){.quiz-hero h1{font-size:43px}.quiz-toolbar{top:7px;flex-wrap:wrap;padding:12px;gap:9px}.quiz-progress{font-size:14px}.quiz-buttons{width:100%}.quiz-buttons button{flex:1;padding:10px;font-size:18px}.quiz-question{padding:20px 16px;scroll-margin-top:145px}.quiz-prompt{font-size:17px}.quiz-option{padding:12px 10px;gap:8px}.quiz-option.choice-correct,.quiz-option.choice-wrong{padding:11px 9px}.quiz-option-copy{font-size:15px}.quiz-results{padding:19px 16px;scroll-margin-top:145px}.quiz-results h2{font-size:28px}}
 @media print{.quiz-toolbar,.quiz-end-note{display:none}.quiz-question{break-inside:avoid;box-shadow:none}}
-@media(min-width:681px) and (max-width:900px){.exam-section-nav{grid-template-columns:repeat(3,minmax(0,1fr))}.exam-section-nav a:nth-child(3n){border-right:0}.exam-section-nav a:nth-child(n+4){border-top:1px solid var(--line)}}
+
 
 /* A compact visual introduction keeps exam focus and navigation close at hand. */
 .condition-hero-with-poster{padding:22px 0 19px;border-bottom:0}.condition-hero-with-poster h1{font-size:clamp(32px,4.5vw,47px);margin:10px 0;letter-spacing:-.7px}.condition-hero-with-poster .hero-copy{display:none}.condition-hero-with-poster .condition-slides{margin-top:0;font-size:13px}
@@ -339,3 +339,12 @@ a.condition-topic:hover{background:var(--yellow)}
 .section-practice :focus-visible{outline:3px solid #ac542f;outline-offset:3px}
 @media(max-width:600px){.section-practice>summary{padding:14px 12px}.section-practice-caption{display:none}.section-practice-body{padding:0 12px 16px}.section-practice-question legend{font-size:16px}.section-practice-feedback{padding:1px 12px}}
 @media print{.section-practice{display:none}}
+
+/* Exam tools belong to the study guide, above the condition list. */
+.study-guide-tools{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:4px 0 34px}
+.study-guide-tools a{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:5px 14px;align-content:center;padding:18px 20px;min-height:100px;border:1px solid var(--line);background:var(--white);color:var(--green);text-decoration:none}
+.study-guide-tools a:hover{border-color:var(--green);background:var(--mint)}
+.study-guide-tools strong{font:500 25px/1.2 var(--pixel)}
+.study-guide-tools a>span:not(.study-tool-arrow){grid-column:1;font-size:13px;color:var(--muted)}
+.study-guide-tools .study-tool-arrow{grid-column:2;grid-row:1/3;align-self:center;font-size:23px}
+@media(max-width:600px){.study-guide-tools{grid-template-columns:1fr;gap:8px;margin-bottom:28px}.study-guide-tools a{padding:13px 16px;min-height:76px}.study-guide-tools strong{font-size:23px}}
