@@ -341,10 +341,18 @@ a.condition-topic:hover{background:var(--yellow)}
 @media print{.section-practice{display:none}}
 
 /* Exam tools belong to the study guide, above the condition list. */
-.study-guide-tools{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:4px 0 34px}
+.study-guide-tools{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:4px 0 34px}
 .study-guide-tools a{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:5px 14px;align-content:center;padding:18px 20px;min-height:100px;border:1px solid var(--line);background:var(--white);color:var(--green);text-decoration:none}
 .study-guide-tools a:hover{border-color:var(--green);background:var(--mint)}
 .study-guide-tools strong{font:500 25px/1.2 var(--pixel)}
 .study-guide-tools a>span:not(.study-tool-arrow){grid-column:1;font-size:13px;color:var(--muted)}
 .study-guide-tools .study-tool-arrow{grid-column:2;grid-row:1/3;align-self:center;font-size:23px}
+@media(min-width:601px) and (max-width:900px){.study-guide-tools{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.study-guide-tools{grid-template-columns:1fr;gap:8px;margin-bottom:28px}.study-guide-tools a{padding:13px 16px;min-height:76px}.study-guide-tools strong{font-size:23px}}
+.presentation-quiz-intro{margin:26px 0}.presentation-quiz-intro>p{max-width:76ch}
+.distinguished-thanks{display:inline-flex;align-items:center;gap:8px;max-width:100%}.distinguished-thanks>span:last-child{min-width:0;flex:1}.distinguished-thanks>span[aria-hidden]{font-size:23px;flex:none}.distinguished-hat{width:32px;height:30px;flex:none}
+.presentation-quiz-picker{display:grid;gap:8px;max-width:570px;margin:25px 0 0;color:var(--green);font-size:14px;font-weight:600}
+.presentation-quiz-picker select{width:100%;min-height:48px;padding:10px 35px 10px 13px;border:1px solid var(--green);border-radius:0;background:var(--white);color:var(--ink);font:400 16px/1.5 var(--body)}
+.presentation-quiz-heading{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin:32px 0 12px}.presentation-quiz-heading h2{font-size:30px;line-height:1.25;margin:0}.presentation-quiz-heading a{font-size:14px}
+.presentation-quiz-content .quiz-prompt{white-space:pre-line}.presentation-quiz-notes{margin-top:25px}.presentation-quiz-notes summary{cursor:pointer;color:var(--green);font-weight:500}
+.presentation-study-link{display:flex;flex-wrap:wrap;gap:12px 24px}

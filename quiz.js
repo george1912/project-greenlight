@@ -1,5 +1,5 @@
-/* Practice scoring follows the supplied answer key. No student answers are sent anywhere. */
-const PracticeQuiz = (() => {
+/* Shared quiz controls. Each instance keeps its own answers in tab memory. */
+function createPracticeQuiz(data, copy = {}) {
   let answers = {}, submitted = false;
   function grade(questions, responses) {
     const results = questions.map(q => {
@@ -14,33 +14,33 @@ const PracticeQuiz = (() => {
   function feedback(q, result) {
     const selected = result.selected.length ? result.selected.join(', ') : 'None';
     const title = {correct:'✓ Correct',incorrect:'✕ Incorrect',unanswered:'— Not answered'}[result.status];
-    return `<h3 class="quiz-verdict">${title}</h3><p><strong>Your answer:</strong> ${escapeHTML(selected)}<br><strong>Correct answer${q.multiple?'s':''}:</strong> ${q.correct.join(', ')}</p><p><strong>Provided answer-key rationale:</strong> ${escapeHTML(q.rationale)}</p>${q.context ? `<p class="quiz-context"><strong>Clinical context:</strong> ${escapeHTML(q.context.text)} <a href="${escapeHTML(q.context.url)}" target="_blank" rel="noopener noreferrer">Reference ↗</a></p>` : ''}`;
+    return `<h3 class="quiz-verdict">${title}</h3><p><strong>Your answer:</strong> ${escapeHTML(selected)}<br><strong>Correct answer${q.multiple?'s':''}:</strong> ${q.correct.join(', ')}</p><p><strong>${escapeHTML(copy.rationaleLabel ? copy.rationaleLabel(q) : 'Provided answer-key rationale')}:</strong> ${escapeHTML(q.rationale)}</p>${q.reviewNote ? `<p class="quiz-context"><strong>Clinical clarification:</strong> ${escapeHTML(q.reviewNote)}</p>` : ''}${q.context ? `<p class="quiz-context"><strong>Clinical context:</strong> ${escapeHTML(q.context.text)} <a href="${escapeHTML(q.context.url)}" target="_blank" rel="noopener noreferrer">Reference ↗</a></p>` : ''}`;
   }
   function summary(score) {
     return `<h2 id="quiz-score-title">${score.correct} / ${score.total} correct <span>(${score.percentage}%)</span></h2><p>${score.correct} correct · ${score.incorrect} incorrect · ${score.unanswered} unanswered</p><p class="quiz-review-help">Review the feedback below. Reset the quiz for a fresh attempt.</p>`;
   }
   function section() {
-    const questions = practiceQuizData.questions;
+    const questions = data.questions;
     const score = submitted ? grade(questions,answers) : null;
     const count = questions.filter(q=>answers[q.id]?.length).length;
-    return `<section class="quiz-intro" aria-label="Quiz instructions"><p class="quiz-thanks">Special thanks to Danalky.</p><p>${questions.length} questions from your practice-question PDF. Choose your answers, then submit to see your score, correct answers, and rationales.</p><p class="quiz-instructions">For “select all that apply,” choose every correct answer and no others. Each question is worth one point; unanswered questions earn no point.</p></section>
-      <form class="practice-quiz" aria-label="Med-Surg III practice quiz">
+    return `${copy.introHTML !== undefined ? copy.introHTML : `<section class="quiz-intro" aria-label="Quiz instructions"><p class="quiz-thanks">Special thanks to Danalky.</p><p>${questions.length} questions from your practice-question PDF. Choose your answers, then submit to see your score, correct answers, and rationales.</p><p class="quiz-instructions">For “select all that apply,” choose every correct answer and no others. Each question is worth one point; unanswered questions earn no point.</p></section>`}
+      <form class="practice-quiz" aria-label="${escapeHTML(copy.formLabel || 'Med-Surg III practice quiz')}">
         <div class="quiz-toolbar"><p class="quiz-progress" role="status" aria-live="polite">${count} of ${questions.length} answered</p><div class="quiz-buttons"><button type="submit" class="quiz-submit" ${submitted?'disabled':''}>${submitted?'Quiz submitted':'Submit quiz'}</button><button type="reset" class="quiz-reset">Reset quiz</button></div></div>
         <section class="quiz-results" tabindex="-1" aria-labelledby="quiz-score-title" ${submitted?'':'hidden'}>${score?summary(score):''}</section>
         <div class="quiz-questions">${questions.map(q=>{
           const result=score?.results.find(r=>r.id===q.id);
-          return `<article class="quiz-question${result?' quiz-'+result.status:''}" id="quiz-question-${q.id}" data-question="${q.id}"><fieldset aria-describedby="quiz-hint-${q.id}" ${submitted?'disabled':''}><legend><span class="quiz-question-number">Question ${q.id}</span><span class="quiz-prompt">${escapeHTML(q.prompt)}</span></legend><p class="quiz-hint" id="quiz-hint-${q.id}">${q.multiple?'Select all that apply.':'Choose one answer.'}</p><div class="quiz-options">${q.options.map(option=>{
+          return `<article class="quiz-question${result?' quiz-'+result.status:''}" id="quiz-question-${q.id}" data-question="${q.id}"><fieldset aria-describedby="quiz-hint-${q.id}" ${submitted?'disabled':''}><legend><span class="quiz-question-number">Question ${q.id}</span><span class="quiz-prompt">${escapeHTML(q.prompt)}</span></legend><p class="quiz-hint" id="quiz-hint-${q.id}">${q.multiple ? (q.selectionCount ? `Select ${q.selectionCount} answers.` : 'Select all that apply.') : 'Choose one answer.'}</p><div class="quiz-options">${q.options.map(option=>{
             const chosen=answers[q.id]?.includes(option.id), right=result&&q.correct.includes(option.id),wrong=result&&chosen&&!right;
             return `<label class="quiz-option${right?' choice-correct':wrong?' choice-wrong':''}"><input type="${q.multiple?'checkbox':'radio'}" name="q${q.id}" value="${option.id}" ${chosen?'checked':''}><span class="quiz-option-letter">${option.id}.</span><span class="quiz-option-copy">${escapeHTML(option.text)}<span class="quiz-option-note">${right?'✓ Correct answer':wrong?'✕ Your answer':''}</span></span></label>`;
           }).join('')}</div></fieldset><div class="quiz-feedback" ${result?'':'hidden'}>${result?feedback(q,result):''}</div></article>`;
         }).join('')}</div>
         <p class="quiz-end-note">Use the Submit quiz and Reset quiz buttons above to review or try again.</p>
       </form>
-      <section class="reading-references quiz-references" aria-labelledby="quiz-reading-title"><h2 id="quiz-reading-title">Reading references</h2><p>Questions, choices, grading key, and original rationales: ${escapeHTML(practiceQuizData.source)}. The supplied answer key is preserved; separately labeled clinical-context notes clarify selected teaching points.</p><ul>${questions.filter(q=>q.context).map(q=>`<li><a href="${escapeHTML(q.context.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(q.context.sourceTitle)} ↗</a></li>`).join('')}</ul></section>`;
+      ${copy.referencesHTML !== undefined ? copy.referencesHTML : `<section class="reading-references quiz-references" aria-labelledby="quiz-reading-title"><h2 id="quiz-reading-title">Reading references</h2><p>Questions, choices, grading key, and original rationales: ${escapeHTML(data.source)}. The supplied answer key is preserved; separately labeled clinical-context notes clarify selected teaching points.</p><ul>${questions.filter(q=>q.context).map(q=>`<li><a href="${escapeHTML(q.context.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(q.context.sourceTitle)} ↗</a></li>`).join('')}</ul></section>`}`;
   }
   function mount(root) {
     const form=root.querySelector('.practice-quiz');if(!form)return()=>{};
-    const questions=practiceQuizData.questions, results=form.querySelector('.quiz-results'), progress=form.querySelector('.quiz-progress'), submit=form.querySelector('.quiz-submit');
+    const questions=data.questions, results=form.querySelector('.quiz-results'), progress=form.querySelector('.quiz-progress'), submit=form.querySelector('.quiz-submit');
     let disposed=false;
     const capture=()=>{questions.forEach(q=>{answers[q.id]=[...form.querySelectorAll(`input[name="q${q.id}"]:checked`)].map(input=>input.value);});};
     const updateProgress=()=>{progress.textContent=`${questions.filter(q=>answers[q.id]?.length).length} of ${questions.length} answered`;};
@@ -74,4 +74,5 @@ const PracticeQuiz = (() => {
     return()=>{disposed=true;form.removeEventListener('change',onChange);form.removeEventListener('submit',onSubmit);form.removeEventListener('reset',onReset);};
   }
   return {section,mount,grade};
-})();
+}
+const PracticeQuiz = Object.assign(createPracticeQuiz(practiceQuizData), {create: createPracticeQuiz});

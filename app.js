@@ -65,7 +65,7 @@ function renderStudyGuide() {
   document.title = 'Final exam study guide · Project Green Light';
   main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/final">Med Search 3</a><span aria-hidden="true">/</span><span>Study guide</span></nav>
     <section class="hero condition-hero study-guide-hero"><p class="eyebrow">MED SEARCH 3 / FINAL EXAM</p><h1>Final exam<br><span>study guide.</span></h1><p class="hero-copy">Review a condition, test yourself, or listen.</p></section>
-    <nav class="study-guide-tools" aria-label="Study guide tools"><a href="#/final/quiz"><strong>Practice quiz</strong><span>Answer & review</span><span class="study-tool-arrow" aria-hidden="true">→</span></a><a href="#/final/podcast"><strong>Podcast</strong><span>Listen & review</span><span class="study-tool-arrow" aria-hidden="true">→</span></a><a href="#/final/videos"><strong>Videos</strong><span>Watch & understand</span><span class="study-tool-arrow" aria-hidden="true">→</span></a></nav>
+    <nav class="study-guide-tools" aria-label="Study guide tools"><a href="#/final/quiz"><strong>Practice quiz</strong><span>Answer & review</span><span class="study-tool-arrow" aria-hidden="true">→</span></a><a href="#/final/nclex"><strong>NCLEX-style quiz</strong><span>Presentation questions</span><span class="study-tool-arrow" aria-hidden="true">→</span></a><a href="#/final/podcast"><strong>Podcast</strong><span>Listen & review</span><span class="study-tool-arrow" aria-hidden="true">→</span></a><a href="#/final/videos"><strong>Videos</strong><span>Watch & understand</span><span class="study-tool-arrow" aria-hidden="true">→</span></a></nav>
     <section class="condition-library" aria-labelledby="conditions-title"><div class="section-heading"><h2 id="conditions-title">Choose a condition</h2></div><div class="condition-topic-list">${examTopics.map(topic => {
       const body = `<span class="objective-number">${String(topic.number).padStart(2, '0')}</span><span class="condition-topic-title">${escapeHTML(topic.title)}</span><span class="condition-topic-state" aria-hidden="true">→</span>`;
       return `<a class="condition-topic" href="#/final/condition/${topic.id}">${body}</a>`;
@@ -124,6 +124,12 @@ function renderPodcast() {
   disposePodcast = PodcastPlayer.mount(main);
 }
 
+function renderPresentationQuiz(selectedID = '') {
+  document.title = 'NCLEX-style quiz · Project Green Light';
+  main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/final/study-guide">Final exam study guide</a><span aria-hidden="true">/</span><span>NCLEX-style quiz</span></nav><section class="hero quiz-hero"><p class="eyebrow">FINAL EXAM STUDY GUIDE</p><h1>NCLEX-style<br><span>quiz.</span></h1><p class="hero-copy">Review the presentation questions.</p></section>${PresentationQuizzes.section(selectedID)}<nav class="guide-bottom" aria-label="Study guide"><a class="text-link" href="#/final/study-guide">← Final exam study guide</a></nav>`;
+  disposeQuiz = PresentationQuizzes.mount(main, selectedID);
+}
+
 function renderPracticeQuiz() {
   document.title = 'Practice quiz · Project Green Light';
   main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/final/study-guide">Final exam study guide</a><span aria-hidden="true">/</span><span>Practice quiz</span></nav>
@@ -175,7 +181,7 @@ function renderPresentationLibrary() {
 function renderPresentation(deck) {
   document.title = `${deck.title} · Presentation · Project Green Light`;
   const conditionEntry = Object.entries(conditionNotes).find(([, condition]) => condition.deck === deck.id);
-  main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/final/presentations">Presentations</a>${deck.week ? `<span aria-hidden="true">/</span><a href="#/final/week-${deck.week}">Week ${deck.week}</a>` : ''}</nav>${conditionEntry ? `<div class="presentation-study-link"><a class="text-link" href="#/final/condition/${conditionEntry[0]}">Open ${escapeHTML(deck.title)} study breakdown →</a></div>` : ''}<section class="presentation-reader" aria-label="${escapeHTML(deck.title)} PDF viewer"></section><div class="guide-bottom"><a class="text-link" href="#/final/presentations">← All presentations</a>${deck.week ? `<a class="text-link" href="#/final/week-${deck.week}">← Week ${deck.week} guide</a>` : ''}</div>`;
+  main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/final/presentations">Presentations</a>${deck.week ? `<span aria-hidden="true">/</span><a href="#/final/week-${deck.week}">Week ${deck.week}</a>` : ''}</nav><nav class="presentation-study-link" aria-label="Presentation study tools">${conditionEntry ? `<a class="text-link" href="#/final/condition/${conditionEntry[0]}">Open ${escapeHTML(deck.title)} study breakdown →</a>` : ''}<a class="text-link" href="#/final/nclex/${deck.id}">NCLEX-style quiz →</a></nav><section class="presentation-reader" aria-label="${escapeHTML(deck.title)} PDF viewer"></section><div class="guide-bottom"><a class="text-link" href="#/final/presentations">← All presentations</a>${deck.week ? `<a class="text-link" href="#/final/week-${deck.week}">← Week ${deck.week} guide</a>` : ''}</div>`;
   disposePresentation = PresentationViewer.mount(document.querySelector('.presentation-reader'), deck);
 }
 
@@ -198,6 +204,8 @@ function render(focus = false) {
   disposeSectionQuizzes(); disposeSectionQuizzes = () => {};
   if (route === '#/final/study-guide') renderStudyGuide();
   else if (route.startsWith('#/final/condition/') && conditionNotes[route.slice('#/final/condition/'.length)]) renderCondition(conditionNotes[route.slice('#/final/condition/'.length)]);
+  else if (route === '#/final/nclex') renderPresentationQuiz();
+  else if (route.startsWith('#/final/nclex/') && presentationDecks[route.slice('#/final/nclex/'.length)]) renderPresentationQuiz(route.slice('#/final/nclex/'.length));
   else if (route === '#/final/quiz') renderPracticeQuiz();
   else if (route === '#/final/podcast') renderPodcast();
   else if (route === '#/final/videos') renderVideoLibrary();
