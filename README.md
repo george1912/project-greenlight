@@ -107,7 +107,7 @@ Run `node scripts/check-podcast.cjs` for playback-state, seeking, cleanup, failu
 
 `#/final/quiz` contains all 15 questions, 61 answer choices and original answer-key rationales from the supplied `Med-Surg III Practice Questions 2.pdf`, including question 5's A/B/D select-all key. The requested “Special thanks to Danalky.” note appears above the quiz. `quiz-data.js` stores normalized text and the source PDF's SHA-256 for traceability; the PDF itself is not published.
 
-`quiz.js` provides single-choice radios and multi-select checkboxes, an answered counter, Submit quiz, overall score/percentage, correct/incorrect/unanswered feedback per question, correct answers, original rationales and Reset quiz. Each question is one point. Multi-select scoring requires an exact set match; omitted or extra choices receive no point. Unanswered questions receive no point and are labeled separately. Submission locks the answers for review; Reset clears answers, score, annotations and feedback and enables a fresh attempt. The draft/submitted attempt survives navigation within the current app visit; refreshing starts over. Nothing is sent or saved to a server.
+`quiz.js` provides single-choice radios and multi-select checkboxes, an answered counter, Submit quiz, overall score/percentage, correct/incorrect/unanswered feedback per question, correct answers, original rationales and Reset quiz. Each question is one point. Multi-select scoring requires an exact set match; omitted or extra choices receive no point. Unanswered questions receive no point and are labeled separately. Submission locks the answers for review; Reset clears answers, score, annotations and feedback and enables a fresh attempt. The draft/submitted attempt survives navigation within the current app visit; refreshing starts over. Quiz answers and scores stay in tab memory and are not sent to a server. Traffic analytics record published page visits and fixed activity names only.
 
 The supplied answer key remains unchanged. Separately labeled post-submission clinical-context notes clarify MS heat sensitivity, individualized fluid intake and contemporary arm-procedure guidance after axillary surgery; sources are also at the bottom. Original PDF rationales remain identifiable as supplied wording.
 
@@ -120,3 +120,18 @@ All 14 condition routes begin with a compact poster preview alongside Exam focus
 Clicking the image opens the existing full-window viewer with zoom, Fit, Actual size, panning and Escape/Close. There is no separate Expand poster button, action row or visible poster-text disclosure. The supplied text remains available to screen readers. Poster clarifications and the optional PNG download are in the existing Clinical corrections & clarifications disclosure at the bottom. Within the expanded viewer, its clarification is below the image.
 
 The 16 study sections, exam-focus shortcuts, section navigation and reading references are retained. Run `node scripts/check-posters.cjs` to verify mappings, original image hashes/dimensions, the simplified layout, bottom clarifications and deployment assets.
+
+
+## Traffic analytics
+
+GoatCounter uses the existing owner dashboard at https://george1912.goatcounter.com/, the same public tracker code configured for Critical Point Machine by its `GOATCOUNTER_CODE` GitHub variable. The tracking endpoint is a public identifier, not a secret or an admin credential.
+
+Green Light page paths start with `/project-greenlight/`, so its pages can be distinguished from `/critical-points-machine/` in the shared dashboard. Hash-based study-guide, condition, week, presentation and quiz routes are counted separately with readable page titles. Unknown routes, query strings and referrer query/path data are excluded. External referrers are reduced to their origin.
+
+Two fixed activity names are recorded as events: quiz submission and checking a section-practice answer. Events are grouped by their current Green Light page. No answer choices, scores, question text, uploaded files, names or typed input are sent by the integration. The provider supplies its standard aggregate traffic reports. Existing student content and layouts are unchanged.
+
+Tracking starts only on the HTTPS GitHub Pages production hostname and project path. Local previews, other hosts and browsers indicating Do Not Track are excluded. Blocked analytics or provider errors do not prevent studying. Ad blockers and browser privacy settings can cause visits not to appear. Analytics are not retroactive.
+
+Implementation: `analytics.js`, invoked after each app render, with fixed activity hooks in the quiz controls. Automatic provider pageviews are disabled so the first page and subsequent route changes are counted once. Reading the dashboard still uses the owner's existing GoatCounter login; the tracker grants no dashboard access.
+
+Validation: `node scripts/check-analytics.cjs` covers queued first visits, route coverage, duplicate suppression, activity fields, query/referrer stripping, local/DNT exclusions, failure handling and deployment assets. Provider integration follows https://www.goatcounter.com/help/spa and https://www.goatcounter.com/help/js.

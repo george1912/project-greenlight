@@ -47,6 +47,7 @@ function createPracticeQuiz(data, copy = {}) {
     function onChange(event){if(submitted||!event.target.matches('input'))return;capture();updateProgress();}
     function onSubmit(event){
       event.preventDefault();if(submitted||disposed)return;capture();submitted=true;
+      if (typeof SiteAnalytics !== 'undefined') SiteAnalytics.event('quiz_submitted');
       const score=grade(questions,answers);results.innerHTML=summary(score);results.hidden=false;
       questions.forEach(q=>{
         const card=form.querySelector(`[data-question="${q.id}"]`),result=score.results.find(r=>r.id===q.id);

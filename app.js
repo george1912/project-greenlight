@@ -222,6 +222,7 @@ function render(focus = false) {
       main.innerHTML = '<section class="hero"><p class="eyebrow">A SMALL DETOUR</p><h1>Let’s head home.</h1><p>This study page hasn’t been added yet.</p><a class="text-link" href="#/">← Back to the study shelf</a></section>';
     }
   }
+  if (typeof SiteAnalytics !== 'undefined') SiteAnalytics.page(route, document.title);
   disposeVideos = VideoLibrary.mount(main);
   if (focus) { main.focus({ preventScroll: true }); window.scrollTo(0, 0); }
 }

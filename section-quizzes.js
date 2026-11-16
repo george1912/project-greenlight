@@ -77,7 +77,9 @@ const SectionQuizzes = (() => {
       const id = form.dataset.practiceQuestion; if (attempts.get(id)?.checked) return;
       const selected = capture(form);
       if (!selected.length) { form.querySelector('.section-practice-error').textContent = 'Choose an answer before checking.'; return; }
-      attempts.set(id, {selected, checked: true}); replace(form, '.section-practice-feedback');
+      attempts.set(id, {selected, checked: true});
+      if (typeof SiteAnalytics !== 'undefined') SiteAnalytics.event('answer_checked');
+      replace(form, '.section-practice-feedback');
     });
     listen(root, 'reset', event => {
       const form = event.target.closest('.section-practice-question'); if (!form) return;
