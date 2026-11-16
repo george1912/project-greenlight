@@ -30,6 +30,8 @@ MG retains the supplied notes’ detailed tests, therapies, adverse effects, nut
 
 ## Content scope
 
+`#/final/condition/breast-gynecologic-cancers` is a breast-focused Topic 12 breakdown in the same 16 sections, with brief gynecologic comparisons and the requested cervical-screening/endometrial-biopsy points. Five focus buttons cover breast risk reduction, SLNB care, chemotherapy/fever, cervical screening, and endometrial biopsy. The Week 7 breast presentation and six existing umbrella-topic videos are retained. Sources reviewed November 15, 2026 support corrections to biomarkers/genetics, source-specific screening (including ACS self-collection and 2026 ACOG bleeding evaluation), individualized node/arm care, drug safety, fever definitions, nutrition, and completed nursing-process content. References and correction notes remain at the bottom.
+
 `#/final/condition/meniere-disease` adds the supplied Ménière’s notes in all 16 sections, with symptoms and HCTZ shortcuts, original presentation, and existing videos. The topic retains no assigned week and links to Additional presentations rather than a fabricated week. Corrections cover definite/probable criteria, hydrops/epidemiology, selected tests, acute/chronic rehabilitation, Meniett, diuretic evidence/potassium safety, sedatives/reversal, and individualized nutrition. Sources reviewed November 15, 2026 and correction notes remain at the bottom; missing nursing-process content is completed.
 
 The final-exam study-guide entry is the primary green card above weekly navigation, with a larger title and clear open action. The study-guide page title is enlarged and the homepage exam card opens the condition guide directly. Weekly objectives and presentation routes remain available.
