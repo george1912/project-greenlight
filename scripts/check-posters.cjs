@@ -9,10 +9,10 @@ for(const topic of data.topics){
  assert.equal(p.priorities.length,4);assert.equal(p.watch_for.length,4);assert.equal(p.glance.length,3);
  s.location.hash='#/final/condition/'+topic.id;vm.runInContext('render()',s);const html=main.innerHTML;
  assert(html.indexOf('class="condition-poster"')<html.indexOf('class="condition-focus"'));assert(html.indexOf('class="condition-poster"')<html.indexOf('id="condition-overview"'));
- assert(html.includes(`src="${p.file}"`));assert(html.includes('width="1200" height="1446"'));assert(html.includes('fetchpriority="high"'));assert(html.includes('Read poster text'));assert(html.includes('data-poster-actual'));assert(html.includes('data-open-section="overview"'));
+ assert(html.includes(`src="${p.file}"`));assert(html.includes('width="1200" height="1446"'));assert(html.includes('fetchpriority="high"'));assert(!html.includes('Read poster text'));assert(!html.includes('Expand poster'));assert(html.includes('Click poster to enlarge'));assert(html.indexOf('class="condition-navigation"')<html.indexOf('class="condition-sections"'));assert(html.indexOf('Poster clinical clarification')>html.indexOf('id="condition-videos"'));assert(html.includes('data-poster-actual'));assert(html.includes('data-open-section="overview"'));
  assert.equal((html.match(/class="condition-section"/g)||[]).length,16);assert(html.indexOf('id="reading-title"')>html.indexOf('id="condition-videos"'));
  for(const section of ['overview','manifestations','risk','diagnostics','medical','medications','nonpharmacological','adverse-effects','nutrition','assessment','diagnoses','priorities','plan','interventions','education','evaluation'])assert(html.includes('id="condition-'+section+'"'));
  if(p.clarification){assert(html.includes('Poster clinical clarification'));assert(p.clarification.references.every(ref=>new URL(ref.url).protocol==='https:'));}
 }
 const workflow=fs.readFileSync(path.join(root,'.github/workflows/pages.yml'),'utf8');assert(workflow.includes('posters.js'));assert(workflow.includes('presentations posters _site/'));
-console.log('Passed: all 14 route/poster mappings, original PNG hashes/dimensions, poster-before-notes placement, text versions, viewer controls, preserved 16-section notes and bottom references, and deployment assets.');
+console.log('Passed: all 14 route/poster mappings, original PNG hashes/dimensions, compact poster/navigation layout, hidden accessible text, bottom clarifications, viewer controls, preserved 16-section notes and bottom references, and deployment assets.');
