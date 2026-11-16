@@ -167,5 +167,5 @@ const VideoLibrary = (() => {
     });
     return () => { stop(); thumbnailObserver?.disconnect(); };
   }
-  return { section, mount, available };
+  return { section, mount, available, loadYouTubeAPI };
 })();
