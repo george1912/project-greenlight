@@ -135,3 +135,12 @@ Tracking starts only on the HTTPS GitHub Pages production hostname and project p
 Implementation: `analytics.js`, invoked after each app render, with fixed activity hooks in the quiz controls. Automatic provider pageviews are disabled so the first page and subsequent route changes are counted once. Reading the dashboard still uses the owner's existing GoatCounter login; the tracker grants no dashboard access.
 
 Validation: `node scripts/check-analytics.cjs` covers queued first visits, route coverage, duplicate suppression, activity fields, query/referrer stripping, local/DNT exclusions, failure handling and deployment assets. Provider integration follows https://www.goatcounter.com/help/spa and https://www.goatcounter.com/help/js.
+
+
+## Focused review guide
+
+The study-guide tools include `#/final/focused-review`, a readable edition of the supplied Mini MS3 Final Exam Study Guide with “Special thanks to Kristeen.” All 16 original topics and 18 quick-recall rows are organized into expandable sections, with a topic selector and Expand all / Collapse all controls. The source’s tables are readable HTML, including the image-only HIV testing table on page 8. The original PDF remains available from the bottom reading references.
+
+Necessary clinical clarifications are incorporated into the review and summarized in a bottom disclosure; source references are grouped below it. Exact original/replacement statements and the source fingerprint are recorded in `docs/focused-review-audit.json`. The source PDF is unchanged. `focused-review-data.js` contains the editable content, and `focused-review.js` renders it.
+
+Run `node scripts/check-focused-review.cjs` to verify topic/recall/table coverage, source hash, key safety corrections, credit, navigation and deployment assets. The focused route is also included in production traffic analytics.

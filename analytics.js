@@ -13,7 +13,7 @@ const SiteAnalytics = (() => {
   }
   function routePath(route) {
     if (!route || route === '#' || route === '#/') return prefix + '/';
-    const simple = ['#/final', '#/final/study-guide', '#/final/quiz', '#/final/nclex', '#/final/podcast', '#/final/videos', '#/final/presentations'];
+    const simple = ['#/final/focused-review', '#/final', '#/final/study-guide', '#/final/quiz', '#/final/nclex', '#/final/podcast', '#/final/videos', '#/final/presentations'];
     if (simple.includes(route) || /^#\/final\/week-(7|8|9|12)$/.test(route)) return prefix + route.slice(1);
     if (route.startsWith('#/final/condition/') && examTopics.some(topic => topic.id === route.slice('#/final/condition/'.length))) return prefix + route.slice(1);
     for (const type of ['presentation', 'nclex']) {

@@ -13,6 +13,7 @@ assert.equal(f.scripts.length,1);assert.equal(f.hits.length,0);assert(f.context.
 assert.equal(f.scripts[0].src,'https://gc.zgo.at/count.js');assert.equal(f.scripts[0].dataset.goatcounter,'https://george1912.goatcounter.com/count');
 f.load();assert.equal(f.hits.length,2);assert.equal(f.hits[1].path,'/project-greenlight/final/condition/parkinsons');assert.equal(f.hits[0].referrer,'https://example.org');
 f.api.page('#/final/condition/parkinsons','Duplicate');assert.equal(f.hits.length,2);
+f.api.page('#/final/focused-review','Focused review guide');assert.equal(f.hits.at(-1).path,'/project-greenlight/final/focused-review');
 const data=vm.runInContext('({topics:examTopics,decks:presentationDecks})',f.context);
 for(const topic of data.topics)f.api.page('#/final/condition/'+topic.id,topic.title);
 for(const deck of Object.values(data.decks)){f.api.page('#/final/presentation/'+deck.id,deck.title);f.api.page('#/final/nclex/'+deck.id,deck.title);}

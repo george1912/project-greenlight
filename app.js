@@ -5,6 +5,7 @@ let disposePodcast = () => {};
 let disposeQuiz = () => {};
 let disposePoster = () => {};
 let disposeSectionQuizzes = () => {};
+let disposeFocusedReview = () => {};
 const escapeHTML = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 function studyContent(blocks) {
   return blocks.map(block => {
@@ -65,7 +66,7 @@ function renderStudyGuide() {
   document.title = 'Final exam study guide · Project Green Light';
   main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/final">Med Search 3</a><span aria-hidden="true">/</span><span>Study guide</span></nav>
     <section class="hero condition-hero study-guide-hero"><p class="eyebrow">MED SEARCH 3 / FINAL EXAM</p><h1>Final exam<br><span>study guide.</span></h1><p class="hero-copy">Review a condition, test yourself, or listen.</p></section>
-    <nav class="study-guide-tools" aria-label="Study guide tools"><a href="#/final/quiz"><strong>Practice quiz</strong><span>Answer & review</span><span class="study-tool-arrow" aria-hidden="true">→</span></a><a href="#/final/nclex"><strong>NCLEX-style quiz</strong><span>Presentation questions</span><span class="study-tool-arrow" aria-hidden="true">→</span></a><a href="#/final/podcast"><strong>Podcast</strong><span>Listen & review</span><span class="study-tool-arrow" aria-hidden="true">→</span></a><a href="#/final/videos"><strong>Videos</strong><span>Watch & understand</span><span class="study-tool-arrow" aria-hidden="true">→</span></a></nav>
+    <nav class="study-guide-tools" aria-label="Study guide tools"><a href="#/final/focused-review"><strong>Focused review</strong><span>Study guide topics</span><span class="study-tool-arrow" aria-hidden="true">→</span></a><a href="#/final/quiz"><strong>Practice quiz</strong><span>Answer & review</span><span class="study-tool-arrow" aria-hidden="true">→</span></a><a href="#/final/nclex"><strong>NCLEX-style quiz</strong><span>Presentation questions</span><span class="study-tool-arrow" aria-hidden="true">→</span></a><a href="#/final/podcast"><strong>Podcast</strong><span>Listen & review</span><span class="study-tool-arrow" aria-hidden="true">→</span></a><a href="#/final/videos"><strong>Videos</strong><span>Watch & understand</span><span class="study-tool-arrow" aria-hidden="true">→</span></a></nav>
     <section class="condition-library" aria-labelledby="conditions-title"><div class="section-heading"><h2 id="conditions-title">Choose a condition</h2></div><div class="condition-topic-list">${examTopics.map(topic => {
       const body = `<span class="objective-number">${String(topic.number).padStart(2, '0')}</span><span class="condition-topic-title">${escapeHTML(topic.title)}</span><span class="condition-topic-state" aria-hidden="true">→</span>`;
       return `<a class="condition-topic" href="#/final/condition/${topic.id}">${body}</a>`;
@@ -113,6 +114,12 @@ function renderCondition(condition) {
 
 function examNavigation(active) {
   return `<nav class="week-nav exam-section-nav" aria-label="Weekly materials">${studyWeeks.map(w => `<a href="#/final/week-${w.number}" ${w.number === active ? 'aria-current="page"' : ''}><span>Week ${w.number}</span><span class="week-subtitle">${w.number === 7 ? 'Parkinson’s disease' : w.number === 12 ? 'HIV / AIDS' : 'Student presentations'}</span></a>`).join('')}</nav>`;
+}
+
+function renderFocusedReview() {
+  document.title = 'Focused review guide · Project Green Light';
+  main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/final/study-guide">Final exam study guide</a><span aria-hidden="true">/</span><span>Focused review</span></nav><section class="hero quiz-hero"><p class="eyebrow">FINAL EXAM STUDY GUIDE</p><h1>Focused review<br><span>guide.</span></h1></section>${FocusedReview.section()}<nav class="guide-bottom" aria-label="Study guide"><a class="text-link" href="#/final/study-guide">← Final exam study guide</a></nav>`;
+  disposeFocusedReview = FocusedReview.mount(main);
 }
 
 function renderPodcast() {
@@ -202,7 +209,9 @@ function render(focus = false) {
   disposeQuiz(); disposeQuiz = () => {};
   disposePoster(); disposePoster = () => {};
   disposeSectionQuizzes(); disposeSectionQuizzes = () => {};
+  disposeFocusedReview(); disposeFocusedReview = () => {};
   if (route === '#/final/study-guide') renderStudyGuide();
+  else if (route === '#/final/focused-review') renderFocusedReview();
   else if (route.startsWith('#/final/condition/') && conditionNotes[route.slice('#/final/condition/'.length)]) renderCondition(conditionNotes[route.slice('#/final/condition/'.length)]);
   else if (route === '#/final/nclex') renderPresentationQuiz();
   else if (route.startsWith('#/final/nclex/') && presentationDecks[route.slice('#/final/nclex/'.length)]) renderPresentationQuiz(route.slice('#/final/nclex/'.length));

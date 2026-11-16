@@ -29,8 +29,8 @@ jobs:
       - name: Prepare static website
         run: |
           mkdir -p _site
-          cp index.html app.js analytics.js content.js conditions.js presentations.js viewer.js videos.js video-library.js podcast.js quiz-data.js quiz.js presentation-quiz-data.js presentation-quizzes.js posters.js section-quizzes.js styles.css favicon.svg .nojekyll _site/
-          cp -R presentations posters practice-questions _site/
+          cp index.html app.js analytics.js focused-review.js focused-review-data.js content.js conditions.js presentations.js viewer.js videos.js video-library.js podcast.js quiz-data.js quiz.js presentation-quiz-data.js presentation-quizzes.js posters.js section-quizzes.js styles.css favicon.svg .nojekyll _site/
+          cp -R presentations posters practice-questions resources _site/
       - name: Upload website
         uses: actions/upload-pages-artifact@v4
         with:

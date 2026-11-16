@@ -1,0 +1,21 @@
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict'),crypto=require('node:crypto');
+const root=path.resolve(__dirname,'..'),main={innerHTML:'',querySelector:()=>null,querySelectorAll:()=>[],focus:()=>{}};
+const s={URL,document:{querySelector:()=>main,title:''},location:{hash:'#/final/focused-review'},window:{addEventListener:()=>{},scrollTo:()=>{}},console};vm.createContext(s);
+for(const f of ['content.js','presentations.js','conditions.js','videos.js','video-library.js','podcast.js','quiz-data.js','quiz.js','presentation-quiz-data.js','presentation-quizzes.js','posters.js','section-quizzes.js','focused-review-data.js','focused-review.js','app.js'])vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),s,{filename:f});
+const data=vm.runInContext('focusedReviewData',s),text=JSON.stringify(data.sections);
+assert.equal(data.sections.length,16);assert.equal(new Set(data.sections.map(section=>section.id)).size,16);assert.equal(data.recall.length,18);
+for(const [index,section] of data.sections.entries()){
+ assert.equal(section.number,index+1);assert(section.title&&section.blocks.length&&section.sourcePages.every(n=>n>=1&&n<=10));
+ for(const b of section.blocks){assert(['heading','paragraph','list','table'].includes(b.type));if(b.type==='list')assert(b.items.length&&b.items.every(Boolean));if(b.type==='table')assert(b.rows.length&&b.rows.every(row=>row.length===b.columns.length&&row.every(Boolean)));}
+ assert(main.innerHTML.includes(`id="focused-${section.id}"`));
+}
+assert.equal(data.sections.flatMap(section=>section.blocks).filter(block=>block.type==='table').length,5);
+const hiv=data.sections.find(section=>section.id==='hiv'),tables=hiv.blocks.filter(block=>block.type==='table');assert.equal(tables[0].rows.length,7);assert.equal(tables[1].rows.length,5);assert(hiv.blocks.some(block=>block.text?.includes('HAND is not itself an opportunistic infection')));assert(text.includes('HIV-1 p24 antigen plus HIV-1 and HIV-2 antibodies'));
+assert(text.includes('do not apply a blanket stop rule'));assert(!text.includes('Stop acetylcholinesterase.'));assert(!text.includes('Do not start it during an acute attack.'));assert(text.includes('may be started during a treated flare'));assert(text.includes('HLA-B*58:01'));assert(text.includes('testing is not universal')||text.includes('Testing is not universal'));assert(text.includes('until after the first food'));
+assert(main.innerHTML.includes('Special thanks to Kristeen.'));assert(main.innerHTML.includes('topics provided in the final exam study guide'));assert.equal((main.innerHTML.match(/class="condition-section focused-topic"/g)||[]).length,17);assert.equal((main.innerHTML.match(/class="condition-section focused-topic"[^>]*\bopen\b/g)||[]).length,1);
+assert(main.innerHTML.indexOf('id="focused-reading-title"')>main.innerHTML.indexOf('id="focused-recall"'));assert(main.innerHTML.includes('Clinical reference links'));assert(!/<details class="focused-reference-links" open/.test(main.innerHTML));assert(data.references.length&&data.references.every(ref=>new URL(ref.url).protocol==='https:'));
+assert(main.innerHTML.includes('href="#/final/presentation/lupus"'));assert(main.innerHTML.includes('href="#/final/presentation/osteomyelitis"'));assert(main.innerHTML.includes('href="#/final/condition/parkinsons"'));
+const audit=JSON.parse(fs.readFileSync(path.join(root,'docs/focused-review-audit.json')));assert.equal(audit.changes.length,39);assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,data.source))).digest('hex'),audit.sourceSha256);
+s.location.hash='#/final/study-guide';vm.runInContext('render()',s);assert(main.innerHTML.includes('href="#/final/focused-review"'));assert.equal((main.innerHTML.match(/class="study-tool-arrow"/g)||[]).length,5);
+const workflow=fs.readFileSync(path.join(root,'.github/workflows/pages.yml'),'utf8');assert(workflow.includes('focused-review.js focused-review-data.js'));assert(workflow.includes('practice-questions resources _site/'));
+console.log('Passed: 16 topics, 18 recall rows, all 6 readable tables including the image-only HIV source table, corrected safety points, original PDF hash, collapsed topics/references, Kristeen credit, study-guide navigation and deployment assets.');

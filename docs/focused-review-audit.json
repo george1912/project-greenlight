@@ -1,0 +1,575 @@
+{
+  "reviewed": "2026-11-16",
+  "sourcePDF": "mini MS3 guide.pdf",
+  "sourceSha256": "22b5edadd2d4a5b1cf6116f960496c2a6733addb4e2f7dd1e440fe1ae9911e79",
+  "sourcePages": 10,
+  "topics": 16,
+  "recallRows": 18,
+  "changes": [
+    {
+      "section": 1,
+      "original": "Assess for dysphagia, coughing, choking, and aspiration.",
+      "replacement": "Assess for dysphagia, coughing, choking, and aspiration; absence of coughing does not exclude silent aspiration.",
+      "reason": "Brief safety qualification: the listed bedside symptoms can be absent during aspiration. Keeps the supplied swallowing focus without expanding into a full assessment.",
+      "sources": [
+        {
+          "title": "ASHA · Adult dysphagia",
+          "url": "https://www.asha.org/practice-portal/clinical-topics/adult-dysphagia/"
+        }
+      ],
+      "location": "p1 · Swallowing safety"
+    },
+    {
+      "section": 2,
+      "original": "Report increased weakness, difficulty breathing, or swallowing.",
+      "replacement": "Report increased weakness; seek emergency assessment for new breathing difficulty, inability to manage saliva, or severe swallowing difficulty.",
+      "reason": "A routine report instruction understates respiratory/bulbar emergency symptoms in MG.",
+      "sources": [
+        {
+          "title": "ABN · Myasthenia gravis management guidelines, 2025 update",
+          "url": "https://pn.bmj.com/content/25/5/422"
+        },
+        {
+          "title": "MGFA · Emergency management for first responders",
+          "url": "https://myasthenia.org/understanding-mg/learn-more-about-mg-treatments/mg-brochures/emergency-management-for-first-responders/"
+        }
+      ],
+      "location": "p1 · Pyridostigmine instructions"
+    },
+    {
+      "section": 2,
+      "original": "Myasthenic crisis: Severe respiratory muscle weakness. Assess respiratory effort, vital capacity, and oxygenation. Stop acetylcholinesterase. Prepare for possible intubation and ventilatory support. Cholinergic crisis: S.L.U.D.G.E. (salivation/sweating, lacrimation, urination, defecation, gastrointestinal cramps, vomiting). Treatment is atropine.",
+      "replacement": "Myasthenic crisis: severe respiratory/bulbar weakness. Assess respiratory effort, vital capacity/FVC, NIF and secretion clearance; normal oxygen saturation does not exclude ventilatory failure. Obtain urgent support and prepare for intubation/ventilation if indicated. Adjust or hold pyridostigmine under the crisis/neurology plan, commonly during intubation to reduce secretions; do not apply a blanket stop rule.\n\nCholinergic crisis: excess acetylcholinesterase inhibitor causes weakness plus S.L.U.D.G.E. (salivation/sweating, lacrimation, urination, defecation, gastrointestinal cramps, vomiting). Hold further medication and obtain emergency care. Atropine treats muscarinic effects such as secretions/bradycardia, but does not reverse skeletal-muscle paralysis; airway/ventilatory support remains essential.",
+      "reason": "Current crisis management is not a blanket independent stop-AChE instruction for every worsening MG patient. Atropine does not reverse nicotinic weakness/paralysis, and oxygenation alone can miss early neuromuscular ventilatory failure. All supplied SLUDGE manifestations are retained.",
+      "sources": [
+        {
+          "title": "ABN · Myasthenia gravis management guidelines, 2025 update",
+          "url": "https://pn.bmj.com/content/25/5/422"
+        },
+        {
+          "title": "MGFA · Emergency management for first responders",
+          "url": "https://myasthenia.org/understanding-mg/learn-more-about-mg-treatments/mg-brochures/emergency-management-for-first-responders/"
+        },
+        {
+          "title": "Medsafe · Mestinon data sheet",
+          "url": "https://www.medsafe.govt.nz/profs/datasheet/m/Mestinontab.pdf"
+        }
+      ],
+      "location": "p1 · Crisis paragraph"
+    },
+    {
+      "section": 3,
+      "original": "Treatment: IV corticosteroids for acute flare, plasmapheresis second option. DMTs (ocrelizumab) are taken regularly.",
+      "replacement": "Treatment: significant relapses may need high-dose oral or IV corticosteroids after assessing for infection. Plasma exchange is an option for severe steroid-refractory relapse. DMTs such as ocrelizumab follow an ongoing prescribed schedule.",
+      "reason": "Steroids are not required for every flare and need not be IV. Plasma exchange is selected for severe steroid-refractory disease, not an automatic second treatment. Ocrelizumab is administered on a regimen-specific schedule rather than implying a daily oral medicine.",
+      "sources": [
+        {
+          "title": "NICE NG220 · MS management and relapse treatment",
+          "url": "https://www.nice.org.uk/guidance/ng220/chapter/Recommendations"
+        },
+        {
+          "title": "VA MS Centers of Excellence · Relapse management",
+          "url": "https://www.va.gov/MS/LEARN_ABOUT_MULTIPLE_SCLEROSIS/Relapse_Management_for_Multiple_Sclerosis.asp"
+        }
+      ],
+      "location": "p2 · Treatment"
+    },
+    {
+      "section": 4,
+      "original": "Respiratory status: Forced vital capacity (FVC) & Negative Inspiratory force (NIF). Assess respiratory rate, effort, cough strength, oxygenation, and ability to clear secretions.",
+      "replacement": "Respiratory status: trend forced vital capacity (FVC) and negative inspiratory force (NIF). Assess rate, effort, cough, oxygenation and secretion clearance; normal SpO₂ does not exclude hypoventilation.",
+      "reason": "Retains all supplied respiratory assessment elements while preventing false reassurance from normal oxygen saturation.",
+      "sources": [
+        {
+          "title": "NICE NG42 · Motor neurone disease assessment and management",
+          "url": "https://www.nice.org.uk/guidance/ng42/chapter/Recommendations"
+        }
+      ],
+      "location": "p2 · Priority assessment"
+    },
+    {
+      "section": 4,
+      "original": "CAM (Communication Assistance Method):",
+      "replacement": "Communication assistance: augmentative and alternative communication (AAC; labeled “CAM” in this guide):",
+      "reason": "AAC is the established clinical term. Retains the guide’s CAM label for continuity rather than presenting Communication Assistance Method as a standardized acronym. All four supplied communication strategies should remain unchanged.",
+      "sources": [
+        {
+          "title": "ASHA · Augmentative and alternative communication",
+          "url": "https://www.asha.org/practice-portal/professional-issues/augmentative-and-alternative-communication"
+        },
+        {
+          "title": "NICE NG42 · Motor neurone disease assessment and management",
+          "url": "https://www.nice.org.uk/guidance/ng42/chapter/Recommendations"
+        }
+      ],
+      "location": "p2 · Communication heading"
+    },
+    {
+      "section": 4,
+      "original": "Treatment: Riluzole slows disease progression. It is hepatotoxic.",
+      "replacement": "Treatment: riluzole may modestly prolong survival; monitor liver tests because hepatic injury can occur.",
+      "reason": "States the demonstrated benefit and monitoring implication precisely without promising restored function or an individual response.",
+      "sources": [
+        {
+          "title": "DailyMed · Riluzole prescribing information",
+          "url": "https://dailymed.awsprod.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=dd432c13-389e-46b3-8891-0cf1a58800ff&type=display"
+        },
+        {
+          "title": "NICE NG42 · Motor neurone disease assessment and management",
+          "url": "https://www.nice.org.uk/guidance/ng42/chapter/Recommendations"
+        }
+      ],
+      "location": "p2 · Treatment"
+    },
+    {
+      "section": 5,
+      "original": "Positive Kernig's and Brudzinski's signs.",
+      "replacement": "Kernig’s and Brudzinski’s signs may be present; negative signs do not exclude meningitis.",
+      "reason": "These signs have limited sensitivity and must not be taught as required findings.",
+      "sources": [
+        {
+          "title": "ESCMID · Acute bacterial meningitis guideline",
+          "url": "https://doi.org/10.1016/j.cmi.2016.01.007"
+        },
+        {
+          "title": "NICE NG240 · Bacterial meningitis recognition and urgent care",
+          "url": "https://www.nice.org.uk/guidance/ng240/chapter/Recommendations"
+        }
+      ],
+      "location": "p2 · Clinical signs and symptoms"
+    },
+    {
+      "section": 5,
+      "original": "Droplet precautions:",
+      "replacement": "Standard plus Droplet Precautions when meningococcal or Hib meningitis is suspected/confirmed:",
+      "reason": "The subsequent mask/room/transport and 24-hour points are appropriate for meningococcal/Hib disease, not every cause of meningitis. Retain all supplied sub-bullets; use local empiric precautions while the cause is unknown.",
+      "sources": [
+        {
+          "title": "CDC · Type and duration of organism-specific precautions",
+          "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html"
+        }
+      ],
+      "location": "p3 · Precautions heading"
+    },
+    {
+      "section": 6,
+      "original": "Symmetrical ascending weakness (starts in legs and moves upward).",
+      "replacement": "Typically relatively symmetrical weakness, often starting in the legs and ascending; variants can differ.",
+      "reason": "Preserves the classic pattern without implying every GBS variant must ascend or be perfectly symmetric.",
+      "sources": [
+        {
+          "title": "EAN/PNS · GBS diagnosis and treatment guideline",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/ene.16073"
+        }
+      ],
+      "location": "p3 · Clinical manifestations"
+    },
+    {
+      "section": 6,
+      "original": "Treatment: IVIG or plasma exchange. No corticosteroids.",
+      "replacement": "Treatment: IVIG or plasma exchange. Corticosteroids are not effective routine GBS treatment.",
+      "reason": "Retains the disease-directed treatment distinction while avoiding an absolute ban on corticosteroids for a separate coexisting indication.",
+      "sources": [
+        {
+          "title": "EAN/PNS · GBS diagnosis and treatment guideline",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/ene.16073"
+        }
+      ],
+      "location": "p3 · Treatment"
+    },
+    {
+      "section": 5,
+      "original": "Meningitis Droplet precautions and prompt antibiotics",
+      "replacement": "Meningitis: suspected bacterial disease needs prompt antibiotics; droplet precautions when indicated.",
+      "reason": "Quick recall must not imply every meningitis cause is treated with antibiotics or requires droplet isolation.",
+      "sources": [
+        {
+          "title": "CDC · Type and duration of organism-specific precautions",
+          "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html"
+        },
+        {
+          "title": "NICE NG240 · Bacterial meningitis recognition and urgent care",
+          "url": "https://www.nice.org.uk/guidance/ng240/chapter/Recommendations"
+        }
+      ],
+      "location": "p10 · Quick recall row"
+    },
+    {
+      "section": "7. Rheumatoid Arthritis (RA) — medications",
+      "original": "Methotrexate: common first-line treatment; monitor CBC and liver function. Only given 1x per week.",
+      "replacement": "Methotrexate: a common first-line DMARD for RA. Give the prescribed weekly regimen, not daily; verify the weekly day and prescribed folate. Monitor CBC, liver and renal function.",
+      "reason": "Preserves the essential weekly-dose teaching, adds renal safety and folate, and avoids accidental daily-dose harm.",
+      "sources": [
+        {
+          "title": "FDA · Methotrexate tablets (2026 label)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/008085s072lbl.pdf"
+        }
+      ]
+    },
+    {
+      "section": "7. Rheumatoid Arthritis (RA) — labs",
+      "original": "ESR/CRP Elevated inflammation",
+      "replacement": "ESR/CRP: markers of inflammation; may be elevated, but normal results do not exclude RA.",
+      "reason": "These are supportive inflammatory markers, not mandatory positive findings or independent diagnostic tests.",
+      "sources": [
+        {
+          "title": "NIAMS · RA diagnosis, treatment and self-care",
+          "url": "https://www.niams.nih.gov/health-topics/rheumatoid-arthritis/diagnosis-treatment-and-steps-to-take"
+        }
+      ]
+    },
+    {
+      "section": "8. Osteoarthritis (OA) — manifestations",
+      "original": "Degenerative \"wear-and-tear\" joint disease.",
+      "replacement": "A degenerative whole-joint disease involving cartilage, bone and surrounding tissues; local inflammation can occur. It is more than simple “wear and tear.”",
+      "reason": "Updates the simplified mechanism while retaining the degenerative-disease distinction from RA.",
+      "sources": [
+        {
+          "title": "NIAMS · Osteoarthritis overview",
+          "url": "https://www.niams.nih.gov/health-topics/osteoarthritis"
+        }
+      ]
+    },
+    {
+      "section": "8. Osteoarthritis (OA) — diagnostics",
+      "original": "Diagnosis is based on x-ray imaging and symptoms rather than labs like RA.",
+      "replacement": "Typical OA is usually diagnosed clinically from symptoms and examination without routine imaging. X-rays are used when indicated, such as atypical findings or surgical planning; no blood test independently confirms OA.",
+      "reason": "Typical OA does not require an X-ray; RA likewise cannot be diagnosed from laboratory results alone.",
+      "sources": [
+        {
+          "title": "NICE NG226 · OA clinical diagnosis",
+          "url": "https://www.nice.org.uk/guidance/ng226/chapter/Recommendations"
+        },
+        {
+          "title": "NIAMS · RA diagnosis, treatment and self-care",
+          "url": "https://www.niams.nih.gov/health-topics/rheumatoid-arthritis/diagnosis-treatment-and-steps-to-take"
+        }
+      ]
+    },
+    {
+      "section": "9. Osteoporosis — T-score interpretation",
+      "original": "T-score: Normal: −1.0 or higher. Osteopenia: between −1.0 and −2.5. Osteoporosis: −2.5 or lower.",
+      "replacement": "T-scores are used for classification in postmenopausal women and men age 50 or older. Normal: ≥−1.0; low bone mass/osteopenia: −2.5 < T-score < −1.0; osteoporosis: ≤−2.5 at an accepted diagnostic site. In younger adults, Z-scores are generally preferred. Continue to assess fracture history and risk factors.",
+      "reason": "Clarifies the population and nonoverlapping boundaries without replacing fracture-risk assessment with a scan number.",
+      "sources": [
+        {
+          "title": "ISCD · Adult DXA positions",
+          "url": "https://iscd.org/text-based-official-adult-positions/"
+        }
+      ]
+    },
+    {
+      "section": "9. Osteoporosis — bisphosphonate teaching",
+      "original": "Take prescribed bisphosphonates (e.g., alendronate) with a full glass of plain water on an empty stomach; remain upright for at least 30 minutes.",
+      "replacement": "For oral alendronate: take after rising with a full glass (6–8 oz) of plain water, at least 30 minutes before food, other drinks or medicines. Remain upright for at least 30 minutes and until after the first food. Follow the exact product instructions: other bisphosphonates have different food/upright rules or are given IV; delayed-release risedronate is taken immediately after breakfast.",
+      "reason": "The original generic rule is inappropriate for every bisphosphonate. It also omits alendronate’s first-food requirement.",
+      "sources": [
+        {
+          "title": "FDA · Fosamax (2026 label)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/020560s073lbl.pdf"
+        },
+        {
+          "title": "FDA · Atelvia delayed-release risedronate (2026 label)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/022560s013bl.pdf"
+        }
+      ]
+    },
+    {
+      "section": "10. Gout — mechanism",
+      "original": "Increased uric acid causes urate crystal deposits in joints.",
+      "replacement": "Gout is caused by monosodium urate crystal deposits in and around joints. Persistent high urate favors crystal formation, but hyperuricemia alone does not prove gout.",
+      "reason": "Distinguishes the disease from an isolated elevated urate result.",
+      "sources": [
+        {
+          "title": "NIAMS · Gout symptoms, causes and risk",
+          "url": "https://www.niams.nih.gov/health-topics/gout"
+        }
+      ]
+    },
+    {
+      "section": "10. Gout — diet",
+      "original": "Avoid high-purine foods: organ meats, red meat, sardines, anchovies, and some shellfish.",
+      "replacement": "Limit high-purine animal foods, especially organ meats, large portions of red meat, sardines, anchovies and selected shellfish. Maintain a balanced diet; dietary measures support, rather than replace, indicated urate-lowering treatment.",
+      "reason": "Avoids implying a restrictive diet alone treats gout or that every high-purine food must be completely excluded.",
+      "sources": [
+        {
+          "title": "NICE NG219 · Gout diet and management",
+          "url": "https://www.nice.org.uk/guidance/ng219/chapter/Recommendations"
+        },
+        {
+          "title": "ACR · Gout management guideline",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/"
+        }
+      ]
+    },
+    {
+      "section": "10. Gout — alcohol",
+      "original": "Limit alcohol, especially beer (yeast worsens gout).",
+      "replacement": "Limit alcohol, especially beer. Alcohol and beer’s purine content can increase urate burden or trigger flares; the mechanism is not simply “yeast worsens gout.”",
+      "reason": "Preserves the alcohol/beer warning while correcting the oversimplified causal explanation.",
+      "sources": [
+        {
+          "title": "NIAMS · Gout symptoms, causes and risk",
+          "url": "https://www.niams.nih.gov/health-topics/gout"
+        },
+        {
+          "title": "ACR · Gout management guideline",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/"
+        }
+      ]
+    },
+    {
+      "section": "10. Gout — allopurinol timing and rash",
+      "original": "Allopurinol is for prevention, not immediate relief of an acute attack. Do not start it during an acute attack. Report rash immediately.",
+      "replacement": "Allopurinol lowers urate over time; it does not provide immediate flare pain relief. Continue established therapy during an ordinary flare unless a safety issue arises. When ULT is indicated, it may be started during a treated flare with the prescriber’s anti-inflammatory/prophylaxis plan. Stop allopurinol at a new rash or hypersensitivity sign and seek prompt medical advice; blistering, mouth sores, facial swelling or systemic illness require urgent care.",
+      "reason": "ACR no longer supports a universal ban on initiation during a flare. “Report rash” alone omits the label’s stop-at-first-rash instruction.",
+      "sources": [
+        {
+          "title": "ACR · Gout management guideline",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/"
+        },
+        {
+          "title": "DailyMed · Allopurinol (2026 label)",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=815af471-5985-4819-936d-1f5f3d871ef8"
+        }
+      ]
+    },
+    {
+      "section": "10. Gout — HLA screening",
+      "original": "(Screen for HLA-B:5801 allele first to avoid allergic reaction).",
+      "replacement": "Before starting allopurinol, consider selective HLA-B*58:01 testing according to ancestry/risk and guidance—for example, ACR conditionally recommends it for Southeast Asian (Han Chinese, Korean or Thai) and African American patients. Testing is not universal, and a negative result does not eliminate hypersensitivity risk.",
+      "reason": "Corrects the allele notation, avoids universal testing and does not promise that testing prevents every allergic reaction.",
+      "sources": [
+        {
+          "title": "ACR · Gout management guideline",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/"
+        },
+        {
+          "title": "DailyMed · Allopurinol (2026 label)",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=815af471-5985-4819-936d-1f5f3d871ef8"
+        }
+      ]
+    },
+    {
+      "section": "11. Ménière’s Disease — clinical heading",
+      "original": "Clinical manifestations (classic triad):",
+      "replacement": "Clinical manifestations: the classic triad is episodic vertigo, tinnitus and sensorineural hearing loss; aural fullness and nausea/vomiting are additional features.",
+      "reason": "Preserves all five source features while distinguishing the three-part triad from associated findings. Keep the source bullets below this clarified heading.",
+      "sources": [
+        {
+          "title": "NIDCD · Ménière disease",
+          "url": "https://www.nidcd.nih.gov/health/menieres-disease"
+        }
+      ]
+    },
+    {
+      "section": "11. Ménière’s Disease — HCTZ",
+      "original": "Thiazide diuretic used to reduce fluid retention and help decrease vertigo episodes.",
+      "replacement": "HCTZ is a thiazide diuretic that may be offered as maintenance treatment to help reduce vertigo attacks; benefit varies. Continue the prescribed sodium plan and monitoring for blood pressure, potassium, kidney function, dehydration and orthostasis.",
+      "reason": "AAO-HNS treats diuretic maintenance as an option; symptom benefit is not assured. The original monitoring and fall-safety points remain appropriate.",
+      "sources": [
+        {
+          "title": "AAO-HNS · Ménière disease clinical practice guideline",
+          "url": "https://aao-hnsfjournals.onlinelibrary.wiley.com/doi/10.1177/0194599820909438"
+        },
+        {
+          "title": "NIDCD · Ménière disease",
+          "url": "https://www.nidcd.nih.gov/health/menieres-disease"
+        }
+      ]
+    },
+    {
+      "section": "16. Osteomyelitis — inflammatory markers",
+      "original": "ESR and CRP: elevated inflammatory markers.",
+      "replacement": "ESR and CRP may be elevated and support assessment, but normal results do not exclude osteomyelitis. WBC can also be normal; interpret tests with symptoms, imaging and cultures.",
+      "reason": "Prevents false reassurance from normal markers, particularly in diabetic foot infection.",
+      "sources": [
+        {
+          "title": "IWGDF/IDSA · Diabetic foot infection and osteomyelitis",
+          "url": "https://www.idsociety.org/practice-guideline/diabetic-foot-infections/"
+        }
+      ]
+    },
+    {
+      "section": "16. Osteomyelitis — antibiotic route and duration",
+      "original": "Administer IV antibiotics as prescribed; treatment often lasts 4–6 weeks or longer.",
+      "replacement": "Administer prescribed culture-directed antibiotics. IV therapy is used when indicated; selected stable patients can receive appropriate oral therapy. Treatment often lasts several weeks, but the route and duration depend on the organism, site and surgery—for example, 6 weeks for diabetic foot osteomyelitis without bone resection, with shorter courses possible after selected resections.",
+      "reason": "Osteomyelitis does not universally require a prolonged IV course. Retain cultures-before-antibiotics when feasible without delaying urgent treatment.",
+      "sources": [
+        {
+          "title": "IWGDF/IDSA · Diabetic foot infection and osteomyelitis",
+          "url": "https://www.idsociety.org/practice-guideline/diabetic-foot-infections/"
+        }
+      ]
+    },
+    {
+      "section": "Recall table — RA (page 10)",
+      "original": "DMARDs; monitor CBC and liver function",
+      "replacement": "DMARDs; weekly methotrexate when prescribed, with CBC/liver/renal monitoring",
+      "reason": "Keeps the quick recall aligned with the RA medication safety correction.",
+      "sources": [
+        {
+          "title": "FDA · Methotrexate tablets (2026 label)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/008085s072lbl.pdf"
+        }
+      ]
+    },
+    {
+      "section": "Recall table — Gout (page 10)",
+      "original": "Avoid high-purine foods",
+      "replacement": "Limit high-purine animal foods; know flare treatment versus long-term ULT",
+      "reason": "Retains the dietary focus without treating dietary avoidance as the complete long-term treatment plan.",
+      "sources": [
+        {
+          "title": "NICE NG219 · Gout diet and management",
+          "url": "https://www.nice.org.uk/guidance/ng219/chapter/Recommendations"
+        },
+        {
+          "title": "ACR · Gout management guideline",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/"
+        }
+      ]
+    },
+    {
+      "section": "Recall table — Osteomyelitis (page 10)",
+      "original": "IV antibiotics and infection monitoring",
+      "replacement": "Prescribed antibiotics (IV or appropriate oral therapy), wound care and infection/sepsis monitoring",
+      "reason": "Matches the corrected individualized antibiotic-route teaching.",
+      "sources": [
+        {
+          "title": "IWGDF/IDSA · Diabetic foot infection and osteomyelitis",
+          "url": "https://www.idsociety.org/practice-guideline/diabetic-foot-infections/"
+        }
+      ]
+    },
+    {
+      "section": "12. Breast and Gynecologic Cancers · SLNB (p6)",
+      "original": "Identifies the first lymph node(s) to which cancer may spread. Uses radioactive dye that turns urine and stool blue/green.",
+      "replacement": "Identifies the first draining lymph node(s). Mapping may use a radioactive tracer and/or blue dye. The blue dye—not the radiotracer—can temporarily turn urine blue/green and may stain skin; this is agent-specific.",
+      "reason": "The source conflates the radiotracer with blue dye and attributes their effects to a single “radioactive dye.” Keep the recognition/teaching point with the correct mapping-agent distinction.",
+      "sources": [
+        {
+          "title": "NCI · Sentinel lymph node biopsy",
+          "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/staging/sentinel-node-biopsy-fact-sheet"
+        },
+        {
+          "title": "UCSF · Sentinel node biopsy and blue dye teaching",
+          "url": "https://cancer.ucsf.edu/breastcarecenter/treatment/surgical_oncology/sentinel_lymph"
+        }
+      ]
+    },
+    {
+      "section": "12. Breast and Gynecologic Cancers · SLNB (p6)",
+      "original": "Protect the affected arm from injury and infection. No BP cuff or venipuncture.",
+      "replacement": "Protect the arm from skin injury/infection and report new swelling promptly. Prefer an unaffected site for BP or needle procedures when feasible, especially with established lymphedema; follow individualized precautions. Past node surgery alone is not a universal lifelong prohibition and should not delay necessary care.",
+      "reason": "The absolute ban is unsupported for every at-risk arm. Existing lymphedema and individual circumstances need different precautions.",
+      "sources": [
+        {
+          "title": "NICE NG101 · Breast cancer recommendations",
+          "url": "https://www.nice.org.uk/guidance/ng101/chapter/recommendations"
+        },
+        {
+          "title": "NCI · Lymphedema",
+          "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/lymphedema"
+        }
+      ]
+    },
+    {
+      "section": "12. Breast and Gynecologic Cancers · Cervical screening table (p6)",
+      "original": "Age | Screening (ACOG)\n21–29 | Pap test every 3 years\n30–65 | Primary high-risk HPV test every 5 years (preferred)\n30–65 | Pap/HPV co-testing every 5 years is acceptable\nOver 65 | May stop if adequately screened and not high-risk",
+      "replacement": "ACOG 2026: asymptomatic, average-risk people with a cervix\n21–29: Pap/cytology alone every 3 years.\n30–65: Clinician-collected primary hrHPV every 5 years is preferred; approved patient-collected hrHPV every 3 years is an option.\n30–65: Pap/hrHPV cotesting every 5 years is acceptable; if hrHPV testing is unavailable, cytology alone every 3 years remains an option.\nOver 65: Stop only with adequate prior negative screening and no high-risk reason to continue. Prior high-grade precancer/cancer, HIV/immunocompromise, or abnormal findings require a separate plan. Symptoms require diagnostic assessment rather than waiting for routine screening.",
+      "reason": "The basic source ages are appropriate for its ACOG framing, but the table needs average-risk scope, the current self-collection option and cytology fallback. Do not substitute ACS’s age-25 start or merge its separate exit criteria into an ACOG table.",
+      "sources": [
+        {
+          "title": "ACOG · Cervical cancer screening (2026)",
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-statement/articles/2026/07/screening-for-cervical-cancer"
+        },
+        {
+          "title": "ACOG · Updated screening guidance and self-collection (April 2026)",
+          "url": "https://www.acog.org/news/news-releases/2026/04/acog-publishes-updated-cervical-cancer-screening-guidance"
+        },
+        {
+          "title": "HRSA · Women’s preventive services guidelines",
+          "url": "https://www.hrsa.gov/womens-guidelines"
+        }
+      ]
+    },
+    {
+      "section": "14. HIV and Opportunistic Infections · OI introduction (p7)",
+      "original": "Occur when HIV damages the immune system, particularly when CD4 count falls below 200 cells/mm³.",
+      "replacement": "OI risk increases as immune function declines. Many important OIs are associated with CD4 <200 cells/mm³, but organism-specific risk levels vary; TB can occur at any CD4 count.",
+      "reason": "Keep the source’s CD4 study cue without implying that all listed infections require a CD4 count below 200.",
+      "sources": [
+        {
+          "title": "NIH · TB in people with HIV",
+          "url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/mycobacterium"
+        }
+      ]
+    },
+    {
+      "section": "14. HIV and Opportunistic Infections · HAND table row (p7)",
+      "original": "HIV associated neurocognitive disorder (HAND) | “HIV dementia”",
+      "replacement": "Remove HAND from the infection table and retain it as a separate neurological complication: HIV-associated neurocognitive disorders range from mild cognitive difficulties to HIV-associated dementia, the severe form. HAND is not itself an opportunistic infection.",
+      "reason": "HAND is a spectrum, not synonymous with dementia, and should not be classified as an OI.",
+      "sources": [
+        {
+          "title": "NIH · HIV-associated neurocognitive disorders",
+          "url": "https://clinicalinfo.hiv.gov/en/glossary/hiv-associated-neurocognitive-disorders-hand"
+        }
+      ]
+    },
+    {
+      "section": "14. HIV and Opportunistic Infections · PEP definition (p7)",
+      "original": "Medication taken AFTER potential HIV exposure.",
+      "replacement": "Prescribed antiretroviral medication after a substantial-risk HIV exposure when indicated. Seek urgent risk assessment; not every body-fluid or sexual contact requires PEP.",
+      "reason": "Qualify the broad definition so examples such as sexual exposure or needlestick do not become automatic indications without exposure/source assessment. Retain the correct ASAP/ideally24h/≤72h and 28-day bullets.",
+      "sources": [
+        {
+          "title": "CDC · Nonoccupational HIV PEP (2025)",
+          "url": "https://www.cdc.gov/mmwr/volumes/74/rr/rr7401a1.htm"
+        }
+      ]
+    },
+    {
+      "section": "14. HIV and Opportunistic Infections · PrEP options and schedules (p7)",
+      "original": "Oral options include Truvada (F/TDF) and Descovy (F/TAF); injectable cabotegravir is another option.\nOral PrEP is taken daily; injectable cabotegravir is administered on a scheduled injection regimen.",
+      "replacement": "Options include daily oral TDF/FTC (Truvada/generic), TAF/FTC (Descovy; not indicated for receptive vaginal exposure), IM cabotegravir (Apretude), and subcutaneous lenacapavir (Yeztugo).\nCabotegravir: first injection, another 1 month later, then every 2 months. Lenacapavir: oral/injection loading followed by injections every 6 months. Follow product-specific eligibility, HIV-testing and missed-dose plans.",
+      "reason": "Add the current six-monthly option and prevent treating TAF/FTC as interchangeable for every exposure route. Keep this as a compact options/schedules update rather than expanding into a prescribing guide.",
+      "sources": [
+        {
+          "title": "CDC · PrEP clinical guidance",
+          "url": "https://www.cdc.gov/hivnexus/hcp/prep/"
+        },
+        {
+          "title": "CDC · Six-monthly lenacapavir PrEP",
+          "url": "https://www.cdc.gov/mmwr/volumes/74/wr/mm7435a1.htm"
+        }
+      ]
+    },
+    {
+      "section": "14. HIV and Opportunistic Infections · Embedded test table (image on p8; absent from extracted text)",
+      "original": "HIV nucleic acid test | Tests for HIV ribonucleic acid virus\nHIV-1/HIV-2 immunoassay | Tests for both HIV-1 and HIV-2 antibodies\nHIV-1/HIV-2 antigen/antibody combination immunoassay | Tests for both antigen and antibody for both HIV-1 and HIV-2\nHIV-1 differentiation assay | Differentiates HIV-1 from HIV-2\nHIV-1 p24 antigen | Tests directly for antigen",
+      "replacement": "HIV test | What it detects\nHIV nucleic acid test (NAT) | Viral genetic material, usually HIV-1 RNA in the standard diagnostic algorithm.\nHIV-1/HIV-2 antibody immunoassay | Antibodies to HIV-1 and HIV-2.\nHIV-1/HIV-2 antigen/antibody combination immunoassay | HIV-1 p24 antigen plus HIV-1 and HIV-2 antibodies.\nHIV-1/HIV-2 antibody differentiation immunoassay | Distinguishes HIV-1 from HIV-2 antibodies after a reactive screen.\nHIV-1 p24 antigen test | HIV-1 p24 protein; this antigen component is included in the combination assay.",
+      "reason": "The real PDF p8 contains an image-only five-row table that pages.json omits. Preserve it as accessible text while correcting the false implication of routine HIV-2 antigen detection and the HIV-1-only differentiation label.",
+      "sources": [
+        {
+          "title": "CDC/APHL · HIV laboratory testing algorithm",
+          "url": "https://stacks.cdc.gov/view/cdc/23446/cdc_23446_DS1.pdf"
+        }
+      ]
+    },
+    {
+      "section": "Quick recall · Prostate cancer (p10)",
+      "original": "Bone metastasis is usually first",
+      "replacement": "Common distant spread: bone; new back/hip pain or cord-compression signs need prompt assessment.",
+      "reason": "Bone is a common distant site, not a guaranteed first step. Regional nodes or local extension can precede distant spread.",
+      "sources": [
+        {
+          "title": "NCI · Prostate cancer treatment and spread",
+          "url": "https://www.cancer.gov/types/prostate/patient/prostate-treatment-pdq"
+        }
+      ]
+    }
+  ],
+  "summary": "All source topics, bullets and tables retained with clinical clarifications, including the image-only HIV testing table on source page 8."
+}

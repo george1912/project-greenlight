@@ -14,5 +14,5 @@ for(const topic of data.topics){
  for(const section of ['overview','manifestations','risk','diagnostics','medical','medications','nonpharmacological','adverse-effects','nutrition','assessment','diagnoses','priorities','plan','interventions','education','evaluation'])assert(html.includes('id="condition-'+section+'"'));
  if(p.clarification){assert(html.includes('Poster clinical clarification'));assert(p.clarification.references.every(ref=>new URL(ref.url).protocol==='https:'));}
 }
-const workflow=fs.readFileSync(path.join(root,'.github/workflows/pages.yml'),'utf8');assert(workflow.includes('posters.js'));assert(workflow.includes('presentations posters practice-questions _site/'));
+const workflow=fs.readFileSync(path.join(root,'.github/workflows/pages.yml'),'utf8');assert(workflow.includes('posters.js'));assert(workflow.includes('presentations posters practice-questions resources _site/'));
 console.log('Passed: all 14 route/poster mappings, original PNG hashes/dimensions, compact poster/navigation layout, hidden accessible text, bottom clarifications, viewer controls, preserved 16-section notes and bottom references, and deployment assets.');
