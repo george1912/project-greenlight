@@ -105,14 +105,17 @@ body.reader-modal-open{overflow:hidden}
 @media(max-height:500px){.reader-dialog .reader-toolbar{padding:4px 8px}.reader-dialog .reader-toolbar .reader-pdf-link{display:none}.reader-dialog .reader-controls{display:flex;flex-wrap:wrap;gap:8px;padding:4px 8px}.reader-dialog .auto-controls{grid-column:auto;margin-left:auto}.reader-dialog .auto-controls>label{display:none}}
 
 /* Shared condition study guide: one section order on every screen. */
-.study-guide-entry{display:flex;align-items:center;justify-content:space-between;gap:22px;margin:25px 0;text-decoration:none;background:var(--yellow);border:2px solid var(--ink);box-shadow:3px 3px 0 #c9cbbf;padding:20px 23px}
-.study-guide-entry:hover{background:var(--mint)}
-.study-guide-entry>span:first-child{display:grid;gap:5px}
-.study-guide-entry .micro-label{color:var(--green)}
-.study-guide-entry strong{font:500 29px/1.2 var(--pixel)}
-.study-guide-entry>span>span:last-child{font-size:14px;color:var(--muted)}
-.entry-arrow{font:34px var(--pixel)}
+.study-guide-entry{display:flex;align-items:center;justify-content:space-between;gap:32px;margin:30px 0;text-decoration:none;background:var(--green);color:var(--white);border:2px solid var(--ink);box-shadow:6px 6px 0 #b8c5ac;padding:32px;transition:background .15s,transform .15s,box-shadow .15s}
+.study-guide-entry:hover{background:var(--green-dark);transform:translate(-2px,-2px);box-shadow:8px 8px 0 #b8c5ac}
+.study-guide-entry:active{transform:translate(2px,2px);box-shadow:3px 3px 0 #b8c5ac}
+.study-guide-entry-copy{display:grid;gap:12px;min-width:0}
+.study-guide-entry .micro-label{color:#d8e8c7}
+.study-guide-entry strong{font:500 clamp(36px,4.7vw,54px)/1.08 var(--pixel);max-width:16ch}
+.study-guide-description{font-size:16px;line-height:1.6;color:#e3ecde;max-width:52ch}
+.entry-arrow{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-shrink:0;background:var(--yellow);color:var(--green-dark);border:2px solid var(--ink);padding:14px 18px;font:500 20px/1.2 var(--pixel);white-space:nowrap;box-shadow:3px 3px 0 #173e30}
+.entry-arrow>span{font-size:28px;line-height:1}
 .condition-hero h1{font-size:clamp(39px,6.5vw,64px);letter-spacing:-1px;color:var(--green);overflow-wrap:anywhere}
+.study-guide-hero h1{font-size:clamp(48px,8.5vw,88px);line-height:1.04}
 .condition-hero .hero-copy{font-size:17px;max-width:65ch}
 .condition-slides{display:inline-block;margin-top:18px;font-size:14px}
 .guide-intro{max-width:75ch;margin:25px 0;font-size:16px}
@@ -180,8 +183,9 @@ a.condition-topic:hover{background:var(--yellow)}
 .condition-videos p>span{display:block;font-size:14px;color:var(--muted)}
 .presentation-study-link{margin-top:23px;font-size:14px}
 @media(max-width:720px){
-  .study-guide-entry{padding:17px;gap:15px}
-  .study-guide-entry strong{font-size:26px}
+  .study-guide-entry{padding:24px 20px;gap:22px;flex-direction:column;align-items:stretch}
+  .study-guide-entry strong{font-size:clamp(34px,8vw,46px)}
+  .study-guide-entry .entry-arrow{align-self:flex-start;max-width:100%;gap:14px;padding:12px 14px;font-size:18px;white-space:normal}
   .condition-topic{grid-template-columns:28px minmax(0,1fr);padding:16px 13px;gap:5px 10px}
   .condition-topic-title{font-size:21px}
   .condition-topic-state{grid-column:2;font-size:11px;white-space:normal;margin-top:4px}
