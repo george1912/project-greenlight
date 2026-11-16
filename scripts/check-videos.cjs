@@ -5,7 +5,7 @@ const root = path.resolve(__dirname, '..');
 const main = {innerHTML:'',querySelector:()=>null,querySelectorAll:()=>[],focus:()=>{}};
 const sandbox = {URL,document:{querySelector:()=>main,title:''},location:{hash:'#/final/study-guide'},window:{addEventListener:()=>{},scrollTo:()=>{}},console};
 vm.createContext(sandbox);
-for (const file of ['content.js','presentations.js','conditions.js','videos.js','video-library.js','app.js']) vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),sandbox,{filename:file});
+for (const file of ['content.js','presentations.js','conditions.js','videos.js','video-library.js','posters.js','app.js']) vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),sandbox,{filename:file});
 vm.runInContext(`
   if (videoResources.length !== 80 || VideoLibrary.available().length !== 78) throw Error('Import count mismatch');
   for (const v of videoResources) {

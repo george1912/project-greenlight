@@ -112,3 +112,13 @@ Run `node scripts/check-podcast.cjs` for playback-state, seeking, cleanup, failu
 The supplied answer key remains unchanged. Separately labeled post-submission clinical-context notes clarify MS heat sensitivity, individualized fluid intake and contemporary arm-procedure guidance after axillary surgery; sources are also at the bottom. Original PDF rationales remain identifiable as supplied wording.
 
 The exam navigation now contains the four weeks, Podcast and Practice quiz; the homepage continues to open the overview with the large study-guide card first. Run `node scripts/check-quiz.cjs` to validate the source-matched key, all multi-select combinations, scores, route links and pre-submission answer hiding. Browser checks cover Submit/Reset, exact-set multi-select grading, score/feedback, route retention and desktop/mobile layouts.
+
+## Nursing-focus posters
+
+All 14 condition routes show the matching supplied nursing poster as the first study content, before the exam focus and the 16 written sections. The heading is compact so the image appears immediately. `posters/` contains the original 1200 × 1446 PNG files, copied byte-for-byte from the user archive (about 2.2 MB total); one current-condition image loads eagerly with intrinsic dimensions and high priority. Original asset hashes and explicit route mappings are in `posters.js`.
+
+Selecting the image or **Expand poster** opens a native modal dialog covering the viewport. Zoom, Fit, Actual size, scrolling/panning and Close are available; Escape dismisses the dialog and returns focus. Resizing/orientation changes recalculate fit while in Fit mode. Navigation disposes the viewer and removes its scroll lock. An original PNG download and **Study notes** jump remain available. **Read poster text** provides the supplied text without relying on raster-image reading.
+
+Original poster wording is preserved. Short, source-linked clinical clarifications are placed directly beneath posters with oversimplified or conflicting claims (protein/levodopa, MG crisis, MS vaccines/heat, meningitis LP care, osteoporosis thresholds, gout therapy, arm procedures, prostate bone pain and HIV prevention/precautions). These are separate from the artwork and transcript and remain visible in the expanded viewer. The archive's stale handoff description of the live topic list was not used: all 14 posters match the current study-guide topics exactly. Archive code and handoff notes are not executed or published.
+
+Run `node scripts/check-posters.cjs` to verify all mappings, PNG hashes and dimensions, placement, text/viewer controls, retained sections/references and published asset configuration.
