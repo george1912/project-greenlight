@@ -1139,9 +1139,35 @@ const conditionNotes = {
         { type: 'paragraph', text: 'Before sampling, verify consent, pregnancy exclusion when relevant, infection/bleeding/medicine review, and an individualized pain plan; an NSAID 30–60 minutes beforehand may be offered when safe but is not adequate for everyone. Empty the bladder, provide privacy and support, and monitor vasovagal symptoms. Mild cramps/spotting can last a few days. Follow the actual aftercare interval for intercourse/tampons and avoid douching; report heavy bleeding (for example, soaking a pad in an hour), severe/worsening pain, fever, or foul discharge promptly.' }
       ],
       medical: [
-        { type: 'paragraph', text: 'Breast treatment depends on stage, invasive/in situ type, grade, ER/PR/HER2 and other relevant biomarkers, previous therapies, health, fertility goals, and preferences. Distinguish local treatment from systemic treatment and neoadjuvant (before surgery) from adjuvant (after surgery) therapy. Not every patient needs every modality.' },
-        { type: 'list', items: ['Surgery: lumpectomy/breast-conserving surgery removes the tumor with a margin; mastectomy removes breast tissue. Nodal staging/dissection is a separate individualized decision. Offer discussion of reconstruction, external prosthesis, or flat closure as appropriate.', 'Radiation: commonly follows breast conservation and is used after selected mastectomies or for palliation. Selected patients may safely omit it after specialist assessment; treatment is not identical for all stages.', 'Systemic treatment: chemotherapy, HR-directed endocrine treatment, HER2/other targeted therapy, or immunotherapy may reduce recurrence risk, shrink disease before surgery, or control metastatic cancer and symptoms.', 'Address fertility preservation before potentially gonadotoxic treatment, pregnancy/contraception and menopausal effects, supportive/palliative care, distress, and practical access throughout the plan. Breast surgery alone does not cause surgical menopause; ovarian removal or ovarian-suppressing/gonadotoxic treatment can.'] },
-        { type: 'paragraph', text: 'Gynecologic care remains cancer-specific: cervical, endometrial, and ovarian/tubal disease have different surgery, radiation, and biomarker-guided systemic pathways. These breast regimens should not be copied automatically to pelvic cancers. Refer abnormal bleeding or persistent pelvic/abdominal findings for appropriate gynecologic evaluation.' }
+        {
+          "type": "paragraph",
+          "text": "Breast treatment depends on stage, invasive/in situ type, grade, ER/PR/HER2 and other relevant biomarkers, previous therapies, health, fertility goals, and preferences. Distinguish local treatment from systemic treatment and neoadjuvant (before surgery) from adjuvant (after surgery) therapy. Not every patient needs every modality."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Surgery: lumpectomy/breast-conserving surgery removes the tumor with a margin; mastectomy removes breast tissue. Nodal staging/dissection is a separate individualized decision. Offer discussion of reconstruction, external prosthesis, or flat closure as appropriate.",
+            "Radiation: commonly follows breast conservation and is used after selected mastectomies or for palliation. Selected patients may safely omit it after specialist assessment; treatment is not identical for all stages.",
+            "Systemic treatment: chemotherapy, HR-directed endocrine treatment, HER2/other targeted therapy, or immunotherapy may reduce recurrence risk, shrink disease before surgery, or control metastatic cancer and symptoms.",
+            "Address fertility preservation before potentially gonadotoxic treatment, pregnancy/contraception and menopausal effects, supportive/palliative care, distress, and practical access throughout the plan. Breast surgery alone does not cause surgical menopause; ovarian removal or ovarian-suppressing/gonadotoxic treatment can."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Gynecologic care remains cancer-specific: cervical, endometrial, and ovarian/tubal disease have different surgery, radiation, and biomarker-guided systemic pathways. These breast regimens should not be copied automatically to pelvic cancers. Refer abnormal bleeding or persistent pelvic/abdominal findings for appropriate gynecologic evaluation."
+        },
+        {
+          "type": "heading",
+          "text": "Brief gynecologic treatment comparison"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Cervical cancer: selected early disease may receive surgery or fertility-preserving treatment. Locally advanced disease often uses radiation with concurrent chemotherapy; additional systemic options depend on stage and biomarkers.",
+            "Endometrial cancer: commonly hysterectomy with bilateral salpingo-oophorectomy and surgical staging. Additional radiation, hormonal, chemotherapy or immunotherapy treatment depends on stage, risk and biomarkers. Fertility-preserving management is specialist-directed for selected cases.",
+            "Epithelial ovarian/fallopian-tube/primary peritoneal cancer: commonly cytoreductive surgery and platinum-based chemotherapy, with maintenance selected according to response, biomarkers and patient factors. These are distinct pathways, not breast endocrine treatment applied to every gynecologic cancer."
+          ]
+        }
       ],
       medications: [
         { type: 'cards', items: [
@@ -1219,38 +1245,171 @@ const conditionNotes = {
       { title: 'Fever, drug safety, and nutrition', text: 'Distinguished the immediate patient call threshold from formal febrile-neutropenia criteria; no waiting for cultures or an hour at home is advised. Cultures and precautions are indication/risk-based, not universal blanket testing/isolation. Added infusion/extravasation and immune-therapy safety, individualized bone/fluid/intake advice, and completed the nursing-process sections while retaining wound/drain, teaching, and coping details.' }
     ],
     references: [
-      { title: 'NCI · Breast cancer diagnosis', url: 'https://www.cancer.gov/types/breast/diagnosis', supports: 'Imaging, tissue diagnosis, staging, biomarkers, and genomic versus inherited testing.' },
-      { title: 'NCI · Breast cancer causes and risk factors', url: 'https://www.cancer.gov/types/breast/causes-risk-factors', supports: 'Risk associations, inherited susceptibility, and prevention context.' },
-      { title: 'NCI · Risk-reducing breast surgery', url: 'https://www.cancer.gov/types/breast/causes-risk-factors/prevention/preventive-breast-surgery', supports: 'Selected inherited-risk surgery, residual risk, and breast versus ovarian/tubal goals.' },
-      { title: 'USPSTF · Breast screening (2024 final)', url: 'https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-screening', supports: 'Biennial mammography at ages 40–74 for the specified average-risk population and evidence limits.' },
-      { title: 'ACR / SBI · Screening position (2026)', url: 'https://www.acr.org/News-and-Publications/Media-Center/2026/new-breast-cancer-screening-guidelines-may-cost-lives', supports: 'Annual mammography from 40 and risk assessment by 25, distinguished from USPSTF.' },
-      { title: 'NCI · Breast treatment overview', url: 'https://www.cancer.gov/types/breast/treatment', supports: 'Stage/biology-based local and systemic treatment choices.' },
-      { title: 'NCI · Chemotherapy for breast cancer', url: 'https://www.cancer.gov/types/breast/treatment/chemotherapy', supports: 'Selected neoadjuvant/adjuvant regimens and treatment effects.' },
-      { title: 'NCI · Breast endocrine therapy', url: 'https://www.cancer.gov/types/breast/treatment/hormone-therapy', supports: 'HR selection, SERMs/SERDs/AIs, ovarian suppression, and drug-specific effects.' },
-      { title: 'NCI · Targeted breast treatment', url: 'https://www.cancer.gov/types/breast/treatment/targeted-therapy', supports: 'Biomarker-specific options and distinctions among targeted agents.' },
-      { title: 'NCI · Breast immunotherapy', url: 'https://www.cancer.gov/types/breast/treatment/immunotherapy', supports: 'Selected triple-negative treatment and immune-effect monitoring.' },
-      { title: 'DailyMed · Herceptin (trastuzumab)', url: 'https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=492dbdb2-077e-4064-bff3-372d6af0a7a2', supports: 'LVEF monitoring, cardiac/infusion risks, and avoidance of product confusion.' },
-      { title: 'DailyMed · Tamoxifen citrate', url: 'https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8c0eb763-420a-4106-ba56-526b53a7f72b', supports: 'Thrombotic/uterine risks, indication-specific precautions, and benefit-risk review.' },
-      { title: 'NCI · Sentinel lymph node biopsy', url: 'https://www.cancer.gov/about-cancer/diagnosis-staging/staging/sentinel-node-biopsy-fact-sheet', supports: 'Mapping, pathology, staging role, and morbidity compared with larger node surgery.' },
-      { title: 'ASCO · Sentinel node guideline update (2025)', url: 'https://ascopubs.org/doi/10.1200/JCO-25-00099', supports: 'Selected SLNB omission and individualized axillary treatment after positive nodes.' },
-      { title: 'UCSF · Sentinel lymph node care', url: 'https://cancer.ucsf.edu/breastcarecenter/treatment/surgical_oncology/sentinel_lymph', supports: 'Blue dye versus tracer effects and procedure education.' },
-      { title: 'NICE NG101 · Breast cancer management (2025 updates)', url: 'https://www.nice.org.uk/guidance/ng101/chapter/recommendations', supports: 'Rehabilitation, lymphedema awareness, and lack of consistent evidence for blanket treated-side medical-procedure prohibitions.' },
-      { title: 'NCI · Lymphedema and cancer', url: 'https://www.cancer.gov/about-cancer/treatment/side-effects/lymphedema', supports: 'Swelling assessment, skin/function care, and precautions with established lymphedema.' },
-      { title: 'CDC · Watch out for fever', url: 'https://www.cdc.gov/cancer-preventing-infections/patients/fever.html', supports: 'Immediate call at 100.4°F/38°C during chemotherapy and urgent triage teaching.' },
-      { title: 'ASCO / IDSA · Fever and neutropenia guideline (PDF)', url: 'https://www.idsociety.org/globalassets/idsa/practice-guidelines/outpatient-management-of-fever-and-neutropenia.pdf', supports: 'Clinical definitions, rapid empiric therapy, and carefully selected outpatient management.' },
-      { title: 'NCI · Infection and neutropenia', url: 'https://www.cancer.gov/about-cancer/treatment/side-effects/infection', supports: 'Infection recognition, medication/fever precautions, and individualized prevention.' },
-      { title: 'eviQ · Extravasation management procedure', url: 'https://www.eviq.org.au/clinical-resources/extravasation/4156-extravasation-management-clinical-procedure', supports: 'Stop infusion, leave access initially, do not flush, and use drug-specific response.' },
-      { title: 'NCI · Nutrition during cancer', url: 'https://www.cancer.gov/about-cancer/treatment/side-effects/nutrition', supports: 'Symptom-adapted intake, protein/energy needs, hydration, and food safety.' },
-      { title: 'USPSTF · Cervical screening (current final 2018)', url: 'https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cervical-cancer-screening', supports: 'Average-risk 21–29/30–65 options, high-risk exclusions, and cervix/hysterectomy considerations.' },
-      { title: 'ACS · Updated cervical screening guideline', url: 'https://www.cancer.org/cancer/types/cervical-cancer/detection-diagnosis-staging/cervical-cancer-screening-guidelines.html', supports: 'Age-25 start, clinician/self-collected HPV intervals, and guideline-specific exit criteria.' },
-      { title: 'ASCCP · ACS 2025 update advisory (PDF)', url: 'https://www.asccp.org/wp-content/uploads/2026/01/ASCCP-Practice-Advisory-ACS-Guidelines-Updated-12-19-25.pdf', supports: 'Self-collection and exit pathways; this summary is not presented as ASCCP endorsement of ACS.' },
-      { title: 'ASCCP · Risk-based consensus guidelines (PDF)', url: 'https://asccp.org/wp-content/uploads/2025/09/2019_ASCCP_Risk_Based_Management_Consensus.3.pdf', supports: 'Long-term surveillance after treated high-grade cervical precancer.' },
-      { title: 'ACOG · Updated postmenopausal-bleeding guidance (April 2026)', url: 'https://www.acog.org/news/news-releases/2026/04/acog-publishes-updated-guidance-evaluation-postmenopausal-bleeding', supports: 'Combined ultrasound and tissue sampling in most initial postmenopausal-bleeding evaluations.' },
-      { title: 'Johns Hopkins · Endometrial biopsy', url: 'https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/endometrial-biopsy', supports: 'Indications, pregnancy/bleeding review, preparation, cramping/spotting, and aftercare warnings.' },
-      { title: 'ACOG · In-office uterine/cervical pain management (2025)', url: 'https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2025/05/pain-management-for-in-office-uterine-and-cervical-procedures', supports: 'Individualized analgesia rather than a universally adequate single NSAID dose.' },
-      { title: 'NCI · Cervical cancer causes and prevention', url: 'https://www.cancer.gov/types/cervical/causes-risk-prevention', supports: 'Persistent high-risk HPV, multiple oncogenic types, and prevention context.' },
-      { title: 'NCI · Endometrial cancer treatment', url: 'https://www.cancer.gov/types/uterine/endometrial/treatment', supports: 'Uterine lining disease and cancer-specific management distinctions.' },
-      { title: 'NCI · Ovarian, tubal, and peritoneal cancer', url: 'https://www.cancer.gov/types/ovarian/patient/ovarian-epithelial-treatment-pdq', supports: 'Tubal origins, inherited risk, subtle symptoms, and peritoneal spread.' }
+      {
+        "title": "NCI · Breast cancer diagnosis",
+        "url": "https://www.cancer.gov/types/breast/diagnosis",
+        "supports": "Imaging, tissue diagnosis, staging, biomarkers, and genomic versus inherited testing."
+      },
+      {
+        "title": "NCI · Breast cancer causes and risk factors",
+        "url": "https://www.cancer.gov/types/breast/causes-risk-factors",
+        "supports": "Risk associations, inherited susceptibility, and prevention context."
+      },
+      {
+        "title": "NCI · Risk-reducing breast surgery",
+        "url": "https://www.cancer.gov/types/breast/causes-risk-factors/prevention/preventive-breast-surgery",
+        "supports": "Selected inherited-risk surgery, residual risk, and breast versus ovarian/tubal goals."
+      },
+      {
+        "title": "USPSTF · Breast screening (2024 final)",
+        "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-screening",
+        "supports": "Biennial mammography at ages 40–74 for the specified average-risk population and evidence limits."
+      },
+      {
+        "title": "ACR / SBI · Screening position (2026)",
+        "url": "https://www.acr.org/News-and-Publications/Media-Center/2026/new-breast-cancer-screening-guidelines-may-cost-lives",
+        "supports": "Annual mammography from 40 and risk assessment by 25, distinguished from USPSTF."
+      },
+      {
+        "title": "NCI · Breast treatment overview",
+        "url": "https://www.cancer.gov/types/breast/treatment",
+        "supports": "Stage/biology-based local and systemic treatment choices."
+      },
+      {
+        "title": "NCI · Chemotherapy for breast cancer",
+        "url": "https://www.cancer.gov/types/breast/treatment/chemotherapy",
+        "supports": "Selected neoadjuvant/adjuvant regimens and treatment effects."
+      },
+      {
+        "title": "NCI · Breast endocrine therapy",
+        "url": "https://www.cancer.gov/types/breast/treatment/hormone-therapy",
+        "supports": "HR selection, SERMs/SERDs/AIs, ovarian suppression, and drug-specific effects."
+      },
+      {
+        "title": "NCI · Targeted breast treatment",
+        "url": "https://www.cancer.gov/types/breast/treatment/targeted-therapy",
+        "supports": "Biomarker-specific options and distinctions among targeted agents."
+      },
+      {
+        "title": "NCI · Breast immunotherapy",
+        "url": "https://www.cancer.gov/types/breast/treatment/immunotherapy",
+        "supports": "Selected triple-negative treatment and immune-effect monitoring."
+      },
+      {
+        "title": "DailyMed · Herceptin (trastuzumab)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=492dbdb2-077e-4064-bff3-372d6af0a7a2",
+        "supports": "LVEF monitoring, cardiac/infusion risks, and avoidance of product confusion."
+      },
+      {
+        "title": "DailyMed · Tamoxifen citrate",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8c0eb763-420a-4106-ba56-526b53a7f72b",
+        "supports": "Thrombotic/uterine risks, indication-specific precautions, and benefit-risk review."
+      },
+      {
+        "title": "NCI · Sentinel lymph node biopsy",
+        "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/staging/sentinel-node-biopsy-fact-sheet",
+        "supports": "Mapping, pathology, staging role, and morbidity compared with larger node surgery."
+      },
+      {
+        "title": "ASCO · Sentinel node guideline update (2025)",
+        "url": "https://ascopubs.org/doi/10.1200/JCO-25-00099",
+        "supports": "Selected SLNB omission and individualized axillary treatment after positive nodes."
+      },
+      {
+        "title": "UCSF · Sentinel lymph node care",
+        "url": "https://cancer.ucsf.edu/breastcarecenter/treatment/surgical_oncology/sentinel_lymph",
+        "supports": "Blue dye versus tracer effects and procedure education."
+      },
+      {
+        "title": "NICE NG101 · Breast cancer management (2025 updates)",
+        "url": "https://www.nice.org.uk/guidance/ng101/chapter/recommendations",
+        "supports": "Rehabilitation, lymphedema awareness, and lack of consistent evidence for blanket treated-side medical-procedure prohibitions."
+      },
+      {
+        "title": "NCI · Lymphedema and cancer",
+        "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/lymphedema",
+        "supports": "Swelling assessment, skin/function care, and precautions with established lymphedema."
+      },
+      {
+        "title": "CDC · Watch out for fever",
+        "url": "https://www.cdc.gov/cancer-preventing-infections/patients/fever.html",
+        "supports": "Immediate call at 100.4°F/38°C during chemotherapy and urgent triage teaching."
+      },
+      {
+        "title": "ASCO / IDSA · Fever and neutropenia guideline (PDF)",
+        "url": "https://www.idsociety.org/globalassets/idsa/practice-guidelines/outpatient-management-of-fever-and-neutropenia.pdf",
+        "supports": "Clinical definitions, rapid empiric therapy, and carefully selected outpatient management."
+      },
+      {
+        "title": "NCI · Infection and neutropenia",
+        "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/infection",
+        "supports": "Infection recognition, medication/fever precautions, and individualized prevention."
+      },
+      {
+        "title": "eviQ · Extravasation management procedure",
+        "url": "https://www.eviq.org.au/clinical-resources/extravasation/4156-extravasation-management-clinical-procedure",
+        "supports": "Stop infusion, leave access initially, do not flush, and use drug-specific response."
+      },
+      {
+        "title": "NCI · Nutrition during cancer",
+        "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/nutrition",
+        "supports": "Symptom-adapted intake, protein/energy needs, hydration, and food safety."
+      },
+      {
+        "title": "USPSTF · Cervical screening (current final 2018)",
+        "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cervical-cancer-screening",
+        "supports": "Average-risk 21–29/30–65 options, high-risk exclusions, and cervix/hysterectomy considerations."
+      },
+      {
+        "title": "ACS · Updated cervical screening guideline",
+        "url": "https://www.cancer.org/cancer/types/cervical-cancer/detection-diagnosis-staging/cervical-cancer-screening-guidelines.html",
+        "supports": "Age-25 start, clinician/self-collected HPV intervals, and guideline-specific exit criteria."
+      },
+      {
+        "title": "ASCCP · ACS 2025 update advisory (PDF)",
+        "url": "https://www.asccp.org/wp-content/uploads/2026/01/ASCCP-Practice-Advisory-ACS-Guidelines-Updated-12-19-25.pdf",
+        "supports": "Self-collection and exit pathways; this summary is not presented as ASCCP endorsement of ACS."
+      },
+      {
+        "title": "ASCCP · Risk-based consensus guidelines (PDF)",
+        "url": "https://asccp.org/wp-content/uploads/2025/09/2019_ASCCP_Risk_Based_Management_Consensus.3.pdf",
+        "supports": "Long-term surveillance after treated high-grade cervical precancer."
+      },
+      {
+        "title": "ACOG · Updated postmenopausal-bleeding guidance (April 2026)",
+        "url": "https://www.acog.org/news/news-releases/2026/04/acog-publishes-updated-guidance-evaluation-postmenopausal-bleeding",
+        "supports": "Combined ultrasound and tissue sampling in most initial postmenopausal-bleeding evaluations."
+      },
+      {
+        "title": "Johns Hopkins · Endometrial biopsy",
+        "url": "https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/endometrial-biopsy",
+        "supports": "Indications, pregnancy/bleeding review, preparation, cramping/spotting, and aftercare warnings."
+      },
+      {
+        "title": "ACOG · In-office uterine/cervical pain management (2025)",
+        "url": "https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2025/05/pain-management-for-in-office-uterine-and-cervical-procedures",
+        "supports": "Individualized analgesia rather than a universally adequate single NSAID dose."
+      },
+      {
+        "title": "NCI · Cervical cancer causes and prevention",
+        "url": "https://www.cancer.gov/types/cervical/causes-risk-prevention",
+        "supports": "Persistent high-risk HPV, multiple oncogenic types, and prevention context."
+      },
+      {
+        "title": "NCI · Endometrial cancer treatment",
+        "url": "https://www.cancer.gov/types/uterine/endometrial/treatment",
+        "supports": "Uterine lining disease and cancer-specific management distinctions."
+      },
+      {
+        "title": "NCI · Ovarian, tubal, and peritoneal cancer",
+        "url": "https://www.cancer.gov/types/ovarian/patient/ovarian-epithelial-treatment-pdq",
+        "supports": "Tubal origins, inherited risk, subtle symptoms, and peritoneal spread."
+      },
+      {
+        "title": "NCI · Cervical cancer treatment",
+        "url": "https://www.cancer.gov/types/cervical/treatment",
+        "supports": "Stage-specific surgery, radiation/chemotherapy and fertility considerations."
+      }
     ]
   },
   'meniere-disease': {
@@ -1915,8 +2074,83 @@ const conditionNotes = {
         { type: 'list', items: ['Protect against irreversible damage: ensure prompt rheumatology assessment, reliable DMARD access, and treat-to-target follow-up; do not delay referral for negative antibodies or a normal X-ray.', 'Prevent medication harm: verify once-weekly methotrexate, folate, pregnancy/interaction counseling, infection plans, laboratory surveillance, and HCQ retinal screening.', 'Relieve pain, stiffness, fatigue, and sleep disturbance while maintaining movement, safe ADLs, and joint protection.', 'Address systemic risks: cardiovascular disease, fracture/steroid effects, lung/eye/cervical complications, nutrition, and smoking.', 'Support learning, autonomy, mood, work/family roles, and the practical ability to use medicines and attend care.'] }
       ],
       plan: [
-        { type: 'paragraph', text: 'Agree on measurable, patient-centered goals and review dates. Aim for sustained remission/low activity and meaningful function rather than a single laboratory or stiffness cutoff.' },
-        { type: 'list', items: ['Reduce pain, swelling, and stiffness toward agreed targets while reassessing active disease and treatment response.', 'Maintain or improve chosen ADLs, grip, gait, ROM, sleep, and participation using appropriate aids and pacing.', 'Demonstrate the actual medication schedule, injection/device skills, and weekly methotrexate/folate distinction when applicable.', 'Complete regimen-specific laboratory and retinal monitoring and recognize infection/toxicity warning signs.', 'Follow an individualized activity/rest, joint-protection, nutrition, smoking-cessation, CV, and bone-health plan.', 'Identify a flare/contact plan, pregnancy/conception needs, practical supports, and follow-up arrangements that the patient can access.'] }
+        {
+          "type": "paragraph",
+          "text": "Agree on measurable, patient-centered goals and review dates. Aim for sustained remission/low activity and meaningful function rather than a single laboratory or stiffness cutoff."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "1. Disease control, comfort, and function",
+              "fields": [
+                [
+                  "Goal",
+                  "Reduce pain, swelling, and stiffness toward agreed targets while reassessing active disease and treatment response. Maintain or improve chosen ADLs, grip, gait, ROM, sleep, and participation using appropriate aids and pacing."
+                ],
+                [
+                  "Actions",
+                  "Track disease activity and joint function with rheumatology. Give prescribed symptom medicines and reassess benefit/toxicity; coordinate PT/OT, safe heat/cold, supportive positioning, gentle ROM, graded activity, pacing, and appropriate aids."
+                ],
+                [
+                  "Evaluate",
+                  "Pain, swelling, stiffness, and disease activity improve toward the agreed target; chosen ADLs, grip, gait, ROM, sleep, and participation are maintained or improve. Interpret ESR/CRP with the clinical assessment rather than using one marker as proof of success."
+                ]
+              ]
+            },
+            {
+              "title": "2. Medication safety and monitoring",
+              "fields": [
+                [
+                  "Goal",
+                  "Demonstrate the actual medication schedule, injection/device skills, and weekly methotrexate/folate distinction when applicable. Complete regimen-specific laboratory and retinal monitoring and recognize infection/toxicity warning signs."
+                ],
+                [
+                  "Actions",
+                  "Reconcile medicines, clarify dosing errors, and use teach-back for the actual schedule and weekly methotrexate/folate distinction. Arrange drug-specific laboratory and retinal monitoring, injection/infusion education, and the prescribed infection/procedure/vaccine contact plan."
+                ],
+                [
+                  "Evaluate",
+                  "The patient demonstrates the correct schedule and technique, completes laboratory/retinal surveillance, and recognizes infection/toxicity concerns promptly. Absence of fever alone does not establish freedom from infection."
+                ]
+              ]
+            },
+            {
+              "title": "3. Joint protection and whole-person health",
+              "fields": [
+                [
+                  "Goal",
+                  "Follow an individualized activity/rest, joint-protection, nutrition, smoking-cessation, CV, and bone-health plan."
+                ],
+                [
+                  "Actions",
+                  "Coordinate activity/rest and joint-protection teaching, nutrition/dietitian support, smoking cessation, cardiovascular and fracture/fall review, and indicated steroid-related glucose/BP/bone care. Assess fatigue, sleep, mood, and daily roles."
+                ],
+                [
+                  "Evaluate",
+                  "The patient uses safe pacing, thermal measures, joint protection, and aids with acceptable fatigue/pain control. Nutrition, smoking, cardiovascular and bone-health needs are addressed without avoidable falls or treatment injury."
+                ]
+              ]
+            },
+            {
+              "title": "4. Continuity, reproductive planning, and support",
+              "fields": [
+                [
+                  "Goal",
+                  "Identify a flare/contact plan, pregnancy/conception needs, practical supports, and follow-up arrangements that the patient can access."
+                ],
+                [
+                  "Actions",
+                  "Review pregnancy/conception and medicine precautions; confirm the flare/contact plan, medicine supplies, monitoring appointments, PT/OT, safe home setup, and accessible practical support. Provide written instructions adapted to hand, vision, language, and fatigue needs."
+                ],
+                [
+                  "Evaluate",
+                  "The patient explains warning signs, the flare/contact pathway, reproductive/medicine precautions, and follow-up arrangements, with needed practical and psychosocial support in place."
+                ]
+              ]
+            }
+          ]
+        }
       ],
       interventions: [
         { type: 'heading', text: 'Disease control and medicine safety' },
@@ -2070,8 +2304,83 @@ const conditionNotes = {
         { type: 'list', items: ['Protect ventilation and the airway: obtain/track respiratory measurements with respiratory therapy, support secretion clearance, and prepare controlled intubation when indicated.', 'Detect dangerous dysautonomia: monitor ECG/BP, respond to serious dysrhythmia or perfusion changes, and use prescribed short-acting treatment carefully.', 'Arrange timely IVIG or plasma exchange when indicated, while monitoring treatment safety and avoiding delays for confirmatory tests.', 'Prevent secondary injury: VTE prophylaxis, aspiration precautions, safe nutrition, pressure/eye protection, gentle ROM, and bowel/bladder management.', 'Preserve communication, dignity, and participation: assume awareness unless assessment shows otherwise, explain care, and establish a reliable help signal.'] }
       ],
       plan: [
-        { type: 'paragraph', text: 'Use patient-centered, time-linked goals that change with the progressive, plateau, and recovery phases. Preserving function and preventing harm are meaningful outcomes before strength improves.' },
-        { type: 'list', items: ['Maintain adequate ventilation and airway protection, identify decline early, and use ventilatory support appropriate to the clinical course.', 'Maintain acceptable perfusion/heart rhythm with dangerous BP swings recognized and treated promptly.', 'Complete the selected immunotherapy course safely and reassess new deterioration with the neurology team.', 'Meet individualized nutrition/hydration goals through a safe route and maintain appropriate bladder/bowel function.', 'Control pain and anxiety without unacceptable sedation, respiratory effects, or autonomic complications.', 'Maintain skin/eye protection and joint range, with safe transfers and prevention of avoidable VTE, falls, and pressure injuries.', 'Communicate needs and decisions through a reliable method with a backup.', 'Prepare the patient/caregivers for equipment, rehabilitation, realistic recovery, medication monitoring, home safety, and emergency escalation.'] }
+        {
+          "type": "paragraph",
+          "text": "Use patient-centered, time-linked goals that change with the progressive, plateau, and recovery phases. Preserving function and preventing harm are meaningful outcomes before strength improves."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "1. Respiratory and autonomic safety",
+              "fields": [
+                [
+                  "Goal",
+                  "Maintain adequate ventilation and airway protection, identify decline early, and use ventilatory support appropriate to the clinical course. Maintain acceptable perfusion/heart rhythm with dangerous BP swings recognized and treated promptly."
+                ],
+                [
+                  "Actions",
+                  "Trend respiratory mechanics, bulbar/cough function, ECG and BP; support airway/secretion care and prescribed monitored treatment, escalating decline before exhaustion."
+                ],
+                [
+                  "Evaluate",
+                  "Ventilation, airway protection, rhythm and perfusion remain acceptable; serious respiratory or autonomic changes are recognized and treated promptly."
+                ]
+              ]
+            },
+            {
+              "title": "2. Immunotherapy and symptom control",
+              "fields": [
+                [
+                  "Goal",
+                  "Complete the selected immunotherapy course safely and reassess new deterioration with the neurology team. Control pain and anxiety without unacceptable sedation, respiratory effects, or autonomic complications."
+                ],
+                [
+                  "Actions",
+                  "Complete product-specific IVIG or plasma-exchange checks, assess laboratory/infusion safety, and reassess pain/anxiety relief against sedation, breathing and BP effects."
+                ],
+                [
+                  "Evaluate",
+                  "The selected course is delivered safely, new deterioration is reviewed, and pain/anxiety are tolerable without unacceptable treatment toxicity."
+                ]
+              ]
+            },
+            {
+              "title": "3. Nutrition, elimination and injury prevention",
+              "fields": [
+                [
+                  "Goal",
+                  "Meet individualized nutrition/hydration goals through a safe route and maintain appropriate bladder/bowel function. Maintain skin/eye protection and joint range, with safe transfers and prevention of avoidable VTE, falls, and pressure injuries."
+                ],
+                [
+                  "Actions",
+                  "Coordinate SLP/dietitian support and the safe feeding route; monitor bladder/bowel function and provide prescribed VTE prevention, ROM, skin/eye protection and safe transfers."
+                ],
+                [
+                  "Evaluate",
+                  "Nutrition/hydration and elimination goals are addressed; skin, eyes, joint range and mobility are protected with avoidable VTE, falls and pressure injury minimized."
+                ]
+              ]
+            },
+            {
+              "title": "4. Communication and rehabilitation readiness",
+              "fields": [
+                [
+                  "Goal",
+                  "Communicate needs and decisions through a reliable method with a backup. Prepare the patient/caregivers for equipment, rehabilitation, realistic recovery, medication monitoring, home safety, and emergency escalation."
+                ],
+                [
+                  "Actions",
+                  "Set up a reliable help signal/AAC with a backup, involve the patient in decisions, and practice equipment/transfers while arranging rehabilitation, home support and emergency instructions."
+                ],
+                [
+                  "Evaluate",
+                  "Communication is reliable, care preferences are heard, and patient/caregivers demonstrate relevant home-care skills and understand escalation and follow-up."
+                ]
+              ]
+            }
+          ]
+        }
       ],
       interventions: [
         { type: 'heading', text: 'Respiratory and autonomic care' },
@@ -2239,8 +2548,83 @@ const conditionNotes = {
         { type: 'list', items: ['Deliver urgent treatment: obtain IV access and blood cultures promptly, give ordered empiric antibiotics without waiting for imaging or delayed LP, and coordinate indicated dexamethasone with the first dose.', 'Detect neurological deterioration: trend GCS/pupils/focal findings, protect cerebral perfusion, use appropriate head positioning, and escalate suspected raised ICP or herniation immediately.', 'Support breathing and perfusion: oxygen/ventilation, fluid resuscitation, and other critical-care support according to findings and orders. Monitor for shock and DIC.', 'Prevent transmission: Standard plus Droplet when meningococcus/Hib is suspected, timely infection prevention/public-health involvement, and eligible contact prophylaxis.', 'Prevent secondary harm: seizure safety, safe nutrition/medication routes, fluid/sodium and drug monitoring, skin protection, and follow-up for hearing/neurological sequelae.'] }
       ],
       plan: [
-        { type: 'paragraph', text: 'Set time-linked goals based on severity and baseline function, then reassess frequently. The emergency goals come before recovery teaching.' },
-        { type: 'list', items: ['Maintain an adequately protected airway, effective ventilation/oxygenation, and perfusion using individualized targets and prompt escalation.', 'Administer prescribed antibiotics urgently and reliably, with an organism-specific plan once results return.', 'Maintain or improve consciousness/pupillary and focal findings, identify raised ICP early, and control seizures if they occur.', 'Reduce headache, photophobia, fever-related distress, and nausea without unacceptable sedation or treatment toxicity.', 'Maintain appropriate fluid, sodium, glucose, renal function, and nutrition with a safe feeding/medication route.', 'Apply organism-appropriate precautions and complete public-health contact assessment/prophylaxis when indicated.', 'Before discharge, confirm medication skills, warning-sign recognition, follow-up/hearing assessment, rehabilitation needs, and a gradual recovery plan with the patient/family.'] }
+        {
+          "type": "paragraph",
+          "text": "Set time-linked goals based on severity and baseline function, then reassess frequently. The emergency goals come before recovery teaching."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "1. Immediate physiological and neurological safety",
+              "fields": [
+                [
+                  "Goal",
+                  "Maintain an adequately protected airway, effective ventilation/oxygenation, and perfusion using individualized targets and prompt escalation. Maintain or improve consciousness/pupillary and focal findings, identify raised ICP early, and control seizures if they occur."
+                ],
+                [
+                  "Actions",
+                  "Monitor ABCs, perfusion, consciousness, pupils and seizures; support prescribed stabilization and head positioning and escalate neurological decline promptly."
+                ],
+                [
+                  "Evaluate",
+                  "Airway, oxygenation/perfusion and neurological findings stabilize or improve, with seizures controlled and deterioration recognized promptly."
+                ]
+              ]
+            },
+            {
+              "title": "2. Infection treatment and transmission prevention",
+              "fields": [
+                [
+                  "Goal",
+                  "Administer prescribed antibiotics urgently and reliably, with an organism-specific plan once results return. Apply organism-appropriate precautions and complete public-health contact assessment/prophylaxis when indicated."
+                ],
+                [
+                  "Actions",
+                  "Obtain timely samples without delaying prescribed antibiotics, coordinate indicated dexamethasone, and use organism-specific precautions and public-health contact management."
+                ],
+                [
+                  "Evaluate",
+                  "Urgent antimicrobial doses and appropriate precautions are documented; clinical response, treatment safety and eligible-contact follow-through are reviewed."
+                ]
+              ]
+            },
+            {
+              "title": "3. Comfort, fluids and safe nutrition",
+              "fields": [
+                [
+                  "Goal",
+                  "Reduce headache, photophobia, fever-related distress, and nausea without unacceptable sedation or treatment toxicity. Maintain appropriate fluid, sodium, glucose, renal function, and nutrition with a safe feeding/medication route."
+                ],
+                [
+                  "Actions",
+                  "Reassess prescribed pain/fever/nausea relief and sedation; monitor intake/output, sodium/glucose/renal trends and a safe nutrition/medicine route."
+                ],
+                [
+                  "Evaluate",
+                  "Distress improves while alertness/breathing remain acceptable, and individualized fluid, laboratory and nutrition goals are met without avoidable harm."
+                ]
+              ]
+            },
+            {
+              "title": "4. Recovery and discharge",
+              "fields": [
+                [
+                  "Goal",
+                  "Before discharge, confirm medication skills, warning-sign recognition, follow-up/hearing assessment, rehabilitation needs, and a gradual recovery plan with the patient/family."
+                ],
+                [
+                  "Actions",
+                  "Use teach-back for medicines and emergency signs; arrange hearing/clinical follow-up, rehabilitation and individualized gradual activity with the patient/family."
+                ],
+                [
+                  "Evaluate",
+                  "The patient/family explains the home plan and warning signs, and hearing, neurological/functional and support follow-up are arranged."
+                ]
+              ]
+            }
+          ]
+        }
       ],
       interventions: [
         { type: 'heading', text: 'Immediate stabilization and treatment' },
@@ -2423,9 +2807,87 @@ const conditionNotes = {
         ] }
       ],
       plan: [
-        { type: 'paragraph', text: 'Set realistic, patient-chosen outcomes with review dates. ALS is progressive, so success may mean preserved participation, effective support, and comfort rather than restoration of normal strength.' },
-        { type: 'list', items: ['Maintain the best achievable ventilation, sleep quality, secretion clearance, and comfort using the agreed respiratory plan.', 'Meet individualized nutrition/hydration goals and reduce avoidable feeding burden and weight loss.', 'Express needs, preferences, and decisions through a reliable communication method with a backup.', 'Complete selected ADLs and transfers with appropriate equipment/assistance and minimal fatigue or injury.', 'Maintain skin comfort/integrity, joint range, and an effective bowel routine.', 'Demonstrate medication, NIV, cough-assist, suction, feeding, and emergency-care skills appropriate to the home plan.', 'Document and revisit advance-care preferences, identify practical support, and reduce preventable caregiver strain.'] },
-        { type: 'paragraph', text: 'The ROM, fluid/fiber, bowel support, illness/progression teaching, and interdisciplinary consultations in your original care-plan notes are retained as interventions and education below.' }
+        {
+          "type": "paragraph",
+          "text": "Set realistic, patient-chosen outcomes with review dates. ALS is progressive, so success may mean preserved participation, effective support, and comfort rather than restoration of normal strength."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "1. Ventilation and secretion clearance",
+              "fields": [
+                [
+                  "Goal",
+                  "Maintain the best achievable ventilation, sleep quality, secretion clearance, and comfort using the agreed respiratory plan."
+                ],
+                [
+                  "Actions",
+                  "Trend breathing/cough and sleep symptoms; support prescribed NIV, assisted cough, suction and interface care, with timely respiratory-team review."
+                ],
+                [
+                  "Evaluate",
+                  "Respiratory support meets the patient’s comfort goals, ventilation is assessed appropriately, and secretions are managed effectively."
+                ]
+              ]
+            },
+            {
+              "title": "2. Safe nutrition and hydration",
+              "fields": [
+                [
+                  "Goal",
+                  "Meet individualized nutrition/hydration goals and reduce avoidable feeding burden and weight loss."
+                ],
+                [
+                  "Actions",
+                  "Coordinate SLP/dietitian input, supported meal pacing and the prescribed oral or gastrostomy plan; monitor intake, weight, hydration and aspiration concerns."
+                ],
+                [
+                  "Evaluate",
+                  "Individualized intake/weight goals and feeding burden are addressed; the feeding plan is demonstrated and swallowing or tube problems are acted on."
+                ]
+              ]
+            },
+            {
+              "title": "3. Communication, preferences and support",
+              "fields": [
+                [
+                  "Goal",
+                  "Express needs, preferences, and decisions through a reliable communication method with a backup. Document and revisit advance-care preferences, identify practical support, and reduce preventable caregiver strain."
+                ],
+                [
+                  "Actions",
+                  "Practice individualized AAC and backup access, allow response time, revisit advance-care preferences, and coordinate chosen support, respite and palliative care."
+                ],
+                [
+                  "Evaluate",
+                  "The patient communicates needs/decisions reliably, care preferences remain accessible, and patient/caregiver support needs are addressed."
+                ]
+              ]
+            },
+            {
+              "title": "4. Function, comfort and home-care skills",
+              "fields": [
+                [
+                  "Goal",
+                  "Complete selected ADLs and transfers with appropriate equipment/assistance and minimal fatigue or injury. Maintain skin comfort/integrity, joint range, and an effective bowel routine. Demonstrate medication, NIV, cough-assist, suction, feeding, and emergency-care skills appropriate to the home plan."
+                ],
+                [
+                  "Actions",
+                  "Use PT/OT equipment, supported activity, ROM, pressure relief and bowel care; teach medicines, respiratory/feeding equipment and the home emergency plan."
+                ],
+                [
+                  "Evaluate",
+                  "Transfers and activity use safe assistance, skin/joint and bowel comfort are maintained, and relevant care/equipment skills are demonstrated without unacceptable treatment toxicity."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The ROM, fluid/fiber, bowel support, illness/progression teaching, and interdisciplinary consultations in your original care-plan notes are retained as interventions and education below."
+        }
       ],
       interventions: [
         { type: 'heading', text: 'Airway and respiratory care' },
@@ -2598,8 +3060,83 @@ const conditionNotes = {
         { type: 'list', items: ['Escalate emergencies promptly. Do not wait for a symptom to last 24 hours when there are acute danger signs.', 'For possible Uhthoff phenomenon, remove the heat trigger, cool comfortably, assess for fever/infection, and reassess neurological function. Persistent or new deficits need MS-team review.', 'Protect against falls, unsafe transfers, aspiration, pressure injury, and bladder retention while preserving as much independence as possible.', 'Prevent treatment harm: recognize anaphylaxis and PML warning signs, complete drug-specific screening, and avoid abrupt baclofen or pump interruption.', 'Treat infection or other causes of worsening through the appropriate clinical pathway and coordinate timely relapse assessment when indicated.'] }
       ],
       plan: [
-        { type: 'paragraph', text: 'Agree on measurable goals, a time frame, and a realistic baseline for the person’s disease course. Complete symptom resolution is not the only measure of effective care.' },
-        { type: 'list', items: ['Maintain or improve agreed neurological and functional measures, with new deterioration evaluated promptly.', 'Complete selected ADLs and mobility tasks safely with pacing, aids, or assistance and no preventable falls.', 'Use an appropriate swallowing/nutrition plan and meet individualized intake, hydration, and weight goals.', 'Achieve a workable bowel pattern and bladder-emptying plan without avoidable retention or symptomatic infection.', 'Identify personal heat triggers and demonstrate a practical cooling and escalation plan.', 'Demonstrate medication/pump care, required monitoring, and recognition of adverse effects using teach-back.', 'Maintain participation and coping with appropriate patient-chosen support and caregiver relief.'] }
+        {
+          "type": "paragraph",
+          "text": "Agree on measurable goals, a time frame, and a realistic baseline for the person’s disease course. Complete symptom resolution is not the only measure of effective care."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "1. Neurological stability and heat response",
+              "fields": [
+                [
+                  "Goal",
+                  "Maintain or improve agreed neurological and functional measures, with new deterioration evaluated promptly. Identify personal heat triggers and demonstrate a practical cooling and escalation plan."
+                ],
+                [
+                  "Actions",
+                  "Compare neurological function with baseline, check heat/infection triggers, support cooling and pacing, and coordinate assessment of persistent or new deficits."
+                ],
+                [
+                  "Evaluate",
+                  "Agreed neurological measures remain stable or improve; heat-related symptoms return toward baseline and persistent changes are escalated."
+                ]
+              ]
+            },
+            {
+              "title": "2. Safe mobility and daily participation",
+              "fields": [
+                [
+                  "Goal",
+                  "Complete selected ADLs and mobility tasks safely with pacing, aids, or assistance and no preventable falls."
+                ],
+                [
+                  "Actions",
+                  "Coordinate PT/OT, graded exercise, transfer aids and home adaptations; balance meaningful activity with rest and skin protection."
+                ],
+                [
+                  "Evaluate",
+                  "Selected mobility tasks and ADLs use appropriate aids/assistance without preventable falls or excessive fatigue."
+                ]
+              ]
+            },
+            {
+              "title": "3. Swallowing, nutrition and elimination",
+              "fields": [
+                [
+                  "Goal",
+                  "Use an appropriate swallowing/nutrition plan and meet individualized intake, hydration, and weight goals. Achieve a workable bowel pattern and bladder-emptying plan without avoidable retention or symptomatic infection."
+                ],
+                [
+                  "Actions",
+                  "Coordinate the individualized SLP/dietitian plan, monitor intake and weight, and implement the agreed bowel, voiding or prescribed catheter routine."
+                ],
+                [
+                  "Evaluate",
+                  "Intake/hydration and weight goals are met as closely as possible; swallowing concerns, retention and bowel problems receive timely review."
+                ]
+              ]
+            },
+            {
+              "title": "4. Treatment skills and support",
+              "fields": [
+                [
+                  "Goal",
+                  "Demonstrate medication/pump care, required monitoring, and recognition of adverse effects using teach-back. Maintain participation and coping with appropriate patient-chosen support and caregiver relief."
+                ],
+                [
+                  "Actions",
+                  "Use teach-back, demonstrations and cognitive/visual reminders for medicines and pump care; arrange monitoring and patient-chosen caregiver/community support."
+                ],
+                [
+                  "Evaluate",
+                  "Treatment and monitoring skills are demonstrated, adverse effects are recognized, and practical support sustains participation and coping."
+                ]
+              ]
+            }
+          ]
+        }
       ],
       interventions: [
         { type: 'heading', text: 'Turn the plan into practical care' },
@@ -2654,7 +3191,7 @@ const conditionNotes = {
   },
   parkinsons: {
     title: 'Parkinson’s disease', abbreviation: 'PD', week: 7,
-    reviewed: 'November 14, 2026',
+    reviewed: 'November 15, 2026',
     reading: 'Course study guide: Parkinson’s disease—cardinal signs, swallowing safety, and nursing priorities. B&S textbook: Chapter 66, Parkinson’s disease section. Based on your Week 7 learning-objective notes and additional exam-focus notes.',
     focus: [
       { section: 'manifestations', label: 'Cardinal signs (TRAP)' },
@@ -2707,13 +3244,132 @@ const conditionNotes = {
         { type: 'paragraph', text: 'Address hallucinations or psychosis by looking for acute illness, delirium, or medication effects and involving the specialist team. “Use any antipsychotic at a low dose” is not a safe rule: dopamine-blocking agents may markedly worsen motor symptoms. PD-compatible treatment requires careful selection and monitoring.' }
       ],
       medications: [
-        { type: 'cards', items: [
-          { title: 'Carbidopa–levodopa', fields: [['Action and purpose', 'Levodopa (L-dopa) crosses into the brain and is converted to dopamine. Carbidopa reduces conversion outside the brain, allowing more levodopa to reach the brain and helping reduce peripheral adverse effects such as nausea.'], ['Administration', 'Use the patient’s exact prescribed times, dose, formulation, and route. Do not substitute routine hospital medication-round times or abruptly stop treatment. Delayed or missed doses can worsen “off” symptoms and immobility.'], ['Meals and protein', 'Some patients have less benefit with high-protein meals. If this occurs, the care team may separate immediate-release levodopa from meals—for example, around 30 minutes before or 60 minutes after food—or arrange protein redistribution. Follow the individual plan and formulation instructions; maintain adequate total protein. A low-protein snack may help nausea.'], ['Monitor', 'Motor benefit, wearing off, dyskinesia, nausea/vomiting, confusion or hallucinations, dizziness, orthostatic hypotension, and sleepiness.']] },
-          { title: 'Other symptom-directed medicines', fields: [['Purpose', 'Specialists may use other dopaminergic agents or adjuncts to improve symptom control. Some therapies reduce cholinergic activity in selected patients, but anticholinergic adverse effects are particularly important with cognitive, urinary, or bowel problems.'], ['Nursing considerations', 'Review the actual prescribed medicines and intended effects. Do not assume every PD drug has identical timing, crushing, or food instructions. Report new confusion, hallucinations, sleepiness, or worsening function.']] }
-        ] },
-        { type: 'heading', text: 'Medicines that can worsen parkinsonism' },
-        { type: 'paragraph', text: 'Avoid dopamine-blocking medicines such as metoclopramide and haloperidol in PD; seek a PD-compatible alternative from the prescriber/pharmacist. A low dose does not make an otherwise unsuitable dopamine antagonist safe. Reconcile prescription drugs, OTC products, and supplements before administration.' },
-        { type: 'callout', title: 'If swallowing is unsafe or the patient is NPO', text: 'Escalate promptly for a safe medication route and schedule. Do not give tablets orally when swallowing is unsafe, crush modified-release products indiscriminately, or simply omit time-critical Parkinson’s medicines. Neurology and pharmacy should guide the alternative plan.' }
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Carbidopa–levodopa",
+              "fields": [
+                [
+                  "Action and purpose",
+                  "Levodopa (L-dopa) crosses into the brain and is converted to dopamine. Carbidopa reduces conversion outside the brain, allowing more levodopa to reach the brain and helping reduce peripheral adverse effects such as nausea."
+                ],
+                [
+                  "Administration",
+                  "Use the patient’s exact prescribed times, dose, formulation, and route. Do not substitute routine hospital medication-round times or abruptly stop treatment. Delayed or missed doses can worsen “off” symptoms and immobility."
+                ],
+                [
+                  "Meals and protein",
+                  "Some patients have less benefit with high-protein meals. If this occurs, the care team may separate immediate-release levodopa from meals—for example, around 30 minutes before or 60 minutes after food—or arrange protein redistribution. Follow the individual plan and formulation instructions; maintain adequate total protein. A low-protein snack may help nausea."
+                ],
+                [
+                  "Monitor",
+                  "Motor benefit, wearing off, dyskinesia, nausea/vomiting, confusion or hallucinations, dizziness, orthostatic hypotension, and sleepiness."
+                ]
+              ]
+            },
+            {
+              "title": "Other symptom-directed medicines",
+              "fields": [
+                [
+                  "Purpose",
+                  "Specialists may use other dopaminergic agents or adjuncts to improve symptom control. Some therapies reduce cholinergic activity in selected patients, but anticholinergic adverse effects are particularly important with cognitive, urinary, or bowel problems."
+                ],
+                [
+                  "Nursing considerations",
+                  "Review the actual prescribed medicines and intended effects. Do not assume every PD drug has identical timing, crushing, or food instructions. Report new confusion, hallucinations, sleepiness, or worsening function."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Other medication classes: examples and safety"
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Dopamine agonists",
+              "fields": [
+                [
+                  "Examples / role",
+                  "Pramipexole, ropinirole and the rotigotine patch stimulate dopamine receptors; used alone or with levodopa in selected patients."
+                ],
+                [
+                  "Monitor / teach",
+                  "Orthostatic hypotension, hallucinations, edema and sleepiness/sudden sleep episodes. Ask about gambling, spending, eating or sexual urges (impulse-control problems); report changes promptly. Do not drive with sleep attacks or independently stop therapy."
+                ]
+              ]
+            },
+            {
+              "title": "MAO-B inhibitors",
+              "fields": [
+                [
+                  "Examples / role",
+                  "Rasagiline, selegiline and safinamide reduce dopamine breakdown; specific indications differ."
+                ],
+                [
+                  "Monitor / teach",
+                  "Review interacting prescription/OTC drugs with pharmacy; monitor dyskinesia, hypotension, hallucinations and sleep changes. Do not apply one formulation’s instructions to every drug."
+                ]
+              ]
+            },
+            {
+              "title": "COMT inhibitors",
+              "fields": [
+                [
+                  "Examples / role",
+                  "Entacapone or opicapone prolong levodopa benefit and reduce wearing off; they are adjuncts to levodopa."
+                ],
+                [
+                  "Monitor / teach",
+                  "Dyskinesia, dizziness/hypotension and gastrointestinal effects; levodopa adjustments require the prescriber. Entacapone can discolor urine."
+                ]
+              ]
+            },
+            {
+              "title": "Amantadine",
+              "fields": [
+                [
+                  "Role",
+                  "May reduce levodopa-associated dyskinesia; formulation and renal function affect dosing."
+                ],
+                [
+                  "Monitor / teach",
+                  "Hallucinations/confusion, edema, dizziness and mottled skin (livedo reticularis). Review renal dosing and avoid an unsupervised abrupt stop."
+                ]
+              ]
+            },
+            {
+              "title": "Anticholinergics",
+              "fields": [
+                [
+                  "Examples / role",
+                  "Trihexyphenidyl or benztropine have a limited role for selected tremor presentations."
+                ],
+                [
+                  "Monitor / teach",
+                  "Dry mouth, blurred vision, constipation, urinary retention and cognitive effects. Often unsuitable for older adults or people with cognitive problems; specialist selection is essential."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Medicines that can worsen parkinsonism"
+        },
+        {
+          "type": "paragraph",
+          "text": "Avoid dopamine-blocking medicines such as metoclopramide and haloperidol in PD; seek a PD-compatible alternative from the prescriber/pharmacist. A low dose does not make an otherwise unsuitable dopamine antagonist safe. Reconcile prescription drugs, OTC products, and supplements before administration."
+        },
+        {
+          "type": "callout",
+          "title": "If swallowing is unsafe or the patient is NPO",
+          "text": "Escalate promptly for a safe medication route and schedule. Do not give tablets orally when swallowing is unsafe, crush modified-release products indiscriminately, or simply omit time-critical Parkinson’s medicines. Neurology and pharmacy should guide the alternative plan."
+        }
       ],
       nonpharmacological: [
         { type: 'heading', text: 'Mobility, exercise, and rehabilitation' },
@@ -2723,11 +3379,41 @@ const conditionNotes = {
         { type: 'paragraph', text: 'Speech-language pathology (SLP) assesses swallowing and communication and recommends individualized strategies, voice therapy, and devices. Encourage therapeutic programs and achievable social or recreational activity. Allow time for the patient to respond and participate rather than taking over tasks they can perform.' }
       ],
       'adverse-effects': [
-        { type: 'heading', text: 'Treatment effects to monitor' },
-        { type: 'list', items: ['Dyskinesia: involuntary movements that may occur with dopaminergic treatment; distinguish these from resting tremor and from a rigid, bradykinetic “off” state.', 'Nausea and vomiting, which can reduce intake and medication adherence.', 'Dizziness and orthostatic hypotension, increasing fall and fainting risk. Autonomic dysfunction from PD can contribute as well as medication.', 'Confusion, hallucinations, psychosis, and excessive daytime sleepiness; assess whether these reflect medication, PD, sleep problems, or an acute illness.', 'Anticholinergic effects, when these medicines are prescribed, may worsen dry mouth, constipation, urinary retention, and cognition.'] },
-        { type: 'heading', text: 'Disease-related complications' },
-        { type: 'list', items: ['Aspiration, aspiration pneumonia, dehydration, or malnutrition related to dysphagia.', 'Falls and injuries from freezing, postural impairment, or blood-pressure changes.', 'Constipation and possible impaction, reduced independence, and caregiver strain.', 'Sleep and psychiatric disturbances. New acute confusion requires assessment for delirium rather than being dismissed as inevitable PD progression.'] },
-        { type: 'paragraph', text: 'Track complications after procedures as directed by the surgical team and report new neurological changes or infection concerns promptly.' }
+        {
+          "type": "heading",
+          "text": "Treatment effects to monitor"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dyskinesia: involuntary movements that may occur with dopaminergic treatment; distinguish these from resting tremor and from a rigid, bradykinetic “off” state.",
+            "Nausea and vomiting, which can reduce intake and medication adherence.",
+            "Dizziness and orthostatic hypotension, increasing fall and fainting risk. Autonomic dysfunction from PD can contribute as well as medication.",
+            "Confusion, hallucinations, psychosis, and excessive daytime sleepiness; assess whether these reflect medication, PD, sleep problems, or an acute illness.",
+            "Anticholinergic effects, when these medicines are prescribed, may worsen dry mouth, constipation, urinary retention, and cognition."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dopaminergic therapy can cause impulse-control problems, particularly with dopamine agonists. Ask privately about new compulsive urges and involve chosen supports with consent. Sudden sleep episodes require stopping driving and contacting the care team; medication reduction/withdrawal must be supervised. Abrupt loss of dopaminergic treatment can cause severe akinesia or a malignant-like syndrome with fever/rigidity and requires urgent assessment."
+        },
+        {
+          "type": "heading",
+          "text": "Disease-related complications"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Aspiration, aspiration pneumonia, dehydration, or malnutrition related to dysphagia.",
+            "Falls and injuries from freezing, postural impairment, or blood-pressure changes.",
+            "Constipation and possible impaction, reduced independence, and caregiver strain.",
+            "Sleep and psychiatric disturbances. New acute confusion requires assessment for delirium rather than being dismissed as inevitable PD progression."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Track complications after procedures as directed by the surgical team and report new neurological changes or infection concerns promptly."
+        }
       ],
       nutrition: [
         { type: 'heading', text: 'Swallowing safety and aspiration prevention' },
@@ -2766,8 +3452,100 @@ const conditionNotes = {
         ] }
       ],
       plan: [
-        { type: 'paragraph', text: 'Agree on patient-centered goals with realistic time frames and the patient’s level of function in mind. Your Week 7 goals become the outcomes to evaluate:' },
-        { type: 'list', items: ['Improve or maintain safe functional mobility and transfers using agreed assistance or cueing, without preventable falls.', 'Maintain as much independence as possible in feeding, hygiene, and other ADLs with adaptive equipment and enough time.', 'Follow the individualized swallowing plan, meet nutrition/hydration goals, and maintain an appropriate weight trend.', 'Establish a comfortable, regular bowel pattern without impaction or treatment complications.', 'Communicate needs effectively using speech strategies or an appropriate device.', 'Demonstrate the medication schedule, explain adverse effects and warning signs, and identify how to obtain help.', 'Use positive coping strategies and access a sustainable support or caregiver-relief plan.'] }
+        {
+          "type": "paragraph",
+          "text": "Agree on patient-centered goals with realistic time frames and the patient’s level of function in mind. Your Week 7 goals become the outcomes to evaluate:"
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "1. Mobility and self-care",
+              "fields": [
+                [
+                  "Goal",
+                  "Improve or maintain safe functional mobility and transfers using agreed assistance or cueing, without preventable falls. Maintain as much independence as possible in feeding, hygiene, and other ADLs with adaptive equipment and enough time."
+                ],
+                [
+                  "Actions",
+                  "Coordinate PT/OT, medication-aware activity, safe transfers, fall prevention, cueing and adaptive self-care equipment. Allow adequate time and agreed assistance."
+                ],
+                [
+                  "Evaluate",
+                  "Compare transfers, mobility and chosen ADLs with baseline; review falls, freezing and the assistance needed."
+                ]
+              ]
+            },
+            {
+              "title": "2. Swallowing and nutrition",
+              "fields": [
+                [
+                  "Goal",
+                  "Follow the individualized swallowing plan, meet nutrition/hydration goals, and maintain an appropriate weight trend."
+                ],
+                [
+                  "Actions",
+                  "Use the individual SLP feeding plan, upright positioning and meal pacing; coordinate medicines/meals and monitor intake, hydration and weight."
+                ],
+                [
+                  "Evaluate",
+                  "Review intake and weight against agreed targets and act on aspiration concerns; absence of coughing alone does not establish safety."
+                ]
+              ]
+            },
+            {
+              "title": "3. Bowel comfort",
+              "fields": [
+                [
+                  "Goal",
+                  "Establish a comfortable, regular bowel pattern without impaction or treatment complications."
+                ],
+                [
+                  "Actions",
+                  "Support a regular bowel routine, safe activity, fluids/fiber within restrictions and prescribed bowel medicines when needed."
+                ],
+                [
+                  "Evaluate",
+                  "Review stool comfort/frequency and check for impaction, dehydration or bowel-treatment adverse effects."
+                ]
+              ]
+            },
+            {
+              "title": "4. Medication self-management",
+              "fields": [
+                [
+                  "Goal",
+                  "Demonstrate the medication schedule, explain adverse effects and warning signs, and identify how to obtain help."
+                ],
+                [
+                  "Actions",
+                  "Confirm exact doses/formulations/times, use teach-back and track on/off response and adverse effects; arrange a safe route if swallowing is unsafe."
+                ],
+                [
+                  "Evaluate",
+                  "The patient/caregiver demonstrates the schedule, explains warning signs and knows how to obtain help; benefit and toxicity are reassessed."
+                ]
+              ]
+            },
+            {
+              "title": "5. Communication and support",
+              "fields": [
+                [
+                  "Goal",
+                  "Communicate needs effectively using speech strategies or an appropriate device. Use positive coping strategies and access a sustainable support or caregiver-relief plan."
+                ],
+                [
+                  "Actions",
+                  "Use SLP communication strategies or aids, allow response time, assess coping and involve chosen supports with consent; arrange caregiver relief."
+                ],
+                [
+                  "Evaluate",
+                  "The patient expresses needs and participates in decisions; coping and practical caregiver support are reviewed."
+                ]
+              ]
+            }
+          ]
+        }
       ],
       interventions: [
         { type: 'heading', text: 'Support movement and self-care' },
@@ -2782,10 +3560,38 @@ const conditionNotes = {
         { type: 'paragraph', text: 'Use an interdisciplinary approach and involve the family, partner, or caregiver with consent. Teach care skills, assess stress, encourage relief from caregiving, and connect with community resources. Evaluate the home for adaptations. As needs increase, discuss home support, respite, or longer-term care; acute complications may require hospital care. Discuss advance directives and goals of care when appropriate.' }
       ],
       education: [
-        { type: 'heading', text: 'Medication routine and safety' },
-        { type: 'list', items: ['Know the exact medicine, formulation, dose, and clock times. Bring the current schedule to hospital and explain why timing matters.', 'Do not abruptly stop or independently change carbidopa–levodopa. Report “off” patterns, dyskinesia, nausea, dizziness, confusion, hallucinations, and excessive sleepiness.', 'If protein interferes with levodopa, use the agreed meal/dose plan while maintaining adequate nutrition. Do not automatically eliminate protein.', 'Check new prescriptions and OTC medicines with the PD team or pharmacist. Specifically flag dopamine-blocking medicines such as metoclopramide and haloperidol.', 'If swallowing pills becomes difficult or NPO is required, seek a safe alternative formulation/route promptly. Do not crush modified-release medicines or skip critical doses without a plan.'] },
-        { type: 'heading', text: 'Daily care and warning signs' },
-        { type: 'list', items: ['Demonstrate the prescribed swallowing, positioning, pacing, and texture plan. Know that aspiration may be silent and that chin tuck is used only when individually recommended.', 'Practice fall prevention, slow position changes, and the PT-taught response to freezing. Keep pathways clear and use assessed equipment.', 'Follow the activity, bowel, fluid, and nutrition plan and report constipation, unintentional weight loss, or a change in oral intake.', 'Seek prompt help for new swallowing difficulty, repeated chest infections, fever, new confusion, recurrent fainting/falls, or medication interruption. Choking with breathing difficulty is an emergency.', 'Include caregivers in teaching when the patient wishes. Adapt education to cognition, disease severity, and actual ability; confirm understanding through teach-back and practical demonstration.'] }
+        {
+          "type": "heading",
+          "text": "Medication routine and safety"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Know the exact medicine, formulation, dose, and clock times. Bring the current schedule to hospital and explain why timing matters.",
+            "Do not abruptly stop or independently change carbidopa–levodopa. Report “off” patterns, dyskinesia, nausea, dizziness, confusion, hallucinations, and excessive sleepiness.",
+            "If protein interferes with levodopa, use the agreed meal/dose plan while maintaining adequate nutrition. Do not automatically eliminate protein.",
+            "Check new prescriptions and OTC medicines with the PD team or pharmacist. Specifically flag dopamine-blocking medicines such as metoclopramide and haloperidol.",
+            "If swallowing pills becomes difficult or NPO is required, seek a safe alternative formulation/route promptly. Do not crush modified-release medicines or skip critical doses without a plan."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "With dopamine agonists, report new compulsive gambling, shopping, eating or sexual urges, hallucinations, or sudden sleep episodes. Avoid driving if sleep attacks occur and obtain prompt specialist advice. Do not independently stop or taper dopaminergic medicines."
+        },
+        {
+          "type": "heading",
+          "text": "Daily care and warning signs"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Demonstrate the prescribed swallowing, positioning, pacing, and texture plan. Know that aspiration may be silent and that chin tuck is used only when individually recommended.",
+            "Practice fall prevention, slow position changes, and the PT-taught response to freezing. Keep pathways clear and use assessed equipment.",
+            "Follow the activity, bowel, fluid, and nutrition plan and report constipation, unintentional weight loss, or a change in oral intake.",
+            "Seek prompt help for new swallowing difficulty, repeated chest infections, fever, new confusion, recurrent fainting/falls, or medication interruption. Choking with breathing difficulty is an emergency.",
+            "Include caregivers in teaching when the patient wishes. Adapt education to cognition, disease severity, and actual ability; confirm understanding through teach-back and practical demonstration."
+          ]
+        }
       ],
       evaluation: [
         { type: 'list', items: ['Mobility and self-care: the patient moves and transfers more safely, uses cueing/equipment effectively, and retains the greatest practical independence in ADLs.', 'Swallowing and nutrition: the individual feeding plan is followed, intake and hydration meet agreed goals, weight is stable or improving as intended, and concerning respiratory or swallowing changes are addressed. No cough alone is not proof that aspiration is absent.', 'Bowel function: stools are comfortable and regular for the patient without impaction, dehydration, or adverse effects from the bowel regimen.', 'Medication response: doses are given at the correct times, “on/off” patterns are documented, and benefit is balanced against dyskinesia, hypotension, confusion, and other adverse effects.', 'Communication and coping: the patient can express needs, participates in decisions and achievable activities, and identifies useful coping strategies.', 'Safety and support: preventable falls and other complications are minimized, the home plan is workable, and the caregiver can demonstrate care tasks and access relief or support.'] }
@@ -2800,31 +3606,132 @@ const conditionNotes = {
       { title: 'Incomplete older phrases', text: 'The unfinished walking instruction (“raising your…”), unspecified living setting, and unclear amplifier/communication phrases cannot be recovered word for word. Their care areas are completed with current PT-guided gait, OT/home adaptation, and SLP/communication guidance. This does not claim to reconstruct the original missing wording. Bed equipment and daytime rest are also individualized rather than universal rules.' }
     ],
     references: [
-      { title: 'NIH / NINDS · Parkinson’s disease: Hope Through Research', url: 'https://www.ninds.nih.gov/sites/default/files/2025-05/parkinsons-disease-hope-through-research.pdf', supports: 'Dopamine loss, motor/non-motor findings, disease course, and general treatment concepts.' },
-      { title: 'NICE NG71 · Parkinson’s disease in adults', url: 'https://www.nice.org.uk/guidance/ng71/chapter/Recommendations', supports: 'Clinical diagnosis, SPECT/PET limitations, medication timing, rehabilitation, protein redistribution, and psychiatric care.' },
-      { title: 'Parkinson’s Foundation · Getting diagnosed', url: 'https://www.parkinson.org/understanding-parkinsons/getting-diagnosed', supports: 'Clinical assessment, treatment response, and the supporting role and limits of diagnostic tests.' },
-      { title: 'RUSH · Focused ultrasound outcomes and risks', url: 'https://www.fusanddbs.org/fus/outcomes-and-risks', supports: 'Selected motor-symptom targets, patient selection, and focused ultrasound limitations.' },
-      { title: 'Parkinson’s Foundation · Tremor', url: 'https://www.parkinson.org/understanding-parkinsons/movement-symptoms/tremor', supports: 'Typical rest-tremor pattern, purposeful movement, and sleep.' },
-      { title: 'Parkinson’s Foundation · Levodopa', url: 'https://www.parkinson.org/living-with-parkinsons/treatment/prescription-medications/levodopa', supports: 'Carbidopa–levodopa, food/protein interaction, nausea, and response monitoring.' },
-      { title: 'Parkinson’s Foundation · Hospital care recommendations', url: 'https://www.parkinson.org/sites/default/files/documents/hospital-care-recommendations-april2023.pdf', supports: 'Time-critical medication, harmful dopamine-blocking medicines, alternative medication delivery, and hospital safety.' },
-      { title: 'ASHA · Adult dysphagia', url: 'https://www.asha.org/practice-portal/clinical-topics/adult-dysphagia/', supports: 'Individualized swallowing assessment, silent aspiration, chin-down posture, and food/liquid modification.' },
-      { title: 'ASHA · Swallowing screening', url: 'https://www.asha.org/practice-portal/clinical-topics/adult-dysphagia/swallowing-screening', supports: 'Bedside screening limits and referral for a comprehensive swallowing assessment.' },
-      { title: 'Consensus recommendations · PD dysphagia during hospital admission', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC13347581/', supports: 'Swallowing warning signs, hospital management, medication/nutrition routes, and care-partner education.' },
-      { title: 'Parkinson’s Foundation · Speech & swallowing', url: 'https://www.parkinson.org/understanding-parkinsons/non-movement-symptoms/speech-swallowing', supports: 'Dysphagia, communication, SLP therapy, voice amplifiers, and assistive strategies.' },
-      { title: 'Alberta Health Services · Eating and swallowing safely', url: 'https://myhealth.alberta.ca/Health/aftercareinformation/pages/conditions.aspx?hwid=custom.ab_eating_swallowing_inst', supports: 'Positioning, pacing, and the individualized safe-feeding plan.' },
-      { title: 'APDA · Freezing of gait', url: 'https://www.apdaparkinson.org/what-is-parkinsons/symptoms/freezing-of-gait/', supports: 'Visual/auditory cues and individually chosen strategies for freezing.' },
-      { title: 'Parkinson’s Foundation · Low blood pressure', url: 'https://www.parkinson.org/library/fact-sheets/blood-pressure', supports: 'Autonomic dysfunction, orthostatic hypotension, medication contributions, and fall risk.' },
-      { title: 'Parkinson’s Foundation · Exercise', url: 'https://www.parkinson.org/living-with-parkinsons/treatment/exercise', supports: 'Activity, strength, balance, flexibility, and individualized exercise approaches.' },
-      { title: 'Parkinson’s Foundation · Nutrition', url: 'https://www.parkinson.org/library/fact-sheets/nutrition', supports: 'Balanced nutrition, adequate intake, fiber, and fluids.' },
-      { title: 'Parkinson’s Foundation · Constipation & nausea', url: 'https://www.parkinson.org/understanding-parkinsons/non-movement-symptoms/constipation', supports: 'PD gastrointestinal changes and supervised use of bowel medicines.' },
-      { title: 'Parkinson’s Foundation · Sleep problems', url: 'https://www.parkinson.org/library/fact-sheets/sleep', supports: 'Night-time symptoms, daytime sleepiness, and individualized assessment.' },
-      { title: 'FDA · Bed safety and bed rails', url: 'https://www.fda.gov/medical-devices/hospital-beds/guide-bed-safety-bed-rails-hospitals-nursing-homes-and-home-health-care-facts', supports: 'Individual assessment, entrapment risk, monitoring, and alternatives to routine bed rails.' }
+      {
+        "title": "NIH / NINDS · Parkinson’s disease: Hope Through Research",
+        "url": "https://www.ninds.nih.gov/sites/default/files/2025-05/parkinsons-disease-hope-through-research.pdf",
+        "supports": "Dopamine loss, motor/non-motor findings, disease course, and general treatment concepts."
+      },
+      {
+        "title": "NICE NG71 · Parkinson’s disease in adults",
+        "url": "https://www.nice.org.uk/guidance/ng71/chapter/Recommendations",
+        "supports": "Clinical diagnosis, SPECT/PET limitations, medication timing, rehabilitation, protein redistribution, and psychiatric care."
+      },
+      {
+        "title": "Parkinson’s Foundation · Getting diagnosed",
+        "url": "https://www.parkinson.org/understanding-parkinsons/getting-diagnosed",
+        "supports": "Clinical assessment, treatment response, and the supporting role and limits of diagnostic tests."
+      },
+      {
+        "title": "RUSH · Focused ultrasound outcomes and risks",
+        "url": "https://www.fusanddbs.org/fus/outcomes-and-risks",
+        "supports": "Selected motor-symptom targets, patient selection, and focused ultrasound limitations."
+      },
+      {
+        "title": "Parkinson’s Foundation · Tremor",
+        "url": "https://www.parkinson.org/understanding-parkinsons/movement-symptoms/tremor",
+        "supports": "Typical rest-tremor pattern, purposeful movement, and sleep."
+      },
+      {
+        "title": "Parkinson’s Foundation · Levodopa",
+        "url": "https://www.parkinson.org/living-with-parkinsons/treatment/prescription-medications/levodopa",
+        "supports": "Carbidopa–levodopa, food/protein interaction, nausea, and response monitoring."
+      },
+      {
+        "title": "Parkinson’s Foundation · Hospital care recommendations",
+        "url": "https://www.parkinson.org/sites/default/files/documents/hospital-care-recommendations-april2023.pdf",
+        "supports": "Time-critical medication, harmful dopamine-blocking medicines, alternative medication delivery, and hospital safety."
+      },
+      {
+        "title": "ASHA · Adult dysphagia",
+        "url": "https://www.asha.org/practice-portal/clinical-topics/adult-dysphagia/",
+        "supports": "Individualized swallowing assessment, silent aspiration, chin-down posture, and food/liquid modification."
+      },
+      {
+        "title": "ASHA · Swallowing screening",
+        "url": "https://www.asha.org/practice-portal/clinical-topics/adult-dysphagia/swallowing-screening",
+        "supports": "Bedside screening limits and referral for a comprehensive swallowing assessment."
+      },
+      {
+        "title": "Consensus recommendations · PD dysphagia during hospital admission",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13347581/",
+        "supports": "Swallowing warning signs, hospital management, medication/nutrition routes, and care-partner education."
+      },
+      {
+        "title": "Parkinson’s Foundation · Speech & swallowing",
+        "url": "https://www.parkinson.org/understanding-parkinsons/non-movement-symptoms/speech-swallowing",
+        "supports": "Dysphagia, communication, SLP therapy, voice amplifiers, and assistive strategies."
+      },
+      {
+        "title": "Alberta Health Services · Eating and swallowing safely",
+        "url": "https://myhealth.alberta.ca/Health/aftercareinformation/pages/conditions.aspx?hwid=custom.ab_eating_swallowing_inst",
+        "supports": "Positioning, pacing, and the individualized safe-feeding plan."
+      },
+      {
+        "title": "APDA · Freezing of gait",
+        "url": "https://www.apdaparkinson.org/what-is-parkinsons/symptoms/freezing-of-gait/",
+        "supports": "Visual/auditory cues and individually chosen strategies for freezing."
+      },
+      {
+        "title": "Parkinson’s Foundation · Low blood pressure",
+        "url": "https://www.parkinson.org/library/fact-sheets/blood-pressure",
+        "supports": "Autonomic dysfunction, orthostatic hypotension, medication contributions, and fall risk."
+      },
+      {
+        "title": "Parkinson’s Foundation · Exercise",
+        "url": "https://www.parkinson.org/living-with-parkinsons/treatment/exercise",
+        "supports": "Activity, strength, balance, flexibility, and individualized exercise approaches."
+      },
+      {
+        "title": "Parkinson’s Foundation · Nutrition",
+        "url": "https://www.parkinson.org/library/fact-sheets/nutrition",
+        "supports": "Balanced nutrition, adequate intake, fiber, and fluids."
+      },
+      {
+        "title": "Parkinson’s Foundation · Constipation & nausea",
+        "url": "https://www.parkinson.org/understanding-parkinsons/non-movement-symptoms/constipation",
+        "supports": "PD gastrointestinal changes and supervised use of bowel medicines."
+      },
+      {
+        "title": "Parkinson’s Foundation · Sleep problems",
+        "url": "https://www.parkinson.org/library/fact-sheets/sleep",
+        "supports": "Night-time symptoms, daytime sleepiness, and individualized assessment."
+      },
+      {
+        "title": "FDA · Bed safety and bed rails",
+        "url": "https://www.fda.gov/medical-devices/hospital-beds/guide-bed-safety-bed-rails-hospitals-nursing-homes-and-home-health-care-facts",
+        "supports": "Individual assessment, entrapment risk, monitoring, and alternatives to routine bed rails."
+      },
+      {
+        "title": "Parkinson’s Foundation · Dopamine agonists",
+        "url": "https://www.parkinson.org/living-with-parkinsons/treatment/prescription-medications/dopamine-antagonists",
+        "supports": "Named agents, motor role, sleep and impulse-control risks."
+      },
+      {
+        "title": "Parkinson’s Foundation · MAO-B inhibitors",
+        "url": "https://www.parkinson.org/living-with-parkinsons/treatment/prescription-medications/mao-b-inhibitors",
+        "supports": "Dopamine-breakdown inhibition, examples and medication review."
+      },
+      {
+        "title": "Parkinson’s Foundation · COMT inhibitors",
+        "url": "https://www.parkinson.org/living-with-parkinsons/treatment/prescription-medications/comt-inhibitors",
+        "supports": "Levodopa adjuncts, wearing off and adverse-effect monitoring."
+      },
+      {
+        "title": "Parkinson’s Foundation · Amantadine",
+        "url": "https://www.parkinson.org/living-with-parkinsons/treatment/prescription-medications/amantadine",
+        "supports": "Dyskinesia role, renal dosing and adverse effects."
+      },
+      {
+        "title": "Parkinson’s Foundation · Anticholinergics",
+        "url": "https://www.parkinson.org/living-with-parkinsons/treatment/prescription-medications/anticholinergic-drugs",
+        "supports": "Selected tremor use and cognitive/urinary/bowel limitations."
+      }
     ]
   },
   'myasthenia-gravis': {
     title: 'Myasthenia gravis', abbreviation: 'MG', week: 8, deck: 'myasthenia-gravis',
     reading: 'Course study guide: Myasthenia gravis—clinical manifestations and pyridostigmine patient instructions. B&S textbook: Chapter 65, MG section.',
-    reviewed: 'November 14, 2026',
+    reviewed: 'November 15, 2026',
     focus: [
       { section: 'manifestations', label: 'Clinical manifestations' },
       { section: 'education', label: 'Pyridostigmine patient instructions' }
@@ -2902,16 +3809,72 @@ const conditionNotes = {
         { type: 'paragraph', text: 'Trend FVC and NIF, assess breathing and secretion clearance, and provide respiratory support according to the care plan. Incentive spirometry may be ordered as an adjunct in appropriate patients, but it does not treat myasthenic crisis or replace assisted ventilation. Worsening respiratory weakness requires prompt escalation and possible ventilatory support.' }
       ],
       'adverse-effects': [
-        { type: 'heading', text: 'Cholinergic effects of acetylcholinesterase inhibitors' },
-        { type: 'list', items: ['Abdominal cramping, diarrhea, and nausea.', 'Increased salivation and bronchial secretions.', 'Sweating and tearing.', 'Miosis: constricted or pinpoint pupils, rather than mydriasis.', 'Bradycardia.', 'Muscle cramping, twitching, and weakness may also occur.'] },
-        { type: 'paragraph', text: 'Excess acetylcholinesterase inhibitor can cause cholinergic crisis with profound weakness and respiratory failure. Worsening weakness must be assessed before assuming that another dose is needed. Atropine can treat muscarinic effects such as bradycardia and secretions when ordered, but it does not reverse skeletal-muscle paralysis or replace respiratory support.' },
-        { type: 'heading', text: 'Corticosteroids and other immunosuppressants' },
-        { type: 'paragraph', text: 'Steroids may transiently worsen weakness when started; longer-term concerns include infection, hyperglycemia, mood changes, and bone loss. Other immunosuppressants require drug-specific surveillance, including blood counts and organ-function tests as ordered.' },
-        { type: 'heading', text: 'IVIG' },
-        { type: 'list', items: ['Headache and infusion reactions.', 'Thromboembolism.', 'Renal dysfunction or acute kidney injury.', 'Fluid overload in susceptible patients.', 'Severe hypersensitivity or anaphylaxis. IgA deficiency alone does not mean anaphylaxis is inevitable; risk assessment includes anti-IgA antibodies, previous reactions, and the specific product.'] },
-        { type: 'heading', text: 'Therapeutic plasma exchange' },
-        { type: 'list', items: ['Hypotension.', 'Hypocalcemia, often associated with citrate anticoagulation.', 'Bleeding or changes in coagulation.', 'Vascular-access or central-line infection; this is not limited to a limb site.'] },
-        { type: 'paragraph', text: 'Monitor vital signs, access sites, symptoms, laboratory results, and infusion/procedure tolerance as ordered. “Acute infusion crisis” is not a single shared diagnosis for IVIG and PLEX; recognize the specific adverse reaction and respond according to the treatment protocol.' }
+        {
+          "type": "heading",
+          "text": "Cholinergic effects of acetylcholinesterase inhibitors"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Abdominal cramping, diarrhea, and nausea.",
+            "Increased salivation and bronchial secretions.",
+            "Sweating and tearing.",
+            "Miosis: constricted or pinpoint pupils, rather than mydriasis.",
+            "Bradycardia.",
+            "Muscle cramping, twitching, and weakness may also occur."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Excess acetylcholinesterase inhibitor can cause cholinergic crisis with profound weakness and respiratory failure. Worsening weakness must be assessed before assuming that another dose is needed. Atropine can treat muscarinic effects such as bradycardia and secretions when ordered, but it does not reverse skeletal-muscle paralysis or replace respiratory support."
+        },
+        {
+          "type": "heading",
+          "text": "Corticosteroids and other immunosuppressants"
+        },
+        {
+          "type": "paragraph",
+          "text": "Steroids may transiently worsen weakness when started; longer-term concerns include infection, hyperglycemia, mood changes, and bone loss. Other immunosuppressants require drug-specific surveillance, including blood counts and organ-function tests as ordered."
+        },
+        {
+          "type": "heading",
+          "text": "IVIG"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Headache and infusion reactions.",
+            "Thromboembolism.",
+            "Renal dysfunction or acute kidney injury.",
+            "Fluid overload in susceptible patients.",
+            "Severe hypersensitivity or anaphylaxis. IgA deficiency alone does not mean anaphylaxis is inevitable; risk assessment includes anti-IgA antibodies, previous reactions, and the specific product."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Therapeutic plasma exchange"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Hypotension.",
+            "Hypocalcemia, often associated with citrate anticoagulation.",
+            "Bleeding or changes in coagulation.",
+            "Vascular-access or central-line infection; this is not limited to a limb site."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Monitor vital signs, access sites, symptoms, laboratory results, and infusion/procedure tolerance as ordered. “Acute infusion crisis” is not a single shared diagnosis for IVIG and PLEX; recognize the specific adverse reaction and respond according to the treatment protocol."
+        },
+        {
+          "type": "heading",
+          "text": "Targeted-therapy infection precautions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Complement C5 inhibitors such as eculizumab or ravulizumab greatly increase meningococcal-disease risk. Verify the prescribed MenACWY/MenB vaccination, booster and any antibiotic-prevention plan before treatment. Vaccination and antibiotics do not eliminate risk: fever, severe headache, stiff neck, rash or rapid deterioration needs immediate assessment, even when vaccinated. Carry the treatment safety information and tell emergency clinicians about the complement inhibitor. Other targeted therapies have their own infection and monitoring requirements."
+        }
       ],
       nutrition: [
         { type: 'paragraph', text: 'Chewing and swallowing fatigue can lead to aspiration, dehydration, and malnutrition. Individualize nutrition with the dietitian and speech-language pathologist when swallowing is affected.' },
@@ -2940,9 +3903,87 @@ const conditionNotes = {
         { type: 'paragraph', text: 'Both are emergencies. Their medication management differs, but airway and breathing remain priorities in both. Patients should not self-diagnose the type of crisis or adjust doses to test which one it is.' }
       ],
       plan: [
-        { type: 'paragraph', text: 'Turn the identified problems into patient-centered outcomes with an agreed time frame. The plan should describe what the patient will achieve, while the interventions section describes what the nurse will do.' },
-        { type: 'list', items: ['Maintain effective ventilation and airway clearance, with stable or improving respiratory assessments and FVC/NIF trends.', 'Maintain safe intake using the agreed swallowing plan, without observed choking or clinical evidence of aspiration, and meet individualized hydration and nutrition goals.', 'Complete selected daily activities with planned rest and appropriate assistance, without unsafe exhaustion or injury.', 'Explain and demonstrate the prescribed medication schedule, meal timing, missed-dose instructions, and recognition of emergency symptoms using teach-back.', 'Identify a support person when desired and describe how to obtain practical or emotional support.'] },
-        { type: 'paragraph', text: 'Medication timing, hands-on practice, mood screening, and family involvement from your original “plan of care” notes are retained in the intervention and education sections below.' }
+        {
+          "type": "paragraph",
+          "text": "Turn the identified problems into patient-centered outcomes with an agreed time frame. The plan should describe what the patient will achieve, while the interventions section describes what the nurse will do."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "1. Ventilation and airway clearance",
+              "fields": [
+                [
+                  "Goal",
+                  "Maintain effective ventilation and airway clearance, with stable or improving respiratory assessments and FVC/NIF trends."
+                ],
+                [
+                  "Actions",
+                  "Trend breathing, cough, secretion handling and ordered FVC/NIF; support the prescribed respiratory plan and escalate deterioration promptly."
+                ],
+                [
+                  "Evaluate",
+                  "Respiratory effort and mechanics are stable/improving, secretions are managed and deterioration is recognized before exhaustion."
+                ]
+              ]
+            },
+            {
+              "title": "2. Safe nutrition and hydration",
+              "fields": [
+                [
+                  "Goal",
+                  "Maintain safe intake using the agreed swallowing plan, without observed choking or clinical evidence of aspiration, and meet individualized hydration and nutrition goals."
+                ],
+                [
+                  "Actions",
+                  "Follow the swallowing assessment, upright feeding and rest plan; coordinate prescribed immediate-release pyridostigmine with meals and arrange an alternative route if intake is unsafe."
+                ],
+                [
+                  "Evaluate",
+                  "Intake/hydration and weight meet individualized targets; chewing/swallowing fatigue and aspiration concerns receive timely review."
+                ]
+              ]
+            },
+            {
+              "title": "3. Activity and injury prevention",
+              "fields": [
+                [
+                  "Goal",
+                  "Complete selected daily activities with planned rest and appropriate assistance, without unsafe exhaustion or injury."
+                ],
+                [
+                  "Actions",
+                  "Plan rest before demanding tasks, pace ADLs and provide assessed aids, safe transfers and home adaptations."
+                ],
+                [
+                  "Evaluate",
+                  "The patient completes selected activities with appropriate assistance, manageable fatigue and no preventable injury."
+                ]
+              ]
+            },
+            {
+              "title": "4. Medication skills and support",
+              "fields": [
+                [
+                  "Goal",
+                  "Explain and demonstrate the prescribed medication schedule, meal timing, missed-dose instructions, and recognition of emergency symptoms using teach-back. Identify a support person when desired and describe how to obtain practical or emotional support."
+                ],
+                [
+                  "Actions",
+                  "Practice the actual schedule and missed-dose plan with teach-back; review emergency signs, follow-up, coping and patient-chosen caregiver support."
+                ],
+                [
+                  "Evaluate",
+                  "The patient/caregiver demonstrates the regimen, recognizes emergencies and can obtain medicines, follow-up and practical support."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Medication timing, hands-on practice, mood screening, and family involvement from your original “plan of care” notes are retained in the intervention and education sections below."
+        }
       ],
       interventions: [
         { type: 'heading', text: 'Build practical self-management skills' },
@@ -2978,23 +4019,96 @@ const conditionNotes = {
       { title: 'Context-dependent details', text: 'Retained smaller meals, ocular care, mood screening, and family support. Five or six meals and alternating an eye patch every few hours are options rather than universal rules. A fixed “one third” depression/anxiety prevalence was not established for all MG populations. Drug cautions, thymectomy, and immunotherapies are presented as individualized decisions rather than absolute rules for every patient.' }
     ],
     references: [
-      { title: 'NIH / NINDS · Myasthenia gravis', url: 'https://www.ninds.nih.gov/sites/default/files/2025-05/myasthenia-gravis.pdf', supports: 'Overview, symptoms, risk associations, diagnostic evaluation, and crisis triggers.' },
-      { title: 'MGFA · Diagnosing MG', url: 'https://myasthenia.org/understanding-mg/diagnosing-mg/', supports: 'Antibody tests, ice pack test, electrodiagnostic testing, and chest imaging.' },
-      { title: 'Autoimmune MG: clinical and biological heterogeneity', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2730933/', supports: 'AChR receptor blockade, internalization, complement injury, and subtype differences.' },
-      { title: 'ABN · MG management guidelines, 2025 update', url: 'https://pubmed.ncbi.nlm.nih.gov/40940171/', supports: 'Contemporary treatment framework, thymectomy, rituximab, and newer targeted pathways.' },
-      { title: 'International Consensus Guidance · 2020 update', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7884987/', supports: 'Rituximab in MuSK MG, selected methotrexate use, and thymectomy considerations.' },
-      { title: 'Guideline for the management of myasthenic syndromes · 2023', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10752078/', supports: 'Antibody-directed treatment choices, immunosuppressants, and rescue therapies.' },
-      { title: 'DailyMed · Mestinon prescribing information', url: 'https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a851795e-b7a8-40c3-9922-5e79d3eb4d92', supports: 'Mechanism, formulations, cholinergic effects, and medication toxicity.' },
-      { title: 'Mestinon · Summary of Product Characteristics', url: 'https://www.medicines.org.uk/emc/product/962/smpc', supports: 'Onset of effect, miosis, interactions, and muscarinic effects of overdose.' },
-      { title: 'MedlinePlus · Pyridostigmine', url: 'https://medlineplus.gov/druginfo/meds/a682229.html', supports: 'Patient instructions, extended-release tablets, and missed doses.' },
-      { title: 'NHS · Pyridostigmine for MG', url: 'https://www.rightdecisions.scot.nhs.uk/media/2616/1061-pyridostigmine-for-myasthenia-gravis.pdf', supports: 'Individualized scheduling and timing before meals.' },
-      { title: 'MGFA · Emergency management', url: 'https://myasthenia.org/understanding-mg/learn-more-about-mg-treatments/mg-brochures/emergency-management-for-first-responders/', supports: 'Airway priorities, serial FVC/NIF, pulse-oximetry limitations, and ventilatory support.' },
-      { title: 'MGFA · Cautionary drugs', url: 'https://myasthenia.org/wp-content/uploads/2024/09/MGFA-Cautionary-Drug-List.pdf', supports: 'Antibiotics, beta blockers, magnesium, and risk-benefit decisions.' },
-      { title: 'MGFA · General MG management', url: 'https://myasthenia.org/living-with-mg/after-your-diagnosis/general-mg-management/', supports: 'Swallowing, meal planning, self-management, and calcium/vitamin D with steroid use.' },
-      { title: 'Alberta Health Services · Eating and swallowing safely', url: 'https://myhealth.alberta.ca/Health/aftercareinformation/pages/conditions.aspx?hwid=custom.ab_eating_swallowing_inst', supports: 'Upright positioning and individualized food/liquid consistency.' },
-      { title: 'FDA · Privigen (IVIG) prescribing information', url: 'https://www.fda.gov/media/83304/download', supports: 'Thrombosis, renal dysfunction, fluid overload, and hypersensitivity/IgA precautions.' },
-      { title: 'UCLH · Plasma exchange service', url: 'https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/plasma-exchange-service-nhnn', supports: 'Hypotension, electrolyte changes, bleeding, and vascular-access care.' },
-      { title: 'Myasthenia Alliance Australia · Lifestyle tips', url: 'https://www.myasthenia.org.au/patient-support/lifestyle/', supports: 'Patching for diplopia, lubricants, and protective eyelid care.' }
+      {
+        "title": "NIH / NINDS · Myasthenia gravis",
+        "url": "https://www.ninds.nih.gov/sites/default/files/2025-05/myasthenia-gravis.pdf",
+        "supports": "Overview, symptoms, risk associations, diagnostic evaluation, and crisis triggers."
+      },
+      {
+        "title": "MGFA · Diagnosing MG",
+        "url": "https://myasthenia.org/understanding-mg/diagnosing-mg/",
+        "supports": "Antibody tests, ice pack test, electrodiagnostic testing, and chest imaging."
+      },
+      {
+        "title": "Autoimmune MG: clinical and biological heterogeneity",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2730933/",
+        "supports": "AChR receptor blockade, internalization, complement injury, and subtype differences."
+      },
+      {
+        "title": "ABN · MG management guidelines, 2025 update",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40940171/",
+        "supports": "Contemporary treatment framework, thymectomy, rituximab, and newer targeted pathways."
+      },
+      {
+        "title": "International Consensus Guidance · 2020 update",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7884987/",
+        "supports": "Rituximab in MuSK MG, selected methotrexate use, and thymectomy considerations."
+      },
+      {
+        "title": "Guideline for the management of myasthenic syndromes · 2023",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10752078/",
+        "supports": "Antibody-directed treatment choices, immunosuppressants, and rescue therapies."
+      },
+      {
+        "title": "DailyMed · Mestinon prescribing information",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a851795e-b7a8-40c3-9922-5e79d3eb4d92",
+        "supports": "Mechanism, formulations, cholinergic effects, and medication toxicity."
+      },
+      {
+        "title": "Mestinon · Summary of Product Characteristics",
+        "url": "https://www.medicines.org.uk/emc/product/962/smpc",
+        "supports": "Onset of effect, miosis, interactions, and muscarinic effects of overdose."
+      },
+      {
+        "title": "MedlinePlus · Pyridostigmine",
+        "url": "https://medlineplus.gov/druginfo/meds/a682229.html",
+        "supports": "Patient instructions, extended-release tablets, and missed doses."
+      },
+      {
+        "title": "NHS · Pyridostigmine for MG",
+        "url": "https://www.rightdecisions.scot.nhs.uk/media/2616/1061-pyridostigmine-for-myasthenia-gravis.pdf",
+        "supports": "Individualized scheduling and timing before meals."
+      },
+      {
+        "title": "MGFA · Emergency management",
+        "url": "https://myasthenia.org/understanding-mg/learn-more-about-mg-treatments/mg-brochures/emergency-management-for-first-responders/",
+        "supports": "Airway priorities, serial FVC/NIF, pulse-oximetry limitations, and ventilatory support."
+      },
+      {
+        "title": "MGFA · Cautionary drugs",
+        "url": "https://myasthenia.org/wp-content/uploads/2024/09/MGFA-Cautionary-Drug-List.pdf",
+        "supports": "Antibiotics, beta blockers, magnesium, and risk-benefit decisions."
+      },
+      {
+        "title": "MGFA · General MG management",
+        "url": "https://myasthenia.org/living-with-mg/after-your-diagnosis/general-mg-management/",
+        "supports": "Swallowing, meal planning, self-management, and calcium/vitamin D with steroid use."
+      },
+      {
+        "title": "Alberta Health Services · Eating and swallowing safely",
+        "url": "https://myhealth.alberta.ca/Health/aftercareinformation/pages/conditions.aspx?hwid=custom.ab_eating_swallowing_inst",
+        "supports": "Upright positioning and individualized food/liquid consistency."
+      },
+      {
+        "title": "FDA · Privigen (IVIG) prescribing information",
+        "url": "https://www.fda.gov/media/83304/download",
+        "supports": "Thrombosis, renal dysfunction, fluid overload, and hypersensitivity/IgA precautions."
+      },
+      {
+        "title": "UCLH · Plasma exchange service",
+        "url": "https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/plasma-exchange-service-nhnn",
+        "supports": "Hypotension, electrolyte changes, bleeding, and vascular-access care."
+      },
+      {
+        "title": "Myasthenia Alliance Australia · Lifestyle tips",
+        "url": "https://www.myasthenia.org.au/patient-support/lifestyle/",
+        "supports": "Patching for diplopia, lubricants, and protective eyelid care."
+      },
+      {
+        "title": "CDC · Complement inhibitors and meningococcal disease",
+        "url": "https://www.cdc.gov/meningococcal/risk-factors/receiving-complement-inhibitors.html",
+        "supports": "Vaccination/antibiotics do not remove meningococcal risk; urgent symptom assessment."
+      }
     ]
   }
 };
