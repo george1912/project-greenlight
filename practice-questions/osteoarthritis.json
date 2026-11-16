@@ -1,0 +1,1176 @@
+{
+  "id": "osteoarthritis",
+  "sections": {
+    "overview": [
+      {
+        "id": "OA-OV-01",
+        "type": "mcq",
+        "prompt": "A client says, “My doctor says my knee OA is just cartilage wearing out.” Which response reflects current understanding?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“OA is caused by uric acid crystal buildup.”"
+          },
+          {
+            "id": "B",
+            "text": "“OA affects the cartilage surface layer alone.”"
+          },
+          {
+            "id": "C",
+            "text": "“OA is a systemic autoimmune joint disease.”"
+          },
+          {
+            "id": "D",
+            "text": "“OA involves the whole joint, beyond cartilage.”"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "OA is a whole-joint disorder involving cartilage, subchondral bone, synovium, ligaments/tendons, and muscles; it is more than simple wear-and-tear. Systemic autoimmune disease describes RA, and crystals describe gout."
+      },
+      {
+        "id": "OA-OV-02",
+        "type": "mcq",
+        "prompt": "A client’s knee X-ray report mentions bony spurs at the joint edges. Which OA change does this describe?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Pannus eroding the synovium"
+          },
+          {
+            "id": "B",
+            "text": "Tophi in the joint capsule"
+          },
+          {
+            "id": "C",
+            "text": "Rheumatoid nodules on the bone"
+          },
+          {
+            "id": "D",
+            "text": "Osteophytes at the joint margins"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "In OA, osteophytes form at joint margins along with subchondral sclerosis and cysts. Pannus and nodules are RA features, and tophi are gout deposits."
+      },
+      {
+        "id": "OA-OV-03",
+        "type": "mcq",
+        "prompt": "A younger adult client develops knee OA years after a torn meniscus. How is this classified?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Gout triggered by the old injury"
+          },
+          {
+            "id": "B",
+            "text": "Rheumatoid arthritis of the knee"
+          },
+          {
+            "id": "C",
+            "text": "Secondary OA following a prior injury"
+          },
+          {
+            "id": "D",
+            "text": "Primary OA with no identified cause"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Secondary OA follows a contributing condition such as previous injury, abnormal joint structure, or inflammatory arthritis. Primary OA has no identified initiating cause, and RA and gout are different diseases."
+      }
+    ],
+    "manifestations": [
+      {
+        "id": "OA-CM-01",
+        "type": "mcq",
+        "prompt": "Which stiffness history is most consistent with OA?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Stiffness along with fever and weight loss"
+          },
+          {
+            "id": "B",
+            "text": "Brief stiffness that eases soon after moving"
+          },
+          {
+            "id": "C",
+            "text": "Stiffness that keeps worsening with rest"
+          },
+          {
+            "id": "D",
+            "text": "Morning stiffness lasting several hours"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "OA morning or post-inactivity stiffness is usually brief (often 30 minutes or less). Prolonged stiffness suggests inflammatory arthritis, fever and weight loss suggest a systemic cause, and stiffness that keeps worsening is not the OA pattern."
+      },
+      {
+        "id": "OA-CM-02",
+        "type": "mcq",
+        "prompt": "During a hand exam, the nurse notes hard bony enlargements at the distal finger joints. How should these be documented?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Swan-neck deformity"
+          },
+          {
+            "id": "B",
+            "text": "Rheumatoid nodules"
+          },
+          {
+            "id": "C",
+            "text": "Bouchard’s nodes"
+          },
+          {
+            "id": "D",
+            "text": "Heberden’s nodes"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Heberden’s nodes are hard bony enlargements at DIP joints; Bouchard’s nodes are at PIP joints. Swan-neck deformity and rheumatoid nodules are RA findings."
+      },
+      {
+        "id": "OA-CM-03",
+        "type": "mcq",
+        "prompt": "A client with known knee OA suddenly has a very hot, red, swollen knee and a fever. What is the nurse’s best action?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Arrange prompt assessment for infection or crystals"
+          },
+          {
+            "id": "B",
+            "text": "Treat it as a routine OA flare at home with rest"
+          },
+          {
+            "id": "C",
+            "text": "Apply heat and reassess the knee next week"
+          },
+          {
+            "id": "D",
+            "text": "Encourage more walking to reduce the stiffness"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "A suddenly hot, very red, swollen joint with fever needs assessment for infection, crystal arthritis, injury, or another cause. OA does not typically cause systemic inflammation, so it should not be treated as an ordinary flare."
+      },
+      {
+        "id": "OA-CM-04",
+        "type": "mcq",
+        "prompt": "A client with knee OA describes a grinding feeling when bending the knee. Which term should the nurse document?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ankylosis"
+          },
+          {
+            "id": "B",
+            "text": "Effusion"
+          },
+          {
+            "id": "C",
+            "text": "Crepitus"
+          },
+          {
+            "id": "D",
+            "text": "Subluxation"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Crepitus is a grating/crunching sensation or sound with movement, often at the knee. Effusion is fluid, ankylosis is fusion, and subluxation is partial dislocation."
+      }
+    ],
+    "risk": [
+      {
+        "id": "OA-RF-01",
+        "type": "sata",
+        "prompt": "A client asks what increases the risk of OA. Which contributors should the nurse include? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Gentle daily walking"
+          },
+          {
+            "id": "B",
+            "text": "Strong thigh muscles"
+          },
+          {
+            "id": "C",
+            "text": "A prior joint injury"
+          },
+          {
+            "id": "D",
+            "text": "Overweight or obesity"
+          },
+          {
+            "id": "E",
+            "text": "Low-impact swimming"
+          }
+        ],
+        "correct": [
+          "C",
+          "D"
+        ],
+        "rationale": "Overweight or obesity and prior joint injury or surgery are important contributors, as are repetitive high joint loading and muscle weakness. Strong muscles, swimming, and walking are protective or recommended activities rather than risks."
+      },
+      {
+        "id": "OA-RF-02",
+        "type": "mcq",
+        "prompt": "A middle-aged client without joint symptoms asks when to be screened for OA. What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Everyone your age should have a knee MRI.”"
+          },
+          {
+            "id": "B",
+            "text": "“A routine blood test can screen you for OA now.”"
+          },
+          {
+            "id": "C",
+            "text": "“There is no routine age-based screening for OA.”"
+          },
+          {
+            "id": "D",
+            "text": "“Yearly hand X-rays are advised from your age.”"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "There is no universal age-based OA screening program; persistent symptoms and function are evaluated instead. Routine MRI or X-ray screening is not recommended, and no blood test screens for or confirms OA."
+      }
+    ],
+    "diagnostics": [
+      {
+        "id": "OA-DX-01",
+        "type": "mcq",
+        "prompt": "An older adult client has activity-related knee pain and brief morning stiffness. What does the nurse anticipate for diagnosis?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A complete autoimmune blood panel first"
+          },
+          {
+            "id": "B",
+            "text": "Joint aspiration to confirm the diagnosis"
+          },
+          {
+            "id": "C",
+            "text": "Diagnosis from history and examination"
+          },
+          {
+            "id": "D",
+            "text": "An MRI that is required before diagnosis"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Typical OA is often diagnosed from history and joint examination without routine imaging. MRI, broad autoimmune panels, and aspiration are reserved for atypical features."
+      },
+      {
+        "id": "OA-DX-02",
+        "type": "mcq",
+        "prompt": "Which X-ray findings support a diagnosis of OA?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Marginal erosions with periarticular osteopenia"
+          },
+          {
+            "id": "B",
+            "text": "Punched-out erosions with overhanging edges"
+          },
+          {
+            "id": "C",
+            "text": "Joint-space narrowing, osteophytes, and sclerosis"
+          },
+          {
+            "id": "D",
+            "text": "Normal joint space with soft-tissue calcium"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "OA X-ray findings include joint-space narrowing, osteophytes, subchondral sclerosis/thickening, and sometimes cysts. The other patterns are not the OA findings described."
+      },
+      {
+        "id": "OA-DX-03",
+        "type": "mcq",
+        "prompt": "A client has typical OA knee symptoms, but the X-ray is nearly normal. How should the nurse interpret this?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The pain is most likely psychological"
+          },
+          {
+            "id": "B",
+            "text": "An MRI is now required to confirm OA"
+          },
+          {
+            "id": "C",
+            "text": "The X-ray has ruled out the diagnosis"
+          },
+          {
+            "id": "D",
+            "text": "Early OA is still possible despite this"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "A normal or minimally changed X-ray does not exclude early symptomatic OA, and imaging severity and pain do not always match. MRI is not required in every case."
+      }
+    ],
+    "medical": [
+      {
+        "id": "OA-MM-01",
+        "type": "mcq",
+        "prompt": "Which plan reflects core treatment for a client with knee OA?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Education, tailored exercise, and weight support"
+          },
+          {
+            "id": "B",
+            "text": "Bed rest until the knee pain has fully settled"
+          },
+          {
+            "id": "C",
+            "text": "Long-term opioids as the first-line treatment"
+          },
+          {
+            "id": "D",
+            "text": "Repeated MRI scans to guide treatment choices"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Core treatment includes education/self-management, tailored strengthening and aerobic exercise, and weight support when appropriate. Routine long-term opioids are discouraged, and rest without movement is not core care."
+      },
+      {
+        "id": "OA-MM-02",
+        "type": "mcq",
+        "prompt": "A client with knee OA asks whether acetaminophen should be the first medicine tried. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“It has limited benefit and isn’t always first.”"
+          },
+          {
+            "id": "B",
+            "text": "“It rebuilds damaged cartilage over time.”"
+          },
+          {
+            "id": "C",
+            "text": "“It is required before any topical NSAID.”"
+          },
+          {
+            "id": "D",
+            "text": "“It is the most effective OA drug available.”"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Acetaminophen has limited benefit and is not automatically the first choice for most patients; topical NSAIDs are important options for knee/hand OA. No medicine rebuilds cartilage."
+      },
+      {
+        "id": "OA-MM-03",
+        "type": "mcq",
+        "prompt": "A client with severe hip OA asks when joint replacement is considered. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Once the client reaches a set older age"
+          },
+          {
+            "id": "B",
+            "text": "Once the X-ray shows bone-on-bone changes"
+          },
+          {
+            "id": "C",
+            "text": "As soon as the hip OA is first diagnosed"
+          },
+          {
+            "id": "D",
+            "text": "When function is limited despite other care"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Arthroplasty is considered when symptoms substantially affect life and appropriate non-surgical management is ineffective or unsuitable. The decision is not based on X-ray or age alone."
+      }
+    ],
+    "medications": [
+      {
+        "id": "OA-PH-01",
+        "type": "mcq",
+        "prompt": "A client takes acetaminophen for OA and also uses a combination cold medicine. Which statement about the daily acetaminophen limit is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It applies separately to each product used"
+          },
+          {
+            "id": "B",
+            "text": "It can be exceeded if the pain is severe"
+          },
+          {
+            "id": "C",
+            "text": "It includes the drug from all products used"
+          },
+          {
+            "id": "D",
+            "text": "It is the target dose for good pain relief"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "FDA’s adult ceiling (4,000 mg in 24 hours) counts acetaminophen from all sources, including combination cold medicines, and many products set a lower limit. The limit is not per product, is not exceeded for severe pain, and is a ceiling rather than a target."
+      },
+      {
+        "id": "OA-PH-02",
+        "type": "mcq",
+        "prompt": "A client may have taken too much acetaminophen but has no symptoms. What should the nurse anticipate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Naloxone to reverse the acetaminophen effect"
+          },
+          {
+            "id": "B",
+            "text": "Waiting at home to see if jaundice develops"
+          },
+          {
+            "id": "C",
+            "text": "Vitamin K to protect the liver from injury"
+          },
+          {
+            "id": "D",
+            "text": "Urgent assessment and possible N-acetylcysteine"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Suspected excess needs urgent assessment; N-acetylcysteine is the antidote, and overdose may initially have few symptoms. Naloxone reverses opioids and vitamin K reverses warfarin."
+      },
+      {
+        "id": "OA-PH-03",
+        "type": "mcq",
+        "prompt": "A client is prescribed topical diclofenac gel for hand OA. Which teaching is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Apply to broken skin over the joint"
+          },
+          {
+            "id": "B",
+            "text": "Cover with a heating pad to boost absorption"
+          },
+          {
+            "id": "C",
+            "text": "Avoid the eyes and wash hands as directed"
+          },
+          {
+            "id": "D",
+            "text": "Combine freely with oral ibuprofen"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Avoid eyes/mucosa and follow handwashing instructions. Heat, damaged skin, and duplicate oral NSAIDs increase risk unless the product permits them."
+      },
+      {
+        "id": "OA-PH-04",
+        "type": "mcq",
+        "prompt": "A client taking duloxetine for OA pain is prescribed tramadol. Which risk should the nurse monitor for?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hypoglycemia and hand tremor"
+          },
+          {
+            "id": "B",
+            "text": "Hyperkalemia and bradycardia"
+          },
+          {
+            "id": "C",
+            "text": "Retinal toxicity and vision loss"
+          },
+          {
+            "id": "D",
+            "text": "Serotonin syndrome and seizures"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Tramadol carries seizure and serotonin-syndrome risk, including with duloxetine. The other effects are not the listed interaction risks."
+      }
+    ],
+    "nonpharmacological": [
+      {
+        "id": "OA-NP-01",
+        "type": "mcq",
+        "prompt": "Which exercise plan should the nurse recommend for a client with knee OA?",
+        "options": [
+          {
+            "id": "A",
+            "text": "High-impact running to strengthen the bones"
+          },
+          {
+            "id": "B",
+            "text": "Low-impact aerobic activity plus strengthening"
+          },
+          {
+            "id": "C",
+            "text": "Avoiding exercise until the knee is pain-free"
+          },
+          {
+            "id": "D",
+            "text": "Prolonged rest to protect the joint cartilage"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Regular tailored low-impact aerobic activity (walking, cycling, swimming) plus ROM and strengthening is recommended. Prolonged rest worsens function, and high-impact loading may need modification."
+      },
+      {
+        "id": "OA-NP-02",
+        "type": "mcq",
+        "prompt": "A client using a cane for hip OA asks when they can stop. What is the best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“After a set number of weeks has passed.”"
+          },
+          {
+            "id": "B",
+            "text": "“As soon as the cane feels embarrassing.”"
+          },
+          {
+            "id": "C",
+            "text": "“When your gait and balance are safe.”"
+          },
+          {
+            "id": "D",
+            "text": "“Once your hip pain has gone away fully.”"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Stopping an aid depends on safe gait, balance, and strength rather than a fixed deadline. Embarrassment should be addressed rather than driving the decision, and being pain-free is not required."
+      },
+      {
+        "id": "OA-NP-03",
+        "type": "mcq",
+        "prompt": "A client with OA has a stiff knee in the morning and painful swelling after activity. Which thermal advice is best?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ice directly on the skin for an hour"
+          },
+          {
+            "id": "B",
+            "text": "Heat to the skin until it reddens"
+          },
+          {
+            "id": "C",
+            "text": "Warmth for stiffness; cold for swelling"
+          },
+          {
+            "id": "D",
+            "text": "Cold for stiffness; heat for swelling"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Use protected local warmth for stiffness and cold for painful swelling, checking skin and circulation. Direct or prolonged application risks injury."
+      }
+    ],
+    "adverse-effects": [
+      {
+        "id": "OA-AE-01",
+        "type": "mcq",
+        "prompt": "A client 2 days after posterior hip replacement hears a pop and now has sudden pain and a shortened, rotated leg. What should the nurse do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Gently rotate the leg back into alignment"
+          },
+          {
+            "id": "B",
+            "text": "Help the client up to walk and test the hip"
+          },
+          {
+            "id": "C",
+            "text": "Give analgesia and reassess in a few hours"
+          },
+          {
+            "id": "D",
+            "text": "Protect the limb and notify the team at once"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "These signs may indicate dislocation or fracture. Notify the surgical/emergency team immediately, protect the limb, and do not attempt to force it back into place or mobilize."
+      },
+      {
+        "id": "OA-AE-02",
+        "type": "mcq",
+        "prompt": "A client says, “The NSAID gel goes on the skin, so it has no risks.” What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Heat makes the gel safer.”"
+          },
+          {
+            "id": "B",
+            "text": "“Topical gels have no side effects.”"
+          },
+          {
+            "id": "C",
+            "text": "“You can use as much as you want.”"
+          },
+          {
+            "id": "D",
+            "text": "“Topical doesn’t mean risk-free.”"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Topical products can cause dermatitis/burning and some systemic NSAID exposure; topical does not mean risk-free. Excess application and external heat add risk."
+      },
+      {
+        "id": "OA-AE-03",
+        "type": "mcq",
+        "prompt": "Two days after a knee steroid injection, which client report needs urgent evaluation?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Severe increasing pain with fever and hot swelling"
+          },
+          {
+            "id": "B",
+            "text": "A small, short-lived rise in fasting blood glucose"
+          },
+          {
+            "id": "C",
+            "text": "Slight bruising around the injection needle site"
+          },
+          {
+            "id": "D",
+            "text": "Mild soreness that eases with rest and an ice pack"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Increasing severe pain, marked hot swelling, fever, drainage, or systemic illness needs urgent evaluation for joint infection. Mild transient flare and a glucose rise are expected effects to monitor."
+      }
+    ],
+    "nutrition": [
+      {
+        "id": "OA-NU-01",
+        "type": "mcq",
+        "prompt": "A client asks whether glucosamine will rebuild their knee cartilage. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“It replaces the need for weight management.”"
+          },
+          {
+            "id": "B",
+            "text": "“It works best if you stop exercising for now.”"
+          },
+          {
+            "id": "C",
+            "text": "“Yes, it regrows the cartilage over a few months.”"
+          },
+          {
+            "id": "D",
+            "text": "“No supplement has been shown to restore cartilage.”"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "No special diet, glucosamine, or other supplement has been established to rebuild an arthritic joint. Exercise and weight support remain core care."
+      },
+      {
+        "id": "OA-NU-02",
+        "type": "mcq",
+        "prompt": "A client with knee OA and obesity is scheduled for arthroplasty in 6 weeks and plans a 600-calorie-a-day diet. What should the nurse advise?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cut back protein so weight drops faster now"
+          },
+          {
+            "id": "B",
+            "text": "Set achievable goals that keep protein adequate"
+          },
+          {
+            "id": "C",
+            "text": "Delay weight plans and crash diet after surgery"
+          },
+          {
+            "id": "D",
+            "text": "Fast for several days before the surgery date"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Avoid crash diets, particularly before and after surgery; agree on achievable goals while preserving muscle and protein. Fasting, protein restriction, or crash dieting after surgery impair recovery."
+      }
+    ],
+    "assessment": [
+      {
+        "id": "OA-AS-01",
+        "type": "mcq",
+        "prompt": "A client with lumbar spine OA reports new numbness in the saddle area and difficulty urinating. What is the nurse’s priority?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Teach core-strength exercises"
+          },
+          {
+            "id": "B",
+            "text": "Arrange emergency evaluation"
+          },
+          {
+            "id": "C",
+            "text": "Schedule a routine follow-up"
+          },
+          {
+            "id": "D",
+            "text": "Apply heat to the lower back"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "With spine symptoms, new saddle sensory change or new bladder/bowel dysfunction needs emergency evaluation. These findings should not be explained away as ordinary OA."
+      },
+      {
+        "id": "OA-AS-02",
+        "type": "mcq",
+        "prompt": "After knee arthroplasty, the client has normal distal pulses and sensation but new calf swelling. How should the nurse interpret this?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The wound is the main thing to reassess"
+          },
+          {
+            "id": "B",
+            "text": "Normal pulses make a DVT unlikely here"
+          },
+          {
+            "id": "C",
+            "text": "Calf swelling is expected after this surgery"
+          },
+          {
+            "id": "D",
+            "text": "Normal circulation checks don’t rule out DVT"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Neurovascular checks do not rule out DVT by themselves, so new calf swelling needs escalation. Assuming it is expected or focusing only on the wound could miss a clot."
+      }
+    ],
+    "diagnoses": [
+      {
+        "id": "OA-ND-01",
+        "type": "mcq",
+        "prompt": "On postoperative day 1 after hip arthroplasty, a client rates incision pain 7/10. Which nursing diagnosis fits best?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Chronic pain from joint changes"
+          },
+          {
+            "id": "B",
+            "text": "Impaired physical mobility"
+          },
+          {
+            "id": "C",
+            "text": "Risk for surgical site infection"
+          },
+          {
+            "id": "D",
+            "text": "Acute pain related to surgery"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Acute pain related to surgery fits incision pain after arthroplasty. Chronic pain relates to ongoing joint changes, and infection risk or mobility diagnoses are not what the pain rating supports."
+      },
+      {
+        "id": "OA-ND-02",
+        "type": "mcq",
+        "prompt": "A client with OA uses a walker, takes a sedating medicine, and has loose rugs at home. On what is the risk-for-falls diagnosis based?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Gait, balance, medication, and environment"
+          },
+          {
+            "id": "B",
+            "text": "The client’s age alone, regardless of function"
+          },
+          {
+            "id": "C",
+            "text": "The X-ray severity of the knee alone"
+          },
+          {
+            "id": "D",
+            "text": "The diagnosis of OA without other factors"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Risk for falls/injury is based on gait, balance, medication, and environmental factors. Age, imaging, or the diagnosis alone does not establish it."
+      }
+    ],
+    "priorities": [
+      {
+        "id": "OA-PR-01",
+        "type": "mcq",
+        "prompt": "After knee arthroplasty, a client scheduled for PT becomes acutely short of breath with chest pain. What is the priority?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Stop and escalate for possible PE"
+          },
+          {
+            "id": "B",
+            "text": "Give an oral analgesic and resume"
+          },
+          {
+            "id": "C",
+            "text": "Continue the PT session as planned"
+          },
+          {
+            "id": "D",
+            "text": "Document and reassess after PT"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "After arthroplasty, PE symptoms, hemodynamic instability, major bleeding, neurovascular changes, or suspected dislocation take priority over routine rehabilitation. Continuing PT, giving analgesia, or delaying escalation could miss a life-threatening PE."
+      },
+      {
+        "id": "OA-PR-02",
+        "type": "mcq",
+        "prompt": "A client had an anterior-approach hip replacement. How should the nurse apply hip precautions?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Skip precautions since the approach was anterior"
+          },
+          {
+            "id": "B",
+            "text": "Follow the precautions ordered for this surgery"
+          },
+          {
+            "id": "C",
+            "text": "Keep the hip still for the first several weeks"
+          },
+          {
+            "id": "D",
+            "text": "Apply posterior hip precautions for each client"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Apply the actual operation-specific weight-bearing and hip precautions; not every approach needs identical restrictions. Using posterior rules for everyone, immobilizing the hip, or assuming no precautions are needed ignores the surgeon’s plan."
+      }
+    ],
+    "plan": [
+      {
+        "id": "OA-PL-01",
+        "type": "mcq",
+        "prompt": "A client with hand OA chooses a target pain score for gardening. How should the nurse use this target?",
+        "options": [
+          {
+            "id": "A",
+            "text": "As the standard target used in OA care"
+          },
+          {
+            "id": "B",
+            "text": "As a reason to raise doses to zero pain"
+          },
+          {
+            "id": "C",
+            "text": "As a personal aim, reviewed with function"
+          },
+          {
+            "id": "D",
+            "text": "As the main measure of treatment success"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "A target such as pain ≤3/10 is used if appropriate for that patient, alongside participation and adverse effects. It is not universal or the sole measure, and escalating doses to reach zero pain risks toxicity."
+      },
+      {
+        "id": "OA-PL-02",
+        "type": "mcq",
+        "prompt": "On postoperative day 3, a client is afebrile with palpable pedal pulses. How does this affect evaluation of surgical risk goals?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It does not alone exclude infection or VTE"
+          },
+          {
+            "id": "B",
+            "text": "It proves there is no wound infection"
+          },
+          {
+            "id": "C",
+            "text": "It ends the need for further monitoring"
+          },
+          {
+            "id": "D",
+            "text": "It rules out a deep vein thrombosis"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Being afebrile with a palpable pulse alone does not exclude infection or thrombosis; trends, wound, and symptoms are evaluated."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "OA-IN-01",
+        "type": "mcq",
+        "prompt": "A client after arthroplasty has sequential compression devices and asks if they can skip the enoxaparin. What is the best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Compression is needed during waking hours.”"
+          },
+          {
+            "id": "B",
+            "text": "“Walking replaces both devices and drugs.”"
+          },
+          {
+            "id": "C",
+            "text": "“Yes, the devices fully replace the injection.”"
+          },
+          {
+            "id": "D",
+            "text": "“Devices do not replace your prescribed anticoagulant.”"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Compression devices are mechanical VTE prophylaxis. When enoxaparin is also prescribed, the client should not omit it without clinical review; walking and devices do not independently cancel the medication order. The team individualizes the plan according to clotting and bleeding risk."
+      },
+      {
+        "id": "OA-IN-02",
+        "type": "mcq",
+        "prompt": "Before arthroplasty, a client takes aspirin, an NSAID, and apixaban. How should the nurse manage these medicines?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Verify each drug’s interruption/restart plan"
+          },
+          {
+            "id": "B",
+            "text": "Continue each drug with no changes made"
+          },
+          {
+            "id": "C",
+            "text": "Stop them together on one set day beforehand"
+          },
+          {
+            "id": "D",
+            "text": "Stop the aspirin alone on the morning of surgery"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Verify each medicine’s interruption and restart plan instead of stopping all clotting-related drugs on one schedule; each has different requirements. Continuing everything or stopping only aspirin ignores those plans."
+      },
+      {
+        "id": "OA-IN-03",
+        "type": "mcq",
+        "prompt": "Before hip arthroplasty, a client’s labs show anemia. Which nursing approach to blood conservation is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Give epoetin alfa as routine surgical care"
+          },
+          {
+            "id": "B",
+            "text": "Start iron for the client regardless of cause"
+          },
+          {
+            "id": "C",
+            "text": "Investigate the cause and treat as prescribed"
+          },
+          {
+            "id": "D",
+            "text": "Ignore it because tranexamic acid will be given"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Identify and investigate anemia early, giving iron for confirmed deficiency or other prescribed treatment. Epoetin alfa is for selected indications, not every arthroplasty patient, and tranexamic acid does not address preoperative anemia."
+      }
+    ],
+    "education": [
+      {
+        "id": "OA-ED-01",
+        "type": "mcq",
+        "prompt": "A client after knee arthroplasty asks when stair practice will begin. What is the best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“It waits until the incision fully heals.”"
+          },
+          {
+            "id": "B",
+            "text": "“It waits until you stop using the walker.”"
+          },
+          {
+            "id": "C",
+            "text": "“It waits until a set number of weeks pass.”"
+          },
+          {
+            "id": "D",
+            "text": "“It starts early once PT criteria are met.”"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Stair training can occur early, even before discharge, when PT and team criteria are met. It does not universally start after a set number of weeks, after walker use ends, or after full healing."
+      },
+      {
+        "id": "OA-ED-02",
+        "type": "mcq",
+        "prompt": "Which client statement shows understanding of acetaminophen safety?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“I’ll check each label for the same ingredient.”"
+          },
+          {
+            "id": "B",
+            "text": "“I can take extra on days when my pain is bad.”"
+          },
+          {
+            "id": "C",
+            "text": "“The maximum dose is my usual daily target.”"
+          },
+          {
+            "id": "D",
+            "text": "“Cold medicines don’t count toward my limit.”"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Clients should know their actual limit and count all acetaminophen-containing products, which means checking labels. Taking extra, ignoring cold medicines, or treating the ceiling as a target risks liver injury."
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "OA-EV-01",
+        "type": "mcq",
+        "prompt": "Several weeks after hip arthroplasty, a client still uses a cane and walks with a mild limp. How should the nurse evaluate recovery?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Conclude that the hip replacement has failed"
+          },
+          {
+            "id": "B",
+            "text": "Expect a normal gait by this point in healing"
+          },
+          {
+            "id": "C",
+            "text": "Stop PT because the expected time has passed"
+          },
+          {
+            "id": "D",
+            "text": "Review progress without assuming a set timeline"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Recovery goals are reviewed over time without assuming complete recovery by a set point (such as 6 weeks) or normal gait in everyone. A limp does not mean failure, and therapy is not stopped by the calendar alone."
+      },
+      {
+        "id": "OA-EV-02",
+        "type": "mcq",
+        "prompt": "Which finding best shows that OA medication management is successful?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Useful benefit without unacceptable side effects"
+          },
+          {
+            "id": "B",
+            "text": "Pain fully eliminated, whatever dose is needed"
+          },
+          {
+            "id": "C",
+            "text": "Stopping exercise now that the pain has eased"
+          },
+          {
+            "id": "D",
+            "text": "Using the maximum acetaminophen dose each day"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Success is worthwhile benefit without unacceptable GI, renal, hepatic, CV, sedation, or skin effects. Maximum doses or eliminating pain at any cost are not goals."
+      }
+    ]
+  }
+}

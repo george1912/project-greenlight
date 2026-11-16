@@ -4,6 +4,7 @@ let disposeVideos = () => {};
 let disposePodcast = () => {};
 let disposeQuiz = () => {};
 let disposePoster = () => {};
+let disposeSectionQuizzes = () => {};
 const escapeHTML = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 function studyContent(blocks) {
   return blocks.map(block => {
@@ -95,7 +96,7 @@ function renderCondition(condition) {
     <aside class="condition-focus" aria-labelledby="exam-focus-title"><h2 id="exam-focus-title">Exam focus</h2><p>Highlighted in your study guide. Review these alongside the full condition breakdown.</p><div class="condition-focus-links">${condition.focus.map(focus => `<button class="condition-jump" type="button" data-open-section="${focus.section}">${escapeHTML(focus.label)} <span aria-hidden="true">↘</span></button>`).join('')}</div></aside>
     <div class="condition-tools"><details class="condition-index"><summary>Jump to a section</summary><ol>${conditionSections.map(section => `<li><button type="button" data-open-section="${section.id}">${escapeHTML(section.title)}</button></li>`).join('')}<li><button type="button" data-open-section="videos">Video resources</button></li></ol></details><div class="condition-disclosures" role="group" aria-label="Study section controls"><button type="button" data-condition-action="expand">Expand all</button><button type="button" data-condition-action="collapse">Collapse all</button></div></div>
     </div></div>
-    <div class="condition-sections">${conditionSections.map((section, index) => `<details class="condition-section" id="condition-${section.id}" ${index === 0 ? 'open' : ''}><summary><span class="objective-number" aria-hidden="true">${String(index + 1).padStart(2, '0')}</span><h2>${escapeHTML(section.title)}${condition.focus.some(focus => focus.section === section.id) ? '<span class="exam-focus-label">Exam focus</span>' : ''}</h2><span class="expand-icon" aria-hidden="true"></span></summary><div class="condition-body">${condition.content[section.id]?.length ? conditionBlocks(condition.content[section.id]) : '<p class="section-copy">Notes for this section are coming soon.</p>'}${condition.videos?.filter(video => video.section === section.id).length ? `<div class="condition-videos"><h3>Watch & understand</h3>${condition.videos.filter(video => video.section === section.id).map(video => `<p><a href="${escapeHTML(video.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(video.title)} ↗</a>${video.description ? `<span>${escapeHTML(video.description)}</span>` : ''}</p>`).join('')}</div>` : ''}</div></details>`).join('')}${VideoLibrary.section(topic.number)}</div>
+    <div class="condition-sections">${conditionSections.map((section, index) => `<details class="condition-section" id="condition-${section.id}" ${index === 0 ? 'open' : ''}><summary><span class="objective-number" aria-hidden="true">${String(index + 1).padStart(2, '0')}</span><h2>${escapeHTML(section.title)}${condition.focus.some(focus => focus.section === section.id) ? '<span class="exam-focus-label">Exam focus</span>' : ''}</h2><span class="expand-icon" aria-hidden="true"></span></summary><div class="condition-body">${condition.content[section.id]?.length ? conditionBlocks(condition.content[section.id]) : '<p class="section-copy">Notes for this section are coming soon.</p>'}${SectionQuizzes.section(topic.id, section.id)}${condition.videos?.filter(video => video.section === section.id).length ? `<div class="condition-videos"><h3>Watch & understand</h3>${condition.videos.filter(video => video.section === section.id).map(video => `<p><a href="${escapeHTML(video.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(video.title)} ↗</a>${video.description ? `<span>${escapeHTML(video.description)}</span>` : ''}</p>`).join('')}</div>` : ''}</div></details>`).join('')}${VideoLibrary.section(topic.number)}</div>
     <details class="condition-clarifications"><summary>Clinical corrections & clarifications</summary><p>Your notes are preserved in the study sections, with clinical errors corrected and repeated ideas organized together. Individualized recommendations and unclear original wording are explained below.</p>${condition.clarifications.map(item => `<section><h3>${escapeHTML(item.title)}</h3><p>${escapeHTML(item.text)}</p></section>`).join('')}${ConditionPosters.clarification(topic.id)}</details>
     <section class="reading-references condition-references" aria-labelledby="reading-title"><h2 id="reading-title">Reading references</h2><p class="reference-review-date">Clinical sources reviewed ${escapeHTML(condition.reviewed)}.</p><p>${escapeHTML(condition.reading)}</p><ol>${condition.references.map(reference => `<li><a href="${escapeHTML(reference.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(reference.title)} ↗</a><span>${escapeHTML(reference.supports)}</span></li>`).join('')}</ol></section>
     <nav class="guide-bottom" aria-label="Related study material"><a class="text-link" href="#/final/study-guide">← All study guide topics</a><a class="text-link" href="${condition.week ? `#/final/week-${condition.week}` : '#/final/presentations'}">${condition.week ? `Week ${condition.week} materials` : 'All presentations'} →</a></nav>`;
@@ -110,6 +111,7 @@ function renderCondition(condition) {
     main.querySelectorAll('.condition-section').forEach(section => { section.open = button.dataset.conditionAction === 'expand'; });
   }));
   disposePoster = ConditionPosters.mount(main, topic.id);
+  disposeSectionQuizzes = SectionQuizzes.mount(main);
 }
 
 function examNavigation(active) {
@@ -198,6 +200,7 @@ function render(focus = false) {
   disposePodcast(); disposePodcast = () => {};
   disposeQuiz(); disposeQuiz = () => {};
   disposePoster(); disposePoster = () => {};
+  disposeSectionQuizzes(); disposeSectionQuizzes = () => {};
   if (route === '#/final/study-guide') renderStudyGuide();
   else if (route.startsWith('#/final/condition/') && conditionNotes[route.slice('#/final/condition/'.length)]) renderCondition(conditionNotes[route.slice('#/final/condition/'.length)]);
   else if (route === '#/final/quiz') renderPracticeQuiz();

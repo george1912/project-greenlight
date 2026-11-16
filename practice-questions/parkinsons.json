@@ -1,0 +1,1156 @@
+{
+  "id": "parkinsons",
+  "sections": {
+    "overview": [
+      {
+        "id": "PD-OV-01",
+        "type": "mcq",
+        "prompt": "A student asks which neuronal change underlies the motor signs of Parkinson’s disease. Which explanation by the nurse is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Loss of dopamine-producing neurons in the substantia nigra"
+          },
+          {
+            "id": "B",
+            "text": "Loss of myelin around neurons in the corpus callosum"
+          },
+          {
+            "id": "C",
+            "text": "Degeneration of upper and lower motor neurons in the cord"
+          },
+          {
+            "id": "D",
+            "text": "Autoimmune attack on acetylcholine receptors at the junction"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Substantia nigra dopamine-neuron loss reduces dopamine signaling to the striatum. Demyelination (MS), receptor antibodies (myasthenia gravis), and combined motor-neuron loss (ALS) describe other disorders."
+      },
+      {
+        "id": "PD-OV-02",
+        "type": "sata",
+        "prompt": "A client with Parkinson’s disease asks why the illness affects more than movement. Which problems does the nurse explain can result from PD’s effects on autonomic function and mood? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Changes in blood pressure"
+          },
+          {
+            "id": "B",
+            "text": "Constipation and hard stools"
+          },
+          {
+            "id": "C",
+            "text": "Overactive tendon reflexes"
+          },
+          {
+            "id": "D",
+            "text": "Depressed or low mood"
+          },
+          {
+            "id": "E",
+            "text": "Numbness in both feet"
+          }
+        ],
+        "correct": [
+          "A",
+          "B",
+          "D"
+        ],
+        "rationale": "PD affects systems involved in autonomic function, mood, cognition, and sleep, which helps explain constipation, blood-pressure changes, and depression. Numbness in the feet and overactive reflexes are not among the non-motor effects the section describes."
+      },
+      {
+        "id": "PD-OV-03",
+        "type": "mcq",
+        "prompt": "A client develops slowness and rigidity two weeks after starting a dopamine-blocking medication. How should the nurse interpret this?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It suggests full degeneration of the substantia nigra"
+          },
+          {
+            "id": "B",
+            "text": "It suggests early idiopathic Parkinson’s disease"
+          },
+          {
+            "id": "C",
+            "text": "It suggests secondary parkinsonism from the medicine"
+          },
+          {
+            "id": "D",
+            "text": "It suggests an expected effect that needs no report"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Secondary parkinsonism can be caused by dopamine-blocking medicines and is distinct from idiopathic PD, so the new signs should be reported. A recent medication link points away from idiopathic PD, and it does not show the substantia nigra has degenerated."
+      }
+    ],
+    "manifestations": [
+      {
+        "id": "PD-CM-01",
+        "type": "mcq",
+        "prompt": "The nurse observes a client’s resting hand tremor. Which additional finding is most consistent with the classic Parkinson’s tremor?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It eases with purposeful movement and in sleep"
+          },
+          {
+            "id": "B",
+            "text": "It worsens as the client reaches toward a cup"
+          },
+          {
+            "id": "C",
+            "text": "It is a coarse flapping of the outstretched hands"
+          },
+          {
+            "id": "D",
+            "text": "It appears mainly when the arms are held overhead"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "The classic PD tremor is more noticeable at rest, decreases with purposeful movement, and typically subsides in sleep. A tremor that worsens with reaching is an intention pattern; flapping and posture-only tremors are not the PD pattern described."
+      },
+      {
+        "id": "PD-CM-02",
+        "type": "mcq",
+        "prompt": "During passive range of motion, the nurse feels a ratchet-like, interrupted resistance in the client’s elbow. How should the nurse document this?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Clasp-knife spasticity"
+          },
+          {
+            "id": "B",
+            "text": "Postural instability"
+          },
+          {
+            "id": "C",
+            "text": "Lead-pipe rigidity"
+          },
+          {
+            "id": "D",
+            "text": "Cogwheel rigidity"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Cogwheel rigidity has a ratchet-like, interrupted quality during passive movement. Lead-pipe rigidity feels uniformly stiff, clasp-knife spasticity is not the PD pattern described, and postural instability is a balance problem rather than resistance to passive movement."
+      },
+      {
+        "id": "PD-CM-03",
+        "type": "mcq",
+        "prompt": "While walking, a client with PD takes progressively smaller, faster steps and seems propelled forward. The nurse recognizes this as:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Freezing of gait"
+          },
+          {
+            "id": "B",
+            "text": "Festinating gait"
+          },
+          {
+            "id": "C",
+            "text": "Spastic scissor gait"
+          },
+          {
+            "id": "D",
+            "text": "Ataxic, wide gait"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Festination is progressively small, rapid steps that may propel the patient forward. Freezing is a sudden inability to keep moving, and wide-based ataxic or scissoring gaits are not the PD gait described in the section."
+      },
+      {
+        "id": "PD-CM-04",
+        "type": "mcq",
+        "prompt": "A client with long-standing, stable PD becomes acutely confused overnight. What is the nurse’s best action?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Report possible delirium for cause evaluation"
+          },
+          {
+            "id": "B",
+            "text": "Document it as expected disease progression"
+          },
+          {
+            "id": "C",
+            "text": "Request an antipsychotic to calm the client"
+          },
+          {
+            "id": "D",
+            "text": "Reorient and reassess at the next scheduled visit"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "New delirium is not simply expected progression and warrants evaluation for an acute cause. Antipsychotics can worsen PD, and waiting delays finding the cause."
+      }
+    ],
+    "risk": [
+      {
+        "id": "PD-RF-01",
+        "type": "sata",
+        "prompt": "The nurse is teaching a community group about Parkinson’s disease. Which risk factors or associations should be included? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "A family history of PD"
+          },
+          {
+            "id": "B",
+            "text": "Being an older adult"
+          },
+          {
+            "id": "C",
+            "text": "Being a female adult"
+          },
+          {
+            "id": "D",
+            "text": "Eating a high-protein diet"
+          },
+          {
+            "id": "E",
+            "text": "Environmental exposures"
+          }
+        ],
+        "correct": [
+          "A",
+          "B",
+          "E"
+        ],
+        "rationale": "Increasing age is an important risk factor, and family history, genetic susceptibility, and environmental exposures can contribute. PD is more common in men than women, and a high-protein diet is not a listed risk factor; protein matters for levodopa timing instead."
+      },
+      {
+        "id": "PD-RF-02",
+        "type": "mcq",
+        "prompt": "A family member asks how nurses can “prevent” problems in a relative newly diagnosed with PD. Which focus is most accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Limiting daily activity to conserve dopamine stores"
+          },
+          {
+            "id": "B",
+            "text": "Screening family members with routine DaTscans"
+          },
+          {
+            "id": "C",
+            "text": "Slowing disease progression with a special diet"
+          },
+          {
+            "id": "D",
+            "text": "Reducing aspiration, falls, and other complications"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "There is no established way to prevent PD, so nursing prevention focuses on complications such as aspiration, falls, medication harm, constipation, and malnutrition. Diet, family DaTscans, and activity restriction are not supported."
+      }
+    ],
+    "diagnostics": [
+      {
+        "id": "PD-DX-01",
+        "type": "mcq",
+        "prompt": "A client asks which test will confirm their Parkinson’s diagnosis. What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“A lumbar puncture measures spinal-fluid dopamine.”"
+          },
+          {
+            "id": "B",
+            "text": "“It’s mainly clinical: history and neuro exam.”"
+          },
+          {
+            "id": "C",
+            "text": "“A PET scan is the routine confirmatory test.”"
+          },
+          {
+            "id": "D",
+            "text": "“A blood dopamine level confirms the diagnosis.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "PD diagnosis is mainly clinical, made by an experienced clinician from history, exam, symptom evolution, and treatment response. PET is not routine, and no spinal-fluid or blood dopamine test confirms PD."
+      },
+      {
+        "id": "PD-DX-02",
+        "type": "mcq",
+        "prompt": "A client says, “My walking improved on levodopa, so that proves I have Parkinson’s.” Which response is most accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“It doesn’t—drug response is not used in diagnosis.”"
+          },
+          {
+            "id": "B",
+            "text": "“It does—improvement on levodopa confirms PD.”"
+          },
+          {
+            "id": "C",
+            "text": "“It supports PD, but it doesn’t prove it alone.”"
+          },
+          {
+            "id": "D",
+            "text": "“It will be proven by a levodopa challenge test.”"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "A clear, sustained levodopa response can support PD, but a positive response alone does not prove the diagnosis. It is still useful information, and an acute levodopa challenge is not described as a confirmatory test."
+      },
+      {
+        "id": "PD-DX-03",
+        "type": "mcq",
+        "prompt": "For which client is a DaTscan (dopamine-transporter SPECT) most likely to be ordered?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A client with typical PD who responds clearly to levodopa"
+          },
+          {
+            "id": "B",
+            "text": "A client being screened for silent aspiration"
+          },
+          {
+            "id": "C",
+            "text": "A client who needs levodopa blood levels checked"
+          },
+          {
+            "id": "D",
+            "text": "A client whose tremor could be PD or essential tremor"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "DaTscan may help a specialist tell a degenerative parkinsonian syndrome from essential tremor when the diagnosis is uncertain. It is not needed in typical cases and does not measure drug levels or aspiration."
+      }
+    ],
+    "medical": [
+      {
+        "id": "PD-MM-01",
+        "type": "mcq",
+        "prompt": "A client with PD is hallucinating, and a colleague suggests “any antipsychotic at a low dose.” Why does the nurse question this?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Low doses are too weak to relieve PD hallucinations"
+          },
+          {
+            "id": "B",
+            "text": "Antipsychotics can trigger severe hypertension in PD"
+          },
+          {
+            "id": "C",
+            "text": "Dopamine-blocking drugs can markedly worsen motor signs"
+          },
+          {
+            "id": "D",
+            "text": "PD hallucinations are harmless and need no follow-up"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Dopamine-blocking agents may markedly worsen motor symptoms, so the team first looks for acute illness, delirium, or medication effects. Hypertension is not the concern, a low dose still blocks dopamine, and hallucinations need assessment rather than dismissal."
+      },
+      {
+        "id": "PD-MM-02",
+        "type": "mcq",
+        "prompt": "A client asks what deep brain stimulation (DBS) could do for their Parkinson’s disease. Which response by the nurse is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“It can replace the dopamine neurons that were lost.”"
+          },
+          {
+            "id": "B",
+            "text": "“It can help selected people with motor fluctuations.”"
+          },
+          {
+            "id": "C",
+            "text": "“It can end the need for ongoing follow-up care.”"
+          },
+          {
+            "id": "D",
+            "text": "“It is usually offered right after the diagnosis.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "DBS may help selected patients with troublesome motor fluctuations, tremor, or dyskinesia despite optimized treatment. It does not replace lost neurons, it is not a routine early treatment, and follow-up continues afterward."
+      }
+    ],
+    "medications": [
+      {
+        "id": "PD-PH-01",
+        "type": "mcq",
+        "prompt": "A client asks why carbidopa is combined with levodopa. What is the nurse’s best explanation?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Carbidopa reduces levodopa conversion outside the brain"
+          },
+          {
+            "id": "B",
+            "text": "Carbidopa converts levodopa to dopamine in the brain"
+          },
+          {
+            "id": "C",
+            "text": "Carbidopa blocks dopamine receptors to limit dyskinesia"
+          },
+          {
+            "id": "D",
+            "text": "Carbidopa increases acetylcholine to reduce tremor"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Carbidopa reduces peripheral conversion, so more levodopa reaches the brain and nausea is reduced. Levodopa itself is converted in the brain; carbidopa does not block receptors or raise acetylcholine."
+      },
+      {
+        "id": "PD-PH-02",
+        "type": "mcq",
+        "prompt": "A hospitalized client’s carbidopa–levodopa is ordered at 0700, 1000, 1300, and 1600. The unit’s routine medication pass is 0900. What should the nurse do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Give each dose at the client’s exact prescribed time"
+          },
+          {
+            "id": "B",
+            "text": "Hold the dose until the client finishes breakfast"
+          },
+          {
+            "id": "C",
+            "text": "Give the dose with the routine medication pass"
+          },
+          {
+            "id": "D",
+            "text": "Combine the morning doses to reduce interruptions"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Use the exact prescribed times; delayed or missed doses can worsen “off” symptoms and immobility. Routine round times, holding for meals, or combining doses all disrupt the schedule."
+      },
+      {
+        "id": "PD-PH-03",
+        "type": "mcq",
+        "prompt": "A client with Parkinson’s disease has several new orders. Which medication order should the nurse question?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Entacapone for wearing-off"
+          },
+          {
+            "id": "B",
+            "text": "Metoclopramide for nausea"
+          },
+          {
+            "id": "C",
+            "text": "Carbidopa–levodopa for rigidity"
+          },
+          {
+            "id": "D",
+            "text": "Rasagiline for early symptoms"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Metoclopramide is a dopamine-blocking medicine that should be avoided in PD because it can worsen parkinsonism. Carbidopa–levodopa, entacapone (a COMT inhibitor for wearing-off), and rasagiline (an MAO-B inhibitor) are PD therapies."
+      },
+      {
+        "id": "PD-PH-04",
+        "type": "mcq",
+        "prompt": "A client started pramipexole last month. Which question is most important for the nurse to ask?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Has your urine turned an orange or brown color?”"
+          },
+          {
+            "id": "B",
+            "text": "“Have you noticed any ringing in your ears lately?”"
+          },
+          {
+            "id": "C",
+            "text": "“Have your gums become swollen or overgrown?”"
+          },
+          {
+            "id": "D",
+            "text": "“Any new urges to gamble, shop, or overeat?”"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Dopamine agonists can cause impulse-control problems, so the nurse should ask about gambling, spending, eating, or sexual urges. Urine discoloration is linked to entacapone; the others are not listed effects."
+      }
+    ],
+    "nonpharmacological": [
+      {
+        "id": "PD-NP-01",
+        "type": "mcq",
+        "prompt": "A client with PD freezes in doorways. Which strategy taught by physical therapy should the nurse reinforce?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Have staff pull the client forward by the arm"
+          },
+          {
+            "id": "B",
+            "text": "Step over an imaginary line or walk to a rhythm"
+          },
+          {
+            "id": "C",
+            "text": "Take small, quick steps until movement returns"
+          },
+          {
+            "id": "D",
+            "text": "Look down at the feet and shuffle forward"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Visual or auditory cues, such as stepping over an imaginary line or using a rhythm, help with freezing. Shuffling and small quick steps reinforce festination, and pulling or rushing the client is unsafe."
+      },
+      {
+        "id": "PD-NP-02",
+        "type": "mcq",
+        "prompt": "A client with PD has a soft voice and coughs during meals. Which referral is most appropriate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Speech-language pathology"
+          },
+          {
+            "id": "B",
+            "text": "Occupational therapy review"
+          },
+          {
+            "id": "C",
+            "text": "Respiratory therapy consult"
+          },
+          {
+            "id": "D",
+            "text": "Clinical pharmacist review"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "SLP specifically evaluates both communication and swallowing, making it the best referral for a soft voice together with coughing at meals. OT, respiratory therapy, pharmacy, and nursing may contribute to the care plan, but they do not replace this SLP evaluation."
+      }
+    ],
+    "adverse-effects": [
+      {
+        "id": "PD-AE-01",
+        "type": "mcq",
+        "prompt": "A client who has taken carbidopa–levodopa for years has writhing, involuntary movements near peak dose. The nurse identifies this as:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Dopaminergic dyskinesia"
+          },
+          {
+            "id": "B",
+            "text": "A rigid “off” state"
+          },
+          {
+            "id": "C",
+            "text": "Worsening rest tremor"
+          },
+          {
+            "id": "D",
+            "text": "Akinesia with freezing"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Dyskinesia is involuntary movement that may occur with dopaminergic treatment. It is distinguished from resting tremor, from akinesia (difficulty starting movement), and from a rigid, slow “off” state."
+      },
+      {
+        "id": "PD-AE-02",
+        "type": "mcq",
+        "prompt": "A client with PD has missed all carbidopa–levodopa doses for two days and now has fever and severe rigidity. What should the nurse suspect?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Expected wearing-off that will resolve with rest"
+          },
+          {
+            "id": "B",
+            "text": "Peak-dose dyskinesia from a medication buildup"
+          },
+          {
+            "id": "C",
+            "text": "A malignant-like syndrome needing urgent assessment"
+          },
+          {
+            "id": "D",
+            "text": "Orthostatic hypotension from dehydration"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Abrupt loss of dopaminergic treatment can cause severe akinesia or a malignant-like syndrome with fever and rigidity that requires urgent assessment. It is not routine wearing-off or dyskinesia."
+      },
+      {
+        "id": "PD-AE-03",
+        "type": "mcq",
+        "prompt": "A client taking a dopamine agonist reports suddenly falling asleep at a red light. What is the priority teaching?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Drink coffee before driving to stay alert"
+          },
+          {
+            "id": "B",
+            "text": "Stop driving and contact the care team"
+          },
+          {
+            "id": "C",
+            "text": "Drive on short, familiar routes for now"
+          },
+          {
+            "id": "D",
+            "text": "Stop the medication today on your own"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Sudden sleep episodes require stopping driving and contacting the care team, and any medication reduction must be supervised. Caffeine or shorter trips do not remove the risk, and stopping the drug abruptly on one’s own is unsafe."
+      }
+    ],
+    "nutrition": [
+      {
+        "id": "PD-NU-01",
+        "type": "mcq",
+        "prompt": "How should the nurse position a client with Parkinson’s disease and dysphagia for meals?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Fully upright, and staying upright after the meal"
+          },
+          {
+            "id": "B",
+            "text": "Semi-reclined with the head turned to one side"
+          },
+          {
+            "id": "C",
+            "text": "Side-lying with the head of the bed lowered"
+          },
+          {
+            "id": "D",
+            "text": "Upright for the meal, then lying flat to rest"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "The client should sit fully upright, close to 90° when tolerated, and remain upright afterward. Semi-reclined or side-lying positions, or lying flat soon after eating, increase aspiration risk."
+      },
+      {
+        "id": "PD-NU-02",
+        "type": "mcq",
+        "prompt": "A spouse says, “He never coughs when he eats, so he can’t be aspirating.” What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Aspiration can be ruled out if his lungs are clear.”"
+          },
+          {
+            "id": "B",
+            "text": "“Aspiration risk is mainly limited to thin liquids.”"
+          },
+          {
+            "id": "C",
+            "text": "“That’s reassuring—no cough means a safe swallow.”"
+          },
+          {
+            "id": "D",
+            "text": "“Aspiration can happen without any obvious cough.”"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Dysphagia can affect food, drinks, pills, and saliva, and aspiration may occur without obvious coughing. Clear lungs do not exclude it, and the risk is not limited to thin liquids."
+      },
+      {
+        "id": "PD-NU-03",
+        "type": "mcq",
+        "prompt": "A client’s levodopa works less well after high-protein meals. Which plan is most appropriate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Time protein around doses and keep intake adequate"
+          },
+          {
+            "id": "B",
+            "text": "Remove most protein-rich foods from the daily diet"
+          },
+          {
+            "id": "C",
+            "text": "Take each levodopa dose with the largest meal"
+          },
+          {
+            "id": "D",
+            "text": "Shift the doses to bedtime to avoid meal overlap"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Coordinate adequate protein with levodopa when a food interaction is present; do not broadly eliminate protein. Taking doses with large meals or moving them on one’s own disrupts the prescribed schedule."
+      }
+    ],
+    "assessment": [
+      {
+        "id": "PD-AS-01",
+        "type": "mcq",
+        "prompt": "A client’s mobility varies widely through the day. Which assessment best identifies the pattern?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Asking the caregiver to summarize at discharge"
+          },
+          {
+            "id": "B",
+            "text": "Comparing on and off periods with exact dose times"
+          },
+          {
+            "id": "C",
+            "text": "Checking mobility once each shift at a set time"
+          },
+          {
+            "id": "D",
+            "text": "Comparing mobility changes with daily meal times"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Comparing on/off periods with exact medication times reveals wearing-off patterns. Single checks or meal-only comparisons miss how symptoms relate to doses."
+      },
+      {
+        "id": "PD-AS-02",
+        "type": "mcq",
+        "prompt": "Which statement about bedside swallowing assessment in a client with Parkinson’s disease is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Clear lungs and an intact gag reflex do not exclude aspiration."
+          },
+          {
+            "id": "B",
+            "text": "A stable weight proves that aspiration is absent."
+          },
+          {
+            "id": "C",
+            "text": "No wet voice after meals proves that swallowing is safe."
+          },
+          {
+            "id": "D",
+            "text": "No coughing means an SLP swallowing evaluation is unnecessary."
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Silent aspiration can occur without cough or other obvious bedside findings. Clear lungs, an intact gag, stable weight, or no wet voice cannot independently establish safe swallowing; use the individualized swallowing assessment and care plan."
+      }
+    ],
+    "diagnoses": [
+      {
+        "id": "PD-ND-01",
+        "type": "mcq",
+        "prompt": "A client with PD has freezing, poor balance, and dizziness on standing. Which nursing diagnosis is best supported?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Self-care limitation: hygiene"
+          },
+          {
+            "id": "B",
+            "text": "Inadequate nutritional intake"
+          },
+          {
+            "id": "C",
+            "text": "Impaired verbal communication"
+          },
+          {
+            "id": "D",
+            "text": "Risk for falls or related injury"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Risk for falls or injury is associated with freezing, impaired balance, and orthostatic hypotension. Communication, hygiene, and nutrition diagnoses each need different assessment findings."
+      },
+      {
+        "id": "PD-ND-02",
+        "type": "mcq",
+        "prompt": "A client with PD speaks softly in a monotone and others often can’t understand them. Which nursing diagnosis fits?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Impaired physical mobility"
+          },
+          {
+            "id": "B",
+            "text": "Risk for aspiration from dysphagia"
+          },
+          {
+            "id": "C",
+            "text": "Impaired verbal communication"
+          },
+          {
+            "id": "D",
+            "text": "Self-care limitation: feeding"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Impaired verbal communication relates to reduced voice volume and speech-motor changes. The other diagnoses address swallowing, movement, or ADLs."
+      }
+    ],
+    "priorities": [
+      {
+        "id": "PD-PR-01",
+        "type": "mcq",
+        "prompt": "A client with PD begins choking with respiratory distress during lunch. What is the nurse’s first action?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Give the scheduled carbidopa–levodopa dose"
+          },
+          {
+            "id": "B",
+            "text": "Offer sips of water to help clear the food"
+          },
+          {
+            "id": "C",
+            "text": "Stop feeding and call the emergency response"
+          },
+          {
+            "id": "D",
+            "text": "Document the episode and notify the SLP team"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "With choking or respiratory distress, stop feeding and activate the emergency response. Documentation and referral come later, and fluids or pills by mouth add risk."
+      },
+      {
+        "id": "PD-PR-02",
+        "type": "mcq",
+        "prompt": "A client with PD is made NPO before a procedure. What should the nurse do about the client’s carbidopa–levodopa?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Omit doses until the client can eat again"
+          },
+          {
+            "id": "B",
+            "text": "Urgently arrange a safe alternative route"
+          },
+          {
+            "id": "C",
+            "text": "Give a double dose after the procedure ends"
+          },
+          {
+            "id": "D",
+            "text": "Crush the extended-release tablets in water"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "If NPO is ordered, urgently arrange a safe medication route rather than missing time-critical doses. Crushing modified-release products or doubling doses is unsafe."
+      }
+    ],
+    "plan": [
+      {
+        "id": "PD-PL-01",
+        "type": "mcq",
+        "prompt": "Which evaluation shows the swallowing and nutrition goal is being met?",
+        "options": [
+          {
+            "id": "A",
+            "text": "No coughing was observed at meals this week"
+          },
+          {
+            "id": "B",
+            "text": "The client now eats alone without staff supervision"
+          },
+          {
+            "id": "C",
+            "text": "Intake and weight meet targets; concerns acted on"
+          },
+          {
+            "id": "D",
+            "text": "The client stays NPO to prevent aspiration"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "The plan evaluates intake and weight against agreed targets and acts on aspiration concerns; absence of coughing alone does not establish safety. Removing supervision or keeping the client NPO is not the goal."
+      },
+      {
+        "id": "PD-PL-02",
+        "type": "mcq",
+        "prompt": "Which nursing action best supports the medication self-management goal?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Aligning doses with the unit’s routine med pass"
+          },
+          {
+            "id": "B",
+            "text": "Using teach-back and tracking on/off responses"
+          },
+          {
+            "id": "C",
+            "text": "Holding the doses whenever the client is NPO"
+          },
+          {
+            "id": "D",
+            "text": "Letting the client recall dose times from memory"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Actions for this goal include confirming exact doses and times, using teach-back, and tracking on/off response and adverse effects. Memory alone is unreliable, and routine pass times or held doses cause “off” periods."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "PD-IN-01",
+        "type": "mcq",
+        "prompt": "A client with PD has constipation despite more fluids, fiber, and activity. Which nursing approach is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Discuss a prescribed laxative with the provider"
+          },
+          {
+            "id": "B",
+            "text": "Continue to avoid laxatives because they worsen PD"
+          },
+          {
+            "id": "C",
+            "text": "Add psyllium regardless of swallowing ability"
+          },
+          {
+            "id": "D",
+            "text": "Restrict fluids so the stool becomes firmer"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Do not use a blanket “avoid laxatives” rule; prescribed laxatives may be appropriate when lifestyle measures are not enough. Psyllium requires fluid and a safe swallow."
+      },
+      {
+        "id": "PD-IN-02",
+        "type": "mcq",
+        "prompt": "A client with PD has a mask-like face and speaks slowly. Which communication approach is best?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Allow time, limit distractions, and confirm meaning"
+          },
+          {
+            "id": "B",
+            "text": "Finish the client’s sentences to save their effort"
+          },
+          {
+            "id": "C",
+            "text": "Use yes-or-no questions to reduce client fatigue"
+          },
+          {
+            "id": "D",
+            "text": "Assume the flat expression reflects a flat mood"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Give time, reduce distractions, listen actively, and confirm meaning, without assuming a lack of expression means a lack of emotion. Finishing sentences or restricting the client to yes/no answers takes away participation."
+      },
+      {
+        "id": "PD-IN-03",
+        "type": "mcq",
+        "prompt": "A client with PD tremor spills food at meals. Which intervention best supports independent feeding?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Having staff feed the client to avoid spills"
+          },
+          {
+            "id": "B",
+            "text": "Serving liquid meals through a straw instead"
+          },
+          {
+            "id": "C",
+            "text": "Using easy-grip utensils and plate stabilizers"
+          },
+          {
+            "id": "D",
+            "text": "Using standard utensils and open, full-size cups"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Easy-grip utensils, plate stabilizers, and spill-resistant cups support self-feeding. Taking over feeding reduces independence, liquid-only/straw use isn’t individualized to swallowing, and standard utensils with open cups do not address the spilling."
+      }
+    ],
+    "education": [
+      {
+        "id": "PD-ED-01",
+        "type": "mcq",
+        "prompt": "Which statement by a client taking carbidopa–levodopa shows a need for more teaching?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“I’ll check new OTC medicines with my pharmacist.”"
+          },
+          {
+            "id": "B",
+            "text": "“I’ll bring my exact dose schedule if I’m admitted.”"
+          },
+          {
+            "id": "C",
+            "text": "“I’ll report hallucinations or extreme sleepiness.”"
+          },
+          {
+            "id": "D",
+            "text": "“I’ll stop the medicine on days when I feel well.”"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Clients should not abruptly stop or independently change carbidopa–levodopa. The other statements reflect correct teaching."
+      },
+      {
+        "id": "PD-ED-02",
+        "type": "mcq",
+        "prompt": "A client with PD now struggles to swallow an extended-release tablet. What should the nurse teach?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Chew the tablet slowly before swallowing it"
+          },
+          {
+            "id": "B",
+            "text": "Skip doses until swallowing improves again"
+          },
+          {
+            "id": "C",
+            "text": "Crush it and mix it with applesauce"
+          },
+          {
+            "id": "D",
+            "text": "Ask the team promptly for a safe alternative"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "If swallowing pills becomes difficult, seek a safe alternative formulation or route promptly. Do not crush or chew modified-release medicines, and do not skip critical doses."
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "PD-EV-01",
+        "type": "mcq",
+        "prompt": "Which finding best shows the medication-response outcome is met?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The client has tapered off the PD medicines safely"
+          },
+          {
+            "id": "B",
+            "text": "Doses are on time and on/off patterns are documented"
+          },
+          {
+            "id": "C",
+            "text": "Dyskinesia occurs but has not been documented yet"
+          },
+          {
+            "id": "D",
+            "text": "Doses follow the unit’s standard medication schedule"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Evaluation means doses are given at the correct times, on/off patterns are documented, and benefit is balanced against dyskinesia, hypotension, and confusion. Unit schedules cause “off” periods, PD medicines are not stopped as an outcome, and dyskinesia must be documented."
+      },
+      {
+        "id": "PD-EV-02",
+        "type": "mcq",
+        "prompt": "A caregiver reports that a client with PD has not coughed at meals all week. How should the nurse evaluate aspiration risk?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Treat a normal temperature as proof of safety"
+          },
+          {
+            "id": "B",
+            "text": "Recognize that no cough alone doesn’t prove safety"
+          },
+          {
+            "id": "C",
+            "text": "Conclude that the client is swallowing safely now"
+          },
+          {
+            "id": "D",
+            "text": "Stop the SLP feeding plan because it is working"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "No cough alone is not proof that aspiration is absent, so the individual plan and monitoring continue. A normal temperature does not establish safety either."
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 const fs=require('node:fs'),vm=require('node:vm'),path=require('node:path'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..'),main={innerHTML:'',querySelector:()=>null,querySelectorAll:()=>[],focus:()=>{}};
 const s={URL,document:{querySelector:()=>main,title:''},location:{hash:'#/final/quiz'},window:{addEventListener:()=>{},scrollTo:()=>{}},console};vm.createContext(s);
-for(const f of ['content.js','presentations.js','conditions.js','videos.js','video-library.js','podcast.js','quiz-data.js','quiz.js','posters.js','app.js'])vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),s,{filename:f});
+for(const f of ['content.js','presentations.js','conditions.js','videos.js','video-library.js','podcast.js','quiz-data.js','quiz.js','posters.js','section-quizzes.js','app.js'])vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),s,{filename:f});
 const data=vm.runInContext('practiceQuizData',s),qs=data.questions,score=answers=>vm.runInContext(`PracticeQuiz.grade(practiceQuizData.questions,${JSON.stringify(answers)})`,s);
 const expected=['B','B','A','B','ABD','C','A','A','A','B','B','C','A','A','D'];assert.equal(qs.length,15);assert.equal(qs.map(q=>q.correct.join('')).join('|'),expected.join('|'));
 for(let i=0;i<qs.length;i++){const q=qs[i];assert.equal(q.id,i+1);assert.equal(q.options.length,q.id===5?5:4);assert(q.prompt&&q.rationale);assert(q.correct.every(a=>q.options.some(o=>o.id===a)));assert.equal(q.multiple,q.id===5);}

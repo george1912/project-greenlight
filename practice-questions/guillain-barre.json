@@ -1,0 +1,1209 @@
+{
+  "id": "guillain-barre",
+  "sections": {
+    "overview": [
+      {
+        "id": "GBS-OV-01",
+        "type": "mcq",
+        "prompt": "A client with newly diagnosed Guillain-Barré syndrome asks what part of the nervous system is affected. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The neuromuscular junction receptors"
+          },
+          {
+            "id": "B",
+            "text": "Peripheral nerves and nerve roots"
+          },
+          {
+            "id": "C",
+            "text": "The brain and the spinal cord"
+          },
+          {
+            "id": "D",
+            "text": "Skeletal muscle fibers themselves"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "GBS is an acute immune-mediated polyradiculoneuropathy of peripheral nerves and roots. The brain and cord are not the usual target; NMJ disease is MG."
+      },
+      {
+        "id": "GBS-OV-02",
+        "type": "mcq",
+        "prompt": "A client develops leg weakness two weeks after a bout of diarrhea. Which preceding infection is a major GBS trigger?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Candida albicans yeast"
+          },
+          {
+            "id": "B",
+            "text": "Neisseria meningitidis"
+          },
+          {
+            "id": "C",
+            "text": "Campylobacter jejuni"
+          },
+          {
+            "id": "D",
+            "text": "Streptococcus pneumoniae"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Campylobacter jejuni, a GI pathogen, is a major trigger. The other organisms are not listed GBS triggers."
+      },
+      {
+        "id": "GBS-OV-03",
+        "type": "mcq",
+        "prompt": "A client with GBS asks what the usual course of the illness looks like. Which response by the nurse is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Weakness keeps worsening steadily for many months.”"
+          },
+          {
+            "id": "B",
+            "text": "“Weakness peaks within hours and then resolves.”"
+          },
+          {
+            "id": "C",
+            "text": "“Weakness worsens over weeks, plateaus, then recovers.”"
+          },
+          {
+            "id": "D",
+            "text": "“Weakness comes and goes in relapses for years.”"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Weakness usually reaches its worst point within weeks (within 4 weeks, often by 2), followed by a plateau and then recovery that may take months or years. Peaking within hours, progressing for many months (which may prompt consideration of CIDP), or relapsing for years is not the usual course."
+      },
+      {
+        "id": "GBS-OV-04",
+        "type": "mcq",
+        "prompt": "Which mechanism explains how a preceding infection can trigger GBS?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Deposition of crystals in nerve sheaths"
+          },
+          {
+            "id": "B",
+            "text": "Depletion of dopamine in the basal ganglia"
+          },
+          {
+            "id": "C",
+            "text": "Molecular mimicry with peripheral nerve parts"
+          },
+          {
+            "id": "D",
+            "text": "Direct viral destruction of the spinal cord"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Molecular mimicry can cause the immune response to an infection to cross-react with peripheral nerve components. GBS is not direct cord destruction."
+      }
+    ],
+    "manifestations": [
+      {
+        "id": "GBS-CM-01",
+        "type": "mcq",
+        "prompt": "Which assessment finding is most consistent with classic GBS?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Weakness that worsens with use and improves with rest"
+          },
+          {
+            "id": "B",
+            "text": "Asymmetric descending weakness with brisk reflexes"
+          },
+          {
+            "id": "C",
+            "text": "Unilateral facial droop with normal limb strength"
+          },
+          {
+            "id": "D",
+            "text": "Symmetric ascending weakness with absent reflexes"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Classic GBS shows progressive bilateral weakness with reduced/absent reflexes, often ascending. Brisk reflexes suggest UMN disease, and fatigable weakness suggests MG."
+      },
+      {
+        "id": "GBS-CM-02",
+        "type": "mcq",
+        "prompt": "A client with a GBS variant has eye-movement weakness, unsteady gait, and absent reflexes. Which variant does this suggest?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Miller Fisher syndrome"
+          },
+          {
+            "id": "B",
+            "text": "Classic ascending AIDP"
+          },
+          {
+            "id": "C",
+            "text": "Ocular myasthenia gravis"
+          },
+          {
+            "id": "D",
+            "text": "Acute motor axonal neuropathy"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Miller Fisher syndrome classically causes ophthalmoplegia, ataxia, and areflexia. AMAN and classic AIDP are mainly limb-weakness forms, and ocular MG causes fatigable eye weakness without ataxia or absent reflexes."
+      },
+      {
+        "id": "GBS-CM-03",
+        "type": "sata",
+        "prompt": "The nurse monitors a client with GBS for autonomic dysfunction. Which findings can occur? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sudden optic-nerve vision loss"
+          },
+          {
+            "id": "B",
+            "text": "Urinary retention or ileus"
+          },
+          {
+            "id": "C",
+            "text": "Brisk, spastic reflexes"
+          },
+          {
+            "id": "D",
+            "text": "Heart rate or rhythm changes"
+          },
+          {
+            "id": "E",
+            "text": "Swings between high and low BP"
+          }
+        ],
+        "correct": [
+          "B",
+          "D",
+          "E"
+        ],
+        "rationale": "GBS dysautonomia can cause BP lability, heart-rate/rhythm changes, urinary retention, constipation, and ileus. Sudden optic-nerve vision loss is not typical. Spastic/brisk reflexes are not autonomic findings; classic GBS usually reduces reflexes, although some variants can preserve them."
+      },
+      {
+        "id": "GBS-CM-04",
+        "type": "mcq",
+        "prompt": "A client with GBS is intubated and paralyzed. How should the nurse approach communication?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Skip explanations before each procedure"
+          },
+          {
+            "id": "B",
+            "text": "Talk to the client directly and set up a signal"
+          },
+          {
+            "id": "C",
+            "text": "Speak with family at the bedside instead"
+          },
+          {
+            "id": "D",
+            "text": "Assume the client is unaware of surroundings"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Classic GBS usually preserves cognition, hearing, and awareness, so speak directly and establish communication. An acute change in awareness still needs assessment."
+      }
+    ],
+    "risk": [
+      {
+        "id": "GBS-RF-01",
+        "type": "mcq",
+        "prompt": "A visitor asks whether they can catch GBS from the client. What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Yes, so you will need to wear an N95.”"
+          },
+          {
+            "id": "B",
+            "text": "“No; GBS itself is not contagious.”"
+          },
+          {
+            "id": "C",
+            "text": "“Yes, so droplet precautions apply.”"
+          },
+          {
+            "id": "D",
+            "text": "“Yes, but mainly children catch it.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "GBS itself is not contagious; any precautions match an active underlying infection rather than the neuropathy. N95 masks, droplet precautions, or age-based spread do not apply to GBS."
+      },
+      {
+        "id": "GBS-RF-02",
+        "type": "mcq",
+        "prompt": "A client developed GBS within 6 weeks of a flu shot and asks about this year’s vaccine. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“You should let your team weigh the precaution.”"
+          },
+          {
+            "id": "B",
+            "text": "“You should switch to the nasal flu vaccine.”"
+          },
+          {
+            "id": "C",
+            "text": "“You should not receive a flu vaccine again.”"
+          },
+          {
+            "id": "D",
+            "text": "“You should get it as usual without review.”"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "GBS within 6 weeks of a prior influenza vaccine is a precaution for later influenza vaccination, not an absolute prohibition; risks and benefits are reviewed individually. Skipping review or switching products is not the guidance."
+      }
+    ],
+    "diagnostics": [
+      {
+        "id": "GBS-DX-01",
+        "type": "mcq",
+        "prompt": "Which CSF result supports a diagnosis of GBS?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Raised protein, normal white-cell count"
+          },
+          {
+            "id": "B",
+            "text": "Very low glucose with high cells"
+          },
+          {
+            "id": "C",
+            "text": "Marked neutrophilic pleocytosis"
+          },
+          {
+            "id": "D",
+            "text": "Oligoclonal bands with normal protein"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Albuminocytologic dissociation (raised protein with normal or mildly raised WBC) supports GBS. Marked pleocytosis or low glucose suggests infection; oligoclonal bands relate to MS."
+      },
+      {
+        "id": "GBS-DX-02",
+        "type": "mcq",
+        "prompt": "On day 3 of symptoms, a client’s CSF protein is normal. How should the nurse interpret this?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The client most likely has MS instead"
+          },
+          {
+            "id": "B",
+            "text": "GBS can now be ruled out confidently"
+          },
+          {
+            "id": "C",
+            "text": "The LP sample was likely mishandled"
+          },
+          {
+            "id": "D",
+            "text": "GBS is still possible this early on"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "CSF protein may be normal early, particularly in the first week, so an early normal result does not exclude GBS. It does not imply a technique error or point to another diagnosis."
+      },
+      {
+        "id": "GBS-DX-03",
+        "type": "mcq",
+        "prompt": "A client with GBS has serial NIF readings that are becoming less negative. How should the nurse interpret this trend?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Inspiratory muscle strength is declining"
+          },
+          {
+            "id": "B",
+            "text": "Inspiratory muscle strength is improving"
+          },
+          {
+            "id": "C",
+            "text": "The trend reflects better lung compliance"
+          },
+          {
+            "id": "D",
+            "text": "The trend is expected and needs no report"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "A less-negative NIF reflects weaker inspiratory effort (for example, −20 cm H₂O is weaker than −40), so the trend shows declining strength and should be reported. It does not show improvement, and a declining trend is not something to ignore."
+      }
+    ],
+    "medical": [
+      {
+        "id": "GBS-MM-01",
+        "type": "mcq",
+        "prompt": "A nonambulatory client with GBS has rapidly progressive weakness and bulbar dysfunction. Which order should the nurse question as not effective routine GBS treatment?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Therapeutic plasma exchange"
+          },
+          {
+            "id": "B",
+            "text": "High-dose corticosteroids"
+          },
+          {
+            "id": "C",
+            "text": "Monitored intensive care"
+          },
+          {
+            "id": "D",
+            "text": "IV immunoglobulin (IVIG)"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Corticosteroids are not effective routine GBS treatment. IVIG and plasma exchange are effective disease-directed options. Rapid progression and bulbar dysfunction warrant urgent monitored assessment, including ICU care when needed for respiratory or autonomic risk."
+      },
+      {
+        "id": "GBS-MM-02",
+        "type": "mcq",
+        "prompt": "A client just completed IVIG, and plasma exchange is proposed next as routine follow-up. Why is this combination not recommended?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Exchange would remove the infused immunoglobulin"
+          },
+          {
+            "id": "B",
+            "text": "Together they double the dose and cause toxicity"
+          },
+          {
+            "id": "C",
+            "text": "Exchange is more costly than giving IVIG alone"
+          },
+          {
+            "id": "D",
+            "text": "Exchange is reserved for children with GBS"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Routine sequential use is not recommended because exchange after IVIG can remove the infused immunoglobulin. It is not about doubling into toxicity or cost, and plasma exchange is not limited to children."
+      },
+      {
+        "id": "GBS-MM-03",
+        "type": "mcq",
+        "prompt": "A client with GBS has a falling vital capacity and weak cough but a normal SpO₂. When should controlled airway support be planned?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Once a respiratory arrest has occurred"
+          },
+          {
+            "id": "B",
+            "text": "Once the SpO₂ begins to fall below normal"
+          },
+          {
+            "id": "C",
+            "text": "Early, before hypoxemia or collapse occurs"
+          },
+          {
+            "id": "D",
+            "text": "Not needed, because oxygen is sufficient"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Plan controlled airway support early when indicated; waiting for collapse, hypoxemia, or an abnormal blood gas can be dangerous. Oxygen does not correct weak ventilation."
+      }
+    ],
+    "medications": [
+      {
+        "id": "GBS-PH-01",
+        "type": "mcq",
+        "prompt": "IVIG is ordered for a client with GBS as a course over several consecutive days. Which nursing action supports safe administration?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Schedule outpatient infusions since slots are open"
+          },
+          {
+            "id": "B",
+            "text": "Run each of the IVIG products at one standard rate"
+          },
+          {
+            "id": "C",
+            "text": "Use the product-specific rate; monitor at rate changes"
+          },
+          {
+            "id": "D",
+            "text": "Give the full course as a single rapid infusion today"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Use the exact product- and concentration-specific starting rate and escalation, and monitor per protocol, especially at initiation and rate changes. Rates are not interchangeable across products, the prescribed consecutive-day schedule is followed, and acute GBS usually needs inpatient monitoring."
+      },
+      {
+        "id": "GBS-PH-02",
+        "type": "mcq",
+        "prompt": "An immobilized adult with GBS needs VTE prophylaxis and has low bleeding risk. Which order is most expected?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Subcutaneous enoxaparin injections"
+          },
+          {
+            "id": "B",
+            "text": "Aspirin alone as the main measure"
+          },
+          {
+            "id": "C",
+            "text": "No prophylaxis while on bed rest"
+          },
+          {
+            "id": "D",
+            "text": "Oral warfarin as the first agent"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "LMWH such as enoxaparin or low-dose unfractionated heparin is commonly used when bleeding risk allows. Warfarin is not the usual initial inpatient choice, aspirin is not the described prophylaxis, and immobility increases rather than removes the need."
+      },
+      {
+        "id": "GBS-PH-03",
+        "type": "mcq",
+        "prompt": "A client with GBS and bulbar weakness has severe neuropathic pain. Why does the nurse titrate opioids cautiously?",
+        "options": [
+          {
+            "id": "A",
+            "text": "They can speed up nerve remyelination"
+          },
+          {
+            "id": "B",
+            "text": "They can reverse the underlying neuropathy"
+          },
+          {
+            "id": "C",
+            "text": "They can increase reflexes and spasticity"
+          },
+          {
+            "id": "D",
+            "text": "They can worsen breathing and swallowing"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Sedating drugs and opioids can worsen ventilation, swallowing, constipation, and falls, so pain and breathing are reassessed during titration. They do not reverse neuropathy, raise reflexes, or speed remyelination."
+      },
+      {
+        "id": "GBS-PH-04",
+        "type": "mcq",
+        "prompt": "A client with GBS has a BP spike to 190/100 mm Hg. Why should aggressive long-acting antihypertensives be avoided?",
+        "options": [
+          {
+            "id": "A",
+            "text": "They can raise CSF protein levels further"
+          },
+          {
+            "id": "B",
+            "text": "BP can abruptly swing down to hypotension"
+          },
+          {
+            "id": "C",
+            "text": "They can make reflexes return too quickly"
+          },
+          {
+            "id": "D",
+            "text": "They can worsen the ascending weakness"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Labile hypertension can abruptly become hypotension, so short-acting, monitored treatment is preferred over aggressive long-acting therapy. Reflexes, CSF protein, and weakness are not the reason for the choice."
+      }
+    ],
+    "nonpharmacological": [
+      {
+        "id": "GBS-NP-01",
+        "type": "mcq",
+        "prompt": "A client with GBS has worsening respiratory weakness. A colleague suggests increasing oxygen and waiting. What is the best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Oxygen can’t fix weak ventilation alone.”"
+          },
+          {
+            "id": "B",
+            "text": "“Oxygen can replace intubation if needed.”"
+          },
+          {
+            "id": "C",
+            "text": "“Oxygen is contraindicated for clients with GBS.”"
+          },
+          {
+            "id": "D",
+            "text": "“Oxygen will correct the weak ventilation.”"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Oxygen may be needed for hypoxemia but cannot correct weak ventilation by itself; escalate before exhaustion."
+      },
+      {
+        "id": "GBS-NP-02",
+        "type": "mcq",
+        "prompt": "A client with GBS has new swelling and tenderness in the left calf. Which action should the nurse avoid?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Reporting the finding promptly"
+          },
+          {
+            "id": "B",
+            "text": "Measuring both calf diameters"
+          },
+          {
+            "id": "C",
+            "text": "Assessing the distal pulses"
+          },
+          {
+            "id": "D",
+            "text": "Massaging the affected leg"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Do not massage a leg with suspected DVT. Reporting and assessing are appropriate."
+      },
+      {
+        "id": "GBS-NP-03",
+        "type": "mcq",
+        "prompt": "A client with GBS has bilateral facial weakness and cannot fully close the eyes. What should the nurse do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Wait for facial strength to return before acting"
+          },
+          {
+            "id": "B",
+            "text": "Apply firm pressure over the lids to keep them shut"
+          },
+          {
+            "id": "C",
+            "text": "Assess the cornea and use ordered eye protection"
+          },
+          {
+            "id": "D",
+            "text": "Leave the eyes uncovered to monitor the pupils"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "With incomplete eye closure, assess the cornea and use ordered lubrication/closure protection. Leaving eyes exposed or waiting risks corneal injury, and firm pressure is harmful."
+      }
+    ],
+    "adverse-effects": [
+      {
+        "id": "GBS-AE-01",
+        "type": "sata",
+        "prompt": "A client with GBS is receiving IVIG. Which serious adverse effects should the nurse monitor for? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hypercalcemia and kidney stones"
+          },
+          {
+            "id": "B",
+            "text": "Acute kidney injury (AKI)"
+          },
+          {
+            "id": "C",
+            "text": "Thrombosis such as DVT or stroke"
+          },
+          {
+            "id": "D",
+            "text": "Citrate-related hypocalcemia"
+          },
+          {
+            "id": "E",
+            "text": "Pinpoint pupils and drooling"
+          }
+        ],
+        "correct": [
+          "B",
+          "C"
+        ],
+        "rationale": "Serious IVIG effects include hypersensitivity, thrombosis, AKI, volume overload, hemolysis, and aseptic meningitis. Citrate-related hypocalcemia is a plasma-exchange risk, and hypercalcemia or cholinergic signs are not listed IVIG effects."
+      },
+      {
+        "id": "GBS-AE-02",
+        "type": "mcq",
+        "prompt": "During plasma exchange, a client reports perioral tingling and hand cramps. What should the nurse suspect?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Early anaphylaxis to albumin"
+          },
+          {
+            "id": "B",
+            "text": "Hypoglycemia from fasting"
+          },
+          {
+            "id": "C",
+            "text": "Hyperkalemia from cell lysis"
+          },
+          {
+            "id": "D",
+            "text": "Citrate-related hypocalcemia"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Perioral tingling, paresthesias/cramps, or tetany are citrate-related hypocalcemia warning signs needing prompt assessment. They are not typical of hyperkalemia or hypoglycemia, and anaphylaxis presents differently."
+      },
+      {
+        "id": "GBS-AE-03",
+        "type": "mcq",
+        "prompt": "A client with GBS takes carbamazepine for neuropathic pain. Which laboratory finding is a recognized risk?",
+        "options": [
+          {
+            "id": "A",
+            "text": "High serum potassium"
+          },
+          {
+            "id": "B",
+            "text": "High serum calcium"
+          },
+          {
+            "id": "C",
+            "text": "High serum uric acid"
+          },
+          {
+            "id": "D",
+            "text": "Low serum sodium"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Carbamazepine risks include blood dyscrasias, serious skin reactions, hyponatremia, and hepatic effects. High potassium, uric acid, or calcium are not listed risks."
+      }
+    ],
+    "nutrition": [
+      {
+        "id": "GBS-NU-01",
+        "type": "mcq",
+        "prompt": "A client with GBS has facial weakness and asks for a drink. What should the nurse do first?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Assume swallowing is safe if the client is alert"
+          },
+          {
+            "id": "B",
+            "text": "Check the gag reflex, then offer some water"
+          },
+          {
+            "id": "C",
+            "text": "Offer sips of thin liquid to test the swallow"
+          },
+          {
+            "id": "D",
+            "text": "Follow the approved swallow-screen/SLP pathway"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Use the approved swallow-screen/SLP pathway; a gag check alone cannot establish safety or exclude silent aspiration."
+      },
+      {
+        "id": "GBS-NU-02",
+        "type": "mcq",
+        "prompt": "Tube feeding starts for a client with GBS after a week of poor intake. Which electrolytes should the nurse monitor for refeeding risk?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Calcium, vitamin D, and albumin"
+          },
+          {
+            "id": "B",
+            "text": "Sodium, chloride, and bicarbonate"
+          },
+          {
+            "id": "C",
+            "text": "Iron, ferritin, and vitamin B12"
+          },
+          {
+            "id": "D",
+            "text": "Phosphate, potassium, and magnesium"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Assess refeeding risk and monitor phosphate, potassium, magnesium, glucose, and fluid balance. Calcium, sodium, or iron studies alone would miss refeeding shifts."
+      }
+    ],
+    "assessment": [
+      {
+        "id": "GBS-AS-01",
+        "type": "mcq",
+        "prompt": "A client with GBS has an FVC that has fallen to the level the team identified as a trigger for considering elective ventilation. What should the nurse do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Encourage the client to breathe deeply and rest"
+          },
+          {
+            "id": "B",
+            "text": "Recheck it at the next routine shift assessment"
+          },
+          {
+            "id": "C",
+            "text": "Report it promptly so airway support is planned"
+          },
+          {
+            "id": "D",
+            "text": "Wait for SpO₂ to fall before reporting the change"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Elective ventilation is considered when FVC falls to a set warning value (20 mL/kg or lower in the guideline), so the nurse reports promptly to allow planned airway support. Waiting for desaturation or the next routine check is unsafe, and coaching does not address failing ventilation."
+      },
+      {
+        "id": "GBS-AS-02",
+        "type": "mcq",
+        "prompt": "A client with GBS has an SpO₂ within the expected range but a declining FVC and weak cough. How should the nurse interpret this?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Give oxygen and reassess tomorrow"
+          },
+          {
+            "id": "B",
+            "text": "Ventilation is adequate given the SpO₂"
+          },
+          {
+            "id": "C",
+            "text": "Normal SpO₂ doesn’t exclude failure"
+          },
+          {
+            "id": "D",
+            "text": "Respiratory monitoring can be reduced"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Normal SpO₂ or a reassuring blood gas does not rule out evolving neuromuscular respiratory failure; report the declining trend."
+      },
+      {
+        "id": "GBS-AS-03",
+        "type": "mcq",
+        "prompt": "In a client with suspected GBS, which finding should prompt review for another diagnosis?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Symmetric weakness in both legs"
+          },
+          {
+            "id": "B",
+            "text": "A sensory level on the trunk"
+          },
+          {
+            "id": "C",
+            "text": "Absent reflexes at both ankles"
+          },
+          {
+            "id": "D",
+            "text": "Tingling in the feet and hands"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "A sensory level, prominent early sphincter symptoms, marked asymmetry, or UMN signs suggest a mimic such as spinal cord disease. The other findings fit GBS."
+      }
+    ],
+    "diagnoses": [
+      {
+        "id": "GBS-ND-01",
+        "type": "mcq",
+        "prompt": "An intubated client with GBS cannot speak. Which nursing diagnosis is best supported?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Risk for acute confusion"
+          },
+          {
+            "id": "B",
+            "text": "Disturbed sensory perception"
+          },
+          {
+            "id": "C",
+            "text": "Impaired verbal communication"
+          },
+          {
+            "id": "D",
+            "text": "Ineffective family coping"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Impaired verbal communication relates to facial or bulbar weakness or intubation. Cognition and hearing are usually preserved in GBS, and coping concerns need their own assessment findings."
+      },
+      {
+        "id": "GBS-ND-02",
+        "type": "mcq",
+        "prompt": "A client with GBS has a weak cough and coarse crackles from retained secretions. Which nursing diagnosis fits best?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ineffective airway clearance"
+          },
+          {
+            "id": "B",
+            "text": "Impaired urinary elimination"
+          },
+          {
+            "id": "C",
+            "text": "Impaired physical mobility"
+          },
+          {
+            "id": "D",
+            "text": "Risk for impaired skin integrity"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Ineffective airway clearance relates to weak cough and retained secretions. The other diagnoses address different findings."
+      }
+    ],
+    "priorities": [
+      {
+        "id": "GBS-PR-01",
+        "type": "mcq",
+        "prompt": "A client with GBS has rapidly worsening arm weakness and new difficulty swallowing. What is the nurse’s first action?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Schedule physical therapy for strength"
+          },
+          {
+            "id": "B",
+            "text": "Escalate urgently for airway support"
+          },
+          {
+            "id": "C",
+            "text": "Wait for LP results to confirm GBS"
+          },
+          {
+            "id": "D",
+            "text": "Recheck in an hour unless SpO₂ drops"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "With rapidly worsening weakness or bulbar symptoms, escalate urgently; do not wait for desaturation, LP results, or a numerical cutoff."
+      },
+      {
+        "id": "GBS-PR-02",
+        "type": "mcq",
+        "prompt": "IVIG is indicated for a client with GBS, but nerve conduction studies are not scheduled until next week. What should the nurse anticipate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Treatment waits for nerve study results"
+          },
+          {
+            "id": "B",
+            "text": "Treatment starts once weakness plateaus"
+          },
+          {
+            "id": "C",
+            "text": "Treatment begins once recovery starts"
+          },
+          {
+            "id": "D",
+            "text": "Timely treatment before the nerve study"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Arrange timely IVIG or plasma exchange when indicated, avoiding delays for confirmatory tests; early tests may also be normal. Waiting for a plateau or recovery misses the treatment window."
+      }
+    ],
+    "plan": [
+      {
+        "id": "GBS-PL-01",
+        "type": "mcq",
+        "prompt": "A client with GBS has entered the plateau phase. How should the nurse approach the plan of care?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Update the goals to fit the current stage"
+          },
+          {
+            "id": "B",
+            "text": "Set goals for full strength by discharge"
+          },
+          {
+            "id": "C",
+            "text": "Keep the admission goals as they were"
+          },
+          {
+            "id": "D",
+            "text": "Defer goal-setting until recovery begins"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Goals are patient-centered and change with the progressive, plateau, and recovery phases. Keeping admission goals unchanged ignores the new phase."
+      },
+      {
+        "id": "GBS-PL-02",
+        "type": "mcq",
+        "prompt": "A client with GBS has not yet regained strength. Which outcome is meaningful at this stage?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Discharge home by the end of the week"
+          },
+          {
+            "id": "B",
+            "text": "Walking independently down the hallway"
+          },
+          {
+            "id": "C",
+            "text": "Function preserved and harm prevented"
+          },
+          {
+            "id": "D",
+            "text": "A full return of deep-tendon reflexes"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Preserving function and preventing harm are meaningful outcomes before strength improves; the other outcomes come later, if at all."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "GBS-IN-01",
+        "type": "mcq",
+        "prompt": "A client with GBS has severe dysautonomia and needs tracheal suctioning. Why should the nurse coordinate this carefully?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It can increase reflexes and spasms"
+          },
+          {
+            "id": "B",
+            "text": "It can trigger marked bradycardia"
+          },
+          {
+            "id": "C",
+            "text": "It can worsen the sensory loss"
+          },
+          {
+            "id": "D",
+            "text": "It can cause sustained hypertension"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Coordinate suctioning and procedures carefully in severe dysautonomia because marked bradycardia can occur. Suctioning is not described as causing sustained hypertension, and it does not affect reflexes or sensation."
+      },
+      {
+        "id": "GBS-IN-02",
+        "type": "mcq",
+        "prompt": "A dependent client with GBS is going home. Which transfer plan should the nurse teach?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Avoid transfers to keep the client safe"
+          },
+          {
+            "id": "B",
+            "text": "Trained help, lifts, and good body mechanics"
+          },
+          {
+            "id": "C",
+            "text": "The client transfers alone to build strength"
+          },
+          {
+            "id": "D",
+            "text": "The spouse lifts the client without help"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Use trained assistance, lifts, and safe body mechanics rather than expecting a caregiver to manually lift a dependent client. Solo transfers risk injury to both, and avoiding transfers causes deconditioning."
+      }
+    ],
+    "education": [
+      {
+        "id": "GBS-ED-01",
+        "type": "mcq",
+        "prompt": "Which symptom should a client recovering from GBS be taught to treat as an emergency?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Mild soreness after a session of exercise"
+          },
+          {
+            "id": "B",
+            "text": "A weak cough and trouble handling saliva"
+          },
+          {
+            "id": "C",
+            "text": "Steady, slow improvement in leg strength"
+          },
+          {
+            "id": "D",
+            "text": "Mild tiredness after a therapy session"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Call emergency services for breathing difficulty, weak cough/inability to handle saliva, choking, syncope, or rapidly worsening weakness. Mild fatigue or soreness after therapy is expected."
+      },
+      {
+        "id": "GBS-ED-02",
+        "type": "mcq",
+        "prompt": "A client recovering from GBS asks how recovery will progress. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Fatigue will not continue after discharge.”"
+          },
+          {
+            "id": "B",
+            "text": "“Recovery is usually complete in a week.”"
+          },
+          {
+            "id": "C",
+            "text": "“Strength returns in a fixed, set order.”"
+          },
+          {
+            "id": "D",
+            "text": "“It may take months to years, in no set order.”"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Recovery may take months or years, strength and reflexes do not return in a fixed order, and fatigue can persist. Promising quick or orderly recovery is inaccurate."
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "GBS-EV-01",
+        "type": "mcq",
+        "prompt": "A client with GBS has an acceptable SpO₂ on room air. How should the nurse evaluate ventilation?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Blood gases add little in the care of GBS"
+          },
+          {
+            "id": "B",
+            "text": "Cough strength is unrelated to ventilation"
+          },
+          {
+            "id": "C",
+            "text": "SpO₂ alone does not prove adequate ventilation"
+          },
+          {
+            "id": "D",
+            "text": "The SpO₂ reading proves ventilation is adequate"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "An acceptable or normal SpO₂ alone is not proof of adequate ventilation; respiratory mechanics, cough, and airway protection are also evaluated. Blood gases and cough strength remain relevant."
+      },
+      {
+        "id": "GBS-EV-02",
+        "type": "mcq",
+        "prompt": "A client with GBS has stopped getting weaker. How should autonomic monitoring be evaluated?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Continue during vulnerable recovery"
+          },
+          {
+            "id": "B",
+            "text": "Reduce BP checks to once a day now"
+          },
+          {
+            "id": "C",
+            "text": "Evaluate it at the time of discharge"
+          },
+          {
+            "id": "D",
+            "text": "Stop once weakness stops ascending"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Monitoring continues during vulnerable recovery periods; autonomic complications do not end when weakness stops progressing."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1231 @@
+{
+  "id": "als",
+  "sections": {
+    "overview": [
+      {
+        "id": "ALS-OV-01",
+        "type": "mcq",
+        "prompt": "A client newly diagnosed with ALS asks which nerve cells are affected. Which explanation is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Upper and lower motor neurons"
+          },
+          {
+            "id": "B",
+            "text": "Autonomic gut and bladder neurons"
+          },
+          {
+            "id": "C",
+            "text": "Dopamine neurons of the midbrain"
+          },
+          {
+            "id": "D",
+            "text": "Dorsal root sensory neurons"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "ALS affects upper motor neurons in the motor cortex and lower motor neurons in the brainstem and cord. Sensation is often relatively preserved, and dopamine-neuron loss describes PD."
+      },
+      {
+        "id": "ALS-OV-02",
+        "type": "sata",
+        "prompt": "The nurse examines a client with ALS. Which findings reflect lower motor neuron loss? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Limb spasticity"
+          },
+          {
+            "id": "B",
+            "text": "Muscle weakness"
+          },
+          {
+            "id": "C",
+            "text": "Brisk reflexes"
+          },
+          {
+            "id": "D",
+            "text": "Fasciculations"
+          },
+          {
+            "id": "E",
+            "text": "Muscle atrophy"
+          }
+        ],
+        "correct": [
+          "B",
+          "D",
+          "E"
+        ],
+        "rationale": "Lower motor neuron loss causes weakness, atrophy, and fasciculations. Spasticity and brisk reflexes are upper motor neuron findings."
+      },
+      {
+        "id": "ALS-OV-03",
+        "type": "mcq",
+        "prompt": "A client with advanced ALS can no longer speak. How should the nurse approach care decisions?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Route communication through the caregiver"
+          },
+          {
+            "id": "B",
+            "text": "Support the client’s own decisions directly"
+          },
+          {
+            "id": "C",
+            "text": "Assume understanding is lost and ask family"
+          },
+          {
+            "id": "D",
+            "text": "Treat the client as unable to make decisions"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Loss of speech or movement must never be assumed to mean loss of understanding, so the nurse supports the client’s own decision-making. Cognitive change is assessed, not assumed."
+      }
+    ],
+    "manifestations": [
+      {
+        "id": "ALS-CM-01",
+        "type": "mcq",
+        "prompt": "The nurse sees small, involuntary twitches under the skin of a client’s upper arm. How should this be documented?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Fasciculations"
+          },
+          {
+            "id": "B",
+            "text": "Dyskinesias"
+          },
+          {
+            "id": "C",
+            "text": "Myoclonic jerks"
+          },
+          {
+            "id": "D",
+            "text": "Resting tremor"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Fasciculations are small involuntary muscle twitches from lower motor neuron involvement. Dyskinesia, tremor, and myoclonus are different movement types."
+      },
+      {
+        "id": "ALS-CM-02",
+        "type": "mcq",
+        "prompt": "A client with ALS reports morning headaches and daytime sleepiness and now sleeps propped on pillows. What do these findings suggest?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Worsening pseudobulbar affect"
+          },
+          {
+            "id": "B",
+            "text": "Weakening respiratory muscles"
+          },
+          {
+            "id": "C",
+            "text": "Increasing spasticity"
+          },
+          {
+            "id": "D",
+            "text": "A side effect of riluzole"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Orthopnea, sleep disturbance, morning headache, and daytime sleepiness reflect weakening respiratory muscles and possible hypoventilation. They are not features of pseudobulbar affect, riluzole, or spasticity."
+      },
+      {
+        "id": "ALS-CM-03",
+        "type": "mcq",
+        "prompt": "A client with ALS cries suddenly during a neutral conversation and says they do not feel sad. What is the most likely explanation?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Major depression"
+          },
+          {
+            "id": "B",
+            "text": "Hypoactive delirium"
+          },
+          {
+            "id": "C",
+            "text": "Pseudobulbar affect"
+          },
+          {
+            "id": "D",
+            "text": "Acute anxiety attack"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Pseudobulbar affect causes involuntary laughing or crying out of proportion to mood and differs from depression. The client’s stated mood does not match the crying, and nothing suggests delirium or anxiety."
+      }
+    ],
+    "risk": [
+      {
+        "id": "ALS-RF-01",
+        "type": "mcq",
+        "prompt": "A client with ALS asks whether their children will inherit the disease. Which fact should guide the nurse’s answer?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Most cases are passed down in families"
+          },
+          {
+            "id": "B",
+            "text": "Genes play no known role in this disease"
+          },
+          {
+            "id": "C",
+            "text": "Inheritance depends on the parent’s sex"
+          },
+          {
+            "id": "D",
+            "text": "Most cases have no clear family history"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Most people with ALS have no clear family history, but a pathogenic variant can still be present. Family history or a population percentage alone cannot determine this client’s children’s risk; offer genetic counseling and discussion of testing to clarify individual implications."
+      },
+      {
+        "id": "ALS-RF-02",
+        "type": "mcq",
+        "prompt": "A client with ALS and no family history asks why genetic counseling is being offered. What is the best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“A genetic test is required to make the diagnosis.”"
+          },
+          {
+            "id": "B",
+            "text": "“A result can affect eligibility for SOD1 therapy.”"
+          },
+          {
+            "id": "C",
+            "text": "“Testing prevents the disease in your children.”"
+          },
+          {
+            "id": "D",
+            "text": "“A genetic test result can reverse the disease.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Genetic results can affect treatment eligibility, including SOD1-directed therapy, and variants can be found without family history. Testing does not cure, diagnose alone, or prevent ALS."
+      },
+      {
+        "id": "ALS-RF-03",
+        "type": "mcq",
+        "prompt": "A family member asks whether avoiding pesticides will keep them from getting ALS. What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Pesticides are the known cause of most ALS.”"
+          },
+          {
+            "id": "B",
+            "text": "“Yes, avoiding them will remove your risk.”"
+          },
+          {
+            "id": "C",
+            "text": "“Preventing head injury is the proven method.”"
+          },
+          {
+            "id": "D",
+            "text": "“It’s healthy but not proven to prevent ALS.”"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Exposure protection supports general health but has not been proven to prevent ALS; the causes of most ALS remain uncertain. No single exposure or head-injury prevention is a proven way to prevent it."
+      }
+    ],
+    "diagnostics": [
+      {
+        "id": "ALS-DX-01",
+        "type": "mcq",
+        "prompt": "A client asks which blood test will confirm ALS. What should the nurse explain?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“A neurologist diagnoses it from exam and tests.”"
+          },
+          {
+            "id": "B",
+            "text": "“A lumbar puncture alone confirms the diagnosis.”"
+          },
+          {
+            "id": "C",
+            "text": "“A chest X-ray shows the motor neuron damage.”"
+          },
+          {
+            "id": "D",
+            "text": "“A single routine blood panel confirms ALS.”"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "ALS is diagnosed by an experienced neurologist from motor findings and investigations that exclude mimics; no single routine blood test confirms every case."
+      },
+      {
+        "id": "ALS-DX-02",
+        "type": "mcq",
+        "prompt": "A client with ALS who takes warfarin is scheduled for EMG. Which instruction should the nurse give?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Fast from midnight before the nerve study"
+          },
+          {
+            "id": "B",
+            "text": "Apply moisturizing lotion before the test"
+          },
+          {
+            "id": "C",
+            "text": "Skip skin creams and report the warfarin"
+          },
+          {
+            "id": "D",
+            "text": "Stop the warfarin for a few days beforehand"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Avoid creams or oils that interfere with surface electrodes, and tell the examiner about anticoagulants and devices. Medicines should not be stopped independently, and fasting is not part of EMG preparation."
+      },
+      {
+        "id": "ALS-DX-03",
+        "type": "mcq",
+        "prompt": "A client with ALS has a normal daytime SpO₂ but reports poor sleep. How should the nurse interpret the oximetry?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It means the ordered oxygen can be stopped"
+          },
+          {
+            "id": "B",
+            "text": "It shows no further testing is needed now"
+          },
+          {
+            "id": "C",
+            "text": "It shows ventilation is adequate overnight"
+          },
+          {
+            "id": "D",
+            "text": "It doesn’t exclude nocturnal hypoventilation"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Normal daytime SpO₂ does not exclude nocturnal or progressive hypoventilation, so sleep or CO₂ testing may be needed. A daytime reading cannot show overnight adequacy or justify stopping testing or oxygen."
+      }
+    ],
+    "medical": [
+      {
+        "id": "ALS-MM-01",
+        "type": "mcq",
+        "prompt": "A client with ALS who uses NIV asks whether accepting palliative care means stopping treatment. What is the best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“It is given alongside NIV and other treatment.”"
+          },
+          {
+            "id": "B",
+            "text": "“You will need to choose between it and NIV.”"
+          },
+          {
+            "id": "C",
+            "text": "“It takes the place of NIV and other treatment.”"
+          },
+          {
+            "id": "D",
+            "text": "“Yes, palliative care begins in the final days.”"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Palliative care can accompany disease-directed treatment, NIV, or invasive ventilation. It is not an either/or choice, does not replace treatment, and is not reserved for the final days."
+      },
+      {
+        "id": "ALS-MM-02",
+        "type": "mcq",
+        "prompt": "A client with progressive ALS has worsening respiratory weakness. Which blood gas change should the nurse anticipate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rising PaCO₂ from alveolar hypoventilation"
+          },
+          {
+            "id": "B",
+            "text": "Falling PaCO₂ from rapid hyperventilation"
+          },
+          {
+            "id": "C",
+            "text": "Metabolic acidosis from lactic acid buildup"
+          },
+          {
+            "id": "D",
+            "text": "Normal blood gases until the final days"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Progressive respiratory weakness causes alveolar hypoventilation and CO₂ retention. Hyperventilation would lower PaCO₂, and gases can become abnormal well before the final days."
+      },
+      {
+        "id": "ALS-MM-03",
+        "type": "mcq",
+        "prompt": "A client with ALS has mild chewing fatigue and stable weight. When should gastrostomy be discussed?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It isn’t advised, as it offers no benefit in ALS"
+          },
+          {
+            "id": "B",
+            "text": "After major weight loss has already occurred"
+          },
+          {
+            "id": "C",
+            "text": "Now, and revisited as needs and wishes change"
+          },
+          {
+            "id": "D",
+            "text": "Once a feeding emergency makes it necessary"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Consider gastrostomy early and revisit it as swallowing, intake, weight, respiratory function, and preferences change. Waiting for major weight loss or an emergency narrows safe options, and it can help selected clients."
+      }
+    ],
+    "medications": [
+      {
+        "id": "ALS-PH-01",
+        "type": "mcq",
+        "prompt": "A client starting riluzole asks what it will do. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“It can prevent respiratory failure.”"
+          },
+          {
+            "id": "B",
+            "text": "“It can modestly prolong survival.”"
+          },
+          {
+            "id": "C",
+            "text": "“It can halt ALS if started early.”"
+          },
+          {
+            "id": "D",
+            "text": "“It can restore lost muscle strength.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Riluzole may modestly prolong survival; it is not a cure and does not restore strength or prevent respiratory failure."
+      },
+      {
+        "id": "ALS-PH-02",
+        "type": "mcq",
+        "prompt": "For which client is tofersen (Qalsody) indicated?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A client with heavy drooling"
+          },
+          {
+            "id": "B",
+            "text": "An adult with SOD1-associated ALS"
+          },
+          {
+            "id": "C",
+            "text": "An adult whose ALS has no identified SOD1 mutation"
+          },
+          {
+            "id": "D",
+            "text": "A client with pseudobulbar affect"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Tofersen is indicated for adults with ALS associated with a SOD1 mutation. Eligibility depends on the molecular finding, not whether a family history is present. Drooling and pseudobulbar affect have different symptom-directed treatments."
+      },
+      {
+        "id": "ALS-PH-03",
+        "type": "mcq",
+        "prompt": "Dextromethorphan/quinidine (Nuedexta) is prescribed for a client with ALS. Which symptom is it intended to treat?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Pseudobulbar affect"
+          },
+          {
+            "id": "B",
+            "text": "Spasticity of the limbs"
+          },
+          {
+            "id": "C",
+            "text": "Sialorrhea (drooling)"
+          },
+          {
+            "id": "D",
+            "text": "Painful muscle cramps"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Nuedexta may reduce involuntary laughing/crying from pseudobulbar affect. Spasticity, cramps, and saliva are managed with other medicines."
+      },
+      {
+        "id": "ALS-PH-04",
+        "type": "mcq",
+        "prompt": "A client with ALS starts glycopyrrolate for drooling. Which finding should the nurse watch for?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Elevated blood glucose levels"
+          },
+          {
+            "id": "B",
+            "text": "Secretions too thick to clear"
+          },
+          {
+            "id": "C",
+            "text": "A large rise in urine output"
+          },
+          {
+            "id": "D",
+            "text": "Diarrhea and abdominal cramps"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Balance saliva relief against dry mouth, constipation, urinary retention, confusion, and thickened secretions. Anticholinergics cause retention and constipation, not increased output or diarrhea."
+      }
+    ],
+    "nonpharmacological": [
+      {
+        "id": "ALS-NP-01",
+        "type": "mcq",
+        "prompt": "A client with early bulbar ALS still speaks clearly. When should the nurse offer voice and message banking?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Once eye-gaze devices are needed"
+          },
+          {
+            "id": "B",
+            "text": "Now, while speech is intelligible"
+          },
+          {
+            "id": "C",
+            "text": "When a family member requests it"
+          },
+          {
+            "id": "D",
+            "text": "After speech becomes hard to understand"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Offer voice and message banking early, while speech is intelligible and if the client wants it. Waiting for speech to deteriorate may reduce recording options. The client’s preference guides the offer; it should not depend on a family request or a fixed device milestone."
+      },
+      {
+        "id": "ALS-NP-02",
+        "type": "mcq",
+        "prompt": "A client with ALS reports orthopnea and morning headaches, but FVC has not reached the unit’s usual cutoff. What should the nurse anticipate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Avoiding NIV because the FVC is acceptable"
+          },
+          {
+            "id": "B",
+            "text": "Waiting for daytime oxygen desaturation"
+          },
+          {
+            "id": "C",
+            "text": "Offering NIV based on the client’s symptoms"
+          },
+          {
+            "id": "D",
+            "text": "Waiting until FVC reaches the threshold"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Offer NIV when symptoms, signs, or tests indicate respiratory insufficiency; do not wait for a single FVC threshold or obvious daytime desaturation."
+      },
+      {
+        "id": "ALS-NP-03",
+        "type": "mcq",
+        "prompt": "A client with advanced ALS and weak respiratory muscles is being evaluated for AAC access. Why might sip-and-puff access be unsuitable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It requires intact hearing"
+          },
+          {
+            "id": "B",
+            "text": "It needs full use of both hands"
+          },
+          {
+            "id": "C",
+            "text": "It requires spoken commands"
+          },
+          {
+            "id": "D",
+            "text": "It needs enough breathing ability"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Sip-and-puff access requires sufficient breathing ability and may not suit advanced respiratory weakness; eye-gaze or switches may be options."
+      }
+    ],
+    "adverse-effects": [
+      {
+        "id": "ALS-AE-01",
+        "type": "mcq",
+        "prompt": "A client began riluzole six weeks ago. Which monitoring should the nurse expect as part of early riluzole therapy?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Regular thyroid function testing"
+          },
+          {
+            "id": "B",
+            "text": "Serial kidney function and potassium"
+          },
+          {
+            "id": "C",
+            "text": "Regular liver aminotransferase checks"
+          },
+          {
+            "id": "D",
+            "text": "Serial blood glucose monitoring"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Riluzole can affect the liver, so aminotransferases are checked before treatment, regularly during the first months, and periodically afterward. Kidney, thyroid, and glucose monitoring are not the listed riluzole requirements."
+      },
+      {
+        "id": "ALS-AE-02",
+        "type": "mcq",
+        "prompt": "A client taking riluzole reports fever and a sore throat. Why does this need prompt assessment?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It signals withdrawal from baclofen"
+          },
+          {
+            "id": "B",
+            "text": "The drug can rarely cause neutropenia"
+          },
+          {
+            "id": "C",
+            "text": "It suggests a sulfite hypersensitivity"
+          },
+          {
+            "id": "D",
+            "text": "It is likely an expected viral illness"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Rare severe neutropenia with riluzole means fever or sore throat needs prompt assessment. Sulfite reactions relate to edaravone."
+      },
+      {
+        "id": "ALS-AE-03",
+        "type": "mcq",
+        "prompt": "A client with ALS has used NIV overnight for a month. Which assessment is most important at the mask interface?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tightening straps as far as possible"
+          },
+          {
+            "id": "B",
+            "text": "Nasal-bridge pressure injury and leaks"
+          },
+          {
+            "id": "C",
+            "text": "Mask color matching the client’s skin"
+          },
+          {
+            "id": "D",
+            "text": "Removing the mask whenever the client sleeps"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "NIV monitoring includes nasal-bridge/face pressure injury, leaks, dry mucosa, eye irritation, and bloating. Over-tight straps cause injury, and removing the mask during sleep defeats its purpose."
+      },
+      {
+        "id": "ALS-AE-04",
+        "type": "mcq",
+        "prompt": "A client’s oral baclofen was stopped abruptly on admission. Which findings should the nurse watch for?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Gradual weight gain and dependent edema"
+          },
+          {
+            "id": "B",
+            "text": "Low blood pressure without other changes"
+          },
+          {
+            "id": "C",
+            "text": "Improved strength and reduced muscle tone"
+          },
+          {
+            "id": "D",
+            "text": "Rebound spasticity, fever, hallucinations"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Abrupt baclofen withdrawal can cause rebound spasticity, high fever, hallucinations, seizures, and severe illness. Tone increases rather than improving."
+      }
+    ],
+    "nutrition": [
+      {
+        "id": "ALS-NU-01",
+        "type": "mcq",
+        "prompt": "A caregiver says, “Now that he has a PEG tube, he can’t aspirate anymore.” What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Yes, and his oral care can now be reduced.”"
+          },
+          {
+            "id": "B",
+            "text": "“That’s right; the tube makes swallowing safe.”"
+          },
+          {
+            "id": "C",
+            "text": "“The tube can also prevent respiratory failure.”"
+          },
+          {
+            "id": "D",
+            "text": "“Saliva and reflux can still reach his lungs.”"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "A PEG does not restore swallowing or prevent all aspiration; saliva and reflux may still be aspirated, and oral care continues."
+      },
+      {
+        "id": "ALS-NU-02",
+        "type": "mcq",
+        "prompt": "How should the nurse position a client with ALS and dysphagia for oral intake?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Head-down tilt to help protect the airway"
+          },
+          {
+            "id": "B",
+            "text": "Fully upright, staying upright afterward"
+          },
+          {
+            "id": "C",
+            "text": "Supine with the head turned to the side"
+          },
+          {
+            "id": "D",
+            "text": "Flat and side-lying throughout the meal"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Sit upright close to 90° when tolerated with head/trunk support and remain upright afterward, often at least 30 minutes. Supine, flat, or head-down positions increase aspiration risk."
+      },
+      {
+        "id": "ALS-NU-03",
+        "type": "mcq",
+        "prompt": "A client with ALS is losing weight. Who should determine the client’s calorie and protein needs?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The client, based on hunger and preference"
+          },
+          {
+            "id": "B",
+            "text": "A dietitian, using an individual assessment"
+          },
+          {
+            "id": "C",
+            "text": "A standard high-calorie plan used for ALS"
+          },
+          {
+            "id": "D",
+            "text": "The family, based on the client’s appetite"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "A dietitian should assess energy and protein needs and weight trends because requirements vary. A standard plan, family estimates, or appetite alone are not individualized assessments."
+      }
+    ],
+    "assessment": [
+      {
+        "id": "ALS-AS-01",
+        "type": "mcq",
+        "prompt": "The nurse begins a shift with a client who has ALS. Which assessment is the priority?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Airway and respiratory status"
+          },
+          {
+            "id": "B",
+            "text": "Joint range of motion and tone"
+          },
+          {
+            "id": "C",
+            "text": "Skin over pressure areas"
+          },
+          {
+            "id": "D",
+            "text": "Bowel pattern and oral intake"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Priority assessment is airway and respiratory status, including cough and secretion clearance; the other assessments matter but follow airway and breathing."
+      },
+      {
+        "id": "ALS-AS-02",
+        "type": "mcq",
+        "prompt": "A client’s NIF changes from −50 to −30 cm H₂O. How should the nurse interpret this?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Weaker inspiratory effort"
+          },
+          {
+            "id": "B",
+            "text": "An expected normal variation"
+          },
+          {
+            "id": "C",
+            "text": "Fluid overload affecting the lungs"
+          },
+          {
+            "id": "D",
+            "text": "Improving inspiratory strength"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "A less-negative NIF indicates weaker inspiratory effort and should be reported. It is not improvement or a normal variation."
+      },
+      {
+        "id": "ALS-AS-03",
+        "type": "mcq",
+        "prompt": "A client with ALS has severe dysarthria. Which approach should the nurse use during the assessment?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Direct the questions to the caregiver instead"
+          },
+          {
+            "id": "B",
+            "text": "Finish the client’s sentences to save effort"
+          },
+          {
+            "id": "C",
+            "text": "Assume the client’s understanding is impaired"
+          },
+          {
+            "id": "D",
+            "text": "Speak to the client directly and allow time"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Address the client directly, allow response time, and do not assume dysarthria equals impaired understanding. Speaking only to the caregiver or finishing sentences removes the client’s voice."
+      }
+    ],
+    "diagnoses": [
+      {
+        "id": "ALS-ND-01",
+        "type": "mcq",
+        "prompt": "A client with ALS has slurred speech and runs out of breath mid-sentence. Which nursing diagnosis is best supported?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Caregiver role strain"
+          },
+          {
+            "id": "B",
+            "text": "Impaired verbal communication"
+          },
+          {
+            "id": "C",
+            "text": "Ineffective airway clearance"
+          },
+          {
+            "id": "D",
+            "text": "Impaired physical mobility"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Impaired verbal communication relates to dysarthria and reduced respiratory support for speech. Airway clearance, mobility, and caregiver diagnoses require different findings."
+      },
+      {
+        "id": "ALS-ND-02",
+        "type": "mcq",
+        "prompt": "A client with ALS has an elevated PaCO₂ on blood gases. Which nursing diagnosis do these findings support?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Impaired skin integrity"
+          },
+          {
+            "id": "B",
+            "text": "Impaired gas exchange"
+          },
+          {
+            "id": "C",
+            "text": "Impaired physical mobility"
+          },
+          {
+            "id": "D",
+            "text": "Inadequate nutritional intake"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Impaired gas exchange is used when findings such as abnormal gas exchange/CO₂ retention support it. Skin, nutrition, and mobility diagnoses need other findings."
+      }
+    ],
+    "priorities": [
+      {
+        "id": "ALS-PR-01",
+        "type": "mcq",
+        "prompt": "A dyspneic client with ALS has low oxygen saturation. Which nursing principle applies to oxygen use?",
+        "options": [
+          {
+            "id": "A",
+            "text": "High-flow oxygen should replace NIV for now"
+          },
+          {
+            "id": "B",
+            "text": "Oxygen alone can correct weak ventilation"
+          },
+          {
+            "id": "C",
+            "text": "Oxygen is contraindicated for clients with ALS"
+          },
+          {
+            "id": "D",
+            "text": "Oxygen alone can mask or worsen CO₂ retention"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Oxygen alone does not treat weak ventilation and may mask or worsen CO₂ retention; it is given for hypoxemia per plan while ventilation and CO₂ are urgently addressed. It is not contraindicated, and it does not replace NIV."
+      },
+      {
+        "id": "ALS-PR-02",
+        "type": "mcq",
+        "prompt": "A client with ALS is choking and in acute respiratory distress. What should the nurse do first?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Document the episode and reassess"
+          },
+          {
+            "id": "B",
+            "text": "Offer sips of water to clear it"
+          },
+          {
+            "id": "C",
+            "text": "Activate the emergency response"
+          },
+          {
+            "id": "D",
+            "text": "Obtain an FVC measurement first"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "With acute distress or choking, activate the emergency response promptly; do not delay escalation waiting for an FVC test."
+      }
+    ],
+    "plan": [
+      {
+        "id": "ALS-PL-01",
+        "type": "mcq",
+        "prompt": "Which outcome is most realistic for the plan of care of a client with progressive ALS?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Strength returns to the pre-illness level"
+          },
+          {
+            "id": "B",
+            "text": "The disease is cured with combined therapy"
+          },
+          {
+            "id": "C",
+            "text": "The client’s need for support decreases"
+          },
+          {
+            "id": "D",
+            "text": "Participation and comfort are preserved"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Because ALS is progressive, success may mean preserved participation, effective support, and comfort. Restored strength or cure is not a realistic outcome, and support needs grow over time."
+      },
+      {
+        "id": "ALS-PL-02",
+        "type": "mcq",
+        "prompt": "Which communication goal is most appropriate for a client with ALS whose speech is declining?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Avoid devices until speech is fully lost"
+          },
+          {
+            "id": "B",
+            "text": "Communicate needs through a family member"
+          },
+          {
+            "id": "C",
+            "text": "Express needs reliably with a backup method"
+          },
+          {
+            "id": "D",
+            "text": "Rely on speech alone as long as possible"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "The goal is to express needs, preferences, and decisions through a reliable method with a backup; waiting until speech is lost delays effective tools."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "ALS-IN-01",
+        "type": "mcq",
+        "prompt": "A new nurse plans to turn a client with ALS exactly every 2 hours. Which guidance is best?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Repositioning is rarely needed in ALS care"
+          },
+          {
+            "id": "B",
+            "text": "Reposition the client once daily at most"
+          },
+          {
+            "id": "C",
+            "text": "A fixed interval is the rule for each client"
+          },
+          {
+            "id": "D",
+            "text": "Base turning on skin risk, surface, and comfort"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "A 2-hour interval may be used in a plan but is not a universal rule; reposition according to skin risk, support surface, comfort, tolerance, and goals. Reduced mobility in ALS increases the need for repositioning, not the reverse."
+      },
+      {
+        "id": "ALS-IN-02",
+        "type": "mcq",
+        "prompt": "Which exercise approach should the nurse include for a client with ALS?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Complete bed rest to conserve the client’s energy"
+          },
+          {
+            "id": "B",
+            "text": "Strengthen weak muscles to the point of fatigue"
+          },
+          {
+            "id": "C",
+            "text": "Progressive heavy resistance training each day"
+          },
+          {
+            "id": "D",
+            "text": "Gentle daily ROM, stretching, and supported activity"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Use gentle daily ROM/stretching and supported activity rather than exercising weak muscles to exhaustion; bed rest leads to contractures and skin problems."
+      }
+    ],
+    "education": [
+      {
+        "id": "ALS-ED-01",
+        "type": "mcq",
+        "prompt": "Which caregiver statement shows understanding of respiratory teaching for a client with ALS?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Normal oxygen readings mean breathing is fine.”"
+          },
+          {
+            "id": "B",
+            "text": "“Morning headaches could mean worse breathing.”"
+          },
+          {
+            "id": "C",
+            "text": "“We don’t need a plan for power failures.”"
+          },
+          {
+            "id": "D",
+            "text": "“A weak cough is expected and not reportable.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Teach recognition of worsening breathing, including morning headaches and daytime sleepiness; normal SpO₂ is not enough reassurance, and power-failure backup is needed."
+      },
+      {
+        "id": "ALS-ED-02",
+        "type": "mcq",
+        "prompt": "Which finding should a client taking riluzole be taught to report promptly?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Yellowing of the skin or eyes"
+          },
+          {
+            "id": "B",
+            "text": "A slight increase in appetite"
+          },
+          {
+            "id": "C",
+            "text": "Mild tiredness after activity"
+          },
+          {
+            "id": "D",
+            "text": "Better sleep during the night"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Report jaundice, fever/sore throat, severe allergic symptoms, marked sedation/weakness, or new neurological symptoms. Mild fatigue or better sleep is not urgent."
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "ALS-EV-01",
+        "type": "mcq",
+        "prompt": "A client with ALS has a normal SpO₂ on room air. How should the nurse evaluate ventilation?",
+        "options": [
+          {
+            "id": "A",
+            "text": "SpO₂ should be kept as high as possible"
+          },
+          {
+            "id": "B",
+            "text": "A normal SpO₂ proves ventilation is adequate"
+          },
+          {
+            "id": "C",
+            "text": "SpO₂ alone doesn’t prove adequate ventilation"
+          },
+          {
+            "id": "D",
+            "text": "SpO₂ readings are not useful in ALS care"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Use an individualized oxygen target; a normal SpO₂ alone is not proof of adequate ventilation, so CO₂ and symptoms are also assessed. SpO₂ is still useful, and pushing it as high as possible is not the goal."
+      },
+      {
+        "id": "ALS-EV-02",
+        "type": "mcq",
+        "prompt": "Which finding shows the communication outcome is met for a client with ALS?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Has stopped trying to communicate with staff"
+          },
+          {
+            "id": "B",
+            "text": "A family member answers questions for the client"
+          },
+          {
+            "id": "C",
+            "text": "Communication has not been reassessed lately"
+          },
+          {
+            "id": "D",
+            "text": "Reliably communicates needs and calls for help"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "The client communicates needs and decisions reliably using a device or low-tech method and can access help. Family speaking for the client or no reassessment does not meet the goal."
+      }
+    ]
+  }
+}

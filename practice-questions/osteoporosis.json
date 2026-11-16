@@ -1,0 +1,1265 @@
+{
+  "id": "osteoporosis",
+  "sections": {
+    "overview": [
+      {
+        "id": "OP-OV-01",
+        "type": "mcq",
+        "prompt": "A client asks what happens to bone in osteoporosis. Which explanation is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Bone formation outpaces resorption, thickening bone"
+          },
+          {
+            "id": "B",
+            "text": "Synovial inflammation erodes the outer bone surfaces"
+          },
+          {
+            "id": "C",
+            "text": "Uric acid crystals weaken the internal bone structure"
+          },
+          {
+            "id": "D",
+            "text": "Resorption exceeds replacement, or formation lags"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "In osteoporosis, remodeling becomes imbalanced: resorption exceeds replacement or formation is inadequate. Crystals describe gout and synovial erosion describes RA."
+      },
+      {
+        "id": "OP-OV-02",
+        "type": "mcq",
+        "prompt": "An older postmenopausal client with no other illnesses is diagnosed with osteoporosis. What is this most commonly associated with?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Primary hyperparathyroidism alone"
+          },
+          {
+            "id": "B",
+            "text": "Long-term systemic glucocorticoid use"
+          },
+          {
+            "id": "C",
+            "text": "Celiac disease and malabsorption"
+          },
+          {
+            "id": "D",
+            "text": "Aging and estrogen loss in menopause"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Primary osteoporosis commonly accompanies aging and estrogen loss after menopause. Steroids, hyperparathyroidism, and malabsorption are secondary causes."
+      },
+      {
+        "id": "OP-OV-03",
+        "type": "mcq",
+        "prompt": "A client prescribed alendronate says, “I’ll just take calcium and vitamin D instead.” What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“That works just as well as alendronate.”"
+          },
+          {
+            "id": "B",
+            "text": "“Calcium alone will rebuild the lost bone.”"
+          },
+          {
+            "id": "C",
+            "text": "“They support treatment but don’t replace it.”"
+          },
+          {
+            "id": "D",
+            "text": "“Vitamin D replaces the need for medicine.”"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Calcium and vitamin D support treatment; they do not replace fracture-prevention medicine when it is indicated."
+      }
+    ],
+    "manifestations": [
+      {
+        "id": "OP-CM-01",
+        "type": "mcq",
+        "prompt": "A client with a T-score in the osteoporosis range asks why she had no symptoms before the DXA. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Osteoporosis typically causes early bone pain.”"
+          },
+          {
+            "id": "B",
+            "text": "“Pain usually begins well before the scan finding.”"
+          },
+          {
+            "id": "C",
+            "text": "“Your lack of symptoms means the scan was wrong.”"
+          },
+          {
+            "id": "D",
+            "text": "“Low bone density itself usually causes no pain.”"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Low BMD itself usually causes no pain or early physical discomfort; osteoporosis is often silent until a fracture. Having no symptoms does not mean the scan was wrong."
+      },
+      {
+        "id": "OP-CM-02",
+        "type": "sata",
+        "prompt": "A client with osteoporosis may have vertebral compression fractures. Which findings should the nurse assess for? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Prolonged morning stiffness"
+          },
+          {
+            "id": "B",
+            "text": "Sudden or ongoing back pain"
+          },
+          {
+            "id": "C",
+            "text": "Paraspinal muscle spasm"
+          },
+          {
+            "id": "D",
+            "text": "Loss of measured height"
+          },
+          {
+            "id": "E",
+            "text": "Increasing thoracic kyphosis"
+          }
+        ],
+        "correct": [
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "rationale": "Vertebral compression fractures may cause back pain, muscle spasm, height loss, and increasing kyphosis. Prolonged morning stiffness suggests inflammatory arthritis."
+      },
+      {
+        "id": "OP-CM-03",
+        "type": "mcq",
+        "prompt": "An older client with osteoporosis fell from standing height. Which finding most suggests a hip fracture?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Wrist swelling from breaking the fall"
+          },
+          {
+            "id": "B",
+            "text": "Brief stiffness that eases within minutes"
+          },
+          {
+            "id": "C",
+            "text": "Mild knee ache that improves with walking"
+          },
+          {
+            "id": "D",
+            "text": "Groin pain with a shortened, rotated leg"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Hip fractures can cause hip/groin pain, inability to bear weight, and a shortened or externally rotated leg. The other findings do not suggest hip fracture."
+      }
+    ],
+    "risk": [
+      {
+        "id": "OP-RF-01",
+        "type": "mcq",
+        "prompt": "A client has taken prednisone 10 mg daily for 2 years. Why does this increase osteoporosis risk?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It reduces formation and increases resorption"
+          },
+          {
+            "id": "B",
+            "text": "It increases calcium absorption from the gut"
+          },
+          {
+            "id": "C",
+            "text": "It speeds up the formation of new bone"
+          },
+          {
+            "id": "D",
+            "text": "It raises estrogen levels in the blood"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Long-term systemic glucocorticoids such as prednisone reduce bone formation and increase resorption. They do not increase formation or estrogen."
+      },
+      {
+        "id": "OP-RF-02",
+        "type": "mcq",
+        "prompt": "Per USPSTF, which client meets criteria for osteoporosis screening?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A premenopausal woman who has no risk factors"
+          },
+          {
+            "id": "B",
+            "text": "A middle-aged man with no added fracture risk"
+          },
+          {
+            "id": "C",
+            "text": "A young adult woman recovering from an ankle sprain"
+          },
+          {
+            "id": "D",
+            "text": "A postmenopausal woman with increased fracture risk"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "USPSTF recommends screening women 65 or older and postmenopausal women younger than 65 who have increased risk on clinical assessment. Premenopausal or young women without risk are not screening candidates, and evidence is insufficient for routine screening in men."
+      },
+      {
+        "id": "OP-RF-03",
+        "type": "mcq",
+        "prompt": "An older Black woman with a prior wrist fracture asks if she needs bone testing since “it mostly affects White women.” What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Fractures mainly happen in Asian and White women.”"
+          },
+          {
+            "id": "B",
+            "text": "“Race should not exclude you from assessment.”"
+          },
+          {
+            "id": "C",
+            "text": "“You don’t need testing because of your race.”"
+          },
+          {
+            "id": "D",
+            "text": "“Testing is meant for women who have back pain.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "People of every racial/ethnic group can fracture; do not use race to exclude assessment or needed treatment. A prior fragility fracture is a major risk factor."
+      },
+      {
+        "id": "OP-RF-04",
+        "type": "mcq",
+        "prompt": "A client with type 2 diabetes has a normal BMD. How should the nurse interpret fracture risk?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Fracture risk is minimal with normal BMD"
+          },
+          {
+            "id": "B",
+            "text": "Fall risk may matter less with normal BMD"
+          },
+          {
+            "id": "C",
+            "text": "Diabetes may lower the fracture risk"
+          },
+          {
+            "id": "D",
+            "text": "Fracture risk may still be increased"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Type 2 diabetes can increase fracture risk despite normal or higher BMD, so falls and other risks still matter. Normal BMD does not make risk minimal, and diabetes does not lower it."
+      }
+    ],
+    "diagnostics": [
+      {
+        "id": "OP-DX-01",
+        "type": "mcq",
+        "prompt": "A DXA report shows a client’s hip T-score falls in the osteoporosis range. What does a T-score compare?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Bone density against a young-adult reference"
+          },
+          {
+            "id": "B",
+            "text": "Blood calcium against the normal lab range"
+          },
+          {
+            "id": "C",
+            "text": "Fracture probability over the coming decade"
+          },
+          {
+            "id": "D",
+            "text": "Bone density against people of the same age"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "The T-score compares BMD with a young-adult reference and is used for classification in postmenopausal women and men 50 or older (osteoporosis is a T-score ≤ −2.5). An age-matched comparison is the Z-score, fracture probability is FRAX, and blood calcium does not classify bone density."
+      },
+      {
+        "id": "OP-DX-02",
+        "type": "mcq",
+        "prompt": "A premenopausal woman in her thirties has a DXA scan. Which score should be used to interpret it?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A serum calcium"
+          },
+          {
+            "id": "B",
+            "text": "The Z-score"
+          },
+          {
+            "id": "C",
+            "text": "The T-score"
+          },
+          {
+            "id": "D",
+            "text": "The FRAX result"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "The Z-score (age-matched) is preferred in premenopausal women and younger men; T-score labels apply to postmenopausal women and older men. FRAX estimates fracture probability, and serum calcium does not interpret a DXA."
+      },
+      {
+        "id": "OP-DX-03",
+        "type": "mcq",
+        "prompt": "A client scheduled for DXA takes calcium supplements. Why does the nurse commonly instruct the client to hold them before the scan?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Calcium may raise bone density right away"
+          },
+          {
+            "id": "B",
+            "text": "Residual tablets may cause image artifact"
+          },
+          {
+            "id": "C",
+            "text": "Calcium may cause nausea during the scan"
+          },
+          {
+            "id": "D",
+            "text": "Calcium may interact with the scan radiation"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Calcium supplements are commonly withheld because residual tablets can create image artifact. They do not instantly raise bone density, interact with radiation, or cause scan-related nausea."
+      },
+      {
+        "id": "OP-DX-04",
+        "type": "mcq",
+        "prompt": "A client asks what their FRAX result tells them. Which explanation is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "How well recent treatment has worked"
+          },
+          {
+            "id": "B",
+            "text": "A blood-test measure of active bone loss"
+          },
+          {
+            "id": "C",
+            "text": "Their chance of a hip or major fracture"
+          },
+          {
+            "id": "D",
+            "text": "Their exact current bone mineral density"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "FRAX estimates the 10-year probability of hip and major osteoporotic fracture. It is not a direct BMD measurement, a serial treatment-response test, or a blood test."
+      }
+    ],
+    "medical": [
+      {
+        "id": "OP-MM-01",
+        "type": "mcq",
+        "prompt": "A client on denosumab wants to stop because she feels fine. Why is a prescriber-led plan essential?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Stopping can cause rebound bone loss and fractures"
+          },
+          {
+            "id": "B",
+            "text": "Stopping can make bone density keep rising for years"
+          },
+          {
+            "id": "C",
+            "text": "Stopping can cause immediate severe hypercalcemia"
+          },
+          {
+            "id": "D",
+            "text": "Stopping can cause new inflammation in the joints"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "In adult osteoporosis, stopping denosumab without a follow-on plan can cause rebound increases in bone turnover, rapid bone-density loss, and multiple vertebral fractures. A prescriber-led transition, commonly to an appropriate antiresorptive, is needed; feeling well is not a reason to stop independently."
+      },
+      {
+        "id": "OP-MM-02",
+        "type": "mcq",
+        "prompt": "A client is finishing a course of teriparatide. What should the nurse anticipate next?",
+        "options": [
+          {
+            "id": "A",
+            "text": "No further treatment because bone is rebuilt"
+          },
+          {
+            "id": "B",
+            "text": "Calcium alone with no other medication"
+          },
+          {
+            "id": "C",
+            "text": "An antiresorptive to preserve the gains"
+          },
+          {
+            "id": "D",
+            "text": "Restarting teriparatide immediately for life"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Follow an anabolic course with an antiresorptive to preserve gains. Calcium alone does not replace indicated medication."
+      },
+      {
+        "id": "OP-MM-03",
+        "type": "mcq",
+        "prompt": "An older client is admitted with a fragility hip fracture. Beyond fracture repair, what should the team coordinate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Osteoporosis care to prevent the next fracture"
+          },
+          {
+            "id": "B",
+            "text": "A repeat DXA many years later before treating"
+          },
+          {
+            "id": "C",
+            "text": "Discharge as soon as the fracture is repaired"
+          },
+          {
+            "id": "D",
+            "text": "Pain control alone until the bone has fully healed"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Do not treat the fracture alone and overlook the next-fracture risk; coordinate osteoporosis evaluation and secondary prevention. Early discharge, pain control alone, or waiting years for a scan misses that risk."
+      }
+    ],
+    "medications": [
+      {
+        "id": "OP-PH-01",
+        "type": "mcq",
+        "prompt": "A client is starting immediate-release alendronate. Which instruction is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Take with plain water; stay upright ≥30 minutes and until after food"
+          },
+          {
+            "id": "B",
+            "text": "Take it at bedtime with a full glass of milk"
+          },
+          {
+            "id": "C",
+            "text": "Lie down and rest for a while right after taking it"
+          },
+          {
+            "id": "D",
+            "text": "Take it with breakfast and a glass of orange juice"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Take oral alendronate after rising with plain water, at least 30 minutes before the first food, drink, or other medicine. Remain upright for at least 30 minutes and until after the first food of the day. Bedtime dosing, milk/juice, or lying down soon after dosing is unsafe."
+      },
+      {
+        "id": "OP-PH-02",
+        "type": "mcq",
+        "prompt": "A client is prescribed delayed-release risedronate (Atelvia). How does its timing differ from standard oral bisphosphonates?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Taken with milk before food"
+          },
+          {
+            "id": "B",
+            "text": "Taken lying down after dinner"
+          },
+          {
+            "id": "C",
+            "text": "Taken immediately after breakfast"
+          },
+          {
+            "id": "D",
+            "text": "Taken at bedtime on an empty stomach"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Delayed-release risedronate is taken immediately after breakfast with plain water, remaining upright. Standard products are taken before food."
+      },
+      {
+        "id": "OP-PH-03",
+        "type": "mcq",
+        "prompt": "A client asks how denosumab (Prolia) for osteoporosis is given. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "As a subcutaneous injection at set intervals"
+          },
+          {
+            "id": "B",
+            "text": "As a daily injection from a pen used at home"
+          },
+          {
+            "id": "C",
+            "text": "As an intravenous infusion given once a year"
+          },
+          {
+            "id": "D",
+            "text": "As a weekly tablet taken with plain water"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Prolia is given as a subcutaneous injection at set intervals (every 6 months), so doses must stay on schedule. A yearly IV infusion describes zoledronic acid, a daily pen describes teriparatide, and a weekly tablet describes alendronate."
+      },
+      {
+        "id": "OP-PH-04",
+        "type": "mcq",
+        "prompt": "Before a client’s yearly zoledronic acid (Reclast) infusion, which finding should the nurse report?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Adequate oral fluid intake today"
+          },
+          {
+            "id": "B",
+            "text": "A vitamin D level within range"
+          },
+          {
+            "id": "C",
+            "text": "Creatinine clearance of 28 mL/min"
+          },
+          {
+            "id": "D",
+            "text": "Calcium within the normal range"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Reclast is contraindicated when creatinine clearance is below 35 mL/min or there is acute renal impairment. A creatinine clearance of 28 mL/min therefore requires reporting and clarification before infusion. Review renal function before each dose along with hydration and calcium status."
+      },
+      {
+        "id": "OP-PH-05",
+        "type": "mcq",
+        "prompt": "A client using a Forteo (teriparatide) pen asks how to store it. Which teaching is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Store it at room temperature for months"
+          },
+          {
+            "id": "B",
+            "text": "Keep it refrigerated and do not freeze it"
+          },
+          {
+            "id": "C",
+            "text": "Keep using the pen until it is fully empty"
+          },
+          {
+            "id": "D",
+            "text": "Freeze the pen between doses to stay stable"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "For the Forteo device, refrigerate (2–8°C), do not freeze, and discard a set time after first use (28 days). Long room-temperature storage, freezing, or using the pen until it is empty are incorrect."
+      }
+    ],
+    "nonpharmacological": [
+      {
+        "id": "OP-NP-01",
+        "type": "mcq",
+        "prompt": "A client with osteoporosis swims daily and asks if that is enough for bone health. What should the nurse advise?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cycling can take the place of strength work"
+          },
+          {
+            "id": "B",
+            "text": "Add weight-bearing and resistance exercise"
+          },
+          {
+            "id": "C",
+            "text": "Swimming loads the bones enough on its own"
+          },
+          {
+            "id": "D",
+            "text": "Stop exercising to help prevent fractures"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Swimming and cycling help general fitness but do not replace weight-bearing/resistance work for bone loading. Inactivity worsens weakness and falls."
+      },
+      {
+        "id": "OP-NP-02",
+        "type": "mcq",
+        "prompt": "A client with vertebral fractures needs to lift a laundry basket. Which technique should the nurse teach?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hip hinging with a straight back"
+          },
+          {
+            "id": "B",
+            "text": "Twisting while lifting from the floor"
+          },
+          {
+            "id": "C",
+            "text": "Lifting quickly to limit strain time"
+          },
+          {
+            "id": "D",
+            "text": "Bending forward with a rounded back"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Use hip hinging and safe handling rather than deep rounded-back bends; loaded spinal flexion and twisting are avoided."
+      },
+      {
+        "id": "OP-NP-03",
+        "type": "sata",
+        "prompt": "A client with osteoporosis lives alone. Which home fall-prevention measures should the nurse recommend? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Polish floors to a high shine"
+          },
+          {
+            "id": "B",
+            "text": "Install bathroom grab bars"
+          },
+          {
+            "id": "C",
+            "text": "Keep items on high shelves"
+          },
+          {
+            "id": "D",
+            "text": "Use nightlights along the path"
+          },
+          {
+            "id": "E",
+            "text": "Remove loose rugs and clutter"
+          }
+        ],
+        "correct": [
+          "B",
+          "D",
+          "E"
+        ],
+        "rationale": "Remove loose rugs and clutter, improve lighting with nightlights, and install grab bars and stair handrails. Shiny polished floors increase slipping, and high shelves encourage reaching and climbing."
+      }
+    ],
+    "adverse-effects": [
+      {
+        "id": "OP-AE-01",
+        "type": "mcq",
+        "prompt": "A client taking alendronate reports painful swallowing and new heartburn. What is the nurse’s best action?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Switch to taking it at bedtime"
+          },
+          {
+            "id": "B",
+            "text": "Take the next dose with less water"
+          },
+          {
+            "id": "C",
+            "text": "Stop the dose and seek medical advice"
+          },
+          {
+            "id": "D",
+            "text": "Lie down after each dose to rest"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Significant esophageal symptoms require stopping the oral dose and seeking medical advice under the label. Less water, bedtime dosing, or lying down worsen irritation."
+      },
+      {
+        "id": "OP-AE-02",
+        "type": "mcq",
+        "prompt": "A client with CKD received denosumab 2 weeks ago. Which report suggests hypocalcemia?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tingling near the mouth and muscle cramps"
+          },
+          {
+            "id": "B",
+            "text": "Flu-like aches the day after the dose"
+          },
+          {
+            "id": "C",
+            "text": "Increased thirst and frequent urination"
+          },
+          {
+            "id": "D",
+            "text": "Constipation and painful kidney stones"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Tingling around the mouth/fingers and cramps or spasms suggest hypocalcemia; advanced CKD greatly increases risk. Thirst, constipation, and stones suggest high calcium."
+      },
+      {
+        "id": "OP-AE-03",
+        "type": "mcq",
+        "prompt": "A client on long-term alendronate reports new aching thigh pain for 3 weeks. What should the nurse do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Reassure that this is normal muscle strain"
+          },
+          {
+            "id": "B",
+            "text": "Advise more weight-bearing exercise daily"
+          },
+          {
+            "id": "C",
+            "text": "Arrange evaluation for an atypical fracture"
+          },
+          {
+            "id": "D",
+            "text": "Increase the alendronate dose for now"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Persistent new thigh/groin pain during antiresorptive treatment needs evaluation for atypical femur fracture. Dismissing it or increasing load could worsen injury."
+      }
+    ],
+    "nutrition": [
+      {
+        "id": "OP-NU-01",
+        "type": "mcq",
+        "prompt": "A postmenopausal woman asks how to meet her daily calcium needs. Which advice is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Skip calcium as long as vitamin D is adequate"
+          },
+          {
+            "id": "B",
+            "text": "Use food first and supplement the shortfall"
+          },
+          {
+            "id": "C",
+            "text": "Aim for the higher adolescent intake target"
+          },
+          {
+            "id": "D",
+            "text": "Use supplements first and limit dairy foods"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Total intake counts food plus supplements: food is preferred, and supplements cover the shortfall (the US target is 1,200 mg/day for women 51 or older). Supplements are not preferred over food, the adolescent target is not the adult goal, and vitamin D supports absorption rather than replacing calcium."
+      },
+      {
+        "id": "OP-NU-02",
+        "type": "mcq",
+        "prompt": "A client needs supplemental calcium and also takes oral alendronate. Which plan is best?",
+        "options": [
+          {
+            "id": "A",
+            "text": "One large dose taken alone at bedtime"
+          },
+          {
+            "id": "B",
+            "text": "Small doses taken with the alendronate"
+          },
+          {
+            "id": "C",
+            "text": "One large dose taken with the alendronate"
+          },
+          {
+            "id": "D",
+            "text": "Divided doses, spaced from alendronate"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Calcium supplements are absorbed best in elemental-calcium doses of 500 mg or less, so divide a larger prescribed supplemental total rather than taking it all at once. Calcium also interferes with oral alendronate absorption and should be taken separately according to the product instructions. The 500-mg guidance is an absorption strategy, not a universal toxicity threshold."
+      },
+      {
+        "id": "OP-NU-03",
+        "type": "mcq",
+        "prompt": "A client takes calcium carbonate on an empty stomach. Which teaching is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Take the supplement with a meal"
+          },
+          {
+            "id": "B",
+            "text": "Take it together with the bisphosphonate"
+          },
+          {
+            "id": "C",
+            "text": "Keep taking it on an empty stomach"
+          },
+          {
+            "id": "D",
+            "text": "Switch to taking it with morning coffee"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Calcium carbonate is best with food; calcium citrate can be taken with or without food. It must be spaced from oral bisphosphonates."
+      }
+    ],
+    "assessment": [
+      {
+        "id": "OP-AS-01",
+        "type": "mcq",
+        "prompt": "Before giving the first dose of oral alendronate, which assessment is most important?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Usual dietary iron intake each day"
+          },
+          {
+            "id": "B",
+            "text": "Date of the most recent eye exam"
+          },
+          {
+            "id": "C",
+            "text": "Ability to swallow and remain upright"
+          },
+          {
+            "id": "D",
+            "text": "Most recent hearing test results"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Check ability to swallow and remain upright before an oral bisphosphonate; oral products are contraindicated with inability to stay upright or delayed esophageal emptying."
+      },
+      {
+        "id": "OP-AS-02",
+        "type": "mcq",
+        "prompt": "A client with osteoporosis has new back pain and reports numbness in the saddle area. What is the nurse’s priority?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Arrange emergency evaluation"
+          },
+          {
+            "id": "B",
+            "text": "Give an analgesic and reassess"
+          },
+          {
+            "id": "C",
+            "text": "Schedule a follow-up DXA scan"
+          },
+          {
+            "id": "D",
+            "text": "Encourage walking to ease pain"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "New weakness, saddle sensory changes, or new bladder/bowel dysfunction with back pain requires emergency evaluation for spinal compromise. Analgesia, walking, or a routine DXA would delay emergency care."
+      }
+    ],
+    "diagnoses": [
+      {
+        "id": "OP-ND-01",
+        "type": "mcq",
+        "prompt": "A client with a T-score in the osteoporosis range has no pain and walks normally. Which statement about nursing diagnoses is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Low BMD alone does not establish pain"
+          },
+          {
+            "id": "B",
+            "text": "Acute pain applies due to the low BMD"
+          },
+          {
+            "id": "C",
+            "text": "Impaired mobility follows automatically"
+          },
+          {
+            "id": "D",
+            "text": "Low BMD proves a fracture is present"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Low BMD alone does not establish pain or impaired mobility; actual diagnoses need supporting findings."
+      },
+      {
+        "id": "OP-ND-02",
+        "type": "mcq",
+        "prompt": "A client with osteoporosis takes a sedative, has poor balance, and loose rugs at home. Which nursing diagnosis is best supported?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Fluid volume excess"
+          },
+          {
+            "id": "B",
+            "text": "Risk for falls/injury"
+          },
+          {
+            "id": "C",
+            "text": "Risk for bleeding"
+          },
+          {
+            "id": "D",
+            "text": "Impaired swallowing"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Risk for falls/physical injury relates to low bone strength, balance problems, medicines, or environmental hazards. The others are not supported."
+      }
+    ],
+    "priorities": [
+      {
+        "id": "OP-PR-01",
+        "type": "mcq",
+        "prompt": "A client with osteoporosis falls in the hallway and reports hip pain. What is the nurse’s first action?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Assess ABCs, injury, and neurovascular status"
+          },
+          {
+            "id": "B",
+            "text": "Give calcium and vitamin D right away"
+          },
+          {
+            "id": "C",
+            "text": "Walk the client back to bed to rest"
+          },
+          {
+            "id": "D",
+            "text": "Help the client stand to test weight bearing"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "After a fall or suspected fracture, assess ABCs, injury/pain, neurovascular findings, and spinal compromise; avoid forcing weight bearing."
+      },
+      {
+        "id": "OP-PR-02",
+        "type": "mcq",
+        "prompt": "A client’s denosumab dose is due next week, but she has no transport. What is the nurse’s priority?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Switch her to calcium and vitamin D alone"
+          },
+          {
+            "id": "B",
+            "text": "Let her skip this dose and pick up again later"
+          },
+          {
+            "id": "C",
+            "text": "Escalate the barrier so the dose stays on time"
+          },
+          {
+            "id": "D",
+            "text": "Tell her she can stop the denosumab for good"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Keep denosumab doses on track and escalate barriers early, because an unplanned interruption risks rebound bone loss and vertebral fractures. Skipping, stopping, or switching to calcium alone is unsafe."
+      }
+    ],
+    "plan": [
+      {
+        "id": "OP-PL-01",
+        "type": "mcq",
+        "prompt": "Which goal statement best fits the first priority in an osteoporosis plan of care?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Avoidance of daily activity to stay safe"
+          },
+          {
+            "id": "B",
+            "text": "No new fragility fracture or preventable fall"
+          },
+          {
+            "id": "C",
+            "text": "Taking calcium supplements three times daily"
+          },
+          {
+            "id": "D",
+            "text": "A normal T-score within a few months"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "An appropriate first-priority goal is no new fragility fracture or preventable fall, with safe transfers. A normal T-score is not a short-term goal, inactivity increases falls, and supplement timing is not the priority outcome."
+      },
+      {
+        "id": "OP-PL-02",
+        "type": "mcq",
+        "prompt": "How should the nurse evaluate the medication-safety goal for a client on denosumab?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Check that a DXA was done weekly"
+          },
+          {
+            "id": "B",
+            "text": "Confirm calcium was stopped"
+          },
+          {
+            "id": "C",
+            "text": "Confirm no unplanned dose gap"
+          },
+          {
+            "id": "D",
+            "text": "Ensure the client skipped labs"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Use teach-back and appointment/dispensing review to confirm no unplanned denosumab gap or unmanaged adverse effect. Weekly DXA is not used, and stopping calcium or skipping labs is unsafe."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "OP-IN-01",
+        "type": "mcq",
+        "prompt": "Which intervention best supports adherence to 6-monthly denosumab?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A dose and appointment reminder system"
+          },
+          {
+            "id": "B",
+            "text": "Giving doses when the DXA worsens"
+          },
+          {
+            "id": "C",
+            "text": "Waiting until symptoms prompt a dose"
+          },
+          {
+            "id": "D",
+            "text": "Telling the client to remember the date"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Use a dose/appointment reminder system, particularly for 6-monthly denosumab, and notify the team early about missed doses. Relying on memory or symptoms risks an unplanned gap."
+      },
+      {
+        "id": "OP-IN-02",
+        "type": "mcq",
+        "prompt": "After a vertebral fracture, which mobility approach is best?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Keeping still until the pain is fully gone"
+          },
+          {
+            "id": "B",
+            "text": "Early safe rehabilitation per the injury plan"
+          },
+          {
+            "id": "C",
+            "text": "Strict bed rest for the next several weeks"
+          },
+          {
+            "id": "D",
+            "text": "Unrestricted lifting to build back strength"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Provide analgesia and early safe rehabilitation according to the injury plan; prolonged bed rest worsens weakness."
+      }
+    ],
+    "education": [
+      {
+        "id": "OP-ED-01",
+        "type": "mcq",
+        "prompt": "A client says, “My scan improved, so I’m cured.” What is the main teaching point?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The T-score is the main measure of your success"
+          },
+          {
+            "id": "B",
+            "text": "A better scan means the treatment can now stop"
+          },
+          {
+            "id": "C",
+            "text": "Fracture risk ends once the scan has improved"
+          },
+          {
+            "id": "D",
+            "text": "The aim is fewer fractures, not a better number"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "The main goal is fewer fractures, not only a better scan number. Stopping treatment independently is unsafe."
+      },
+      {
+        "id": "OP-ED-02",
+        "type": "mcq",
+        "prompt": "A client on alendronate is scheduled for a tooth extraction. What should the nurse teach?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Avoid dental care while you are taking it"
+          },
+          {
+            "id": "B",
+            "text": "Double the dose after the extraction heals"
+          },
+          {
+            "id": "C",
+            "text": "Tell the dentist and prescriber about it"
+          },
+          {
+            "id": "D",
+            "text": "Stop alendronate without telling anyone"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Tell the dentist and prescriber about antiresorptive treatment and report jaw or nonhealing mouth problems. Stopping independently is unsafe."
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "OP-EV-01",
+        "type": "mcq",
+        "prompt": "A client started alendronate a few months ago and asks when the next DXA will be. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Scans are repeated monthly to track progress"
+          },
+          {
+            "id": "B",
+            "text": "Scans are repeated once a new fracture occurs"
+          },
+          {
+            "id": "C",
+            "text": "Repeat scans are spaced out and individualized"
+          },
+          {
+            "id": "D",
+            "text": "Scans stop once treatment has been started"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Repeat DXA is often considered 1–2 years after starting or changing therapy and is individualized thereafter. Monthly scans cannot detect meaningful change, waiting for a fracture defeats prevention, and monitoring continues during treatment."
+      },
+      {
+        "id": "OP-EV-02",
+        "type": "mcq",
+        "prompt": "A client’s T-score has improved slightly and is now just outside the range used for diagnosis. How should the nurse interpret this?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The disease is cured; stop treatment"
+          },
+          {
+            "id": "B",
+            "text": "Fracture risk has now been eliminated"
+          },
+          {
+            "id": "C",
+            "text": "The underlying disease is not cured"
+          },
+          {
+            "id": "D",
+            "text": "The client now has normal bone density"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "A T-score rising above −2.5 does not automatically mean osteoporosis is cured, and a small change may be measurement variation. It does not mean normal density, zero risk, or a reason to stop treatment."
+      }
+    ]
+  }
+}

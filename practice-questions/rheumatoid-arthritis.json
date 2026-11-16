@@ -1,0 +1,1232 @@
+{
+  "id": "rheumatoid-arthritis",
+  "sections": {
+    "overview": [
+      {
+        "id": "RA-OV-01",
+        "type": "mcq",
+        "prompt": "A client newly diagnosed with rheumatoid arthritis asks which tissue the disease mainly attacks. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The bone marrow of long bones"
+          },
+          {
+            "id": "B",
+            "text": "The tendons around the shoulders"
+          },
+          {
+            "id": "C",
+            "text": "The cartilage of weight-bearing joints"
+          },
+          {
+            "id": "D",
+            "text": "The synovial lining of the joints"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "RA is a systemic autoimmune disease that primarily affects synovial joints; persistent synovitis then damages cartilage, bone, and supporting tissues. It does not mainly target weight-bearing cartilage, bone marrow, or shoulder tendons."
+      },
+      {
+        "id": "RA-OV-02",
+        "type": "mcq",
+        "prompt": "A client asks how RA causes joint erosion. Which explanation is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Mechanical wear slowly thins cartilage over decades"
+          },
+          {
+            "id": "B",
+            "text": "Inflamed synovium (pannus) erodes cartilage and bone"
+          },
+          {
+            "id": "C",
+            "text": "Bacteria invade the joint space and destroy bone"
+          },
+          {
+            "id": "D",
+            "text": "Uric acid crystals deposit and wear down cartilage"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Thickened inflammatory synovial tissue forms pannus, and enzymes and osteoclasts erode cartilage and bone. Crystals describe gout, wear describes OA, and infection describes septic arthritis."
+      },
+      {
+        "id": "RA-OV-03",
+        "type": "sata",
+        "prompt": "Which extra-articular manifestations can occur in RA? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rheumatoid skin nodules"
+          },
+          {
+            "id": "B",
+            "text": "Tophi on the ear helix"
+          },
+          {
+            "id": "C",
+            "text": "Scleritis of the eye"
+          },
+          {
+            "id": "D",
+            "text": "Pericarditis of the heart"
+          },
+          {
+            "id": "E",
+            "text": "Interstitial lung disease"
+          }
+        ],
+        "correct": [
+          "A",
+          "C",
+          "D",
+          "E"
+        ],
+        "rationale": "RA can affect lungs, heart, eyes (scleritis), vessels, and skin (nodules). Tophi are deposits seen in gout."
+      }
+    ],
+    "manifestations": [
+      {
+        "id": "RA-CM-01",
+        "type": "mcq",
+        "prompt": "Which morning-stiffness history most suggests inflammatory arthritis such as RA?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Stiffness that lasts a long time after waking"
+          },
+          {
+            "id": "B",
+            "text": "Stiffness that occurs in the evening hours"
+          },
+          {
+            "id": "C",
+            "text": "Stiffness that appears mainly after exercise"
+          },
+          {
+            "id": "D",
+            "text": "Stiffness that eases within a few minutes"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Prolonged stiffness after rest (often more than an hour in the morning) suggests inflammatory joint disease. Brief stiffness that eases quickly is more typical of OA, and stiffness tied to exercise or evenings is not the inflammatory pattern described."
+      },
+      {
+        "id": "RA-CM-02",
+        "type": "mcq",
+        "prompt": "When examining a client with typical RA, which joints does the nurse expect to be spared?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The radiocarpal (wrist) joints"
+          },
+          {
+            "id": "B",
+            "text": "Proximal interphalangeal (PIP) joints"
+          },
+          {
+            "id": "C",
+            "text": "Distal interphalangeal (DIP) joints"
+          },
+          {
+            "id": "D",
+            "text": "Metacarpophalangeal (MCP) joints"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "DIP joints are usually spared in typical RA. MCPs, PIPs, and wrists (plus MTPs) are common sites, so they are expected to be involved."
+      },
+      {
+        "id": "RA-CM-03",
+        "type": "mcq",
+        "prompt": "A client with long-standing RA has fingers with the PIP joint hyperextended and the DIP joint flexed. How is this documented?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ulnar drift deformity"
+          },
+          {
+            "id": "B",
+            "text": "Boutonnière deformity"
+          },
+          {
+            "id": "C",
+            "text": "Swan-neck deformity"
+          },
+          {
+            "id": "D",
+            "text": "Mallet finger deformity"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Swan-neck deformity is PIP hyperextension with DIP flexion; boutonnière is the reverse. Ulnar drift is deviation toward the little finger, and a mallet finger is DIP droop without PIP hyperextension."
+      },
+      {
+        "id": "RA-CM-04",
+        "type": "mcq",
+        "prompt": "A client with established RA reports neck pain and new tingling and weakness in both arms. What is the nurse’s best action?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Teach neck range-of-motion exercises at home"
+          },
+          {
+            "id": "B",
+            "text": "Arrange urgent evaluation of the cervical spine"
+          },
+          {
+            "id": "C",
+            "text": "Treat it as a routine flare with an NSAID dose"
+          },
+          {
+            "id": "D",
+            "text": "Apply moist heat and reassess at the next visit"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Cervical-spine disease can cause instability/myelopathy in established RA, so new neurological symptoms need prompt evaluation. Treating it as a routine flare or exercising the neck is unsafe."
+      }
+    ],
+    "risk": [
+      {
+        "id": "RA-RF-01",
+        "type": "mcq",
+        "prompt": "A client with anti-CCP-positive RA asks what they can change to improve outcomes. Which risk factor is most important to address?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Daily caffeine intake"
+          },
+          {
+            "id": "B",
+            "text": "Cigarette smoking"
+          },
+          {
+            "id": "C",
+            "text": "Cold weather exposure"
+          },
+          {
+            "id": "D",
+            "text": "A high-protein diet"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Smoking is an important modifiable risk, particularly for antibody-positive disease. The other factors are not listed RA risks."
+      },
+      {
+        "id": "RA-RF-02",
+        "type": "mcq",
+        "prompt": "A client has had persistent swollen finger joints for several weeks. When should a DMARD ideally be started if RA is confirmed?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Promptly, early in the course of the disease"
+          },
+          {
+            "id": "B",
+            "text": "After a long trial of NSAID therapy fails"
+          },
+          {
+            "id": "C",
+            "text": "After joint erosions appear on an X-ray"
+          },
+          {
+            "id": "D",
+            "text": "After a period of watchful observation"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Start a DMARD promptly once indicated, ideally early (within 3 months of persistent symptom onset). Waiting for erosions, failed NSAIDs, or a period of observation loses the window to prevent damage."
+      },
+      {
+        "id": "RA-RF-03",
+        "type": "mcq",
+        "prompt": "A client has persistent swelling of several small hand joints, but RF and anti-CCP are negative. What should the nurse anticipate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Repeat antibody tests in a year"
+          },
+          {
+            "id": "B",
+            "text": "Reassurance that RA is excluded"
+          },
+          {
+            "id": "C",
+            "text": "Prompt rheumatology referral"
+          },
+          {
+            "id": "D",
+            "text": "Referral once the ESR rises"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Persistent small-joint synovitis needs prompt rheumatology referral even with normal ESR/CRP or negative RF/anti-CCP. Seronegative RA exists, so reassurance, delayed retesting, or waiting for ESR to rise would delay treatment."
+      }
+    ],
+    "diagnostics": [
+      {
+        "id": "RA-DX-01",
+        "type": "mcq",
+        "prompt": "Which laboratory result is relatively specific for RA and may indicate higher erosive risk?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Antinuclear antibody (ANA)"
+          },
+          {
+            "id": "B",
+            "text": "Rheumatoid factor (RF)"
+          },
+          {
+            "id": "C",
+            "text": "Anti-CCP antibody (ACPA)"
+          },
+          {
+            "id": "D",
+            "text": "Sedimentation rate (ESR)"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Anti-CCP is relatively specific for RA and, at higher titers, can indicate greater erosive risk. RF is less specific, ANA is not RA-specific, and ESR is a general inflammation marker."
+      },
+      {
+        "id": "RA-DX-02",
+        "type": "mcq",
+        "prompt": "A client with classic RA findings has negative RF and anti-CCP. How should the nurse interpret this?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Negative results can rule out RA"
+          },
+          {
+            "id": "B",
+            "text": "Positive ANA is needed to confirm RA"
+          },
+          {
+            "id": "C",
+            "text": "The tests should be repeated weekly"
+          },
+          {
+            "id": "D",
+            "text": "Both can be negative in genuine RA"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Both RF and ACPA can be negative in genuine RA, so negative serology does not exclude it. ANA is not RA-specific, and weekly repeat testing is not indicated."
+      },
+      {
+        "id": "RA-DX-03",
+        "type": "mcq",
+        "prompt": "A client with RA has a hot, swollen knee, and synovial fluid shows an inflammatory WBC count. Which conclusion is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Infection is excluded by an inflammatory range"
+          },
+          {
+            "id": "B",
+            "text": "Crystals are unlikely with active RA"
+          },
+          {
+            "id": "C",
+            "text": "Septic arthritis and gout are not ruled out"
+          },
+          {
+            "id": "D",
+            "text": "The result confirms a routine RA flare"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "An inflammatory WBC range does not rule out septic arthritis or gout; Gram stain/culture and crystal analysis are needed, and they can coexist."
+      },
+      {
+        "id": "RA-DX-04",
+        "type": "mcq",
+        "prompt": "Before a client starts a TNF inhibitor for RA, which screening specifically addresses the risk of reactivating latent infection?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Thyroid function panel"
+          },
+          {
+            "id": "B",
+            "text": "TB and hepatitis B screening"
+          },
+          {
+            "id": "C",
+            "text": "Uric acid and kidney panel"
+          },
+          {
+            "id": "D",
+            "text": "Bone density (DEXA) scan"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Screen for TB and hepatitis B because TNF-inhibitor therapy can reactivate infection. Renal and other drug-specific safety tests may also be needed, but they do not substitute for this infectious-disease screening."
+      }
+    ],
+    "medical": [
+      {
+        "id": "RA-MM-01",
+        "type": "mcq",
+        "prompt": "A client with newly diagnosed active RA asks which medicine is usually started first to control the disease. Which is the common initial anchor DMARD?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tofacitinib"
+          },
+          {
+            "id": "B",
+            "text": "Methotrexate"
+          },
+          {
+            "id": "C",
+            "text": "Prednisone"
+          },
+          {
+            "id": "D",
+            "text": "Ibuprofen"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Methotrexate is commonly the initial anchor DMARD for active RA. NSAIDs and steroids relieve symptoms, and JAK inhibitors such as tofacitinib are used after an inadequate response."
+      },
+      {
+        "id": "RA-MM-02",
+        "type": "mcq",
+        "prompt": "A client has taken methotrexate for several months with little improvement. Per current EULAR guidance, what should happen?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Continue it unchanged for a full year"
+          },
+          {
+            "id": "B",
+            "text": "Stop DMARDs and switch to NSAIDs"
+          },
+          {
+            "id": "C",
+            "text": "The treatment should be adjusted"
+          },
+          {
+            "id": "D",
+            "text": "Wait until erosions are visible"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "EULAR calls for adjusting treatment when improvement is insufficient early (by about 3 months) or the target is not reached (by 6 months). Waiting longer, relying on NSAIDs, or waiting for erosions allows damage."
+      },
+      {
+        "id": "RA-MM-03",
+        "type": "mcq",
+        "prompt": "A client with RA says, “Ibuprofen controls my pain, so I don’t need methotrexate.” What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“NSAIDs ease pain but don’t prevent joint damage.”"
+          },
+          {
+            "id": "B",
+            "text": "“That’s right; NSAIDs stop the disease process.”"
+          },
+          {
+            "id": "C",
+            "text": "“NSAIDs work as well as methotrexate long term.”"
+          },
+          {
+            "id": "D",
+            "text": "“You can switch to NSAIDs once pain is gone.”"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "NSAIDs relieve pain/inflammation but do not replace DMARD protection against damage. The other responses wrongly suggest NSAIDs modify the disease."
+      }
+    ],
+    "medications": [
+      {
+        "id": "RA-PH-01",
+        "type": "mcq",
+        "prompt": "A client is starting methotrexate for RA. How should the nurse teach the dosing schedule?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Once weekly on the same day"
+          },
+          {
+            "id": "B",
+            "text": "On days with joint pain"
+          },
+          {
+            "id": "C",
+            "text": "Once daily with breakfast"
+          },
+          {
+            "id": "D",
+            "text": "Twice a day with meals"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Methotrexate for RA is taken once weekly; accidental daily dosing can be fatal. Daily or as-needed dosing is unsafe."
+      },
+      {
+        "id": "RA-PH-02",
+        "type": "mcq",
+        "prompt": "A client says they have been taking methotrexate every day this week. What is the nurse’s priority action?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Arrange urgent medical or poison-service review"
+          },
+          {
+            "id": "B",
+            "text": "Tell the client to skip next week’s dose instead"
+          },
+          {
+            "id": "C",
+            "text": "Advise extra folic acid and fluids at home"
+          },
+          {
+            "id": "D",
+            "text": "Recheck labs at the next routine clinic visit"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "If daily dosing is suspected, seek urgent medical/poison-service assessment rather than waiting; daily dosing can be fatal."
+      },
+      {
+        "id": "RA-PH-03",
+        "type": "mcq",
+        "prompt": "A client has started hydroxychloroquine. Which monitoring should the nurse make sure is arranged?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Baseline and ongoing bone marrow review"
+          },
+          {
+            "id": "B",
+            "text": "Baseline and ongoing hearing tests"
+          },
+          {
+            "id": "C",
+            "text": "Baseline and ongoing uric acid levels"
+          },
+          {
+            "id": "D",
+            "text": "Baseline and ongoing retinal screening"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Retinal toxicity can be irreversible, so baseline and ongoing retinal screening is needed. The other tests are not HCQ monitoring."
+      },
+      {
+        "id": "RA-PH-04",
+        "type": "mcq",
+        "prompt": "A client who took leflunomide now plans pregnancy. What may be required?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Doubling the folic acid dose for a week"
+          },
+          {
+            "id": "B",
+            "text": "No action, because it clears within days"
+          },
+          {
+            "id": "C",
+            "text": "Simply stopping the tablets the day before"
+          },
+          {
+            "id": "D",
+            "text": "A supervised drug-elimination procedure"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "The active metabolite persists a long time; pregnancy planning may require supervised elimination, commonly with cholestyramine (or activated charcoal). Stopping tablets does not immediately eliminate exposure."
+      },
+      {
+        "id": "RA-PH-05",
+        "type": "mcq",
+        "prompt": "A client is prescribed tofacitinib and asks if it is a biologic injection. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“It is an oral targeted synthetic DMARD.”"
+          },
+          {
+            "id": "B",
+            "text": "“It is an NSAID that relieves joint pain.”"
+          },
+          {
+            "id": "C",
+            "text": "“It is a biologic given as an IV infusion.”"
+          },
+          {
+            "id": "D",
+            "text": "“It is a TNF inhibitor given by injection.”"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Tofacitinib is an oral targeted synthetic (JAK) medicine, not a biologic or TNF blocker. It is not injected or infused, and it is a DMARD rather than an NSAID."
+      }
+    ],
+    "nonpharmacological": [
+      {
+        "id": "RA-NP-01",
+        "type": "mcq",
+        "prompt": "A client with RA has stiff hands every morning. Which comfort measure should the nurse suggest?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Forceful stretching of stiff joints"
+          },
+          {
+            "id": "B",
+            "text": "Moist warmth for morning stiffness"
+          },
+          {
+            "id": "C",
+            "text": "Complete rest until stiffness resolves"
+          },
+          {
+            "id": "D",
+            "text": "Ice packs on the hands each morning"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Moist warmth can help morning stiffness; wrapped cold is for a hot, swollen joint. Forcing painful joints or prolonged rest is avoided."
+      },
+      {
+        "id": "RA-NP-02",
+        "type": "mcq",
+        "prompt": "A client with RA is having a flare. Which activity advice is best?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Splint the joints continuously until it settles"
+          },
+          {
+            "id": "B",
+            "text": "Stay in bed until the flare has fully settled"
+          },
+          {
+            "id": "C",
+            "text": "Keep the usual exercise intensity to build strength"
+          },
+          {
+            "id": "D",
+            "text": "Modify loading and rest more, but avoid immobility"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "During a flare, modify loading and allow more rest without prolonged complete immobilization. Bed rest or continuous splinting worsens stiffness and deconditioning, and unchanged intensity overloads inflamed joints."
+      }
+    ],
+    "adverse-effects": [
+      {
+        "id": "RA-AE-01",
+        "type": "mcq",
+        "prompt": "A client on methotrexate develops a new dry cough and shortness of breath. What should the nurse do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Advise cough syrup and recheck in a month"
+          },
+          {
+            "id": "B",
+            "text": "Reassure that this is expected and harmless"
+          },
+          {
+            "id": "C",
+            "text": "Report promptly for possible pneumonitis or infection"
+          },
+          {
+            "id": "D",
+            "text": "Increase the methotrexate to control RA lung disease"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Methotrexate can cause pneumonitis or other lung toxicity, and new cough/dyspnea also raises infection or RA lung concerns. Reassurance, a higher dose, or waiting a month would delay evaluation."
+      },
+      {
+        "id": "RA-AE-02",
+        "type": "mcq",
+        "prompt": "A client taking adalimumab feels very unwell with chills but has a temperature of 37.2°C (99°F). How should the nurse interpret this?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Infection is ruled out by the temperature"
+          },
+          {
+            "id": "B",
+            "text": "The biologic should be doubled"
+          },
+          {
+            "id": "C",
+            "text": "Serious infection is still possible"
+          },
+          {
+            "id": "D",
+            "text": "This is an expected injection reaction"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Fever may be blunted on biologics, so an afebrile patient is not automatically infection-free. This is not an injection-site reaction, and the dose should never be increased by the nurse."
+      },
+      {
+        "id": "RA-AE-03",
+        "type": "mcq",
+        "prompt": "A client says, “I take my naproxen with milk, so I can’t get an ulcer.” What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“That’s right; milk can fully protect the stomach.”"
+          },
+          {
+            "id": "B",
+            "text": "“Ulcers mainly occur with COX-2 inhibitors.”"
+          },
+          {
+            "id": "C",
+            "text": "“Milk can ease upset but doesn’t prevent ulcers.”"
+          },
+          {
+            "id": "D",
+            "text": "“Taking it at bedtime would also prevent ulcers.”"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Food or milk may reduce stomach upset but does not prevent ulcers or bleeding. COX-2 agents reduce but do not eliminate GI risk, and dose timing does not prevent ulcers."
+      }
+    ],
+    "nutrition": [
+      {
+        "id": "RA-NU-01",
+        "type": "mcq",
+        "prompt": "A client with RA asks about diet. Which eating approach may support symptoms and heart health?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A diet used in place of DMARDs"
+          },
+          {
+            "id": "B",
+            "text": "A very low-fat, low-protein diet"
+          },
+          {
+            "id": "C",
+            "text": "A Mediterranean-style pattern"
+          },
+          {
+            "id": "D",
+            "text": "A strict grain-free elimination diet"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "A Mediterranean-style pattern may support symptoms and cardiometabolic health but does not replace DMARDs. Restrictive diets can compromise nutrition."
+      },
+      {
+        "id": "RA-NU-02",
+        "type": "mcq",
+        "prompt": "A client asks why folic acid is prescribed with methotrexate. What is the best explanation?",
+        "options": [
+          {
+            "id": "A",
+            "text": "To make daily methotrexate safe"
+          },
+          {
+            "id": "B",
+            "text": "To reduce methotrexate adverse effects"
+          },
+          {
+            "id": "C",
+            "text": "To strengthen methotrexate’s effect"
+          },
+          {
+            "id": "D",
+            "text": "To replace liver test monitoring"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Folic acid on the prescribed schedule reduces adverse effects; it does not eliminate marrow/liver risks or make daily methotrexate safe."
+      },
+      {
+        "id": "RA-NU-03",
+        "type": "mcq",
+        "prompt": "A client with RA has a low hemoglobin. Which approach should the nurse take?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Start iron supplements right away"
+          },
+          {
+            "id": "B",
+            "text": "Increase red meat intake to correct it"
+          },
+          {
+            "id": "C",
+            "text": "Ignore it as an expected part of RA"
+          },
+          {
+            "id": "D",
+            "text": "Investigate the cause before treating"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Investigate anemia rather than giving iron for all RA-related anemia, because inflammation and iron deficiency are different problems. Starting iron or diet changes without a cause, or ignoring it, is not appropriate."
+      }
+    ],
+    "assessment": [
+      {
+        "id": "RA-AS-01",
+        "type": "mcq",
+        "prompt": "When reviewing methotrexate safety with a client, which detail is most important to confirm?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The weekly dose day and the folate schedule"
+          },
+          {
+            "id": "B",
+            "text": "Which OTC vitamins the client has stopped"
+          },
+          {
+            "id": "C",
+            "text": "The time of day the client usually eats lunch"
+          },
+          {
+            "id": "D",
+            "text": "Whether it is taken with water or juice"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Confirm the once-weekly methotrexate day, actual dose, folate schedule, and missed or extra doses because accidental daily dosing can be fatal. Also reconcile OTC vitamins and supplements for potential interactions; the weekly dosing and folate plan remain the central safety detail in this question."
+      },
+      {
+        "id": "RA-AS-02",
+        "type": "mcq",
+        "prompt": "A client with RA and known cervical-spine instability is scheduled for surgery under general anesthesia. What should the nurse do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Document it in the nursing notes alone"
+          },
+          {
+            "id": "B",
+            "text": "Teach neck-strengthening exercises first"
+          },
+          {
+            "id": "C",
+            "text": "Alert the procedural team before the case"
+          },
+          {
+            "id": "D",
+            "text": "Hold the RA medicines without an order"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Alert the procedural and anesthesia teams to known instability because airway manipulation can be dangerous. Stopping medicines independently, teaching exercises, or documenting without telling the team does not protect the client."
+      }
+    ],
+    "diagnoses": [
+      {
+        "id": "RA-ND-01",
+        "type": "mcq",
+        "prompt": "A client with RA is taking methotrexate and a TNF inhibitor. Which nursing diagnosis is most directly supported by the medicines?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Risk for bleeding"
+          },
+          {
+            "id": "B",
+            "text": "Impaired swallowing"
+          },
+          {
+            "id": "C",
+            "text": "Risk for aspiration"
+          },
+          {
+            "id": "D",
+            "text": "Risk for infection"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Risk for infection relates to selected immunosuppressive therapy and individual risk factors. The other diagnoses are not supported by these medicines."
+      },
+      {
+        "id": "RA-ND-02",
+        "type": "mcq",
+        "prompt": "A client with RA misses lab appointments. The nurse learns the client cannot afford transport. Which approach to the learning-needs diagnosis is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Address cost and access barriers"
+          },
+          {
+            "id": "B",
+            "text": "Document it as nonadherence"
+          },
+          {
+            "id": "C",
+            "text": "Repeat the same teaching session"
+          },
+          {
+            "id": "D",
+            "text": "Label it as lack of knowledge"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Avoid assuming lack of knowledge when the real barrier is cost or disability; address practical barriers instead."
+      }
+    ],
+    "priorities": [
+      {
+        "id": "RA-PR-01",
+        "type": "mcq",
+        "prompt": "A client with RA presents with one very hot, swollen knee and a temperature of 38.6°C (101.5°F). What is the nurse’s first priority?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Give the next scheduled methotrexate dose"
+          },
+          {
+            "id": "B",
+            "text": "Treat it as a routine RA flare at home"
+          },
+          {
+            "id": "C",
+            "text": "Assess for a septic joint and escalate"
+          },
+          {
+            "id": "D",
+            "text": "Apply moist heat to the swollen knee"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "A very hot, swollen joint with fever in a client with RA needs urgent assessment for septic arthritis rather than an assumption of a routine flare. Check clinical stability and escalate for appropriate joint-fluid and infection evaluation. Routine comfort measures or administering the next immunosuppressant dose must not delay that assessment."
+      },
+      {
+        "id": "RA-PR-02",
+        "type": "mcq",
+        "prompt": "A client with early synovitis has negative antibodies and a normal hand X-ray. What should the nurse advocate for?",
+        "options": [
+          {
+            "id": "A",
+            "text": "NSAIDs alone and no referral"
+          },
+          {
+            "id": "B",
+            "text": "Repeat X-ray in one year"
+          },
+          {
+            "id": "C",
+            "text": "Waiting for erosions to appear"
+          },
+          {
+            "id": "D",
+            "text": "Prompt rheumatology referral"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "To protect against irreversible damage, do not delay referral for negative antibodies or a normal X-ray, since early films may be normal. Waiting for erosions or relying on NSAIDs alone allows damage to progress."
+      }
+    ],
+    "plan": [
+      {
+        "id": "RA-PL-01",
+        "type": "mcq",
+        "prompt": "Which overall aim best fits an RA plan of care?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A normal ESR as the main treatment target"
+          },
+          {
+            "id": "B",
+            "text": "Avoiding DMARDs to keep side effects to a minimum"
+          },
+          {
+            "id": "C",
+            "text": "Remission or low disease activity with function"
+          },
+          {
+            "id": "D",
+            "text": "Brief morning stiffness as the single goal"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Aim for sustained remission/low activity and meaningful function rather than a single laboratory or stiffness cutoff. Avoiding DMARDs would allow joint damage."
+      },
+      {
+        "id": "RA-PL-02",
+        "type": "mcq",
+        "prompt": "Which outcome best shows the medication-safety goal is met for a client on methotrexate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Stops folate once mouth ulcers heal"
+          },
+          {
+            "id": "B",
+            "text": "Takes methotrexate daily for better control"
+          },
+          {
+            "id": "C",
+            "text": "States the weekly methotrexate and folate plan"
+          },
+          {
+            "id": "D",
+            "text": "Skips lab tests whenever feeling well"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "The goal includes demonstrating the weekly methotrexate/folate distinction and completing monitoring. Daily dosing and skipped labs are unsafe."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "RA-IN-01",
+        "type": "mcq",
+        "prompt": "A client with RA has an acutely inflamed wrist. Which joint-care approach is best?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Lift weights to build up wrist strength"
+          },
+          {
+            "id": "B",
+            "text": "Keep the wrist immobilized for several weeks"
+          },
+          {
+            "id": "C",
+            "text": "Push through full range despite severe pain"
+          },
+          {
+            "id": "D",
+            "text": "Avoid heavy loading but keep gentle movement"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Avoid excessive loading of acutely inflamed joints and also prolonged inactivity that worsens stiffness/deconditioning. Forcing range through severe pain risks injury."
+      },
+      {
+        "id": "RA-IN-02",
+        "type": "mcq",
+        "prompt": "Before discharge, a client with RA has hand deformities and fatigue. Which intervention best supports continuity of care?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Link to the treating team and community resources"
+          },
+          {
+            "id": "B",
+            "text": "Leave follow-up arrangements up to the client"
+          },
+          {
+            "id": "C",
+            "text": "Provide the standard small-print instructions"
+          },
+          {
+            "id": "D",
+            "text": "Give a long verbal briefing with no written plan"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Link the client with the interdisciplinary team and resources such as the Arthritis Foundation, and use accessible written instructions for hand, vision, and fatigue needs. Leaving follow-up to the client or using inaccessible materials undermines continuity."
+      }
+    ],
+    "education": [
+      {
+        "id": "RA-ED-01",
+        "type": "mcq",
+        "prompt": "Which statement by a client taking methotrexate shows correct understanding?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“I take it once a week, with folate as prescribed.”"
+          },
+          {
+            "id": "B",
+            "text": "“I can double my methotrexate dose on bad days.”"
+          },
+          {
+            "id": "C",
+            "text": "“I take methotrexate each morning with breakfast.”"
+          },
+          {
+            "id": "D",
+            "text": "“Folic acid can be used in place of methotrexate.”"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Methotrexate for RA is once weekly, with folate taken as separately prescribed. Daily or doubled dosing is dangerous."
+      },
+      {
+        "id": "RA-ED-02",
+        "type": "mcq",
+        "prompt": "A client taking methotrexate discovers she is pregnant. What should she be taught to do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Contact the team promptly"
+          },
+          {
+            "id": "B",
+            "text": "Wait until the next routine visit"
+          },
+          {
+            "id": "C",
+            "text": "Stop folic acid immediately"
+          },
+          {
+            "id": "D",
+            "text": "Double the methotrexate dose"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Contact the team promptly for pregnancy exposure to methotrexate or leflunomide; methotrexate is contraindicated in pregnancy."
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "RA-EV-01",
+        "type": "mcq",
+        "prompt": "A client’s CRP is normal, but several joints remain swollen. How should the nurse evaluate disease control?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The normal CRP proves remission"
+          },
+          {
+            "id": "B",
+            "text": "Swelling matters less once CRP is normal"
+          },
+          {
+            "id": "C",
+            "text": "Morning stiffness alone shows success"
+          },
+          {
+            "id": "D",
+            "text": "No single marker proves remission"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "No single marker or stiffness duration proves success; joint examination and activity measures are reviewed with ESR/CRP."
+      },
+      {
+        "id": "RA-EV-02",
+        "type": "mcq",
+        "prompt": "A client with long-standing ulnar drift asks if treatment will straighten the fingers. How should the nurse frame evaluation?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Judge success solely by deformity change"
+          },
+          {
+            "id": "B",
+            "text": "Promise the deformities will fully reverse"
+          },
+          {
+            "id": "C",
+            "text": "Track progression without promising reversal"
+          },
+          {
+            "id": "D",
+            "text": "Stop evaluating since damage already exists"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Assess progression over time rather than promising every existing deformity will reverse; function and ADLs are tracked."
+      }
+    ]
+  }
+}

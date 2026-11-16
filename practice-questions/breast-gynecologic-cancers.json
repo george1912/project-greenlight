@@ -1,0 +1,1318 @@
+{
+  "id": "breast-gynecologic-cancers",
+  "sections": {
+    "overview": [
+      {
+        "id": "BGC-OV-01",
+        "type": "mcq",
+        "prompt": "A client with newly diagnosed triple-negative breast cancer says, “That means nothing can be done for me.” What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“That’s right; no treatment works for this type of cancer.”"
+          },
+          {
+            "id": "B",
+            "text": "“It describes the tumor’s receptors; treatments still exist.”"
+          },
+          {
+            "id": "C",
+            "text": "“It means the cancer has spread to several lymph nodes.”"
+          },
+          {
+            "id": "D",
+            "text": "“It means you carry several inherited BRCA variants.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Triple-negative means ER-negative, PR-negative, and HER2-negative; it does not mean no treatments exist. It does not describe node count or inherited variants."
+      },
+      {
+        "id": "BGC-OV-02",
+        "type": "mcq",
+        "prompt": "A client with an abnormal Pap result asks what usually leads to cervical cancer. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Frequent long-term tampon use"
+          },
+          {
+            "id": "B",
+            "text": "Persistent high-risk HPV infection"
+          },
+          {
+            "id": "C",
+            "text": "A single episode of yeast infection"
+          },
+          {
+            "id": "D",
+            "text": "Long-term unopposed estrogen"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Cervical cancer usually begins in the transformation zone after persistent high-risk HPV infection. Unopposed estrogen is an endometrial cancer risk."
+      },
+      {
+        "id": "BGC-OV-03",
+        "type": "mcq",
+        "prompt": "A postmenopausal client with a uterus has taken estrogen-only therapy for years. Which cancer risk does this most directly raise?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Endometrial cancer"
+          },
+          {
+            "id": "B",
+            "text": "HPV-related cancer"
+          },
+          {
+            "id": "C",
+            "text": "Ovarian cancer"
+          },
+          {
+            "id": "D",
+            "text": "Cervical cancer"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Unopposed estrogen, obesity/chronic anovulation, estrogen-only therapy in a person with a uterus, and tamoxifen are relevant endometrial cancer risks. Cervical and other HPV-related cancers are driven by persistent high-risk HPV, not unopposed estrogen."
+      },
+      {
+        "id": "BGC-OV-04",
+        "type": "mcq",
+        "prompt": "A client’s breast cancer is HER2-positive, and she asks if her daughters should be tested for it. What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Yes, HER2 is passed directly from mother to child.”"
+          },
+          {
+            "id": "B",
+            "text": "“HER2 is a tumor marker, not an inherited-risk test.”"
+          },
+          {
+            "id": "C",
+            "text": "“HER2 results show the cancer risk in your family.”"
+          },
+          {
+            "id": "D",
+            "text": "“HER2 testing is the same as BRCA blood testing.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Tumor HER2 testing is different from inherited-risk testing; HER2 is chiefly a tumor biomarker, while germline BRCA testing informs family risk."
+      }
+    ],
+    "manifestations": [
+      {
+        "id": "BGC-CM-01",
+        "type": "sata",
+        "prompt": "A client asks about breast changes. Which statements by the nurse are accurate? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "A painful lump does not need to be checked"
+          },
+          {
+            "id": "B",
+            "text": "Tender armpit nodes rule out a cancer cause"
+          },
+          {
+            "id": "C",
+            "text": "A soft, mobile lump can still need evaluation"
+          },
+          {
+            "id": "D",
+            "text": "Skin dimpling is an expected change with age"
+          },
+          {
+            "id": "E",
+            "text": "Many cancers show on imaging before a lump"
+          }
+        ],
+        "correct": [
+          "C",
+          "E"
+        ],
+        "rationale": "A soft, mobile, or painful finding can still need evaluation, and many cancers are detected on imaging before a lump is felt. Tenderness or its absence is not an independent cancer test, and skin dimpling/retraction is a warning finding that warrants evaluation."
+      },
+      {
+        "id": "BGC-CM-02",
+        "type": "mcq",
+        "prompt": "A client was treated with antibiotics for presumed mastitis, but the breast remains rapidly and diffusely red and swollen. What should the nurse do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Reassure her that this redness is from the infection"
+          },
+          {
+            "id": "B",
+            "text": "Arrange prompt evaluation for inflammatory cancer"
+          },
+          {
+            "id": "C",
+            "text": "Continue the same antibiotic for another full month"
+          },
+          {
+            "id": "D",
+            "text": "Apply warm packs and recheck at her yearly mammogram"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Rapid diffuse redness/swelling may indicate inflammatory breast cancer and warrants prompt assessment, including when initially thought to be infection. Prolonging antibiotics or waiting for routine screening delays diagnosis."
+      },
+      {
+        "id": "BGC-CM-03",
+        "type": "mcq",
+        "prompt": "A 58-year-old client reports 4 weeks of new daily bloating, feeling full quickly, and pelvic discomfort. What should the nurse recognize?",
+        "options": [
+          {
+            "id": "A",
+            "text": "These persistent symptoms need ovarian/tubal evaluation"
+          },
+          {
+            "id": "B",
+            "text": "These symptoms matter just if a mass is felt"
+          },
+          {
+            "id": "C",
+            "text": "These are normal effects of aging and need no workup"
+          },
+          {
+            "id": "D",
+            "text": "These are explained by a recent large meal"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Persistent/new bloating, early satiety, and pelvic/abdominal discomfort should prompt evaluation; persistence and change from baseline matter."
+      },
+      {
+        "id": "BGC-CM-04",
+        "type": "mcq",
+        "prompt": "A 62-year-old client, menopausal for 10 years, reports light vaginal spotting. What should the nurse do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Reassure her that spotting is normal after menopause"
+          },
+          {
+            "id": "B",
+            "text": "Arrange diagnostic evaluation of the bleeding"
+          },
+          {
+            "id": "C",
+            "text": "Wait for her next routine screening Pap test"
+          },
+          {
+            "id": "D",
+            "text": "Suggest a vaginal moisturizer and no follow-up"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Abnormal uterine bleeding, especially any bleeding after menopause, is the hallmark of endometrial cancer and needs diagnostic evaluation, not just a screening Pap test. Reassurance or waiting delays diagnosis."
+      }
+    ],
+    "risk": [
+      {
+        "id": "BGC-RF-01",
+        "type": "sata",
+        "prompt": "Which factors increase breast cancer risk? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Regular moderate activity"
+          },
+          {
+            "id": "B",
+            "text": "An inherited pathogenic BRCA1 or BRCA2 variant"
+          },
+          {
+            "id": "C",
+            "text": "Dense breast tissue on scans"
+          },
+          {
+            "id": "D",
+            "text": "Increasing age in women"
+          },
+          {
+            "id": "E",
+            "text": "Prior high-dose chest radiation"
+          }
+        ],
+        "correct": [
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "rationale": "Increasing age, an inherited pathogenic BRCA1/BRCA2 variant, dense breast tissue, and prior high-dose chest radiation increase breast cancer risk. A benign variant or variant of uncertain significance is not equivalent to a pathogenic finding. Regular moderate activity is protective rather than a risk factor."
+      },
+      {
+        "id": "BGC-RF-02",
+        "type": "mcq",
+        "prompt": "A postmenopausal client asks which lifestyle changes may lower her breast cancer risk. Which factors should the nurse address?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Caffeine, dairy, and underwire bras"
+          },
+          {
+            "id": "B",
+            "text": "Low-fat yogurt, fish, and whole grains"
+          },
+          {
+            "id": "C",
+            "text": "Antiperspirants, hair dye, and cold weather"
+          },
+          {
+            "id": "D",
+            "text": "Alcohol, inactivity, and excess body weight"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Alcohol, physical inactivity, and excess body weight particularly after menopause contribute to breast cancer risk. The other items are not listed as risk factors."
+      },
+      {
+        "id": "BGC-RF-03",
+        "type": "mcq",
+        "prompt": "A premenopausal client at increased risk asks about risk-reducing medicine. Which agent may be used in both pre- and postmenopausal clients?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Raloxifene"
+          },
+          {
+            "id": "B",
+            "text": "Tamoxifen"
+          },
+          {
+            "id": "C",
+            "text": "Letrozole"
+          },
+          {
+            "id": "D",
+            "text": "Anastrozole"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Tamoxifen can be used in pre/postmenopausal patients; raloxifene or an aromatase inhibitor (such as anastrozole or letrozole) is for selected postmenopausal patients."
+      }
+    ],
+    "diagnostics": [
+      {
+        "id": "BGC-DX-01",
+        "type": "mcq",
+        "prompt": "A client’s mammogram and ultrasound show a suspicious mass. She asks if she has cancer. What establishes the diagnosis?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The mammogram report alone"
+          },
+          {
+            "id": "B",
+            "text": "Tissue pathology from biopsy"
+          },
+          {
+            "id": "C",
+            "text": "A tumor-marker blood test"
+          },
+          {
+            "id": "D",
+            "text": "A breast MRI result alone"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Tissue pathology establishes the diagnosis and reports type and grade; imaging alone does not provide a tissue diagnosis."
+      },
+      {
+        "id": "BGC-DX-02",
+        "type": "mcq",
+        "prompt": "A client scheduled for sentinel lymph node biopsy asks its purpose. Which explanation is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It samples the first draining nodes for staging"
+          },
+          {
+            "id": "B",
+            "text": "It confirms the tumor’s hormone receptor status"
+          },
+          {
+            "id": "C",
+            "text": "It treats the cancer by removing the whole tumor"
+          },
+          {
+            "id": "D",
+            "text": "It removes the whole chain of armpit nodes"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "SLNB samples the first draining node(s) for staging, usually with less morbidity than full axillary dissection. It is not full dissection, receptor testing, or tumor removal."
+      },
+      {
+        "id": "BGC-DX-03",
+        "type": "mcq",
+        "prompt": "A client is scheduled for a mammogram this afternoon. Which instruction should the nurse give?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Drink an oral contrast solution before arriving"
+          },
+          {
+            "id": "B",
+            "text": "Fast from midnight until the mammogram is done"
+          },
+          {
+            "id": "C",
+            "text": "Follow guidance about deodorant or powder that day"
+          },
+          {
+            "id": "D",
+            "text": "Hold your usual medications for the week before"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Follow instructions about deodorant/lotion/powder on the breast/axilla that day, and explain brief compression. Fasting, contrast, and holding usual medicines are not required."
+      },
+      {
+        "id": "BGC-DX-04",
+        "type": "mcq",
+        "prompt": "After an endometrial biopsy, which client report should be reported promptly?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Feeling tired that evening"
+          },
+          {
+            "id": "B",
+            "text": "Light spotting for a few days"
+          },
+          {
+            "id": "C",
+            "text": "Soaking a pad within an hour"
+          },
+          {
+            "id": "D",
+            "text": "Mild cramping that eases off"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Report heavy bleeding (for example, soaking a pad in an hour), severe pain, fever, or foul discharge; mild cramps/spotting can last a few days."
+      }
+    ],
+    "medical": [
+      {
+        "id": "BGC-MM-01",
+        "type": "mcq",
+        "prompt": "A client will receive chemotherapy before her lumpectomy. How should the nurse describe this approach?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Palliative therapy, given for symptom relief"
+          },
+          {
+            "id": "B",
+            "text": "Neoadjuvant therapy, given before surgery"
+          },
+          {
+            "id": "C",
+            "text": "Adjuvant therapy, given after surgery"
+          },
+          {
+            "id": "D",
+            "text": "Maintenance therapy, given after remission"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Neoadjuvant therapy is given before surgery, and adjuvant therapy is given after surgery. Palliative and maintenance therapy describe different goals and timing."
+      },
+      {
+        "id": "BGC-MM-02",
+        "type": "mcq",
+        "prompt": "A premenopausal client asks if her mastectomy will put her into menopause. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Menopause begins once the drains are removed.”"
+          },
+          {
+            "id": "B",
+            "text": "“Lumpectomy, not mastectomy, causes menopause.”"
+          },
+          {
+            "id": "C",
+            "text": "“Yes, mastectomy causes immediate menopause.”"
+          },
+          {
+            "id": "D",
+            "text": "“Breast surgery alone doesn’t cause menopause.”"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Breast surgery alone does not cause surgical menopause; ovarian removal or ovarian-suppressing/gonadotoxic treatment can."
+      },
+      {
+        "id": "BGC-MM-03",
+        "type": "mcq",
+        "prompt": "A client is diagnosed with endometrial cancer. Which treatment does the nurse anticipate is most common?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hysterectomy with BSO and staging"
+          },
+          {
+            "id": "B",
+            "text": "Watchful observation without surgery"
+          },
+          {
+            "id": "C",
+            "text": "A breast cancer endocrine regimen"
+          },
+          {
+            "id": "D",
+            "text": "Tamoxifen as the primary treatment"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Endometrial cancer is commonly treated with hysterectomy with bilateral salpingo-oophorectomy and surgical staging; breast regimens are not copied to pelvic cancers."
+      }
+    ],
+    "medications": [
+      {
+        "id": "BGC-PH-01",
+        "type": "mcq",
+        "prompt": "A client is receiving doxorubicin. Which agent-specific concern should the nurse monitor?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Peripheral neuropathy as the main dose-limiting toxicity"
+          },
+          {
+            "id": "B",
+            "text": "Cumulative cardiac injury and vesicant extravasation"
+          },
+          {
+            "id": "C",
+            "text": "Retinal toxicity that requires regular eye exams"
+          },
+          {
+            "id": "D",
+            "text": "Hemorrhagic cystitis as the main dose-limiting toxicity"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Doxorubicin carries cumulative cardiac injury and vesicant extravasation risks. Bladder injury is linked to cyclophosphamide and neuropathy to paclitaxel."
+      },
+      {
+        "id": "BGC-PH-02",
+        "type": "mcq",
+        "prompt": "A client taking tamoxifen reports new abnormal vaginal bleeding. What should the nurse do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Wait for the next routine Pap test"
+          },
+          {
+            "id": "B",
+            "text": "Advise stopping tamoxifen independently"
+          },
+          {
+            "id": "C",
+            "text": "Reassure that this is expected"
+          },
+          {
+            "id": "D",
+            "text": "Ensure prompt diagnostic evaluation"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Tamoxifen carries uterine/endometrial risk, so abnormal vaginal bleeding should be reported and investigated. Stopping independently or waiting is inappropriate."
+      },
+      {
+        "id": "BGC-PH-03",
+        "type": "mcq",
+        "prompt": "A client is starting trastuzumab (Herceptin). Which monitoring should the nurse ensure is arranged?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Daily fingerstick glucose checks"
+          },
+          {
+            "id": "B",
+            "text": "Weekly audiometry hearing tests"
+          },
+          {
+            "id": "C",
+            "text": "Baseline and interval LVEF checks"
+          },
+          {
+            "id": "D",
+            "text": "Monthly bone density (DXA) scans"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Assess baseline and interval LVEF/cardiac function and heart-failure symptoms, because HER2 therapy can cause cardiac dysfunction. The other tests are not trastuzumab monitoring."
+      },
+      {
+        "id": "BGC-PH-04",
+        "type": "mcq",
+        "prompt": "A premenopausal client with HR-positive breast cancer is prescribed letrozole. What does the nurse expect to accompany it?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Added trastuzumab infusions"
+          },
+          {
+            "id": "B",
+            "text": "Ovarian suppression therapy"
+          },
+          {
+            "id": "C",
+            "text": "A daily estrogen supplement"
+          },
+          {
+            "id": "D",
+            "text": "Letrozole alone as monotherapy"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "In premenopausal patients, aromatase inhibitors require ovarian suppression rather than use as effective monotherapy. Estrogen would counteract treatment."
+      }
+    ],
+    "nonpharmacological": [
+      {
+        "id": "BGC-NP-01",
+        "type": "mcq",
+        "prompt": "A client hears conflicting advice about mammogram screening schedules. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“The major groups agree on a yearly schedule.”"
+          },
+          {
+            "id": "B",
+            "text": "“Screening begins once a lump can be felt.”"
+          },
+          {
+            "id": "C",
+            "text": "“More frequent screening is better for everyone.”"
+          },
+          {
+            "id": "D",
+            "text": "“Schedules differ, so the source should be named.”"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Average-risk schedules differ: USPSTF recommends mammography every 2 years from ages 40–74, while ACR/SBI recommends annual screening from 40, so the source should be labeled. Symptomatic assessment is different from routine screening, and more frequent imaging is not automatically better."
+      },
+      {
+        "id": "BGC-NP-02",
+        "type": "mcq",
+        "prompt": "Under the final 2018 USPSTF recommendation, which asymptomatic, average-risk client with a cervix is below the recommended age to begin routine cervical screening?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A 19-year-old client"
+          },
+          {
+            "id": "B",
+            "text": "A 35-year-old client"
+          },
+          {
+            "id": "C",
+            "text": "A 25-year-old client"
+          },
+          {
+            "id": "D",
+            "text": "A 55-year-old client"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "USPSTF (2018 final) recommends no screening under 21; ages 21–29 have Pap/cytology every 3 years, and ages 30–65 have Pap, primary hrHPV, or cotesting options. ACS uses a different starting age (25), so the guideline should be labeled."
+      },
+      {
+        "id": "BGC-NP-03",
+        "type": "mcq",
+        "prompt": "A young adult client completed the HPV vaccine series and asks if she still needs cervical screening. What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“No, the vaccine takes the place of screening.”"
+          },
+          {
+            "id": "B",
+            "text": "“Yes, screening remains recommended after it.”"
+          },
+          {
+            "id": "C",
+            "text": "“Just if you develop symptoms such as bleeding.”"
+          },
+          {
+            "id": "D",
+            "text": "“Not until you are much older than you are now.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "HPV vaccination does not remove screening needs; symptoms or abnormal results need diagnostic follow-up."
+      }
+    ],
+    "adverse-effects": [
+      {
+        "id": "BGC-AE-01",
+        "type": "mcq",
+        "prompt": "A client receiving chemotherapy calls with a temperature of 100.4°F (38°C) but feels otherwise fine. What should the nurse advise?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Take acetaminophen and recheck tomorrow"
+          },
+          {
+            "id": "B",
+            "text": "Wait for chills before calling back"
+          },
+          {
+            "id": "C",
+            "text": "Call oncology now for urgent assessment"
+          },
+          {
+            "id": "D",
+            "text": "Wait to see if the fever rises further"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "A temperature ≥100.4°F (38°C) during chemotherapy warrants an immediate oncology call/urgent assessment; do not wait or mask the fever."
+      },
+      {
+        "id": "BGC-AE-02",
+        "type": "mcq",
+        "prompt": "A client after sentinel lymph node biopsy asks if she can still get lymphedema. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Lymphedema follows radiation, not SLNB.”"
+          },
+          {
+            "id": "B",
+            "text": "“Lymphedema stops being a risk after a year.”"
+          },
+          {
+            "id": "C",
+            "text": "“Lymphedema happens just after full dissection.”"
+          },
+          {
+            "id": "D",
+            "text": "“SLNB lowers the risk but doesn’t remove it.”"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Sentinel biopsy reduces but does not eliminate lymphedema risk, so new swelling or tightness should be reported. Lymphedema is not limited to radiation or to the first year."
+      },
+      {
+        "id": "BGC-AE-03",
+        "type": "mcq",
+        "prompt": "A client taking anastrozole reports joint aches. Which adverse effects are associated with aromatase inhibitors?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hemorrhagic cystitis and hair loss"
+          },
+          {
+            "id": "B",
+            "text": "Cardiac dysfunction and infusion reactions"
+          },
+          {
+            "id": "C",
+            "text": "Hot flashes with uterine cancer risk"
+          },
+          {
+            "id": "D",
+            "text": "Arthralgia, bone loss, and fractures"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "AIs cause arthralgia, bone loss, and fractures. Uterine risk is linked to tamoxifen and cardiac dysfunction to HER2 therapy."
+      }
+    ],
+    "nutrition": [
+      {
+        "id": "BGC-NU-01",
+        "type": "mcq",
+        "prompt": "A client with chemotherapy-related mouth sores asks what to eat. Which choice is best?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Crunchy toast and crackers"
+          },
+          {
+            "id": "B",
+            "text": "Citrus juice for vitamin C"
+          },
+          {
+            "id": "C",
+            "text": "Spicy foods to boost appetite"
+          },
+          {
+            "id": "D",
+            "text": "Soft, bland, moist foods"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "For mucositis, choose soft, bland, moist foods; avoid very hot, rough/crunchy, acidic, or irritating foods."
+      },
+      {
+        "id": "BGC-NU-02",
+        "type": "mcq",
+        "prompt": "A client with significant immunosuppression asks about food safety. Which guidance is appropriate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Avoid raw fruits and vegetables throughout treatment"
+          },
+          {
+            "id": "B",
+            "text": "Eat canned or packaged foods until treatment ends"
+          },
+          {
+            "id": "C",
+            "text": "Fresh unpasteurized juices are safe if made at home"
+          },
+          {
+            "id": "D",
+            "text": "Wash produce and avoid buffets and unpasteurized foods"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Wash produce, cook foods safely, and avoid buffets/unpasteurized products; a blanket ban on all raw fruits/vegetables is not required."
+      },
+      {
+        "id": "BGC-NU-03",
+        "type": "mcq",
+        "prompt": "A client reports a metallic taste that is making meals unpleasant. Which suggestion may help?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Try metal utensils instead"
+          },
+          {
+            "id": "B",
+            "text": "Skip meals until it passes"
+          },
+          {
+            "id": "C",
+            "text": "Avoid protein foods for now"
+          },
+          {
+            "id": "D",
+            "text": "Try nonmetal utensils instead"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "For metallic taste, nonmetal utensils may help, along with rinsing the mouth before meals. Skipping meals or protein compromises intake."
+      }
+    ],
+    "assessment": [
+      {
+        "id": "BGC-AS-01",
+        "type": "mcq",
+        "prompt": "A client receiving doxorubicin followed by trastuzumab is being assessed. Which findings are most important?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hearing, vision, and dental health history"
+          },
+          {
+            "id": "B",
+            "text": "Bone density and joint range of motion"
+          },
+          {
+            "id": "C",
+            "text": "Cardiac history, LVEF, edema, and dyspnea"
+          },
+          {
+            "id": "D",
+            "text": "Skin color, hair texture, and nail changes"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "For doxorubicin/HER2 therapy, assess cardiac history, ordered LVEF surveillance, edema, breathlessness, chest symptoms, and exercise tolerance. Both drugs can affect the heart; the other findings are not the key concern."
+      },
+      {
+        "id": "BGC-AS-02",
+        "type": "mcq",
+        "prompt": "Before a client’s mastectomy with node surgery, which baseline should the nurse document?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Visual acuity in both eyes"
+          },
+          {
+            "id": "B",
+            "text": "Bowel sounds and abdomen"
+          },
+          {
+            "id": "C",
+            "text": "Hearing on whisper testing"
+          },
+          {
+            "id": "D",
+            "text": "Arm ROM, function, swelling"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Before/after surgery, assess baseline arm ROM/function/swelling so later lymphedema or stiffness can be detected. Vision, hearing, and bowel sounds alone do not address this surgical risk."
+      }
+    ],
+    "diagnoses": [
+      {
+        "id": "BGC-ND-01",
+        "type": "mcq",
+        "prompt": "A client on chemotherapy has an ANC of 600/microliter and an implanted port. Which nursing diagnosis is best supported?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Risk for aspiration"
+          },
+          {
+            "id": "B",
+            "text": "Excess fluid volume"
+          },
+          {
+            "id": "C",
+            "text": "Impaired swallowing"
+          },
+          {
+            "id": "D",
+            "text": "Risk for infection"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Risk for infection relates to neutropenia, compromised skin, surgery, or vascular access. The others are not supported."
+      },
+      {
+        "id": "BGC-ND-02",
+        "type": "mcq",
+        "prompt": "A neutropenic client has fever, hypotension, and confusion. How should the nurse treat this problem?",
+        "options": [
+          {
+            "id": "A",
+            "text": "As a medical emergency for possible sepsis"
+          },
+          {
+            "id": "B",
+            "text": "As a learning need about fever teaching"
+          },
+          {
+            "id": "C",
+            "text": "As expected chemotherapy fatigue"
+          },
+          {
+            "id": "D",
+            "text": "As a routine problem for the next visit"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Suspected sepsis is a medical emergency, not just an education need; it requires immediate escalation."
+      }
+    ],
+    "priorities": [
+      {
+        "id": "BGC-PR-01",
+        "type": "mcq",
+        "prompt": "A client on chemotherapy arrives at triage with fever and suspected febrile neutropenia. Per ASCO/IDSA, when should the first antibiotic dose be given?",
+        "options": [
+          {
+            "id": "A",
+            "text": "After a set period of fever observation"
+          },
+          {
+            "id": "B",
+            "text": "Within 1 hour of triage, without waiting for culture results"
+          },
+          {
+            "id": "C",
+            "text": "After the ANC result becomes available"
+          },
+          {
+            "id": "D",
+            "text": "Once the culture results have returned"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "For febrile neutropenia, give the prescribed initial empiric antibacterial dose within 1 hour of triage. Obtain indicated blood cultures promptly before antibiotics when this does not delay treatment; do not wait for culture results or delay urgent care for routine observation."
+      },
+      {
+        "id": "BGC-PR-02",
+        "type": "mcq",
+        "prompt": "During a doxorubicin infusion, the client reports burning and swelling at the IV site. What is the nurse’s first action?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Flush the line briskly to clear the drug"
+          },
+          {
+            "id": "B",
+            "text": "Remove the catheter immediately and apply pressure"
+          },
+          {
+            "id": "C",
+            "text": "Slow the infusion rate and keep infusing"
+          },
+          {
+            "id": "D",
+            "text": "Stop the infusion and leave the access in place"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "For suspected vesicant extravasation, stop the infusion, leave access in place initially, do not flush, and activate the extravasation protocol for aspiration/antidote care. Flushing or continuing spreads the vesicant, and removing the catheter first prevents aspiration."
+      },
+      {
+        "id": "BGC-PR-03",
+        "type": "mcq",
+        "prompt": "A client’s lab report shows an ANC in the severe neutropenia range. How should the nurse interpret this?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The neutrophil count is above normal"
+          },
+          {
+            "id": "B",
+            "text": "Infection risk is markedly increased"
+          },
+          {
+            "id": "C",
+            "text": "Infection risk is unchanged from normal"
+          },
+          {
+            "id": "D",
+            "text": "Infection risk is just slightly raised"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Severe neutropenia (ANC <500/microliter) markedly raises infection risk, so fever or other infection signs need immediate action. It is a low—not high—neutrophil count, and the risk is neither normal nor slight."
+      }
+    ],
+    "plan": [
+      {
+        "id": "BGC-PL-01",
+        "type": "mcq",
+        "prompt": "A client on trastuzumab had one normal LVEF and no fever this week. How should the nurse evaluate the emergency-detection goal?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Fever teaching has been completed"
+          },
+          {
+            "id": "B",
+            "text": "These alone don’t prove ongoing safety"
+          },
+          {
+            "id": "C",
+            "text": "Monitoring can stop at this point"
+          },
+          {
+            "id": "D",
+            "text": "Cardiac checks can now be spaced out"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "“No fever” or “normal EF once” alone does not prove ongoing safety; trends and teach-back are evaluated."
+      },
+      {
+        "id": "BGC-PL-02",
+        "type": "mcq",
+        "prompt": "Which goal best reflects safe recovery after breast surgery?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Drains come out on one set day for each client"
+          },
+          {
+            "id": "B",
+            "text": "Pain allows sleep, ADLs, and shoulder exercise"
+          },
+          {
+            "id": "C",
+            "text": "Pain is gone by the first postoperative day"
+          },
+          {
+            "id": "D",
+            "text": "The arm is kept still until the wound heals"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "The goal is pain acceptable for sleep/ADLs and prescribed shoulder movement, with wound/drain recovery per the plan. Zero pain, immobilizing the arm, or a fixed drain day are not appropriate goals."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "BGC-IN-01",
+        "type": "mcq",
+        "prompt": "The day after SLNB with blue dye, a client calls worried about blue-green urine. What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“The radiotracer may turn urine green.”"
+          },
+          {
+            "id": "B",
+            "text": "“This may be a kidney injury; go to the ED.”"
+          },
+          {
+            "id": "C",
+            "text": "“The dye may temporarily color the urine.”"
+          },
+          {
+            "id": "D",
+            "text": "“This may mean the cancer has spread.”"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Blue dye—not the radiotracer—may temporarily discolor urine blue/green, commonly for a day or two; monitor for allergic reactions."
+      },
+      {
+        "id": "BGC-IN-02",
+        "type": "mcq",
+        "prompt": "A client had axillary node surgery some time ago and needs a blood draw; the other arm has an infiltrated IV. Which statement guides the nurse?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Use the arm with the infiltrated IV site now"
+          },
+          {
+            "id": "B",
+            "text": "Evidence doesn’t support a strict lifelong ban"
+          },
+          {
+            "id": "C",
+            "text": "The at-risk arm is off-limits for procedures"
+          },
+          {
+            "id": "D",
+            "text": "Delay the blood draw until tomorrow instead"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Evidence does not support a lifelong absolute ban on all blood draws or BP measurements in every at-risk arm after node surgery. Assess current swelling/lymphedema and the site, follow the individualized care plan and patient preferences, and use an unaffected site when feasible, especially with established lymphedema. Do not delay necessary care solely because of past node surgery."
+      },
+      {
+        "id": "BGC-IN-03",
+        "type": "mcq",
+        "prompt": "A client is going home with a JP drain. What should the nurse have the client demonstrate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Emptying, keeping suction, and recording output"
+          },
+          {
+            "id": "B",
+            "text": "Leaving the bulb fully expanded after emptying"
+          },
+          {
+            "id": "C",
+            "text": "Flushing the drain tubing daily with tap water"
+          },
+          {
+            "id": "D",
+            "text": "Removing the drain at home once output slows"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Demonstrate emptying, maintaining suction, measuring/recording output, securement, and when to call; removal depends on the surgical plan."
+      }
+    ],
+    "education": [
+      {
+        "id": "BGC-ED-01",
+        "type": "mcq",
+        "prompt": "A client is starting outpatient chemotherapy. What should she keep at home?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Acetaminophen to bring fevers down at home"
+          },
+          {
+            "id": "B",
+            "text": "A supply of antibiotics to start on her own"
+          },
+          {
+            "id": "C",
+            "text": "A working thermometer and oncology phone numbers"
+          },
+          {
+            "id": "D",
+            "text": "A blood pressure cuff for daily home readings"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Keep a working thermometer and written oncology day/after-hours numbers; masking fever with antipyretics delays care."
+      },
+      {
+        "id": "BGC-ED-02",
+        "type": "mcq",
+        "prompt": "A breast cancer survivor says, “I’ll just get a mammogram every 2 years like everyone else.” What should the nurse teach?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Post-treatment follow-up differs from screening"
+          },
+          {
+            "id": "B",
+            "text": "She can stop breast imaging once treatment ends"
+          },
+          {
+            "id": "C",
+            "text": "Follow-up ends as soon as treatment is finished"
+          },
+          {
+            "id": "D",
+            "text": "Average-risk screening is enough for her from now"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Routine screening schedules for average-risk people do not substitute for post-treatment follow-up; follow the oncology surveillance plan."
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "BGC-EV-01",
+        "type": "mcq",
+        "prompt": "A client on trastuzumab feels well and asks to skip her LVEF scan. How should the nurse respond?",
+        "options": [
+          {
+            "id": "A",
+            "text": "She may skip it if she has no breathlessness"
+          },
+          {
+            "id": "B",
+            "text": "LVEF checks are optional during this therapy"
+          },
+          {
+            "id": "C",
+            "text": "Check LVEF once treatment has ended instead"
+          },
+          {
+            "id": "D",
+            "text": "Having no symptoms doesn’t replace the check"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Absence of symptoms alone does not replace scheduled LVEF monitoring, as cardiac dysfunction may be silent. LVEF checks are a required part of HER2 therapy monitoring."
+      },
+      {
+        "id": "BGC-EV-02",
+        "type": "mcq",
+        "prompt": "Which finding best indicates recovery after breast surgery is on track?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Shoulder/arm function improves with activity"
+          },
+          {
+            "id": "B",
+            "text": "The arm has been kept still since the surgery"
+          },
+          {
+            "id": "C",
+            "text": "Drain output has not been measured or recorded"
+          },
+          {
+            "id": "D",
+            "text": "New arm swelling is present but not assessed"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Recovery is evaluated by manageable pain and shoulder/arm function improving with prescribed activity; new swelling must be assessed."
+      }
+    ]
+  }
+}

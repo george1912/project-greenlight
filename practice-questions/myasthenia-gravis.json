@@ -1,0 +1,1200 @@
+{
+  "id": "myasthenia-gravis",
+  "sections": {
+    "overview": [
+      {
+        "id": "MG-OV-01",
+        "type": "mcq",
+        "prompt": "A client with myasthenia gravis says they can read in the morning but their eyelids droop by evening. Which explanation is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Weakness is constant but noticed more when tired"
+          },
+          {
+            "id": "B",
+            "text": "Weakness builds with activity and eases with rest"
+          },
+          {
+            "id": "C",
+            "text": "Strength improves the more the muscles are used"
+          },
+          {
+            "id": "D",
+            "text": "Symptoms follow sleep loss, not muscle activity"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "MG causes fluctuating, fatigable weakness that worsens with activity, improves with rest, and may be worse later in the day. It is not constant and does not improve with use."
+      },
+      {
+        "id": "MG-OV-02",
+        "type": "sata",
+        "prompt": "Which mechanisms reduce functional acetylcholine receptors in AChR-antibody MG? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "The body exhausts its stored ACh supply"
+          },
+          {
+            "id": "B",
+            "text": "Myelin in the spinal cord is destroyed"
+          },
+          {
+            "id": "C",
+            "text": "Antibodies directly block receptor binding"
+          },
+          {
+            "id": "D",
+            "text": "Receptors are degraded faster than replaced"
+          },
+          {
+            "id": "E",
+            "text": "Complement damages the motor endplate"
+          }
+        ],
+        "correct": [
+          "C",
+          "D",
+          "E"
+        ],
+        "rationale": "Blockade, accelerated degradation, and complement-mediated damage are the three mechanisms. The core problem is postsynaptic failure, not depleted ACh stores, and MG does not demyelinate the cord."
+      },
+      {
+        "id": "MG-OV-03",
+        "type": "mcq",
+        "prompt": "In normal neuromuscular transmission, acetylcholine released by the motor neuron binds to which receptors on the muscle membrane?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Muscarinic receptors"
+          },
+          {
+            "id": "B",
+            "text": "Beta-adrenergic receptors"
+          },
+          {
+            "id": "C",
+            "text": "Nicotinic ACh receptors"
+          },
+          {
+            "id": "D",
+            "text": "Dopamine receptors"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "ACh binds nicotinic receptors on the postsynaptic muscle membrane, opening ion channels and causing depolarization. Muscarinic receptors mediate the autonomic cholinergic side effects instead."
+      }
+    ],
+    "manifestations": [
+      {
+        "id": "MG-CM-01",
+        "type": "mcq",
+        "prompt": "A client reports seeing two images of one object and has a drooping upper eyelid. How should the nurse document these findings?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Photophobia and miosis"
+          },
+          {
+            "id": "B",
+            "text": "Diplopia and ptosis"
+          },
+          {
+            "id": "C",
+            "text": "Nystagmus and vertigo"
+          },
+          {
+            "id": "D",
+            "text": "Scotoma and color loss"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Ptosis is drooping of one or both upper eyelids, and diplopia is double vision; both are classic ocular findings in MG. Nystagmus, vertigo, photophobia, miosis, scotoma, and color loss describe other neurological or eye problems."
+      },
+      {
+        "id": "MG-CM-02",
+        "type": "mcq",
+        "prompt": "A client with MG now has a weak cough and cannot manage oral secretions. What is the nurse’s most appropriate action?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Encourage rest and reassess in the morning"
+          },
+          {
+            "id": "B",
+            "text": "Obtain immediate emergency assessment"
+          },
+          {
+            "id": "C",
+            "text": "Give an extra dose of pyridostigmine"
+          },
+          {
+            "id": "D",
+            "text": "Offer thin liquids to help clear secretions"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Inability to handle secretions or new breathing difficulty requires immediate emergency assessment. Waiting, giving extra doses without assessment, or giving fluids increases risk."
+      },
+      {
+        "id": "MG-CM-03",
+        "type": "mcq",
+        "prompt": "A client with MG develops slurred, nasal speech that worsens the longer they talk. The nurse recognizes this as:",
+        "options": [
+          {
+            "id": "A",
+            "text": "A hearing-related change in the quality of speech"
+          },
+          {
+            "id": "B",
+            "text": "A psychogenic speech disturbance caused by stress"
+          },
+          {
+            "id": "C",
+            "text": "Dysarthria, a motor speech problem from weakness"
+          },
+          {
+            "id": "D",
+            "text": "Aphasia, a language deficit from a cortical lesion"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Dysarthria in MG is weakness-related slurred or nasal speech that worsens with prolonged talking; it is a motor speech problem, not aphasia. Speech that fatigues with use points to muscle weakness rather than hearing loss or stress."
+      }
+    ],
+    "risk": [
+      {
+        "id": "MG-RF-01",
+        "type": "mcq",
+        "prompt": "A client newly diagnosed with AChR-antibody MG is scheduled for imaging. The nurse explains that this form of MG is associated with which condition?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Adrenal mass or pheochromocytoma"
+          },
+          {
+            "id": "B",
+            "text": "Hepatic cirrhosis or fibrosis"
+          },
+          {
+            "id": "C",
+            "text": "Pituitary adenoma or cyst"
+          },
+          {
+            "id": "D",
+            "text": "Thymic hyperplasia or thymoma"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Thymic hyperplasia or thymoma is a listed association, particularly in AChR-antibody MG, which is why the thymus is imaged. Pituitary, adrenal, and liver conditions are not listed associations."
+      },
+      {
+        "id": "MG-RF-02",
+        "type": "sata",
+        "prompt": "Which teaching points help a client with MG reduce the risk of exacerbations? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Reduce exposure to infections"
+          },
+          {
+            "id": "B",
+            "text": "Add supplements without checking first"
+          },
+          {
+            "id": "C",
+            "text": "Use hot baths to relax tired muscles"
+          },
+          {
+            "id": "D",
+            "text": "Plan rest periods during the day"
+          },
+          {
+            "id": "E",
+            "text": "Push through fatigue to build endurance"
+          }
+        ],
+        "correct": [
+          "A",
+          "D"
+        ],
+        "rationale": "Reducing infection exposure and planning rest periods help reduce flares. Pushing through fatigue and overheating can worsen weakness, and new medicines or supplements should be checked with the provider or pharmacist first."
+      }
+    ],
+    "diagnostics": [
+      {
+        "id": "MG-DX-01",
+        "type": "mcq",
+        "prompt": "A client with suspected ocular MG has a negative AChR antibody result and asks if MG is ruled out. What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Yes, a negative result excludes MG.”"
+          },
+          {
+            "id": "B",
+            "text": "“It means no further testing will be needed.”"
+          },
+          {
+            "id": "C",
+            "text": "“It means you most likely have ALS instead.”"
+          },
+          {
+            "id": "D",
+            "text": "“No, a negative result does not exclude MG.”"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Negative antibody testing does not exclude MG, especially with ocular disease or seronegative MG; results are interpreted with symptoms and other tests."
+      },
+      {
+        "id": "MG-DX-02",
+        "type": "mcq",
+        "prompt": "The nurse assists with an ice pack test. Which result supports a diagnosis of MG?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The eyelid skin becomes reddened"
+          },
+          {
+            "id": "B",
+            "text": "The pupil constricts after cooling"
+          },
+          {
+            "id": "C",
+            "text": "The diplopia worsens after cooling"
+          },
+          {
+            "id": "D",
+            "text": "The ptosis improves after cooling"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "The ice pack test checks whether cooling improves ptosis; improvement supports MG but is not a standalone diagnosis. Redness or pupil changes are not the measured outcome."
+      },
+      {
+        "id": "MG-DX-03",
+        "type": "mcq",
+        "prompt": "Which serial respiratory trend in a client with MG should the nurse report as worsening?",
+        "options": [
+          {
+            "id": "A",
+            "text": "FVC falling and NIF becoming less negative"
+          },
+          {
+            "id": "B",
+            "text": "FVC rising from the previous measurement"
+          },
+          {
+            "id": "C",
+            "text": "NIF becoming more negative over time"
+          },
+          {
+            "id": "D",
+            "text": "Stable oxygen saturation on room air"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Falling FVC or a NIF that becomes less negative indicates worsening strength. Rising FVC and a more negative NIF show improvement, and normal SpO₂ does not rule out dangerous weakness."
+      }
+    ],
+    "medical": [
+      {
+        "id": "MG-MM-01",
+        "type": "mcq",
+        "prompt": "A client with generalized AChR-antibody MG asks about thymectomy. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“It is routinely done for each subtype of the disease.”"
+          },
+          {
+            "id": "B",
+            "text": "“It can improve control and reduce steroid needs.”"
+          },
+          {
+            "id": "C",
+            "text": "“It can serve as a rescue treatment during a crisis.”"
+          },
+          {
+            "id": "D",
+            "text": "“It is mainly reserved for MuSK-positive disease.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Thymectomy can improve disease control and reduce steroid requirements in selected patients with generalized AChR-antibody MG. It is not an immediate rescue treatment, not routine for every subtype, and not limited to MuSK-positive disease."
+      },
+      {
+        "id": "MG-MM-02",
+        "type": "mcq",
+        "prompt": "A client in myasthenic crisis has shallow respirations and a rising PaCO₂. Which intervention addresses the problem?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Coach the client with incentive spirometry"
+          },
+          {
+            "id": "B",
+            "text": "Apply oxygen by nasal cannula and reassess"
+          },
+          {
+            "id": "C",
+            "text": "Automatically increase the pyridostigmine dose"
+          },
+          {
+            "id": "D",
+            "text": "Prepare for intubation and mechanical ventilation"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "When ventilation fails, prepare for intubation and mechanical ventilation; oxygen alone does not correct inadequate ventilation. Pyridostigmine should not simply be increased, and spirometry does not treat crisis."
+      },
+      {
+        "id": "MG-MM-03",
+        "type": "mcq",
+        "prompt": "A client asks how plasma exchange (PLEX) differs from IVIG. Which explanation is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "IVIG removes antibodies; PLEX adds immunoglobulin"
+          },
+          {
+            "id": "B",
+            "text": "Both remove circulating antibodies from the blood"
+          },
+          {
+            "id": "C",
+            "text": "Both increase acetylcholine release from nerves"
+          },
+          {
+            "id": "D",
+            "text": "PLEX removes antibodies; IVIG alters immune activity"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "PLEX removes circulating antibodies, while IVIG modifies immune activity; both act faster than long-term immunosuppressants. Neither increases ACh."
+      }
+    ],
+    "medications": [
+      {
+        "id": "MG-PH-01",
+        "type": "mcq",
+        "prompt": "A client asks how pyridostigmine (Mestinon) helps. Which explanation is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It slows ACh breakdown so more ACh is available"
+          },
+          {
+            "id": "B",
+            "text": "It suppresses the autoimmune attack on receptors"
+          },
+          {
+            "id": "C",
+            "text": "It removes circulating antibodies from the blood"
+          },
+          {
+            "id": "D",
+            "text": "It blocks ACh receptors to reduce muscle fatigue"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Acetylcholinesterase inhibitors slow ACh breakdown so ACh stays available longer. They improve symptoms but do not suppress the autoimmune process or remove antibodies."
+      },
+      {
+        "id": "MG-PH-02",
+        "type": "mcq",
+        "prompt": "A client with MG has chewing fatigue at meals, and immediate-release pyridostigmine is timed shortly before meals. Which explanation of this timing is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "So the drug does not upset the client’s stomach"
+          },
+          {
+            "id": "B",
+            "text": "So the drug is working while the client eats"
+          },
+          {
+            "id": "C",
+            "text": "So food does not interfere with drug absorption"
+          },
+          {
+            "id": "D",
+            "text": "So the dose wears off before the client sleeps"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Immediate-release pyridostigmine is commonly timed before meals when chewing or swallowing weakness is present, so its effect supports eating. The section ties the timing to meal-related weakness, not to stomach comfort, absorption, or sleep."
+      },
+      {
+        "id": "MG-PH-03",
+        "type": "sata",
+        "prompt": "A client with MG has several new orders. Which medications should the nurse review with the prescriber because they can worsen weakness? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Docusate (stool softener)"
+          },
+          {
+            "id": "B",
+            "text": "Acetaminophen (analgesic)"
+          },
+          {
+            "id": "C",
+            "text": "Gentamicin (aminoglycoside)"
+          },
+          {
+            "id": "D",
+            "text": "Metoprolol (beta blocker)"
+          },
+          {
+            "id": "E",
+            "text": "Ciprofloxacin (fluoroquinolone)"
+          }
+        ],
+        "correct": [
+          "C",
+          "D",
+          "E"
+        ],
+        "rationale": "Aminoglycosides, fluoroquinolones, and beta blockers (as well as magnesium, especially IV) can worsen MG weakness, so these orders are checked with the prescriber. Acetaminophen and docusate are not on the section’s list of medicines that can worsen MG."
+      },
+      {
+        "id": "MG-PH-04",
+        "type": "mcq",
+        "prompt": "Prednisone is being started for a client with MG who has bulbar weakness. Why does the nurse monitor closely?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Steroid doses need to be timed right before meals"
+          },
+          {
+            "id": "B",
+            "text": "Starting steroids can temporarily worsen MG symptoms"
+          },
+          {
+            "id": "C",
+            "text": "Steroids work by removing circulating antibodies"
+          },
+          {
+            "id": "D",
+            "text": "Starting steroids can trigger a cholinergic crisis"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Starting or increasing steroids can temporarily worsen MG, so initiation needs close supervision, especially with bulbar or respiratory weakness. Cholinergic crisis comes from excess acetylcholinesterase inhibitor, the before-meal timing applies to pyridostigmine, and steroids suppress immune activity rather than remove antibodies."
+      }
+    ],
+    "nonpharmacological": [
+      {
+        "id": "MG-NP-01",
+        "type": "mcq",
+        "prompt": "A client with MG wants to plan a grocery trip. When should the nurse suggest scheduling it?",
+        "options": [
+          {
+            "id": "A",
+            "text": "During peak strength and medication effect"
+          },
+          {
+            "id": "B",
+            "text": "When fatigue first starts to appear"
+          },
+          {
+            "id": "C",
+            "text": "Right after a period of exercise"
+          },
+          {
+            "id": "D",
+            "text": "Late in the evening after the day’s tasks"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Plan important activities during periods of greatest strength and peak medication effect. Weakness worsens later in the day and after exertion."
+      },
+      {
+        "id": "MG-NP-02",
+        "type": "mcq",
+        "prompt": "Incentive spirometry is ordered for a client with MG whose FVC is falling. What should the nurse understand about this order?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It is contraindicated once FVC begins to fall"
+          },
+          {
+            "id": "B",
+            "text": "It is an adjunct and doesn’t replace ventilation"
+          },
+          {
+            "id": "C",
+            "text": "It treats myasthenic crisis if used hourly"
+          },
+          {
+            "id": "D",
+            "text": "It replaces the need for serial FVC monitoring"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Incentive spirometry may be an adjunct in the prescribed plan, but it does not treat myasthenic crisis or replace assisted ventilation. Falling FVC requires prompt clinical and respiratory assessment; do not let an adjunct delay escalation or needed ventilatory support."
+      }
+    ],
+    "adverse-effects": [
+      {
+        "id": "MG-AE-01",
+        "type": "sata",
+        "prompt": "A client taking pyridostigmine is assessed for cholinergic effects. Which findings should the nurse look for? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Increased salivation and secretions"
+          },
+          {
+            "id": "B",
+            "text": "Abdominal cramping and diarrhea"
+          },
+          {
+            "id": "C",
+            "text": "Rapid heart rate and flushing"
+          },
+          {
+            "id": "D",
+            "text": "Dry skin and urinary retention"
+          },
+          {
+            "id": "E",
+            "text": "Dilated pupils and a dry mouth"
+          }
+        ],
+        "correct": [
+          "A",
+          "B"
+        ],
+        "rationale": "Cholinergic effects include increased salivation and bronchial secretions, abdominal cramping, diarrhea, miosis (constricted pupils), and bradycardia. Dilated pupils, a dry mouth, a rapid heart rate, and dry skin with urinary retention are the opposite of the cholinergic pattern."
+      },
+      {
+        "id": "MG-AE-02",
+        "type": "mcq",
+        "prompt": "Atropine is ordered for a client in cholinergic crisis. What should the nurse expect it to do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Reverse the skeletal-muscle paralysis quickly"
+          },
+          {
+            "id": "B",
+            "text": "Treat muscarinic effects such as secretions"
+          },
+          {
+            "id": "C",
+            "text": "Replace the need for airway and ventilator support"
+          },
+          {
+            "id": "D",
+            "text": "Increase acetylcholine at the neuromuscular junction"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Atropine treats muscarinic effects such as bradycardia and secretions. It does not reverse skeletal-muscle paralysis, replace respiratory support, or raise ACh."
+      },
+      {
+        "id": "MG-AE-03",
+        "type": "mcq",
+        "prompt": "During plasma exchange with citrate anticoagulation, the client reports perioral tingling. Which imbalance should the nurse suspect?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hyperkalemia"
+          },
+          {
+            "id": "B",
+            "text": "Hypocalcemia"
+          },
+          {
+            "id": "C",
+            "text": "Hypercalcemia"
+          },
+          {
+            "id": "D",
+            "text": "Hypernatremia"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "PLEX can cause hypocalcemia, often associated with citrate anticoagulation. The other imbalances are not the listed PLEX complication."
+      },
+      {
+        "id": "MG-AE-04",
+        "type": "mcq",
+        "prompt": "A vaccinated client receiving eculizumab develops fever, severe headache, and a stiff neck. What should the nurse do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Reassure them that the vaccine prevents this"
+          },
+          {
+            "id": "B",
+            "text": "Arrange immediate meningococcal assessment"
+          },
+          {
+            "id": "C",
+            "text": "Give acetaminophen and recheck tomorrow"
+          },
+          {
+            "id": "D",
+            "text": "Hold the next scheduled pyridostigmine dose"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "C5 inhibitors greatly increase meningococcal risk, and vaccination does not eliminate it; these symptoms need immediate assessment. Delaying or treating symptoms alone is unsafe."
+      }
+    ],
+    "nutrition": [
+      {
+        "id": "MG-NU-01",
+        "type": "mcq",
+        "prompt": "A client with MG tires while chewing and eats little at dinner. Which meal plan should the nurse suggest?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A single large meal in the evening hours"
+          },
+          {
+            "id": "B",
+            "text": "Large meals at a few set times each day"
+          },
+          {
+            "id": "C",
+            "text": "Clear liquids until strength returns"
+          },
+          {
+            "id": "D",
+            "text": "Small, frequent meals through the day"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Small, frequent meals avoid exhausting chewing muscles, while large meals increase fatigue. A liquid-only diet is not indicated; food texture follows the swallowing assessment."
+      },
+      {
+        "id": "MG-NU-02",
+        "type": "mcq",
+        "prompt": "A client with MG has taken prednisone for a year. Which nutrition concern should the nurse raise with the team?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Strict dietary potassium restriction"
+          },
+          {
+            "id": "B",
+            "text": "A low-protein diet to protect the kidneys"
+          },
+          {
+            "id": "C",
+            "text": "Calcium, vitamin D, and bone protection"
+          },
+          {
+            "id": "D",
+            "text": "Testosterone supplementation for strength"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "With long-term corticosteroid therapy, address calcium, vitamin D, and bone protection. The site notes testosterone is not a standard reason for MG nutrition advice, and protein should be adequate."
+      }
+    ],
+    "assessment": [
+      {
+        "id": "MG-AS-01",
+        "type": "mcq",
+        "prompt": "A client with MG has an SpO₂ of 97%, but the FVC is falling and the cough is weak. What should the nurse do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Document normal oxygenation and continue care"
+          },
+          {
+            "id": "B",
+            "text": "Apply oxygen and reassess later in the shift"
+          },
+          {
+            "id": "C",
+            "text": "Ask the client to talk more to build strength"
+          },
+          {
+            "id": "D",
+            "text": "Report the decline even though SpO₂ is normal"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Report decreasing FVC, less-negative NIF, or weak cough; normal pulse oximetry does not exclude respiratory failure risk. Oxygen does not fix failing ventilation."
+      },
+      {
+        "id": "MG-AS-02",
+        "type": "mcq",
+        "prompt": "Which bedside equipment best prepares the nurse for a possible crisis in a client with MG?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A cooling blanket and ice packs"
+          },
+          {
+            "id": "B",
+            "text": "Suction, oxygen, and an airway kit"
+          },
+          {
+            "id": "C",
+            "text": "Soft wrist restraints and a bed alarm"
+          },
+          {
+            "id": "D",
+            "text": "A traction frame and a trapeze"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Crisis readiness means access to suction, oxygen when indicated, and emergency airway equipment. The other equipment does not address airway risk."
+      }
+    ],
+    "diagnoses": [
+      {
+        "id": "MG-ND-01",
+        "type": "mcq",
+        "prompt": "A client with MG has shallow respirations from diaphragm weakness. Which nursing diagnosis is best supported?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ineffective breathing pattern"
+          },
+          {
+            "id": "B",
+            "text": "Impaired verbal communication"
+          },
+          {
+            "id": "C",
+            "text": "Risk for disturbed body image"
+          },
+          {
+            "id": "D",
+            "text": "Risk for impaired skin integrity"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Ineffective breathing pattern relates to diaphragm and intercostal muscle weakness. Skin, communication, and body-image diagnoses are not supported by this finding."
+      },
+      {
+        "id": "MG-ND-02",
+        "type": "mcq",
+        "prompt": "A client with MG has a weak cough and cannot clear secretions. Which nursing diagnosis fits best?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Impaired verbal communication"
+          },
+          {
+            "id": "B",
+            "text": "Self-care deficit: feeding"
+          },
+          {
+            "id": "C",
+            "text": "Ineffective airway clearance"
+          },
+          {
+            "id": "D",
+            "text": "Ineffective breathing pattern"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Ineffective airway clearance relates to a weak cough and difficulty clearing retained secretions. A breathing-pattern diagnosis addresses shallow, weak respirations, and communication or feeding diagnoses need other findings."
+      }
+    ],
+    "priorities": [
+      {
+        "id": "MG-PR-01",
+        "type": "mcq",
+        "prompt": "A client with MG has severe weakness, shallow respirations, and trouble swallowing. What is the nurse’s first action?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Give the scheduled oral pyridostigmine now"
+          },
+          {
+            "id": "B",
+            "text": "Teach energy-conservation techniques for ADLs"
+          },
+          {
+            "id": "C",
+            "text": "Assess the airway; activate emergency response"
+          },
+          {
+            "id": "D",
+            "text": "Obtain a sputum specimen for culture and stain"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "The first action is assessing airway and breathing and activating the emergency response when there is distress or the airway is unprotected. Oral medicine is unsafe with dysphagia, and teaching can wait."
+      },
+      {
+        "id": "MG-PR-02",
+        "type": "mcq",
+        "prompt": "A client with MG has increasing weakness. Which additional findings suggest cholinergic rather than myasthenic crisis?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Weakness that began after several missed doses"
+          },
+          {
+            "id": "B",
+            "text": "Weakness that began after a respiratory infection"
+          },
+          {
+            "id": "C",
+            "text": "Weakness that began on the day after surgery"
+          },
+          {
+            "id": "D",
+            "text": "Heavy secretions, diarrhea, bradycardia, and miosis"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Cholinergic crisis comes from excess acetylcholinesterase inhibitor and shows secretions, diarrhea, cramping, bradycardia, or miosis. Infection, missed doses, and surgery are triggers of myasthenic crisis."
+      },
+      {
+        "id": "MG-PR-03",
+        "type": "mcq",
+        "prompt": "The cause of a client’s crisis (myasthenic or cholinergic) is not yet known. What is the nurse’s priority?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Maintaining adequate nutrition"
+          },
+          {
+            "id": "B",
+            "text": "Controlling pain and anxiety"
+          },
+          {
+            "id": "C",
+            "text": "Promoting early mobilization"
+          },
+          {
+            "id": "D",
+            "text": "Supporting airway and breathing"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Both crises are emergencies; medication management differs, but airway and breathing remain the priority in both. Nutrition, mobility, and comfort matter but come after airway and breathing."
+      }
+    ],
+    "plan": [
+      {
+        "id": "MG-PL-01",
+        "type": "mcq",
+        "prompt": "Which outcome is written correctly as a patient goal in an MG plan of care?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The nurse will trend FVC and NIF each shift"
+          },
+          {
+            "id": "B",
+            "text": "The nurse will give each pyridostigmine dose on time"
+          },
+          {
+            "id": "C",
+            "text": "The nurse will keep suction ready at the bedside"
+          },
+          {
+            "id": "D",
+            "text": "The client will keep stable FVC/NIF trends"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "The plan describes what the patient will achieve, such as stable or improving FVC/NIF trends; the other options are nursing actions, which belong to interventions."
+      },
+      {
+        "id": "MG-PL-02",
+        "type": "mcq",
+        "prompt": "Which evaluation shows the ventilation and airway-clearance goal is being met?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Respiratory mechanics stable; secretions managed"
+          },
+          {
+            "id": "B",
+            "text": "Pyridostigmine doses have been increased daily"
+          },
+          {
+            "id": "C",
+            "text": "Pulse oximetry is the main measure being used"
+          },
+          {
+            "id": "D",
+            "text": "Respiratory monitoring was stopped ahead of plan"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "The goal is effective ventilation and airway clearance with stable or improving respiratory assessments and FVC/NIF trends. A rising dose, stopping monitoring early, or relying on pulse oximetry does not show the goal is met."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "MG-IN-01",
+        "type": "sata",
+        "prompt": "A client with MG and a weak grip is preparing for discharge. Which home safety measures should the nurse recommend? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Remove loose rugs and clutter"
+          },
+          {
+            "id": "B",
+            "text": "Keep daily-use items within reach"
+          },
+          {
+            "id": "C",
+            "text": "Add grab bars and a shower chair"
+          },
+          {
+            "id": "D",
+            "text": "Use a lidded mug for hot drinks"
+          },
+          {
+            "id": "E",
+            "text": "Keep supplies on high shelves"
+          }
+        ],
+        "correct": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "rationale": "Removing rugs and clutter, adding grab bars and a shower chair, using a lidded mug, and keeping frequently used items within reach are listed measures. High shelves add exertion and fall risk for a client with fatigable weakness."
+      },
+      {
+        "id": "MG-IN-02",
+        "type": "mcq",
+        "prompt": "Which method best confirms that a client with MG can manage their medication at home?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Having the client demonstrate the dose routine"
+          },
+          {
+            "id": "B",
+            "text": "Asking if the client has questions about it"
+          },
+          {
+            "id": "C",
+            "text": "Giving the client a detailed written handout"
+          },
+          {
+            "id": "D",
+            "text": "Reviewing the schedule with family members"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Ask the client to demonstrate the task rather than only repeat facts, using teach-back. Handouts alone do not establish understanding, asking about questions does not confirm skill, and family review does not show the client can manage."
+      }
+    ],
+    "education": [
+      {
+        "id": "MG-ED-01",
+        "type": "mcq",
+        "prompt": "A client asks what to do after missing an immediate-release pyridostigmine dose. Which instruction is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Take an extra dose at bedtime to catch up"
+          },
+          {
+            "id": "B",
+            "text": "Take it when remembered unless next dose is near"
+          },
+          {
+            "id": "C",
+            "text": "Double the dose at the next scheduled time"
+          },
+          {
+            "id": "D",
+            "text": "Skip the remaining doses for the rest of the day"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Take a missed dose when remembered unless it is nearly time for the next one. Never take two doses to make up for one, and do not skip the whole day."
+      },
+      {
+        "id": "MG-ED-02",
+        "type": "mcq",
+        "prompt": "A client with dysphagia is prescribed extended-release (Timespan) pyridostigmine. What should the nurse teach?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Dissolve it in warm water before taking"
+          },
+          {
+            "id": "B",
+            "text": "Chew it thoroughly before each meal"
+          },
+          {
+            "id": "C",
+            "text": "Crush it into applesauce to ease swallowing"
+          },
+          {
+            "id": "D",
+            "text": "Do not crush it; ask about a swallow-safe alternative."
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Do not crush or chew extended-release/Timespan pyridostigmine. With dysphagia, promptly ask the prescriber/pharmacist for an appropriate formulation or route instead of forcing an unsafe swallow or independently changing the preparation."
+      },
+      {
+        "id": "MG-ED-03",
+        "type": "mcq",
+        "prompt": "Which safety instruction should the nurse include for a client with MG?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Double doses on weak days"
+          },
+          {
+            "id": "B",
+            "text": "Avoid routine follow-up visits"
+          },
+          {
+            "id": "C",
+            "text": "Start herbal supplements freely"
+          },
+          {
+            "id": "D",
+            "text": "Wear a medical alert ID"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Teach wearing a medical alert ID and checking with the provider or pharmacist before adding any medicine or supplement. Changing doses without guidance is unsafe."
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "MG-EV-01",
+        "type": "mcq",
+        "prompt": "Which finding best shows an appropriate response to pyridostigmine?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Heavy drooling and abdominal cramping after doses"
+          },
+          {
+            "id": "B",
+            "text": "Strength improves without heavy cholinergic effects"
+          },
+          {
+            "id": "C",
+            "text": "The dose has been increased each week of the stay"
+          },
+          {
+            "id": "D",
+            "text": "A slow heart rate develops soon after each dose"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Strength should improve after the dose without excessive cholinergic effects; a higher dose is not itself a measure of success. Drooling, cramping, and a slow heart rate suggest excess medication."
+      },
+      {
+        "id": "MG-EV-02",
+        "type": "mcq",
+        "prompt": "A client’s ptosis has decreased and speech is clearer, but mild diplopia remains. How should the nurse evaluate this?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ocular changes are not useful for evaluation"
+          },
+          {
+            "id": "B",
+            "text": "The outcome is unmet because diplopia persists"
+          },
+          {
+            "id": "C",
+            "text": "Progress should be judged by FVC results instead"
+          },
+          {
+            "id": "D",
+            "text": "The client shows progress toward the outcome"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Reduced ptosis and clearer speech show progress; complete resolution of every symptom is not required. Persistent mild diplopia does not make the outcome unmet, and ocular and speech changes are valid evaluation findings."
+      }
+    ]
+  }
+}

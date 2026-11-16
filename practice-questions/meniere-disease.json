@@ -1,0 +1,1155 @@
+{
+  "id": "meniere-disease",
+  "sections": {
+    "overview": [
+      {
+        "id": "MD-OV-01",
+        "type": "sata",
+        "prompt": "A client is being evaluated for Ménière’s disease. Which symptoms make up its characteristic pattern? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sensorineural hearing loss"
+          },
+          {
+            "id": "B",
+            "text": "Recurrent spontaneous vertigo"
+          },
+          {
+            "id": "C",
+            "text": "Aural fullness or pressure"
+          },
+          {
+            "id": "D",
+            "text": "Brief vertigo on rolling in bed"
+          },
+          {
+            "id": "E",
+            "text": "Loss of consciousness in spells"
+          }
+        ],
+        "correct": [
+          "A",
+          "B",
+          "C"
+        ],
+        "rationale": "The characteristic pattern is recurrent spontaneous vertigo, sensorineural hearing loss, tinnitus, and aural fullness/pressure. Brief position-triggered vertigo suggests a different pattern such as BPPV, and drop attacks classically occur without loss of consciousness."
+      },
+      {
+        "id": "MD-OV-02",
+        "type": "mcq",
+        "prompt": "A client asks what “endolymphatic hydrops” means. Which explanation is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Calcium crystals loose in the semicircular canals"
+          },
+          {
+            "id": "B",
+            "text": "Infection of the middle ear behind the eardrum"
+          },
+          {
+            "id": "C",
+            "text": "Excess inner-ear fluid distending the labyrinth"
+          },
+          {
+            "id": "D",
+            "text": "A benign tumor pressing on the vestibular nerve"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Endolymphatic hydrops is excess/distension of endolymph within the membranous labyrinth. Middle-ear infection, loose crystals (BPPV), and vestibular schwannoma are different conditions."
+      },
+      {
+        "id": "MD-OV-03",
+        "type": "mcq",
+        "prompt": "A client with Ménière’s disease asks, “What caused this?” Which response is most accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“It is caused by a middle-ear infection.”"
+          },
+          {
+            "id": "B",
+            "text": "“It is caused by eating too much salt.”"
+          },
+          {
+            "id": "C",
+            "text": "“The cause isn’t fully understood yet.”"
+          },
+          {
+            "id": "D",
+            "text": "“It is passed directly from a parent.”"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "The underlying cause remains incompletely understood and may involve genetic, immune, and environmental factors. Salt, infection, or inheritance alone are not established universal causes."
+      }
+    ],
+    "manifestations": [
+      {
+        "id": "MD-CM-01",
+        "type": "mcq",
+        "prompt": "A client describes episodes of spinning vertigo with nausea and ear fullness. Which episode pattern fits definite Ménière’s disease?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Lasting 20 minutes to 12 hours, then easing"
+          },
+          {
+            "id": "B",
+            "text": "Lasting seconds, set off by head turns"
+          },
+          {
+            "id": "C",
+            "text": "Lasting under a minute after standing"
+          },
+          {
+            "id": "D",
+            "text": "Continuous for days without easing"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Definite Ménière’s attacks last 20 minutes to 12 hours; probable disease can include episodes up to 24 hours. Seconds-long or continuous multiday vertigo suggests other causes."
+      },
+      {
+        "id": "MD-CM-02",
+        "type": "mcq",
+        "prompt": "Which audiogram pattern does the nurse expect early in Ménière’s disease?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sudden complete loss in both ears at onset"
+          },
+          {
+            "id": "B",
+            "text": "Fluctuating low- to mid-frequency loss in one ear"
+          },
+          {
+            "id": "C",
+            "text": "Stable high-frequency loss affecting both ears"
+          },
+          {
+            "id": "D",
+            "text": "Conductive loss from fluid behind the eardrum"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Early hearing loss is often low- to mid-frequency and fluctuating, usually in one ear initially. The other patterns are not the typical early presentation."
+      },
+      {
+        "id": "MD-CM-03",
+        "type": "mcq",
+        "prompt": "A client with Ménière’s disease suddenly falls to the floor without warning but remains fully conscious. How should the nurse describe this?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Orthostatic faint"
+          },
+          {
+            "id": "B",
+            "text": "Syncopal episode"
+          },
+          {
+            "id": "C",
+            "text": "Generalized seizure"
+          },
+          {
+            "id": "D",
+            "text": "Tumarkin drop attack"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Tumarkin drop attacks are abrupt vestibular falls, classically without loss of consciousness, and may occur without warning. Loss of consciousness would suggest syncope or seizure."
+      },
+      {
+        "id": "MD-CM-04",
+        "type": "mcq",
+        "prompt": "A client with known Ménière’s disease reports a sudden major drop in hearing in one ear since this morning. What should the nurse do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Wait for the routine audiology visit"
+          },
+          {
+            "id": "B",
+            "text": "Reassure that this is expected progression"
+          },
+          {
+            "id": "C",
+            "text": "Arrange an urgent medical assessment"
+          },
+          {
+            "id": "D",
+            "text": "Advise a lower-sodium diet for now"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "A new sudden major hearing change needs urgent assessment, even in a person with known Ménière’s disease. Assuming expected progression or waiting delays care."
+      }
+    ],
+    "risk": [
+      {
+        "id": "MD-RF-01",
+        "type": "mcq",
+        "prompt": "A nurse is reviewing risk patterns for Ménière’s disease. When is onset most common?",
+        "options": [
+          {
+            "id": "A",
+            "text": "In early childhood"
+          },
+          {
+            "id": "B",
+            "text": "During adolescence"
+          },
+          {
+            "id": "C",
+            "text": "In very late life"
+          },
+          {
+            "id": "D",
+            "text": "In middle adulthood"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Onset is most common in middle adulthood, often ages 40–60, though it can occur outside this range. Childhood, adolescent, or only very late onset are not the typical pattern."
+      },
+      {
+        "id": "MD-RF-02",
+        "type": "mcq",
+        "prompt": "A client’s sibling asks how to prevent getting Ménière’s disease. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Annual MRI scans will prevent it from starting.”"
+          },
+          {
+            "id": "B",
+            "text": "“Giving up caffeine will stop it developing.”"
+          },
+          {
+            "id": "C",
+            "text": "“There’s no established way to prevent all cases.”"
+          },
+          {
+            "id": "D",
+            "text": "“A strict no-sugar diet will prevent it.”"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "There is no established way to prevent all Ménière’s disease because its cause is uncertain. Early assessment of recurrent vertigo with ear symptoms is encouraged."
+      }
+    ],
+    "diagnostics": [
+      {
+        "id": "MD-DX-01",
+        "type": "mcq",
+        "prompt": "Which finding is part of the criteria for a definite Ménière’s diagnosis?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A positive blood test specific for Ménière’s disease"
+          },
+          {
+            "id": "B",
+            "text": "A single prolonged vertigo episode lasting days"
+          },
+          {
+            "id": "C",
+            "text": "At least 2 spontaneous attacks lasting 20 minutes to 12 hours"
+          },
+          {
+            "id": "D",
+            "text": "Brief vertigo triggered by rolling over in bed"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Definite disease requires at least 2 spontaneous vertigo episodes lasting 20 minutes to 12 hours, documented low- to mid-frequency SNHL, and fluctuating aural symptoms. No blood test confirms it."
+      },
+      {
+        "id": "MD-DX-02",
+        "type": "mcq",
+        "prompt": "A client reports brief spinning episodes only when turning over in bed, with no hearing changes. What does this pattern suggest?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A different disorder such as BPPV"
+          },
+          {
+            "id": "B",
+            "text": "Early definite Ménière’s disease"
+          },
+          {
+            "id": "C",
+            "text": "Early probable Ménière’s disease"
+          },
+          {
+            "id": "D",
+            "text": "A Tumarkin drop attack pattern"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Brief position-triggered episodes suggest a different pattern such as BPPV. Ménière’s episodes are spontaneous and last 20 minutes or longer with aural symptoms."
+      },
+      {
+        "id": "MD-DX-03",
+        "type": "mcq",
+        "prompt": "A client with asymmetric sensorineural hearing loss is scheduled for an MRI. The client asks why. What is the best explanation?",
+        "options": [
+          {
+            "id": "A",
+            "text": "To measure the fluid pressure inside the inner ear"
+          },
+          {
+            "id": "B",
+            "text": "To confirm Ménière’s disease in typical cases"
+          },
+          {
+            "id": "C",
+            "text": "To check for loose calcium crystals in the ear canals"
+          },
+          {
+            "id": "D",
+            "text": "To evaluate alternatives such as vestibular schwannoma"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "MRI may be offered for asymmetric sensorineural loss to evaluate alternatives such as vestibular schwannoma; it is not a compulsory confirmatory scan for every typical case."
+      }
+    ],
+    "medical": [
+      {
+        "id": "MD-MM-01",
+        "type": "mcq",
+        "prompt": "A client asks about trying a Meniett positive-pressure device for persistent vertigo. What does the nurse know about current AAO-HNS guidance?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It is the standard next treatment for vertigo"
+          },
+          {
+            "id": "B",
+            "text": "It is recommended for most new diagnoses"
+          },
+          {
+            "id": "C",
+            "text": "It is required before medications are tried"
+          },
+          {
+            "id": "D",
+            "text": "It is advised against for this condition"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "AAO-HNS recommends against prescribing positive-pressure therapy for Ménière’s disease; it is not the routine next treatment."
+      },
+      {
+        "id": "MD-MM-02",
+        "type": "mcq",
+        "prompt": "A client with refractory vertigo asks about labyrinthectomy. For whom is this procedure generally reserved?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Clients with normal hearing in the affected ear"
+          },
+          {
+            "id": "B",
+            "text": "Clients with a poor or nonfunctional hearing ear"
+          },
+          {
+            "id": "C",
+            "text": "Clients with a first episode of vertigo"
+          },
+          {
+            "id": "D",
+            "text": "Clients who have not yet tried treatment"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Labyrinthectomy sacrifices residual hearing and is generally reserved for a poorly/nonfunctional hearing ear after less definitive treatment. It is not used for ears with normal hearing, first episodes, or untreated disease."
+      },
+      {
+        "id": "MD-MM-03",
+        "type": "mcq",
+        "prompt": "Between attacks, which maintenance option may be offered to selected clients with Ménière’s disease?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Continuous daily meclizine"
+          },
+          {
+            "id": "B",
+            "text": "Positive-pressure therapy"
+          },
+          {
+            "id": "C",
+            "text": "Daily long-term diazepam"
+          },
+          {
+            "id": "D",
+            "text": "Diuretics and/or betahistine"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Diuretics and/or betahistine may be offered for maintenance in selected patients. Benzodiazepines and meclizine are short-course rescue drugs, and positive pressure is not recommended."
+      }
+    ],
+    "medications": [
+      {
+        "id": "MD-PH-01",
+        "type": "mcq",
+        "prompt": "A client is starting HCTZ for Ménière’s maintenance and asks when to take it. What should the nurse teach?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Take it in the late evening"
+          },
+          {
+            "id": "B",
+            "text": "Take it as an attack begins"
+          },
+          {
+            "id": "C",
+            "text": "Take it early in the day"
+          },
+          {
+            "id": "D",
+            "text": "Take it just before bed"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "HCTZ is generally given early in the day to limit nocturia. Evening or bedtime doses increase night urination, and it is maintenance therapy, not immediate rescue."
+      },
+      {
+        "id": "MD-PH-02",
+        "type": "mcq",
+        "prompt": "A client takes HCTZ/triamterene and plans to start a potassium salt substitute. What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Use it to replace potassium lost from HCTZ"
+          },
+          {
+            "id": "B",
+            "text": "Add potassium pills for extra protection"
+          },
+          {
+            "id": "C",
+            "text": "Avoid it due to the risk of hyperkalemia"
+          },
+          {
+            "id": "D",
+            "text": "Eat extra bananas to boost potassium"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Triamterene spares potassium, so HCTZ/triamterene can cause hyperkalemia. Do not self-start potassium supplements or potassium-containing salt substitutes. Potassium advice depends on renal function, laboratory results, and the prescribed plan; uncommon significant hypokalemia requires clinician-directed management rather than routine replacement."
+      },
+      {
+        "id": "MD-PH-03",
+        "type": "mcq",
+        "prompt": "A client taking HCTZ alone reports muscle cramps and weakness. Which electrolyte change should the nurse suspect?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hypokalemia"
+          },
+          {
+            "id": "B",
+            "text": "Hypernatremia"
+          },
+          {
+            "id": "C",
+            "text": "Hyperkalemia"
+          },
+          {
+            "id": "D",
+            "text": "Hypercalcemia"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "HCTZ alone can cause hypokalemia, which may present with weakness and cramps. Hyperkalemia is a risk with potassium-sparing combinations."
+      },
+      {
+        "id": "MD-PH-04",
+        "type": "mcq",
+        "prompt": "A client received diazepam for severe vertigo and is now drowsy. A student suggests giving flumazenil. What should the nurse know?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Flumazenil may be given freely with little risk"
+          },
+          {
+            "id": "B",
+            "text": "Flumazenil may take the place of airway support"
+          },
+          {
+            "id": "C",
+            "text": "Flumazenil may precipitate seizures or withdrawal"
+          },
+          {
+            "id": "D",
+            "text": "Flumazenil may be given after each dose routinely"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Flumazenil is for selected monitored situations, and it can precipitate seizures/withdrawal. Airway and breathing support come first."
+      },
+      {
+        "id": "MD-PH-05",
+        "type": "mcq",
+        "prompt": "A client asks if she should take meclizine every day to prevent attacks. What is the best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Use only the limited course prescribed.”"
+          },
+          {
+            "id": "B",
+            "text": "“Double the dose whenever you feel dizzy.”"
+          },
+          {
+            "id": "C",
+            "text": "“Take it each day on a long-term basis.”"
+          },
+          {
+            "id": "D",
+            "text": "“Take it with alcohol to boost its effect.”"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Meclizine is used as the prescribed limited course, not automatic continuous daily suppression. Alcohol increases impairment."
+      }
+    ],
+    "nonpharmacological": [
+      {
+        "id": "MD-NP-01",
+        "type": "mcq",
+        "prompt": "A client feels a vertigo spell beginning while at the grocery store. What should the nurse have taught?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Walk quickly to the car and drive straight home"
+          },
+          {
+            "id": "B",
+            "text": "Keep shopping and focus on a fixed object"
+          },
+          {
+            "id": "C",
+            "text": "Sit or lie down safely and minimize head movement"
+          },
+          {
+            "id": "D",
+            "text": "Climb the stairs to reach a quieter area"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "At onset, sit or lie down in a safe place, obtain assistance, and minimize head movement. Driving, walking alone, or stairs during vertigo are unsafe."
+      },
+      {
+        "id": "MD-NP-02",
+        "type": "mcq",
+        "prompt": "A client is having an acute severe spinning attack, and a family member asks about vestibular rehabilitation exercises now. What is the best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“It replaces the medicines during an episode.”"
+          },
+          {
+            "id": "B",
+            "text": "“Do the hardest exercises during each spell.”"
+          },
+          {
+            "id": "C",
+            "text": "“It’s for chronic imbalance, not this spell.”"
+          },
+          {
+            "id": "D",
+            "text": "“Start the exercises now to stop the spinning.”"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Vestibular rehabilitation is for chronic imbalance and is not the treatment for an acute spinning attack; provocative exercises are avoided during a severe spell."
+      }
+    ],
+    "adverse-effects": [
+      {
+        "id": "MD-AE-01",
+        "type": "mcq",
+        "prompt": "After receiving diazepam and promethazine, a client is difficult to arouse with slow, shallow breathing. What is the nurse’s priority?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Treat as an emergency and support the airway"
+          },
+          {
+            "id": "B",
+            "text": "Let the client sleep off the vertigo spell"
+          },
+          {
+            "id": "C",
+            "text": "Recheck vital signs at the next routine check"
+          },
+          {
+            "id": "D",
+            "text": "Give another dose to keep them comfortable"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Difficult arousal or slow/shallow breathing is an emergency; it should not be assumed to be ordinary fatigue after vertigo."
+      },
+      {
+        "id": "MD-AE-02",
+        "type": "mcq",
+        "prompt": "An hour after promethazine, a client develops abnormal twisting of the neck and tongue. What should the nurse suspect?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Dystonia, an extrapyramidal effect"
+          },
+          {
+            "id": "B",
+            "text": "Hypokalemia caused by vomiting"
+          },
+          {
+            "id": "C",
+            "text": "Expected drowsiness from the drug"
+          },
+          {
+            "id": "D",
+            "text": "A new Ménière’s vertigo attack"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Watch for dystonia/abnormal eye, neck, or tongue movements and other EPS after promethazine, and follow urgent treatment protocols. These movements are not vertigo, sedation, or an electrolyte effect."
+      },
+      {
+        "id": "MD-AE-03",
+        "type": "sata",
+        "prompt": "A client takes HCTZ for Ménière’s disease. Which adverse effects should the nurse monitor for? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Low uric acid levels"
+          },
+          {
+            "id": "B",
+            "text": "Low blood glucose levels"
+          },
+          {
+            "id": "C",
+            "text": "Low serum potassium"
+          },
+          {
+            "id": "D",
+            "text": "High potassium from HCTZ"
+          },
+          {
+            "id": "E",
+            "text": "Orthostatic hypotension"
+          }
+        ],
+        "correct": [
+          "C",
+          "E"
+        ],
+        "rationale": "HCTZ may cause dehydration, orthostatic hypotension, low sodium/potassium/magnesium, glucose elevation, or hyperuricemia. Hyperkalemia is a risk with potassium-sparing agents, not HCTZ alone, and HCTZ raises rather than lowers glucose and uric acid."
+      }
+    ],
+    "nutrition": [
+      {
+        "id": "MD-NU-01",
+        "type": "mcq",
+        "prompt": "A client with Ménière’s disease is asked to try a lower-sodium plan. How should the sodium goal be set?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Left unrestricted while taking a diuretic"
+          },
+          {
+            "id": "B",
+            "text": "As the lowest intake the client can manage"
+          },
+          {
+            "id": "C",
+            "text": "As an individualized target with the team"
+          },
+          {
+            "id": "D",
+            "text": "As one standard limit used for each client"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "A commonly used individualized target is 1,500–2,000 mg sodium/day, not a universal requirement. Extremely low or unlimited intake is not advised, especially with diuretics."
+      },
+      {
+        "id": "MD-NU-02",
+        "type": "mcq",
+        "prompt": "A client eats very little salt on weekdays but large salty restaurant meals on weekends. What should the nurse advise?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cut sugar instead of limiting salt"
+          },
+          {
+            "id": "B",
+            "text": "Avoid large swings in salt intake"
+          },
+          {
+            "id": "C",
+            "text": "Save the weekly salt for one day"
+          },
+          {
+            "id": "D",
+            "text": "Drink large volumes to flush salt"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Avoid large swings in salt intake and spread intake through the day; forcing water or cutting all sugar is not established."
+      }
+    ],
+    "assessment": [
+      {
+        "id": "MD-AS-01",
+        "type": "mcq",
+        "prompt": "A client with known Ménière’s disease has vertigo plus new slurred speech and double vision. What should the nurse do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Arrange urgent evaluation for stroke"
+          },
+          {
+            "id": "B",
+            "text": "Treat as a typical Ménière’s attack"
+          },
+          {
+            "id": "C",
+            "text": "Give meclizine and reassess later"
+          },
+          {
+            "id": "D",
+            "text": "Perform a Romberg test first"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "A known Ménière’s diagnosis does not rule out stroke or another acute disorder; dysarthria and diplopia require urgent evaluation."
+      },
+      {
+        "id": "MD-AS-02",
+        "type": "mcq",
+        "prompt": "A client is vomiting and cannot sit up without severe spinning. When should the nurse perform a Romberg test?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Perform it now to confirm diagnosis"
+          },
+          {
+            "id": "B",
+            "text": "Defer it until the client is stable"
+          },
+          {
+            "id": "C",
+            "text": "Have the client stand unassisted"
+          },
+          {
+            "id": "D",
+            "text": "Test with eyes closed while walking"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Assess balance only with guarding when safe and defer Romberg during severe instability; it is nonspecific."
+      }
+    ],
+    "diagnoses": [
+      {
+        "id": "MD-ND-01",
+        "type": "mcq",
+        "prompt": "A client has sudden drop attacks and takes meclizine. Which nursing diagnosis is best supported?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Excess fluid volume"
+          },
+          {
+            "id": "B",
+            "text": "Risk for falls/injury"
+          },
+          {
+            "id": "C",
+            "text": "Risk for bleeding"
+          },
+          {
+            "id": "D",
+            "text": "Impaired swallowing"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Risk for falls/injury relates to episodic vertigo, drop attacks, chronic imbalance, or sedating medicines. The other diagnoses are not supported."
+      },
+      {
+        "id": "MD-ND-02",
+        "type": "mcq",
+        "prompt": "During an attack, a client is nauseated and vomiting. What is the nausea most directly related to?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Vestibular disturbance"
+          },
+          {
+            "id": "B",
+            "text": "Low blood glucose"
+          },
+          {
+            "id": "C",
+            "text": "High-sodium meals"
+          },
+          {
+            "id": "D",
+            "text": "Gastric ulcer disease"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Nausea related to vestibular disturbance is the supported diagnosis when present; the other causes are not indicated."
+      }
+    ],
+    "priorities": [
+      {
+        "id": "MD-PR-01",
+        "type": "mcq",
+        "prompt": "A client with Ménière’s disease begins a severe vertigo attack while walking in the hallway. What is the nurse’s first action?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Give an oral antiemetic right away"
+          },
+          {
+            "id": "B",
+            "text": "Perform a bedside hearing test"
+          },
+          {
+            "id": "C",
+            "text": "Help the client sit or lie down safely"
+          },
+          {
+            "id": "D",
+            "text": "Walk the client back to the room now"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "First help the patient sit/lie safely and assess stability, injury, and neurological/hearing changes. Walking the client, giving oral medicine first, or testing hearing delays fall prevention."
+      },
+      {
+        "id": "MD-PR-02",
+        "type": "mcq",
+        "prompt": "A client says, “I always feel ear fullness before an attack, so I can keep driving.” Why should the nurse not rely on warning symptoms?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Warning signs may last several hours"
+          },
+          {
+            "id": "B",
+            "text": "Drop attacks may occur without warning"
+          },
+          {
+            "id": "C",
+            "text": "Fullness may mean an attack is unlikely"
+          },
+          {
+            "id": "D",
+            "text": "Fullness may reliably signal each attack"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Do not rely on warning fullness/tinnitus, because drop attacks can occur without warning; individualized driving restrictions are discussed."
+      }
+    ],
+    "plan": [
+      {
+        "id": "MD-PL-01",
+        "type": "mcq",
+        "prompt": "Which goal best addresses safety and acute symptom control during an attack?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Walking unassisted throughout the attack"
+          },
+          {
+            "id": "B",
+            "text": "No further attacks after this one episode"
+          },
+          {
+            "id": "C",
+            "text": "Deep sedation until symptoms have stopped"
+          },
+          {
+            "id": "D",
+            "text": "No preventable falls, with safe transfers"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "The goal is no preventable fall/injury, with nausea/vertigo settling enough for safe assisted transfers without excessive sedation. No treatment guarantees no future attacks."
+      },
+      {
+        "id": "MD-PL-02",
+        "type": "mcq",
+        "prompt": "How should function and hearing goals be evaluated for a client with Ménière’s disease?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Assume that further attacks will not occur"
+          },
+          {
+            "id": "B",
+            "text": "Track attacks, ADLs, and how they communicate"
+          },
+          {
+            "id": "C",
+            "text": "Judge success by the latest audiogram alone"
+          },
+          {
+            "id": "D",
+            "text": "Promise that normal hearing will come back"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Evaluate attack pattern, falls, ADLs, and communication rather than promising cure or normal hearing. A single audiogram does not capture overall function."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "MD-IN-01",
+        "type": "mcq",
+        "prompt": "A client with Ménière’s hearing loss is receiving discharge teaching. Which communication technique is best?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Talk quickly so that the session stays brief"
+          },
+          {
+            "id": "B",
+            "text": "Speak from behind to avoid startling the client"
+          },
+          {
+            "id": "C",
+            "text": "Shout so the client can hear the teaching well"
+          },
+          {
+            "id": "D",
+            "text": "Face the client, speak clearly, and reduce noise"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Face the patient, speak clearly without shouting, reduce background noise, and confirm understanding. Shouting distorts speech and speaking from behind removes visual cues."
+      },
+      {
+        "id": "MD-IN-02",
+        "type": "mcq",
+        "prompt": "During a severe vertigo spell, which nursing intervention is most appropriate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Assist positioning; provide a quiet, dim room"
+          },
+          {
+            "id": "B",
+            "text": "Encourage walking alone to the bathroom now"
+          },
+          {
+            "id": "C",
+            "text": "Move the client quickly to a different room"
+          },
+          {
+            "id": "D",
+            "text": "Turn on the bright overhead lights for safety"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Assist safe positioning, toileting/ADLs, fall precautions, an emesis container, and a quiet/dim environment as tolerated; avoid abrupt position changes."
+      }
+    ],
+    "education": [
+      {
+        "id": "MD-ED-01",
+        "type": "mcq",
+        "prompt": "A client with tinnitus asks about OTC pain relievers. Which medicine can worsen tinnitus at high doses?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Plain acetaminophen tablets"
+          },
+          {
+            "id": "B",
+            "text": "Topical lidocaine patches"
+          },
+          {
+            "id": "C",
+            "text": "Aspirin and other salicylates"
+          },
+          {
+            "id": "D",
+            "text": "Saline nasal spray as needed"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Salicylates/aspirin and some other drugs can worsen tinnitus, especially at high doses; prescribed low-dose cardiac aspirin should not be stopped independently."
+      },
+      {
+        "id": "MD-ED-02",
+        "type": "mcq",
+        "prompt": "A client on HCTZ has had substantial vomiting for a day. What should the client be taught to do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Contact the team for medicine and fluid advice"
+          },
+          {
+            "id": "B",
+            "text": "Double the HCTZ dose to clear extra fluid"
+          },
+          {
+            "id": "C",
+            "text": "Stop drinking fluids until the vomiting ends"
+          },
+          {
+            "id": "D",
+            "text": "Keep taking HCTZ as usual without changes"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "During substantial vomiting, contact the team for medication/fluid advice rather than continuing blindly or changing doses independently. Restricting fluids worsens dehydration."
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "MD-EV-01",
+        "type": "mcq",
+        "prompt": "A client’s audiogram shows slight further loss despite good adherence. How should the nurse interpret this result?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Good adherence means hearing is protected"
+          },
+          {
+            "id": "B",
+            "text": "Treatment has failed and should be stopped"
+          },
+          {
+            "id": "C",
+            "text": "Some progression is possible with good care"
+          },
+          {
+            "id": "D",
+            "text": "The audiogram result is likely in error"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Normal hearing or prevention of all progression is not a required or guaranteed outcome; changes receive appropriate assessment."
+      },
+      {
+        "id": "MD-EV-02",
+        "type": "mcq",
+        "prompt": "A client takes betahistine exactly as prescribed but still has frequent attacks. How should the nurse evaluate whether the medicine is working?",
+        "options": [
+          {
+            "id": "A",
+            "text": "By the count of tablets taken each week"
+          },
+          {
+            "id": "B",
+            "text": "By how closely it is taken as ordered"
+          },
+          {
+            "id": "C",
+            "text": "By its real effect on symptom control"
+          },
+          {
+            "id": "D",
+            "text": "By the lack of side effects reported"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Evaluate each therapy’s benefit rather than inferring success solely from adherence. Pill counts or lack of side effects do not show that attacks are controlled."
+      }
+    ]
+  }
+}

@@ -35,7 +35,7 @@ function fixture({offline=false,pending=false,delayedSeek=false}={}){
   const offline=fixture({offline:true});offline.click('toggle');assert.equal(offline.player,undefined);assert(offline.nodes['.podcast-status'].textContent.includes('offline'));offline.dispose();
   const main={innerHTML:'',querySelector:()=>null,querySelectorAll:()=>[],focus:()=>{}};
   const s={URL,document:{querySelector:()=>main,title:''},location:{hash:'#/'},window:{addEventListener:()=>{},scrollTo:()=>{}},console};vm.createContext(s);
-  for(const file of ['content.js','presentations.js','conditions.js','videos.js','video-library.js','podcast.js','posters.js','app.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),s);
+  for(const file of ['content.js','presentations.js','conditions.js','videos.js','video-library.js','podcast.js','posters.js','section-quizzes.js','app.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),s);
   assert(main.innerHTML.includes('class="exam-card" href="#/final"'));
   s.location.hash='#/final';vm.runInContext('render()',s);assert(main.innerHTML.indexOf('class="study-guide-entry"')<main.innerHTML.indexOf('class="week-nav'));assert(main.innerHTML.includes('href="#/final/podcast"'));assert(main.innerHTML.includes('Week 12'));
   s.location.hash='#/final/podcast';vm.runInContext('render()',s);assert(main.innerHTML.includes('Special thanks to Alessia.'));assert(main.innerHTML.includes('7pSK_zxd2WU'));assert(!main.innerHTML.includes('<iframe'));assert(!main.innerHTML.includes('<audio'));assert(main.innerHTML.includes('Back 10 seconds'));assert(main.innerHTML.includes('Forward 10 seconds'));

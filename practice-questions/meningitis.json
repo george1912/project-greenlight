@@ -1,0 +1,1319 @@
+{
+  "id": "meningitis",
+  "sections": {
+    "overview": [
+      {
+        "id": "MEN-OV-01",
+        "type": "mcq",
+        "prompt": "A student asks where the infection is located in infectious meningitis. Which answer is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The ependymal lining of the ventricles"
+          },
+          {
+            "id": "B",
+            "text": "The epidural space outside the dura"
+          },
+          {
+            "id": "C",
+            "text": "The subdural space beneath the dura"
+          },
+          {
+            "id": "D",
+            "text": "The CSF-filled subarachnoid space"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Infectious meningitis involves the CSF-containing subarachnoid space and leptomeninges (pia and arachnoid). Epidural and subdural spaces are not the primary site."
+      },
+      {
+        "id": "MEN-OV-02",
+        "type": "mcq",
+        "prompt": "A 34-week pregnant client is admitted with suspected bacterial meningitis. Which organism is especially important to consider?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Listeria monocytogenes"
+          },
+          {
+            "id": "B",
+            "text": "Group A streptococcus"
+          },
+          {
+            "id": "C",
+            "text": "Clostridioides difficile"
+          },
+          {
+            "id": "D",
+            "text": "Staphylococcus epidermidis"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Listeria monocytogenes is important with older age, pregnancy, or immunocompromise, which changes antibiotic coverage. The other organisms are not the listed concern."
+      },
+      {
+        "id": "MEN-OV-03",
+        "type": "mcq",
+        "prompt": "A client’s report says “aseptic meningitis.” How should the nurse interpret this term?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It confirms that the cause is viral"
+          },
+          {
+            "id": "B",
+            "text": "It means the cause is noninfectious"
+          },
+          {
+            "id": "C",
+            "text": "Routine bacterial cultures showed no cause"
+          },
+          {
+            "id": "D",
+            "text": "It is another name for fungal meningitis"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Aseptic means routine bacterial cultures do not identify a cause; it does not prove viral infection. Partially treated bacterial, other infectious, or non-infectious causes may fit, and it is not a synonym for fungal meningitis."
+      },
+      {
+        "id": "MEN-OV-04",
+        "type": "mcq",
+        "prompt": "A client with bacterial meningitis develops enlarged ventricles on imaging. Which mechanism explains this complication?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Antibody blockade at the neuromuscular junction"
+          },
+          {
+            "id": "B",
+            "text": "Impaired CSF reabsorption at arachnoid granulations"
+          },
+          {
+            "id": "C",
+            "text": "Demyelination of the peripheral nerve fibers"
+          },
+          {
+            "id": "D",
+            "text": "Compression of the spinal canal by thick exudate"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Inflammation can impair CSF reabsorption at arachnoid granulations, causing communicating hydrocephalus. The other mechanisms describe unrelated disorders."
+      }
+    ],
+    "manifestations": [
+      {
+        "id": "MEN-CM-01",
+        "type": "mcq",
+        "prompt": "When the nurse gently flexes the client’s neck, the client’s hips and knees flex involuntarily. How is this documented?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Positive Babinski sign"
+          },
+          {
+            "id": "B",
+            "text": "Positive Kernig sign"
+          },
+          {
+            "id": "C",
+            "text": "Positive Chvostek sign"
+          },
+          {
+            "id": "D",
+            "text": "Positive Brudzinski sign"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Brudzinski sign is involuntary hip/knee flexion with passive neck flexion. Kernig is pain with knee extension while the hip is flexed; Babinski and Chvostek are unrelated reflexes."
+      },
+      {
+        "id": "MEN-CM-02",
+        "type": "mcq",
+        "prompt": "A febrile, confused client has negative Kernig and Brudzinski signs. How should the nurse interpret these findings?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Meningitis is still possible"
+          },
+          {
+            "id": "B",
+            "text": "Meningitis is effectively ruled out"
+          },
+          {
+            "id": "C",
+            "text": "The client can be discharged safely"
+          },
+          {
+            "id": "D",
+            "text": "Antibiotics can be held for now"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Kernig and Brudzinski signs have limited sensitivity; negative findings should not be used to exclude disease or delay treatment."
+      },
+      {
+        "id": "MEN-CM-03",
+        "type": "mcq",
+        "prompt": "A febrile client develops a rapidly spreading non-blanching rash and a BP of 82/50 mm Hg. What is the nurse’s priority?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Escalate immediately for emergency treatment"
+          },
+          {
+            "id": "B",
+            "text": "Apply a soothing lotion to the rash"
+          },
+          {
+            "id": "C",
+            "text": "Document the rash as a drug allergy"
+          },
+          {
+            "id": "D",
+            "text": "Mark the rash edges and recheck in an hour"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "A rapidly spreading non-blanching rash with shock suggests meningococcal disease; escalate immediately rather than waiting to watch progression."
+      },
+      {
+        "id": "MEN-CM-04",
+        "type": "mcq",
+        "prompt": "A nurse plans to wait for Cushing’s triad before reporting possible raised ICP. Why is this unsafe?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cushing’s triad means ICP is falling"
+          },
+          {
+            "id": "B",
+            "text": "Cushing’s triad is an early screening sign"
+          },
+          {
+            "id": "C",
+            "text": "Cushing’s triad is a late, ominous finding"
+          },
+          {
+            "id": "D",
+            "text": "Cushing’s triad is required before treatment"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Cushing’s triad (systolic hypertension/widened pulse pressure, bradycardia, irregular respirations) is late and ominous, not a prerequisite for escalation; falling consciousness or pupil changes warrant earlier review."
+      }
+    ],
+    "risk": [
+      {
+        "id": "MEN-RF-01",
+        "type": "mcq",
+        "prompt": "Which client is at highest risk of meningococcal transmission due to living conditions?",
+        "options": [
+          {
+            "id": "A",
+            "text": "An adult living alone in a rural farmhouse"
+          },
+          {
+            "id": "B",
+            "text": "A first-year student in a college dormitory"
+          },
+          {
+            "id": "C",
+            "text": "A patient in a single-occupancy hospital room"
+          },
+          {
+            "id": "D",
+            "text": "A software worker who works from home daily"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Close living or prolonged contact, such as dormitories or barracks, raises meningococcal transmission risk. Living or working alone and single rooms reduce close contact."
+      },
+      {
+        "id": "MEN-RF-02",
+        "type": "mcq",
+        "prompt": "A parent asks whether the routine adolescent MenACWY vaccine also protects against serogroup B. Which response by the nurse is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“No—MenB is reserved for international travel.”"
+          },
+          {
+            "id": "B",
+            "text": "“Yes—MenACWY also covers serogroup B fully.”"
+          },
+          {
+            "id": "C",
+            "text": "“No—MenB is a separate decision to discuss.”"
+          },
+          {
+            "id": "D",
+            "text": "“Yes—and it also prevents viral meningitis.”"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "MenB is a separate decision from routine MenACWY (shared clinical decision-making for healthy adolescents, with different advice for people at increased risk), so the two are not interchangeable. MenACWY does not cover serogroup B or viral causes, and MenB is not limited to travel."
+      },
+      {
+        "id": "MEN-RF-03",
+        "type": "mcq",
+        "prompt": "A client was diagnosed with meningococcal meningitis today. When should eligible close contacts receive prophylaxis?",
+        "options": [
+          {
+            "id": "A",
+            "text": "As soon as possible after the case is identified"
+          },
+          {
+            "id": "B",
+            "text": "If a close contact is not yet vaccinated"
+          },
+          {
+            "id": "C",
+            "text": "After a contact’s throat culture comes back positive"
+          },
+          {
+            "id": "D",
+            "text": "Once a close contact begins to show symptoms"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Give prophylaxis as soon as possible (ideally within 24 hours) after the index patient is identified. Do not wait for throat cultures or symptoms, and vaccination does not replace prophylaxis for an eligible contact."
+      },
+      {
+        "id": "MEN-RF-04",
+        "type": "sata",
+        "prompt": "A client has confirmed meningococcal meningitis. Which people are eligible close contacts for prophylaxis? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "A neighbor chatting outdoors"
+          },
+          {
+            "id": "B",
+            "text": "People in the same household"
+          },
+          {
+            "id": "C",
+            "text": "Contacts at the same childcare"
+          },
+          {
+            "id": "D",
+            "text": "A visitor who briefly entered"
+          },
+          {
+            "id": "E",
+            "text": "Direct oral-secretion exposure"
+          }
+        ],
+        "correct": [
+          "B",
+          "C",
+          "E"
+        ],
+        "rationale": "Eligible contacts include household members, childcare contacts, and people directly exposed to oral or respiratory secretions. Routine casual contact, such as briefly entering the room or chatting outdoors, is not enough."
+      }
+    ],
+    "diagnostics": [
+      {
+        "id": "MEN-DX-01",
+        "type": "mcq",
+        "prompt": "A client with suspected bacterial meningitis needs a CT before LP, and the scan is delayed. What should the nurse anticipate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Holding antibiotics until the CT is done"
+          },
+          {
+            "id": "B",
+            "text": "Starting oral antibiotics while waiting"
+          },
+          {
+            "id": "C",
+            "text": "Holding antibiotics until CSF results return"
+          },
+          {
+            "id": "D",
+            "text": "Blood cultures, then empiric IV antibiotics now"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "If LP is unsafe or would be delayed, take blood cultures promptly and give empiric IV antibiotics first; treatment should start within 1 hour of arrival."
+      },
+      {
+        "id": "MEN-DX-02",
+        "type": "mcq",
+        "prompt": "Which CSF result is most consistent with bacterial meningitis?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Raised glucose and very low protein"
+          },
+          {
+            "id": "B",
+            "text": "Clear fluid with no white cells present"
+          },
+          {
+            "id": "C",
+            "text": "Neutrophils, high protein, low glucose"
+          },
+          {
+            "id": "D",
+            "text": "Lymphocytes with normal glucose levels"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Neutrophilic pleocytosis, raised protein, and low glucose are the usual bacterial pattern. Viral disease often has lymphocytes and preserved glucose, but early disease and prior treatment can alter findings; no single normal CSF result safely excludes bacterial meningitis."
+      },
+      {
+        "id": "MEN-DX-03",
+        "type": "mcq",
+        "prompt": "How should the nurse position an adult for a lumbar puncture?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Side-lying with the back flexed"
+          },
+          {
+            "id": "B",
+            "text": "Prone with both arms over the head"
+          },
+          {
+            "id": "C",
+            "text": "Supine and flat with knees straight"
+          },
+          {
+            "id": "D",
+            "text": "Trendelenburg with the neck flexed"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "LP positioning is lateral recumbent with the back flexed, or supported sitting; avoid excessive neck flexion that compromises breathing."
+      },
+      {
+        "id": "MEN-DX-04",
+        "type": "mcq",
+        "prompt": "After an LP, a nurse plans 4 hours of flat bed rest and 3 liters of extra fluids to prevent headache. Which response is best?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Neither measure has been shown to prevent it"
+          },
+          {
+            "id": "B",
+            "text": "Bed rest helps if the head is kept elevated"
+          },
+          {
+            "id": "C",
+            "text": "This routine reliably prevents post-LP headache"
+          },
+          {
+            "id": "D",
+            "text": "Fluids help if given in even larger amounts"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Routine flat bed rest and forced extra fluids have not been shown to prevent post-dural-puncture headache; rest for comfort and individualize care. Changing head position or giving even more fluid is not supported either."
+      }
+    ],
+    "medical": [
+      {
+        "id": "MEN-MM-01",
+        "type": "mcq",
+        "prompt": "Dexamethasone is ordered for a client with suspected bacterial meningitis. When should it be given?",
+        "options": [
+          {
+            "id": "A",
+            "text": "In place of antibiotics if allergic"
+          },
+          {
+            "id": "B",
+            "text": "With or before the first antibiotic dose"
+          },
+          {
+            "id": "C",
+            "text": "After the culture results have returned"
+          },
+          {
+            "id": "D",
+            "text": "One week after antibiotics are started"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Give dexamethasone with or before the first antibiotic dose when indicated; it is not a substitute for antibiotics."
+      },
+      {
+        "id": "MEN-MM-02",
+        "type": "mcq",
+        "prompt": "Which client with suspected bacterial meningitis is most likely to need ampicillin added to the empiric regimen?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A healthy student living in a dormitory"
+          },
+          {
+            "id": "B",
+            "text": "An older adult taking immunosuppressants"
+          },
+          {
+            "id": "C",
+            "text": "A healthy middle-aged adult with neck pain"
+          },
+          {
+            "id": "D",
+            "text": "An adult with a recent sinus infection"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Ampicillin adds Listeria coverage in at-risk patients, such as older or immunocompromised adults and pregnancy. Dormitory living and sinus infection raise other risks, but healthy adults are not in the listed Listeria-risk groups."
+      },
+      {
+        "id": "MEN-MM-03",
+        "type": "mcq",
+        "prompt": "A client with meningitis has a serum sodium of 128 mEq/L. A colleague wants to restrict fluids for SIADH. What should the nurse do first?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Start fluid restriction right away"
+          },
+          {
+            "id": "B",
+            "text": "Ignore it because sodium is unrelated"
+          },
+          {
+            "id": "C",
+            "text": "Give hypotonic IV fluids to dilute urine"
+          },
+          {
+            "id": "D",
+            "text": "Confirm the cause and volume status first"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Confirm the cause of hyponatremia before treating SIADH; salt loss and hypovolemia need different management, and fluid restriction can harm a hypovolemic client."
+      }
+    ],
+    "medications": [
+      {
+        "id": "MEN-PH-01",
+        "type": "mcq",
+        "prompt": "A client is receiving ceftriaxone for meningitis and ampicillin is added. What is the reason for the ampicillin?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It adds treatment for viral meningitis"
+          },
+          {
+            "id": "B",
+            "text": "It adds coverage against fungal infection"
+          },
+          {
+            "id": "C",
+            "text": "It adds coverage for Listeria organisms"
+          },
+          {
+            "id": "D",
+            "text": "It lowers the overall cost of therapy"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Ampicillin adds Listeria coverage, which ceftriaxone does not provide. It does not treat fungi or viruses."
+      },
+      {
+        "id": "MEN-PH-02",
+        "type": "mcq",
+        "prompt": "The first antibiotic dose was given, but the ordered dexamethasone was missed. What should the nurse do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Give it in place of the next antibiotic"
+          },
+          {
+            "id": "B",
+            "text": "Obtain prompt guidance about starting it"
+          },
+          {
+            "id": "C",
+            "text": "Assume the window to start it has passed"
+          },
+          {
+            "id": "D",
+            "text": "Delay the next antibiotic until it is given"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "If dexamethasone was missed, get prompt guidance rather than assuming it can never be started later. Antibiotics should never be delayed or replaced to give dexamethasone."
+      },
+      {
+        "id": "MEN-PH-03",
+        "type": "mcq",
+        "prompt": "A client with meningitis has a seizure lasting more than 5 minutes. Which medication should the nurse expect first?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A benzodiazepine per emergency protocol"
+          },
+          {
+            "id": "B",
+            "text": "Acetaminophen for fever control"
+          },
+          {
+            "id": "C",
+            "text": "IV dexamethasone as a rescue drug"
+          },
+          {
+            "id": "D",
+            "text": "Oral phenytoin through a feeding tube"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Status epilepticus requires rescue treatment such as a benzodiazepine, followed by another agent when indicated. Oral routes are unsafe during a seizure, and dexamethasone and acetaminophen do not stop seizures."
+      },
+      {
+        "id": "MEN-PH-04",
+        "type": "mcq",
+        "prompt": "IV acyclovir is ordered for suspected HSV CNS infection. Which nursing action is most important?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Review hydration and renal function"
+          },
+          {
+            "id": "B",
+            "text": "Give it IM to reduce vein irritation"
+          },
+          {
+            "id": "C",
+            "text": "Infuse calcium alongside each dose"
+          },
+          {
+            "id": "D",
+            "text": "Test hearing before giving each dose"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Acyclovir requires hydration/renal review. Calcium co-infusion, hearing checks, and IM dosing are not the listed requirements."
+      }
+    ],
+    "nonpharmacological": [
+      {
+        "id": "MEN-NP-01",
+        "type": "mcq",
+        "prompt": "A client is admitted with suspected meningococcal meningitis. Which precautions should the nurse start immediately?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Airborne, in a negative-pressure room"
+          },
+          {
+            "id": "B",
+            "text": "Standard plus Contact Precautions"
+          },
+          {
+            "id": "C",
+            "text": "Standard plus Droplet Precautions"
+          },
+          {
+            "id": "D",
+            "text": "Standard Precautions on their own"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Use Standard plus Droplet Precautions immediately when meningococcal or Hib meningitis is suspected. A negative-pressure airborne room is not required, and Standard or Contact Precautions do not address droplet spread."
+      },
+      {
+        "id": "MEN-NP-02",
+        "type": "mcq",
+        "prompt": "A client with meningococcal meningitis started effective antibiotics this morning, and the fever has broken. What should the nurse do about droplet precautions?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Switch to airborne precautions for added safety"
+          },
+          {
+            "id": "B",
+            "text": "Continue them until the antibiotic course ends"
+          },
+          {
+            "id": "C",
+            "text": "Continue until at least 24 hours of effective antibiotics."
+          },
+          {
+            "id": "D",
+            "text": "Stop them now because the fever has resolved"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Droplet precautions for meningococcal disease continue until at least 24 hours after effective antibiotics start. Fever resolution is not the criterion, the full course is not required, and airborne precautions are not indicated."
+      },
+      {
+        "id": "MEN-NP-03",
+        "type": "mcq",
+        "prompt": "A client with meningitis has severe photophobia and headache. Which environment is best?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A quiet, dim room with few disturbances"
+          },
+          {
+            "id": "B",
+            "text": "A hallway bed for closer observation"
+          },
+          {
+            "id": "C",
+            "text": "A bright room near the nurses’ station"
+          },
+          {
+            "id": "D",
+            "text": "A room with the television on to distract"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "A quiet, dim room helps headache, photophobia, and sound sensitivity. Bright, noisy, or busy locations add stimulation and distress."
+      },
+      {
+        "id": "MEN-NP-04",
+        "type": "mcq",
+        "prompt": "Which positioning best promotes cerebral venous drainage for a hemodynamically stable client with meningitis?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Flat in bed with the neck flexed forward"
+          },
+          {
+            "id": "B",
+            "text": "Head of bed raised with the neck neutral"
+          },
+          {
+            "id": "C",
+            "text": "Side-lying with hips sharply flexed"
+          },
+          {
+            "id": "D",
+            "text": "Head lowered below the level of the heart"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Elevate the head of the bed (about 30°) with the head and neck neutral when hemodynamically appropriate to promote venous drainage. Neck flexion, hip compression, and head-down positions impede drainage."
+      }
+    ],
+    "adverse-effects": [
+      {
+        "id": "MEN-AE-01",
+        "type": "mcq",
+        "prompt": "IV phenytoin is ordered for an adult with meningitis-related seizures. Why does the nurse give it slowly with ECG and blood-pressure monitoring?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It can cause sudden, severe hyperglycemia"
+          },
+          {
+            "id": "B",
+            "text": "It can cause hypotension and arrhythmias"
+          },
+          {
+            "id": "C",
+            "text": "It can cause acute kidney failure quickly"
+          },
+          {
+            "id": "D",
+            "text": "It can cause a sudden rise in blood pressure"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Hypotension, arrhythmias, and tissue injury can occur with IV phenytoin, so the rate is limited (adults no faster than 50 mg/min, sometimes slower) with ECG, BP, and IV-site monitoring. The concern is low, not high, blood pressure, and hyperglycemia and kidney failure are not the listed rate-related risks."
+      },
+      {
+        "id": "MEN-AE-02",
+        "type": "sata",
+        "prompt": "A client is receiving IV vancomycin for meningitis. Which adverse effects should the nurse monitor for? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "IV-site phlebitis"
+          },
+          {
+            "id": "B",
+            "text": "Gingival overgrowth"
+          },
+          {
+            "id": "C",
+            "text": "Acute kidney injury"
+          },
+          {
+            "id": "D",
+            "text": "Infusion reactions"
+          },
+          {
+            "id": "E",
+            "text": "Hearing toxicity"
+          }
+        ],
+        "correct": [
+          "A",
+          "C",
+          "D",
+          "E"
+        ],
+        "rationale": "Vancomycin can cause kidney injury, infusion reactions, and hearing toxicity, and phlebitis is monitored with IV antibiotics. Gingival overgrowth is linked to longer-term phenytoin use, not vancomycin."
+      },
+      {
+        "id": "MEN-AE-03",
+        "type": "mcq",
+        "prompt": "On day 5 of IV antibiotics, a client develops persistent watery diarrhea. What should the nurse do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Give an antidiarrheal without assessment"
+          },
+          {
+            "id": "B",
+            "text": "Assess for C. difficile infection"
+          },
+          {
+            "id": "C",
+            "text": "Treat it as a normal side effect"
+          },
+          {
+            "id": "D",
+            "text": "Request a higher antibiotic dose"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Persistent or severe diarrhea during antibiotics requires assessment for C. difficile rather than being dismissed or masked."
+      }
+    ],
+    "nutrition": [
+      {
+        "id": "MEN-NU-01",
+        "type": "mcq",
+        "prompt": "A client with meningitis has a reduced level of consciousness and an unsafe swallow. Which plan is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Keep NPO but continue IV antibiotics and fluids"
+          },
+          {
+            "id": "B",
+            "text": "Hold the IV medicines while the client is NPO"
+          },
+          {
+            "id": "C",
+            "text": "Offer small sips of oral fluid, slowly and often"
+          },
+          {
+            "id": "D",
+            "text": "Encourage oral meals to help maintain strength"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "With unsafe swallowing, avoid oral intake. NPO does not mean withholding urgent IV antibiotics or fluids, so holding IV medicines is unsafe."
+      },
+      {
+        "id": "MEN-NU-02",
+        "type": "mcq",
+        "prompt": "A family member asks which diet will help treat their relative’s meningitis. What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Fasting helps the body fight the infection.”"
+          },
+          {
+            "id": "B",
+            "text": "“A high-protein diet clears the infection.”"
+          },
+          {
+            "id": "C",
+            "text": "“A high-sodium diet is needed for recovery.”"
+          },
+          {
+            "id": "D",
+            "text": "“No particular diet clears the infection.”"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "There is no special diet that treats meningitis; the nurse assesses intake, hydration, and swallowing and supports adequate nutrition. High-protein, high-sodium, or fasting approaches do not treat the infection."
+      }
+    ],
+    "assessment": [
+      {
+        "id": "MEN-AS-01",
+        "type": "mcq",
+        "prompt": "Which finding in a client with meningitis requires emergency escalation?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Headache eases after the analgesic dose"
+          },
+          {
+            "id": "B",
+            "text": "Vital signs are stable from baseline"
+          },
+          {
+            "id": "C",
+            "text": "Client eats most of the lunch tray"
+          },
+          {
+            "id": "D",
+            "text": "GCS has dropped since the last check"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Falling GCS, abnormal pupils, spreading purpuric rash, shock, or ongoing seizures require emergency escalation. The other findings show stability or improvement."
+      },
+      {
+        "id": "MEN-AS-02",
+        "type": "mcq",
+        "prompt": "A client with meningitis is hyponatremic and has dry mucous membranes and orthostatic dizziness. Why is volume status important?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hyponatremia in meningitis comes from SIADH alone"
+          },
+          {
+            "id": "B",
+            "text": "Sodium levels have little bearing on meningitis care"
+          },
+          {
+            "id": "C",
+            "text": "Fluid restriction for SIADH could harm this client"
+          },
+          {
+            "id": "D",
+            "text": "Volume status is what guides the antibiotic choice"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Hyponatremia has several causes; dry mucous membranes and orthostatic dizziness suggest hypovolemia, and fluid restriction for presumed SIADH can be harmful. Sodium matters in care, and volume status does not choose the antibiotic."
+      }
+    ],
+    "diagnoses": [
+      {
+        "id": "MEN-ND-01",
+        "type": "mcq",
+        "prompt": "A client with meningitis reports a severe headache and cannot tolerate light. Which nursing diagnosis is best supported?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hyperthermia"
+          },
+          {
+            "id": "B",
+            "text": "Acute pain"
+          },
+          {
+            "id": "C",
+            "text": "Acute anxiety"
+          },
+          {
+            "id": "D",
+            "text": "Risk for falls"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Acute pain relates to meningeal irritation, evidenced by headache and photophobia. Hyperthermia needs an elevated temperature, and anxiety or fall risk would need other findings."
+      },
+      {
+        "id": "MEN-ND-02",
+        "type": "mcq",
+        "prompt": "A client with meningitis has rising concern for brain swelling. Which nursing diagnosis addresses this risk?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Risk for ineffective cerebral tissue perfusion"
+          },
+          {
+            "id": "B",
+            "text": "Constipation related to reduced mobility in bed"
+          },
+          {
+            "id": "C",
+            "text": "Impaired physical mobility related to fatigue"
+          },
+          {
+            "id": "D",
+            "text": "Risk for impaired skin integrity from bed rest"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Risk for ineffective cerebral tissue perfusion relates to inflammation, edema, or reduced perfusion. The others address different problems."
+      }
+    ],
+    "priorities": [
+      {
+        "id": "MEN-PR-01",
+        "type": "mcq",
+        "prompt": "A client with suspected bacterial meningitis arrives actively seizing with gurgling respirations. What is the nurse’s first priority?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Place the client in isolation before other care"
+          },
+          {
+            "id": "B",
+            "text": "Stabilize the airway and manage the seizure"
+          },
+          {
+            "id": "C",
+            "text": "Transport the client at once for a CT scan"
+          },
+          {
+            "id": "D",
+            "text": "Draw blood cultures before other actions begin"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "An unprotected airway and an active seizure require immediate stabilization. Use indicated precautions concurrently as staff and equipment allow, but do not delay resuscitation for room placement, cultures, or CT."
+      },
+      {
+        "id": "MEN-PR-02",
+        "type": "mcq",
+        "prompt": "A stable client with suspected bacterial meningitis is waiting for CT. Which action delivers treatment appropriately?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hold antibiotics until the imaging is complete"
+          },
+          {
+            "id": "B",
+            "text": "Give antibiotics after a positive Gram stain"
+          },
+          {
+            "id": "C",
+            "text": "Wait for the LP results before giving antibiotics"
+          },
+          {
+            "id": "D",
+            "text": "Draw cultures and give antibiotics before the scan"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Obtain IV access and blood cultures promptly and give ordered empiric antibiotics without waiting for imaging or delayed LP. Waiting for CT, LP, or Gram stain delays time-critical treatment."
+      }
+    ],
+    "plan": [
+      {
+        "id": "MEN-PL-01",
+        "type": "mcq",
+        "prompt": "A client with bacterial meningitis was admitted an hour ago with a falling GCS. Which plan-of-care goal comes first?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Teaching about recovery and fatigue"
+          },
+          {
+            "id": "B",
+            "text": "Diet education for home care"
+          },
+          {
+            "id": "C",
+            "text": "Immediate physiological safety"
+          },
+          {
+            "id": "D",
+            "text": "Discharge and follow-up planning"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "The emergency goals come before recovery teaching; airway, perfusion, and neurological safety are addressed first."
+      },
+      {
+        "id": "MEN-PL-02",
+        "type": "mcq",
+        "prompt": "Which item belongs in the recovery and discharge goal after bacterial meningitis?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Arranging follow-up and a hearing assessment"
+          },
+          {
+            "id": "B",
+            "text": "Skipping hearing tests if the client feels well"
+          },
+          {
+            "id": "C",
+            "text": "Excluding the family from discharge teaching"
+          },
+          {
+            "id": "D",
+            "text": "Stopping the medicines on the day of discharge"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Before discharge, confirm medication skills, warning signs, follow-up/hearing assessment, and rehabilitation needs with the client and family. Skipping hearing tests or excluding family undermines recovery."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "MEN-IN-01",
+        "type": "mcq",
+        "prompt": "Several staff ask for antibiotics after briefly entering a meningococcal patient’s room. What is the nurse’s best action?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Give ceftriaxone to the unit staff as a group"
+          },
+          {
+            "id": "B",
+            "text": "Coordinate assessment with infection prevention"
+          },
+          {
+            "id": "C",
+            "text": "Arrange antibiotics for the staff who entered"
+          },
+          {
+            "id": "D",
+            "text": "Tell the staff that follow-up is not needed"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Coordinate exposure assessment and any prophylaxis through infection prevention or public health; routine room entry is not enough to qualify. Arranging antibiotics for everyone or dismissing concerns skips that assessment."
+      },
+      {
+        "id": "MEN-IN-02",
+        "type": "mcq",
+        "prompt": "A planned LP is deferred because the client’s platelets are low. What should happen to antimicrobial treatment?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Continue treatment as it is ordered"
+          },
+          {
+            "id": "B",
+            "text": "Give dexamethasone by itself for now"
+          },
+          {
+            "id": "C",
+            "text": "Stop antibiotics so results are not masked"
+          },
+          {
+            "id": "D",
+            "text": "Hold treatment until the LP is done"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "LP is performed only after safety is confirmed, and treatment must continue if the LP is deferred. Holding or stopping antibiotics, or giving dexamethasone without them, delays time-critical treatment."
+      }
+    ],
+    "education": [
+      {
+        "id": "MEN-ED-01",
+        "type": "mcq",
+        "prompt": "Which statement by a vaccinated household contact of a client with meningococcal disease shows understanding?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“I still need to take prophylaxis promptly.”"
+          },
+          {
+            "id": "B",
+            "text": "“I’m vaccinated, so I don’t need prophylaxis.”"
+          },
+          {
+            "id": "C",
+            "text": "“Everyone on this floor needs antibiotics.”"
+          },
+          {
+            "id": "D",
+            "text": "“I need antibiotics if I start to feel sick.”"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Eligible meningococcal close contacts need prompt prophylaxis even if vaccinated, without waiting for symptoms. Casual contacts on the floor do not automatically need antibiotics."
+      },
+      {
+        "id": "MEN-ED-02",
+        "type": "mcq",
+        "prompt": "Which infant finding should parents be taught to report urgently?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Occasional sneezing"
+          },
+          {
+            "id": "B",
+            "text": "Occasional hiccups"
+          },
+          {
+            "id": "C",
+            "text": "A bulging fontanelle"
+          },
+          {
+            "id": "D",
+            "text": "Settling after feeds"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Parents should seek urgent help for poor feeding, lethargy or irritability, temperature instability, a bulging fontanelle, apnea, or seizures. Settling after feeds, sneezing, and hiccups are common in healthy infants."
+      },
+      {
+        "id": "MEN-ED-03",
+        "type": "mcq",
+        "prompt": "A client recovering from bacterial meningitis says, “My fever is gone, so I can skip my follow-up.” What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“You still need that visit and a hearing test.”"
+          },
+          {
+            "id": "B",
+            "text": "“That’s fine, since the fever has now resolved.”"
+          },
+          {
+            "id": "C",
+            "text": "“Fatigue now would mean the infection is back.”"
+          },
+          {
+            "id": "D",
+            "text": "“That’s fine, but avoid driving for a while.”"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Attend follow-up and hearing assessment even if the acute infection has improved, because recovery can include fatigue and hearing or cognitive problems. Fatigue during recovery does not by itself mean the infection has returned."
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "MEN-EV-01",
+        "type": "mcq",
+        "prompt": "When should a hearing assessment be arranged for a client recovering from bacterial meningitis?",
+        "options": [
+          {
+            "id": "A",
+            "text": "If the client reports hearing problems"
+          },
+          {
+            "id": "B",
+            "text": "It is not needed if recovery is smooth"
+          },
+          {
+            "id": "C",
+            "text": "At a routine follow-up visit next year"
+          },
+          {
+            "id": "D",
+            "text": "As soon as the client is fit to be tested"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Arrange audiological assessment within 4 weeks of the person being well enough for testing, preferably before discharge. Hearing injury can occur despite otherwise smooth recovery; do not wait for complaints or a routine visit next year."
+      },
+      {
+        "id": "MEN-EV-02",
+        "type": "mcq",
+        "prompt": "A client’s Kernig and Brudzinski signs are now negative. How should the nurse evaluate recovery?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Negative signs prove the client has recovered"
+          },
+          {
+            "id": "B",
+            "text": "A repeat LP is required to confirm it"
+          },
+          {
+            "id": "C",
+            "text": "Negative signs alone do not prove recovery"
+          },
+          {
+            "id": "D",
+            "text": "A normal temperature confirms recovery"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Absence of Cushing’s triad or negative meningeal signs alone does not prove recovery; trends in consciousness, symptoms, and labs are reviewed. A repeat LP is done only when indicated, and a normal temperature alone is not proof."
+      }
+    ]
+  }
+}

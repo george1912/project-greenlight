@@ -1,0 +1,1394 @@
+{
+  "id": "hiv",
+  "sections": {
+    "overview": [
+      {
+        "id": "HIV-OV-01",
+        "type": "mcq",
+        "prompt": "A client newly diagnosed with HIV asks how the virus harms the immune system. Which explanation is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It attacks platelets and causes heavy bleeding"
+          },
+          {
+            "id": "B",
+            "text": "It destroys red blood cells in the bone marrow"
+          },
+          {
+            "id": "C",
+            "text": "It infects B cells and blocks antibody output"
+          },
+          {
+            "id": "D",
+            "text": "It infects and depletes CD4+ T lymphocytes"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "HIV progressively impairs cell-mediated immunity by infecting and depleting CD4+ T lymphocytes (and infects monocyte/macrophage cells). It does not primarily target red cells or platelets."
+      },
+      {
+        "id": "HIV-OV-02",
+        "type": "mcq",
+        "prompt": "A client with HIV has a CD4 count of 350 cells/mm³ and is diagnosed with esophageal candidiasis. How should the nurse interpret the client’s status?",
+        "options": [
+          {
+            "id": "A",
+            "text": "AIDS requires a very low CD4 count first"
+          },
+          {
+            "id": "B",
+            "text": "Candidiasis does not count toward AIDS"
+          },
+          {
+            "id": "C",
+            "text": "The AIDS-defining illness establishes AIDS"
+          },
+          {
+            "id": "D",
+            "text": "The client is in acute primary HIV infection"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "In a person with HIV, CD4 <200 or an AIDS-defining illness establishes AIDS, even if the CD4 count is above 200. Esophageal (not oral) candidiasis is AIDS-defining."
+      },
+      {
+        "id": "HIV-OV-03",
+        "type": "mcq",
+        "prompt": "A client with HIV asks what the viral load test tells the team. Which statement is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“It measures how many CD4 cells you have.”"
+          },
+          {
+            "id": "B",
+            "text": "“It measures HIV replication and response to ART.”"
+          },
+          {
+            "id": "C",
+            "text": "“It shows whether you have an opportunistic infection.”"
+          },
+          {
+            "id": "D",
+            "text": "“It confirms whether you have developed AIDS.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "HIV RNA viral load measures replication and response to ART; CD4 reflects immune function and guides OI prevention."
+      },
+      {
+        "id": "HIV-OV-04",
+        "type": "mcq",
+        "prompt": "A client with HIV whose viral load is undetectable asks, “Does this mean I’m cured?” What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“You can stop ART now that it’s undetectable.”"
+          },
+          {
+            "id": "B",
+            "text": "“The virus has been cleared from your cells.”"
+          },
+          {
+            "id": "C",
+            "text": "“Yes, an undetectable load means you’re cured.”"
+          },
+          {
+            "id": "D",
+            "text": "“ART suppresses HIV but doesn’t eradicate it.”"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "ART suppresses replication and allows immune recovery but does not eradicate HIV; latent reservoirs persist, so ART must continue."
+      }
+    ],
+    "manifestations": [
+      {
+        "id": "HIV-CM-01",
+        "type": "mcq",
+        "prompt": "A client with HIV and a CD4 count of 150 cells/mm³ is not on ART and reports progressive shortness of breath, dry cough, and fever. SpO₂ is 89%. Which infection should the nurse suspect?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cytomegalovirus retinitis"
+          },
+          {
+            "id": "B",
+            "text": "Pneumocystis pneumonia"
+          },
+          {
+            "id": "C",
+            "text": "Esophageal candidiasis"
+          },
+          {
+            "id": "D",
+            "text": "Cutaneous Kaposi sarcoma"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "PCP presents with progressive dyspnea, dry/nonproductive cough, fever, chest discomfort, and hypoxemia, mostly with CD4 <200. The other conditions do not cause this respiratory pattern."
+      },
+      {
+        "id": "HIV-CM-02",
+        "type": "mcq",
+        "prompt": "While inspecting the mouth of a client with HIV, the nurse notes a finding consistent with oral thrush. Which description fits?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Painful clustered vesicles along the lip border"
+          },
+          {
+            "id": "B",
+            "text": "White plaques that scrape off, leaving a red base"
+          },
+          {
+            "id": "C",
+            "text": "Firm white patches that stay put when scraped"
+          },
+          {
+            "id": "D",
+            "text": "Purple, painless raised lesions on the palate"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Thrush appears as creamy, cottage-cheese-like white plaques that can be scraped away, leaving a red base. Purple lesions suggest Kaposi sarcoma."
+      },
+      {
+        "id": "HIV-CM-03",
+        "type": "mcq",
+        "prompt": "A client with HIV and a CD4 count of 40 cells/mm³ reports new floaters and blurred vision without eye pain. Which complication should the nurse suspect?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cytomegalovirus retinitis"
+          },
+          {
+            "id": "B",
+            "text": "Cryptococcal meningitis"
+          },
+          {
+            "id": "C",
+            "text": "Toxoplasma encephalitis"
+          },
+          {
+            "id": "D",
+            "text": "Disseminated MAC infection"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "CMV retinitis, usually with CD4 <50, presents with floaters, blurred/failing vision, field defects, or painless progressive visual loss. Cryptococcal meningitis and toxoplasmosis present with headache/neurological signs, and MAC with fever, sweats, and weight loss."
+      },
+      {
+        "id": "HIV-CM-04",
+        "type": "mcq",
+        "prompt": "A client with HIV has painless purple-brown lesions on the skin and palate. Which statement about this likely condition is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It is a harmless bruise from low platelets"
+          },
+          {
+            "id": "B",
+            "text": "It is a fungal infection treated with nystatin"
+          },
+          {
+            "id": "C",
+            "text": "It is an HHV-8-associated cancer, not an OI"
+          },
+          {
+            "id": "D",
+            "text": "It is a contagious bacterial skin infection"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Kaposi sarcoma is an HHV-8-associated malignancy with often painless purple/brown vascular skin or mucosal lesions; it is a cancer, not itself an OI."
+      },
+      {
+        "id": "HIV-CM-05",
+        "type": "mcq",
+        "prompt": "A client with HIV and a CD4 count of 80 cells/mm³ has a severe headache, fever, and confusion but no neck stiffness. What should the nurse recognize?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Meningitis is excluded without neck stiffness"
+          },
+          {
+            "id": "B",
+            "text": "Cryptococcal meningitis remains possible"
+          },
+          {
+            "id": "C",
+            "text": "Headache needs routine follow-up for now"
+          },
+          {
+            "id": "D",
+            "text": "Confusion is an expected feature of HIV"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "In cryptococcal meningitis, neck stiffness may be absent; do not wait for the complete classic meningitis triad. Raised ICP can be life-threatening."
+      }
+    ],
+    "risk": [
+      {
+        "id": "HIV-RF-01",
+        "type": "mcq",
+        "prompt": "A coworker asks the nurse whether using the same bathroom as a client with HIV puts her at risk. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Just if you touch the seat without gloves.”"
+          },
+          {
+            "id": "B",
+            "text": "“Yes, through saliva left on the toilet seat.”"
+          },
+          {
+            "id": "C",
+            "text": "“Yes, so the client needs a separate bathroom.”"
+          },
+          {
+            "id": "D",
+            "text": "“HIV isn’t spread through toilets or utensils.”"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "HIV is not transmitted by ordinary touching, sharing toilets/utensils, air/water, insects, or saliva alone. Separate bathrooms or gloves for casual contact are not needed."
+      },
+      {
+        "id": "HIV-RF-02",
+        "type": "mcq",
+        "prompt": "A client with HIV on ART asks what “U = U” means for his relationship. Which explanation is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sustained viral suppression prevents sexual spread"
+          },
+          {
+            "id": "B",
+            "text": "Using condoms each time makes HIV untransmittable"
+          },
+          {
+            "id": "C",
+            "text": "Untreated HIV is unlikely to be transmitted sexually"
+          },
+          {
+            "id": "D",
+            "text": "An undetectable CD4 count means HIV can’t be treated"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "U = U means effective ART and sustained viral suppression prevent sexual transmission. It refers to viral load, not CD4 count."
+      },
+      {
+        "id": "HIV-RF-03",
+        "type": "mcq",
+        "prompt": "A client with HIV and a low CD4 count has a cat at home. What should the nurse teach to reduce toxoplasmosis risk?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Give the cat away because of the HIV diagnosis"
+          },
+          {
+            "id": "B",
+            "text": "Keep the cat outdoors and feed it raw meat"
+          },
+          {
+            "id": "C",
+            "text": "Change the litter weekly without gloves"
+          },
+          {
+            "id": "D",
+            "text": "Have someone else change the litter when possible"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Have someone else change cat litter when possible; otherwise use gloves, change it daily, and wash hands. Do not advise giving away a healthy pet solely because of HIV."
+      },
+      {
+        "id": "HIV-RF-04",
+        "type": "mcq",
+        "prompt": "A client with HIV and no other infections is admitted for a fractured ankle. Which precautions are indicated?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Standard Precautions"
+          },
+          {
+            "id": "B",
+            "text": "Protective isolation"
+          },
+          {
+            "id": "C",
+            "text": "Airborne Precautions"
+          },
+          {
+            "id": "D",
+            "text": "Contact Precautions"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Standard Precautions apply in healthcare; HIV status alone is not a reason for Contact Precautions or social isolation."
+      }
+    ],
+    "diagnostics": [
+      {
+        "id": "HIV-DX-01",
+        "type": "mcq",
+        "prompt": "A client requests HIV testing at a clinic. Which test usually begins the laboratory algorithm?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Fourth-generation antigen/antibody assay"
+          },
+          {
+            "id": "B",
+            "text": "CD4+ T-lymphocyte count with percentage"
+          },
+          {
+            "id": "C",
+            "text": "HIV genotype drug-resistance test panel"
+          },
+          {
+            "id": "D",
+            "text": "HIV-1 Western blot as a stand-alone test"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Begin the usual laboratory algorithm with a fourth-generation HIV-1/2 antigen/antibody assay, followed by a differentiation test if reactive. CD4 and resistance testing are not diagnostic screens."
+      },
+      {
+        "id": "HIV-DX-02",
+        "type": "mcq",
+        "prompt": "A client with HIV has 3 weeks of cough, night sweats, and weight loss, but his TB blood test is negative. How should the nurse interpret this?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Active TB is unlikely unless CD4 is very low"
+          },
+          {
+            "id": "B",
+            "text": "Active disease has now been excluded by it"
+          },
+          {
+            "id": "C",
+            "text": "This result doesn’t rule out active disease"
+          },
+          {
+            "id": "D",
+            "text": "Sputum tests and imaging are unnecessary"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "A TB blood/skin test does not establish or exclude active TB; sputum NAAT, smear, and culture are indicated, and TB can occur at any CD4 count."
+      },
+      {
+        "id": "HIV-DX-03",
+        "type": "mcq",
+        "prompt": "A client with HIV reports new visual changes. Which test should the nurse anticipate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A quick standard eye chart screening"
+          },
+          {
+            "id": "B",
+            "text": "A head CT scan before the eye examination"
+          },
+          {
+            "id": "C",
+            "text": "A dilated ophthalmological examination"
+          },
+          {
+            "id": "D",
+            "text": "A repeat CD4 count to judge the cause"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Suspected retinitis needs a dilated ophthalmological examination; CD4 or an eye chart alone cannot assess the retina."
+      }
+    ],
+    "medical": [
+      {
+        "id": "HIV-MM-01",
+        "type": "mcq",
+        "prompt": "A client without HIV is evaluated 6 hours after a sexual exposure assessed as carrying substantial risk for HIV acquisition. PEP is indicated. What should the nurse anticipate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Start PEP promptly, as soon as possible"
+          },
+          {
+            "id": "B",
+            "text": "Wait to see whether symptoms develop first"
+          },
+          {
+            "id": "C",
+            "text": "Start daily PrEP next month instead of PEP"
+          },
+          {
+            "id": "D",
+            "text": "Delay PEP until the partner can be tested"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "When PEP is indicated after a substantial-risk exposure, start as soon as possible, ideally within 24 hours and no later than 72 hours. Do not delay the first dose while waiting for source information or laboratory results. Unknown source status alone does not make every exposure a PEP indication."
+      },
+      {
+        "id": "HIV-MM-02",
+        "type": "mcq",
+        "prompt": "A client starting PEP asks how to take it. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Take prescribed PEP for 28 days and attend scheduled HIV testing"
+          },
+          {
+            "id": "B",
+            "text": "“Take it just on the days you notice symptoms.”"
+          },
+          {
+            "id": "C",
+            "text": "“Stop it once you feel sure you weren’t infected.”"
+          },
+          {
+            "id": "D",
+            "text": "“Keep taking it from now on as your daily PrEP.”"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "PEP is a prescribed 28-day regimen, not symptom-based dosing or indefinite PrEP. Complete the course and keep baseline, early follow-up, and scheduled HIV-testing appointments. HIV laboratory follow-up generally includes Ag/Ab and NAT testing at 4–6 and 12 weeks after initiation; follow the appropriate nonoccupational or occupational pathway."
+      },
+      {
+        "id": "HIV-MM-03",
+        "type": "mcq",
+        "prompt": "A nurse sustains a needlestick from a used needle. What should the nurse do first?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Squeeze the wound hard to force out blood"
+          },
+          {
+            "id": "B",
+            "text": "Wash with soap and water and report it now"
+          },
+          {
+            "id": "C",
+            "text": "Soak the site in bleach to disinfect it"
+          },
+          {
+            "id": "D",
+            "text": "Finish the shift and report it tomorrow"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "After a workplace exposure, wash skin with soap/water, report immediately, and activate occupational health; do not squeeze aggressively or use caustic disinfectant."
+      },
+      {
+        "id": "HIV-MM-04",
+        "type": "mcq",
+        "prompt": "A client taking oral PrEP says, “Now I don’t need condoms or birth control.” What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“PrEP will treat HIV if you do get infected.”"
+          },
+          {
+            "id": "B",
+            "text": "“PrEP doesn’t prevent other STIs or pregnancy.”"
+          },
+          {
+            "id": "C",
+            "text": "“PrEP also protects you against other STIs.”"
+          },
+          {
+            "id": "D",
+            "text": "“PrEP also works as a form of birth control.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "PrEP is not a complete HIV-treatment regimen and does not prevent other STIs or pregnancy. Condoms and contraception remain relevant to the client’s goals."
+      }
+    ],
+    "medications": [
+      {
+        "id": "HIV-PH-01",
+        "type": "mcq",
+        "prompt": "A client with HIV is diagnosed with PCP and has no sulfa allergy. Which medication does the nurse anticipate as preferred?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Valganciclovir (Valcyte)"
+          },
+          {
+            "id": "B",
+            "text": "TMP-SMX (Septra/Bactrim)"
+          },
+          {
+            "id": "C",
+            "text": "Fluconazole (Diflucan)"
+          },
+          {
+            "id": "D",
+            "text": "Azithromycin (Zithromax)"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "TMP-SMX is preferred for PCP treatment and prophylaxis. Fluconazole treats candidiasis, valganciclovir treats CMV, and azithromycin is used for MAC."
+      },
+      {
+        "id": "HIV-PH-02",
+        "type": "mcq",
+        "prompt": "A client with toxoplasma encephalitis receives pyrimethamine and sulfadiazine plus leucovorin. Why is leucovorin given?",
+        "options": [
+          {
+            "id": "A",
+            "text": "To protect the bone marrow from toxicity"
+          },
+          {
+            "id": "B",
+            "text": "To raise the client’s CD4 cell count"
+          },
+          {
+            "id": "C",
+            "text": "To prevent sulfa-related allergic reactions"
+          },
+          {
+            "id": "D",
+            "text": "To kill the Toxoplasma parasite directly"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Leucovorin reduces pyrimethamine marrow toxicity; it does not treat the parasite or raise CD4."
+      },
+      {
+        "id": "HIV-PH-03",
+        "type": "mcq",
+        "prompt": "A client with HIV has painful swallowing and is diagnosed with esophageal candidiasis. Which treatment does the nurse expect?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Topical clotrimazole cream to the oral mucosa"
+          },
+          {
+            "id": "B",
+            "text": "Nystatin swish-and-swallow used by itself"
+          },
+          {
+            "id": "C",
+            "text": "Systemic antifungal therapy such as fluconazole"
+          },
+          {
+            "id": "D",
+            "text": "No treatment until oral thrush also appears"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Esophageal disease requires systemic antifungal therapy, usually fluconazole; nystatin alone is inadequate."
+      },
+      {
+        "id": "HIV-PH-04",
+        "type": "mcq",
+        "prompt": "A client without HIV is starting daily oral TDF/FTC PrEP. Which baseline assessments should the nurse verify?",
+        "options": [
+          {
+            "id": "A",
+            "text": "CD4 count and HIV viral genotype testing"
+          },
+          {
+            "id": "B",
+            "text": "Liver biopsy and baseline bone density"
+          },
+          {
+            "id": "C",
+            "text": "HIV status, hepatitis B, and renal function"
+          },
+          {
+            "id": "D",
+            "text": "Audiometry and a dilated eye examination"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Check HIV status, HBV, and renal function before TDF/FTC PrEP; stopping tenofovir/FTC in active HBV can cause a hepatitis flare."
+      },
+      {
+        "id": "HIV-PH-05",
+        "type": "mcq",
+        "prompt": "A client with HIV and newly diagnosed cryptococcal meningitis asks why ART is not being started right away. What is the best explanation?",
+        "options": [
+          {
+            "id": "A",
+            "text": "ART is avoided long term after cryptococcal disease"
+          },
+          {
+            "id": "B",
+            "text": "ART does not work while a fungal infection is present"
+          },
+          {
+            "id": "C",
+            "text": "ART makes the antifungal drugs much less effective"
+          },
+          {
+            "id": "D",
+            "text": "Delaying ART for a period reduces inflammatory harm"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "ART initiation is usually deferred about 4–6 weeks for CNS cryptococcal disease to reduce harm from inflammatory complications, under specialist supervision. ART is still started later and does not inactivate antifungals."
+      }
+    ],
+    "nonpharmacological": [
+      {
+        "id": "HIV-NP-01",
+        "type": "mcq",
+        "prompt": "A client with HIV is admitted with suspected infectious pulmonary TB. Which precautions should the nurse implement?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Standard precautions alone for the HIV"
+          },
+          {
+            "id": "B",
+            "text": "Droplet precautions because of the HIV"
+          },
+          {
+            "id": "C",
+            "text": "Airborne precautions for the possible TB"
+          },
+          {
+            "id": "D",
+            "text": "Contact precautions because of the HIV"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Use airborne precautions for infectious pulmonary TB, rather than for HIV status itself. HIV alone needs only Standard Precautions, and droplet/contact precautions do not address airborne TB."
+      },
+      {
+        "id": "HIV-NP-02",
+        "type": "mcq",
+        "prompt": "A student assumes a client with well-controlled HIV should be referred to hospice. How should the nurse respond?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Palliative care replaces ART for clients with HIV"
+          },
+          {
+            "id": "B",
+            "text": "Advance care planning is for clients with AIDS"
+          },
+          {
+            "id": "C",
+            "text": "Clients with HIV eventually require hospice care"
+          },
+          {
+            "id": "D",
+            "text": "An HIV diagnosis alone doesn’t mean terminal illness"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Discuss goals and palliative support when appropriate to the clinical situation; an HIV diagnosis alone does not imply terminal illness."
+      }
+    ],
+    "adverse-effects": [
+      {
+        "id": "HIV-AE-01",
+        "type": "mcq",
+        "prompt": "A client with HIV is taking TMP-SMX. Which monitoring should the nurse ensure is ordered?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Thyroid function tests each week"
+          },
+          {
+            "id": "B",
+            "text": "Hearing tests before each dose"
+          },
+          {
+            "id": "C",
+            "text": "Serum lithium and sodium levels"
+          },
+          {
+            "id": "D",
+            "text": "CBC, renal function, and potassium"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "TMP-SMX can cause cytopenias, renal changes, and hyperkalemia; monitor CBC, renal function, and potassium as ordered."
+      },
+      {
+        "id": "HIV-AE-02",
+        "type": "mcq",
+        "prompt": "A few weeks after starting ART, a client with HIV has worsening lymph node swelling and fever though the viral load is falling. Which process should the nurse consider?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A new acute HIV infection from re-exposure"
+          },
+          {
+            "id": "B",
+            "text": "A severe allergic reaction to the ART regimen"
+          },
+          {
+            "id": "C",
+            "text": "Immune reconstitution inflammatory syndrome"
+          },
+          {
+            "id": "D",
+            "text": "ART treatment failure that requires stopping"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "IRIS: symptoms from a known or previously unrecognized infection may worsen after ART begins despite improving immune function; escalate rather than stopping ART independently."
+      },
+      {
+        "id": "HIV-AE-03",
+        "type": "mcq",
+        "prompt": "A client with HIV is receiving amphotericin B for cryptococcal meningitis. Which adverse effects should the nurse monitor?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hearing loss and tinnitus from the drug"
+          },
+          {
+            "id": "B",
+            "text": "Infusion reactions, nephrotoxicity, low K/Mg"
+          },
+          {
+            "id": "C",
+            "text": "Hypertension and rapid weight gain"
+          },
+          {
+            "id": "D",
+            "text": "Hyperkalemia and hypercalcemia from the drug"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Amphotericin B can cause infusion reactions, nephrotoxicity, and potassium/magnesium loss. It lowers rather than raises potassium."
+      },
+      {
+        "id": "HIV-AE-04",
+        "type": "mcq",
+        "prompt": "A client with HIV cannot take TMP-SMX and is prescribed dapsone. What must be assessed first?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Thyroid levels"
+          },
+          {
+            "id": "B",
+            "text": "G6PD status"
+          },
+          {
+            "id": "C",
+            "text": "Bone density"
+          },
+          {
+            "id": "D",
+            "text": "Serum uric acid"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Dapsone alternatives require G6PD assessment because of hemolysis/methemoglobinemia risk. Uric acid, thyroid, and bone density are not dapsone screening tests."
+      }
+    ],
+    "nutrition": [
+      {
+        "id": "HIV-NU-01",
+        "type": "mcq",
+        "prompt": "A client with HIV wasting has a poor appetite. Which nutrition approach is best?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Three large high-fiber meals at set times"
+          },
+          {
+            "id": "B",
+            "text": "Small, frequent energy- and protein-dense meals"
+          },
+          {
+            "id": "C",
+            "text": "Fasting until the client’s appetite comes back"
+          },
+          {
+            "id": "D",
+            "text": "A low-protein plan to protect the kidneys"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "For wasting, offer small frequent energy- and protein-dense meals and dietitian-directed supplements while treating barriers. Large meals, protein restriction, or fasting worsen intake."
+      },
+      {
+        "id": "HIV-NU-02",
+        "type": "sata",
+        "prompt": "A client with HIV and a low CD4 count asks about food safety. Which practices should the nurse teach? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cook meat and eggs thoroughly"
+          },
+          {
+            "id": "B",
+            "text": "Avoid unpasteurized products"
+          },
+          {
+            "id": "C",
+            "text": "Eat rare meat for extra iron"
+          },
+          {
+            "id": "D",
+            "text": "Separate raw and cooked foods"
+          },
+          {
+            "id": "E",
+            "text": "Wash produce and your hands"
+          }
+        ],
+        "correct": [
+          "A",
+          "B",
+          "D",
+          "E"
+        ],
+        "rationale": "Use safe water, wash produce and hands, separate raw/cooked foods, cook meat/eggs thoroughly, and avoid unpasteurized products. Undercooked meat increases infection risk."
+      },
+      {
+        "id": "HIV-NU-03",
+        "type": "mcq",
+        "prompt": "A client with HIV says he wants to stop ART and use herbal supplements instead. What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“No supplement or diet replaces ART.”"
+          },
+          {
+            "id": "B",
+            "text": "“Supplements work as well as ART.”"
+          },
+          {
+            "id": "C",
+            "text": "“Herbs are safe to replace ART.”"
+          },
+          {
+            "id": "D",
+            "text": "“A special diet can control HIV.”"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "No supplement or diet replaces ART, and supplements/herbals should be reviewed for interactions. Stopping ART allows viral replication and immune damage."
+      }
+    ],
+    "assessment": [
+      {
+        "id": "HIV-AS-01",
+        "type": "mcq",
+        "prompt": "How should the nurse obtain a sexual and exposure history from a client being tested for HIV?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Skip it when the client seems to be low-risk"
+          },
+          {
+            "id": "B",
+            "text": "Ask just the clients who appear to use drugs"
+          },
+          {
+            "id": "C",
+            "text": "Ask respectfully; don’t infer from identity"
+          },
+          {
+            "id": "D",
+            "text": "Assume risk based on the client’s appearance"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Ask respectfully about exposures and practices; do not infer them from identity or appearance."
+      },
+      {
+        "id": "HIV-AS-02",
+        "type": "mcq",
+        "prompt": "A client arrives several hours after a substantial-risk exposure for PEP evaluation. What should the nurse prioritize?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Complete a full routine health history first"
+          },
+          {
+            "id": "B",
+            "text": "Schedule a clinic appointment for next week"
+          },
+          {
+            "id": "C",
+            "text": "Wait until the baseline results come back"
+          },
+          {
+            "id": "D",
+            "text": "Avoid delaying PEP while completing the history"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Do not delay time-critical PEP while completing routine history; every hour matters."
+      }
+    ],
+    "diagnoses": [
+      {
+        "id": "HIV-ND-01",
+        "type": "mcq",
+        "prompt": "A client with HIV and suspected PCP has SpO₂ of 88% and increased work of breathing. Which nursing diagnosis is best supported?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Impaired skin integrity"
+          },
+          {
+            "id": "B",
+            "text": "Impaired gas exchange"
+          },
+          {
+            "id": "C",
+            "text": "Disturbed body image"
+          },
+          {
+            "id": "D",
+            "text": "Risk for constipation"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Impaired gas exchange/ineffective breathing pattern is supported by hypoxemia or respiratory findings. The other diagnoses are not supported by these data."
+      },
+      {
+        "id": "HIV-ND-02",
+        "type": "mcq",
+        "prompt": "A client with HIV has white plaques in the mouth and perineal breakdown from chronic diarrhea. Which nursing diagnosis fits?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Impaired mucous membrane/skin integrity"
+          },
+          {
+            "id": "B",
+            "text": "Acute confusion related to dehydration"
+          },
+          {
+            "id": "C",
+            "text": "Risk for aspiration related to plaques"
+          },
+          {
+            "id": "D",
+            "text": "Impaired gas exchange related to infection"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Impaired oral mucous membrane or skin integrity is supported by thrush, lesions, or perineal breakdown. No respiratory or cognitive findings support the other diagnoses."
+      }
+    ],
+    "priorities": [
+      {
+        "id": "HIV-PR-01",
+        "type": "mcq",
+        "prompt": "A client with HIV and suspected PCP has worsening dyspnea. What is the nurse’s first action?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sit upright, check SpO₂, give prescribed O₂"
+          },
+          {
+            "id": "B",
+            "text": "Begin teaching about PCP prophylaxis now"
+          },
+          {
+            "id": "C",
+            "text": "Collect a sputum sample before anything"
+          },
+          {
+            "id": "D",
+            "text": "Wait for the CD4 result before acting"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "For possible PCP, sit upright as tolerated, assess respiratory status and SpO₂, provide prescribed oxygen, and escalate promptly; specimens should not delay treatment."
+      },
+      {
+        "id": "HIV-PR-02",
+        "type": "mcq",
+        "prompt": "The nurse is caring for four clients with HIV. Which client should be seen first?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Client requesting teaching about ART refills"
+          },
+          {
+            "id": "B",
+            "text": "Client with new severe headache and confusion"
+          },
+          {
+            "id": "C",
+            "text": "Client reporting mild fatigue after lunch"
+          },
+          {
+            "id": "D",
+            "text": "Client asking questions about food safety"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Severe headache/altered consciousness, focal deficits, or seizures take priority over routine teaching because they may signal meningitis or another CNS emergency. The other clients are stable."
+      },
+      {
+        "id": "HIV-PR-03",
+        "type": "mcq",
+        "prompt": "A client with HIV reports new floaters and loss of part of his visual field but no pain. What should the nurse do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Wait to act until the eye becomes painful"
+          },
+          {
+            "id": "B",
+            "text": "Schedule it for the next routine visit"
+          },
+          {
+            "id": "C",
+            "text": "Arrange urgent ophthalmology assessment"
+          },
+          {
+            "id": "D",
+            "text": "Recommend lubricating eye drops for now"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Arrange urgent ophthalmology assessment; do not wait for pain or the next routine visit."
+      }
+    ],
+    "plan": [
+      {
+        "id": "HIV-PL-01",
+        "type": "mcq",
+        "prompt": "Which outcome best shows that a client’s HIV treatment plan is working?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Body weight has held steady over the month"
+          },
+          {
+            "id": "B",
+            "text": "Viral load trends toward or stays suppressed"
+          },
+          {
+            "id": "C",
+            "text": "No clinic appointments were missed this week"
+          },
+          {
+            "id": "D",
+            "text": "CD4 count was checked once at the diagnosis"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Viral load trends toward/maintains suppression, with immune recovery reviewed over time. A single CD4 check, attendance alone, or unchanged weight does not show treatment response."
+      },
+      {
+        "id": "HIV-PL-02",
+        "type": "mcq",
+        "prompt": "A client with HIV has missed ART doses because of pharmacy access problems. Which action best supports sustaining treatment?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tell the client to try harder with adherence"
+          },
+          {
+            "id": "B",
+            "text": "Stop ART until the access problem improves"
+          },
+          {
+            "id": "C",
+            "text": "Switch to PrEP as a simpler daily option"
+          },
+          {
+            "id": "D",
+            "text": "Work with the team to remove access barriers"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Reconcile medicines, coordinate pharmacy/HIV team, solve access barriers, and plan refill/injection dates. Blaming the client, stopping ART, or substituting PrEP (not a treatment regimen) is inappropriate."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "HIV-IN-01",
+        "type": "mcq",
+        "prompt": "A family member asks the nurse whether the client has HIV. What should the nurse do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Show the family member the lab results"
+          },
+          {
+            "id": "B",
+            "text": "Share the status since they are closely related"
+          },
+          {
+            "id": "C",
+            "text": "Confirm the diagnosis to the family member"
+          },
+          {
+            "id": "D",
+            "text": "Protect confidentiality; don’t disclose status"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Protect confidentiality and coordinate partner services with trained staff rather than independently disclosing status to family or partners. Disclosure belongs to the client and applicable policy."
+      },
+      {
+        "id": "HIV-IN-02",
+        "type": "mcq",
+        "prompt": "Before discharging a client with HIV, what should the nurse confirm?",
+        "options": [
+          {
+            "id": "A",
+            "text": "That the family has been told the diagnosis"
+          },
+          {
+            "id": "B",
+            "text": "That the CD4 count is back in normal range"
+          },
+          {
+            "id": "C",
+            "text": "Access to ART/prophylaxis and follow-up dates"
+          },
+          {
+            "id": "D",
+            "text": "That the client has memorized each drug name"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Confirm actual access to ART/prophylaxis, dates for labs/refills/injections, warning signs, transport, and a reachable HIV-care contact. Memorization, family disclosure, or a CD4 threshold are not discharge requirements."
+      }
+    ],
+    "education": [
+      {
+        "id": "HIV-ED-01",
+        "type": "mcq",
+        "prompt": "A client with HIV asks what has to be true for U = U to apply to sex. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "His CD4 count is back in the normal range"
+          },
+          {
+            "id": "B",
+            "text": "His partner is taking daily PrEP too"
+          },
+          {
+            "id": "C",
+            "text": "He has been taking ART for a short time"
+          },
+          {
+            "id": "D",
+            "text": "Viral suppression is achieved and sustained"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "A person on effective ART with sustained, confirmed viral suppression (<200 HIV RNA copies/mL) does not transmit HIV through sex. U = U refers to viral load, not CD4; starting ART is not enough until suppression is confirmed, and partner PrEP is a separate prevention tool."
+      },
+      {
+        "id": "HIV-ED-02",
+        "type": "mcq",
+        "prompt": "A couple using latex condoms asks which lubricant is safe. What should the nurse teach?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Use petroleum jelly for longer lubrication"
+          },
+          {
+            "id": "B",
+            "text": "Use a water- or silicone-based lubricant"
+          },
+          {
+            "id": "C",
+            "text": "Use a massage oil or body lotion"
+          },
+          {
+            "id": "D",
+            "text": "Use baby oil as a gentle lubricant"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Use compatible water- or silicone-based lubricant with latex condoms; oil damages latex."
+      },
+      {
+        "id": "HIV-ED-03",
+        "type": "mcq",
+        "prompt": "A client with HIV and sustained viral suppression asks if breastfeeding carries any risk. What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Breastfeeding risk is the same as sexual risk.”"
+          },
+          {
+            "id": "B",
+            "text": "“U = U means breastfeeding carries zero risk.”"
+          },
+          {
+            "id": "C",
+            "text": "“Breastfeeding is risk-free once you take ART.”"
+          },
+          {
+            "id": "D",
+            "text": "“Risk is low but not zero; U = U is about sex.”"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Sexual U = U does not make breastfeeding risk zero; with sustained suppression the risk is less than 1% but not zero."
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "HIV-EV-01",
+        "type": "mcq",
+        "prompt": "Which teach-back statement shows the client understands PEP?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“I can borrow my partner’s ART to use as PEP.”"
+          },
+          {
+            "id": "B",
+            "text": "“I start right away and finish the full course.”"
+          },
+          {
+            "id": "C",
+            "text": "“PEP works the same way as taking daily PrEP.”"
+          },
+          {
+            "id": "D",
+            "text": "“I can wait a week to see if I feel sick first.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Evaluation includes explaining PEP’s ≤72-hour/28-day framework: start as soon as possible and complete the course. Waiting for symptoms, confusing PEP with PrEP, or using a partner’s ART is unsafe."
+      },
+      {
+        "id": "HIV-EV-02",
+        "type": "mcq",
+        "prompt": "A client’s first viral load after starting ART is undetectable. How should the nurse evaluate treatment response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Review trends and symptoms over time"
+          },
+          {
+            "id": "B",
+            "text": "Declare success from this one test"
+          },
+          {
+            "id": "C",
+            "text": "Judge response by CD4 count alone"
+          },
+          {
+            "id": "D",
+            "text": "Stop monitoring since it is undetectable"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Symptoms, function, and laboratory trends are reviewed alongside viral load rather than declaring success from one test. Monitoring continues, and CD4 alone does not measure viral response."
+      }
+    ]
+  }
+}

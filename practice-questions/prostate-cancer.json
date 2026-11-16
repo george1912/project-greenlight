@@ -1,0 +1,1284 @@
+{
+  "id": "prostate-cancer",
+  "sections": {
+    "overview": [
+      {
+        "id": "PC-OV-01",
+        "type": "mcq",
+        "prompt": "A client asks why the provider performs a rectal exam to check for prostate cancer. Which explanation is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Most tumors arise in the urethra next to the bladder"
+          },
+          {
+            "id": "B",
+            "text": "Most tumors arise in the seminal vesicles behind the bladder"
+          },
+          {
+            "id": "C",
+            "text": "Most tumors arise in the transition zone around the urethra"
+          },
+          {
+            "id": "D",
+            "text": "Most tumors arise in the peripheral zone near the rectum"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Most adenocarcinomas arise commonly in the peripheral zone near the rectum, which can make a lesion palpable on DRE. BPH usually develops in the transition/periurethral zone."
+      },
+      {
+        "id": "PC-OV-02",
+        "type": "mcq",
+        "prompt": "A client with BPH asks whether his enlarged prostate means he has cancer. What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“BPH can turn into prostate cancer over time.”"
+          },
+          {
+            "id": "B",
+            "text": "“BPH is a different disease, though both can coexist.”"
+          },
+          {
+            "id": "C",
+            "text": "“An enlarged prostate can confirm cancer is there.”"
+          },
+          {
+            "id": "D",
+            "text": "“BPH can be thought of as early prostate cancer.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "BPH is not the same disease as prostate cancer and can coexist with it; an enlarged prostate alone does not establish cancer."
+      },
+      {
+        "id": "PC-OV-03",
+        "type": "mcq",
+        "prompt": "A client with metastatic prostate cancer asks where it most commonly spreads through the blood. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The spine, pelvis, ribs, and hips"
+          },
+          {
+            "id": "B",
+            "text": "The brain, as the usual first site"
+          },
+          {
+            "id": "C",
+            "text": "The skin and subcutaneous tissue"
+          },
+          {
+            "id": "D",
+            "text": "The thyroid and salivary glands"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Bloodborne spread commonly involves the axial skeleton (spine, pelvis, ribs, hips), with lung/liver and less commonly brain involvement. Skin and thyroid are not typical sites, and the brain is not the usual first site."
+      },
+      {
+        "id": "PC-OV-04",
+        "type": "mcq",
+        "prompt": "A client is told his cancer is now “castration-resistant” and asks if he can stop his leuprolide. Which explanation is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It grows despite castrate testosterone; ADT continues"
+          },
+          {
+            "id": "B",
+            "text": "The cancer has been cured by the castration therapy"
+          },
+          {
+            "id": "C",
+            "text": "Hormone signaling is irrelevant, so ADT is stopped"
+          },
+          {
+            "id": "D",
+            "text": "Testosterone has risen too high for the ADT to work"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Castration-resistant cancer progresses despite castrate testosterone levels; it does not mean androgen signaling is irrelevant or that all hormonal treatments must stop."
+      }
+    ],
+    "manifestations": [
+      {
+        "id": "PC-CM-01",
+        "type": "mcq",
+        "prompt": "A client with metastatic prostate cancer reports new severe back pain and leg weakness. What should the nurse do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Wait until bladder control is lost"
+          },
+          {
+            "id": "B",
+            "text": "Give an analgesic and reassess tomorrow"
+          },
+          {
+            "id": "C",
+            "text": "Encourage walking to relieve the pain"
+          },
+          {
+            "id": "D",
+            "text": "Arrange immediate emergency assessment"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "New severe back pain with leg weakness suggests possible spinal cord compression and needs immediate emergency assessment; do not wait for paralysis or incontinence."
+      },
+      {
+        "id": "PC-CM-02",
+        "type": "mcq",
+        "prompt": "A client with no urinary complaints has a newly elevated PSA and asks how cancer could be present without symptoms. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Cancer usually causes a weak urinary stream.”"
+          },
+          {
+            "id": "B",
+            "text": "“Early prostate cancer is often asymptomatic.”"
+          },
+          {
+            "id": "C",
+            "text": "“Early cancer usually shows up as bone pain.”"
+          },
+          {
+            "id": "D",
+            "text": "“Without symptoms, cancer is usually ruled out.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Early prostate cancer is often asymptomatic and may be detected through PSA-based evaluation rather than symptoms. Absence of symptoms does not rule it out, and urinary or bone symptoms are not required."
+      },
+      {
+        "id": "PC-CM-03",
+        "type": "mcq",
+        "prompt": "A client reports noticing blood in his semen. How should the nurse document this finding?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hematochezia"
+          },
+          {
+            "id": "B",
+            "text": "Anejaculation"
+          },
+          {
+            "id": "C",
+            "text": "Hematospermia"
+          },
+          {
+            "id": "D",
+            "text": "Gross hematuria"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Hematospermia means blood in semen; hematuria means blood in urine, hematochezia is blood in stool, and anejaculation is absence of ejaculate. Hematospermia warrants assessment but is not specific to cancer."
+      }
+    ],
+    "risk": [
+      {
+        "id": "PC-RF-01",
+        "type": "mcq",
+        "prompt": "A client asks what the strongest common risk factor for prostate cancer is. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Increasing age"
+          },
+          {
+            "id": "B",
+            "text": "High caffeine use"
+          },
+          {
+            "id": "C",
+            "text": "Past vasectomy"
+          },
+          {
+            "id": "D",
+            "text": "Frequent cycling"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Increasing age is the strongest common risk factor, with disease much more frequent after 50. The other options are not listed risk factors."
+      },
+      {
+        "id": "PC-RF-02",
+        "type": "mcq",
+        "prompt": "A nurse is planning community prostate cancer education. Which group has higher US incidence and mortality?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Non-Hispanic White men"
+          },
+          {
+            "id": "B",
+            "text": "Hispanic/Latino American men"
+          },
+          {
+            "id": "C",
+            "text": "Asian/Pacific Islander men"
+          },
+          {
+            "id": "D",
+            "text": "Black/African American men"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Black/African American men have higher US incidence and mortality; this supports timely risk discussion and access without assuming individual outcomes."
+      },
+      {
+        "id": "PC-RF-03",
+        "type": "mcq",
+        "prompt": "A healthy client in his mid-70s with no symptoms asks for a routine PSA screening test. What does the current USPSTF recommendation state?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It recommends PSA tests on alternate years for him"
+          },
+          {
+            "id": "B",
+            "text": "It recommends screening by DRE alone at his age"
+          },
+          {
+            "id": "C",
+            "text": "It advises against screening in this age group"
+          },
+          {
+            "id": "D",
+            "text": "It recommends yearly PSA screening for older men"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "USPSTF recommends against routine PSA-based screening at age 70 or older; this does not prohibit investigating symptoms. Yearly or every-other-year PSA and DRE-only screening are not its recommendation for this age group."
+      },
+      {
+        "id": "PC-RF-04",
+        "type": "mcq",
+        "prompt": "A client’s brother was diagnosed with prostate cancer at a fairly young age. The client asks if this affects him. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Just a father’s diagnosis affects your risk.”"
+          },
+          {
+            "id": "B",
+            "text": "“That family history raises your own risk.”"
+          },
+          {
+            "id": "C",
+            "text": "“Family history has no effect on your risk.”"
+          },
+          {
+            "id": "D",
+            "text": "“Your risk is exactly three times higher.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "A father, brother, or son with prostate cancer increases risk, particularly with younger diagnosis or multiple relatives. The ‘doubles to triples’ figure is an approximate association, not a fixed personal multiplier."
+      }
+    ],
+    "diagnostics": [
+      {
+        "id": "PC-DX-01",
+        "type": "mcq",
+        "prompt": "A client with a recent urinary tract infection has an elevated PSA. How should the nurse interpret this?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Infection may raise PSA; context must be assessed"
+          },
+          {
+            "id": "B",
+            "text": "PSA may be unaffected by infection or procedures"
+          },
+          {
+            "id": "C",
+            "text": "An elevated PSA may confirm cancer on its own"
+          },
+          {
+            "id": "D",
+            "text": "A biopsy may be required automatically today"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Elevated PSA can reflect BPH, prostatitis/infection, recent procedures, and other temporary influences; confirm and assess context before automatic biopsy."
+      },
+      {
+        "id": "PC-DX-02",
+        "type": "mcq",
+        "prompt": "A client’s biopsy shows Gleason 4+3=7, and a friend’s showed 3+4=7. The client asks if they mean the same thing. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Yes, the same total gives the same grade group.”"
+          },
+          {
+            "id": "B",
+            "text": "“No, yours has more of the higher-grade pattern.”"
+          },
+          {
+            "id": "C",
+            "text": "“No, your friend’s has more aggressive cancer.”"
+          },
+          {
+            "id": "D",
+            "text": "“Gleason scores aren’t used to describe grade.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Primary/secondary patterns matter: 4+3=7 is Grade Group 3 and 3+4=7 is Grade Group 2, so a 4+3 tumor is not equivalent to 3+4 despite the same total. Higher groups generally indicate more aggressive disease."
+      },
+      {
+        "id": "PC-DX-03",
+        "type": "mcq",
+        "prompt": "On the evening after a prostate biopsy, which client report needs urgent follow-up?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Slight blood in the stool once"
+          },
+          {
+            "id": "B",
+            "text": "Light blood in the urine"
+          },
+          {
+            "id": "C",
+            "text": "Fever with shaking chills"
+          },
+          {
+            "id": "D",
+            "text": "Mild soreness in the rectum"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "After biopsy, report fever/chills, inability to void, severe pain, or heavy/persistent bleeding urgently; expected minor bleeding is explained beforehand."
+      },
+      {
+        "id": "PC-DX-04",
+        "type": "mcq",
+        "prompt": "A client with a high PSA says, “My rectal exam was normal, so I don’t need an MRI.” What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“A normal DRE excludes prostate cancer.”"
+          },
+          {
+            "id": "B",
+            "text": "“A normal DRE doesn’t rule out cancer.”"
+          },
+          {
+            "id": "C",
+            "text": "“DRE is more accurate than PSA testing.”"
+          },
+          {
+            "id": "D",
+            "text": "“DRE lets the doctor see the prostate.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "A normal DRE does not rule out cancer; DRE is palpation, not direct visual inspection, and is an adjunct."
+      }
+    ],
+    "medical": [
+      {
+        "id": "PC-MM-01",
+        "type": "mcq",
+        "prompt": "A client with low-risk prostate cancer chooses active surveillance. How does this differ from watchful waiting?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It means no monitoring until symptoms appear"
+          },
+          {
+            "id": "B",
+            "text": "It means starting ADT right away for life"
+          },
+          {
+            "id": "C",
+            "text": "It is the same program under a different name"
+          },
+          {
+            "id": "D",
+            "text": "Structured monitoring that keeps a cure option"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Active surveillance is structured monitoring with PSA, MRI, and repeat biopsy as indicated, preserving a curative option; watchful waiting is symptom-directed observation."
+      },
+      {
+        "id": "PC-MM-02",
+        "type": "mcq",
+        "prompt": "A client asks how LDR brachytherapy differs from HDR brachytherapy. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "LDR uses a temporary source; HDR leaves seeds"
+          },
+          {
+            "id": "B",
+            "text": "LDR leaves permanent seeds; HDR’s source is removed"
+          },
+          {
+            "id": "C",
+            "text": "Both are forms of external-beam radiation therapy"
+          },
+          {
+            "id": "D",
+            "text": "Both leave permanent seeds in the prostate gland"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "LDR commonly leaves permanent seeds after image-guided implantation; HDR uses a temporary source that is removed."
+      },
+      {
+        "id": "PC-MM-03",
+        "type": "mcq",
+        "prompt": "A client’s cancer has become castration-resistant, and a new agent is added. What happens to his ADT?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The ADT backbone continues"
+          },
+          {
+            "id": "B",
+            "text": "ADT is given just during pain"
+          },
+          {
+            "id": "C",
+            "text": "ADT is replaced by vitamin E"
+          },
+          {
+            "id": "D",
+            "text": "ADT is stopped going forward"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Continue the appropriate ADT backbone in castration-resistant disease; additional therapies are added according to criteria."
+      }
+    ],
+    "medications": [
+      {
+        "id": "PC-PH-01",
+        "type": "mcq",
+        "prompt": "A client with bone metastases is starting leuprolide and is also prescribed a short antiandrogen course. He asks why. What is the best explanation?",
+        "options": [
+          {
+            "id": "A",
+            "text": "To prevent irritation at the leuprolide injection site"
+          },
+          {
+            "id": "B",
+            "text": "To cover the early testosterone surge from leuprolide"
+          },
+          {
+            "id": "C",
+            "text": "To raise testosterone levels and strengthen his bones"
+          },
+          {
+            "id": "D",
+            "text": "To replace leuprolide after the very first injection"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "An agonist’s early surge can worsen bone pain/obstruction; selected patients receive short antiandrogen coverage."
+      },
+      {
+        "id": "PC-PH-02",
+        "type": "mcq",
+        "prompt": "Which ADT agents avoid the initial testosterone surge seen with GnRH agonists?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Alpha-blocker drugs such as tamsulosin"
+          },
+          {
+            "id": "B",
+            "text": "GnRH agonists such as leuprolide or goserelin"
+          },
+          {
+            "id": "C",
+            "text": "5-alpha reductase inhibitors such as finasteride"
+          },
+          {
+            "id": "D",
+            "text": "GnRH antagonists such as degarelix or relugolix"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "GnRH antagonists such as degarelix/relugolix avoid the initial testosterone surge; leuprolide and goserelin are agonists with a surge."
+      },
+      {
+        "id": "PC-PH-03",
+        "type": "mcq",
+        "prompt": "A client is starting abiraterone. Which accompanying plan should the nurse expect?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A daily potassium supplement with no lab checks"
+          },
+          {
+            "id": "B",
+            "text": "Monthly hearing tests and dilated eye examinations"
+          },
+          {
+            "id": "C",
+            "text": "A prescribed steroid plus BP, potassium, liver checks"
+          },
+          {
+            "id": "D",
+            "text": "Stopping other ADT before the first abiraterone dose"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Abiraterone commonly requires a prescribed steroid and BP/potassium/liver review. Unmonitored potassium, stopping ADT, or hearing/eye tests are not part of its standard plan."
+      },
+      {
+        "id": "PC-PH-04",
+        "type": "mcq",
+        "prompt": "A client taking finasteride for BPH is having a PSA drawn. Why should the nurse make sure the clinician knows about this medicine?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Finasteride lowers PSA"
+          },
+          {
+            "id": "B",
+            "text": "Finasteride raises PSA"
+          },
+          {
+            "id": "C",
+            "text": "Finasteride treats the cancer"
+          },
+          {
+            "id": "D",
+            "text": "Finasteride doesn’t change PSA"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Finasteride treats selected BPH and lowers PSA, so the interpreting clinician needs that history; it is not definitive cancer treatment."
+      }
+    ],
+    "nonpharmacological": [
+      {
+        "id": "PC-NP-01",
+        "type": "mcq",
+        "prompt": "A client receiving external-beam radiation asks if he must stay away from his grandchildren. What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Avoid close contact with children until it ends.”"
+          },
+          {
+            "id": "B",
+            "text": "“Your urine will be radioactive for about a week.”"
+          },
+          {
+            "id": "C",
+            "text": "“Use separate dishes for the whole treatment course.”"
+          },
+          {
+            "id": "D",
+            "text": "“This type of treatment doesn’t make you radioactive.”"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "External-beam treatment does not make the patient radioactive; seed and radioligand precautions are different."
+      },
+      {
+        "id": "PC-NP-02",
+        "type": "mcq",
+        "prompt": "A client with permanent LDR seeds finds a seed in the urine strainer. What should he do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Avoid bare fingers; follow radiation-safety steps"
+          },
+          {
+            "id": "B",
+            "text": "Pick it up by hand and flush it down the toilet"
+          },
+          {
+            "id": "C",
+            "text": "Ignore it, since a single loose seed is harmless"
+          },
+          {
+            "id": "D",
+            "text": "Throw it out with the household trash right away"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "If a seed passes, do not handle it with bare fingers; use the provided instructions/equipment, keep it away from others, and contact radiation safety."
+      },
+      {
+        "id": "PC-NP-03",
+        "type": "mcq",
+        "prompt": "A client scheduled for nerve-sparing prostatectomy says, “At least I know my erections won’t change.” What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Nerve-sparing surgery doesn’t guarantee erectile function.”"
+          },
+          {
+            "id": "B",
+            "text": "“Erectile changes only happen after radiation.”"
+          },
+          {
+            "id": "C",
+            "text": "“Erections will improve beyond baseline after surgery.”"
+          },
+          {
+            "id": "D",
+            "text": "“That’s right; nerve-sparing always preserves erections.”"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Nerve-sparing surgery does not guarantee erectile preservation; sexual rehabilitation and referral should be discussed."
+      }
+    ],
+    "adverse-effects": [
+      {
+        "id": "PC-AE-01",
+        "type": "mcq",
+        "prompt": "After a traditional monopolar TURP, a client becomes confused and nauseated with a low sodium. What is the most likely cause?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Absorbed hypotonic irrigant causing hyponatremia"
+          },
+          {
+            "id": "B",
+            "text": "Bladder spasms from the inflated catheter balloon"
+          },
+          {
+            "id": "C",
+            "text": "Expected anesthesia effects that need no action"
+          },
+          {
+            "id": "D",
+            "text": "Opioid withdrawal in the hours after surgery"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Systemic absorption of hypotonic irrigant during monopolar TURP can cause dilutional hyponatremia/fluid overload with confusion; escalate promptly."
+      },
+      {
+        "id": "PC-AE-02",
+        "type": "mcq",
+        "prompt": "A client asks what sexual changes to expect after radical prostatectomy. Which change is common?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Guaranteed preserved erections"
+          },
+          {
+            "id": "B",
+            "text": "Increased ejaculate volume"
+          },
+          {
+            "id": "C",
+            "text": "Retrograde ejaculation into bladder"
+          },
+          {
+            "id": "D",
+            "text": "Dry orgasm and infertility"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Radical surgery commonly causes dry orgasm/anejaculation and infertility from loss of prostate/seminal-vesicle contributions. Retrograde ejaculation is more typical after TURP, and erections are not guaranteed."
+      },
+      {
+        "id": "PC-AE-03",
+        "type": "sata",
+        "prompt": "A client is starting ADT. Which adverse effects should the nurse teach him to expect or report? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Frequent hot flashes"
+          },
+          {
+            "id": "B",
+            "text": "Gain in muscle mass"
+          },
+          {
+            "id": "C",
+            "text": "Reduced breast tissue"
+          },
+          {
+            "id": "D",
+            "text": "Increased libido"
+          },
+          {
+            "id": "E",
+            "text": "Gradual bone loss"
+          }
+        ],
+        "correct": [
+          "A",
+          "E"
+        ],
+        "rationale": "ADT causes hot flashes, reduced libido/ED, gynecomastia, fatigue, mood changes, muscle loss, weight gain, and bone loss/fracture risk. Libido decreases, muscle is lost rather than gained, and breast tissue may enlarge (gynecomastia) rather than shrink."
+      }
+    ],
+    "nutrition": [
+      {
+        "id": "PC-NU-01",
+        "type": "mcq",
+        "prompt": "A client asks if vitamin E supplements are safe for preventing prostate cancer. What did the SELECT trial find?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Benefit when combined with selenium"
+          },
+          {
+            "id": "B",
+            "text": "No meaningful effect on cancer risk"
+          },
+          {
+            "id": "C",
+            "text": "Clear protection against prostate cancer"
+          },
+          {
+            "id": "D",
+            "text": "Higher cancer risk in the treated group"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "SELECT found increased risk with the studied vitamin E supplementation, so it should not be used for prevention. It did not show protection, and selenium is not a proven substitute."
+      },
+      {
+        "id": "PC-NU-02",
+        "type": "mcq",
+        "prompt": "A postoperative client’s catheter has had no drainage for some time and he has lower abdominal pain. A family member suggests he drink more water. What does the nurse know?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Oral hydration is the first-line treatment here"
+          },
+          {
+            "id": "B",
+            "text": "Extra water will flush the blockage out quickly"
+          },
+          {
+            "id": "C",
+            "text": "He should drink a large volume over the next hour"
+          },
+          {
+            "id": "D",
+            "text": "Fluids won’t clear a blocked tube; assess patency"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Drinking water cannot fix a blocked catheter; absent drainage with pain suggests obstruction needing assessment and escalation."
+      },
+      {
+        "id": "PC-NU-03",
+        "type": "mcq",
+        "prompt": "Which nutrition assessment is most important for a client on long-term ADT?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Calcium/vitamin D intake and bone/muscle health"
+          },
+          {
+            "id": "B",
+            "text": "Daily vitamin E intake to prevent cancer growth"
+          },
+          {
+            "id": "C",
+            "text": "High-dose selenium intake for tumor control"
+          },
+          {
+            "id": "D",
+            "text": "Sugar intake as the main cause of hot flashes"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "During ADT, assess calcium/vitamin D intake, bone/fracture risk, and muscle preservation, using prescribed bone therapy when indicated. Vitamin E and selenium are not proven preventive treatments."
+      }
+    ],
+    "assessment": [
+      {
+        "id": "PC-AS-01",
+        "type": "mcq",
+        "prompt": "A client reports a weak stream and feeling of incomplete emptying. What should the nurse avoid advising?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Checking for suprapubic distention"
+          },
+          {
+            "id": "B",
+            "text": "Measuring urine amount and color"
+          },
+          {
+            "id": "C",
+            "text": "Straining to empty the bladder"
+          },
+          {
+            "id": "D",
+            "text": "Assessment for possible obstruction"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Assess possible obstruction instead of advising straining; Valsalva to empty a poorly draining bladder is not routine."
+      },
+      {
+        "id": "PC-AS-02",
+        "type": "mcq",
+        "prompt": "A client has known bone metastases. Which findings are most important for the nurse to assess at each visit?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hair loss, skin color, and nail bed changes"
+          },
+          {
+            "id": "B",
+            "text": "Hearing, vision, and overall dental health"
+          },
+          {
+            "id": "C",
+            "text": "Taste changes and appetite as the main focus"
+          },
+          {
+            "id": "D",
+            "text": "New back pain, leg strength, bladder changes"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Assess new or changing bone/back pain, gait, leg strength/sensation, and new bowel/bladder dysfunction to detect cord compression or fracture early. The other findings do not screen for these emergencies."
+      }
+    ],
+    "diagnoses": [
+      {
+        "id": "PC-ND-01",
+        "type": "mcq",
+        "prompt": "A client receiving chemotherapy for prostate cancer develops thrombocytopenia. Which nursing diagnosis is most directly supported?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Risk for impaired swallowing"
+          },
+          {
+            "id": "B",
+            "text": "Disturbed sensory perception"
+          },
+          {
+            "id": "C",
+            "text": "Risk for bleeding"
+          },
+          {
+            "id": "D",
+            "text": "Risk for disuse syndrome"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Thrombocytopenia means the platelet count is low, increasing bleeding risk. The diagnoses section links bleeding risk to cytopenias and cancer treatment. No swallowing, sensory, or immobility findings support the other options."
+      },
+      {
+        "id": "PC-ND-02",
+        "type": "mcq",
+        "prompt": "A client has new back pain with leg weakness. How should the nurse handle this problem?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Add a routine mobility diagnosis"
+          },
+          {
+            "id": "B",
+            "text": "Document it as chronic cancer pain"
+          },
+          {
+            "id": "C",
+            "text": "Plan teaching at the next visit"
+          },
+          {
+            "id": "D",
+            "text": "Seek urgent medical assessment"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Suspected cord compression, sepsis, and obstructed drainage require urgent medical assessment, not only a routine nursing diagnosis. Deferring teaching or labeling it chronic pain delays time-critical treatment."
+      }
+    ],
+    "priorities": [
+      {
+        "id": "PC-PR-01",
+        "type": "mcq",
+        "prompt": "During ordered CBI after TURP, catheter outflow stops and the client has painful bladder distention. After checking for kinks, what should the nurse do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Increase the irrigation rate to clear clots"
+          },
+          {
+            "id": "B",
+            "text": "Keep the inflow running and recheck later"
+          },
+          {
+            "id": "C",
+            "text": "Stop irrigation inflow and escalate promptly"
+          },
+          {
+            "id": "D",
+            "text": "Give oral fluids to increase urine flow"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Stop irrigation inflow if outflow is obstructed and promptly obtain urologic review; do not keep filling an obstructed bladder."
+      },
+      {
+        "id": "PC-PR-02",
+        "type": "mcq",
+        "prompt": "After radical prostatectomy, a client’s urinary catheter falls out. What is the nurse’s priority action?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Reinsert a new catheter at the bedside now"
+          },
+          {
+            "id": "B",
+            "text": "Teach the client to reinsert it on his own"
+          },
+          {
+            "id": "C",
+            "text": "Wait to see whether he can void on his own"
+          },
+          {
+            "id": "D",
+            "text": "Obtain prompt urology advice; don’t reinsert"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Catheter dislodgement needs prompt urology advice to protect the anastomosis; do not independently remove/reinsert or blindly manipulate the catheter."
+      }
+    ],
+    "plan": [
+      {
+        "id": "PC-PL-01",
+        "type": "mcq",
+        "prompt": "A client on ADT has had a stable PSA for several months but new hip pain. How should the nurse evaluate cancer control?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Stable PSA alone isn’t enough; assess symptoms"
+          },
+          {
+            "id": "B",
+            "text": "Monitoring can stop since the PSA is stable"
+          },
+          {
+            "id": "C",
+            "text": "Hip pain is unrelated as long as PSA is stable"
+          },
+          {
+            "id": "D",
+            "text": "A stable PSA proves the cancer is controlled"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "A stable PSA alone is not enough to declare every treatment successful; clinical trends and symptoms are reviewed."
+      },
+      {
+        "id": "PC-PL-02",
+        "type": "mcq",
+        "prompt": "How should continence and erection outcomes be evaluated after prostate cancer treatment?",
+        "options": [
+          {
+            "id": "A",
+            "text": "By comparing him to one fixed recovery timeline"
+          },
+          {
+            "id": "B",
+            "text": "By promising a full recovery of function"
+          },
+          {
+            "id": "C",
+            "text": "By ignoring them while the cancer is controlled"
+          },
+          {
+            "id": "D",
+            "text": "By client-chosen goals, not a promised recovery"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Use patient-selected outcomes and teach-back rather than promising identical continence or erection recovery for everyone. Fixed timelines and ignoring function do not reflect individualized care."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "PC-IN-01",
+        "type": "mcq",
+        "prompt": "A client is receiving continuous bladder irrigation. How should the nurse determine his true urine output?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Add the irrigant volume to the total drainage"
+          },
+          {
+            "id": "B",
+            "text": "Record the irrigant volume as urine output"
+          },
+          {
+            "id": "C",
+            "text": "Record total drainage as the urine output"
+          },
+          {
+            "id": "D",
+            "text": "Subtract the irrigant volume from total drainage"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "True urine output equals drainage minus irrigant (for example, 3,800 mL drained − 3,000 mL instilled = 800 mL). Recording total drainage overestimates output, and adding or substituting the irrigant volume is incorrect."
+      },
+      {
+        "id": "PC-IN-02",
+        "type": "mcq",
+        "prompt": "A client after TURP reports painful bladder spasms. Before giving the prescribed oxybutynin, what should the nurse do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Assess catheter patency"
+          },
+          {
+            "id": "B",
+            "text": "Remove the indwelling catheter"
+          },
+          {
+            "id": "C",
+            "text": "Increase oral fluid intake"
+          },
+          {
+            "id": "D",
+            "text": "Irrigate with large volume"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Assess patency before giving a prescribed antispasmodic, since obstruction can mimic spasm. Fluids, unordered large-volume irrigation, or removing the catheter are not appropriate first steps."
+      },
+      {
+        "id": "PC-IN-03",
+        "type": "mcq",
+        "prompt": "A client going home with a catheter asks when to empty the drainage bag. What should the nurse teach?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Before it gets too full, such as half-full"
+          },
+          {
+            "id": "B",
+            "text": "Once a week on the same day each week"
+          },
+          {
+            "id": "C",
+            "text": "When urine begins to leak from the bag"
+          },
+          {
+            "id": "D",
+            "text": "When the bag is filled right to the top"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Teach bag emptying before it becomes too full (often about half-full), with hand hygiene and securement. Waiting until full or leaking increases backflow and traction risk."
+      }
+    ],
+    "education": [
+      {
+        "id": "PC-ED-01",
+        "type": "mcq",
+        "prompt": "A client at home after prostate surgery calls about his catheter. Which report requires prompt contact with the team?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Light pink urine after walking"
+          },
+          {
+            "id": "B",
+            "text": "Large clots with no drainage"
+          },
+          {
+            "id": "C",
+            "text": "Small amount of leakage while walking"
+          },
+          {
+            "id": "D",
+            "text": "Mild urge feeling at the tip"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Worsening bright-red bleeding, large clots, distention, no drainage, or catheter loss needs prompt contact; some light blood may be expected."
+      },
+      {
+        "id": "PC-ED-02",
+        "type": "mcq",
+        "prompt": "After radical prostatectomy, a client asks when to start pelvic-floor exercises. What should the nurse teach?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Immediately, while the urinary catheter is in place"
+          },
+          {
+            "id": "B",
+            "text": "Once incontinence has lasted longer than a year"
+          },
+          {
+            "id": "C",
+            "text": "Avoid them, since they would strain the incision"
+          },
+          {
+            "id": "D",
+            "text": "When the team advises, such as after catheter removal"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Practice pelvic-floor technique when the surgical/PT team advises, often after catheter removal. Starting before advised or avoiding it entirely is not recommended."
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "PC-EV-01",
+        "type": "mcq",
+        "prompt": "Two months after complete radical prostatectomy, which PSA result is expected?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A temporary PSA bounce"
+          },
+          {
+            "id": "B",
+            "text": "An unchanged PSA"
+          },
+          {
+            "id": "C",
+            "text": "An undetectable PSA"
+          },
+          {
+            "id": "D",
+            "text": "A slowly rising PSA"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "PSA should become undetectable after complete radical prostatectomy; a slower fall and possible bounce occur after radiation."
+      },
+      {
+        "id": "PC-EV-02",
+        "type": "mcq",
+        "prompt": "Which outcome best shows that radiation-safety teaching was effective?",
+        "options": [
+          {
+            "id": "A",
+            "text": "He plans to throw passed seeds in the trash"
+          },
+          {
+            "id": "B",
+            "text": "He uses one standard interval for each therapy"
+          },
+          {
+            "id": "C",
+            "text": "He says external beams make him radioactive"
+          },
+          {
+            "id": "D",
+            "text": "He explains his own seed or radioligand plan"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Evaluation: the patient accurately explains the specific seed or radioligand instructions and has an achievable household plan. Applying one interval to every treatment or misunderstanding external-beam radiation shows teaching gaps."
+      }
+    ]
+  }
+}

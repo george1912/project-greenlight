@@ -1,0 +1,1183 @@
+{
+  "id": "multiple-sclerosis",
+  "sections": {
+    "overview": [
+      {
+        "id": "MS-OV-01",
+        "type": "mcq",
+        "prompt": "A client newly diagnosed with multiple sclerosis asks what the disease damages. Which explanation is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Acetylcholine receptors at the neuromuscular junction"
+          },
+          {
+            "id": "B",
+            "text": "CNS myelin made by oligodendrocytes, and axons"
+          },
+          {
+            "id": "C",
+            "text": "Peripheral nerve myelin made by Schwann cells"
+          },
+          {
+            "id": "D",
+            "text": "Dopamine-producing neurons in the midbrain"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "MS is an immune-mediated CNS disease in which inflammation damages myelin formed by oligodendrocytes and can injure axons. Schwann-cell myelin is peripheral (as in GBS), and the other options describe MG and PD."
+      },
+      {
+        "id": "MS-OV-02",
+        "type": "mcq",
+        "prompt": "Two clients with MS have very different symptoms. A family member asks why. What is the nurse’s best explanation?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Symptoms depend on where lesions are and their activity"
+          },
+          {
+            "id": "B",
+            "text": "Each person has a different strain of the illness"
+          },
+          {
+            "id": "C",
+            "text": "One person has peripheral rather than central disease"
+          },
+          {
+            "id": "D",
+            "text": "Symptoms reflect how long ago each person was infected"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "The location and activity of lesions determine the symptoms, so presentations vary. MS is not contagious, involves the CNS, and is not caused by different strains."
+      },
+      {
+        "id": "MS-OV-03",
+        "type": "mcq",
+        "prompt": "A client’s MS has steadily worsened since the very first symptoms, with no distinct relapses. Which course does this describe?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Relapsing-remitting MS"
+          },
+          {
+            "id": "B",
+            "text": "Primary progressive MS"
+          },
+          {
+            "id": "C",
+            "text": "Clinically isolated syndrome"
+          },
+          {
+            "id": "D",
+            "text": "Secondary progressive MS"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Primary progressive MS involves progression from onset. Relapsing-remitting MS has attacks with recovery, and secondary progressive MS develops later after a relapsing course."
+      }
+    ],
+    "manifestations": [
+      {
+        "id": "MS-CM-01",
+        "type": "mcq",
+        "prompt": "A client with MS has blurred vision and leg weakness after a hot shower that improve once they cool down. How should the nurse interpret this?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A new inflammatory lesion has formed"
+          },
+          {
+            "id": "B",
+            "text": "An acute ischemic stroke is occurring"
+          },
+          {
+            "id": "C",
+            "text": "A myasthenic crisis has just begun"
+          },
+          {
+            "id": "D",
+            "text": "Uhthoff phenomenon from heat exposure"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "The described heat-linked, reversible worsening fits Uhthoff phenomenon: temperature temporarily impairs conduction in demyelinated pathways, without the heat episode itself establishing new damage. Sudden new focal deficits still require emergency assessment; improvement alone must not be used to rule out stroke/TIA."
+      },
+      {
+        "id": "MS-CM-02",
+        "type": "mcq",
+        "prompt": "A client with MS says bending the neck forward sends an electric-shock feeling down the spine. The nurse documents this as:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Romberg sign"
+          },
+          {
+            "id": "B",
+            "text": "Babinski sign"
+          },
+          {
+            "id": "C",
+            "text": "Lhermitte sign"
+          },
+          {
+            "id": "D",
+            "text": "Brudzinski sign"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Lhermitte sign is an electric-shock-like sensation down the back or limbs with neck flexion; it is not specific to MS. Brudzinski sign is a meningeal sign, Romberg tests balance with the eyes closed, and Babinski is a toe reflex."
+      },
+      {
+        "id": "MS-CM-03",
+        "type": "mcq",
+        "prompt": "Which client presentation best fits a suspected true MS relapse rather than a pseudo-relapse?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Worse fatigue during a fever from a urinary tract infection"
+          },
+          {
+            "id": "B",
+            "text": "Brief leg tingling after a workout that fades with rest"
+          },
+          {
+            "id": "C",
+            "text": "New weakness lasting days after stability, with no infection"
+          },
+          {
+            "id": "D",
+            "text": "Blurred vision after a sauna that clears once cooled down"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "A suspected true relapse involves new or worsening neurological symptoms that persist (more than 24 hours) after a period of stability, with infection and other causes excluded. Brief, fever-related, or heat-related changes that resolve suggest a pseudo-relapse."
+      },
+      {
+        "id": "MS-CM-04",
+        "type": "mcq",
+        "prompt": "A client with MS suddenly develops right-sided weakness and cannot speak. What should the nurse do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Activate an emergency assessment for these changes"
+          },
+          {
+            "id": "B",
+            "text": "Observe for a day to see whether it is a relapse"
+          },
+          {
+            "id": "C",
+            "text": "Cool the client and treat it as Uhthoff phenomenon"
+          },
+          {
+            "id": "D",
+            "text": "Have the client take leftover steroid tablets now"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Sudden focal weakness or speech loss requires emergency assessment rather than being attributed automatically to MS. Cooling, waiting to see whether it lasts, or self-starting steroids would delay urgent care."
+      }
+    ],
+    "risk": [
+      {
+        "id": "MS-RF-01",
+        "type": "sata",
+        "prompt": "Which factors are associated with an increased risk of developing MS? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "High dietary calcium intake"
+          },
+          {
+            "id": "B",
+            "text": "A history of cigarette smoking"
+          },
+          {
+            "id": "C",
+            "text": "Epstein–Barr virus infection"
+          },
+          {
+            "id": "D",
+            "text": "Ample sunlight exposure"
+          },
+          {
+            "id": "E",
+            "text": "Regular aerobic exercise"
+          }
+        ],
+        "correct": [
+          "B",
+          "C"
+        ],
+        "rationale": "EBV infection and smoking are associated with increased MS risk, as are lower vitamin D or sunlight exposure and obesity. Ample sunlight is the opposite of the listed risk, and dietary calcium and regular exercise are not listed risk factors."
+      },
+      {
+        "id": "MS-RF-02",
+        "type": "mcq",
+        "prompt": "Which client profile best matches the typical onset of MS?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A man in young adulthood"
+          },
+          {
+            "id": "B",
+            "text": "A woman in young adulthood"
+          },
+          {
+            "id": "C",
+            "text": "A woman in late middle age"
+          },
+          {
+            "id": "D",
+            "text": "A man in older adulthood"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "MS often begins in young adulthood and is more common in women. It can occur at other ages and in any sex, but the typical profile combines both features."
+      }
+    ],
+    "diagnostics": [
+      {
+        "id": "MS-DX-01",
+        "type": "mcq",
+        "prompt": "A client asks which single test will confirm MS. What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“It combines your history, exam, MRI, and labs.”"
+          },
+          {
+            "id": "B",
+            "text": "“A single MRI spot is enough to confirm it.”"
+          },
+          {
+            "id": "C",
+            "text": "“A positive spinal-fluid result confirms it.”"
+          },
+          {
+            "id": "D",
+            "text": "“A hot-bath test is used to confirm it.”"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Diagnosis combines history, exam, MRI, lab findings, and exclusion of mimics; it is not based on one symptom, a hot-bath test, an isolated MRI spot, or a CSF result alone."
+      },
+      {
+        "id": "MS-DX-02",
+        "type": "mcq",
+        "prompt": "After a lumbar puncture for suspected MS, which CSF finding can provide supporting evidence?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Elevated CSF glucose"
+          },
+          {
+            "id": "B",
+            "text": "Protein high, cells normal"
+          },
+          {
+            "id": "C",
+            "text": "CSF oligoclonal bands"
+          },
+          {
+            "id": "D",
+            "text": "Bacteria on Gram stain"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "CSF oligoclonal bands or kappa free-light chains can support an MS diagnosis, but a positive CSF result alone does not establish MS. Elevated glucose is not a supporting finding, bacteria suggest meningitis, and high protein with normal cells (albuminocytologic dissociation) is typical of GBS."
+      },
+      {
+        "id": "MS-DX-03",
+        "type": "mcq",
+        "prompt": "A client with suspected MS is scheduled for a brain and spinal MRI. Which nursing action is the priority before the scan?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Apply warm packs to relax the neck muscles"
+          },
+          {
+            "id": "B",
+            "text": "Give a high-protein meal shortly before"
+          },
+          {
+            "id": "C",
+            "text": "Hold the usual medicines until after the scan"
+          },
+          {
+            "id": "D",
+            "text": "Complete implant/metal and pregnancy screening"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Before MRI, complete implant/metal and pregnancy screening and follow contrast and renal protocols. A pre-scan meal, holding usual medicines, or applying heat is not part of MRI preparation."
+      }
+    ],
+    "medical": [
+      {
+        "id": "MS-MM-01",
+        "type": "mcq",
+        "prompt": "A client with MS has new worsening weakness and is thought to be relapsing. What should be assessed before relapse treatment?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Whether the last MRI showed new lesions"
+          },
+          {
+            "id": "B",
+            "text": "How many years the client has had MS"
+          },
+          {
+            "id": "C",
+            "text": "Whether steroids helped a prior relapse"
+          },
+          {
+            "id": "D",
+            "text": "Infection or other causes of decline"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Assess for infection and other causes of deterioration before treating a presumed relapse, because infection can mimic or coexist with relapse. Past MRI, disease duration, or prior steroid response do not exclude a current trigger."
+      },
+      {
+        "id": "MS-MM-02",
+        "type": "mcq",
+        "prompt": "A client asks whether high-dose methylprednisolone for a relapse will control their MS long-term. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“It is needed for each relapse, however mild.”"
+          },
+          {
+            "id": "B",
+            "text": "“It can speed recovery but doesn’t replace a DMT.”"
+          },
+          {
+            "id": "C",
+            "text": "“It can prevent future relapses for many years.”"
+          },
+          {
+            "id": "D",
+            "text": "“It can replace your disease-modifying therapy.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Methylprednisolone may speed recovery from a significant relapse, but steroids are not a long-term substitute for DMTs. Not every relapse needs steroids, and a relapse course is not long-term disease control."
+      },
+      {
+        "id": "MS-MM-03",
+        "type": "mcq",
+        "prompt": "For which client with MS might plasma exchange be considered?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A client with a mild relapse that is improving"
+          },
+          {
+            "id": "B",
+            "text": "A client with heat-related Uhthoff symptoms"
+          },
+          {
+            "id": "C",
+            "text": "A client seeking primary prevention of MS"
+          },
+          {
+            "id": "D",
+            "text": "A severe relapse with a poor steroid response"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Plasma exchange may be considered for a severe relapse that responds poorly to steroids. It is not for mild relapses, prevention, or Uhthoff phenomenon."
+      }
+    ],
+    "medications": [
+      {
+        "id": "MS-PH-01",
+        "type": "mcq",
+        "prompt": "Which disease-modifying therapy requires the nurse to plan for first-dose cardiac observation?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ocrelizumab"
+          },
+          {
+            "id": "B",
+            "text": "Natalizumab"
+          },
+          {
+            "id": "C",
+            "text": "Fingolimod"
+          },
+          {
+            "id": "D",
+            "text": "Glatiramer"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Fingolimod has specific first-dose cardiac observation requirements. Glatiramer, ocrelizumab, and natalizumab have other monitoring needs (injection reactions, hepatitis B screening, PML) but not this first-dose cardiac rule."
+      },
+      {
+        "id": "MS-PH-02",
+        "type": "mcq",
+        "prompt": "A client is scheduled to start ocrelizumab. Which pre-treatment result must the nurse verify?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Creatinine clearance"
+          },
+          {
+            "id": "B",
+            "text": "Hepatitis B status"
+          },
+          {
+            "id": "C",
+            "text": "CYP2C9 genotype"
+          },
+          {
+            "id": "D",
+            "text": "Seizure history"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Ocrelizumab requires hepatitis B screening before treatment. CYP2C9 genotyping is for siponimod, and seizure history and creatinine clearance are checked before dalfampridine."
+      },
+      {
+        "id": "MS-PH-03",
+        "type": "mcq",
+        "prompt": "Dalfampridine is prescribed to improve walking. Which client finding should the nurse report before the first dose?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ongoing daytime fatigue"
+          },
+          {
+            "id": "B",
+            "text": "Lower-limb spasticity"
+          },
+          {
+            "id": "C",
+            "text": "A history of seizures"
+          },
+          {
+            "id": "D",
+            "text": "Current use of glatiramer"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Dalfampridine is contraindicated with a history of seizures or creatinine clearance ≤50 mL/min. Mild renal impairment also needs careful risk review, but is not the same categorical contraindication. Spasticity, fatigue, and use of glatiramer are not the contraindication described here."
+      },
+      {
+        "id": "MS-PH-04",
+        "type": "mcq",
+        "prompt": "A client with MS reports overheating more easily since starting a new medicine. Which drug is the likely cause?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Fingolimod"
+          },
+          {
+            "id": "B",
+            "text": "Ocrelizumab"
+          },
+          {
+            "id": "C",
+            "text": "Oxybutynin"
+          },
+          {
+            "id": "D",
+            "text": "Dalfampridine"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Oxybutynin, an anticholinergic bladder medicine, can reduce sweating and increase overheating risk; also monitor retention, constipation, dry mouth, and cognition. The other drugs are not linked with reduced sweating in the section."
+      }
+    ],
+    "nonpharmacological": [
+      {
+        "id": "MS-NP-01",
+        "type": "mcq",
+        "prompt": "A client with MS has the most energy in the morning. Which fatigue strategy should the nurse recommend?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Exercise in a warm room to build tolerance"
+          },
+          {
+            "id": "B",
+            "text": "Do demanding tasks early, with rest breaks"
+          },
+          {
+            "id": "C",
+            "text": "Push through tasks until fully exhausted"
+          },
+          {
+            "id": "D",
+            "text": "Rest in bed most of the day to save energy"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Plan demanding tasks during the best energy period and alternate activity with scheduled rest. Exhaustion, prolonged inactivity, and heat all worsen symptoms."
+      },
+      {
+        "id": "MS-NP-02",
+        "type": "mcq",
+        "prompt": "A client with MS has a large post-void residual. Which intervention may be needed?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Restricting fluids to reduce urine volume"
+          },
+          {
+            "id": "B",
+            "text": "An indwelling catheter for staff convenience"
+          },
+          {
+            "id": "C",
+            "text": "Clean intermittent catheterization as taught"
+          },
+          {
+            "id": "D",
+            "text": "Starting oxybutynin to calm the bladder"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Incomplete emptying may require measured residual urine and taught clean intermittent catheterization. Fluid restriction worsens bladder and bowel problems, oxybutynin can worsen retention, and convenience is not a reason for an indwelling catheter."
+      },
+      {
+        "id": "MS-NP-03",
+        "type": "mcq",
+        "prompt": "Which plan best manages heat sensitivity for a client with MS who wants to stay active?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Use a heated blanket at night for comfort"
+          },
+          {
+            "id": "B",
+            "text": "Use a sauna after exercise to relax muscles"
+          },
+          {
+            "id": "C",
+            "text": "Use a cooling vest and tepid, cool showers"
+          },
+          {
+            "id": "D",
+            "text": "Exercise outdoors in the hottest hours"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Use cooling, air conditioning, a cooling vest, and tepid/cool showers; moderate exercise remains useful when adapted to temperature. Saunas and heat can provoke Uhthoff symptoms."
+      }
+    ],
+    "adverse-effects": [
+      {
+        "id": "MS-AE-01",
+        "type": "mcq",
+        "prompt": "Minutes after a glatiramer injection, a client has chest tightness, flushing, and breathlessness. What is the nurse’s best action?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Apply a warm compress to the injection site"
+          },
+          {
+            "id": "B",
+            "text": "Give the next scheduled dose to test tolerance"
+          },
+          {
+            "id": "C",
+            "text": "Get emergency help for possible anaphylaxis; withhold further doses."
+          },
+          {
+            "id": "D",
+            "text": "Reassure the client that this reaction is harmless"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Early anaphylaxis can resemble an immediate post-injection reaction. Breathing difficulty after glatiramer warrants immediate emergency assessment and treatment, not reassurance or waiting for worsening; withhold further doses and follow the emergency/prescriber plan."
+      },
+      {
+        "id": "MS-AE-02",
+        "type": "mcq",
+        "prompt": "A client is receiving a first dose of fingolimod. Why does the nurse plan a period of observation with pulse and blood-pressure checks?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The first dose commonly causes heat intolerance"
+          },
+          {
+            "id": "B",
+            "text": "The first dose often triggers an allergic rash"
+          },
+          {
+            "id": "C",
+            "text": "The first dose can cause severe hypoglycemia"
+          },
+          {
+            "id": "D",
+            "text": "The first dose can have effects on the heart"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Fingolimod has specific first-dose cardiac observation requirements, including an ECG and a period of hourly pulse and blood-pressure checks. The monitoring is not for rash, low blood sugar, or heat intolerance."
+      },
+      {
+        "id": "MS-AE-03",
+        "type": "mcq",
+        "prompt": "A client on natalizumab develops progressive confusion and poor coordination over two weeks. Which complication should the nurse suspect?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Heat-related Uhthoff episode"
+          },
+          {
+            "id": "B",
+            "text": "Possible PML from therapy"
+          },
+          {
+            "id": "C",
+            "text": "Dehydration from low intake"
+          },
+          {
+            "id": "D",
+            "text": "An expected routine relapse"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Progressive neurological changes during natalizumab treatment require urgent evaluation for possible PML. Withhold further administration and seek specialist review under protocol; the symptoms do not confirm PML, and other causes must also be assessed rather than labeling this a routine relapse."
+      },
+      {
+        "id": "MS-AE-04",
+        "type": "sata",
+        "prompt": "A client’s intrathecal baclofen pump has stopped working. Which withdrawal effects should the nurse monitor for? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Reduced muscle tone"
+          },
+          {
+            "id": "B",
+            "text": "New-onset fever"
+          },
+          {
+            "id": "C",
+            "text": "Rebound spasticity"
+          },
+          {
+            "id": "D",
+            "text": "Hallucinations"
+          },
+          {
+            "id": "E",
+            "text": "Seizure activity"
+          }
+        ],
+        "correct": [
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "rationale": "Abrupt baclofen withdrawal can cause rebound spasticity, fever, hallucinations, seizures, and life-threatening illness. Tone increases rather than decreases."
+      }
+    ],
+    "nutrition": [
+      {
+        "id": "MS-NU-01",
+        "type": "mcq",
+        "prompt": "A client with MS plans to stop their DMT and follow an anti-inflammatory diet with omega-3 supplements. What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“You should cut dietary fats as much as possible.”"
+          },
+          {
+            "id": "B",
+            "text": "“That diet can safely take the place of your DMT.”"
+          },
+          {
+            "id": "C",
+            "text": "“Diet changes can’t take the place of your DMT.”"
+          },
+          {
+            "id": "D",
+            "text": "“High-dose vitamin D will prevent your relapses.”"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Balanced foods can fit a healthy eating pattern, but no specific diet or omega-3 supplement replaces DMTs or guarantees relapse prevention. Unsupervised high-dose vitamin D is not recommended, and extreme fat restriction is not part of the advice."
+      },
+      {
+        "id": "MS-NU-02",
+        "type": "mcq",
+        "prompt": "A client with MS limits fluids to avoid urgency. What should the nurse explain?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Fluids should be kept as low as can be tolerated"
+          },
+          {
+            "id": "B",
+            "text": "Low fluid intake can worsen bowel and bladder issues"
+          },
+          {
+            "id": "C",
+            "text": "Restricting fluids reliably prevents urinary infections"
+          },
+          {
+            "id": "D",
+            "text": "Fluid intake has little effect on bladder symptoms"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Excessive fluid restriction can worsen constipation and bladder problems; fluids can be spread through the day instead. Restriction does not prevent UTIs, and fluid intake does affect bladder symptoms."
+      }
+    ],
+    "assessment": [
+      {
+        "id": "MS-AS-01",
+        "type": "mcq",
+        "prompt": "A client with MS reports worse leg numbness today. Which assessment detail best helps clarify the cause?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Whether cooling restores the client’s baseline"
+          },
+          {
+            "id": "B",
+            "text": "Whether the numbness is on the dominant side"
+          },
+          {
+            "id": "C",
+            "text": "Whether the client has had MS for many years"
+          },
+          {
+            "id": "D",
+            "text": "Whether a family member also has MS"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Document onset, duration, prior deficits, heat exposure, infections, medicine changes, and whether cooling restores baseline. Disease duration, handedness, or family history do not separate a heat-related change from a relapse."
+      },
+      {
+        "id": "MS-AS-02",
+        "type": "mcq",
+        "prompt": "A client with MS reports urinary urgency. Which nursing interpretation is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Bladder assessment can be safely deferred"
+          },
+          {
+            "id": "B",
+            "text": "A positive urinalysis confirms a symptomatic UTI"
+          },
+          {
+            "id": "C",
+            "text": "Urgency means the bladder is emptying fully"
+          },
+          {
+            "id": "D",
+            "text": "Urine retention can coexist with urgency"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Retention can coexist with urgency, so residual urine may need checking. Urgency does not show full emptying, not every positive urine finding is a symptomatic UTI, and bladder symptoms need assessment."
+      }
+    ],
+    "diagnoses": [
+      {
+        "id": "MS-ND-01",
+        "type": "mcq",
+        "prompt": "A client with MS has double vision, poor balance, and numb feet. Which nursing diagnosis is best supported?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Impaired verbal communication"
+          },
+          {
+            "id": "B",
+            "text": "Impaired urinary elimination"
+          },
+          {
+            "id": "C",
+            "text": "Risk for falls and injury"
+          },
+          {
+            "id": "D",
+            "text": "Risk for impaired skin integrity"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Risk for falls and injury relates to visual, balance, sensory, or medication effects, which matches double vision, poor balance, and numb feet together. Urinary, communication, and skin diagnoses need other findings or are less directly supported."
+      },
+      {
+        "id": "MS-ND-02",
+        "type": "mcq",
+        "prompt": "A client with MS has leg spasticity and cannot walk without help. Which nursing diagnosis fits best?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Impaired urinary elimination"
+          },
+          {
+            "id": "B",
+            "text": "Disturbed sensory perception"
+          },
+          {
+            "id": "C",
+            "text": "Impaired physical mobility"
+          },
+          {
+            "id": "D",
+            "text": "Caregiver role strain"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Impaired physical mobility relates to weakness, spasticity, or impaired coordination. The other diagnoses relate to bladder, sensory, or caregiver findings not described here."
+      }
+    ],
+    "priorities": [
+      {
+        "id": "MS-PR-01",
+        "type": "mcq",
+        "prompt": "A client with stable MS reports worse numbness but is breathing comfortably. What should the nurse check before assuming a relapse?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Whether the DMT dose was taken this morning"
+          },
+          {
+            "id": "B",
+            "text": "Temperature, heat, infection, and medicines"
+          },
+          {
+            "id": "C",
+            "text": "How many relapses occurred in the past year"
+          },
+          {
+            "id": "D",
+            "text": "The date and result of the most recent MRI"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "For stable worsening, compare with baseline and check temperature, heat exposure, infection, and medicines before assuming relapse. Past MRI results or relapse counts do not identify a current trigger."
+      },
+      {
+        "id": "MS-PR-02",
+        "type": "mcq",
+        "prompt": "A client with MS has heat-related blurred vision after sitting in a hot car. What is the nurse’s first response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Remove the trigger, cool the client, and reassess"
+          },
+          {
+            "id": "B",
+            "text": "Apply warm packs to the back of the client’s neck"
+          },
+          {
+            "id": "C",
+            "text": "Encourage a brisk walk to improve circulation"
+          },
+          {
+            "id": "D",
+            "text": "Give IV methylprednisolone as soon as possible"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "For possible Uhthoff phenomenon, remove the heat trigger, cool, assess for fever or infection, and reassess neurological function. Steroids are not first-line for heat-related symptoms, and warm packs or exertion add more heat."
+      }
+    ],
+    "plan": [
+      {
+        "id": "MS-PL-01",
+        "type": "mcq",
+        "prompt": "Which goal is most appropriate for the heat-response part of a client’s MS plan of care?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Avoid physical activity during the warm months"
+          },
+          {
+            "id": "B",
+            "text": "Identify heat triggers and use a cooling strategy"
+          },
+          {
+            "id": "C",
+            "text": "Take hot baths daily to build heat tolerance"
+          },
+          {
+            "id": "D",
+            "text": "Stop reporting symptoms that occur with heat"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "The goal is to identify personal heat triggers and demonstrate a practical cooling and escalation plan. Avoiding activity, deliberate heat exposure, or ignoring symptoms is unsafe or unhelpful."
+      },
+      {
+        "id": "MS-PL-02",
+        "type": "mcq",
+        "prompt": "A client with progressive MS has stable function but some lasting deficits. How should the nurse judge whether care is effective?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Count the client’s hospital days this year"
+          },
+          {
+            "id": "B",
+            "text": "Measure against goals and a realistic baseline"
+          },
+          {
+            "id": "C",
+            "text": "Count how many medicines the client takes"
+          },
+          {
+            "id": "D",
+            "text": "Effective care means full symptom resolution"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Use measurable goals against a realistic baseline; complete symptom resolution is not the only measure of effective care. Medication counts and hospital days do not show whether goals were met."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "MS-IN-01",
+        "type": "mcq",
+        "prompt": "A client with MS has memory and attention problems. Which teaching approach is most effective?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Reminders, checklists, and short demonstrations"
+          },
+          {
+            "id": "B",
+            "text": "A single long verbal explanation at discharge"
+          },
+          {
+            "id": "C",
+            "text": "Covering the content quickly in one session"
+          },
+          {
+            "id": "D",
+            "text": "Avoiding written materials to limit overload"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Use reminders, calendars, checklists, simple instructions, and demonstrations for cognitive or visual limitations. Long or rushed verbal teaching overloads memory."
+      },
+      {
+        "id": "MS-IN-02",
+        "type": "mcq",
+        "prompt": "How should the nurse organize morning care for a client with significant MS fatigue?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Keep the client in bed until fatigue resolves"
+          },
+          {
+            "id": "B",
+            "text": "Complete the care at once to free the afternoon"
+          },
+          {
+            "id": "C",
+            "text": "Group care with planned rest and cooling breaks"
+          },
+          {
+            "id": "D",
+            "text": "Schedule therapy during the warmest part of the day"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Group care thoughtfully, pace tasks, and build in rest/cooling breaks; avoid both prolonged inactivity and exhaustion."
+      }
+    ],
+    "education": [
+      {
+        "id": "MS-ED-01",
+        "type": "mcq",
+        "prompt": "Which statement by a client with MS shows a need for more teaching?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“I won’t stop my DMT without talking to my team.”"
+          },
+          {
+            "id": "B",
+            "text": "“If I feel worse, I’ll start my leftover steroids.”"
+          },
+          {
+            "id": "C",
+            "text": "“I’ll report new or persistent symptoms.”"
+          },
+          {
+            "id": "D",
+            "text": "“I won’t ever stop my baclofen suddenly.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Clients should not start leftover steroids without assessment or assume all worsening is Uhthoff phenomenon. The other statements are correct."
+      },
+      {
+        "id": "MS-ED-02",
+        "type": "mcq",
+        "prompt": "A client starting extended-release dalfampridine asks how to take it. What should the nurse teach?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Don’t crush the tablet or double a missed dose"
+          },
+          {
+            "id": "B",
+            "text": "Crush the tablet if it is hard to swallow"
+          },
+          {
+            "id": "C",
+            "text": "Use it instead of a disease-modifying therapy"
+          },
+          {
+            "id": "D",
+            "text": "Take an extra tablet on difficult days"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Follow formulation and missed-dose instructions; do not crush extended-release tablets or double doses. Dalfampridine does not replace a DMT."
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "MS-EV-01",
+        "type": "mcq",
+        "prompt": "Which outcome shows effective heat management for a client with MS?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Takes hot showers daily to build heat tolerance"
+          },
+          {
+            "id": "B",
+            "text": "Avoids activity throughout the summer months"
+          },
+          {
+            "id": "C",
+            "text": "Leaves lasting changes unreported to the team"
+          },
+          {
+            "id": "D",
+            "text": "Identifies triggers, cools, returns to baseline"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Effective heat management: the client identifies triggers, uses cooling, and returns toward baseline. Persistent changes must be escalated rather than dismissed, and avoiding all activity is not a goal."
+      },
+      {
+        "id": "MS-EV-02",
+        "type": "mcq",
+        "prompt": "A client with primary progressive MS has slowly lost some walking ability despite care. How should the nurse evaluate the neurological goals?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Stop documenting the new symptoms that appear"
+          },
+          {
+            "id": "B",
+            "text": "Promise full recovery with more intensive therapy"
+          },
+          {
+            "id": "C",
+            "text": "Stop evaluating because progression is expected"
+          },
+          {
+            "id": "D",
+            "text": "Adjust expectations rather than promise no decline"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Progressive disease may require adapting goals rather than promising no worsening. New symptoms still need assessment and documentation, and evaluation continues."
+      }
+    ]
+  }
+}

@@ -1,0 +1,780 @@
+{
+  "reviewed": "2026-11-16",
+  "source_archive": "practice-questions.zip",
+  "source_sha256": "8cf10e348666f74adb4b5696e2f0bbbf1765aae0fd681327a028969540654e7a",
+  "original_questions": 617,
+  "retained_questions": 617,
+  "omitted_questions": 0,
+  "updated_questions": 39,
+  "reviews": [
+    {
+      "reviewed": [
+        "parkinsons",
+        "myasthenia-gravis",
+        "multiple-sclerosis",
+        "als",
+        "meningitis",
+        "guillain-barre"
+      ],
+      "reviewed_question_count": 259,
+      "changes": [
+        {
+          "id": "PD-AS-02",
+          "action": "update",
+          "reason": "Multiple options fail to establish absence of aspiration: stable weight or no wet voice on a prescribed plan also cannot exclude silent aspiration. Replace the negative stem with a single unambiguous bedside-assessment principle.",
+          "fields": {
+            "question": "Which statement about bedside swallowing assessment in a client with Parkinson’s disease is accurate?",
+            "options": {
+              "A": "Clear lungs and an intact gag reflex do not exclude aspiration.",
+              "B": "A stable weight proves that aspiration is absent.",
+              "C": "No wet voice after meals proves that swallowing is safe.",
+              "D": "No coughing means an SLP swallowing evaluation is unnecessary."
+            },
+            "correct_answer": [
+              "A"
+            ],
+            "rationale": "Silent aspiration can occur without cough or other obvious bedside findings. Clear lungs, an intact gag, stable weight, or no wet voice cannot independently establish safe swallowing; use the individualized swallowing assessment and care plan."
+          },
+          "sources": [
+            "https://www.asha.org/practice-portal/clinical-topics/adult-dysphagia/"
+          ]
+        },
+        {
+          "id": "PD-NP-02",
+          "action": "update",
+          "reason": "The keyed SLP referral is appropriate, but saying respiratory therapy and pharmacy do not assess swallowing is too categorical for interdisciplinary practice.",
+          "fields": {
+            "rationale": "SLP specifically evaluates both communication and swallowing, making it the best referral for a soft voice together with coughing at meals. OT, respiratory therapy, pharmacy, and nursing may contribute to the care plan, but they do not replace this SLP evaluation."
+          },
+          "sources": [
+            "https://www.ncbi.nlm.nih.gov/books/NBK535845/"
+          ]
+        },
+        {
+          "id": "MG-NP-02",
+          "action": "update",
+          "reason": "A falling FVC requires escalation. The original rationale could be read as directing continued incentive-spirometry exercise despite deterioration; it should not decide whether an adjunct remains safe.",
+          "fields": {
+            "rationale": "Incentive spirometry may be an adjunct in the prescribed plan, but it does not treat myasthenic crisis or replace assisted ventilation. Falling FVC requires prompt clinical and respiratory assessment; do not let an adjunct delay escalation or needed ventilatory support."
+          },
+          "sources": [
+            "https://pn.bmj.com/content/25/5/422"
+          ]
+        },
+        {
+          "id": "MG-ED-02",
+          "action": "update",
+          "reason": "With stated dysphagia, the best instruction should request a safe formulation/route rather than simply tell the client to swallow a tablet whole.",
+          "fields": {
+            "options": {
+              "A": "Dissolve it in warm water before taking",
+              "B": "Chew it thoroughly before each meal",
+              "C": "Crush it into applesauce to ease swallowing",
+              "D": "Do not crush it; ask about a swallow-safe alternative."
+            },
+            "rationale": "Do not crush or chew extended-release/Timespan pyridostigmine. With dysphagia, promptly ask the prescriber/pharmacist for an appropriate formulation or route instead of forcing an unsafe swallow or independently changing the preparation."
+          },
+          "sources": [
+            "https://medlineplus.gov/druginfo/meds/a682229.html",
+            "https://www.asha.org/practice-portal/clinical-topics/adult-dysphagia/"
+          ]
+        },
+        {
+          "id": "MS-CM-01",
+          "action": "update",
+          "reason": "A heat-related reversible pattern supports Uhthoff phenomenon, but improvement does not independently exclude a stroke/TIA or every new lesion.",
+          "fields": {
+            "rationale": "The described heat-linked, reversible worsening fits Uhthoff phenomenon: temperature temporarily impairs conduction in demyelinated pathways, without the heat episode itself establishing new damage. Sudden new focal deficits still require emergency assessment; improvement alone must not be used to rule out stroke/TIA."
+          },
+          "sources": [
+            "https://www.nice.org.uk/guidance/ng220/chapter/Recommendations"
+          ]
+        },
+        {
+          "id": "MS-PH-03",
+          "action": "update",
+          "reason": "The rationale incorrectly broadens the renal contraindication to all reduced kidney function; the notes correctly specify CrCl ≤50 mL/min.",
+          "fields": {
+            "rationale": "Dalfampridine is contraindicated with a history of seizures or creatinine clearance ≤50 mL/min. Mild renal impairment also needs careful risk review, but is not the same categorical contraindication. Spasticity, fatigue, and use of glatiramer are not the contraindication described here."
+          },
+          "sources": [
+            "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c40dcc84-b839-44aa-94f2-886fb1c3d75c"
+          ]
+        },
+        {
+          "id": "MS-AE-01",
+          "action": "update",
+          "reason": "Chest tightness plus breathlessness after glatiramer may be anaphylaxis. Emergency help should not be deferred until symptoms become more severe.",
+          "fields": {
+            "options": {
+              "A": "Apply a warm compress to the injection site",
+              "B": "Give the next scheduled dose to test tolerance",
+              "C": "Get emergency help for possible anaphylaxis; withhold further doses.",
+              "D": "Reassure the client that this reaction is harmless"
+            },
+            "rationale": "Early anaphylaxis can resemble an immediate post-injection reaction. Breathing difficulty after glatiramer warrants immediate emergency assessment and treatment, not reassurance or waiting for worsening; withhold further doses and follow the emergency/prescriber plan."
+          },
+          "sources": [
+            "https://www.fda.gov/drugs/drug-safety-communications/fda-adds-boxed-warning-about-rare-serious-allergic-reaction-called-anaphylaxis-multiple-sclerosis"
+          ]
+        },
+        {
+          "id": "MS-AE-03",
+          "action": "update",
+          "reason": "The correct answer is suspected PML, but the rationale should not categorically rule out dehydration/metabolic illness or claim a confirmed drug complication from the stem.",
+          "fields": {
+            "rationale": "Progressive neurological changes during natalizumab treatment require urgent evaluation for possible PML. Withhold further administration and seek specialist review under protocol; the symptoms do not confirm PML, and other causes must also be assessed rather than labeling this a routine relapse."
+          },
+          "sources": [
+            "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962"
+          ]
+        },
+        {
+          "id": "ALS-RF-01",
+          "action": "update",
+          "reason": "Population familial-case frequency does not establish the inheritance risk for this client’s children; add the existing notes’ counseling/testing qualification to avoid false reassurance.",
+          "fields": {
+            "rationale": "Most people with ALS have no clear family history, but a pathogenic variant can still be present. Family history or a population percentage alone cannot determine this client’s children’s risk; offer genetic counseling and discussion of testing to clarify individual implications."
+          },
+          "sources": [
+            "https://onlinelibrary.wiley.com/doi/10.1002/acn3.51895"
+          ]
+        },
+        {
+          "id": "ALS-PH-02",
+          "action": "update",
+          "reason": "Option C overlaps B: a person classified as sporadic because of no family history can carry a SOD1 variant and qualify. The original rationale incorrectly excludes all sporadic ALS.",
+          "fields": {
+            "options": {
+              "A": "A client with heavy drooling",
+              "B": "An adult with SOD1-associated ALS",
+              "C": "An adult whose ALS has no identified SOD1 mutation",
+              "D": "A client with pseudobulbar affect"
+            },
+            "rationale": "Tofersen is indicated for adults with ALS associated with a SOD1 mutation. Eligibility depends on the molecular finding, not whether a family history is present. Drooling and pseudobulbar affect have different symptom-directed treatments."
+          },
+          "sources": [
+            "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=81356b45-1cb7-4eef-88ea-e44cc18b47c5",
+            "https://onlinelibrary.wiley.com/doi/10.1002/acn3.51895"
+          ]
+        },
+        {
+          "id": "ALS-NP-01",
+          "action": "update",
+          "reason": "The rationale overstates that needing an AAC device necessarily makes recording impossible; someone may use a device while some intelligible speech remains.",
+          "fields": {
+            "rationale": "Offer voice and message banking early, while speech is intelligible and if the client wants it. Waiting for speech to deteriorate may reduce recording options. The client’s preference guides the offer; it should not depend on a family request or a fixed device milestone."
+          },
+          "sources": [
+            "https://www.nice.org.uk/guidance/ng42/chapter/recommendations"
+          ]
+        },
+        {
+          "id": "MEN-DX-02",
+          "action": "update",
+          "reason": "The key is correct, but the rationale should not imply atypical or initially normal CSF findings exclude bacterial meningitis.",
+          "fields": {
+            "rationale": "Neutrophilic pleocytosis, raised protein, and low glucose are the usual bacterial pattern. Viral disease often has lymphocytes and preserved glucose, but early disease and prior treatment can alter findings; no single normal CSF result safely excludes bacterial meningitis."
+          },
+          "sources": [
+            "https://www.nice.org.uk/guidance/ng240/chapter/Recommendations"
+          ]
+        },
+        {
+          "id": "MEN-PR-01",
+          "action": "update",
+          "reason": "The rationale says isolation follows only once airway and seizure are managed. Appropriate precautions should be implemented concurrently when possible, without delaying resuscitation.",
+          "fields": {
+            "rationale": "An unprotected airway and an active seizure require immediate stabilization. Use indicated precautions concurrently as staff and equipment allow, but do not delay resuscitation for room placement, cultures, or CT."
+          },
+          "sources": [
+            "https://www.nice.org.uk/guidance/ng240/chapter/Recommendations",
+            "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html"
+          ]
+        },
+        {
+          "id": "MEN-NP-02",
+          "action": "update",
+          "reason": "The keyed option currently says only required time on antibiotics, so it does not actually reinforce the important 24-hour rule highlighted in this section.",
+          "fields": {
+            "options": {
+              "A": "Switch to airborne precautions for added safety",
+              "B": "Continue them until the antibiotic course ends",
+              "C": "Continue until at least 24 hours of effective antibiotics.",
+              "D": "Stop them now because the fever has resolved"
+            }
+          },
+          "sources": [
+            "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html"
+          ]
+        },
+        {
+          "id": "MEN-EV-01",
+          "action": "update",
+          "reason": "Specify what the 4-week hearing-assessment interval is measured from; it is being well enough for testing, not a generic discharge interval.",
+          "fields": {
+            "rationale": "Arrange audiological assessment within 4 weeks of the person being well enough for testing, preferably before discharge. Hearing injury can occur despite otherwise smooth recovery; do not wait for complaints or a routine visit next year."
+          },
+          "sources": [
+            "https://www.nice.org.uk/guidance/ng240/chapter/Recommendations"
+          ]
+        },
+        {
+          "id": "GBS-CM-03",
+          "action": "update",
+          "reason": "The autonomic key is correct, but the rationale states reduced reflexes as an absolute despite the notes’ explicit variant qualification.",
+          "fields": {
+            "rationale": "GBS dysautonomia can cause BP lability, heart-rate/rhythm changes, urinary retention, constipation, and ileus. Sudden optic-nerve vision loss is not typical. Spastic/brisk reflexes are not autonomic findings; classic GBS usually reduces reflexes, although some variants can preserve them."
+          },
+          "sources": [
+            "https://onlinelibrary.wiley.com/doi/10.1111/ene.16073"
+          ]
+        },
+        {
+          "id": "GBS-MM-01",
+          "action": "update",
+          "reason": "Inability to walk alone does not automatically justify ICU care. Add respiratory/bulbar risk to the stem so the ICU distractor is clearly appropriate while corticosteroids remain the questioned routine treatment.",
+          "fields": {
+            "question": "A nonambulatory client with GBS has rapidly progressive weakness and bulbar dysfunction. Which order should the nurse question as not effective routine GBS treatment?",
+            "rationale": "Corticosteroids are not effective routine GBS treatment. IVIG and plasma exchange are effective disease-directed options. Rapid progression and bulbar dysfunction warrant urgent monitored assessment, including ICU care when needed for respiratory or autonomic risk."
+          },
+          "sources": [
+            "https://onlinelibrary.wiley.com/doi/10.1111/ene.16073"
+          ]
+        }
+      ],
+      "summary": "Reviewed all 259 question stems, options, answer keys, rationales and source excerpts for these six topics. Every supplied source excerpt appears in its own section. Proposed 17 targeted updates (no omissions): remove a multiple-defensible-answer swallow question; correct glatiramer emergency triage, SOD1 eligibility overlap and the dalfampridine renal generalization; clarify a few safety/diagnostic rationales and make the droplet/hearing timing explicit. Remaining items are suitable for section reinforcement. Selected current numeric/high-risk checks include GBS respiratory thresholds, flu-vaccine GBS precaution, pyridostigmine timing/formulation, C5-inhibitor meningococcal risk, IV phenytoin rate, meningococcal precaution duration and post-meningitis audiology. This is not independent revalidation of every sentence in all underlying notes.",
+      "sources": [
+        {
+          "url": "https://www.asha.org/practice-portal/clinical-topics/adult-dysphagia/",
+          "purpose": "swallow"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK535845/",
+          "purpose": "pdslp"
+        },
+        {
+          "url": "https://pn.bmj.com/content/25/5/422",
+          "purpose": "mgcrisis"
+        },
+        {
+          "url": "https://medlineplus.gov/druginfo/meds/a682229.html",
+          "purpose": "mestinon"
+        },
+        {
+          "url": "https://www.nice.org.uk/guidance/ng220/chapter/Recommendations",
+          "purpose": "ms"
+        },
+        {
+          "url": "https://www.fda.gov/drugs/drug-safety-communications/fda-adds-boxed-warning-about-rare-serious-allergic-reaction-called-anaphylaxis-multiple-sclerosis",
+          "purpose": "glatiramer"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c40dcc84-b839-44aa-94f2-886fb1c3d75c",
+          "purpose": "dalfampridine"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962",
+          "purpose": "pml"
+        },
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/acn3.51895",
+          "purpose": "alsgen"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=81356b45-1cb7-4eef-88ea-e44cc18b47c5",
+          "purpose": "tofersen"
+        },
+        {
+          "url": "https://www.nice.org.uk/guidance/ng42/chapter/recommendations",
+          "purpose": "als"
+        },
+        {
+          "url": "https://www.nice.org.uk/guidance/ng240/chapter/Recommendations",
+          "purpose": "men"
+        },
+        {
+          "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html",
+          "purpose": "droplet"
+        },
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/ene.16073",
+          "purpose": "gbs"
+        },
+        {
+          "url": "https://www.cdc.gov/flu/hcp/vax-summary/vaccine-safety.html",
+          "purpose": "flu"
+        },
+        {
+          "url": "https://www.cdc.gov/meningococcal/hcp/clinical-guidance/complement-inhibitor.html",
+          "purpose": "c5"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a52cf1bd-dc1f-47be-aba8-29066d9a50fb",
+          "purpose": "phenytoin"
+        },
+        {
+          "url": "https://www.rightdecisions.scot.nhs.uk/media/2616/1061-pyridostigmine-for-myasthenia-gravis.pdf",
+          "purpose": "mgtiming"
+        }
+      ]
+    },
+    {
+      "reviewed": [
+        "rheumatoid-arthritis",
+        "osteoarthritis",
+        "osteoporosis",
+        "gout"
+      ],
+      "changes": [
+        {
+          "id": "RA-DX-04",
+          "action": "update",
+          "reason": "The broad pre-biologic “verify first” stem competes with renal safety testing and the rationale incorrectly dismisses all other tests as unnecessary. Tie the item specifically to latent-infection reactivation.",
+          "fields": {
+            "question": "Before a client starts a TNF inhibitor for RA, which screening specifically addresses the risk of reactivating latent infection?",
+            "rationale": "Screen for TB and hepatitis B because TNF-inhibitor therapy can reactivate infection. Renal and other drug-specific safety tests may also be needed, but they do not substitute for this infectious-disease screening."
+          },
+          "sources": [
+            "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/125057s424lbl.pdf"
+          ]
+        },
+        {
+          "id": "RA-AS-01",
+          "action": "update",
+          "reason": "The correct key is retained, but the rationale dismisses OTC vitamins as having little bearing on methotrexate safety even though reconciliation and folate-related products matter.",
+          "fields": {
+            "rationale": "Confirm the once-weekly methotrexate day, actual dose, folate schedule, and missed or extra doses because accidental daily dosing can be fatal. Also reconcile OTC vitamins and supplements for potential interactions; the weekly dosing and folate plan remain the central safety detail in this question."
+          },
+          "sources": [
+            "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/008085Orig1s072lbl.pdf"
+          ]
+        },
+        {
+          "id": "RA-PR-01",
+          "action": "update",
+          "reason": "Keep the urgent septic-joint key; remove the unsupported assertion that applying heat itself worsens joint infection. The teaching point is not delaying urgent evaluation.",
+          "fields": {
+            "rationale": "A very hot, swollen joint with fever in a client with RA needs urgent assessment for septic arthritis rather than an assumption of a routine flare. Check clinical stability and escalate for appropriate joint-fluid and infection evaluation. Routine comfort measures or administering the next immunosuppressant dose must not delay that assessment."
+          },
+          "sources": [
+            "https://jbji.copernicus.org/articles/8/29/2023/index.html",
+            "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/125057s424lbl.pdf"
+          ]
+        },
+        {
+          "id": "OA-IN-01",
+          "action": "update",
+          "reason": "Compression devices are themselves mechanical VTE prophylaxis, so saying they do not replace “prophylaxis” is imprecise. Distinguish them from the prescribed anticoagulant and avoid implying every patient must receive both.",
+          "fields": {
+            "options": {
+              "A": "“Compression is needed during waking hours.”",
+              "B": "“Walking replaces both devices and drugs.”",
+              "C": "“Yes, the devices fully replace the injection.”",
+              "D": "“Devices do not replace your prescribed anticoagulant.”"
+            },
+            "rationale": "Compression devices are mechanical VTE prophylaxis. When enoxaparin is also prescribed, the client should not omit it without clinical review; walking and devices do not independently cancel the medication order. The team individualizes the plan according to clotting and bleeding risk."
+          },
+          "sources": [
+            "https://www.orthoinfo.org/en/diseases--conditions/deep-vein-thrombosis/"
+          ]
+        },
+        {
+          "id": "OP-MM-01",
+          "action": "update",
+          "reason": "The adult rebound-fracture key is correct, but the rationale categorically denies withdrawal hypercalcemia, which has been reported with denosumab, particularly in pediatric/high-turnover settings. Remove that false absolute without making a rare effect the adult-osteoporosis teaching focus.",
+          "fields": {
+            "rationale": "In adult osteoporosis, stopping denosumab without a follow-on plan can cause rebound increases in bone turnover, rapid bone-density loss, and multiple vertebral fractures. A prescriber-led transition, commonly to an appropriate antiresorptive, is needed; feeling well is not a reason to stop independently."
+          },
+          "sources": [
+            "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125320s224lbl.pdf"
+          ]
+        },
+        {
+          "id": "OP-PH-01",
+          "action": "update",
+          "reason": "The keyed option omits the minimum upright interval, allowing “until after food” to be read as an arbitrarily short period. Include both label requirements in the answer itself.",
+          "fields": {
+            "options": {
+              "A": "Take with plain water; stay upright ≥30 minutes and until after food",
+              "B": "Take it at bedtime with a full glass of milk",
+              "C": "Lie down and rest for a while right after taking it",
+              "D": "Take it with breakfast and a glass of orange juice"
+            },
+            "rationale": "Take oral alendronate after rising with plain water, at least 30 minutes before the first food, drink, or other medicine. Remain upright for at least 30 minutes and until after the first food of the day. Bedtime dosing, milk/juice, or lying down soon after dosing is unsafe."
+          },
+          "sources": [
+            "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/020560s073lbl.pdf"
+          ]
+        },
+        {
+          "id": "OP-PH-04",
+          "action": "update",
+          "reason": "“Reduced kidney function” is vague; mild impairment is not automatically a Reclast contraindication. Specify a value below the verified threshold to make this a fair safety item.",
+          "fields": {
+            "options": {
+              "A": "Adequate oral fluid intake today",
+              "B": "A vitamin D level within range",
+              "C": "Creatinine clearance of 28 mL/min",
+              "D": "Calcium within the normal range"
+            },
+            "rationale": "Reclast is contraindicated when creatinine clearance is below 35 mL/min or there is acute renal impairment. A creatinine clearance of 28 mL/min therefore requires reporting and clarification before infusion. Review renal function before each dose along with hydration and calcium status."
+          },
+          "sources": [
+            "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/021817s032lbl.pdf"
+          ]
+        },
+        {
+          "id": "OP-NU-02",
+          "action": "update",
+          "reason": "The 500-mg elemental-calcium advice concerns absorption efficiency, not a universal absolute per-dose toxicity/safety limit.",
+          "fields": {
+            "rationale": "Calcium supplements are absorbed best in elemental-calcium doses of 500 mg or less, so divide a larger prescribed supplemental total rather than taking it all at once. Calcium also interferes with oral alendronate absorption and should be taken separately according to the product instructions. The 500-mg guidance is an absorption strategy, not a universal toxicity threshold."
+          },
+          "sources": [
+            "https://ods.od.nih.gov/factsheets/Calcium-Healthprofessional/",
+            "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/020560s073lbl.pdf"
+          ]
+        },
+        {
+          "id": "GT-RF-01",
+          "action": "update",
+          "reason": "An ACE inhibitor is not a defensible unqualified negative distractor in a SATA asking about possible gout contributors: primary observational evidence associates ACE inhibitors with increased incident gout. Replace that distractor so the intended C/D key is unambiguous.",
+          "fields": {
+            "options": {
+              "A": "Acetaminophen as needed",
+              "B": "Vitamin B12 replacement as prescribed",
+              "C": "Hydrochlorothiazide daily",
+              "D": "Low-dose aspirin daily",
+              "E": "Losartan for hypertension"
+            },
+            "rationale": "Hydrochlorothiazide and low-dose aspirin can contribute to higher urate; thiazide/loop diuretics, high-dose niacin, and some transplant medicines deserve review. Losartan may lower urate and can be considered as an alternative when clinically appropriate. Acetaminophen and vitamin B12 replacement are not the urate-raising contributors targeted here. Do not stop appropriately prescribed low-dose aspirin independently."
+          },
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/",
+            "https://www.bmj.com/content/344/bmj.d8190"
+          ]
+        },
+        {
+          "id": "GT-IN-02",
+          "action": "update",
+          "reason": "The stem names colchicine prophylaxis, flare treatment, and allopurinol: these are three treatment roles, not necessarily three different medicines. Colchicine can serve two roles with different prescribed schedules.",
+          "fields": {
+            "options": {
+              "A": "Explain each medicine’s purpose and prescribed dosing schedule",
+              "B": "Simplify the regimen by dropping the colchicine",
+              "C": "Advise taking each of them just during flares",
+              "D": "Advise stopping allopurinol once the flares stop"
+            },
+            "rationale": "Explain the difference between acute anti-inflammatory treatment, temporary flare prophylaxis during ULT initiation/titration, and long-term urate-lowering therapy. Colchicine can be used for flare treatment or prophylaxis under different prescribed schedules; allopurinol lowers urate over time. Do not drop, double, or stop medicines independently."
+          },
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/",
+            "https://www.nice.org.uk/guidance/ng219/chapter/Recommendations"
+          ]
+        },
+        {
+          "id": "GT-ED-01",
+          "action": "update",
+          "reason": "“Keep taking allopurinol when symptoms return” can be misread as taking it only when symptoms recur. Make continuous prescribed therapy through an ordinary flare explicit.",
+          "fields": {
+            "options": {
+              "A": "“I’ll keep taking colchicine until I get diarrhea.”",
+              "B": "“I’ll continue my prescribed daily allopurinol during a usual flare.”",
+              "C": "“I’ll double my colchicine if one dose doesn’t work.”",
+              "D": "“I’ll add ibuprofen to the naproxen I was given.”"
+            },
+            "rationale": "Continue established prescribed allopurinol during an ordinary flare rather than using it only when symptoms return. Do not double colchicine, continue it until diarrhea, or combine OTC NSAIDs. A new allopurinol rash or another serious safety concern is an exception requiring stopping and prompt medical review."
+          },
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/",
+            "https://www.nice.org.uk/guidance/ng219/chapter/Recommendations"
+          ]
+        },
+        {
+          "id": "GT-AS-02",
+          "action": "update",
+          "reason": "Medication reconciliation should cover all products; the original wording/rationale can imply only one class group needs reconciliation. Focus the stem on the specifically relevant urate/interaction review.",
+          "fields": {
+            "question": "During medication reconciliation for a client with recurrent gout, which group especially warrants review for effects on urate or interactions with gout therapy?",
+            "rationale": "Reconcile all prescribed, OTC, and supplemental products. Thiazide/loop diuretics, aspirin, and some transplant drugs are especially relevant because they can raise urate or interact with gout medicines. Review their indications with the prescriber rather than stopping them independently."
+          },
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/"
+          ]
+        }
+      ],
+      "summary": "Reviewed all 174 questions, including every option, key, rationale and matching section notes (RA 44, OA 42, osteoporosis 45, gout 43). Proposed 12 conservative updates and no omissions; all existing answer keys remain valid with these clarifications/distractor fixes. The remaining 162 questions can be retained unchanged. All sections reinforce their source notes. Checked current numeric/high-risk guidance against the primary sources listed; this review is bounded to the four assigned banks.",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/008085Orig1s072lbl.pdf",
+          "supports": "Once-weekly RA dosing, fatal daily-dose errors, toxicity and medication reconciliation."
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/125057s424lbl.pdf",
+          "supports": "TNF-inhibitor TB/HBV reactivation, screening and serious-infection safety."
+        },
+        {
+          "url": "https://jbji.copernicus.org/articles/8/29/2023/index.html",
+          "supports": "Urgent septic-joint assessment and why crystals/absent fever do not exclude infection."
+        },
+        {
+          "url": "https://www.orthoinfo.org/en/diseases--conditions/deep-vein-thrombosis/",
+          "supports": "Mechanical and pharmacological postoperative VTE-prevention modalities."
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125320s224lbl.pdf",
+          "supports": "Six-monthly dosing, advanced-CKD hypocalcemia and discontinuation vertebral-fracture warning; pediatric hypercalcemia warning."
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/020560s073lbl.pdf",
+          "supports": "At least 30 minutes fasting/upright, until after first food, supplement spacing and esophageal safety."
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/021817s032lbl.pdf",
+          "supports": "Creatinine-clearance contraindication below 35 mL/min and acute renal impairment."
+        },
+        {
+          "url": "https://ods.od.nih.gov/factsheets/Calcium-Healthprofessional/",
+          "supports": "Calcium dosing for absorption, food/supplement totals and carbonate/citrate administration."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/",
+          "supports": "Gout flare options, allopurinol/CKD, urate target, HLA screening, prophylaxis and medication contributors."
+        },
+        {
+          "url": "https://www.bmj.com/content/344/bmj.d8190",
+          "supports": "Primary observational evidence that ACE inhibitors cannot be treated as an indisputable no-gout-risk distractor."
+        },
+        {
+          "url": "https://www.nice.org.uk/guidance/ng219/chapter/Recommendations",
+          "supports": "Gout diagnostic repeat urate timing, targets, diet caveats and ongoing ULT."
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/021318s059lbl.pdf",
+          "supports": "Forteo refrigerated storage and discard 28 days after first use."
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/022560s013bl.pdf",
+          "supports": "Atelvia delayed-release administration after breakfast, plain water and 30 minutes upright."
+        },
+        {
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/osteoporosis-screening",
+          "supports": "Osteoporosis screening ages/risk and insufficient evidence in men."
+        },
+        {
+          "url": "https://iscd.org/text-based-official-adult-positions/",
+          "supports": "T-score/Z-score use and osteoporosis diagnostic thresholds."
+        },
+        {
+          "url": "https://www.aao.org/education/clinical-statement/revised-recommendations-on-screening-chloroquine-h",
+          "supports": "Current HCQ baseline and risk-adjusted retinal screening."
+        },
+        {
+          "url": "https://www.fda.gov/consumers/consumer-updates/dont-overuse-acetaminophen",
+          "supports": "Count acetaminophen from all sources; maximum adult total ceiling and overdose prevention."
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=67919c2c-2f8a-4bbb-bef5-0cd6c1e63a16",
+          "supports": "Tramadol serotonin-syndrome/seizure risks with serotonergic medicines."
+        },
+        {
+          "url": "https://dailymed.awsprod.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=d6adc880-5499-4691-93f3-27c87902d5fc&type=display",
+          "supports": "Colchicine fatal interaction/toxicity and renal/hepatic CYP3A4/P-gp precautions."
+        },
+        {
+          "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b9af9870-014f-4c4e-8738-bb04b30b3e85",
+          "supports": "Leflunomide persistence and accelerated elimination for pregnancy planning/exposure."
+        },
+        {
+          "url": "https://www.nice.org.uk/guidance/ng100/chapter/Recommendations",
+          "supports": "Early RA treatment and urgent referral despite negative serology/normal markers."
+        }
+      ]
+    },
+    {
+      "reviewed": [
+        "meniere-disease",
+        "breast-gynecologic-cancers",
+        "prostate-cancer",
+        "hiv"
+      ],
+      "changes": [
+        {
+          "id": "MD-CM-01",
+          "action": "update",
+          "reason": "The keyed option says only “minutes to hours,” which includes durations outside the stated definite-disease criterion. Reinforce the exact range rather than inviting an imprecise inference.",
+          "fields": {
+            "options": {
+              "A": "Lasting 20 minutes to 12 hours, then easing",
+              "B": "Lasting seconds, set off by head turns",
+              "C": "Lasting under a minute after standing",
+              "D": "Continuous for days without easing"
+            }
+          },
+          "sources": [
+            "https://journals.sagepub.com/doi/10.1177/0194599820909438"
+          ]
+        },
+        {
+          "id": "MD-DX-01",
+          "action": "update",
+          "reason": "The keyed diagnostic option omits both the minimum number of attacks and exact duration; specify these as the component being tested.",
+          "fields": {
+            "options": {
+              "A": "A positive blood test specific for Ménière’s disease",
+              "B": "A single prolonged vertigo episode lasting days",
+              "C": "At least 2 spontaneous attacks lasting 20 minutes to 12 hours",
+              "D": "Brief vertigo triggered by rolling over in bed"
+            }
+          },
+          "sources": [
+            "https://journals.sagepub.com/doi/10.1177/0194599820909438"
+          ]
+        },
+        {
+          "id": "MD-PH-02",
+          "action": "update",
+          "reason": "The key is sound, but the rationale incorrectly implies potassium replacement can never be needed with the combination. Avoid self-directed potassium; exceptional documented hypokalemia is prescriber-managed.",
+          "fields": {
+            "rationale": "Triamterene spares potassium, so HCTZ/triamterene can cause hyperkalemia. Do not self-start potassium supplements or potassium-containing salt substitutes. Potassium advice depends on renal function, laboratory results, and the prescribed plan; uncommon significant hypokalemia requires clinician-directed management rather than routine replacement."
+          },
+          "sources": [
+            "https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=f824b6ba-bd1c-41a8-8f6f-ad507b48f3e0&type=pdf"
+          ]
+        },
+        {
+          "id": "BGC-RF-01",
+          "action": "update",
+          "reason": "An inherited BRCA “variant” can be benign or uncertain; the cancer-risk association requires a pathogenic/harmful variant.",
+          "fields": {
+            "options": {
+              "A": "Regular moderate activity",
+              "B": "An inherited pathogenic BRCA1 or BRCA2 variant",
+              "C": "Dense breast tissue on scans",
+              "D": "Increasing age in women",
+              "E": "Prior high-dose chest radiation"
+            },
+            "rationale": "Increasing age, an inherited pathogenic BRCA1/BRCA2 variant, dense breast tissue, and prior high-dose chest radiation increase breast cancer risk. A benign variant or variant of uncertain significance is not equivalent to a pathogenic finding. Regular moderate activity is protective rather than a risk factor."
+          },
+          "sources": [
+            "https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet"
+          ]
+        },
+        {
+          "id": "BGC-NP-02",
+          "action": "update",
+          "reason": "“A client in her twenties” includes age 20, so it overlaps the under-21 group and can produce two defensible answers. Use exact ages and ask about the minimum screening age, not whether someone with an unspecified prior screening history is currently due.",
+          "fields": {
+            "question": "Under the final 2018 USPSTF recommendation, which asymptomatic, average-risk client with a cervix is below the recommended age to begin routine cervical screening?",
+            "options": {
+              "A": "A 19-year-old client",
+              "B": "A 35-year-old client",
+              "C": "A 25-year-old client",
+              "D": "A 55-year-old client"
+            }
+          },
+          "sources": [
+            "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cervical-cancer-screening"
+          ]
+        },
+        {
+          "id": "BGC-PR-01",
+          "action": "update",
+          "reason": "The question asks when, but the keyed option gives no time and “without waiting for cultures” could be misread as skipping prompt pretreatment cultures. Specify the hour and culture results.",
+          "fields": {
+            "options": {
+              "A": "After a set period of fever observation",
+              "B": "Within 1 hour of triage, without waiting for culture results",
+              "C": "After the ANC result becomes available",
+              "D": "Once the culture results have returned"
+            },
+            "rationale": "For febrile neutropenia, give the prescribed initial empiric antibacterial dose within 1 hour of triage. Obtain indicated blood cultures promptly before antibiotics when this does not delay treatment; do not wait for culture results or delay urgent care for routine observation."
+          },
+          "sources": [
+            "https://www.idsociety.org/globalassets/idsa/practice-guidelines/outpatient-management-of-fever-and-neutropenia.pdf"
+          ]
+        },
+        {
+          "id": "BGC-IN-02",
+          "action": "update",
+          "reason": "The evidence statement is correct for an at-risk arm after node surgery, but the rationale should distinguish existing lymphedema and an individualized site plan from a universal unrestricted-use rule.",
+          "fields": {
+            "rationale": "Evidence does not support a lifelong absolute ban on all blood draws or BP measurements in every at-risk arm after node surgery. Assess current swelling/lymphedema and the site, follow the individualized care plan and patient preferences, and use an unaffected site when feasible, especially with established lymphedema. Do not delay necessary care solely because of past node surgery."
+          },
+          "sources": [
+            "https://www.nice.org.uk/guidance/ng101/chapter/recommendations",
+            "https://www.cancer.gov/about-cancer/treatment/side-effects/lymphedema"
+          ]
+        },
+        {
+          "id": "PC-ND-01",
+          "action": "update",
+          "reason": "Routine postoperative saline CBI alone is an insufficiently specific cue for electrolyte disturbance and risks conflating it with intraoperative hypotonic-irrigant TURP syndrome. Replace the vignette with a clearly supported nursing risk from this same diagnoses section.",
+          "fields": {
+            "question": "A client receiving chemotherapy for prostate cancer develops thrombocytopenia. Which nursing diagnosis is most directly supported?",
+            "options": {
+              "A": "Risk for impaired swallowing",
+              "B": "Disturbed sensory perception",
+              "C": "Risk for bleeding",
+              "D": "Risk for disuse syndrome"
+            },
+            "correct_answer": [
+              "C"
+            ],
+            "rationale": "Thrombocytopenia means the platelet count is low, increasing bleeding risk. The diagnoses section links bleeding risk to cytopenias and cancer treatment. No swallowing, sensory, or immobility findings support the other options."
+          },
+          "sources": [
+            "https://www.cancer.gov/about-cancer/treatment/side-effects/bleeding-bruising",
+            "https://aci.health.nsw.gov.au/networks/urology/resources/bladder-irrigation/manual"
+          ]
+        },
+        {
+          "id": "HIV-MM-01",
+          "action": "update",
+          "reason": "The original vignette makes PEP automatic for any condomless exposure to a partner of unknown status without establishing a substantial-risk exposure. State that the exposure assessment has established an indication before testing urgent initiation.",
+          "fields": {
+            "question": "A client without HIV is evaluated 6 hours after a sexual exposure assessed as carrying substantial risk for HIV acquisition. PEP is indicated. What should the nurse anticipate?",
+            "rationale": "When PEP is indicated after a substantial-risk exposure, start as soon as possible, ideally within 24 hours and no later than 72 hours. Do not delay the first dose while waiting for source information or laboratory results. Unknown source status alone does not make every exposure a PEP indication."
+          },
+          "sources": [
+            "https://www.cdc.gov/mmwr/volumes/74/rr/rr7401a1.htm"
+          ]
+        },
+        {
+          "id": "HIV-MM-02",
+          "action": "update",
+          "reason": "“Take the full course, then return” is too vague for this central exam focus and can imply no baseline or early follow-up. Name the 28-day course and scheduled testing.",
+          "fields": {
+            "options": {
+              "A": "Take prescribed PEP for 28 days and attend scheduled HIV testing",
+              "B": "“Take it just on the days you notice symptoms.”",
+              "C": "“Stop it once you feel sure you weren’t infected.”",
+              "D": "“Keep taking it from now on as your daily PrEP.”"
+            },
+            "rationale": "PEP is a prescribed 28-day regimen, not symptom-based dosing or indefinite PrEP. Complete the course and keep baseline, early follow-up, and scheduled HIV-testing appointments. HIV laboratory follow-up generally includes Ag/Ab and NAT testing at 4–6 and 12 weeks after initiation; follow the appropriate nonoccupational or occupational pathway."
+          },
+          "sources": [
+            "https://www.cdc.gov/mmwr/volumes/74/rr/rr7401a1.htm"
+          ]
+        }
+      ],
+      "summary": "Reviewed all 184 questions, options, keys, rationales and own-section source excerpts: 41 Ménière, 47 breast/gynecologic, 46 prostate and 50 HIV. Ten conservative updates; no omissions and no key changes. All excerpts map to their own section. Retain the other 174 questions. Updates remove two under-specified Ménière duration options, qualify potassium advice and pathogenic BRCA terminology, remove a cervical-age overlap, state the febrile-neutropenia antibiotic timing accurately, distinguish at-risk arms from established lymphedema, replace a weak CBI/electrolyte cue, and clarify PEP indication/duration/follow-up. Targeted current primary-guideline checks support the unchanged U = U <200 copies/mL sexual-transmission scope, TDF/FTC baseline HIV/HBV/renal checks, and the CNS cryptococcosis 4–6-week ART delay. This is a question-quality review with targeted clinical verification, not exhaustive independent revalidation of every source statement.",
+      "sources": [
+        "https://journals.sagepub.com/doi/10.1177/0194599820909438",
+        "https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=f824b6ba-bd1c-41a8-8f6f-ad507b48f3e0&type=pdf",
+        "https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet",
+        "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cervical-cancer-screening",
+        "https://www.idsociety.org/globalassets/idsa/practice-guidelines/outpatient-management-of-fever-and-neutropenia.pdf",
+        "https://www.nice.org.uk/guidance/ng101/chapter/recommendations",
+        "https://www.cancer.gov/about-cancer/treatment/side-effects/lymphedema",
+        "https://www.cancer.gov/about-cancer/treatment/side-effects/bleeding-bruising",
+        "https://aci.health.nsw.gov.au/networks/urology/resources/bladder-irrigation/manual",
+        "https://www.cdc.gov/mmwr/volumes/74/rr/rr7401a1.htm",
+        "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-arv/arv-therapy-as-prevention",
+        "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/cryptococcosis",
+        "https://www.cdc.gov/hivnexus/hcp/prep/"
+      ]
+    }
+  ]
+}

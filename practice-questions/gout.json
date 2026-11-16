@@ -1,0 +1,1216 @@
+{
+  "id": "gout",
+  "sections": {
+    "overview": [
+      {
+        "id": "GT-OV-01",
+        "type": "mcq",
+        "prompt": "A client newly diagnosed with gout asks what is causing the painful attacks. Which explanation is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Autoantibodies attack the synovial lining"
+          },
+          {
+            "id": "B",
+            "text": "Cartilage wears down from mechanical stress"
+          },
+          {
+            "id": "C",
+            "text": "Monosodium urate crystals deposit in the joint"
+          },
+          {
+            "id": "D",
+            "text": "Calcium pyrophosphate crystals coat the cartilage"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Gout is caused by deposition of monosodium urate (MSU) crystals in joints and surrounding tissues. CPP crystals cause a different crystal arthropathy, autoantibodies describe RA, and wear describes OA."
+      },
+      {
+        "id": "GT-OV-02",
+        "type": "mcq",
+        "prompt": "A client with long-standing gout has firm, painless lumps on the ear and elbow. The client asks if these are kidney stones. What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“They are rheumatoid nodules from the gout.”"
+          },
+          {
+            "id": "B",
+            "text": "“They are uric acid stones that moved to the skin.”"
+          },
+          {
+            "id": "C",
+            "text": "“They are bone spurs caused by the flares.”"
+          },
+          {
+            "id": "D",
+            "text": "“They are tophi, urate crystal deposits in tissue.”"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Tophi are deposits of MSU crystals in soft tissue, not kidney stones, and may initially be painless. Uric acid stones are a separate complication, and nodules/spurs are other conditions."
+      },
+      {
+        "id": "GT-OV-03",
+        "type": "mcq",
+        "prompt": "A client’s routine labs show an elevated serum urate, but he has never had joint symptoms. He asks if he has gout. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“High urate raises risk but doesn’t prove gout.”"
+          },
+          {
+            "id": "B",
+            "text": "“High urate proves crystals are in your joints.”"
+          },
+          {
+            "id": "C",
+            "text": "“Urate levels are not linked to gout risk.”"
+          },
+          {
+            "id": "D",
+            "text": "“High urate means you already have gout now.”"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Persistent hyperuricemia increases the likelihood of crystal formation, but not everyone with elevated serum urate develops gout. Hyperuricemia alone does not prove gout."
+      }
+    ],
+    "manifestations": [
+      {
+        "id": "GT-CM-01",
+        "type": "mcq",
+        "prompt": "A client wakes at night with a red, hot, exquisitely tender great toe. How should the nurse document this classic presentation?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A tophus"
+          },
+          {
+            "id": "B",
+            "text": "A bunion"
+          },
+          {
+            "id": "C",
+            "text": "Hammertoe"
+          },
+          {
+            "id": "D",
+            "text": "Podagra"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Gout at the first MTP joint/great toe is classic podagra. A tophus is a crystal deposit, a bunion is a structural deformity, and a hammertoe is a toe deformity rather than acute inflammation."
+      },
+      {
+        "id": "GT-CM-02",
+        "type": "mcq",
+        "prompt": "Which history best matches a classic gout flare?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Overnight severe pain with warmth, redness, swelling"
+          },
+          {
+            "id": "B",
+            "text": "Brief stiffness after sitting that settles quickly"
+          },
+          {
+            "id": "C",
+            "text": "Symmetric small-joint stiffness for hours each morning"
+          },
+          {
+            "id": "D",
+            "text": "Gradual aching over months that improves with rest"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "A classic flare often begins overnight with severe tenderness, warmth, redness, swelling, and limited ROM. Gradual or brief stiffness suggests OA, and symmetric prolonged stiffness suggests RA."
+      },
+      {
+        "id": "GT-CM-03",
+        "type": "mcq",
+        "prompt": "A client with known gout has a hot, swollen knee and a temperature of 38.9°C (102°F) with chills. What should the nurse suspect?",
+        "options": [
+          {
+            "id": "A",
+            "text": "An expected reaction to recent allopurinol"
+          },
+          {
+            "id": "B",
+            "text": "Irritated tophi causing local inflammation"
+          },
+          {
+            "id": "C",
+            "text": "Possible septic arthritis needing urgent workup"
+          },
+          {
+            "id": "D",
+            "text": "A routine gout flare to treat with colchicine"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Fever/systemic illness with a hot joint raises concern for septic arthritis, and gout and infection can coexist. Treating it as an ordinary flare could miss infection."
+      }
+    ],
+    "risk": [
+      {
+        "id": "GT-RF-01",
+        "type": "sata",
+        "prompt": "A client has recurrent gout flares. Which medications should the nurse review as possible contributors? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Acetaminophen as needed"
+          },
+          {
+            "id": "B",
+            "text": "Vitamin B12 replacement as prescribed"
+          },
+          {
+            "id": "C",
+            "text": "Hydrochlorothiazide daily"
+          },
+          {
+            "id": "D",
+            "text": "Low-dose aspirin daily"
+          },
+          {
+            "id": "E",
+            "text": "Losartan for hypertension"
+          }
+        ],
+        "correct": [
+          "C",
+          "D"
+        ],
+        "rationale": "Hydrochlorothiazide and low-dose aspirin can contribute to higher urate; thiazide/loop diuretics, high-dose niacin, and some transplant medicines deserve review. Losartan may lower urate and can be considered as an alternative when clinically appropriate. Acetaminophen and vitamin B12 replacement are not the urate-raising contributors targeted here. Do not stop appropriately prescribed low-dose aspirin independently."
+      },
+      {
+        "id": "GT-RF-02",
+        "type": "mcq",
+        "prompt": "A client with gout takes low-dose aspirin after a heart attack and asks if he should stop it. What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Keep taking it unless your prescriber changes the plan.”"
+          },
+          {
+            "id": "B",
+            "text": "“Take it just on the days when you have no flare.”"
+          },
+          {
+            "id": "C",
+            "text": "“Switch to high-dose aspirin, which lowers urate.”"
+          },
+          {
+            "id": "D",
+            "text": "“Stop it today because it is raising your urate level.”"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Continue low-dose aspirin when appropriately prescribed for another indication unless its prescriber changes the plan. Stopping cardiac protection independently is unsafe."
+      },
+      {
+        "id": "GT-RF-03",
+        "type": "mcq",
+        "prompt": "A client with gout plans a multi-day water-only fast to lose weight before a wedding. What should the nurse explain?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Fasting may be the preferred gout treatment"
+          },
+          {
+            "id": "B",
+            "text": "Fasting and dehydration may trigger a flare"
+          },
+          {
+            "id": "C",
+            "text": "Fasting may dissolve existing tophi quickly"
+          },
+          {
+            "id": "D",
+            "text": "Fasting may lower urate and prevent flares"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Fasting/crash diets, dehydration, injury, surgery, or illness may trigger attacks. Gradual sustainable weight change is preferred."
+      }
+    ],
+    "diagnostics": [
+      {
+        "id": "GT-DX-01",
+        "type": "mcq",
+        "prompt": "A client’s knee is aspirated for a suspected crystal arthritis. Which result supports a definitive diagnosis of gout?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Gram-positive cocci seen on the fluid Gram stain"
+          },
+          {
+            "id": "B",
+            "text": "Needle-shaped, negatively birefringent crystals"
+          },
+          {
+            "id": "C",
+            "text": "Clear fluid containing very few white blood cells"
+          },
+          {
+            "id": "D",
+            "text": "Rhomboid-shaped, positively birefringent crystals"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Needle-shaped, negatively birefringent MSU crystals on polarized microscopy support a definitive gout diagnosis. CPP crystals indicate a different arthropathy, and bacteria suggest infection."
+      },
+      {
+        "id": "GT-DX-02",
+        "type": "mcq",
+        "prompt": "A client with a suspected gout flare has a mild fever, and dual-energy CT shows urate deposits. What should the nurse anticipate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A repeat CT scan should be arranged instead"
+          },
+          {
+            "id": "B",
+            "text": "Aspiration and culture are still needed"
+          },
+          {
+            "id": "C",
+            "text": "Infection is excluded by the CT finding"
+          },
+          {
+            "id": "D",
+            "text": "Imaging confirms gout, so stop further tests"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Imaging does not replace aspiration/culture when infection is a concern, and gout and septic arthritis can coexist. Urate deposits on CT do not exclude infection, and more imaging does not answer the infection question."
+      },
+      {
+        "id": "GT-DX-03",
+        "type": "mcq",
+        "prompt": "Aspiration is not possible, and an ultrasound is ordered for a suspected gout flare. Which finding suggests urate on cartilage?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Joint-space narrowing"
+          },
+          {
+            "id": "B",
+            "text": "Synovial thickening alone"
+          },
+          {
+            "id": "C",
+            "text": "A double-contour sign"
+          },
+          {
+            "id": "D",
+            "text": "A joint effusion alone"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Ultrasound may show urate on cartilage as a double-contour sign. Effusion or thickened synovium alone is not specific for gout."
+      }
+    ],
+    "medical": [
+      {
+        "id": "GT-MM-01",
+        "type": "sata",
+        "prompt": "A client with normal kidney function has an acute gout flare. Which are common first-line flare treatments? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "A short corticosteroid course"
+          },
+          {
+            "id": "B",
+            "text": "Immediate pegloticase infusion"
+          },
+          {
+            "id": "C",
+            "text": "A suitable NSAID course"
+          },
+          {
+            "id": "D",
+            "text": "Double-dose allopurinol"
+          },
+          {
+            "id": "E",
+            "text": "Low-dose oral colchicine"
+          }
+        ],
+        "correct": [
+          "A",
+          "C",
+          "E"
+        ],
+        "rationale": "Low-dose colchicine, an appropriate NSAID, or a short corticosteroid course are common first-line flare options. Pegloticase is for selected refractory disease, and ULT dose changes do not treat the flare."
+      },
+      {
+        "id": "GT-MM-02",
+        "type": "mcq",
+        "prompt": "A client starting allopurinol asks why urate levels will be checked repeatedly. What does the nurse explain?",
+        "options": [
+          {
+            "id": "A",
+            "text": "To decide when the medicine can be stopped"
+          },
+          {
+            "id": "B",
+            "text": "To confirm the diagnosis during each flare"
+          },
+          {
+            "id": "C",
+            "text": "To titrate the dose toward an agreed target"
+          },
+          {
+            "id": "D",
+            "text": "To time each dose around the next flare"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "ULT starts low and is titrated with serial serum urate toward an explicit target (usually <6 mg/dL; NICE considers <5 mg/dL for tophi or persistent flares). ULT is generally long term, is not timed to flares, and flare-time urate can be misleading."
+      },
+      {
+        "id": "GT-MM-03",
+        "type": "mcq",
+        "prompt": "A client who has taken allopurinol for a year develops a gout flare and says, “I’ll stop the allopurinol until this settles.” What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Double the dose to end the flare faster.”"
+          },
+          {
+            "id": "B",
+            "text": "“Keep taking it unless a safety issue arises.”"
+          },
+          {
+            "id": "C",
+            "text": "“Stop it now and restart at a higher dose.”"
+          },
+          {
+            "id": "D",
+            "text": "“Yes, stop it until the flare has settled.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Continue established ULT during a flare unless a safety problem such as a rash requires stopping. Stopping or doubling the dose is not appropriate."
+      },
+      {
+        "id": "GT-MM-04",
+        "type": "mcq",
+        "prompt": "A client starting allopurinol is also prescribed low-dose colchicine daily. The client asks why. What is the best explanation?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Early flares can occur as crystals mobilize"
+          },
+          {
+            "id": "B",
+            "text": "Colchicine can protect the kidneys from it"
+          },
+          {
+            "id": "C",
+            "text": "Colchicine can prevent an allopurinol rash"
+          },
+          {
+            "id": "D",
+            "text": "Colchicine can lower urate with allopurinol"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Prophylaxis is given during ULT initiation/titration because early flares can occur while crystals are mobilized. Colchicine does not lower urate or prevent hypersensitivity."
+      }
+    ],
+    "medications": [
+      {
+        "id": "GT-PH-01",
+        "type": "mcq",
+        "prompt": "A client asks if colchicine will lower their uric acid level. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Yes, it reduces urate like allopurinol does.”"
+          },
+          {
+            "id": "B",
+            "text": "“It blocks urate production in the liver.”"
+          },
+          {
+            "id": "C",
+            "text": "“It dissolves existing tophi within days.”"
+          },
+          {
+            "id": "D",
+            "text": "“It treats inflammation but not urate itself.”"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Colchicine is anti-inflammatory; it does not lower serum urate. Allopurinol reduces urate production."
+      },
+      {
+        "id": "GT-PH-02",
+        "type": "mcq",
+        "prompt": "A client taking colchicine for prophylaxis is prescribed clarithromycin for pneumonia. What should the nurse do?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Give clarithromycin with food to prevent issues"
+          },
+          {
+            "id": "B",
+            "text": "Double the colchicine to offset the antibiotic"
+          },
+          {
+            "id": "C",
+            "text": "Give both and monitor for mild nausea"
+          },
+          {
+            "id": "D",
+            "text": "Hold and clarify due to risk of fatal toxicity"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "Strong CYP3A4/P-gp inhibitors such as clarithromycin can cause fatal colchicine toxicity, so the combination must be held and clarified with the prescriber. Giving both, giving with food, or increasing colchicine does not address the interaction."
+      },
+      {
+        "id": "GT-PH-03",
+        "type": "mcq",
+        "prompt": "Two weeks after starting allopurinol, a client calls about a new itchy rash on the trunk. What is the nurse’s priority instruction?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Halve the dose and recheck at next visit"
+          },
+          {
+            "id": "B",
+            "text": "Wait and see whether blisters develop first"
+          },
+          {
+            "id": "C",
+            "text": "Stop the drug and seek prompt medical advice"
+          },
+          {
+            "id": "D",
+            "text": "Continue it and take an oral antihistamine"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Stop at the first rash or other hypersensitivity sign and seek prompt medical advice. Waiting for blistering risks SJS/TEN or DRESS."
+      },
+      {
+        "id": "GT-PH-04",
+        "type": "mcq",
+        "prompt": "A client with CKD stage 3 is starting allopurinol. Which dosing approach does the nurse anticipate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Start at a high dose for rapid control"
+          },
+          {
+            "id": "B",
+            "text": "Avoid allopurinol because CKD rules it out"
+          },
+          {
+            "id": "C",
+            "text": "Start low and titrate to the urate target"
+          },
+          {
+            "id": "D",
+            "text": "Give full doses just when flares occur"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Start low (often ≤100 mg/day, lower in CKD) and titrate to the target; CKD does not automatically rule out allopurinol."
+      },
+      {
+        "id": "GT-PH-05",
+        "type": "mcq",
+        "prompt": "Per ACR, which client should particularly have HLA-B*58:01 screening before starting allopurinol?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A client with prior kidney stones"
+          },
+          {
+            "id": "B",
+            "text": "A client of Korean ancestry"
+          },
+          {
+            "id": "C",
+            "text": "A client with a sulfa allergy"
+          },
+          {
+            "id": "D",
+            "text": "A client taking furosemide"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "HLA-B*58:01 screening is recommended particularly with Han Chinese, Korean, Thai, or African American ancestry per ACR. The other factors do not drive this screening."
+      }
+    ],
+    "nonpharmacological": [
+      {
+        "id": "GT-NP-01",
+        "type": "mcq",
+        "prompt": "A client has an acutely inflamed great toe. Which cold therapy instruction is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Wrapped cold pack applied for short periods"
+          },
+          {
+            "id": "B",
+            "text": "Bare ice held on the skin for long periods"
+          },
+          {
+            "id": "C",
+            "text": "Heat pack to increase circulation to the toe"
+          },
+          {
+            "id": "D",
+            "text": "Cold pack left in place throughout the night"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Apply a wrapped cold pack for about 15–20 minutes at a time if tolerated, inspecting skin and avoiding direct ice injury. Prolonged or direct ice risks injury."
+      },
+      {
+        "id": "GT-NP-02",
+        "type": "mcq",
+        "prompt": "A client who runs daily asks about exercise during a gout flare in the ankle. What should the nurse advise?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Avoid high-impact loading until inflammation improves"
+          },
+          {
+            "id": "B",
+            "text": "Give up running for good after a gout flare"
+          },
+          {
+            "id": "C",
+            "text": "Run through the pain because it speeds healing"
+          },
+          {
+            "id": "D",
+            "text": "Keep running daily to prevent the ankle stiffening"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Avoid running, jumping, and high-impact loading until inflammation improves, then resume gradually. Activity is not banned permanently."
+      }
+    ],
+    "adverse-effects": [
+      {
+        "id": "GT-AE-01",
+        "type": "mcq",
+        "prompt": "A client taking colchicine for a flare develops severe diarrhea and vomiting. What is the nurse’s best action?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Give an extra dose to finish the course faster"
+          },
+          {
+            "id": "B",
+            "text": "Withhold further doses and get prompt assessment"
+          },
+          {
+            "id": "C",
+            "text": "Expect this as a sign that the drug is working"
+          },
+          {
+            "id": "D",
+            "text": "Continue until the joint pain has fully resolved"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Severe GI symptoms may be early toxicity; withhold further doses and obtain prompt assessment. Doses should not continue until diarrhea occurs."
+      },
+      {
+        "id": "GT-AE-02",
+        "type": "mcq",
+        "prompt": "A client started allopurinol a few weeks ago and has had two flares since. He says, “I must be allergic to it.” How should the nurse interpret this?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Early ULT flares don’t automatically mean allergy"
+          },
+          {
+            "id": "B",
+            "text": "The rise in flares proves an allopurinol allergy"
+          },
+          {
+            "id": "C",
+            "text": "ULT has failed and should be stopped right away"
+          },
+          {
+            "id": "D",
+            "text": "The flares show allopurinol is the wrong class"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Flares can increase initially while urate deposits change; this is not automatically allergy or treatment failure. Follow the prophylaxis/titration plan and report adverse effects separately."
+      },
+      {
+        "id": "GT-AE-03",
+        "type": "mcq",
+        "prompt": "A client on allopurinol has fever, mouth sores, blistering skin, and facial swelling. How should the nurse interpret this?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A sign the allopurinol dose should be increased"
+          },
+          {
+            "id": "B",
+            "text": "A possible severe hypersensitivity emergency"
+          },
+          {
+            "id": "C",
+            "text": "An expected, mild allopurinol skin rash"
+          },
+          {
+            "id": "D",
+            "text": "A routine gout flare with an associated fever"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "SJS/TEN or DRESS can involve fever, blistering/mouth sores, facial swelling, and organ injury; severe skin/systemic symptoms are an emergency."
+      }
+    ],
+    "nutrition": [
+      {
+        "id": "GT-NU-01",
+        "type": "sata",
+        "prompt": "A client with gout asks which foods and drinks to limit. Which should the nurse include? Select all that apply.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Organ meats such as liver"
+          },
+          {
+            "id": "B",
+            "text": "Beer and other alcohol"
+          },
+          {
+            "id": "C",
+            "text": "Sugar-sweetened soft drinks"
+          },
+          {
+            "id": "D",
+            "text": "Shellfish such as shrimp"
+          },
+          {
+            "id": "E",
+            "text": "Low-fat milk or yogurt"
+          }
+        ],
+        "correct": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "rationale": "Limit organ meats, alcohol (especially beer), sugar-sweetened drinks, and selected seafood such as shellfish. Low-fat milk/yogurt can fit the plan."
+      },
+      {
+        "id": "GT-NU-02",
+        "type": "mcq",
+        "prompt": "A client with gout wants to lose weight quickly with a juice fast. What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Juice fasts may dissolve crystals in the joints.”"
+          },
+          {
+            "id": "B",
+            "text": "“Rapid weight loss and fasting may trigger flares.”"
+          },
+          {
+            "id": "C",
+            "text": "“Fasting may be the safest way to lower urate.”"
+          },
+          {
+            "id": "D",
+            "text": "“Weight loss may have no effect on gout risk.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Rapid weight loss, starvation, ketosis, and dehydration may precipitate flares; gradual sustainable changes are preferred. Sugary juices are also limited."
+      },
+      {
+        "id": "GT-NU-03",
+        "type": "mcq",
+        "prompt": "A client says, “I’ll eat cherries every day instead of taking allopurinol.” What is the nurse’s best response?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“Cherries aren’t a proven urate-lowering treatment.”"
+          },
+          {
+            "id": "B",
+            "text": "“Cherries work just as well as allopurinol does.”"
+          },
+          {
+            "id": "C",
+            "text": "“Cherries are dangerous for anyone with gout.”"
+          },
+          {
+            "id": "D",
+            "text": "“Cherry extract clears gout within about a month.”"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Cherries may be included as food, but evidence is insufficient to prescribe cherries/cherry extract as established urate-lowering treatment. Diet does not replace indicated ULT."
+      }
+    ],
+    "assessment": [
+      {
+        "id": "GT-AS-01",
+        "type": "mcq",
+        "prompt": "A client with a history of gout and a prosthetic knee presents with a new hot, swollen knee. Which assessment approach is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Screen for infection; gout history doesn’t exclude it"
+          },
+          {
+            "id": "B",
+            "text": "Assume it is gout because of the known history"
+          },
+          {
+            "id": "C",
+            "text": "Assess pain alone, since the cause is already known"
+          },
+          {
+            "id": "D",
+            "text": "Delay assessment until the usual flare plan is tried"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Gout history does not exclude septic arthritis; screen for fever, immunosuppression, prosthetic joint, and atypical presentation."
+      },
+      {
+        "id": "GT-AS-02",
+        "type": "mcq",
+        "prompt": "During medication reconciliation for a client with recurrent gout, which group especially warrants review for effects on urate or interactions with gout therapy?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Antacids, eye drops, and saline nasal rinses"
+          },
+          {
+            "id": "B",
+            "text": "Thiazide/loop diuretics, aspirin, transplant drugs"
+          },
+          {
+            "id": "C",
+            "text": "Vitamin C supplements and topical moisturizers"
+          },
+          {
+            "id": "D",
+            "text": "Inhaled bronchodilators and nasal steroid sprays"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Reconcile all prescribed, OTC, and supplemental products. Thiazide/loop diuretics, aspirin, and some transplant drugs are especially relevant because they can raise urate or interact with gout medicines. Review their indications with the prescriber rather than stopping them independently."
+      }
+    ],
+    "diagnoses": [
+      {
+        "id": "GT-ND-01",
+        "type": "mcq",
+        "prompt": "A client with a gout flare rates great-toe pain 9/10 and cannot tolerate the bedsheet touching it. Which nursing diagnosis is best supported?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Chronic pain related to cartilage wear over time"
+          },
+          {
+            "id": "B",
+            "text": "Risk for bleeding related to the gout process"
+          },
+          {
+            "id": "C",
+            "text": "Acute pain related to crystal-induced inflammation"
+          },
+          {
+            "id": "D",
+            "text": "Impaired skin integrity related to tophi ulcers"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "rationale": "Acute pain related to crystal-induced joint inflammation is supported by pain/tenderness and functional limitation. The other diagnoses are not supported by these findings."
+      },
+      {
+        "id": "GT-ND-02",
+        "type": "mcq",
+        "prompt": "A client with gout keeps taking extra allopurinol during flares and skips colchicine prophylaxis. Which learning need is most specific?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Learning wound care for ulcerated tophi daily"
+          },
+          {
+            "id": "B",
+            "text": "Learning to use a cane safely on the stairs"
+          },
+          {
+            "id": "C",
+            "text": "Learning to count carbohydrates at each meal"
+          },
+          {
+            "id": "D",
+            "text": "Telling flare medicines apart from long-term ULT"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "A key gout learning need is the distinction between flare medicines and long-term ULT, administration, interactions, and follow-up. The other needs are not supported by this client’s behavior."
+      }
+    ],
+    "priorities": [
+      {
+        "id": "GT-PR-01",
+        "type": "mcq",
+        "prompt": "A client arrives with a hot, swollen ankle. What is the nurse’s first action?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Apply ice to the ankle and then send the client home"
+          },
+          {
+            "id": "B",
+            "text": "Give colchicine before completing the assessment"
+          },
+          {
+            "id": "C",
+            "text": "Begin teaching about a low-purine eating plan now"
+          },
+          {
+            "id": "D",
+            "text": "Check vital signs, joint findings, and infection risk"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "First check vital signs/systemic illness, joint findings, pain, and infection risk; sepsis or instability takes priority over routine gout teaching."
+      },
+      {
+        "id": "GT-PR-02",
+        "type": "mcq",
+        "prompt": "Aspirate from a client’s hot knee shows MSU crystals, and the client is afebrile. Which conclusion is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Infection is still not safely ruled out"
+          },
+          {
+            "id": "B",
+            "text": "No fever means sepsis is not possible"
+          },
+          {
+            "id": "C",
+            "text": "Cultures are unnecessary at this point"
+          },
+          {
+            "id": "D",
+            "text": "Crystals prove that infection is absent"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Crystal identification and absence of fever do not safely rule out infection; gout and septic arthritis can coexist."
+      }
+    ],
+    "plan": [
+      {
+        "id": "GT-PL-01",
+        "type": "mcq",
+        "prompt": "Two days into flare treatment, a client’s pain and swelling are worsening. Which plan of care action is appropriate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Stop treatment and wait it out"
+          },
+          {
+            "id": "B",
+            "text": "Arrange prompt clinical review"
+          },
+          {
+            "id": "C",
+            "text": "Give additional doses as needed"
+          },
+          {
+            "id": "D",
+            "text": "Continue the same plan unchanged"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Inadequate or worsening response requires clinical review rather than simply more doses, since infection or toxicity may be missed. Extra doses, continuing unchanged, or stopping treatment are unsafe."
+      },
+      {
+        "id": "GT-PL-02",
+        "type": "mcq",
+        "prompt": "Which goal best addresses future crystal burden in a client with tophaceous gout?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Use diet changes in place of the ULT plan"
+          },
+          {
+            "id": "B",
+            "text": "Have no flares during the first month of ULT"
+          },
+          {
+            "id": "C",
+            "text": "Normalize the ESR within the first week"
+          },
+          {
+            "id": "D",
+            "text": "Reach and maintain the agreed urate target"
+          }
+        ],
+        "correct": [
+          "D"
+        ],
+        "rationale": "The goal is to reach and maintain the agreed serum urate target, with fewer flares and stable/reducing tophi. Early ULT flares do not establish failure, ESR is not gout-specific, and diet supports rather than replaces indicated ULT."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "GT-IN-01",
+        "type": "mcq",
+        "prompt": "A client’s serum urate was normal during a flare, and gout is still suspected. Which nursing intervention is appropriate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cancel the planned follow-up appointments"
+          },
+          {
+            "id": "B",
+            "text": "Ensure a repeat level once symptoms settle"
+          },
+          {
+            "id": "C",
+            "text": "Document that gout has now been ruled out"
+          },
+          {
+            "id": "D",
+            "text": "Discontinue the anti-inflammatory treatment"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Ensure urate is rechecked after a potentially misleading flare-time result and serially during ULT titration. A normal flare-time level does not rule out gout, so documenting exclusion or stopping care is inappropriate."
+      },
+      {
+        "id": "GT-IN-02",
+        "type": "mcq",
+        "prompt": "A client is confused about colchicine prophylaxis, flare treatment, and allopurinol. Which intervention is most important?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Explain each medicine’s purpose and prescribed dosing schedule"
+          },
+          {
+            "id": "B",
+            "text": "Simplify the regimen by dropping the colchicine"
+          },
+          {
+            "id": "C",
+            "text": "Advise taking each of them just during flares"
+          },
+          {
+            "id": "D",
+            "text": "Advise stopping allopurinol once the flares stop"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Explain the difference between acute anti-inflammatory treatment, temporary flare prophylaxis during ULT initiation/titration, and long-term urate-lowering therapy. Colchicine can be used for flare treatment or prophylaxis under different prescribed schedules; allopurinol lowers urate over time. Do not drop, double, or stop medicines independently."
+      }
+    ],
+    "education": [
+      {
+        "id": "GT-ED-01",
+        "type": "mcq",
+        "prompt": "Which statement by a client shows understanding of the home flare plan?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“I’ll keep taking colchicine until I get diarrhea.”"
+          },
+          {
+            "id": "B",
+            "text": "“I’ll continue my prescribed daily allopurinol during a usual flare.”"
+          },
+          {
+            "id": "C",
+            "text": "“I’ll double my colchicine if one dose doesn’t work.”"
+          },
+          {
+            "id": "D",
+            "text": "“I’ll add ibuprofen to the naproxen I was given.”"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "rationale": "Continue established prescribed allopurinol during an ordinary flare rather than using it only when symptoms return. Do not double colchicine, continue it until diarrhea, or combine OTC NSAIDs. A new allopurinol rash or another serious safety concern is an exception requiring stopping and prompt medical review."
+      },
+      {
+        "id": "GT-ED-02",
+        "type": "mcq",
+        "prompt": "A client with a new flare asks how the pain will change over time. Which response is accurate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "“It’s often worst early, then eases over days.”"
+          },
+          {
+            "id": "B",
+            "text": "“It peaks once the swelling has gone down.”"
+          },
+          {
+            "id": "C",
+            "text": "“It usually builds slowly over several weeks.”"
+          },
+          {
+            "id": "D",
+            "text": "“It stays at the same level for about a month.”"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "A flare may be most intense during its first 24–48 hours, improve over the following days, and settle over 1–2 weeks or sometimes longer. This is approximate, and worsening symptoms still need review."
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "GT-EV-01",
+        "type": "mcq",
+        "prompt": "A client’s urate has been at target on allopurinol for a year and he feels well. Which follow-up plan is appropriate?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Continue periodic urate and safety monitoring"
+          },
+          {
+            "id": "B",
+            "text": "Stop urate checks now that the level is stable"
+          },
+          {
+            "id": "C",
+            "text": "Check urate levels just when flares occur"
+          },
+          {
+            "id": "D",
+            "text": "Stop allopurinol since the goal is reached"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Once stable at target, ongoing monitoring continues (NICE suggests considering annual urate checks), with review of flares, tolerability, and renal changes. Monitoring does not stop, flare-time levels can be misleading, and ULT is generally long term."
+      },
+      {
+        "id": "GT-EV-02",
+        "type": "mcq",
+        "prompt": "Three months after starting ULT, a client’s tophi are unchanged though urate is at target. How should the nurse evaluate this?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tophi resolve over a longer period than a flare"
+          },
+          {
+            "id": "B",
+            "text": "The urate-lowering treatment has clearly failed"
+          },
+          {
+            "id": "C",
+            "text": "Tophi should have resolved as fast as a flare"
+          },
+          {
+            "id": "D",
+            "text": "The reported urate level is likely incorrect"
+          }
+        ],
+        "correct": [
+          "A"
+        ],
+        "rationale": "Tophi usually resolve over a longer period than an acute flare, so sustained control is evaluated over time. Unchanged tophi a few months in do not indicate failure or a lab error."
+      }
+    ]
+  }
+}
