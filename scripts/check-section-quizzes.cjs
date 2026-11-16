@@ -38,6 +38,6 @@ for (const topic of topics) {
   }
 }
 const workflow=fs.readFileSync(path.join(root,'.github/workflows/pages.yml'),'utf8'), html=fs.readFileSync(path.join(root,'index.html'),'utf8');
-assert(workflow.includes('section-quizzes.js')); assert(workflow.includes('practice-questions resources _site/')); assert(html.indexOf('section-quizzes.js')<html.indexOf('app.js'));
+assert(workflow.includes('section-quizzes.js')); assert(workflow.includes('practice-questions resources assets _site/')); assert(html.indexOf('section-quizzes.js')<html.indexOf('app.js'));
 assert.equal(topics.length,14); assert.equal(sections.length,16); assert.equal(total,617); assert.equal(multiple,27);
 console.log(`Passed: ${total} questions across all 224 sections / 14 conditions, ${multiple} multi-select items, ${combinations} answer combinations, valid unique keys/options, collapsed lazy-loaded panels, preserved routes and deployment assets.`);

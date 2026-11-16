@@ -32,7 +32,7 @@ function noteReviewSection(week) {
 }
 
 function renderHome() {
-  document.title = 'Project Green Light';
+  document.title = 'Project Green Light | Your nursing study hub';
   main.innerHTML = `
     <section class="hero home-hero" aria-labelledby="home-title">
       <h1 id="home-title">Project <span>Green Light</span></h1>
@@ -201,7 +201,8 @@ function renderPendingCondition(topic) {
   main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/final/study-guide">Study guide</a><span aria-hidden="true">/</span><span>${escapeHTML(topic.title)}</span></nav><section class="hero condition-hero"><p class="eyebrow">FINAL EXAM / TOPIC ${topic.number}</p><h1>${escapeHTML(topic.title)}</h1><p class="hero-copy">Study notes are coming soon. Explore the video resources below.</p></section><div class="condition-sections">${VideoLibrary.section(topic.number)}</div><nav class="guide-bottom"><a class="text-link" href="#/final/study-guide">← All study guide topics</a><a class="text-link" href="#/final/videos">All videos →</a></nav>`;
 }
 function render(focus = false) {
-  const route = location.hash || '#/';
+  const rawRoute = location.hash || '#/';
+  const route = rawRoute.startsWith('#/') ? (rawRoute.split('?')[0].replace(/\/+$/, '') || '#/') : rawRoute;
   if (route === '#main') { if (!main.innerHTML.trim()) renderHome(); main.focus(); return; }
   disposePresentation(); disposePresentation = () => {};
   disposeVideos(); disposeVideos = () => {};
@@ -212,15 +213,15 @@ function render(focus = false) {
   disposeFocusedReview(); disposeFocusedReview = () => {};
   if (route === '#/final/study-guide') renderStudyGuide();
   else if (route === '#/final/focused-review') renderFocusedReview();
-  else if (route.startsWith('#/final/condition/') && conditionNotes[route.slice('#/final/condition/'.length)]) renderCondition(conditionNotes[route.slice('#/final/condition/'.length)]);
+  else if (route.startsWith('#/final/condition/') && Object.prototype.hasOwnProperty.call(conditionNotes, route.slice('#/final/condition/'.length))) renderCondition(conditionNotes[route.slice('#/final/condition/'.length)]);
   else if (route === '#/final/nclex') renderPresentationQuiz();
-  else if (route.startsWith('#/final/nclex/') && presentationDecks[route.slice('#/final/nclex/'.length)]) renderPresentationQuiz(route.slice('#/final/nclex/'.length));
+  else if (route.startsWith('#/final/nclex/') && Object.prototype.hasOwnProperty.call(presentationDecks, route.slice('#/final/nclex/'.length))) renderPresentationQuiz(route.slice('#/final/nclex/'.length));
   else if (route === '#/final/quiz') renderPracticeQuiz();
   else if (route === '#/final/podcast') renderPodcast();
   else if (route === '#/final/videos') renderVideoLibrary();
   else if (route.startsWith('#/final/condition/') && examTopics.some(t => t.id === route.slice('#/final/condition/'.length))) renderPendingCondition(examTopics.find(t => t.id === route.slice('#/final/condition/'.length)));
   else if (route === '#/final/presentations') renderPresentationLibrary();
-  else if (route.startsWith('#/final/presentation/') && presentationDecks[route.slice('#/final/presentation/'.length)]) renderPresentation(presentationDecks[route.slice('#/final/presentation/'.length)]);
+  else if (route.startsWith('#/final/presentation/') && Object.prototype.hasOwnProperty.call(presentationDecks, route.slice('#/final/presentation/'.length))) renderPresentation(presentationDecks[route.slice('#/final/presentation/'.length)]);
   else if (route === '#/' || route === '#') renderHome();
   else if (route === '#/final') renderWeek(studyWeeks[0], true);
   else {
@@ -235,5 +236,10 @@ function render(focus = false) {
   disposeVideos = VideoLibrary.mount(main);
   if (focus) { main.focus({ preventScroll: true }); window.scrollTo(0, 0); }
 }
+document.querySelector('.skip-link')?.addEventListener?.('click', event => {
+  event.preventDefault();
+  main.focus({preventScroll:true});
+  main.scrollIntoView({block:'start'});
+});
 window.addEventListener('hashchange', () => render(true));
 render();

@@ -1957,7 +1957,7 @@ const conditionNotes = {
       { title: 'AAOS · Cortisone injections', url: 'https://www.orthoinfo.org/en/treatment/cortisone-shot-steroid-injection/', supports: 'Temporary benefit, individualized repeat limits, tissue/infection risks, and surgical timing.' },
       { title: 'SANJO · Septic arthritis guideline', url: 'https://jbji.copernicus.org/articles/8/29/2023/index.html', supports: 'Hot-joint assessment and why cell counts/crystals alone do not exclude infection.' },
       { title: 'NICE NG157 · Primary joint replacement', url: 'https://www.nice.org.uk/guidance/ng157/chapter/recommendations', supports: 'Perioperative pathways, tranexamic acid, infection prevention, and rehabilitation.' },
-      { title: 'NICE NG24 · Blood transfusion and conservation', url: 'https://www.nice.org.uk/guidance/ng24/chapter/recommendations', supports: 'Cause-specific anemia/iron care, selected erythropoietin, and cell-salvage context.' },
+      { title: 'NICE NG24 · Blood transfusion and conservation', url: 'https://www.nice.org.uk/guidance/ng24/chapter/Reducing-requirement-for-blood-transfusion-for-people-having-surgery', supports: 'Cause-specific anemia/iron care, selected erythropoietin, and cell-salvage context.' },
       { title: 'NICE NG89 · VTE prevention', url: 'https://www.nice.org.uk/guidance/ng89/chapter/recommendations', supports: 'Surgical VTE/bleeding reassessment and hip/knee-specific prophylaxis options.' },
       { title: 'AAOS · Surgical medication safety', url: 'https://www.orthoinfo.org/treatment/preparing-for-surgery/preparing-for-surgery-medication-safety-checklist/', supports: 'Individualized review and interruption/restart instructions for medicines/supplements.' },
       { title: 'AAOS · Total hip replacement', url: 'https://www.orthoinfo.org/treatment/total-hip-replacement/', supports: 'Complications, fall prevention, aids, and patient/approach-specific precautions.' },
@@ -4067,7 +4067,7 @@ const conditionNotes = {
       },
       {
         "title": "NHS · Pyridostigmine for MG",
-        "url": "https://www.rightdecisions.scot.nhs.uk/media/2616/1061-pyridostigmine-for-myasthenia-gravis.pdf",
+        "url": "https://www.rightdecisions.scot.nhs.uk/media/zecds0og/1061-v2-pyridostigmine-for-ma.pdf",
         "supports": "Individualized scheduling and timing before meals."
       },
       {

@@ -420,7 +420,7 @@ const presentationQuizData = {
         "references": [
           {
             "title": "NHS Scotland · Pyridostigmine for myasthenia gravis",
-            "url": "https://www.rightdecisions.scot.nhs.uk/media/2616/1061-pyridostigmine-for-myasthenia-gravis.pdf"
+            "url": "https://www.rightdecisions.scot.nhs.uk/media/zecds0og/1061-v2-pyridostigmine-for-ma.pdf"
           },
           {
             "title": "ASHA · Adult dysphagia",
@@ -462,8 +462,8 @@ const presentationQuizData = {
         "rationaleSource": "clinical-review",
         "references": [
           {
-            "title": "Australian Commission on Safety and Quality in Health Care · Mestinon product information",
-            "url": "https://www.safetyandquality.gov.au/medicine-finder/mestinon"
+            "title": "Medsafe · Mestinon product information",
+            "url": "https://www.medsafe.govt.nz/profs/datasheet/m/Mestinontab.pdf"
           },
           {
             "title": "ABN · Myasthenia gravis management (2025 update)",

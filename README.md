@@ -62,6 +62,14 @@ Personal study outline for weeks 7, 8, 9, and 12. The user-supplied syllabus was
 
 The Pages workflow publishes the static website from `main` using GitHub Actions. `.nojekyll` ensures static files are served directly. Fonts use Google Fonts with local system fallbacks.
 
+## Sharing
+
+Share https://george1912.github.io/project-greenlight/. The title is **Project Green Light** and the short description is **Your nursing study hub.** Open Graph and Twitter metadata use the 1200 × 630 PNG at `assets/share-green-light.png`; matching SVG/PNG favicons and an Apple touch icon show a pixelated stoplight with green on. Metadata is in the initial HTML so link-preview services can read it without JavaScript. Hash routes share this site-level preview.
+
+`scripts/prepare-share-assets.cjs` generates the icons and preview from editable SVG geometry. Run it with Node and `sharp` available, or set `GREENLIGHT_NODE_MODULES` to a directory containing that package. `node scripts/check-sharing.cjs` checks metadata, image dimensions, routes, local assets and redirect recovery.
+
+Canonical navigation uses `/#/final/...`. GitHub Pages serves `404.html` for a study link copied without `#`; it recovers `/project-greenlight/final/...` into the corresponding hash route. Other unavailable paths show a study-guide link. Hash routes tolerate trailing slashes and appended query strings. Link-preview services can cache older cards until their next refresh.
+
 
 ## Presentation PDFs
 
