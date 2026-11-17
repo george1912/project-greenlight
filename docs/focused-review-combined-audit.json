@@ -1,0 +1,827 @@
+{
+  "method": "Related headings are grouped into one topic. All non-heading source content is retained; identical content, explicitly mapped shorter duplicates, and the equivalent T-score table are consolidated. No new clinical guidance is introduced.",
+  "topics": 16,
+  "recallRows": 18,
+  "coveredSourceItems": [
+    "one:parkinsons:1:0",
+    "one:parkinsons:1:1",
+    "one:parkinsons:1:2",
+    "one:parkinsons:1:3",
+    "one:parkinsons:3:0",
+    "one:parkinsons:3:1",
+    "one:parkinsons:3:2",
+    "one:parkinsons:3:3",
+    "one:parkinsons:3:4",
+    "one:parkinsons:5:0",
+    "one:parkinsons:5:1",
+    "one:parkinsons:5:2",
+    "one:parkinsons:5:3",
+    "two:parkinsons:1:0",
+    "two:parkinsons:1:1",
+    "two:parkinsons:1:2",
+    "two:parkinsons:1:3",
+    "two:parkinsons:3:0",
+    "two:parkinsons:3:1",
+    "two:parkinsons:3:2",
+    "two:parkinsons:3:3",
+    "two:parkinsons:5:0",
+    "two:parkinsons:5:1",
+    "two:parkinsons:5:2",
+    "two:parkinsons:5:3",
+    "two:parkinsons:7:0",
+    "two:parkinsons:7:1",
+    "one:myasthenia-gravis:1:0",
+    "one:myasthenia-gravis:1:1",
+    "one:myasthenia-gravis:1:2",
+    "one:myasthenia-gravis:1:3",
+    "one:myasthenia-gravis:3:0",
+    "one:myasthenia-gravis:3:1",
+    "one:myasthenia-gravis:3:2",
+    "one:myasthenia-gravis:3:3",
+    "one:myasthenia-gravis:3:4",
+    "one:myasthenia-gravis:4",
+    "one:myasthenia-gravis:5",
+    "two:myasthenia-gravis:0",
+    "two:myasthenia-gravis:2:0",
+    "two:myasthenia-gravis:2:1",
+    "two:myasthenia-gravis:2:2",
+    "two:myasthenia-gravis:2:3",
+    "two:myasthenia-gravis:4:0",
+    "two:myasthenia-gravis:4:1",
+    "two:myasthenia-gravis:6:0",
+    "two:myasthenia-gravis:6:1",
+    "two:myasthenia-gravis:6:2",
+    "one:multiple-sclerosis:1:0",
+    "one:multiple-sclerosis:1:1",
+    "one:multiple-sclerosis:1:2",
+    "one:multiple-sclerosis:1:3",
+    "one:multiple-sclerosis:1:4",
+    "one:multiple-sclerosis:3:0",
+    "one:multiple-sclerosis:3:1",
+    "one:multiple-sclerosis:3:2",
+    "one:multiple-sclerosis:4",
+    "one:multiple-sclerosis:5",
+    "two:multiple-sclerosis:0",
+    "two:multiple-sclerosis:2:0",
+    "two:multiple-sclerosis:2:1",
+    "two:multiple-sclerosis:2:2",
+    "two:multiple-sclerosis:4:0",
+    "two:multiple-sclerosis:4:1",
+    "one:als:1:0",
+    "one:als:1:1",
+    "one:als:1:2",
+    "one:als:1:3",
+    "one:als:1:4",
+    "one:als:1:5",
+    "one:als:3:0",
+    "one:als:3:1",
+    "one:als:3:2",
+    "one:als:5",
+    "one:als:6:0",
+    "one:als:6:1",
+    "one:als:6:2",
+    "one:als:6:3",
+    "one:als:7",
+    "two:als:0",
+    "two:als:2:0",
+    "two:als:2:1",
+    "two:als:4:0",
+    "two:als:4:1",
+    "one:meningitis:1:0",
+    "one:meningitis:1:1",
+    "one:meningitis:1:2",
+    "one:meningitis:1:3",
+    "one:meningitis:1:4",
+    "one:meningitis:1:5",
+    "one:meningitis:3:0",
+    "one:meningitis:3:1",
+    "one:meningitis:3:2",
+    "one:meningitis:3:3",
+    "one:meningitis:5:0",
+    "one:meningitis:5:1",
+    "one:meningitis:5:2",
+    "one:meningitis:5:3",
+    "one:meningitis:5:4",
+    "one:meningitis:5:5",
+    "one:meningitis:5:6",
+    "two:meningitis:1:0",
+    "two:meningitis:1:1",
+    "two:meningitis:1:2",
+    "two:meningitis:3:0",
+    "two:meningitis:3:1",
+    "two:meningitis:3:2",
+    "two:meningitis:5",
+    "two:meningitis:6",
+    "one:guillain-barre:1:0",
+    "one:guillain-barre:1:1",
+    "one:guillain-barre:1:2",
+    "one:guillain-barre:1:3",
+    "one:guillain-barre:1:4",
+    "one:guillain-barre:1:5",
+    "one:guillain-barre:1:6",
+    "one:guillain-barre:2",
+    "one:guillain-barre:3",
+    "two:guillain-barre:0",
+    "two:guillain-barre:2:0",
+    "two:guillain-barre:2:1",
+    "two:guillain-barre:4:0",
+    "two:guillain-barre:4:1",
+    "two:guillain-barre:4:2",
+    "one:rheumatoid-arthritis:1:0",
+    "one:rheumatoid-arthritis:1:1",
+    "one:rheumatoid-arthritis:1:2",
+    "one:rheumatoid-arthritis:1:3",
+    "one:rheumatoid-arthritis:1:4",
+    "one:rheumatoid-arthritis:1:5",
+    "one:rheumatoid-arthritis:3:0",
+    "one:rheumatoid-arthritis:3:1",
+    "one:rheumatoid-arthritis:3:2",
+    "one:rheumatoid-arthritis:3:3",
+    "one:rheumatoid-arthritis:5",
+    "one:rheumatoid-arthritis:6",
+    "two:rheumatoid-arthritis:0",
+    "two:rheumatoid-arthritis:2:0",
+    "two:rheumatoid-arthritis:2:1",
+    "two:rheumatoid-arthritis:4:0",
+    "two:rheumatoid-arthritis:4:1",
+    "two:rheumatoid-arthritis:4:2",
+    "two:rheumatoid-arthritis:6:0",
+    "one:osteoarthritis:1:0",
+    "one:osteoarthritis:1:1",
+    "one:osteoarthritis:1:2",
+    "one:osteoarthritis:1:3",
+    "one:osteoarthritis:1:4",
+    "one:osteoarthritis:1:5",
+    "one:osteoarthritis:1:6",
+    "one:osteoarthritis:3:0",
+    "one:osteoarthritis:3:1",
+    "one:osteoarthritis:3:2",
+    "one:osteoarthritis:3:3",
+    "one:osteoarthritis:3:4",
+    "one:osteoarthritis:3:5",
+    "one:osteoarthritis:4",
+    "two:osteoarthritis:0",
+    "two:osteoarthritis:2:0",
+    "two:osteoarthritis:2:1",
+    "two:osteoarthritis:4:0",
+    "two:osteoarthritis:4:1",
+    "two:osteoarthritis:4:2",
+    "two:osteoarthritis:4:3",
+    "one:osteoporosis:1:0",
+    "one:osteoporosis:1:1",
+    "one:osteoporosis:1:2",
+    "one:osteoporosis:1:3",
+    "one:osteoporosis:1:4",
+    "one:osteoporosis:3:0",
+    "one:osteoporosis:5",
+    "one:osteoporosis:6",
+    "one:osteoporosis:7",
+    "one:osteoporosis:8:0",
+    "one:osteoporosis:9",
+    "two:osteoporosis:0",
+    "two:osteoporosis:2:0",
+    "two:osteoporosis:2:1",
+    "two:osteoporosis:2:2",
+    "two:osteoporosis:2:3",
+    "two:osteoporosis:4:0",
+    "two:osteoporosis:4:1",
+    "two:osteoporosis:5",
+    "two:osteoporosis:6",
+    "one:gout:1:0",
+    "one:gout:1:1",
+    "one:gout:1:2",
+    "one:gout:1:3",
+    "one:gout:1:4",
+    "one:gout:3:0",
+    "one:gout:3:1",
+    "one:gout:3:2",
+    "one:gout:3:3",
+    "one:gout:3:4",
+    "one:gout:5:0",
+    "one:gout:5:1",
+    "one:gout:5:2",
+    "one:gout:5:3",
+    "two:gout:1:0",
+    "two:gout:1:1",
+    "two:gout:3:0",
+    "two:gout:3:1",
+    "two:gout:5:0",
+    "two:gout:5:1",
+    "one:meniere-disease:1",
+    "one:meniere-disease:2:0",
+    "one:meniere-disease:2:1",
+    "one:meniere-disease:2:2",
+    "one:meniere-disease:2:3",
+    "one:meniere-disease:2:4",
+    "one:meniere-disease:4:0",
+    "one:meniere-disease:4:1",
+    "one:meniere-disease:4:2",
+    "one:meniere-disease:4:3",
+    "one:meniere-disease:5",
+    "two:meniere-disease:1:0",
+    "two:meniere-disease:1:1",
+    "two:meniere-disease:3:0",
+    "two:meniere-disease:3:1",
+    "two:meniere-disease:3:2",
+    "one:breast-gynecologic-cancers:1:0",
+    "one:breast-gynecologic-cancers:1:1",
+    "one:breast-gynecologic-cancers:1:2",
+    "one:breast-gynecologic-cancers:1:3",
+    "one:breast-gynecologic-cancers:1:4",
+    "one:breast-gynecologic-cancers:1:5",
+    "one:breast-gynecologic-cancers:3:0",
+    "one:breast-gynecologic-cancers:3:1",
+    "one:breast-gynecologic-cancers:3:2",
+    "one:breast-gynecologic-cancers:3:3",
+    "one:breast-gynecologic-cancers:3:4",
+    "one:breast-gynecologic-cancers:3:5",
+    "one:breast-gynecologic-cancers:3:6",
+    "one:breast-gynecologic-cancers:5",
+    "one:breast-gynecologic-cancers:6",
+    "one:breast-gynecologic-cancers:7",
+    "one:breast-gynecologic-cancers:8:0",
+    "one:breast-gynecologic-cancers:8:1",
+    "one:breast-gynecologic-cancers:8:2",
+    "one:breast-gynecologic-cancers:10:0",
+    "one:breast-gynecologic-cancers:10:1",
+    "one:breast-gynecologic-cancers:10:2",
+    "one:breast-gynecologic-cancers:10:3",
+    "one:breast-gynecologic-cancers:10:4",
+    "one:breast-gynecologic-cancers:10:5",
+    "one:breast-gynecologic-cancers:12:0",
+    "one:breast-gynecologic-cancers:12:1",
+    "one:breast-gynecologic-cancers:12:2",
+    "one:breast-gynecologic-cancers:12:3",
+    "one:breast-gynecologic-cancers:12:4",
+    "two:breast-gynecologic-cancers:1:0",
+    "two:breast-gynecologic-cancers:3:0",
+    "two:breast-gynecologic-cancers:3:1",
+    "two:breast-gynecologic-cancers:3:2",
+    "two:breast-gynecologic-cancers:3:3",
+    "two:breast-gynecologic-cancers:3:4",
+    "two:breast-gynecologic-cancers:5:0",
+    "two:breast-gynecologic-cancers:5:1",
+    "two:breast-gynecologic-cancers:7:0",
+    "two:breast-gynecologic-cancers:7:1",
+    "two:breast-gynecologic-cancers:7:2",
+    "two:breast-gynecologic-cancers:7:3",
+    "two:breast-gynecologic-cancers:9:0",
+    "two:breast-gynecologic-cancers:9:1",
+    "two:breast-gynecologic-cancers:9:2",
+    "one:prostate-cancer:1:0",
+    "one:prostate-cancer:1:1",
+    "one:prostate-cancer:1:2",
+    "one:prostate-cancer:1:3",
+    "one:prostate-cancer:3:0",
+    "one:prostate-cancer:3:1",
+    "one:prostate-cancer:3:2",
+    "one:prostate-cancer:3:3",
+    "one:prostate-cancer:4",
+    "two:prostate-cancer:1:0",
+    "two:prostate-cancer:1:1",
+    "two:prostate-cancer:3:0",
+    "two:prostate-cancer:3:1",
+    "two:prostate-cancer:3:2",
+    "one:hiv:1",
+    "one:hiv:2",
+    "one:hiv:4",
+    "one:hiv:6:0",
+    "one:hiv:6:1",
+    "one:hiv:6:2",
+    "one:hiv:6:3",
+    "one:hiv:6:4",
+    "one:hiv:8:0",
+    "one:hiv:8:1",
+    "one:hiv:8:2",
+    "one:hiv:8:3",
+    "one:hiv:8:4",
+    "one:hiv:10:0",
+    "one:hiv:10:1",
+    "one:hiv:10:2",
+    "one:hiv:10:3",
+    "one:hiv:10:4",
+    "one:hiv:10:5",
+    "one:hiv:12",
+    "two:hiv:1:0",
+    "two:hiv:1:1",
+    "two:hiv:1:2",
+    "two:hiv:3:0",
+    "two:hiv:3:1",
+    "two:hiv:3:2",
+    "two:hiv:5:0",
+    "two:hiv:5:1",
+    "two:hiv:5:2",
+    "two:hiv:5:3",
+    "two:hiv:7:0",
+    "two:hiv:7:1",
+    "two:hiv:7:2",
+    "one:lupus:1:0",
+    "one:lupus:1:1",
+    "one:lupus:1:2",
+    "one:lupus:1:3",
+    "one:lupus:1:4",
+    "one:lupus:1:5",
+    "one:lupus:1:6",
+    "one:lupus:1:7",
+    "one:lupus:1:8",
+    "one:lupus:3:0",
+    "one:lupus:3:1",
+    "one:lupus:3:2",
+    "one:lupus:3:3",
+    "one:lupus:3:4",
+    "one:lupus:5:0",
+    "one:lupus:5:1",
+    "one:lupus:5:2",
+    "one:lupus:5:3",
+    "one:lupus:5:4",
+    "one:lupus:7:0",
+    "one:lupus:7:1",
+    "one:lupus:7:2",
+    "one:osteomyelitis:1:0",
+    "one:osteomyelitis:1:1",
+    "one:osteomyelitis:1:2",
+    "one:osteomyelitis:1:3",
+    "one:osteomyelitis:1:4",
+    "one:osteomyelitis:1:5",
+    "one:osteomyelitis:3:0",
+    "one:osteomyelitis:3:1",
+    "one:osteomyelitis:3:2",
+    "one:osteomyelitis:3:3",
+    "one:osteomyelitis:3:4",
+    "one:osteomyelitis:5:0",
+    "one:osteomyelitis:5:1",
+    "one:osteomyelitis:5:2",
+    "one:osteomyelitis:5:3",
+    "one:osteomyelitis:5:4",
+    "one:osteomyelitis:7:0",
+    "one:osteomyelitis:7:1",
+    "one:osteomyelitis:7:2",
+    "one:osteomyelitis:7:3",
+    "one:osteomyelitis:7:4",
+    "one:osteomyelitis:7:5",
+    "one:osteomyelitis:7:6",
+    "one:osteomyelitis:7:7"
+  ],
+  "deduplicated": [
+    {
+      "source": "one:parkinsons:1:0",
+      "coveredBy": [
+        "two:parkinsons:1:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:parkinsons:1:1",
+      "coveredBy": [
+        "two:parkinsons:1:1"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:parkinsons:1:2",
+      "coveredBy": [
+        "two:parkinsons:1:2"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:parkinsons:1:3",
+      "coveredBy": [
+        "two:parkinsons:1:3"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:parkinsons:3:3",
+      "coveredBy": [
+        "two:parkinsons:5:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:parkinsons:5:2",
+      "coveredBy": [
+        "two:parkinsons:3:3"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:myasthenia-gravis:1:0",
+      "coveredBy": [
+        "two:myasthenia-gravis:2:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:myasthenia-gravis:1:2",
+      "coveredBy": [
+        "two:myasthenia-gravis:2:1"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:myasthenia-gravis:1:3",
+      "coveredBy": [
+        "two:myasthenia-gravis:2:2"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:myasthenia-gravis:3:0",
+      "coveredBy": [
+        "two:myasthenia-gravis:4:1"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:myasthenia-gravis:3:2",
+      "coveredBy": [
+        "two:myasthenia-gravis:4:1"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:multiple-sclerosis:1:0",
+      "coveredBy": [
+        "two:multiple-sclerosis:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:multiple-sclerosis:1:1",
+      "coveredBy": [
+        "two:multiple-sclerosis:2:0",
+        "two:multiple-sclerosis:2:1"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:multiple-sclerosis:1:3",
+      "coveredBy": [
+        "two:multiple-sclerosis:2:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:als:1:0",
+      "coveredBy": [
+        "two:als:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:als:1:3",
+      "coveredBy": [
+        "two:als:2:1"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:als:5",
+      "coveredBy": [
+        "two:als:4:1"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "two:als:4:0",
+      "coveredBy": [
+        "one:als:3:0",
+        "one:als:3:1"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:meningitis:1:1",
+      "coveredBy": [
+        "two:meningitis:1:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:meningitis:1:2",
+      "coveredBy": [
+        "two:meningitis:1:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:meningitis:1:4",
+      "coveredBy": [
+        "two:meningitis:1:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:meningitis:3:3",
+      "coveredBy": [
+        "two:meningitis:1:2"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:meningitis:5:6",
+      "coveredBy": [
+        "two:meningitis:3:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:guillain-barre:1:3",
+      "coveredBy": [
+        "two:guillain-barre:2:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:guillain-barre:1:5",
+      "coveredBy": [
+        "two:guillain-barre:2:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:guillain-barre:3",
+      "coveredBy": [
+        "two:guillain-barre:2:1"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:rheumatoid-arthritis:1:0",
+      "coveredBy": [
+        "two:rheumatoid-arthritis:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:rheumatoid-arthritis:1:1",
+      "coveredBy": [
+        "two:rheumatoid-arthritis:2:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:rheumatoid-arthritis:1:2",
+      "coveredBy": [
+        "two:rheumatoid-arthritis:2:1"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:rheumatoid-arthritis:1:3",
+      "coveredBy": [
+        "two:rheumatoid-arthritis:2:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:osteoarthritis:1:0",
+      "coveredBy": [
+        "two:osteoarthritis:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:osteoarthritis:1:1",
+      "coveredBy": [
+        "two:osteoarthritis:2:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:osteoarthritis:1:5",
+      "coveredBy": [
+        "two:osteoarthritis:2:1"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:osteoporosis:1:0",
+      "coveredBy": [
+        "two:osteoporosis:2:1",
+        "two:osteoporosis:2:2"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:osteoporosis:1:1",
+      "coveredBy": [
+        "two:osteoporosis:2:2"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:osteoporosis:7",
+      "coveredBy": [
+        "two:osteoporosis:6"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "two:osteoporosis:5",
+      "reason": "Same three T-score categories are preserved in guide one’s T-score table."
+    },
+    {
+      "source": "one:gout:1:1",
+      "coveredBy": [
+        "two:gout:1:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:gout:1:4",
+      "coveredBy": [
+        "two:gout:1:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:gout:5:0",
+      "coveredBy": [
+        "two:gout:5:1"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:gout:5:1",
+      "coveredBy": [
+        "two:gout:5:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:meniere-disease:1",
+      "coveredBy": [
+        "two:meniere-disease:1:0",
+        "one:meniere-disease:2:4"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:meniere-disease:2:0",
+      "coveredBy": [
+        "two:meniere-disease:1:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:meniere-disease:2:2",
+      "coveredBy": [
+        "two:meniere-disease:1:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:meniere-disease:2:3",
+      "coveredBy": [
+        "two:meniere-disease:1:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:meniere-disease:4:1",
+      "coveredBy": [
+        "one:meniere-disease:4:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:meniere-disease:4:2",
+      "coveredBy": [
+        "one:meniere-disease:4:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:meniere-disease:4:3",
+      "coveredBy": [
+        "one:meniere-disease:4:0",
+        "two:meniere-disease:3:2"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:breast-gynecologic-cancers:3:2",
+      "coveredBy": [
+        "two:breast-gynecologic-cancers:3:1"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:breast-gynecologic-cancers:3:3",
+      "coveredBy": [
+        "two:breast-gynecologic-cancers:3:1"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:breast-gynecologic-cancers:10:0",
+      "coveredBy": [
+        "two:breast-gynecologic-cancers:7:1"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:breast-gynecologic-cancers:10:1",
+      "coveredBy": [
+        "two:breast-gynecologic-cancers:7:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:breast-gynecologic-cancers:10:3",
+      "coveredBy": [
+        "two:breast-gynecologic-cancers:7:1"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:breast-gynecologic-cancers:10:5",
+      "coveredBy": [
+        "two:breast-gynecologic-cancers:7:3"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:breast-gynecologic-cancers:12:0",
+      "coveredBy": [
+        "two:breast-gynecologic-cancers:9:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:breast-gynecologic-cancers:12:4",
+      "coveredBy": [
+        "two:breast-gynecologic-cancers:9:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "two:breast-gynecologic-cancers:5:0",
+      "coveredBy": [
+        "one:breast-gynecologic-cancers:6"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:prostate-cancer:1:0",
+      "coveredBy": [
+        "two:prostate-cancer:1:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:prostate-cancer:1:2",
+      "coveredBy": [
+        "two:prostate-cancer:1:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:prostate-cancer:3:2",
+      "coveredBy": [
+        "two:prostate-cancer:3:0"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:hiv:10:2",
+      "coveredBy": [
+        "two:hiv:7:1"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "one:hiv:10:3",
+      "coveredBy": [
+        "two:hiv:7:1"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "two:hiv:5:1",
+      "coveredBy": [
+        "one:hiv:8:0",
+        "one:hiv:8:3"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "two:hiv:5:2",
+      "coveredBy": [
+        "one:hiv:8:1",
+        "one:hiv:8:2"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    },
+    {
+      "source": "two:hiv:7:0",
+      "coveredBy": [
+        "one:hiv:10:0",
+        "one:hiv:10:1"
+      ],
+      "reason": "The fuller retained point(s) include this short study point."
+    }
+  ]
+}

@@ -5,9 +5,6 @@ const focusedReviewData = {
       "id": "parkinsons",
       "number": 1,
       "title": "Parkinson’s Disease",
-      "sourcePages": [
-        1
-      ],
       "blocks": [
         {
           "type": "heading",
@@ -55,9 +52,6 @@ const focusedReviewData = {
       "id": "myasthenia-gravis",
       "number": 2,
       "title": "Myasthenia Gravis (MG)",
-      "sourcePages": [
-        1
-      ],
       "blocks": [
         {
           "type": "heading",
@@ -100,10 +94,6 @@ const focusedReviewData = {
       "id": "multiple-sclerosis",
       "number": 3,
       "title": "Multiple Sclerosis (MS)",
-      "sourcePages": [
-        1,
-        2
-      ],
       "blocks": [
         {
           "type": "heading",
@@ -145,9 +135,6 @@ const focusedReviewData = {
       "id": "als",
       "number": 4,
       "title": "Amyotrophic Lateral Sclerosis (ALS)",
-      "sourcePages": [
-        2
-      ],
       "blocks": [
         {
           "type": "heading",
@@ -203,10 +190,6 @@ const focusedReviewData = {
       "id": "meningitis",
       "number": 5,
       "title": "Meningitis",
-      "sourcePages": [
-        2,
-        3
-      ],
       "blocks": [
         {
           "type": "heading",
@@ -258,9 +241,6 @@ const focusedReviewData = {
       "id": "guillain-barre",
       "number": 6,
       "title": "Guillain-Barré Syndrome (GBS)",
-      "sourcePages": [
-        3
-      ],
       "blocks": [
         {
           "type": "heading",
@@ -292,10 +272,6 @@ const focusedReviewData = {
       "id": "rheumatoid-arthritis",
       "number": 7,
       "title": "Rheumatoid Arthritis (RA)",
-      "sourcePages": [
-        3,
-        4
-      ],
       "blocks": [
         {
           "type": "heading",
@@ -368,9 +344,6 @@ const focusedReviewData = {
       "id": "osteoarthritis",
       "number": 8,
       "title": "Osteoarthritis (OA)",
-      "sourcePages": [
-        4
-      ],
       "blocks": [
         {
           "type": "heading",
@@ -413,9 +386,6 @@ const focusedReviewData = {
       "id": "osteoporosis",
       "number": 9,
       "title": "Osteoporosis",
-      "sourcePages": [
-        4
-      ],
       "blocks": [
         {
           "type": "heading",
@@ -490,9 +460,6 @@ const focusedReviewData = {
       "id": "gout",
       "number": 10,
       "title": "Gout",
-      "sourcePages": [
-        5
-      ],
       "blocks": [
         {
           "type": "heading",
@@ -541,9 +508,6 @@ const focusedReviewData = {
       "id": "meniere-disease",
       "number": 11,
       "title": "Ménière’s Disease",
-      "sourcePages": [
-        5
-      ],
       "blocks": [
         {
           "type": "heading",
@@ -586,10 +550,6 @@ const focusedReviewData = {
       "id": "breast-gynecologic-cancers",
       "number": 12,
       "title": "Breast and Gynecologic Cancers",
-      "sourcePages": [
-        5,
-        6
-      ],
       "blocks": [
         {
           "type": "heading",
@@ -710,10 +670,6 @@ const focusedReviewData = {
       "id": "prostate-cancer",
       "number": 13,
       "title": "Prostate Cancer",
-      "sourcePages": [
-        6,
-        7
-      ],
       "blocks": [
         {
           "type": "heading",
@@ -751,10 +707,6 @@ const focusedReviewData = {
       "id": "hiv",
       "number": 14,
       "title": "HIV and Opportunistic Infections",
-      "sourcePages": [
-        7,
-        8
-      ],
       "blocks": [
         {
           "type": "heading",
@@ -891,10 +843,6 @@ const focusedReviewData = {
       "id": "lupus",
       "number": 15,
       "title": "Systemic Lupus Erythematosus (SLE)",
-      "sourcePages": [
-        8,
-        9
-      ],
       "blocks": [
         {
           "type": "heading",
@@ -960,9 +908,6 @@ const focusedReviewData = {
       "id": "osteomyelitis",
       "number": 16,
       "title": "Osteomyelitis",
-      "sourcePages": [
-        9
-      ],
       "blocks": [
         {
           "type": "heading",
@@ -1100,219 +1045,5 @@ const focusedReviewData = {
       "Osteomyelitis",
       "Prescribed antibiotics (IV or appropriate oral therapy), wound care and infection/sepsis monitoring."
     ]
-  ],
-  "clarifications": [
-    {
-      "title": "Swallowing and respiratory assessment",
-      "text": "Silent aspiration can occur without cough. In neuromuscular disease, normal oxygen saturation does not exclude hypoventilation; assess respiratory strength, effort and secretion clearance."
-    },
-    {
-      "title": "MG crises",
-      "text": "Pyridostigmine decisions follow the crisis/neurology plan rather than a blanket stop rule. Atropine treats muscarinic effects of cholinergic crisis but does not reverse skeletal-muscle paralysis; ventilatory support remains essential."
-    },
-    {
-      "title": "MS and ALS terminology",
-      "text": "MS relapse treatment is individualized; significant relapses may receive oral or IV steroids, with plasma exchange reserved for selected severe steroid-refractory cases. ALS communication assistance uses the standard term AAC, retaining the guide’s CAM wording for continuity."
-    },
-    {
-      "title": "Meningitis and GBS",
-      "text": "Meningitis precautions depend on the suspected organism; negative Kernig/Brudzinski signs do not exclude disease. The ascending, relatively symmetric GBS pattern is typical, while variants differ. Corticosteroids are not effective routine GBS therapy."
-    },
-    {
-      "title": "Arthritis and bone health",
-      "text": "RA blood tests support assessment rather than independently establish or exclude the diagnosis. Methotrexate follows a weekly prescription with safety monitoring. Typical OA is usually diagnosed clinically. DXA score interpretation depends on age/population, and bisphosphonate instructions are product-specific."
-    },
-    {
-      "title": "Gout treatment",
-      "text": "Allopurinol is long-term urate-lowering treatment, not immediate flare relief; it may be started during a treated flare when indicated. New rash requires stopping and prompt review. HLA-B*58:01 testing is selective rather than universal; a negative result does not eliminate hypersensitivity risk."
-    },
-    {
-      "title": "Ménière disease",
-      "text": "The three-part triad is distinguished from additional symptoms. HCTZ may be offered for maintenance; symptom benefit varies and the prescribed monitoring/sodium plan remains important."
-    },
-    {
-      "title": "Lymph node biopsy and arm care",
-      "text": "Blue dye and radioactive tracers are distinct mapping agents; blue dye can cause temporary urine/skin discoloration. Arm precautions are individualized rather than a lifelong absolute ban on every BP measurement or needle procedure."
-    },
-    {
-      "title": "Cervical screening",
-      "text": "The table follows the current ACOG framework for average-risk, asymptomatic people with a cervix. HIV/immunocompromise, abnormal findings or a prior high-grade lesion require a separate plan; symptoms require diagnostic assessment."
-    },
-    {
-      "title": "HIV infection, prevention and tests",
-      "text": "OI risk varies by organism; TB can occur at any CD4 count. HAND is a separate neurological complication. PEP requires exposure assessment; PrEP choices and monitoring are product-specific. The image-only HIV testing table is included as readable text, with the antigen and differentiation-test labels corrected."
-    },
-    {
-      "title": "Prostate spread and bone infection",
-      "text": "Bone is a common distant prostate cancer site, not necessarily the first site of spread. Osteomyelitis markers can be normal, and antibiotic route/duration depend on the specific infection and treatment plan."
-    }
-  ],
-  "references": [
-    {
-      "title": "ASHA · Adult dysphagia",
-      "url": "https://www.asha.org/practice-portal/clinical-topics/adult-dysphagia/"
-    },
-    {
-      "title": "ABN · Myasthenia gravis management guidelines, 2025 update",
-      "url": "https://pn.bmj.com/content/25/5/422"
-    },
-    {
-      "title": "MGFA · Emergency management for first responders",
-      "url": "https://myasthenia.org/understanding-mg/learn-more-about-mg-treatments/mg-brochures/emergency-management-for-first-responders/"
-    },
-    {
-      "title": "Medsafe · Mestinon data sheet",
-      "url": "https://www.medsafe.govt.nz/profs/datasheet/m/Mestinontab.pdf"
-    },
-    {
-      "title": "NICE NG220 · MS management and relapse treatment",
-      "url": "https://www.nice.org.uk/guidance/ng220/chapter/Recommendations"
-    },
-    {
-      "title": "VA MS Centers of Excellence · Relapse management",
-      "url": "https://www.va.gov/MS/LEARN_ABOUT_MULTIPLE_SCLEROSIS/Relapse_Management_for_Multiple_Sclerosis.asp"
-    },
-    {
-      "title": "NICE NG42 · Motor neurone disease assessment and management",
-      "url": "https://www.nice.org.uk/guidance/ng42/chapter/Recommendations"
-    },
-    {
-      "title": "ASHA · Augmentative and alternative communication",
-      "url": "https://www.asha.org/practice-portal/professional-issues/augmentative-and-alternative-communication"
-    },
-    {
-      "title": "DailyMed · Riluzole prescribing information",
-      "url": "https://dailymed.awsprod.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=dd432c13-389e-46b3-8891-0cf1a58800ff&type=display"
-    },
-    {
-      "title": "NICE NG240 · Bacterial meningitis recognition and urgent care",
-      "url": "https://www.nice.org.uk/guidance/ng240/chapter/Recommendations"
-    },
-    {
-      "title": "ESCMID · Acute bacterial meningitis guideline",
-      "url": "https://doi.org/10.1016/j.cmi.2016.01.007"
-    },
-    {
-      "title": "CDC · Type and duration of organism-specific precautions",
-      "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html"
-    },
-    {
-      "title": "EAN/PNS · GBS diagnosis and treatment guideline",
-      "url": "https://onlinelibrary.wiley.com/doi/10.1111/ene.16073"
-    },
-    {
-      "title": "FDA · Methotrexate tablets (2026 label)",
-      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/008085s072lbl.pdf"
-    },
-    {
-      "title": "NIAMS · RA diagnosis, treatment and self-care",
-      "url": "https://www.niams.nih.gov/health-topics/rheumatoid-arthritis/diagnosis-treatment-and-steps-to-take"
-    },
-    {
-      "title": "NIAMS · Osteoarthritis overview",
-      "url": "https://www.niams.nih.gov/health-topics/osteoarthritis"
-    },
-    {
-      "title": "NICE NG226 · OA clinical diagnosis",
-      "url": "https://www.nice.org.uk/guidance/ng226/chapter/Recommendations"
-    },
-    {
-      "title": "ISCD · Adult DXA positions",
-      "url": "https://iscd.org/text-based-official-adult-positions/"
-    },
-    {
-      "title": "FDA · Fosamax (2026 label)",
-      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/020560s073lbl.pdf"
-    },
-    {
-      "title": "FDA · Atelvia delayed-release risedronate (2026 label)",
-      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/022560s013bl.pdf"
-    },
-    {
-      "title": "ACR · Gout management guideline",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/"
-    },
-    {
-      "title": "NIAMS · Gout symptoms, causes and risk",
-      "url": "https://www.niams.nih.gov/health-topics/gout"
-    },
-    {
-      "title": "NICE NG219 · Gout diet and management",
-      "url": "https://www.nice.org.uk/guidance/ng219/chapter/Recommendations"
-    },
-    {
-      "title": "DailyMed · Allopurinol (2026 label)",
-      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=815af471-5985-4819-936d-1f5f3d871ef8"
-    },
-    {
-      "title": "AAO-HNS · Ménière disease clinical practice guideline",
-      "url": "https://aao-hnsfjournals.onlinelibrary.wiley.com/doi/10.1177/0194599820909438"
-    },
-    {
-      "title": "NIDCD · Ménière disease",
-      "url": "https://www.nidcd.nih.gov/health/menieres-disease"
-    },
-    {
-      "title": "IWGDF/IDSA · Diabetic foot infection and osteomyelitis",
-      "url": "https://www.idsociety.org/practice-guideline/diabetic-foot-infections/"
-    },
-    {
-      "title": "NCI · Sentinel lymph node biopsy",
-      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/staging/sentinel-node-biopsy-fact-sheet"
-    },
-    {
-      "title": "NICE NG101 · Breast cancer recommendations",
-      "url": "https://www.nice.org.uk/guidance/ng101/chapter/recommendations"
-    },
-    {
-      "title": "NCI · Lymphedema",
-      "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/lymphedema"
-    },
-    {
-      "title": "ACOG · Cervical cancer screening (2026)",
-      "url": "https://www.acog.org/clinical/clinical-guidance/committee-statement/articles/2026/07/screening-for-cervical-cancer"
-    },
-    {
-      "title": "ACOG · Updated screening guidance and self-collection (April 2026)",
-      "url": "https://www.acog.org/news/news-releases/2026/04/acog-publishes-updated-cervical-cancer-screening-guidance"
-    },
-    {
-      "title": "HRSA · Women’s preventive services guidelines",
-      "url": "https://www.hrsa.gov/womens-guidelines"
-    },
-    {
-      "title": "NIH · TB in people with HIV",
-      "url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/mycobacterium"
-    },
-    {
-      "title": "NIH · HIV-associated neurocognitive disorders",
-      "url": "https://clinicalinfo.hiv.gov/en/glossary/hiv-associated-neurocognitive-disorders-hand"
-    },
-    {
-      "title": "CDC · Nonoccupational HIV PEP (2025)",
-      "url": "https://www.cdc.gov/mmwr/volumes/74/rr/rr7401a1.htm"
-    },
-    {
-      "title": "CDC · PrEP clinical guidance",
-      "url": "https://www.cdc.gov/hivnexus/hcp/prep/"
-    },
-    {
-      "title": "CDC · Six-monthly lenacapavir PrEP",
-      "url": "https://www.cdc.gov/mmwr/volumes/74/wr/mm7435a1.htm"
-    },
-    {
-      "title": "CDC/APHL · HIV laboratory testing algorithm",
-      "url": "https://stacks.cdc.gov/view/cdc/23446/cdc_23446_DS1.pdf"
-    },
-    {
-      "title": "NCI · Prostate cancer treatment and spread",
-      "url": "https://www.cancer.gov/types/prostate/patient/prostate-treatment-pdq"
-    },
-    {
-      "title": "UCSF · Sentinel node biopsy and blue dye teaching",
-      "url": "https://cancer.ucsf.edu/breastcarecenter/treatment/surgical_oncology/sentinel_lymph"
-    }
-  ],
-  "source": "resources/focused-review-original.pdf",
-  "reviewed": "November 16, 2026"
+  ]
 };

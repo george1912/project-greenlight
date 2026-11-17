@@ -5,55 +5,6 @@ const oliviaFocusedReviewData = {
       "id": "parkinsons",
       "number": 1,
       "title": "Parkinson’s Disease — Dopamine Down",
-      "sourcePages": [
-        1,
-        2
-      ],
-      "sourceParagraphs": [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
       "blocks": [
         {
           "type": "heading",
@@ -111,31 +62,6 @@ const oliviaFocusedReviewData = {
       "id": "myasthenia-gravis",
       "number": 2,
       "title": "Myasthenia Gravis",
-      "sourcePages": [
-        2,
-        3
-      ],
-      "sourceParagraphs": [
-        47,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        61,
-        62,
-        63,
-        64,
-        65
-      ],
       "blocks": [
         {
           "type": "paragraph",
@@ -183,26 +109,6 @@ const oliviaFocusedReviewData = {
       "id": "multiple-sclerosis",
       "number": 3,
       "title": "Multiple Sclerosis (MS)",
-      "sourcePages": [
-        3
-      ],
-      "sourceParagraphs": [
-        67,
-        68,
-        69,
-        70,
-        71,
-        72,
-        73,
-        74,
-        75,
-        76,
-        77,
-        78,
-        79,
-        80,
-        81
-      ],
       "blocks": [
         {
           "type": "paragraph",
@@ -237,24 +143,6 @@ const oliviaFocusedReviewData = {
       "id": "als",
       "number": 4,
       "title": "Amyotrophic Lateral Sclerosis (ALS)",
-      "sourcePages": [
-        3
-      ],
-      "sourceParagraphs": [
-        82,
-        83,
-        84,
-        85,
-        86,
-        87,
-        88,
-        89,
-        90,
-        91,
-        92,
-        93,
-        94
-      ],
       "blocks": [
         {
           "type": "paragraph",
@@ -288,33 +176,6 @@ const oliviaFocusedReviewData = {
       "id": "meningitis",
       "number": 5,
       "title": "Meningitis",
-      "sourcePages": [
-        3,
-        4
-      ],
-      "sourceParagraphs": [
-        95,
-        96,
-        97,
-        98,
-        99,
-        100,
-        101,
-        102,
-        103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110,
-        111,
-        112,
-        113,
-        114,
-        115
-      ],
       "blocks": [
         {
           "type": "heading",
@@ -379,22 +240,6 @@ const oliviaFocusedReviewData = {
       "id": "guillain-barre",
       "number": 6,
       "title": "Guillain-Barré Syndrome (GBS)",
-      "sourcePages": [
-        4
-      ],
-      "sourceParagraphs": [
-        116,
-        117,
-        118,
-        119,
-        120,
-        121,
-        122,
-        123,
-        124,
-        125,
-        126
-      ],
       "blocks": [
         {
           "type": "paragraph",
@@ -429,30 +274,6 @@ const oliviaFocusedReviewData = {
       "id": "rheumatoid-arthritis",
       "number": 7,
       "title": "Rheumatoid Arthritis (RA)",
-      "sourcePages": [
-        4,
-        5
-      ],
-      "sourceParagraphs": [
-        127,
-        128,
-        129,
-        130,
-        131,
-        132,
-        133,
-        134,
-        135,
-        136,
-        137,
-        138,
-        139,
-        140,
-        141,
-        142,
-        143,
-        144
-      ],
       "blocks": [
         {
           "type": "paragraph",
@@ -497,25 +318,6 @@ const oliviaFocusedReviewData = {
       "id": "osteoarthritis",
       "number": 8,
       "title": "Osteoarthritis (OA)",
-      "sourcePages": [
-        5
-      ],
-      "sourceParagraphs": [
-        145,
-        146,
-        147,
-        148,
-        149,
-        150,
-        151,
-        152,
-        153,
-        154,
-        155,
-        156,
-        157,
-        158
-      ],
       "blocks": [
         {
           "type": "paragraph",
@@ -551,30 +353,6 @@ const oliviaFocusedReviewData = {
       "id": "osteoporosis",
       "number": 9,
       "title": "Osteoporosis",
-      "sourcePages": [
-        5,
-        6
-      ],
-      "sourceParagraphs": [
-        159,
-        160,
-        161,
-        162,
-        163,
-        164,
-        165,
-        166,
-        167,
-        168,
-        169,
-        170,
-        171,
-        172,
-        173,
-        174,
-        175,
-        176
-      ],
       "blocks": [
         {
           "type": "paragraph",
@@ -635,23 +413,6 @@ const oliviaFocusedReviewData = {
       "id": "gout",
       "number": 10,
       "title": "Gout",
-      "sourcePages": [
-        6
-      ],
-      "sourceParagraphs": [
-        177,
-        178,
-        179,
-        180,
-        181,
-        182,
-        183,
-        184,
-        185,
-        186,
-        187,
-        188
-      ],
       "blocks": [
         {
           "type": "heading",
@@ -692,22 +453,6 @@ const oliviaFocusedReviewData = {
       "id": "meniere-disease",
       "number": 11,
       "title": "Ménière’s Disease",
-      "sourcePages": [
-        6
-      ],
-      "sourceParagraphs": [
-        189,
-        190,
-        191,
-        192,
-        193,
-        194,
-        195,
-        196,
-        197,
-        198,
-        199
-      ],
       "blocks": [
         {
           "type": "heading",
@@ -738,40 +483,6 @@ const oliviaFocusedReviewData = {
       "id": "breast-gynecologic-cancers",
       "number": 12,
       "title": "Breast and Gynecologic Cancers",
-      "sourcePages": [
-        6,
-        7
-      ],
-      "sourceParagraphs": [
-        200,
-        201,
-        202,
-        203,
-        204,
-        205,
-        206,
-        207,
-        208,
-        209,
-        210,
-        211,
-        212,
-        213,
-        214,
-        215,
-        216,
-        217,
-        218,
-        219,
-        220,
-        221,
-        222,
-        223,
-        224,
-        225,
-        226,
-        227
-      ],
       "blocks": [
         {
           "type": "heading",
@@ -839,22 +550,6 @@ const oliviaFocusedReviewData = {
       "id": "prostate-cancer",
       "number": 13,
       "title": "Prostate Cancer",
-      "sourcePages": [
-        7
-      ],
-      "sourceParagraphs": [
-        228,
-        229,
-        230,
-        231,
-        232,
-        233,
-        234,
-        235,
-        236,
-        237,
-        238
-      ],
       "blocks": [
         {
           "type": "heading",
@@ -885,33 +580,6 @@ const oliviaFocusedReviewData = {
       "id": "hiv",
       "number": 14,
       "title": "HIV and Opportunistic Infections",
-      "sourcePages": [
-        8
-      ],
-      "sourceParagraphs": [
-        239,
-        240,
-        241,
-        242,
-        243,
-        244,
-        245,
-        246,
-        247,
-        248,
-        249,
-        250,
-        251,
-        252,
-        253,
-        254,
-        255,
-        256,
-        257,
-        258,
-        259,
-        260
-      ],
       "blocks": [
         {
           "type": "heading",
@@ -965,287 +633,5 @@ const oliviaFocusedReviewData = {
       ]
     }
   ],
-  "source": "resources/focused-review-olivia-original.pdf",
-  "reviewed": "November 16, 2026",
-  "intro": "Use the nursing process for every condition: review risks, manifestations, medical and nursing management, therapies and adverse effects, nutrition, assessment, diagnoses, priorities, first actions, care planning, interventions, and evaluation. Topic-specific points below add emphasis.",
-  "examNote": "The supplied guide lists 40 questions and notes that the exam is not limited to the study guide.",
-  "clarifications": [
-    {
-      "title": "Parkinson’s Disease — Dopamine Down · Diagnosis, rigidity, and swallowing",
-      "text": "A levodopa response supports diagnosis rather than proving it. Lead-pipe and cogwheel rigidity differ. Texture changes and swallow maneuvers require an individualized SLP plan, not a universal ban on thin liquids.",
-      "references": [
-        "https://www.nice.org.uk/guidance/ng71/chapter/Recommendations",
-        "https://www.asha.org/practice-portal/clinical-topics/adult-dysphagia/"
-      ]
-    },
-    {
-      "title": "Myasthenia Gravis · Crisis management",
-      "text": "Myasthenic crisis has several triggers. Cholinergic toxicity requires airway support; atropine does not reverse muscle paralysis. Benzodiazepines are not routine crisis therapy and may worsen weakness.",
-      "references": [
-        "https://myasthenia.org/understanding-mg/learn-more-about-mg-treatments/mg-brochures/emergency-management-for-first-responders/",
-        "https://www.medsafe.govt.nz/profs/datasheet/m/Mestinontab.pdf"
-      ]
-    },
-    {
-      "title": "Multiple Sclerosis (MS) · Lumbar-puncture aftercare",
-      "text": "Routine bed rest and forced extra fluids are not proven to prevent post-dural-puncture headache. Follow the procedure plan and assess complications.",
-      "references": [
-        "https://www.cochrane.org/evidence/CD009199_body-position-and-intake-fluids-preventing-headache-after-lumbar-puncture"
-      ]
-    },
-    {
-      "title": "Amyotrophic Lateral Sclerosis (ALS) · Motor neurons and communication",
-      "text": "ALS involves upper and lower motor neurons. The source’s “CAM ???” is unresolved; the communication concept is presented using the verified term AAC.",
-      "references": [
-        "https://www.nice.org.uk/guidance/ng42/chapter/Recommendations",
-        "https://www.asha.org/practice-portal/professional-issues/augmentative-and-alternative-communication"
-      ]
-    },
-    {
-      "title": "Meningitis · Urgent care, LP, and CSF",
-      "text": "Corrected Cushing triad, selected rather than routine pre-LP imaging, urgent antibiotic timing, headache prevention, and bacterial/viral CSF patterns.",
-      "references": [
-        "https://www.ncbi.nlm.nih.gov/books/NBK614844/",
-        "https://jts.health.mil/assets/docs/cpgs/CoERCCC%20Guidelines%20FY26.pdf",
-        "https://www.cochrane.org/evidence/CD009199_body-position-and-intake-fluids-preventing-headache-after-lumbar-puncture",
-        "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html"
-      ]
-    },
-    {
-      "title": "Guillain-Barré Syndrome (GBS) · Variants and treatment",
-      "text": "GBS includes axonal variants. Corticosteroids do not treat GBS itself; IVIG rates and plasma-exchange calcium replacement follow product/procedure orders.",
-      "references": [
-        "https://onlinelibrary.wiley.com/doi/10.1111/ene.16073"
-      ]
-    },
-    {
-      "title": "Rheumatoid Arthritis (RA) · DMARD timing and infection",
-      "text": "Early treatment matters, but joint destruction is not confined to 12 weeks and response is not a fixed six weeks. Drug holds are agent- and infection-specific; negative serology does not exclude RA.",
-      "references": [
-        "https://www.niams.nih.gov/health-topics/rheumatoid-arthritis/diagnosis-treatment-and-steps-to-take",
-        "https://www.nice.org.uk/guidance/ng100/chapter/Recommendations"
-      ]
-    },
-    {
-      "title": "Osteoarthritis (OA) · Inflammation and pain management",
-      "text": "OA can involve local inflammation. Acetaminophen is not universally first-line; exercise and suitable NSAIDs are emphasized, and injection frequency is individualized.",
-      "references": [
-        "https://www.nice.org.uk/guidance/ng226/chapter/Recommendations"
-      ]
-    },
-    {
-      "title": "Osteoporosis · Prevention, screening, and DXA",
-      "text": "Corrected age/sex-specific calcium targets, vitamin D and hormone-therapy absolutes, guideline-specific screening, and nonoverlapping T-score boundaries.",
-      "references": [
-        "https://www.bonehealthandosteoporosis.org/patients/treatment/calciumvitamin-d/",
-        "https://iscd.org/text-based-official-adult-positions/",
-        "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/osteoporosis-screening",
-        "https://www.niams.nih.gov/health-topics/osteoporosis/diagnosis-treatment-and-steps-to-take"
-      ]
-    },
-    {
-      "title": "Gout · Cause, fluids, and medicines",
-      "text": "Gout is not caused by diet alone. Hydration follows clinical needs. Allopurinol lowers urate over time; colchicine treats flares or provides prophylaxis.",
-      "references": [
-        "https://www.niams.nih.gov/health-topics/gout",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/"
-      ]
-    },
-    {
-      "title": "Ménière’s Disease · Tests and maintenance therapy",
-      "text": "Audiometry and symptom criteria guide diagnosis; MRI is selected. Diuretics are an optional maintenance treatment, not a guaranteed fluid-correction cure.",
-      "references": [
-        "https://www.nidcd.nih.gov/health/menieres-disease"
-      ]
-    },
-    {
-      "title": "Breast and Gynecologic Cancers · Cancer care and screening",
-      "text": "Qualified dye effects, SLNB/ALND comparisons and pregnancy timing, separated screening guidelines, and corrected biopsy indications, pain, aftercare, and fever/filgrastim advice.",
-      "references": [
-        "https://www.cancer.gov/about-cancer/diagnosis-staging/staging/sentinel-node-biopsy-fact-sheet",
-        "https://ascopubs.org/doi/10.1200/jco-25-02115",
-        "https://www.acog.org/clinical/clinical-guidance/committee-statement/articles/2026/07/screening-for-cervical-cancer",
-        "https://www.acog.org/news/news-releases/2026/04/acog-publishes-updated-guidance-evaluation-postmenopausal-bleeding",
-        "https://www.asccp.org/wp-content/uploads/2025/11/Endometrial_Biopsy-2024.pdf",
-        "https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2025/05/pain-management-for-in-office-uterine-and-cervical-procedures",
-        "https://www.cdc.gov/cancer-preventing-infections/patients/fever.html",
-        "https://www.cancer.org/cancer/types/cervical-cancer/detection-diagnosis-staging/cervical-cancer-screening-guidelines.html",
-        "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/103353s5202lbl.pdf"
-      ]
-    },
-    {
-      "title": "Prostate Cancer · Risk and urinary symptoms",
-      "text": "Diet and testosterone associations are not presented as proven universal causes. Obstruction does not establish advanced cancer; PSA and symptoms require clinical interpretation.",
-      "references": [
-        "https://www.cancer.gov/types/prostate/understanding-prostate-changes",
-        "https://www.cancer.org/cancer/types/prostate-cancer/causes-risks-prevention.html"
-      ]
-    },
-    {
-      "title": "HIV and Opportunistic Infections · OI classification and prevention",
-      "text": "Neuropathy is not an OI. Added complete AIDS staging context, 28-day PEP, six-monthly PrEP, limited event-driven eligibility, and U=U; prevention counseling respects confidentiality.",
-      "references": [
-        "https://www.cdc.gov/hivnexus/hcp/pep/",
-        "https://www.cdc.gov/hivnexus/hcp/prep/",
-        "https://www.cdc.gov/mmwr/volumes/74/wr/mm7435a1.htm",
-        "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/pneumocystis",
-        "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/disseminated",
-        "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr6303a1.htm"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "title": "NICE · Parkinson’s disease",
-      "url": "https://www.nice.org.uk/guidance/ng71/chapter/Recommendations"
-    },
-    {
-      "title": "ASHA · Adult dysphagia",
-      "url": "https://www.asha.org/practice-portal/clinical-topics/adult-dysphagia/"
-    },
-    {
-      "title": "MGFA · Emergency management",
-      "url": "https://myasthenia.org/understanding-mg/learn-more-about-mg-treatments/mg-brochures/emergency-management-for-first-responders/"
-    },
-    {
-      "title": "Medsafe · Mestinon data sheet",
-      "url": "https://www.medsafe.govt.nz/profs/datasheet/m/Mestinontab.pdf"
-    },
-    {
-      "title": "Cochrane · Posture and fluids after lumbar puncture",
-      "url": "https://www.cochrane.org/evidence/CD009199_body-position-and-intake-fluids-preventing-headache-after-lumbar-puncture"
-    },
-    {
-      "title": "NICE · Motor neurone disease",
-      "url": "https://www.nice.org.uk/guidance/ng42/chapter/Recommendations"
-    },
-    {
-      "title": "ASHA · Augmentative and alternative communication",
-      "url": "https://www.asha.org/practice-portal/professional-issues/augmentative-and-alternative-communication"
-    },
-    {
-      "title": "WHO · Meningitis diagnosis, treatment and care",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK614844/"
-    },
-    {
-      "title": "Joint Trauma System · En Route Care Guidelines FY26",
-      "url": "https://jts.health.mil/assets/docs/cpgs/CoERCCC%20Guidelines%20FY26.pdf"
-    },
-    {
-      "title": "CDC · Organism-specific precautions",
-      "url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html"
-    },
-    {
-      "title": "EAN/PNS · GBS guideline",
-      "url": "https://onlinelibrary.wiley.com/doi/10.1111/ene.16073"
-    },
-    {
-      "title": "NIAMS · Rheumatoid arthritis care",
-      "url": "https://www.niams.nih.gov/health-topics/rheumatoid-arthritis/diagnosis-treatment-and-steps-to-take"
-    },
-    {
-      "title": "NICE · Rheumatoid arthritis treatment",
-      "url": "https://www.nice.org.uk/guidance/ng100/chapter/Recommendations"
-    },
-    {
-      "title": "NICE · Osteoarthritis management",
-      "url": "https://www.nice.org.uk/guidance/ng226/chapter/Recommendations"
-    },
-    {
-      "title": "BHOF · Calcium and vitamin D",
-      "url": "https://www.bonehealthandosteoporosis.org/patients/treatment/calciumvitamin-d/"
-    },
-    {
-      "title": "ISCD · Adult bone-density positions",
-      "url": "https://iscd.org/text-based-official-adult-positions/"
-    },
-    {
-      "title": "USPSTF · Osteoporosis screening",
-      "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/osteoporosis-screening"
-    },
-    {
-      "title": "NIAMS · Gout",
-      "url": "https://www.niams.nih.gov/health-topics/gout"
-    },
-    {
-      "title": "ACR · Gout management guideline",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/"
-    },
-    {
-      "title": "NIDCD · Ménière’s disease",
-      "url": "https://www.nidcd.nih.gov/health/menieres-disease"
-    },
-    {
-      "title": "NCI · Sentinel lymph node biopsy",
-      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/staging/sentinel-node-biopsy-fact-sheet"
-    },
-    {
-      "title": "ASCO · Cancer during pregnancy guideline",
-      "url": "https://ascopubs.org/doi/10.1200/jco-25-02115"
-    },
-    {
-      "title": "ACOG · Cervical screening guidance (2026)",
-      "url": "https://www.acog.org/clinical/clinical-guidance/committee-statement/articles/2026/07/screening-for-cervical-cancer"
-    },
-    {
-      "title": "ACOG · Postmenopausal bleeding update (2026)",
-      "url": "https://www.acog.org/news/news-releases/2026/04/acog-publishes-updated-guidance-evaluation-postmenopausal-bleeding"
-    },
-    {
-      "title": "ASCCP · Endometrial biopsy patient information",
-      "url": "https://www.asccp.org/wp-content/uploads/2025/11/Endometrial_Biopsy-2024.pdf"
-    },
-    {
-      "title": "ACOG · Pain management for office procedures",
-      "url": "https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2025/05/pain-management-for-in-office-uterine-and-cervical-procedures"
-    },
-    {
-      "title": "CDC · Watch out for fever during chemotherapy",
-      "url": "https://www.cdc.gov/cancer-preventing-infections/patients/fever.html"
-    },
-    {
-      "title": "NCI · Understanding prostate changes",
-      "url": "https://www.cancer.gov/types/prostate/understanding-prostate-changes"
-    },
-    {
-      "title": "ACS · Prostate cancer risks",
-      "url": "https://www.cancer.org/cancer/types/prostate-cancer/causes-risks-prevention.html"
-    },
-    {
-      "title": "CDC · HIV post-exposure prophylaxis",
-      "url": "https://www.cdc.gov/hivnexus/hcp/pep/"
-    },
-    {
-      "title": "CDC · PrEP clinical guidance",
-      "url": "https://www.cdc.gov/hivnexus/hcp/prep/"
-    },
-    {
-      "title": "CDC · Six-monthly lenacapavir PrEP",
-      "url": "https://www.cdc.gov/mmwr/volumes/74/wr/mm7435a1.htm"
-    },
-    {
-      "title": "NIH · Pneumocystis pneumonia",
-      "url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/pneumocystis"
-    },
-    {
-      "title": "NIH · Disseminated MAC",
-      "url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/disseminated"
-    },
-    {
-      "title": "CDC · HIV surveillance case definition",
-      "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr6303a1.htm"
-    },
-    {
-      "title": "NIAMS · Osteoporosis treatment",
-      "url": "https://www.niams.nih.gov/health-topics/osteoporosis/diagnosis-treatment-and-steps-to-take"
-    },
-    {
-      "title": "ACS · Cervical cancer screening",
-      "url": "https://www.cancer.org/cancer/types/cervical-cancer/detection-diagnosis-staging/cervical-cancer-screening-guidelines.html"
-    },
-    {
-      "title": "FDA · Neupogen prescribing information (2026)",
-      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/103353s5202lbl.pdf"
-    }
-  ]
+  "intro": "Use the nursing process for every condition: review risks, manifestations, medical and nursing management, therapies and adverse effects, nutrition, assessment, diagnoses, priorities, first actions, care planning, interventions, and evaluation. Topic-specific points below add emphasis."
 };
