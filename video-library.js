@@ -36,6 +36,7 @@ const VideoLibrary = (() => {
     const selected = platforms.find(platform => items.some(v => v.platform === platform)) || 'YouTube';
     const controls = topic ? `<div class="video-platform-buttons" role="group" aria-label="Video platform">${platforms.map(platform => `<button type="button" data-video-platform-button="${platform}" aria-pressed="${platform === selected}">${platform} <span>(${items.filter(v => v.platform === platform).length})</span></button>`).join('')}</div>` : `<div class="video-filters"><label>Search videos<input type="search" data-video-search placeholder="Title, creator, or keyword"></label><label>Platform<select data-video-platform><option value="">All platforms</option><option>YouTube</option><option>TikTok</option></select></label></div>`;
     const content = `<section class="video-resources${topic ? ' video-resources-inline' : ''}" ${topic ? 'aria-label="Topic videos"' : 'aria-labelledby="video-resources-title"'}>${topic ? '' : `<div class="section-heading"><h2 id="video-resources-title">Video resources</h2><span>${items.length} videos</span></div>`}
+      <p class="quiz-thanks">Special thanks to Jamie.</p>
       <p class="section-copy">Watch here, at your own pace. Players load when you choose a video. If a player is unavailable, use its source link.</p>
       <p class="video-context">Creator videos supplement your course materials. Descriptions are supplied resource summaries; coverage and accuracy may vary.</p>
       ${controls}
