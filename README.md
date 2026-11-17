@@ -147,8 +147,12 @@ Validation: `node scripts/check-analytics.cjs` covers queued first visits, route
 
 ## Focused review guide
 
-The study-guide tools include `#/final/focused-review`, a readable edition of the supplied Mini MS3 Final Exam Study Guide with “Special thanks to Kristeen.” All 16 original topics and 18 quick-recall rows are organized into expandable sections, with a topic selector and Expand all / Collapse all controls. The source’s tables are readable HTML, including the image-only HIV testing table on page 8. The original PDF remains available from the bottom reading references.
+The study-guide tools include `#/final/focused-review`, with “Special thanks to Kristeen and Olivia.” Separate buttons open Kristeen’s focused guide, Olivia’s quick guide, or Compare guides. Kristeen’s guide remains the default and retains all 16 topics, 18 quick-recall rows and readable tables, including the image-only HIV testing table on page 8. Olivia’s guide covers the 14 main conditions from the supplied Word document. Both guides have independent topic selectors and Expand all / Collapse all controls.
+
+Compare guides uses a single topic selector for the 14 shared conditions. The two editions appear side by side on desktop and stack on smaller screens. It does not invent matching Olivia entries for Kristeen’s extra lupus, osteomyelitis or quick-recall sections. Only the selected guide/view is shown, while correction notes and reading references remain at the bottom.
 
 Necessary clinical clarifications are incorporated into the review and summarized in a bottom disclosure; source references are grouped below it. Exact original/replacement statements and the source fingerprint are recorded in `docs/focused-review-audit.json`. The source PDF is unchanged. `focused-review-data.js` contains the editable content, and `focused-review.js` renders it.
+
+`focused-review-olivia-data.js` contains Olivia’s web edition. `docs/focused-review-olivia-audit.json` records the Word source fingerprint, paragraph/topic mapping, rendered PDF fingerprint, and clinically necessary correction groups. The bottom references link to a PDF conversion of Olivia’s original eight-page document; the original source wording is distinct from the corrected web edition. Corrections include MG crisis therapy, LP care/CSF patterns, OA analgesia, screening/biopsy guidance, SLNB pregnancy claims and current HIV prevention options. The unclear “CAM” communication note is presented as AAC with an explicit clarification.
 
 Run `node scripts/check-focused-review.cjs` to verify topic/recall/table coverage, source hash, key safety corrections, credit, navigation and deployment assets. The focused route is also included in production traffic analytics.
