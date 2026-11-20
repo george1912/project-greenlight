@@ -29,7 +29,7 @@ const VideoLibrary = (() => {
       <div class="video-slot" data-video-index="${index}">${preview(v)}</div>
       <div class="video-meta">${v.platform}${v.duration ? ` · ${escapeHTML(v.duration)}` : ''}</div>
       <h3>${escapeHTML(v.title)}</h3><p class="video-creator">${escapeHTML(v.creator)}</p><p>${escapeHTML(v.description)}</p>
-      <a class="video-source" href="${escapeHTML(v.url)}" target="_blank" rel="noopener noreferrer">Open on ${v.platform} ↗</a>
+      <a class="video-source${v.platform === 'TikTok' ? ' video-source-tiktok' : ''}" href="${escapeHTML(v.url)}" target="_blank" rel="noopener noreferrer">${v.platform === 'TikTok' ? 'Play on TikTok' : 'Open on YouTube'} ↗</a>
     </article>`;
   }
   function section(topic) {
