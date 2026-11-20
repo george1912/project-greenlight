@@ -1,7 +1,6 @@
 /* Section practice loads only when opened. Answers stay in this browser tab's memory. */
-const SectionQuizzes = (() => {
-  const banks = new Map(), attempts = new Map();
-  const version = '20261116-section-practice';
+function createSectionPractice({directory='practice-questions',version='20261116-section-practice',oneAtATime=false,intro='questions to reinforce the notes above. Check each answer for an explanation.'} = {}) {
+  const banks = new Map(), attempts = new Map(), positions = new Map();
   function grade(question, values) {
     const selected = [...new Set(values)].sort(), correct = [...question.correct].sort();
     if (!selected.length) return 'unanswered';
@@ -12,7 +11,7 @@ const SectionQuizzes = (() => {
   }
   function load(topic) {
     if (!banks.has(topic)) {
-      const request = fetch(`practice-questions/${encodeURIComponent(topic)}.json?v=${version}`)
+      const request = fetch(`${directory}/${encodeURIComponent(topic)}.json?v=${version}`)
         .then(response => { if (!response.ok) throw new Error('Question bank unavailable'); return response.json(); })
         .then(bank => { if (bank.id !== topic || !bank.sections) throw new Error('Invalid question bank'); return bank; })
         .catch(error => { banks.delete(topic); throw error; });
@@ -30,14 +29,21 @@ const SectionQuizzes = (() => {
   }
   function feedback(question, selected) {
     const result = grade(question, selected), answer = question.options.filter(option => question.correct.includes(option.id)).map(option => `${option.id}. ${option.text}`).join('; ');
-    return `<p class="section-practice-verdict ${result}">${result === 'correct' ? '✓ Correct' : '✕ Not quite — review below'}</p><p><strong>Correct answer${question.type === 'sata' ? 's' : ''}:</strong> ${escapeHTML(answer)}</p><p><strong>Why:</strong> ${escapeHTML(question.rationale)}</p>`;
+    return `<p class="section-practice-verdict ${result}">${result === 'correct' ? '✓ Correct' : '✕ Not quite — review below'}</p><p><strong>Correct answer${question.type === 'sata' ? 's' : ''}:</strong> ${escapeHTML(answer)}</p><p><strong>Why:</strong> ${escapeHTML(question.rationale)}</p>${question.reviewNote?`<p><strong>Clinical clarification:</strong> ${escapeHTML(question.reviewNote)}</p>`:''}${question.references?.length?`<details class="section-practice-references"><summary>Guidance for this clarification</summary><ul>${question.references.map(ref=>`<li><a href="${escapeHTML(ref.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(ref.title)}</a></li>`).join('')}</ul></details>`:''}`;
   }
   function mount(root) {
     const panels = [...root.querySelectorAll('.section-practice')];
     if (!panels.length) return () => {};
     let disposed = false;
-    const questions = new Map(), listeners = [];
+    const questions = new Map(), loadedSections = new Map(), listeners = [];
+    const panelKey = panel => `${panel.dataset.practiceTopic}/${panel.dataset.practiceSection}`;
     const listen = (element, event, handler) => { element.addEventListener(event, handler); listeners.push(() => element.removeEventListener(event, handler)); };
+    function display(panel, items) {
+      const key=panelKey(panel), body=panel.querySelector('.section-practice-body');
+      const position=Math.min(positions.get(key)||0,Math.max(0,items.length-1));positions.set(key,position);
+      const navigation=oneAtATime&&items.length>1?`<nav class="section-practice-navigation" aria-label="Practice question navigation"><p role="status">Question ${position+1} of ${items.length}</p><div><button type="button" data-practice-move="previous" ${position===0?'disabled':''}>Previous</button><button type="button" data-practice-move="next" ${position===items.length-1?'disabled':''}>Next</button></div></nav>`:'';
+      body.innerHTML=items.length?`<p class="section-practice-intro">${items.length} ${escapeHTML(items.length===1?intro.replace(/^questions\b/,'question'):intro)}</p>${navigation}${oneAtATime?card(items[position],position):items.map(card).join('')}<button type="button" class="section-practice-reset" data-practice-reset>Reset questions</button>`:'<p>No practice questions for this section yet.</p>';
+    }
     async function open(panel) {
       if (!panel.open || panel.dataset.loaded || panel.dataset.loading || disposed) return;
       panel.dataset.loading = 'true';
@@ -48,7 +54,7 @@ const SectionQuizzes = (() => {
         if (disposed) return;
         const items = bank.sections[panel.dataset.practiceSection] || [];
         items.forEach(question => questions.set(question.id, question));
-        body.innerHTML = items.length ? `<p class="section-practice-intro">${items.length} questions to reinforce the notes above. Check each answer for an explanation.</p>${items.map(card).join('')}<button type="button" class="section-practice-reset" data-practice-reset>Reset questions</button>` : '<p>No practice questions for this section yet.</p>';
+        loadedSections.set(panelKey(panel),items);display(panel,items);
         panel.dataset.loaded = 'true';
       } catch (error) {
         if (!disposed) body.innerHTML = '<p role="status">Questions couldn’t load. Your study notes are still available.</p><button type="button" data-practice-retry>Try loading again</button>';
@@ -58,7 +64,7 @@ const SectionQuizzes = (() => {
     function capture(form) { return [...form.querySelectorAll('input:checked')].map(input => input.value); }
     function replace(form, focus) {
       const question = questions.get(form.dataset.practiceQuestion);
-      const index = [...form.parentElement.querySelectorAll('.section-practice-question')].indexOf(form);
+      const index = oneAtATime ? positions.get(panelKey(form.closest('.section-practice'))) || 0 : [...form.parentElement.querySelectorAll('.section-practice-question')].indexOf(form);
       const holder = document.createElement('div'); holder.innerHTML = card(question, index);
       const replacement = holder.firstElementChild; form.replaceWith(replacement);
       if (focus) replacement.querySelector(focus)?.focus({preventScroll: true});
@@ -86,14 +92,30 @@ const SectionQuizzes = (() => {
       event.preventDefault(); attempts.delete(form.dataset.practiceQuestion); replace(form, 'input');
     });
     listen(root, 'click', event => {
+      const move=event.target.closest('[data-practice-move]');
+      if(move){
+        if(move.disabled||disposed)return;
+        const panel=move.closest('.section-practice'),key=panelKey(panel),items=loadedSections.get(key)||[];
+        if(!items.length)return;
+        positions.set(key,Math.max(0,Math.min(items.length-1,(positions.get(key)||0)+(move.dataset.practiceMove==='next'?1:-1))));
+        display(panel,items);
+        const form=panel.querySelector('.section-practice-question');
+        const focus=form.querySelector('fieldset').disabled?form.querySelector('.section-practice-feedback'):form.querySelector('input');
+        focus?.focus({preventScroll:true});return;
+      }
       const retry = event.target.closest('[data-practice-retry]');
       if (retry) { open(retry.closest('.section-practice')); return; }
       const reset = event.target.closest('[data-practice-reset]'); if (!reset) return;
       const body = reset.closest('.section-practice-body');
+      if(oneAtATime){
+        const panel=reset.closest('.section-practice'),key=panelKey(panel),items=loadedSections.get(key)||[];
+        items.forEach(question=>attempts.delete(question.id));positions.set(key,0);display(panel,items);panel.querySelector('input')?.focus({preventScroll:true});return;
+      }
       body.querySelectorAll('.section-practice-question').forEach(form => { attempts.delete(form.dataset.practiceQuestion); replace(form); });
       body.querySelector('input')?.focus({preventScroll: true});
     });
     return () => { disposed = true; listeners.forEach(remove => remove()); };
   }
   return {section, mount, grade};
-})();
+}
+const SectionQuizzes = Object.assign(createSectionPractice(), {create:createSectionPractice});
