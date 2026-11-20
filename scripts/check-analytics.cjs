@@ -17,7 +17,7 @@ f.api.page('#/final/focused-review','Focused review guide');assert.equal(f.hits.
 const data=vm.runInContext('({topics:examTopics,decks:presentationDecks,ob:obCourse,obDecks:obPresentationDecks})',f.context);
 for(const topic of data.topics)f.api.page('#/final/condition/'+topic.id,topic.title);
 for(const deck of Object.values(data.decks)){f.api.page('#/final/presentation/'+deck.id,deck.title);f.api.page('#/final/nclex/'+deck.id,deck.title);}
-for(const route of ['#/ob-final','#/ob-final/study-guide',...data.ob.weeks.map(week=>'#/ob-final/'+week.id),...data.ob.topics.map(topic=>'#/ob-final/topic/'+topic.id)]){f.api.page(route,'OB study page');assert.equal(f.hits.at(-1).path,'/project-greenlight'+route.slice(1));}
+for(const route of ['#/ob-final','#/ob-final/study-guide','#/ob-final/podcast',...data.ob.weeks.map(week=>'#/ob-final/'+week.id),...data.ob.topics.map(topic=>'#/ob-final/topic/'+topic.id)]){f.api.page(route,'OB study page');assert.equal(f.hits.at(-1).path,'/project-greenlight'+route.slice(1));}
 for(const deck of Object.values(data.obDecks))for(const route of ['#/ob-final/presentation/'+deck.id,...deck.focus.map(item=>'#/ob-final/presentation/'+deck.id+'/'+item.id)]){f.api.page(route,'OB PDF');assert.equal(f.hits.at(-1).path,'/project-greenlight'+route.slice(1));}
 const before=f.hits.length;
 for(const route of ['#/final/condition/private@example.com','#/final/nclex/__proto__','#/unknown?answer=secret','#main','#/final/quiz?score=80','#/final/week-1','#/ob-final/topic/private@example.com','#/ob-final/topic/constructor','#/ob-final/week-99','#/ob-final/study-guide?answer=private','#/ob-final/presentation/constructor','#/ob-final/presentation/postpartum-care/private'])f.api.page(route,'Private');

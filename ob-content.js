@@ -4,6 +4,12 @@ const obCourse = {
   title: 'OB Final Exam',
   term: 'Summer 2026',
   exam: { label: 'Exam 3', questionCount: 'Approximately 50–60 NCLEX-style questions' },
+  podcast: {
+    id: 'x2U5nbivtwM',
+    title: 'OBGYN Final Exam Study Guide',
+    creator: 'Next Stop Nursing',
+    url: 'https://www.youtube.com/watch?v=x2U5nbivtwM'
+  },
   sections: [
     {id:'overview',title:'Overview & key concepts'},
     {id:'risks',title:'Risk factors & prevention'},

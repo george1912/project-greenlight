@@ -14,7 +14,7 @@ const SiteAnalytics = (() => {
   function routePath(route) {
     if (!route || route === '#' || route === '#/') return prefix + '/';
     if (typeof obCourse !== 'undefined') {
-      if (route === '#/ob-final' || route === '#/ob-final/study-guide'
+      if (route === '#/ob-final' || route === '#/ob-final/study-guide' || route === '#/ob-final/podcast'
         || obCourse.weeks.some(week => route === `#/ob-final/${week.id}`)
         || obCourse.topics.some(topic => route === `#/ob-final/topic/${topic.id}`)) return prefix + route.slice(1);
     }

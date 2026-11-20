@@ -127,6 +127,8 @@ Browser checks included actual YouTube readiness, a controlled stalled-provider 
 
 ## Study podcast
 
+The OB final exam guide has its own Podcast tool at `#/ob-final/podcast`: **OBGYN Final Exam Study Guide** by Next Stop Nursing (`x2U5nbivtwM`). The title and creator were checked through YouTube’s official oEmbed metadata. `obCourse.podcast` configures the shared player per episode, so the Med-Surg recording and Alessia credit remain on the Med-Surg page. The OB episode’s duration is learned from the player when it loads; skip/seek controls wait until that duration is known. No audio is extracted, and no new thank-you attribution is assumed.
+
 `#/final/podcast` provides the supplied YouTube episode, **MS3 Final Examination Study Guide** by Next Stop Nursing (`7pSK_zxd2WU`), with the requested “Special thanks to Alessia.” note. Its visible official YouTube player loads only after Play is selected. Custom controls provide play/pause, 10-second skips, a labeled seek slider, elapsed/total time and supported playback speeds. The native YouTube controls and source link remain available.
 
 `podcast.js` shares the YouTube IFrame API loader with `video-library.js`. It handles connection failures/retry, offline status and stale asynchronous callbacks, pauses when the document is hidden, and destroys the player/timers/listeners when navigating away. It does not extract media, hide the video or claim audio-only/background playback. A separately supplied original audio asset would be needed for a true HTML audio player. The existing 80-video resource set is unchanged.

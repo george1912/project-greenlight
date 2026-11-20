@@ -51,9 +51,14 @@ const OBStudy = (() => {
   }
   function studyGuide() {
     document.title = 'OB final exam study guide · Project Green Light';
-    main.innerHTML = `${breadcrumb('Study guide')}<section class="hero condition-hero study-guide-hero"><p class="eyebrow">OB / FINAL EXAM</p><h1>Final exam<br><span>study guide.</span></h1><p class="hero-copy">Choose a topic to build your review.</p></section><p class="guide-intro">${course.exam.questionCount}. The supplied Exam 3 blueprint lists the following focus areas; question counts are approximate and the topic list is not exhaustive.</p>
+    main.innerHTML = `${breadcrumb('Study guide')}<section class="hero condition-hero study-guide-hero"><p class="eyebrow">OB / FINAL EXAM</p><h1>Final exam<br><span>study guide.</span></h1><p class="hero-copy">Choose a topic to build your review.</p></section><nav class="study-guide-tools" aria-label="OB study guide tools"><a href="#/ob-final/podcast"><strong>Podcast</strong><span>Listen & review</span></a></nav><p class="guide-intro">${course.exam.questionCount}. The supplied Exam 3 blueprint lists the following focus areas; question counts are approximate and the topic list is not exhaustive.</p>
       <section class="ob-topic-group" aria-labelledby="ob-main-topics"><div class="section-heading"><h2 id="ob-main-topics">Main exam topics</h2></div><div class="ob-topic-grid">${course.topics.filter(topic=>topic.group==='main').map(topicCard).join('')}</div></section>
       <section class="ob-topic-group" aria-labelledby="ob-cumulative-topics"><div class="section-heading"><h2 id="ob-cumulative-topics">Cumulative review</h2></div><p class="section-copy">Selected material from Exams I and II.</p><div class="ob-topic-grid">${course.topics.filter(topic=>topic.group==='cumulative').map(topicCard).join('')}</div></section><p class="ob-content-note">Each topic links to relevant presentation pages. Study notes and practice questions will be added next.</p><nav class="guide-bottom"><a class="text-link" href="#/ob-final">Weekly materials</a></nav>`;
+  }
+  function podcastPage() {
+    document.title = 'OB study podcast · Project Green Light';
+    main.innerHTML = `${breadcrumb('Podcast',true)}<section class="hero podcast-hero"><p class="eyebrow">OB FINAL EXAM STUDY GUIDE</p><h1>Study <span>podcast.</span></h1><p class="hero-copy">Listen and review for your OB final exam.</p></section>${PodcastPlayer.section(course.podcast)}<nav class="guide-bottom"><a class="text-link" href="#/ob-final/study-guide">OB final exam study guide</a></nav>`;
+    disposePodcast = PodcastPlayer.mount(main,course.podcast);
   }
   function topicPage(topic) {
     document.title = `${topic.title} · OB study guide · Project Green Light`;
@@ -74,6 +79,7 @@ const OBStudy = (() => {
   function render(route) {
     if(route==='#/ob-final'){overview();return true;}
     if(route==='#/ob-final/study-guide'){studyGuide();return true;}
+    if(route==='#/ob-final/podcast'){podcastPage();return true;}
     const match=route.match(/^#\/ob-final\/presentation\/([a-z0-9-]+)(?:\/([a-z0-9-]+))?$/);
     if(match){
       const deck=decks().find(item=>item.id===match[1]);
