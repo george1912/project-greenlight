@@ -16,9 +16,11 @@ const VideoLibrary = (() => {
   }
   function preview(v) {
     const youtube = v.platform === 'YouTube';
+    const topic = examTopics.find(item => item.number === v.topic);
+    const topicPoster = !youtube && typeof conditionPosterData !== 'undefined' && topic ? conditionPosterData[topic.id] : null;
     return `<button class="video-load video-preview ${youtube ? 'video-preview-youtube' : 'video-preview-tiktok'}" type="button" aria-label="Watch here ${escapeHTML(v.title)}">
       <span class="video-preview-fallback"><span>${v.platform}</span><strong>${escapeHTML(v.title)}</strong><small>${escapeHTML(v.creator)}</small></span>
-      ${youtube ? `<img class="video-thumbnail" data-src="https://i.ytimg.com/vi/${v.id}/mqdefault.jpg" width="320" height="180" loading="lazy" decoding="async" alt="">` : ''}
+      ${youtube ? `<img class="video-thumbnail" data-src="https://i.ytimg.com/vi/${v.id}/mqdefault.jpg" width="320" height="180" loading="lazy" decoding="async" alt="">` : topicPoster ? `<img class="video-thumbnail video-topic-art" data-src="${escapeHTML(topicPoster.file)}" loading="lazy" decoding="async" alt=""><span class="video-art-label">Topic artwork · ${escapeHTML(topic.title)}</span>` : ''}
       <span class="video-preview-action"><span aria-hidden="true">▷</span> Watch here${v.duration ? ` · ${escapeHTML(v.duration)}` : ''}</span>
     </button>`;
   }
@@ -137,7 +139,17 @@ const VideoLibrary = (() => {
       }
       attempt.offline = () => fail('You’re offline. Your video details are still here. Try again when your connection returns.');
       window.addEventListener('offline', attempt.offline);
-      attempt.timer = setTimeout(() => fail('The player is taking too long to load. Check your connection and try again, or use the source link below.'), 15000);
+      attempt.timer = setTimeout(() => {
+        if (!current()) return;
+        if (youtube) {
+          fail('The player is taking too long to load. Try again or use the source link below.');
+        } else {
+          slot.querySelector('.video-stage').classList.add('video-stage-ready');
+          slot.querySelector('.video-loading').hidden = true;
+          slot.querySelector('.video-retry').hidden = false;
+          connection.textContent = 'The player is taking longer than expected. You can retry or open the video on TikTok.';
+        }
+      }, 15000);
       if (navigator.onLine === false) { attempt.offline(); return; }
       const iframe = document.createElement('iframe');
       iframe.title = `${v.platform}: ${v.title}`;
@@ -154,6 +166,12 @@ const VideoLibrary = (() => {
         }).catch(() => fail('The player couldn’t connect. Try again or use the source link below.'));
       } else {
         slot.classList.add('video-slot-vertical');
+        iframe.addEventListener('load', () => {
+          if (!current()) return;
+          slot.querySelector('.video-stage').classList.add('video-stage-ready');
+          slot.querySelector('.video-loading').hidden = true;
+          connection.textContent = 'Press play in the TikTok player.';
+        });
         iframe.src = `https://www.tiktok.com/player/v1/${v.id}?autoplay=0&rel=0&description=1&closed_caption=1`;
         attempt.message = event => {
           if (!current() || event.origin !== 'https://www.tiktok.com' || event.source !== iframe.contentWindow || event.data?.['x-tiktok-player'] !== true) return;
