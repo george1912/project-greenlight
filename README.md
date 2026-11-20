@@ -2,6 +2,16 @@
 
 A growing nursing school study hub. Static HTML, CSS, and JavaScript; ready for GitHub Pages with no build step.
 
+## OB final exam framework
+
+The Study Shelf now has separate Med-Surg III and **OB Final Exam** entries. `#/ob-final` places the large final-exam study-guide button above weekly materials; `#/ob-final/study-guide` contains the supplied Exam 3 blueprint’s seven main topics and four cumulative review groups. Topic routes are `#/ob-final/topic/<id>` and weekly routes are `#/ob-final/week-<number>`, with the unnumbered August 4 session at `#/ob-final/august-4`.
+
+`ob-content.js` holds the Summer 2026 syllabus sessions, topic/week mappings, approximate blueprint question ranges, and empty notes/practice/resource fields. `ob.js` renders these in the established site layout. The individual topic pages show the actual blueprint focus points and related weeks; study explanations and quizzes are deliberately pending. The 16-section nursing template is ready for future populated `content` blocks. No source PDF, syllabus policies, faculty details, or download links are included.
+
+Week 8 links to Exam II review of Weeks 5–7. August 4 stays labeled by date because the syllabus gives it no week number; Week 11 is the final exam rather than new teaching material. Earlier Weeks 1–3 and 5–6 are available in a collapsed cumulative-review group. The subject-based crosswalk, source fingerprints, and mapping qualifications are recorded in `docs/ob-framework-map.json`.
+
+Run `node scripts/check-ob.cjs` for blueprint coverage, week mapping, empty-state integrity, link/route safety and deployment inclusion. The shared route and analytics checks also cover the OB pages; analytics use `/project-greenlight/ob-final/...` in the existing dashboard.
+
 ## Preview
 
 Run `python3 -m http.server 8000` in this folder and open http://localhost:8000.

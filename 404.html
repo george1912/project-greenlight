@@ -13,7 +13,7 @@
       const base = '/project-greenlight/';
       if (!location.pathname.startsWith(base)) return;
       const page = location.pathname.slice(base.length).replace(/\/+$/, '');
-      if (page !== 'final' && !page.startsWith('final/')) return;
+      if (!/^(?:final|ob-final)(?:\/|$)/.test(page)) return;
       const target = new URL(base, location.origin);
       target.search = location.search;
       target.hash = '#/' + page;

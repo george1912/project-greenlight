@@ -13,6 +13,11 @@ const SiteAnalytics = (() => {
   }
   function routePath(route) {
     if (!route || route === '#' || route === '#/') return prefix + '/';
+    if (typeof obCourse !== 'undefined') {
+      if (route === '#/ob-final' || route === '#/ob-final/study-guide'
+        || obCourse.weeks.some(week => route === `#/ob-final/${week.id}`)
+        || obCourse.topics.some(topic => route === `#/ob-final/topic/${topic.id}`)) return prefix + route.slice(1);
+    }
     const simple = ['#/final/focused-review', '#/final', '#/final/study-guide', '#/final/quiz', '#/final/nclex', '#/final/podcast', '#/final/videos', '#/final/presentations'];
     if (simple.includes(route) || /^#\/final\/week-(7|8|9|12)$/.test(route)) return prefix + route.slice(1);
     if (route.startsWith('#/final/condition/') && examTopics.some(topic => topic.id === route.slice('#/final/condition/'.length))) return prefix + route.slice(1);

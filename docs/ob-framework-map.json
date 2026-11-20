@@ -1,0 +1,32 @@
+{
+  "course": "NRBS 3410",
+  "term": "Summer 2026",
+  "sources": {
+    "examBlueprint": {
+      "name": "2026 NRBS 3410 Exam 3 Blueprint (2)(1).pdf",
+      "sha256": "eb7111131992ee865c4736ce2a572d89139b8174fc2165c32ce1f5adf32ebce2",
+      "usedPages": [
+        1
+      ]
+    },
+    "syllabus": {
+      "name": "2bNRBS 3410 Summer 26 Syllabus(1).pdf",
+      "sha256": "44cfd177818e96152939909f776f0d555dc5ad4b1a62d55fe235c24e49d11d38",
+      "usedPages": [
+        15,
+        16,
+        17
+      ]
+    }
+  },
+  "scope": "Topic framework only. No source PDFs, faculty details, course policies, due dates, clinical answers or invented learning objectives are published. Study notes, practice banks and resources remain empty.",
+  "mappingNotes": [
+    "The seven main blueprint rows and four cumulative groups are preserved in source order, with question ranges kept approximate rather than summed into an asserted total.",
+    "Week 7 covers postpartum care and complications; Week 9 covers normal newborn care and nutrition; Week 10 continues newborn care and high-risk newborn material.",
+    "Week 8 is Exam II on July 14, covering Weeks 5–7; it is a review link, not a new lecture or primary teaching assignment.",
+    "The August 4 contraception/fertility/STI row has no week number. It is represented by its date and is not relabeled Week 11.",
+    "Week 11 is the final exam on August 11. It is not represented as a new teaching week. Week 4 is Exam I, not a separate source of final-review teaching topics.",
+    "Cumulative antepartum/prenatal care is mapped by broad subject to Weeks 1–2. Naegele’s rule and GTPAL come from the blueprint and are not claimed as verbatim syllabus weekly objectives.",
+    "Pregnancy complications map to Week 3; fetal monitoring maps to Week 5; labor emergencies map to Week 6, with Week 3 linked for the pregnancy/placental component. Shoulder dystocia and the individual named complications come from the blueprint; these are subject-based links rather than invented verbatim syllabus objectives."
+  ]
+}

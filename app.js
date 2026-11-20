@@ -46,6 +46,13 @@ function renderHome() {
           <span class="open-guide">Open exam overview <span aria-hidden="true">→</span></span>
         </div>
       </a>
+      <a class="exam-card" href="#/ob-final">
+        <div class="window-bar"><span>NRBS 3410 · OB/GYN NURSING</span></div>
+        <div class="exam-card-body">
+          <div><span class="tag">FINAL EXAM REVIEW</span><h3>OB<br>Final Exam</h3><p>Your exam guide and weekly course materials.</p><div class="card-scope">POSTPARTUM · NEWBORN · REPRODUCTIVE HEALTH</div></div>
+          <span class="open-guide">Open exam overview</span>
+        </div>
+      </a>
       <div class="future-space"><span class="pixel-plus" aria-hidden="true">+</span><div><h3>Room for what’s next.</h3></div></div>
     </section>`;
 }
@@ -211,7 +218,8 @@ function render(focus = false) {
   disposePoster(); disposePoster = () => {};
   disposeSectionQuizzes(); disposeSectionQuizzes = () => {};
   disposeFocusedReview(); disposeFocusedReview = () => {};
-  if (route === '#/final/study-guide') renderStudyGuide();
+  if (typeof OBStudy !== 'undefined' && OBStudy.render(route)) { /* OB pages share the site shell. */ }
+  else if (route === '#/final/study-guide') renderStudyGuide();
   else if (route === '#/final/focused-review') renderFocusedReview();
   else if (route.startsWith('#/final/condition/') && Object.prototype.hasOwnProperty.call(conditionNotes, route.slice('#/final/condition/'.length))) renderCondition(conditionNotes[route.slice('#/final/condition/'.length)]);
   else if (route === '#/final/nclex') renderPresentationQuiz();

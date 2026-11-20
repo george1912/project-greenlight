@@ -377,3 +377,29 @@ a.condition-topic:hover{background:var(--yellow)}
 
 /* Pixel stoplight matches the sharing preview and browser icon. */
 .brand-mark{background:transparent;width:32px;height:32px}.brand-mark img{display:block;width:32px;height:32px;image-rendering:pixelated}
+
+/* OB joins the same study shelf and keeps the exam guide above weekly material. */
+.study-library>.exam-card+.exam-card{margin-top:28px}
+.ob-weekly{margin:35px 0}
+.ob-week-grid,.ob-topic-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.ob-week-card,.ob-topic-card{min-width:0;display:flex;flex-direction:column;gap:8px;padding:20px;border:1px solid var(--line);background:var(--white);text-decoration:none;overflow-wrap:anywhere}
+.ob-week-card:hover,.ob-topic-card:hover{background:var(--mint);border-color:var(--green)}
+.ob-week-label{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px 18px;font-size:14px;color:var(--green);font-weight:500}
+.ob-week-label>span{color:var(--muted);font-weight:400}
+.ob-week-card strong,.ob-topic-card strong{font:500 27px/1.25 var(--pixel);color:var(--green)}
+.ob-topic-card>span{font-size:14px;color:var(--muted)}
+.ob-topic-card .ob-question-count{color:var(--green);margin-top:4px}
+.ob-topic-group{margin:34px 0}
+.ob-topic-group>h2,.ob-weekly>h2,.ob-week-outline>h2,.ob-notes-pending>h2{font-size:29px;line-height:1.3}
+.ob-topic-group .section-heading h2,.ob-weekly .section-heading h2{font-size:29px}
+.ob-content-note{font-size:16px;color:var(--muted);line-height:1.7;margin:26px 0}
+.ob-earlier-weeks{margin:30px 0;padding-top:20px;border-top:1px solid var(--line)}
+.ob-earlier-weeks>summary{cursor:pointer;min-height:44px;font-size:17px;font-weight:500;color:var(--green);padding:10px 0}
+.ob-earlier-weeks .ob-week-grid{margin-top:16px}
+.ob-related-weeks{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0}
+.ob-related-weeks a{min-height:44px;display:inline-flex;align-items:center;padding:9px 15px;background:var(--mint);border:1px solid var(--line);font-size:16px;text-decoration:none;color:var(--green)}
+.ob-related-weeks a:hover{border-color:var(--green);background:var(--yellow)}
+.ob-notes-pending{padding:5px 24px 16px;margin:28px 0;border:1px solid var(--line);background:var(--white)}
+.ob-notes-pending p,.ob-week-outline li{max-width:76ch;line-height:1.75;font-size:17px}
+.ob-week-outline{margin-top:30px}
+@media(max-width:680px){.ob-week-grid,.ob-topic-grid{grid-template-columns:minmax(0,1fr)}.ob-week-card,.ob-topic-card{padding:18px}.ob-notes-pending{padding:3px 18px 14px}.study-library>.exam-card+.exam-card{margin-top:24px}}
