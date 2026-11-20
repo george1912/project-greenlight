@@ -1,0 +1,466 @@
+{
+  "archiveSha256": "2f1522d41db205eb59f6a6f9f29f0b9a00b03c7a57e28f1bf6379e6e503d046c",
+  "sourcePDFCount": 21,
+  "uniqueDecks": 19,
+  "pages": 600,
+  "decks": [
+    {
+      "id": "historical-context",
+      "sourceMember": "Week 1/su 26 Historical and Stats.pdf",
+      "sourceSha256": "ecfbac51bca49acab837a42b4c5cf7e1b872a1ae5ab932bcf8d6e7783d705dfb",
+      "duplicateSources": [],
+      "pages": 16,
+      "weekIds": [
+        "week-1"
+      ],
+      "focus": []
+    },
+    {
+      "id": "fetal-development",
+      "sourceMember": "Week 1/26SU 2Menstruation conception and fetal development.pdf",
+      "sourceSha256": "e525c92498513e7b2a6c5bbb091bff8aaae9300f70d8cc20771e97b4e8adcd53",
+      "duplicateSources": [],
+      "pages": 24,
+      "weekIds": [
+        "week-1",
+        "week-2"
+      ],
+      "focus": []
+    },
+    {
+      "id": "maternal-adaptation",
+      "sourceMember": "Week 1/Maternal Adaptation & Nutrition 26SU.pdf",
+      "sourceSha256": "cd6da4c5591ee5e2f4bbc827479dcd38f918562e32889e120046934fc13d47f6",
+      "duplicateSources": [],
+      "pages": 37,
+      "weekIds": [
+        "week-1",
+        "week-2"
+      ],
+      "focus": [
+        {
+          "id": "gtpal",
+          "topicId": "antepartum-prenatal",
+          "label": "GTPAL",
+          "page": 6,
+          "endPage": 9
+        },
+        {
+          "id": "maternal-adaptation",
+          "topicId": "antepartum-prenatal",
+          "label": "Maternal changes and nutrition",
+          "page": 11,
+          "endPage": 37
+        }
+      ]
+    },
+    {
+      "id": "prenatal-nursing-care",
+      "sourceMember": "Week 2/26SU Nursing Care Pregnancy 2.pdf",
+      "sourceSha256": "d6cb3a11c3331df15b164202aee3e92361d9d77fec2d36fe559093afb320b4d1",
+      "duplicateSources": [],
+      "pages": 29,
+      "weekIds": [
+        "week-2"
+      ],
+      "focus": [
+        {
+          "id": "naegeles-rule",
+          "topicId": "antepartum-prenatal",
+          "label": "Naegele’s rule and estimated due date",
+          "page": 6,
+          "endPage": 7
+        },
+        {
+          "id": "prenatal-care",
+          "topicId": "antepartum-prenatal",
+          "label": "Prenatal assessment and discomforts",
+          "page": 9,
+          "endPage": 29
+        }
+      ]
+    },
+    {
+      "id": "pregnancy-discomforts",
+      "sourceMember": "Week 2/Managing normal discomforts 3 slides(1).pdf",
+      "sourceSha256": "99e3cc8e4f53833ac824b83db6a3fd6994682c012425a7cd28c817e657e2da1e",
+      "duplicateSources": [],
+      "pages": 4,
+      "weekIds": [
+        "week-2"
+      ],
+      "focus": [
+        {
+          "id": "normal-discomforts",
+          "topicId": "antepartum-prenatal",
+          "label": "Normal pregnancy discomforts",
+          "page": 2,
+          "endPage": 4
+        }
+      ]
+    },
+    {
+      "id": "antepartum-risks",
+      "sourceMember": "Week 3/2Antepartum not GDM(1).pdf",
+      "sourceSha256": "9244bc5fc93a2a9808f23ac7e2a1872fd5b60f9076cef482367dc725717a006a",
+      "duplicateSources": [],
+      "pages": 55,
+      "weekIds": [
+        "week-3"
+      ],
+      "focus": [
+        {
+          "id": "hypertensive-complications",
+          "topicId": "pregnancy-complications",
+          "label": "Hypertension, preeclampsia, and eclampsia",
+          "page": 30,
+          "endPage": 38
+        },
+        {
+          "id": "placental-complications",
+          "topicId": "labor-emergencies",
+          "label": "Placenta previa and placental abruption",
+          "page": 18,
+          "endPage": 25
+        }
+      ]
+    },
+    {
+      "id": "diabetes-in-pregnancy",
+      "sourceMember": "Week 5/26 Diabetes in Pregnancy (1) (1).pdf",
+      "sourceSha256": "61c2d92b25c1ad8c7c2ff9638552c8242fed192e64ae49f5c551b68f6355ba30",
+      "duplicateSources": [],
+      "pages": 26,
+      "weekIds": [
+        "week-3"
+      ],
+      "focus": [
+        {
+          "id": "diabetes",
+          "topicId": "pregnancy-complications",
+          "label": "Pregestational and gestational diabetes",
+          "page": 2,
+          "endPage": 26
+        }
+      ]
+    },
+    {
+      "id": "labor-and-birth",
+      "sourceMember": "Week 5/2bLabor and Birth Summer 2026 (1)(1)(1).pdf",
+      "sourceSha256": "7d0bfad234e40224b17b8690d58b7f33cb1897d93b2c4dd5d77605cb0bbb41ca",
+      "duplicateSources": [],
+      "pages": 68,
+      "weekIds": [
+        "week-5"
+      ],
+      "focus": []
+    },
+    {
+      "id": "fetal-monitoring",
+      "sourceMember": "Week 5/2Fetalassessment Labor Summer 2026 (1).pdf",
+      "sourceSha256": "1707601718ca499878f32b4156bdf698458b7299ef39e1836bcbe68ae3e6e048",
+      "duplicateSources": [],
+      "pages": 51,
+      "weekIds": [
+        "week-5"
+      ],
+      "focus": [
+        {
+          "id": "monitoring-strips",
+          "topicId": "fetal-monitoring",
+          "label": "Fetal heart rate monitoring and strips",
+          "page": 18,
+          "endPage": 51
+        }
+      ]
+    },
+    {
+      "id": "labor-pain-management",
+      "sourceMember": "Week 7/3SU 2026 Pain Management Labor1.pdf",
+      "sourceSha256": "3ee863e8897fda8f0a64073ee89c2fab1e8daf54cf8811cb601308c33bf637a2",
+      "duplicateSources": [],
+      "pages": 18,
+      "weekIds": [
+        "week-5"
+      ],
+      "focus": []
+    },
+    {
+      "id": "labor-complications",
+      "sourceMember": "Week 6/SU 2026 Obstetrical complications  (1).pdf",
+      "sourceSha256": "05776a93d78fee17bf34f2f96de3e9fde92303ee461cd1e4390bbb9cfd23c6be",
+      "duplicateSources": [],
+      "pages": 43,
+      "weekIds": [
+        "week-6"
+      ],
+      "focus": [
+        {
+          "id": "shoulder-dystocia",
+          "topicId": "labor-emergencies",
+          "label": "Shoulder dystocia",
+          "page": 35,
+          "endPage": 41
+        }
+      ]
+    },
+    {
+      "id": "postpartum-care",
+      "sourceMember": "Week 7/Postpartum SU26(1).pdf",
+      "sourceSha256": "8c7913d97c7a9f7bc6f8c5cf4064049cdcf057d396ff358c927940ab6a1165a6",
+      "duplicateSources": [],
+      "pages": 59,
+      "weekIds": [
+        "week-7"
+      ],
+      "focus": [
+        {
+          "id": "normal-recovery",
+          "topicId": "normal-postpartum",
+          "label": "Normal recovery and assessment",
+          "page": 2,
+          "endPage": 13
+        },
+        {
+          "id": "postpartum-assessment",
+          "topicId": "normal-postpartum",
+          "label": "Focused postpartum assessment",
+          "page": 34,
+          "endPage": 39
+        },
+        {
+          "id": "postpartum-hemorrhage",
+          "topicId": "postpartum-complications",
+          "label": "Postpartum hemorrhage",
+          "page": 14,
+          "endPage": 22
+        },
+        {
+          "id": "postpartum-infection",
+          "topicId": "postpartum-complications",
+          "label": "Postpartum infection",
+          "page": 40,
+          "endPage": 40
+        },
+        {
+          "id": "postpartum-mental-health",
+          "topicId": "postpartum-complications",
+          "label": "Postpartum depression and psychosis",
+          "page": 53,
+          "endPage": 56
+        }
+      ]
+    },
+    {
+      "id": "postpartum-handout",
+      "sourceMember": "Week 7/Post Partum:  Postpartum Period Definition: The period from the delivery-2.pdf",
+      "sourceSha256": "a5d9e02a483829307e78209096eca54f35f3abe71b906a0d89524865e7228b3a",
+      "duplicateSources": [
+        {
+          "member": "Week 9/Post Partum:  Postpartum Period Definition: The period from the deliveryΓÇª.pdf",
+          "sha256": "e8baa5d77cb0d5bca27895388c1ae2c434c144cd5b515e47dce61055f9b1784f",
+          "equivalence": "Same page streams, media boxes, and extracted text."
+        }
+      ],
+      "pages": 7,
+      "weekIds": [
+        "week-7"
+      ],
+      "focus": [
+        {
+          "id": "postpartum-review",
+          "topicId": "normal-postpartum",
+          "label": "Postpartum review",
+          "page": 1,
+          "endPage": 7
+        },
+        {
+          "id": "complications-review",
+          "topicId": "postpartum-complications",
+          "label": "Complications review",
+          "page": 3,
+          "endPage": 7
+        }
+      ]
+    },
+    {
+      "id": "newborn-care",
+      "sourceMember": "Week 9/Newborn Care SU26.pdf",
+      "sourceSha256": "f461ea9e420f11ab390e90500a33efb12514e0eaf40c4b1fe48ab0b131df036e",
+      "duplicateSources": [],
+      "pages": 63,
+      "weekIds": [
+        "week-9",
+        "week-10"
+      ],
+      "focus": [
+        {
+          "id": "normal-newborn",
+          "topicId": "normal-newborn",
+          "label": "Newborn assessment and routine care",
+          "page": 2,
+          "endPage": 44
+        },
+        {
+          "id": "newborn-complications",
+          "topicId": "newborn-complications",
+          "label": "Selected newborn complications and screening",
+          "page": 45,
+          "endPage": 60
+        }
+      ]
+    },
+    {
+      "id": "newborn-handout",
+      "sourceMember": "Week 7/Newborn Assessment Importance-2.pdf",
+      "sourceSha256": "f2e243c2e4c79d33582dacca79a2a4ce96e651455e0e59ee71369f65710856f3",
+      "duplicateSources": [
+        {
+          "member": "Week 9/Newborn Assessment Importance.pdf",
+          "sha256": "824de7529a6a0595366ecee3d34134149443593b49280b5dbf5790f8d67756fa",
+          "equivalence": "Same page streams, media boxes, and extracted text."
+        }
+      ],
+      "pages": 7,
+      "weekIds": [
+        "week-9",
+        "week-10"
+      ],
+      "focus": [
+        {
+          "id": "assessment-review",
+          "topicId": "normal-newborn",
+          "label": "Assessment review",
+          "page": 1,
+          "endPage": 3
+        },
+        {
+          "id": "complications-review",
+          "topicId": "newborn-complications",
+          "label": "Selected complications review",
+          "page": 4,
+          "endPage": 6
+        }
+      ]
+    },
+    {
+      "id": "newborn-care-plan",
+      "sourceMember": "Week 1/NEWBORN assessment and careplan (1) (1)1.pdf",
+      "sourceSha256": "fd0b963965ac0dc25dff1a82ba1558433470415ea2b02495a8c0b6ebec0ad52e",
+      "duplicateSources": [],
+      "pages": 5,
+      "weekIds": [
+        "week-9"
+      ],
+      "focus": [
+        {
+          "id": "assessment-care-plan",
+          "topicId": "normal-newborn",
+          "label": "Assessment and care planning",
+          "page": 1,
+          "endPage": 5
+        }
+      ]
+    },
+    {
+      "id": "infant-feeding",
+      "sourceMember": "Week 10/2newborn nutrition su2026.pdf",
+      "sourceSha256": "a748668457a5f2187cd068866a6649c1c986da04428da98e37f9f4ee9f514339",
+      "duplicateSources": [],
+      "pages": 26,
+      "weekIds": [
+        "week-9"
+      ],
+      "focus": [
+        {
+          "id": "breastfeeding",
+          "topicId": "feeding",
+          "label": "Breastfeeding and feeding support",
+          "page": 6,
+          "endPage": 22
+        },
+        {
+          "id": "formula-feeding",
+          "topicId": "feeding",
+          "label": "Formula preparation and feeding",
+          "page": 23,
+          "endPage": 26
+        }
+      ]
+    },
+    {
+      "id": "contraception",
+      "sourceMember": "Week 10/SU 26  contraception(2).pdf",
+      "sourceSha256": "152b5a1183858a35371b5c41ba78f2a3abf87bb1bc5973aeecc1533417deb85b",
+      "duplicateSources": [],
+      "pages": 35,
+      "weekIds": [
+        "august-4"
+      ],
+      "focus": [
+        {
+          "id": "contraception",
+          "topicId": "contraception",
+          "label": "Contraceptive methods and counseling",
+          "page": 5,
+          "endPage": 35
+        }
+      ]
+    },
+    {
+      "id": "stis",
+      "sourceMember": "Week 10/ST 2026.pdf",
+      "sourceSha256": "a35b1718583b209a0414aaa8a8a1c62ebac4439d3e909b44c7af6be3e3aa47a1",
+      "duplicateSources": [],
+      "pages": 27,
+      "weekIds": [
+        "august-4"
+      ],
+      "focus": [
+        {
+          "id": "stis",
+          "topicId": "stis",
+          "label": "Sexually transmitted infections",
+          "page": 2,
+          "endPage": 27
+        }
+      ]
+    }
+  ],
+  "mappingNotes": [
+    "Organized by syllabus subjects, not simply ZIP folder labels. Diabetes moved from the Week 5 archive folder to Week 3; labor pain management from Week 7 to Week 5; newborn assessment material from Weeks 1/7 to Week 9; infant nutrition from Week 10 to Week 9; contraception/STIs from Week 10 to the August 4 session. Postpartum duplicates filed under Week 9 remain associated with Week 7.",
+    "Original titles/course numbers and page contents are preserved, including covers that say NRBS 3510. Course grouping and reader labels identify OB material without altering the source PDFs.",
+    "Historical context, fetal development, normal labor/birth and labor pain management remain in weekly materials without being labeled as specific blueprint focuses.",
+    "Newborn complications/prematurity links are selected supporting pages in the supplied newborn materials. No dedicated high-risk-newborn lecture PDF is claimed.",
+    "No clinical note synthesis, practice-question extraction, new answers or treatment recommendations were added during this presentation import."
+  ],
+  "duplicateVisualVerification": {
+    "maxDimension": 1000,
+    "pairs": [
+      {
+        "deckId": "newborn-handout",
+        "pagePixelHashes": [
+          "846054a8f218594cd0aff7f7f831f0f87a7ade20ef057b2314a431f80cdd1ee5",
+          "2a454e8f984f3bdee9cf456fe4bb507e796dc896fed4dd7249929199c8bf3244",
+          "71b41667e126f821ea2991dac8609036002137846db96c18cc3c2b09459e3276",
+          "1d50586f637e0fc585a316f9c8e25cc58f6ec136588b0a2b7254dde9ef0c79f7",
+          "2f46d34aa5ec248bc14762f884205632fbbf03d343aac9b18ff0bcd0918d0d53",
+          "f73dbc4421025d582343281e7daca15288b17bb6384d6714f2746c4d0da06302",
+          "c6e7729b81a56ac69271145768aae8b269b1cb12c4ce8b97f179fa051d34c0a4"
+        ]
+      },
+      {
+        "deckId": "postpartum-handout",
+        "pagePixelHashes": [
+          "16072e655dfdd366972357bd7ac2eaac7a108db268318a16291541db80eccdf9",
+          "f72b29fd6a159d7357d05a3598ba41cc330b3b4244b34ea73ac6e41679f6de6a",
+          "f16d5f2d8f0f946bd2ac633faf609e642be810420c614366840e5e3f91abc73e",
+          "24d8427138a7330ccbecbee30e164910ecec2164209f1b7a5d25fdd88e596067",
+          "3072930f590d2a47ed20af551008964a121fb961b6898167a97fec5b91526bbf",
+          "dfcf42e1a9c63fa86c5164c7a3fc3e5b65502e64b67b275d7d00cd1885755df2",
+          "679e0c34a1f3d9041f409745646c19a4d3ffbc4daa68021e3c90a9c1febdae91"
+        ]
+      }
+    ]
+  }
+}

@@ -18,6 +18,11 @@ const SiteAnalytics = (() => {
         || obCourse.weeks.some(week => route === `#/ob-final/${week.id}`)
         || obCourse.topics.some(topic => route === `#/ob-final/topic/${topic.id}`)) return prefix + route.slice(1);
     }
+    if (typeof obPresentationDecks !== 'undefined') {
+      const valid = Object.values(obPresentationDecks).some(deck => route === `#/ob-final/presentation/${deck.id}`
+        || deck.focus.some(focus => route === `#/ob-final/presentation/${deck.id}/${focus.id}`));
+      if (valid) return prefix + route.slice(1);
+    }
     const simple = ['#/final/focused-review', '#/final', '#/final/study-guide', '#/final/quiz', '#/final/nclex', '#/final/podcast', '#/final/videos', '#/final/presentations'];
     if (simple.includes(route) || /^#\/final\/week-(7|8|9|12)$/.test(route)) return prefix + route.slice(1);
     if (route.startsWith('#/final/condition/') && examTopics.some(topic => topic.id === route.slice('#/final/condition/'.length))) return prefix + route.slice(1);

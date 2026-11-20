@@ -2,12 +2,14 @@
 const PresentationViewer = {
   mount(root, deck) {
     const escape = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+    const sourceLinks = deck.showSourceLinks !== false;
+    const contextLabel = deck.contextLabel || `STUDENT PRESENTATION${deck.week ? ` / WEEK ${deck.week}` : ' / ADDITIONAL'}`;
     root.innerHTML = `
-      <div class="reader-heading"><div><p class="eyebrow">STUDENT PRESENTATION${deck.week ? ` / WEEK ${deck.week}` : ' / ADDITIONAL'}</p><h1>${escape(deck.title)}</h1></div></div>
+      <div class="reader-heading"><div><p class="eyebrow">${escape(contextLabel)}</p><h1>${escape(deck.title)}</h1></div></div>
       <div class="reader-window">
         <div class="reader-toolbar" aria-label="Slide display controls">
           <div class="zoom-controls"><button class="reader-button" type="button" data-action="zoom-out" aria-label="Zoom out" disabled>−</button><button class="reader-button fullscreen-button" type="button" data-action="expand" aria-pressed="false">⛶ Full screen</button><button class="reader-button" type="button" data-action="zoom-in" aria-label="Zoom in" disabled>+</button><button class="reader-button zoom-label" type="button" data-action="fit" aria-label="Reset zoom to fit slide" title="Reset zoom to fit slide" disabled>100%</button></div>
-          <a class="reader-pdf-link" href="${escape(deck.pdf)}" target="_blank" rel="noopener">Open original PDF ↗</a>
+          ${sourceLinks ? `<a class="reader-pdf-link" href="${escape(deck.pdf)}" target="_blank" rel="noopener">Open original PDF ↗</a>` : ''}
         </div>
         <div class="slide-stage" tabindex="0" role="region" aria-label="Presentation slide. Use left and right arrow keys to change pages."><div class="slide-layout"><img class="slide-image" hidden alt="" draggable="false"><p class="slide-message">Loading presentation…</p></div></div>
         <p class="reader-status" role="status" aria-live="polite">Loading presentation…</p>
@@ -18,7 +20,7 @@ const PresentationViewer = {
           <div class="auto-controls"><button class="reader-button auto-button" type="button" data-action="auto" aria-pressed="false" disabled>▶ Auto</button><label>Every <select aria-label="Automatic page interval"><option value="5">5 sec</option><option value="10">10 sec</option><option value="15" selected>15 sec</option><option value="30">30 sec</option><option value="60">60 sec</option></select></label></div>
         </div>
       </div>
-      <div class="reader-bottom"><span class="reader-hint">Use the arrows to read at your own pace. Auto pauses at the last page.</span><a class="text-link" href="${escape(deck.pdf)}" download>Download PDF ↓</a></div>
+      <div class="reader-bottom"><span class="reader-hint">Use the arrows to read at your own pace. Auto pauses at the last page.</span>${sourceLinks ? `<a class="text-link" href="${escape(deck.pdf)}" download>Download PDF ↓</a>` : ''}</div>
       <details class="slide-text"><summary>Slide text</summary><p class="slide-transcript">Loading…</p></details>`;
 
     const abort = new AbortController();
@@ -92,7 +94,7 @@ const PresentationViewer = {
         stage.scrollTo(0,0);
         stage.setAttribute('aria-busy','false');
         status.textContent = `Page ${pageIndex + 1} of ${pages.length}${auto ? ' · Auto on' : ''}`;
-        root.querySelector('.slide-transcript').textContent = current.text?.trim() || 'No selectable text is available for this slide. The original PDF is available above.';
+        root.querySelector('.slide-transcript').textContent = current.text?.trim() || (sourceLinks ? 'No selectable text is available for this slide. The original PDF is available above.' : 'No selectable text is available for this page. Read the page image above.');
         if (pageIndex === pages.length - 1 && auto) { pause(); status.textContent = `Page ${pages.length} of ${pages.length} · End of presentation`; }
         else schedule();
         // Only prefetch the next page, keeping large decks light on mobile.
@@ -103,9 +105,9 @@ const PresentationViewer = {
         loading = false;
         pause();
         stage.setAttribute('aria-busy','false');
-        message.textContent = 'This slide could not load. Try another page or open the original PDF.';
+        message.textContent = sourceLinks ? 'This slide could not load. Try another page or open the original PDF.' : 'This page could not load. Try another page or reload this presentation.';
         status.textContent = `Page ${pageIndex + 1} could not load.`;
-        root.querySelector('.slide-transcript').textContent = current.text || 'Open the original PDF to read this page.';
+        root.querySelector('.slide-transcript').textContent = current.text || (sourceLinks ? 'Open the original PDF to read this page.' : 'Reload this presentation to try loading the page again.');
       };
       loader.src = url;
     }
@@ -191,12 +193,12 @@ const PresentationViewer = {
       if (!alive) return;
       if (!Array.isArray(data.pages) || !data.pages.length) throw Error('No pages');
       pages = data.pages;
-      show(0);
+      show(Number.isInteger(deck.initialPage) ? deck.initialPage - 1 : 0);
     }).catch(error => {
       if (!alive || error.name === 'AbortError') return;
-      message.textContent = 'The presentation viewer could not load. You can still open or download the original PDF.';
+      message.textContent = sourceLinks ? 'The presentation viewer could not load. You can still open or download the original PDF.' : 'The presentation viewer could not load. Reload this page to try again.';
       status.textContent = 'Viewer unavailable.';
-      root.querySelector('.slide-transcript').textContent = 'Open the original PDF to read the slides.';
+      root.querySelector('.slide-transcript').textContent = sourceLinks ? 'Open the original PDF to read the slides.' : 'The page text is unavailable until the presentation loads.';
     });
     return () => {
       alive = false; ++version;

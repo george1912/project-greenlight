@@ -1,0 +1,36 @@
+{
+  "id": "newborn-care-plan",
+  "title": "Newborn assessment & care-plan worksheet",
+  "pages": [
+    {
+      "image": "page-001.webp",
+      "width": 1546,
+      "height": 2000,
+      "text": "STUDENT Date\nInstructor\nNEWBORN ASSESSMENT AND CARE PLAN\nDate & time of exam:______________Date & time of birth:_______________________\nApgar scores:_______________________Type of delivery:_______________________\nWeight at birth (lbs/ gms) ___________________   Length at birth _________________\nToday’s weight/length _______________________\nAPGARS 1______   5__________   10 ___________\nPresentation:_____________G:_______P:_____________________________________\nComplications:________________________\nPertinent maternal history:__________________________________________________\nMaternal Blood Type _________________    Infant Blood Type ____________________\nCoombs Testing / Bilirubin Testing ___________________________\nFeeding Method:  Breast / Bottle  \nPhysical Exam\nT:_____P:_____R:_____\nWeight:________gms________lbs        Length:_________cms_________in.  \nHead circumference:_________shape:_________\nChest circumference: _________  shape:\nAbdomen circumference: __________  shape:\nCircle all that apply; describe lesions, locations, and add relevant comments\n1. COLOR: pink / pale; acrocyanosis / cyanosis / plethoric / jaundice / mottled\n2 STATE: deep sleep/ light sleep / drowsy / quiet alert / active alert / crying\n3. ACTIVITY:   active/ irritable / lethargic / jittery / hyperactive / hypoactive / quiet  \nalert\n4. MUSCLE TONE: normal flexion / flaccid / spasticity\n5. SKIN: vernix (location) _______________________________________\nlanugo (location) _______________________________________\nmilia (location) ________________________________________"
+    },
+    {
+      "image": "page-002.webp",
+      "width": 1546,
+      "height": 2000,
+      "text": "hemangioma(s) (size / location) ______________________________\ndesquamation (location) ____________________________________\nforceps marks (location) _____________________________________\nMongolian spots (size / location) _________________________________\nOther lesions/ pigmentations ____________________________________\n6. HEAD: molding overriding sutures \n \ncaput succedaneum (location) ______________________________\ncephalohematoma (location) ______________________________\nanterior fontanel: open / flat / bulging / sunken\nposterior fontanel: open / closed\nscalp lesions (location) __________________________________\n7. FACE: symmetric / asymmetric / comment \n___________________________________________\n8. EYES: symmetric / asymmetric / comment \n___________________________________________\nClear / discharge (type & location) \n___________________________________________\nConjunctival hemorrhage \n9. EARS: Symmetric / asymmetric\nAlignment:  Low Set / WNL\nSkin tags / Sinus / \ncomment__________________________________________\n10. NOSE: Nostrils patent bilaterally /  discharge\ncomment ___________________________\n11. MOUTH:  Mucous membrane: pink / cyanosis / cleft palate / cleft lip"
+    },
+    {
+      "image": "page-003.webp",
+      "width": 1546,
+      "height": 2000,
+      "text": "comment___________________________________\n12 NECK: Intact clavicles: R/L; Full ROM\nComments \n________________________________________________________\n13. CHEST: Symmetric / Asymmetric\nRespirations: labored / non-labored; flaring / grunting \nRetractions: type and location \n_________________________________________\nBreath sounds equal / clear / rales / rhonchi /    \ncomment______________________\nBreast engorgement /  bud size mm ________________\ndischarge_______________________\nSupranummary nipples \n14. HEART: Apical pulse_______________ regular / irregular / murmur: loud / soft\nComment \n_________________________________________________________\n15. ABDOMEN: soft / hard / distended / /comment \n______________________________________\ncontour: flat / protuberant /scaphoid / comment  \n___________________________\numbilicus: cord clamp intact/ 3 vessels / \ncomment_________________________\nbowel sounds: present / absent\n16. GENITALIA: MALE:  Normal / Hypospadias / Epispadias / Testes descended: R/L  \nComments: \n_______________________________________________________"
+    },
+    {
+      "image": "page-004.webp",
+      "width": 1546,
+      "height": 2000,
+      "text": "FEMALE:  Normal / Edema / comment \n_________________________________\nVaginal tag / \ncomment_______________________________________________\nDischarge (describe) \n________________________________________________\n17: SPINE: Closed vertebral column / dimple / tuft of hair / mass / \npilonidal dimple / sinus\ncomment______________\n18. RECTUM: patent / comment stool \n \n19. EXTREMITIES:   Symmetric / asymmetric / number of digits:\n \nHands / Arms / Legs / Feet / Toes\nNormal ROM / Limited ROM \nOrtolani’s Maneuver:  positive / negative\nComments___________________________________________________\n20. NEURO: Rooting: strong / delayed\nSuck / Swallow:\nMoro:  symmetric / asymmetric  \nPalmer grasp:  strong/weak; symmetric/asymmetric\nPlantar grasp:  strong / weak; symmetric / asymmetric  \nBabinski:  rapid / delayed / absent; symmetric / asymmetric  \nHead Lag:\nStepping:\nTonic Neck:"
+    },
+    {
+      "image": "page-005.webp",
+      "width": 1546,
+      "height": 2000,
+      "text": ""
+    }
+  ]
+}

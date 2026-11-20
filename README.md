@@ -6,11 +6,23 @@ A growing nursing school study hub. Static HTML, CSS, and JavaScript; ready for 
 
 The Study Shelf now has separate Med-Surg III and **OB Final Exam** entries. `#/ob-final` places the large final-exam study-guide button above weekly materials; `#/ob-final/study-guide` contains the supplied Exam 3 blueprint’s seven main topics and four cumulative review groups. Topic routes are `#/ob-final/topic/<id>` and weekly routes are `#/ob-final/week-<number>`, with the unnumbered August 4 session at `#/ob-final/august-4`.
 
-`ob-content.js` holds the Summer 2026 syllabus sessions, topic/week mappings, approximate blueprint question ranges, and empty notes/practice/resource fields. `ob.js` renders these in the established site layout. The individual topic pages show the actual blueprint focus points and related weeks; study explanations and quizzes are deliberately pending. The 16-section nursing template is ready for future populated `content` blocks. No source PDF, syllabus policies, faculty details, or download links are included.
+`ob-content.js` holds the Summer 2026 syllabus sessions, topic/week mappings, approximate blueprint question ranges, and empty notes/practice/resource fields. `ob.js` renders these in the established site layout. The individual topic pages show the actual blueprint focus points and related weeks; study explanations and quizzes are deliberately pending. The 16-section nursing template is ready for future populated `content` blocks. The blueprint and syllabus PDFs remain unhosted.
 
 Week 8 links to Exam II review of Weeks 5–7. August 4 stays labeled by date because the syllabus gives it no week number; Week 11 is the final exam rather than new teaching material. Earlier Weeks 1–3 and 5–6 are available in a collapsed cumulative-review group. The subject-based crosswalk, source fingerprints, and mapping qualifications are recorded in `docs/ob-framework-map.json`.
 
 Run `node scripts/check-ob.cjs` for blueprint coverage, week mapping, empty-state integrity, link/route safety and deployment inclusion. The shared route and analytics checks also cover the OB pages; analytics use `/project-greenlight/ob-final/...` in the existing dashboard.
+
+### OB presentations and handouts
+
+The supplied `weekly_pdfs.zip` contains 21 PDFs. Two seven-page handout pairs have identical page content; all pages in both pairs were also verified to render pixel for pixel at 1000 px. They share reader entries, yielding **19 unique documents and 600 page previews**. The blank newborn assessment/care-plan worksheet is labeled as a worksheet, and the two text-based reviews are labeled as handouts.
+
+Weekly pages show the PDFs organized by syllabus subject rather than relying on archive folders. Diabetes is under Week 3, labor pain management under Week 5, postpartum under Week 7, newborn assessment/feeding under Week 9, continued newborn material under Week 10, and contraception/STIs under the unnumbered August 4 session. Earlier background decks remain in weekly materials. All 11 exam-topic pages link to relevant supplied material through 26 focused page ranges; four background decks are not labeled as specific blueprint focuses. The newborn-complications topic has selected supporting pages, not a claim that a dedicated high-risk-newborn lecture was supplied.
+
+Routes use `#/ob-final/presentation/<deck-id>` for the whole document and `#/ob-final/presentation/<deck-id>/<focus-id>` to start at a reviewed page. The shared `viewer.js` retains previous/next, page jump, zoom, Auto, native fullscreen and its full-window fallback. OB readers use a course-material label and hide source/download controls. The original supplied PDFs are preserved alongside their previews; hiding controls does not make a public static asset private. The blueprint, syllabus and withdrawn focused-guide PDFs are not reintroduced.
+
+`ob-presentations.js` holds the metadata, `ob-presentations/` holds faithful WebP previews and original PDFs, and `scripts/ob-presentation-sources.json` records the explicit ZIP members, duplicate aliases, week assignments and exam focus pages. Rebuild with the bundled Python/Pillow/pypdf and `pdftoppm` using `scripts/prepare-ob-presentations.py --archive /path/to/weekly_pdfs.zip`. Repeated runs reuse valid unchanged previews. `docs/ob-presentations-audit.json` records the source/archive hashes and mappings. The imported slides are preserved course material, not a clinical rewrite; study notes and practice banks remain empty.
+
+Run `node scripts/check-ob-presentations.cjs` and `node scripts/check-viewer.cjs` for source fidelity, asset counts, focused starting pages, subject mappings, reader controls/cleanup and original Med-Surg defaults. Route/deployment and analytics checks include the OB presentation/focus routes. Image rendering and source/focus previews were inspected; a visual browser test was unavailable during this import.
 
 ## Preview
 

@@ -1,0 +1,416 @@
+[
+  {
+    "id": "historical-context",
+    "title": "Historical context & maternal–fetal health",
+    "member": "Week 1/su 26 Historical and Stats.pdf",
+    "aliases": [],
+    "weekIds": [
+      "week-1"
+    ],
+    "kind": "Lecture PDF",
+    "focus": []
+  },
+  {
+    "id": "fetal-development",
+    "title": "Menstruation, conception & fetal development",
+    "member": "Week 1/26SU 2Menstruation conception and fetal development.pdf",
+    "aliases": [],
+    "weekIds": [
+      "week-1",
+      "week-2"
+    ],
+    "kind": "Lecture PDF",
+    "focus": []
+  },
+  {
+    "id": "maternal-adaptation",
+    "title": "Maternal adaptation & nutrition",
+    "member": "Week 1/Maternal Adaptation & Nutrition 26SU.pdf",
+    "aliases": [],
+    "weekIds": [
+      "week-1",
+      "week-2"
+    ],
+    "kind": "Lecture PDF",
+    "focus": [
+      {
+        "id": "gtpal",
+        "topicId": "antepartum-prenatal",
+        "label": "GTPAL",
+        "page": 6,
+        "endPage": 9
+      },
+      {
+        "id": "maternal-adaptation",
+        "topicId": "antepartum-prenatal",
+        "label": "Maternal changes and nutrition",
+        "page": 11,
+        "endPage": 37
+      }
+    ]
+  },
+  {
+    "id": "prenatal-nursing-care",
+    "title": "Nursing management during pregnancy",
+    "member": "Week 2/26SU Nursing Care Pregnancy 2.pdf",
+    "aliases": [],
+    "weekIds": [
+      "week-2"
+    ],
+    "kind": "Lecture PDF",
+    "focus": [
+      {
+        "id": "naegeles-rule",
+        "topicId": "antepartum-prenatal",
+        "label": "Naegele’s rule and estimated due date",
+        "page": 6,
+        "endPage": 7
+      },
+      {
+        "id": "prenatal-care",
+        "topicId": "antepartum-prenatal",
+        "label": "Prenatal assessment and discomforts",
+        "page": 9,
+        "endPage": 29
+      }
+    ]
+  },
+  {
+    "id": "pregnancy-discomforts",
+    "title": "Managing normal pregnancy discomforts",
+    "member": "Week 2/Managing normal discomforts 3 slides(1).pdf",
+    "aliases": [],
+    "weekIds": [
+      "week-2"
+    ],
+    "kind": "Lecture PDF",
+    "focus": [
+      {
+        "id": "normal-discomforts",
+        "topicId": "antepartum-prenatal",
+        "label": "Normal pregnancy discomforts",
+        "page": 2,
+        "endPage": 4
+      }
+    ]
+  },
+  {
+    "id": "antepartum-risks",
+    "title": "Antepartum risks & pregnancy complications",
+    "member": "Week 3/2Antepartum not GDM(1).pdf",
+    "aliases": [],
+    "weekIds": [
+      "week-3"
+    ],
+    "kind": "Lecture PDF",
+    "focus": [
+      {
+        "id": "hypertensive-complications",
+        "topicId": "pregnancy-complications",
+        "label": "Hypertension, preeclampsia, and eclampsia",
+        "page": 30,
+        "endPage": 38
+      },
+      {
+        "id": "placental-complications",
+        "topicId": "labor-emergencies",
+        "label": "Placenta previa and placental abruption",
+        "page": 18,
+        "endPage": 25
+      }
+    ]
+  },
+  {
+    "id": "diabetes-in-pregnancy",
+    "title": "Diabetes in pregnancy",
+    "member": "Week 5/26 Diabetes in Pregnancy (1) (1).pdf",
+    "aliases": [],
+    "weekIds": [
+      "week-3"
+    ],
+    "kind": "Lecture PDF",
+    "focus": [
+      {
+        "id": "diabetes",
+        "topicId": "pregnancy-complications",
+        "label": "Pregestational and gestational diabetes",
+        "page": 2,
+        "endPage": 26
+      }
+    ]
+  },
+  {
+    "id": "labor-and-birth",
+    "title": "Processes of labor & birth",
+    "member": "Week 5/2bLabor and Birth Summer 2026 (1)(1)(1).pdf",
+    "aliases": [],
+    "weekIds": [
+      "week-5"
+    ],
+    "kind": "Lecture PDF",
+    "focus": []
+  },
+  {
+    "id": "fetal-monitoring",
+    "title": "Fetal & maternal monitoring in labor",
+    "member": "Week 5/2Fetalassessment Labor Summer 2026 (1).pdf",
+    "aliases": [],
+    "weekIds": [
+      "week-5"
+    ],
+    "kind": "Lecture PDF",
+    "focus": [
+      {
+        "id": "monitoring-strips",
+        "topicId": "fetal-monitoring",
+        "label": "Fetal heart rate monitoring and strips",
+        "page": 18,
+        "endPage": 51
+      }
+    ]
+  },
+  {
+    "id": "labor-pain-management",
+    "title": "Pain management in labor",
+    "member": "Week 7/3SU 2026 Pain Management Labor1.pdf",
+    "aliases": [],
+    "weekIds": [
+      "week-5"
+    ],
+    "kind": "Lecture PDF",
+    "focus": []
+  },
+  {
+    "id": "labor-complications",
+    "title": "Labor & birth complications",
+    "member": "Week 6/SU 2026 Obstetrical complications  (1).pdf",
+    "aliases": [],
+    "weekIds": [
+      "week-6"
+    ],
+    "kind": "Lecture PDF",
+    "focus": [
+      {
+        "id": "shoulder-dystocia",
+        "topicId": "labor-emergencies",
+        "label": "Shoulder dystocia",
+        "page": 35,
+        "endPage": 41
+      }
+    ]
+  },
+  {
+    "id": "postpartum-care",
+    "title": "Postpartum care & assessment",
+    "member": "Week 7/Postpartum SU26(1).pdf",
+    "aliases": [],
+    "weekIds": [
+      "week-7"
+    ],
+    "kind": "Lecture PDF",
+    "focus": [
+      {
+        "id": "normal-recovery",
+        "topicId": "normal-postpartum",
+        "label": "Normal recovery and assessment",
+        "page": 2,
+        "endPage": 13
+      },
+      {
+        "id": "postpartum-assessment",
+        "topicId": "normal-postpartum",
+        "label": "Focused postpartum assessment",
+        "page": 34,
+        "endPage": 39
+      },
+      {
+        "id": "postpartum-hemorrhage",
+        "topicId": "postpartum-complications",
+        "label": "Postpartum hemorrhage",
+        "page": 14,
+        "endPage": 22
+      },
+      {
+        "id": "postpartum-infection",
+        "topicId": "postpartum-complications",
+        "label": "Postpartum infection",
+        "page": 40,
+        "endPage": 40
+      },
+      {
+        "id": "postpartum-mental-health",
+        "topicId": "postpartum-complications",
+        "label": "Postpartum depression and psychosis",
+        "page": 53,
+        "endPage": 56
+      }
+    ]
+  },
+  {
+    "id": "postpartum-handout",
+    "title": "Postpartum review handout",
+    "member": "Week 7/Post Partum:  Postpartum Period Definition: The period from the delivery-2.pdf",
+    "aliases": [
+      "Week 9/Post Partum:  Postpartum Period Definition: The period from the deliveryΓÇª.pdf"
+    ],
+    "weekIds": [
+      "week-7"
+    ],
+    "kind": "Study handout",
+    "focus": [
+      {
+        "id": "postpartum-review",
+        "topicId": "normal-postpartum",
+        "label": "Postpartum review",
+        "page": 1,
+        "endPage": 7
+      },
+      {
+        "id": "complications-review",
+        "topicId": "postpartum-complications",
+        "label": "Complications review",
+        "page": 3,
+        "endPage": 7
+      }
+    ]
+  },
+  {
+    "id": "newborn-care",
+    "title": "Assessment & care of the newborn",
+    "member": "Week 9/Newborn Care SU26.pdf",
+    "aliases": [],
+    "weekIds": [
+      "week-9",
+      "week-10"
+    ],
+    "kind": "Lecture PDF",
+    "focus": [
+      {
+        "id": "normal-newborn",
+        "topicId": "normal-newborn",
+        "label": "Newborn assessment and routine care",
+        "page": 2,
+        "endPage": 44
+      },
+      {
+        "id": "newborn-complications",
+        "topicId": "newborn-complications",
+        "label": "Selected newborn complications and screening",
+        "page": 45,
+        "endPage": 60
+      }
+    ]
+  },
+  {
+    "id": "newborn-handout",
+    "title": "Newborn assessment review handout",
+    "member": "Week 7/Newborn Assessment Importance-2.pdf",
+    "aliases": [
+      "Week 9/Newborn Assessment Importance.pdf"
+    ],
+    "weekIds": [
+      "week-9",
+      "week-10"
+    ],
+    "kind": "Study handout",
+    "focus": [
+      {
+        "id": "assessment-review",
+        "topicId": "normal-newborn",
+        "label": "Assessment review",
+        "page": 1,
+        "endPage": 3
+      },
+      {
+        "id": "complications-review",
+        "topicId": "newborn-complications",
+        "label": "Selected complications review",
+        "page": 4,
+        "endPage": 6
+      }
+    ]
+  },
+  {
+    "id": "newborn-care-plan",
+    "title": "Newborn assessment & care-plan worksheet",
+    "member": "Week 1/NEWBORN assessment and careplan (1) (1)1.pdf",
+    "aliases": [],
+    "weekIds": [
+      "week-9"
+    ],
+    "kind": "Assessment worksheet",
+    "focus": [
+      {
+        "id": "assessment-care-plan",
+        "topicId": "normal-newborn",
+        "label": "Assessment and care planning",
+        "page": 1,
+        "endPage": 5
+      }
+    ]
+  },
+  {
+    "id": "infant-feeding",
+    "title": "Infant feeding: breast & formula",
+    "member": "Week 10/2newborn nutrition su2026.pdf",
+    "aliases": [],
+    "weekIds": [
+      "week-9"
+    ],
+    "kind": "Lecture PDF",
+    "focus": [
+      {
+        "id": "breastfeeding",
+        "topicId": "feeding",
+        "label": "Breastfeeding and feeding support",
+        "page": 6,
+        "endPage": 22
+      },
+      {
+        "id": "formula-feeding",
+        "topicId": "feeding",
+        "label": "Formula preparation and feeding",
+        "page": 23,
+        "endPage": 26
+      }
+    ]
+  },
+  {
+    "id": "contraception",
+    "title": "Contraception",
+    "member": "Week 10/SU 26  contraception(2).pdf",
+    "aliases": [],
+    "weekIds": [
+      "august-4"
+    ],
+    "kind": "Lecture PDF",
+    "focus": [
+      {
+        "id": "contraception",
+        "topicId": "contraception",
+        "label": "Contraceptive methods and counseling",
+        "page": 5,
+        "endPage": 35
+      }
+    ]
+  },
+  {
+    "id": "stis",
+    "title": "Sexually transmitted infections",
+    "member": "Week 10/ST 2026.pdf",
+    "aliases": [],
+    "weekIds": [
+      "august-4"
+    ],
+    "kind": "Lecture PDF",
+    "focus": [
+      {
+        "id": "stis",
+        "topicId": "stis",
+        "label": "Sexually transmitted infections",
+        "page": 2,
+        "endPage": 27
+      }
+    ]
+  }
+]
