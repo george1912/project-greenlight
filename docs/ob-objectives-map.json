@@ -1,0 +1,1082 @@
+{
+  "basis": "Authored study objectives derived from the supplied syllabus’s weekly topics, Exam 3 blueprint, and available teaching PDFs. They are not quoted faculty objectives or a guarantee of exam coverage.",
+  "sources": {
+    "examBlueprint": {
+      "name": "2026 NRBS 3410 Exam 3 Blueprint (2)(1).pdf",
+      "sha256": "eb7111131992ee865c4736ce2a572d89139b8174fc2165c32ce1f5adf32ebce2",
+      "usedPages": [
+        1
+      ]
+    },
+    "syllabus": {
+      "name": "2bNRBS 3410 Summer 26 Syllabus(1).pdf",
+      "sha256": "44cfd177818e96152939909f776f0d555dc5ad4b1a62d55fe235c24e49d11d38",
+      "usedPages": [
+        15,
+        16,
+        17
+      ]
+    }
+  },
+  "counts": {
+    "allObjectives": 75,
+    "examObjectives": 60,
+    "teachingSessions": 9,
+    "examTopics": 11
+  },
+  "noteStorage": "obStudyObjectives[].answer",
+  "clinicalAnswersIncluded": false,
+  "nursingOutline": [
+    "Overview & key concepts",
+    "Risk factors & prevention",
+    "Clinical manifestations",
+    "Diagnostic tests & monitoring",
+    "Medical & collaborative management",
+    "Pharmacological therapies",
+    "Nonpharmacological care",
+    "Side effects & safety",
+    "Nutrition & feeding",
+    "Nursing assessment",
+    "Nursing diagnoses",
+    "Priorities & first actions",
+    "Plan of care",
+    "Nursing interventions",
+    "Patient teaching",
+    "Evaluation"
+  ],
+  "mappingNotes": [
+    "Only objectives linked to a blueprint topic appear on that topic’s final-exam page. The remaining objectives support weekly course review.",
+    "Week 8 is an Exam II review and reuses the Week 5, 6, and 7 objective objects. No new teaching objectives or extra syllabus week numbers are invented.",
+    "The August 4 session retains its date-based label. Exam-only Weeks 4 and 11 do not acquire new teaching objectives.",
+    "The neonatal sepsis, NEC, prematurity, and oxygen-complication prompts extend the broad high-risk newborn blueprint topic. The current PDFs give partial supporting coverage; the page asks the learner to use additional high-risk newborn lecture notes.",
+    "Blank answer arrays are ready for the user’s own notes. Both views read the same objects so future content is maintained once."
+  ],
+  "blueprintSpecificCoverage": {
+    "GTPAL": [
+      "obstetric-history-gtpal"
+    ],
+    "Naegele’s rule": [
+      "estimated-due-date"
+    ],
+    "Diabetes": [
+      "diabetes-assessment",
+      "diabetes-nursing-management"
+    ],
+    "Hypertension / preeclampsia / eclampsia": [
+      "hypertensive-disorders",
+      "eclampsia-magnesium-hellp"
+    ],
+    "Two fetal-monitoring strips": [
+      "fhr-strip-assessment",
+      "fhr-patterns",
+      "fhr-priorities"
+    ],
+    "Shoulder dystocia": [
+      "shoulder-dystocia"
+    ],
+    "Placental complications": [
+      "placental-bleeding",
+      "placental-emergency-response"
+    ]
+  },
+  "objectives": [
+    {
+      "id": "family-centered-care",
+      "weekIds": [
+        "week-1"
+      ],
+      "topicIds": [],
+      "supportingWeeklyMaterials": [
+        "historical-context",
+        "fetal-development",
+        "maternal-adaptation"
+      ]
+    },
+    {
+      "id": "pregnancy-adaptations",
+      "weekIds": [
+        "week-1"
+      ],
+      "topicIds": [
+        "antepartum-prenatal"
+      ],
+      "supportingWeeklyMaterials": [
+        "historical-context",
+        "fetal-development",
+        "maternal-adaptation"
+      ]
+    },
+    {
+      "id": "pregnancy-psychosocial-care",
+      "weekIds": [
+        "week-1"
+      ],
+      "topicIds": [],
+      "supportingWeeklyMaterials": [
+        "historical-context",
+        "fetal-development",
+        "maternal-adaptation"
+      ]
+    },
+    {
+      "id": "conception-fetal-development",
+      "weekIds": [
+        "week-1",
+        "week-2"
+      ],
+      "topicIds": [],
+      "supportingWeeklyMaterials": [
+        "historical-context",
+        "fetal-development",
+        "maternal-adaptation",
+        "prenatal-nursing-care",
+        "pregnancy-discomforts"
+      ]
+    },
+    {
+      "id": "pregnancy-signs",
+      "weekIds": [
+        "week-2"
+      ],
+      "topicIds": [
+        "antepartum-prenatal"
+      ],
+      "supportingWeeklyMaterials": [
+        "fetal-development",
+        "maternal-adaptation",
+        "prenatal-nursing-care",
+        "pregnancy-discomforts"
+      ]
+    },
+    {
+      "id": "obstetric-history-gtpal",
+      "weekIds": [
+        "week-2"
+      ],
+      "topicIds": [
+        "antepartum-prenatal"
+      ],
+      "supportingWeeklyMaterials": [
+        "fetal-development",
+        "maternal-adaptation",
+        "prenatal-nursing-care",
+        "pregnancy-discomforts"
+      ]
+    },
+    {
+      "id": "estimated-due-date",
+      "weekIds": [
+        "week-2"
+      ],
+      "topicIds": [
+        "antepartum-prenatal"
+      ],
+      "supportingWeeklyMaterials": [
+        "fetal-development",
+        "maternal-adaptation",
+        "prenatal-nursing-care",
+        "pregnancy-discomforts"
+      ]
+    },
+    {
+      "id": "prenatal-assessment",
+      "weekIds": [
+        "week-2"
+      ],
+      "topicIds": [
+        "antepartum-prenatal"
+      ],
+      "supportingWeeklyMaterials": [
+        "fetal-development",
+        "maternal-adaptation",
+        "prenatal-nursing-care",
+        "pregnancy-discomforts"
+      ]
+    },
+    {
+      "id": "pregnancy-discomforts",
+      "weekIds": [
+        "week-2"
+      ],
+      "topicIds": [
+        "antepartum-prenatal"
+      ],
+      "supportingWeeklyMaterials": [
+        "fetal-development",
+        "maternal-adaptation",
+        "prenatal-nursing-care",
+        "pregnancy-discomforts"
+      ]
+    },
+    {
+      "id": "prenatal-nutrition-teaching",
+      "weekIds": [
+        "week-2"
+      ],
+      "topicIds": [
+        "antepartum-prenatal"
+      ],
+      "supportingWeeklyMaterials": [
+        "fetal-development",
+        "maternal-adaptation",
+        "prenatal-nursing-care",
+        "pregnancy-discomforts"
+      ]
+    },
+    {
+      "id": "high-risk-pregnancy-assessment",
+      "weekIds": [
+        "week-3"
+      ],
+      "topicIds": [],
+      "supportingWeeklyMaterials": [
+        "antepartum-risks",
+        "diabetes-in-pregnancy"
+      ]
+    },
+    {
+      "id": "early-pregnancy-complications",
+      "weekIds": [
+        "week-3"
+      ],
+      "topicIds": [],
+      "supportingWeeklyMaterials": [
+        "antepartum-risks",
+        "diabetes-in-pregnancy"
+      ]
+    },
+    {
+      "id": "placental-bleeding",
+      "weekIds": [
+        "week-3"
+      ],
+      "topicIds": [
+        "labor-emergencies"
+      ],
+      "supportingWeeklyMaterials": [
+        "antepartum-risks",
+        "diabetes-in-pregnancy"
+      ]
+    },
+    {
+      "id": "diabetes-assessment",
+      "weekIds": [
+        "week-3"
+      ],
+      "topicIds": [
+        "pregnancy-complications"
+      ],
+      "supportingWeeklyMaterials": [
+        "antepartum-risks",
+        "diabetes-in-pregnancy"
+      ]
+    },
+    {
+      "id": "diabetes-nursing-management",
+      "weekIds": [
+        "week-3"
+      ],
+      "topicIds": [
+        "pregnancy-complications"
+      ],
+      "supportingWeeklyMaterials": [
+        "antepartum-risks",
+        "diabetes-in-pregnancy"
+      ]
+    },
+    {
+      "id": "hypertensive-disorders",
+      "weekIds": [
+        "week-3"
+      ],
+      "topicIds": [
+        "pregnancy-complications"
+      ],
+      "supportingWeeklyMaterials": [
+        "antepartum-risks",
+        "diabetes-in-pregnancy"
+      ]
+    },
+    {
+      "id": "eclampsia-magnesium-hellp",
+      "weekIds": [
+        "week-3"
+      ],
+      "topicIds": [
+        "pregnancy-complications"
+      ],
+      "supportingWeeklyMaterials": [
+        "antepartum-risks",
+        "diabetes-in-pregnancy"
+      ]
+    },
+    {
+      "id": "pregnancy-prom-preterm",
+      "weekIds": [
+        "week-3"
+      ],
+      "topicIds": [],
+      "supportingWeeklyMaterials": [
+        "antepartum-risks",
+        "diabetes-in-pregnancy"
+      ]
+    },
+    {
+      "id": "rh-abo-infections",
+      "weekIds": [
+        "week-3"
+      ],
+      "topicIds": [],
+      "supportingWeeklyMaterials": [
+        "antepartum-risks",
+        "diabetes-in-pregnancy"
+      ]
+    },
+    {
+      "id": "fluid-multiples-pregnancy",
+      "weekIds": [
+        "week-3"
+      ],
+      "topicIds": [],
+      "supportingWeeklyMaterials": [
+        "antepartum-risks",
+        "diabetes-in-pregnancy"
+      ]
+    },
+    {
+      "id": "normal-labor-process",
+      "weekIds": [
+        "week-5"
+      ],
+      "topicIds": [],
+      "supportingWeeklyMaterials": [
+        "labor-and-birth",
+        "fetal-monitoring",
+        "labor-pain-management"
+      ]
+    },
+    {
+      "id": "labor-nursing-assessment",
+      "weekIds": [
+        "week-5"
+      ],
+      "topicIds": [],
+      "supportingWeeklyMaterials": [
+        "labor-and-birth",
+        "fetal-monitoring",
+        "labor-pain-management"
+      ]
+    },
+    {
+      "id": "monitoring-methods",
+      "weekIds": [
+        "week-5"
+      ],
+      "topicIds": [
+        "fetal-monitoring"
+      ],
+      "supportingWeeklyMaterials": [
+        "labor-and-birth",
+        "fetal-monitoring",
+        "labor-pain-management"
+      ]
+    },
+    {
+      "id": "fhr-strip-assessment",
+      "weekIds": [
+        "week-5"
+      ],
+      "topicIds": [
+        "fetal-monitoring"
+      ],
+      "supportingWeeklyMaterials": [
+        "labor-and-birth",
+        "fetal-monitoring",
+        "labor-pain-management"
+      ]
+    },
+    {
+      "id": "fhr-patterns",
+      "weekIds": [
+        "week-5"
+      ],
+      "topicIds": [
+        "fetal-monitoring"
+      ],
+      "supportingWeeklyMaterials": [
+        "labor-and-birth",
+        "fetal-monitoring",
+        "labor-pain-management"
+      ]
+    },
+    {
+      "id": "fhr-priorities",
+      "weekIds": [
+        "week-5"
+      ],
+      "topicIds": [
+        "fetal-monitoring"
+      ],
+      "supportingWeeklyMaterials": [
+        "labor-and-birth",
+        "fetal-monitoring",
+        "labor-pain-management"
+      ]
+    },
+    {
+      "id": "labor-comfort-medication",
+      "weekIds": [
+        "week-5"
+      ],
+      "topicIds": [],
+      "supportingWeeklyMaterials": [
+        "labor-and-birth",
+        "fetal-monitoring",
+        "labor-pain-management"
+      ]
+    },
+    {
+      "id": "induction-augmentation",
+      "weekIds": [
+        "week-5"
+      ],
+      "topicIds": [],
+      "supportingWeeklyMaterials": [
+        "labor-and-birth",
+        "fetal-monitoring",
+        "labor-pain-management"
+      ]
+    },
+    {
+      "id": "complicated-labor",
+      "weekIds": [
+        "week-6"
+      ],
+      "topicIds": [],
+      "supportingWeeklyMaterials": [
+        "labor-complications"
+      ]
+    },
+    {
+      "id": "assisted-cesarean-birth",
+      "weekIds": [
+        "week-6"
+      ],
+      "topicIds": [],
+      "supportingWeeklyMaterials": [
+        "labor-complications"
+      ]
+    },
+    {
+      "id": "shoulder-dystocia",
+      "weekIds": [
+        "week-6"
+      ],
+      "topicIds": [
+        "labor-emergencies"
+      ],
+      "supportingWeeklyMaterials": [
+        "labor-complications"
+      ]
+    },
+    {
+      "id": "placental-emergency-response",
+      "weekIds": [
+        "week-3",
+        "week-6"
+      ],
+      "topicIds": [
+        "labor-emergencies"
+      ],
+      "supportingWeeklyMaterials": [
+        "antepartum-risks",
+        "diabetes-in-pregnancy",
+        "labor-complications"
+      ]
+    },
+    {
+      "id": "other-birth-emergencies",
+      "weekIds": [
+        "week-6"
+      ],
+      "topicIds": [
+        "labor-emergencies"
+      ],
+      "supportingWeeklyMaterials": [
+        "labor-complications"
+      ]
+    },
+    {
+      "id": "postpartum-physiology",
+      "weekIds": [
+        "week-7"
+      ],
+      "topicIds": [
+        "normal-postpartum"
+      ],
+      "supportingWeeklyMaterials": [
+        "postpartum-care",
+        "postpartum-handout"
+      ]
+    },
+    {
+      "id": "postpartum-assessment",
+      "weekIds": [
+        "week-7"
+      ],
+      "topicIds": [
+        "normal-postpartum"
+      ],
+      "supportingWeeklyMaterials": [
+        "postpartum-care",
+        "postpartum-handout"
+      ]
+    },
+    {
+      "id": "postpartum-labs-elimination",
+      "weekIds": [
+        "week-7"
+      ],
+      "topicIds": [
+        "normal-postpartum"
+      ],
+      "supportingWeeklyMaterials": [
+        "postpartum-care",
+        "postpartum-handout"
+      ]
+    },
+    {
+      "id": "postpartum-comfort-mobility",
+      "weekIds": [
+        "week-7"
+      ],
+      "topicIds": [
+        "normal-postpartum"
+      ],
+      "supportingWeeklyMaterials": [
+        "postpartum-care",
+        "postpartum-handout"
+      ]
+    },
+    {
+      "id": "postpartum-family-adaptation",
+      "weekIds": [
+        "week-7"
+      ],
+      "topicIds": [
+        "normal-postpartum"
+      ],
+      "supportingWeeklyMaterials": [
+        "postpartum-care",
+        "postpartum-handout"
+      ]
+    },
+    {
+      "id": "postpartum-discharge",
+      "weekIds": [
+        "week-7"
+      ],
+      "topicIds": [
+        "normal-postpartum"
+      ],
+      "supportingWeeklyMaterials": [
+        "postpartum-care",
+        "postpartum-handout"
+      ]
+    },
+    {
+      "id": "postpartum-hemorrhage-assessment",
+      "weekIds": [
+        "week-7"
+      ],
+      "topicIds": [
+        "postpartum-complications"
+      ],
+      "supportingWeeklyMaterials": [
+        "postpartum-care",
+        "postpartum-handout"
+      ]
+    },
+    {
+      "id": "postpartum-hemorrhage-management",
+      "weekIds": [
+        "week-7"
+      ],
+      "topicIds": [
+        "postpartum-complications"
+      ],
+      "supportingWeeklyMaterials": [
+        "postpartum-care",
+        "postpartum-handout"
+      ]
+    },
+    {
+      "id": "postpartum-subinvolution",
+      "weekIds": [
+        "week-7"
+      ],
+      "topicIds": [
+        "postpartum-complications"
+      ],
+      "supportingWeeklyMaterials": [
+        "postpartum-care",
+        "postpartum-handout"
+      ]
+    },
+    {
+      "id": "postpartum-infections",
+      "weekIds": [
+        "week-7"
+      ],
+      "topicIds": [
+        "postpartum-complications"
+      ],
+      "supportingWeeklyMaterials": [
+        "postpartum-care",
+        "postpartum-handout"
+      ]
+    },
+    {
+      "id": "postpartum-thromboembolism",
+      "weekIds": [
+        "week-7"
+      ],
+      "topicIds": [
+        "postpartum-complications"
+      ],
+      "supportingWeeklyMaterials": [
+        "postpartum-care",
+        "postpartum-handout"
+      ]
+    },
+    {
+      "id": "postpartum-mental-health",
+      "weekIds": [
+        "week-7"
+      ],
+      "topicIds": [
+        "postpartum-complications"
+      ],
+      "supportingWeeklyMaterials": [
+        "postpartum-care",
+        "postpartum-handout"
+      ]
+    },
+    {
+      "id": "newborn-transition-apgar",
+      "weekIds": [
+        "week-9",
+        "week-10"
+      ],
+      "topicIds": [
+        "normal-newborn"
+      ],
+      "supportingWeeklyMaterials": [
+        "newborn-care",
+        "newborn-handout",
+        "newborn-care-plan",
+        "infant-feeding"
+      ]
+    },
+    {
+      "id": "newborn-head-to-toe",
+      "weekIds": [
+        "week-9",
+        "week-10"
+      ],
+      "topicIds": [
+        "normal-newborn"
+      ],
+      "supportingWeeklyMaterials": [
+        "newborn-care",
+        "newborn-handout",
+        "newborn-care-plan",
+        "infant-feeding"
+      ]
+    },
+    {
+      "id": "newborn-variants",
+      "weekIds": [
+        "week-9"
+      ],
+      "topicIds": [
+        "normal-newborn"
+      ],
+      "supportingWeeklyMaterials": [
+        "newborn-care",
+        "newborn-handout",
+        "newborn-care-plan",
+        "infant-feeding"
+      ]
+    },
+    {
+      "id": "newborn-gestational-assessment",
+      "weekIds": [
+        "week-9",
+        "week-10"
+      ],
+      "topicIds": [
+        "normal-newborn"
+      ],
+      "supportingWeeklyMaterials": [
+        "newborn-care",
+        "newborn-handout",
+        "newborn-care-plan",
+        "infant-feeding"
+      ]
+    },
+    {
+      "id": "newborn-routine-care",
+      "weekIds": [
+        "week-9"
+      ],
+      "topicIds": [
+        "normal-newborn"
+      ],
+      "supportingWeeklyMaterials": [
+        "newborn-care",
+        "newborn-handout",
+        "newborn-care-plan",
+        "infant-feeding"
+      ]
+    },
+    {
+      "id": "newborn-discharge-teaching",
+      "weekIds": [
+        "week-9",
+        "week-10"
+      ],
+      "topicIds": [
+        "normal-newborn"
+      ],
+      "supportingWeeklyMaterials": [
+        "newborn-care",
+        "newborn-handout",
+        "newborn-care-plan",
+        "infant-feeding"
+      ]
+    },
+    {
+      "id": "feeding-needs-milk-changes",
+      "weekIds": [
+        "week-9"
+      ],
+      "topicIds": [
+        "feeding"
+      ],
+      "supportingWeeklyMaterials": [
+        "newborn-care",
+        "newborn-handout",
+        "newborn-care-plan",
+        "infant-feeding"
+      ]
+    },
+    {
+      "id": "breastfeeding-latch-support",
+      "weekIds": [
+        "week-9"
+      ],
+      "topicIds": [
+        "feeding"
+      ],
+      "supportingWeeklyMaterials": [
+        "newborn-care",
+        "newborn-handout",
+        "newborn-care-plan",
+        "infant-feeding"
+      ]
+    },
+    {
+      "id": "feeding-adequacy",
+      "weekIds": [
+        "week-9"
+      ],
+      "topicIds": [
+        "feeding"
+      ],
+      "supportingWeeklyMaterials": [
+        "newborn-care",
+        "newborn-handout",
+        "newborn-care-plan",
+        "infant-feeding"
+      ]
+    },
+    {
+      "id": "milk-expression-storage",
+      "weekIds": [
+        "week-9"
+      ],
+      "topicIds": [
+        "feeding"
+      ],
+      "supportingWeeklyMaterials": [
+        "newborn-care",
+        "newborn-handout",
+        "newborn-care-plan",
+        "infant-feeding"
+      ]
+    },
+    {
+      "id": "formula-preparation",
+      "weekIds": [
+        "week-9"
+      ],
+      "topicIds": [
+        "feeding"
+      ],
+      "supportingWeeklyMaterials": [
+        "newborn-care",
+        "newborn-handout",
+        "newborn-care-plan",
+        "infant-feeding"
+      ]
+    },
+    {
+      "id": "feeding-special-circumstances",
+      "weekIds": [
+        "week-9"
+      ],
+      "topicIds": [
+        "feeding"
+      ],
+      "supportingWeeklyMaterials": [
+        "newborn-care",
+        "newborn-handout",
+        "newborn-care-plan",
+        "infant-feeding"
+      ]
+    },
+    {
+      "id": "prematurity-high-risk",
+      "weekIds": [
+        "week-10"
+      ],
+      "topicIds": [
+        "newborn-complications"
+      ],
+      "supportingWeeklyMaterials": [
+        "newborn-care",
+        "newborn-handout"
+      ]
+    },
+    {
+      "id": "newborn-respiratory-distress",
+      "weekIds": [
+        "week-10"
+      ],
+      "topicIds": [
+        "newborn-complications"
+      ],
+      "supportingWeeklyMaterials": [
+        "newborn-care",
+        "newborn-handout"
+      ]
+    },
+    {
+      "id": "newborn-temperature-glucose",
+      "weekIds": [
+        "week-10"
+      ],
+      "topicIds": [
+        "newborn-complications"
+      ],
+      "supportingWeeklyMaterials": [
+        "newborn-care",
+        "newborn-handout"
+      ]
+    },
+    {
+      "id": "newborn-jaundice",
+      "weekIds": [
+        "week-10"
+      ],
+      "topicIds": [
+        "newborn-complications"
+      ],
+      "supportingWeeklyMaterials": [
+        "newborn-care",
+        "newborn-handout"
+      ]
+    },
+    {
+      "id": "newborn-sepsis-nec",
+      "weekIds": [
+        "week-10"
+      ],
+      "topicIds": [
+        "newborn-complications"
+      ],
+      "supportingWeeklyMaterials": [
+        "newborn-care",
+        "newborn-handout"
+      ]
+    },
+    {
+      "id": "preterm-ongoing-care",
+      "weekIds": [
+        "week-10"
+      ],
+      "topicIds": [
+        "newborn-complications"
+      ],
+      "supportingWeeklyMaterials": [
+        "newborn-care",
+        "newborn-handout"
+      ]
+    },
+    {
+      "id": "contraceptive-choice",
+      "weekIds": [
+        "august-4"
+      ],
+      "topicIds": [
+        "contraception"
+      ],
+      "supportingWeeklyMaterials": [
+        "contraception",
+        "stis"
+      ]
+    },
+    {
+      "id": "hormonal-contraception-safety",
+      "weekIds": [
+        "august-4"
+      ],
+      "topicIds": [
+        "contraception"
+      ],
+      "supportingWeeklyMaterials": [
+        "contraception",
+        "stis"
+      ]
+    },
+    {
+      "id": "missed-contraception",
+      "weekIds": [
+        "august-4"
+      ],
+      "topicIds": [
+        "contraception"
+      ],
+      "supportingWeeklyMaterials": [
+        "contraception",
+        "stis"
+      ]
+    },
+    {
+      "id": "iud-implant-care",
+      "weekIds": [
+        "august-4"
+      ],
+      "topicIds": [
+        "contraception"
+      ],
+      "supportingWeeklyMaterials": [
+        "contraception",
+        "stis"
+      ]
+    },
+    {
+      "id": "barrier-fertility-lam",
+      "weekIds": [
+        "august-4"
+      ],
+      "topicIds": [
+        "contraception"
+      ],
+      "supportingWeeklyMaterials": [
+        "contraception",
+        "stis"
+      ]
+    },
+    {
+      "id": "emergency-permanent-contraception",
+      "weekIds": [
+        "august-4"
+      ],
+      "topicIds": [
+        "contraception"
+      ],
+      "supportingWeeklyMaterials": [
+        "contraception",
+        "stis"
+      ]
+    },
+    {
+      "id": "fertility-reproductive-planning",
+      "weekIds": [
+        "august-4"
+      ],
+      "topicIds": [],
+      "supportingWeeklyMaterials": [
+        "contraception",
+        "stis"
+      ]
+    },
+    {
+      "id": "sti-assessment-discharge",
+      "weekIds": [
+        "august-4"
+      ],
+      "topicIds": [
+        "stis"
+      ],
+      "supportingWeeklyMaterials": [
+        "contraception",
+        "stis"
+      ]
+    },
+    {
+      "id": "syphilis-hpv-hsv",
+      "weekIds": [
+        "august-4"
+      ],
+      "topicIds": [
+        "stis"
+      ],
+      "supportingWeeklyMaterials": [
+        "contraception",
+        "stis"
+      ]
+    },
+    {
+      "id": "pid-complications",
+      "weekIds": [
+        "august-4"
+      ],
+      "topicIds": [
+        "stis"
+      ],
+      "supportingWeeklyMaterials": [
+        "contraception",
+        "stis"
+      ]
+    },
+    {
+      "id": "hiv-hepatitis-perinatal-care",
+      "weekIds": [
+        "august-4"
+      ],
+      "topicIds": [
+        "stis"
+      ],
+      "supportingWeeklyMaterials": [
+        "contraception",
+        "stis"
+      ]
+    },
+    {
+      "id": "sti-treatment-partner-teaching",
+      "weekIds": [
+        "august-4"
+      ],
+      "topicIds": [
+        "stis"
+      ],
+      "supportingWeeklyMaterials": [
+        "contraception",
+        "stis"
+      ]
+    }
+  ]
+}

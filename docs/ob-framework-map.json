@@ -19,7 +19,7 @@
       ]
     }
   },
-  "scope": "Topic framework only. No source PDFs, faculty details, course policies, due dates, clinical answers or invented learning objectives are published. Study notes, practice banks and resources remain empty.",
+  "scope": "The original topic-to-week framework is preserved. Authored study objectives now accompany weekly and blueprint-topic pages; source mapping is documented in ob-objectives-map.json. Clinical notes remain empty. Presentation readers, practice exams, and the podcast are maintained separately. No syllabus download, faculty details, or course policies are published.",
   "mappingNotes": [
     "The seven main blueprint rows and four cumulative groups are preserved in source order, with question ranges kept approximate rather than summed into an asserted total.",
     "Week 7 covers postpartum care and complications; Week 9 covers normal newborn care and nutrition; Week 10 continues newborn care and high-risk newborn material.",
@@ -27,6 +27,7 @@
     "The August 4 contraception/fertility/STI row has no week number. It is represented by its date and is not relabeled Week 11.",
     "Week 11 is the final exam on August 11. It is not represented as a new teaching week. Week 4 is Exam I, not a separate source of final-review teaching topics.",
     "Cumulative antepartum/prenatal care is mapped by broad subject to Weeks 1–2. Naegele’s rule and GTPAL come from the blueprint and are not claimed as verbatim syllabus weekly objectives.",
-    "Pregnancy complications map to Week 3; fetal monitoring maps to Week 5; labor emergencies map to Week 6, with Week 3 linked for the pregnancy/placental component. Shoulder dystocia and the individual named complications come from the blueprint; these are subject-based links rather than invented verbatim syllabus objectives."
+    "Pregnancy complications map to Week 3; fetal monitoring maps to Week 5; labor emergencies map to Week 6, with Week 3 linked for the pregnancy/placental component. Shoulder dystocia and the individual named complications come from the blueprint; these are subject-based links rather than invented verbatim syllabus objectives.",
+    "The user requested study objectives derived from these sources on November 20, 2026. These are labeled authored study prompts, rather than presented as verbatim weekly faculty objectives."
   ]
 }

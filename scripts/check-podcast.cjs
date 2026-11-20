@@ -43,7 +43,7 @@ function fixture({offline=false,pending=false,delayedSeek=false,episode,videoDur
   ob.click('forward');assert.equal(ob.player.position,10);ob.player.position=176;ob.click('forward');assert.equal(ob.player.position,180);ob.dispose();assert.equal(ob.timers.size,0);
   const main={innerHTML:'',querySelector:()=>null,querySelectorAll:()=>[],focus:()=>{}};
   const s={URL,document:{querySelector:()=>main,title:''},location:{hash:'#/'},window:{addEventListener:()=>{},scrollTo:()=>{}},console};vm.createContext(s);
-  for(const file of ['content.js','presentations.js','conditions.js','videos.js','video-library.js','podcast.js','posters.js','section-quizzes.js','ob-content.js','ob-presentations.js','ob.js','app.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),s);
+  for(const file of ['content.js','presentations.js','conditions.js','videos.js','video-library.js','podcast.js','posters.js','section-quizzes.js','ob-content.js','ob-objectives.js','ob-presentations.js','ob.js','app.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),s);
   assert(main.innerHTML.includes('class="exam-card" href="#/final"'));
   s.location.hash='#/final';vm.runInContext('render()',s);assert(main.innerHTML.indexOf('class="study-guide-entry"')<main.innerHTML.indexOf('class="week-nav'));assert(!main.innerHTML.includes('href="#/final/podcast"'));assert(!main.innerHTML.includes('href="#/final/quiz"'));assert(main.innerHTML.includes('Week 12'));
   s.location.hash='#/final/study-guide';vm.runInContext('render()',s);assert(main.innerHTML.includes('class="study-guide-tools"'));assert(main.innerHTML.includes('href="#/final/podcast"'));assert(main.innerHTML.indexOf('study-guide-tools')<main.innerHTML.indexOf('condition-library'));
