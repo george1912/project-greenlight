@@ -32,7 +32,7 @@ jobs:
           cp index.html 404.html app.js analytics.js ob-content.js ob-objectives.js ob-presentations.js ob.js ob-practice-data.js ob-practice.js quiz-review.js focused-review.js focused-review-data.js focused-review-olivia-data.js focused-review-combined-data.js content.js conditions.js presentations.js viewer.js videos.js video-library.js podcast.js quiz-data.js quiz.js presentation-quiz-data.js presentation-quizzes.js posters.js section-quizzes.js styles.css favicon.svg .nojekyll _site/
           cp -R presentations posters practice-questions resources assets _site/
           cp -R ob-presentations _site/
-          cp ob-question-map.js ob-question-quizzes.js _site/
+          cp ob-posters.js ob-question-map.js ob-question-quizzes.js _site/
           cp -R ob-practice-questions _site/
       - name: Upload website
         uses: actions/upload-pages-artifact@v4

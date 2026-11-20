@@ -433,3 +433,10 @@ a.condition-topic:hover{background:var(--yellow)}
 .ob-reader-focus .eyebrow{font-size:14px;letter-spacing:.7px}
 .ob-reader-focus a{font-size:16px}
 @media(max-width:680px){.ob-deck-grid{grid-template-columns:minmax(0,1fr)}.ob-deck-card{padding:18px}.ob-reader-focus{padding:16px 18px}}
+
+.ob-poster-list { margin: 24px 0; }
+.ob-poster-list h2 { font-size: 25px; }
+.ob-poster-list .ob-notes-outline { margin: 8px 0; }
+.ob-poster-list details[open] > summary { margin-bottom: 16px; }
+.ob-poster-note { font-size: 14px; line-height: 1.5; margin: 12px 0; }
+.ob-memory-list .ob-notes-outline { margin: 8px 0; }

@@ -800,22 +800,22 @@ const conditionPosterData = {
 };
 
 const ConditionPosters = (() => {
-  function section(id) {
-    const p = conditionPosterData[id]; if (!p) return '';
+  function section(id, p = conditionPosterData[id]) {
+    if (!p) return '';
     const text = items => items.map(item=>`<li>${escapeHTML(item.label || item)}</li>`).join('');
     return `<section class="condition-poster" aria-label="${escapeHTML(p.title)} nursing poster">
-      <button type="button" class="poster-image-button" data-poster-open aria-label="Enlarge ${escapeHTML(p.title)} nursing poster"><img class="condition-poster-image" src="${p.file}" width="${p.width}" height="${p.height}" fetchpriority="high" decoding="async" alt="${escapeHTML(p.title)} nursing-focus poster."></button>
+      <button type="button" class="poster-image-button" data-poster-open aria-label="Enlarge ${escapeHTML(p.title)} nursing poster"><img class="condition-poster-image" src="${p.file}" width="${p.width}" height="${p.height}" ${p.description ? 'loading="lazy"' : 'fetchpriority="high"'} decoding="async" alt="${escapeHTML(p.title)} nursing-focus poster."></button>
       <p class="poster-caption">Click poster to enlarge</p>
-      <div class="sr-only"><h2>Poster text</h2><h3>At a glance</h3><ul>${text(p.glance)}</ul><h3>Watch for</h3><ul>${text(p.watch_for)}</ul><h3>Nursing focus</h3><ol>${text(p.priorities)}</ol><h3>Remember</h3><p>${escapeHTML(p.remember)}</p></div>
-      <dialog class="poster-viewer" aria-labelledby="poster-viewer-title"><header class="poster-viewer-header"><h2 id="poster-viewer-title">${escapeHTML(p.title)} · Nursing poster</h2><div class="poster-viewer-controls" role="group" aria-label="Poster controls"><button type="button" data-poster-zoom="out" aria-label="Zoom out">−</button><output class="poster-zoom-label" aria-label="Poster zoom">100%</output><button type="button" data-poster-zoom="in" aria-label="Zoom in">+</button><button type="button" data-poster-fit aria-pressed="true">Fit</button><button type="button" data-poster-actual>Actual size</button><button type="button" data-poster-close autofocus>Close ×</button></div></header><div class="poster-viewport" tabindex="0" aria-label="Poster image. Scroll to move around when zoomed in."><img width="${p.width}" height="${p.height}" alt="${escapeHTML(p.title)} nursing-focus poster"></div>${p.clarification?`<aside class="poster-viewer-context" aria-label="Clinical clarification"><p><strong>Clinical clarification:</strong> ${escapeHTML(p.clarification.text)} <a href="${escapeHTML(p.clarification.references[0].url)}" target="_blank" rel="noopener noreferrer">Reference ↗</a></p></aside>`:''}</dialog>
+      <div class="sr-only">${p.description ? `<ul>${text(p.description)}</ul>` : `<h2>Poster text</h2><h3>At a glance</h3><ul>${text(p.glance)}</ul><h3>Watch for</h3><ul>${text(p.watch_for)}</ul><h3>Nursing focus</h3><ol>${text(p.priorities)}</ol><h3>Remember</h3><p>${escapeHTML(p.remember)}</p>`}</div>
+      <dialog class="poster-viewer" aria-labelledby="poster-viewer-title-${id}"><header class="poster-viewer-header"><h2 id="poster-viewer-title-${id}">${escapeHTML(p.title)} · Nursing poster</h2><div class="poster-viewer-controls" role="group" aria-label="Poster controls"><button type="button" data-poster-zoom="out" aria-label="Zoom out">−</button><output class="poster-zoom-label" aria-label="Poster zoom">100%</output><button type="button" data-poster-zoom="in" aria-label="Zoom in">+</button><button type="button" data-poster-fit aria-pressed="true">Fit</button><button type="button" data-poster-actual>Actual size</button><button type="button" data-poster-close autofocus>Close ×</button></div></header><div class="poster-viewport" tabindex="0" aria-label="Poster image. Scroll to move around when zoomed in."><img width="${p.width}" height="${p.height}" alt="${escapeHTML(p.title)} nursing-focus poster"></div>${p.clarification?`<aside class="poster-viewer-context" aria-label="Clinical clarification"><p><strong>Clinical clarification:</strong> ${escapeHTML(p.clarification.text)} <a href="${escapeHTML(p.clarification.references[0].url)}" target="_blank" rel="noopener noreferrer">Reference ↗</a></p></aside>`:''}</dialog>
     </section>`;
   }
   function clarification(id) {
     const p = conditionPosterData[id]; if (!p) return '';
     return `<section class="poster-bottom-note" aria-label="Poster clinical clarification"><h3>Nursing poster</h3>${p.clarification?`<p>${escapeHTML(p.clarification.text)}</p><p class="poster-context-sources">${p.clarification.references.map(ref=>`<a href="${escapeHTML(ref.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(ref.title)} ↗</a>`).join(' ')}</p>`:''}<p><a href="${p.file}" download>Download poster PNG</a></p></section>`;
   }
-  function mount(root,id) {
-    const p=conditionPosterData[id],host=root.querySelector('.condition-poster');if(!p||!host)return()=>{};
+  function mount(root,id,p=conditionPosterData[id]) {
+    const host=root.querySelector('.condition-poster');if(!p||!host)return()=>{};
     const dialog=host.querySelector('.poster-viewer'),viewport=host.querySelector('.poster-viewport'),image=viewport.querySelector('img');
     const fitButton=host.querySelector('[data-poster-fit]'),out=host.querySelector('[data-poster-zoom="out"]'),into=host.querySelector('[data-poster-zoom="in"]'),label=host.querySelector('.poster-zoom-label');
     let scale=1,fitted=true,returnFocus=null;
