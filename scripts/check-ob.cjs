@@ -3,10 +3,14 @@ const root=path.resolve(__dirname,'..');
 const main={innerHTML:'',querySelector:()=>null,querySelectorAll:()=>[],focus(){}};
 const s={URL,document:{querySelector:()=>main,title:''},location:{hash:'#/'},window:{addEventListener(){},scrollTo(){}},console,PresentationViewer:{mount:()=>()=>{}}};
 vm.createContext(s);
-for(const file of ['content.js','presentations.js','conditions.js','videos.js','video-library.js','podcast.js','quiz-data.js','quiz.js','presentation-quiz-data.js','presentation-quizzes.js','posters.js','section-quizzes.js','focused-review-data.js','focused-review-olivia-data.js','focused-review-combined-data.js','focused-review.js','ob-content.js','ob-presentations.js','ob.js','app.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),s,{filename:file});
+for(const file of ['content.js','presentations.js','conditions.js','videos.js','video-library.js','podcast.js','quiz-data.js','quiz.js','quiz-review.js','presentation-quiz-data.js','presentation-quizzes.js','posters.js','section-quizzes.js','focused-review-data.js','focused-review-olivia-data.js','focused-review-combined-data.js','focused-review.js','ob-content.js','ob-presentations.js','ob-practice-data.js','ob-practice.js','ob.js','app.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),s,{filename:file});
 const course=vm.runInContext('obCourse',s);
 assert(main.innerHTML.includes('class="exam-card" href="#/final"'));assert(main.innerHTML.includes('class="exam-card" href="#/ob-final"'));
 function render(route){s.location.hash=route;vm.runInContext('render()',s);return main.innerHTML;}
+assert(!render('#/ob-final').includes('href="#/ob-final/practice"'));
+const practiceGuide=render('#/ob-final/study-guide');assert.equal((practiceGuide.match(/href="#\/ob-final\/practice"/g)||[]).length,1);
+const practice=render('#/ob-final/practice');assert.equal((practice.match(/class="ob-topic-card"/g)||[]).length,3);
+for(const id of ['exam-1','exam-2','exam-3']){const markup=render('#/ob-final/practice/'+id);assert(markup.includes('Check answer'));assert(!markup.includes('Submit quiz'));assert.equal((markup.match(/<article class="quiz-question/g)||[]).length,1);}
 const overview=render('#/ob-final');assert(overview.indexOf('class="study-guide-entry"')<overview.indexOf('id="ob-weekly-title"'));
 assert.equal(course.code,'NRBS 3410');assert.equal(course.topics.length,11);assert.equal(course.topics.filter(t=>t.group==='main').length,7);assert.equal(course.topics.filter(t=>t.group==='cumulative').length,4);
 assert.deepEqual(Array.from(course.topics,t=>Array.from(t.questions)),[[8,16],[4,8],[6,10],[3,8],[6,10],[4,6],[5,8],[2,2],[2,2],[2,2],[2,2]]);
@@ -30,6 +34,6 @@ for(const route of ['#/ob-final/topic/constructor','#/ob-final/topic/__proto__',
 for(const route of ['#/ob-final/','#/ob-final/study-guide/?source=class','#/ob-final/topic/feeding/']){render(route);assert(!s.document.title.includes('Page not found'));}
 render('#/final');assert(s.document.title.includes('Med-Surg III'));render('#/final/study-guide');assert(main.innerHTML.includes('Choose a condition'));
 const html=fs.readFileSync(path.join(root,'index.html'),'utf8'),workflow=fs.readFileSync(path.join(root,'.github/workflows/pages.yml'),'utf8');
-for(const file of ['ob-content.js','ob-presentations.js','ob.js']){assert(html.includes(`src="${file}?`));assert(workflow.includes(file));}
+for(const file of ['ob-content.js','ob-presentations.js','ob-practice-data.js','ob-practice.js','ob.js']){assert(html.includes(`src="${file}?`));assert(workflow.includes(file));}
 const recovery=fs.readFileSync(path.join(root,'404.html'),'utf8').match(/<script>([\s\S]*?)<\/script>/)[1];let redirected='';vm.runInNewContext(recovery,{URL,location:{pathname:'/project-greenlight/ob-final/topic/feeding',search:'?source=class',origin:'https://george1912.github.io',replace(url){redirected=url;}}});assert.equal(redirected,'https://george1912.github.io/project-greenlight/?source=class#/ob-final/topic/feeding');
 console.log('Passed: two course cards, OB guide before weeks, all 11 blueprint groups/counts, 10 syllabus sessions, cumulative focus items, honest Week 8/August 4 labels, empty study banks, no source downloads, related links, safe invalid routes, redirects and preserved Med-Surg pages.');

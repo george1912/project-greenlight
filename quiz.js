@@ -1,4 +1,12 @@
-/* Shared quiz controls. Each instance keeps its own answers in tab memory. */
+/* Shared option rendering, grading, and feedback for exam and question-by-question practice. */
+function practiceQuizOptions(q, selected = [], result = null, name = `q${q.id}`) {
+  return q.options.map(option => {
+    const chosen = selected.includes(option.id), right = result && q.correct.includes(option.id), wrong = result && chosen && !right;
+    return `<label class="quiz-option${right?' choice-correct':wrong?' choice-wrong':''}"><input type="${q.multiple?'checkbox':'radio'}" name="${escapeHTML(name)}" value="${escapeHTML(option.id)}" ${chosen?'checked':''}><span class="quiz-option-letter">${escapeHTML(option.id)}.</span><span class="quiz-option-copy">${escapeHTML(option.text)}<span class="quiz-option-note">${right?escapeHTML(q.correctNote || '✓ Correct answer'):wrong?'✕ Your answer':''}</span></span></label>`;
+  }).join('');
+}
+
+/* Each instance keeps its own answers in tab memory. */
 function createPracticeQuiz(data, copy = {}) {
   let answers = {}, submitted = false;
   function grade(questions, responses) {
@@ -29,10 +37,7 @@ function createPracticeQuiz(data, copy = {}) {
         <section class="quiz-results" tabindex="-1" aria-labelledby="quiz-score-title" ${submitted?'':'hidden'}>${score?summary(score):''}</section>
         <div class="quiz-questions">${questions.map(q=>{
           const result=score?.results.find(r=>r.id===q.id);
-          return `<article class="quiz-question${result?' quiz-'+result.status:''}" id="quiz-question-${q.id}" data-question="${q.id}"><fieldset aria-describedby="quiz-hint-${q.id}" ${submitted?'disabled':''}><legend><span class="quiz-question-number">Question ${q.id}</span><span class="quiz-prompt">${escapeHTML(q.prompt)}</span></legend><p class="quiz-hint" id="quiz-hint-${q.id}">${q.multiple ? (q.selectionCount ? `Select ${q.selectionCount} answers.` : 'Select all that apply.') : 'Choose one answer.'}</p><div class="quiz-options">${q.options.map(option=>{
-            const chosen=answers[q.id]?.includes(option.id), right=result&&q.correct.includes(option.id),wrong=result&&chosen&&!right;
-            return `<label class="quiz-option${right?' choice-correct':wrong?' choice-wrong':''}"><input type="${q.multiple?'checkbox':'radio'}" name="q${q.id}" value="${option.id}" ${chosen?'checked':''}><span class="quiz-option-letter">${option.id}.</span><span class="quiz-option-copy">${escapeHTML(option.text)}<span class="quiz-option-note">${right?'✓ Correct answer':wrong?'✕ Your answer':''}</span></span></label>`;
-          }).join('')}</div></fieldset><div class="quiz-feedback" ${result?'':'hidden'}>${result?feedback(q,result):''}</div></article>`;
+          return `<article class="quiz-question${result?' quiz-'+result.status:''}" id="quiz-question-${q.id}" data-question="${q.id}"><fieldset aria-describedby="quiz-hint-${q.id}" ${submitted?'disabled':''}><legend><span class="quiz-question-number">Question ${q.id}</span><span class="quiz-prompt">${escapeHTML(q.prompt)}</span></legend><p class="quiz-hint" id="quiz-hint-${q.id}">${q.multiple ? (q.selectionCount ? `Select ${q.selectionCount} answers.` : 'Select all that apply.') : 'Choose one answer.'}</p><div class="quiz-options">${practiceQuizOptions(q,answers[q.id] || [],result)}</div></fieldset><div class="quiz-feedback" ${result?'':'hidden'}>${result?feedback(q,result):''}</div></article>`;
         }).join('')}</div>
         <p class="quiz-end-note">Use the Submit quiz and Reset quiz buttons above to review or try again.</p>
       </form>
@@ -74,6 +79,6 @@ function createPracticeQuiz(data, copy = {}) {
     form.addEventListener('change',onChange);form.addEventListener('submit',onSubmit);form.addEventListener('reset',onReset);
     return()=>{disposed=true;form.removeEventListener('change',onChange);form.removeEventListener('submit',onSubmit);form.removeEventListener('reset',onReset);};
   }
-  return {section,mount,grade};
+  return {section,mount,grade,feedback};
 }
 const PracticeQuiz = Object.assign(createPracticeQuiz(practiceQuizData), {create: createPracticeQuiz});

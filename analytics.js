@@ -3,7 +3,7 @@
 const SiteAnalytics = (() => {
   const endpoint = 'https://george1912.goatcounter.com/count';
   const prefix = '/project-greenlight';
-  const eventNames = {quiz_submitted: 'Quiz submitted', answer_checked: 'Section practice checked'};
+  const eventNames = {quiz_submitted: 'Quiz submitted', answer_checked: 'Practice answer checked'};
   let started = false, failed = false, lastPath = '';
   const queue = [];
   function enabled() {
@@ -14,10 +14,11 @@ const SiteAnalytics = (() => {
   function routePath(route) {
     if (!route || route === '#' || route === '#/') return prefix + '/';
     if (typeof obCourse !== 'undefined') {
-      if (route === '#/ob-final' || route === '#/ob-final/study-guide' || route === '#/ob-final/podcast'
+      if (route === '#/ob-final' || route === '#/ob-final/study-guide' || route === '#/ob-final/podcast' || route === '#/ob-final/practice'
         || obCourse.weeks.some(week => route === `#/ob-final/${week.id}`)
         || obCourse.topics.some(topic => route === `#/ob-final/topic/${topic.id}`)) return prefix + route.slice(1);
     }
+    if (typeof obPracticeExams !== 'undefined' && obPracticeExams.some(exam => route === `#/ob-final/practice/${exam.id}`)) return prefix + route.slice(1);
     if (typeof obPresentationDecks !== 'undefined') {
       const valid = Object.values(obPresentationDecks).some(deck => route === `#/ob-final/presentation/${deck.id}`
         || deck.focus.some(focus => route === `#/ob-final/presentation/${deck.id}/${focus.id}`));
