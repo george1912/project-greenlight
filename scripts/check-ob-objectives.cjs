@@ -23,7 +23,8 @@ for(const week of course.weeks){
  const markup=render('#/ob-final/'+week.id);assert.deepEqual(sorted(ids(markup)),sorted(expected.map(o=>o.id)),week.id);
  assert.equal(new Set(ids(markup)).size,ids(markup).length,'No duplicate review objectives');
  for(const objective of expected){assert(markup.includes(escapeHTML(objective.text)));assert(markup.includes(`data-objective="${objective.id}"`));}
- assert(markup.indexOf('class="ob-objectives"')<markup.indexOf('class="ob-presentations"')||week.reviewOf, 'Objectives precede PDFs');
+ assert(markup.indexOf('class="ob-presentations"')<markup.indexOf('class="ob-objectives"')||week.reviewOf, 'Weekly presentations precede objectives');
+ if(!week.reviewOf){assert(markup.includes('<details class="ob-presentations"><summary>'));assert(markup.indexOf('class="ob-week-infographic"')<markup.indexOf('class="ob-objectives"'));}
  assert(markup.includes('based on the syllabus, exam blueprint, and teaching presentations'));
  assert(!/<textarea|contenteditable|<input/.test(markup),'Blank note areas must not imply an unsaved editor');
 }

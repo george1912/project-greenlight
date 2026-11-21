@@ -42,8 +42,9 @@ const OBStudy = (() => {
       : `<a class="ob-open-presentation" href="${presentationURL(deck)}">Read presentation</a>${topicLinks}`;
     return `<article class="ob-deck-card"><p class="ob-deck-meta">${escapeHTML(deck.kind)} · ${deck.pages} pages</p><h3><a href="${presentationURL(deck)}">${escapeHTML(deck.title)}</a></h3>${actions}</article>`;
   }
-  function deckSection(items, topicID = '') {
+  function deckSection(items, topicID = '', {collapsible = false} = {}) {
     if (!items.length) return '';
+    if (collapsible) return `<details class="ob-presentations"><summary><h2>Presentations &amp; handouts</h2><span class="ob-presentation-count">${items.length}</span><span class="expand-icon" aria-hidden="true"></span></summary><div class="ob-deck-grid">${items.map(deck=>deckCard(deck)).join('')}</div></details>`;
     return `<section class="ob-presentations"><h2>${topicID ? 'Presentations for this exam topic' : 'Presentations & handouts'}</h2>${topicID ? '<p class="section-copy">Open the relevant pages, then use the reader to explore the full presentation.</p>' : ''}<div class="ob-deck-grid">${items.map(deck=>deckCard(deck,topicID)).join('')}</div></section>`;
   }
   function presentationPage(deck, focus = null) {
@@ -127,12 +128,16 @@ const OBStudy = (() => {
   function weekPage(week) {
     document.title = `${week.label} · OB Final Exam · Project Green Light`;
     const topics = course.topics.filter(topic=>topic.weekIds.includes(week.id));
-    main.innerHTML = `${breadcrumb(week.label)}<section class="hero condition-hero"><p class="eyebrow">${course.code} / ${escapeHTML(week.label.toUpperCase())} / ${escapeHTML(week.date.toUpperCase())} / 2026</p><h1>${escapeHTML(week.title)}</h1></section>${guideEntry()}
+    const [primaryPoster, ...relatedPosters] = obWeeklyPosters[week.id] || [];
+    main.innerHTML = `${breadcrumb(week.label)}<section class="hero condition-hero"><p class="eyebrow">${course.code} / ${escapeHTML(week.label.toUpperCase())} / ${escapeHTML(week.date.toUpperCase())} / 2026</p><h1>${escapeHTML(week.title)}</h1></section>
+      <div class="ob-week-resources${primaryPoster ? ' condition-intro-with-poster' : ''}">
+      ${primaryPoster ? `<div class="ob-week-infographic">${posterPreview(primaryPoster)}${posterList(relatedPosters, 'More infographics')}</div>` : ''}
+      <div class="ob-week-materials">${deckSection(decks().filter(deck=>deck.weekIds.includes(week.id)), '', {collapsible:true})}
       ${week.reviewOf ? `<section class="ob-weekly"><h2>Revisit Weeks 5–7</h2><p>Week 8 is Exam II, covering Weeks 5, 6, and 7.</p><div class="ob-week-grid">${week.reviewOf.map(id=>weekCard(weekByID(id))).join('')}</div></section>` : `<section class="ob-week-outline"><h2>Weekly outline</h2><ul>${week.outline.map(text=>`<li>${escapeHTML(text)}</li>`).join('')}</ul>${week.note?`<p class="ob-content-note">${escapeHTML(week.note)}</p>`:''}</section>`}
+      </div></div>
       ${week.reviewOf ? `<section class="ob-objective-reviews" aria-label="Study objectives for Exam II review">${week.reviewOf.map(id=>{const sourceWeek=weekByID(id);return `<details class="ob-objective-review"><summary>${escapeHTML(sourceWeek.label)} · ${escapeHTML(sourceWeek.title)}</summary>${objectiveSection(weekObjectives(sourceWeek),{weekly:true,heading:sourceWeek.label+' study objectives'})}</details>`;}).join('')}</section>` : objectiveSection(weekObjectives(week),{weekly:true})}
-      ${posterList(obWeeklyPosters[week.id], 'Study posters')}
-      ${deckSection(decks().filter(deck=>deck.weekIds.includes(week.id)))}
       ${typeof OBReinforcement!=='undefined'?OBReinforcement.weeklyExtras(week):''}
+      ${guideEntry()}
       ${topics.length ? `<section class="ob-topic-group"><h2>Related exam topics</h2><div class="ob-topic-grid">${topics.map(topicCard).join('')}</div></section>` : ''}<nav class="guide-bottom"><a class="text-link" href="#/ob-final">All OB weekly materials</a></nav>`;
     mountPosters();
     if(typeof OBReinforcement!=='undefined')disposeSectionQuizzes=OBReinforcement.mount(main);

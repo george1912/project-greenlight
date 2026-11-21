@@ -188,3 +188,7 @@ The original six pack files are preserved in `resources/video-sources/ob-tiktok/
 `VideoLibrary.objectiveSection()` uses the existing click-to-load TikTok player and source-link fallback. OB and Med-Surg have separate data collections. Across an OB page only one iframe is mounted at a time; closing an objective or Week 8 review group and leaving the page remove its player. The existing 80-entry Med-Surg resource collection is unchanged.
 
 Run `node scripts/check-ob-videos.cjs` for source identity, exact objective placement across all 11 topic and 10 weekly/review routes, four coverage gaps, deferred player loading, course isolation and deployment assets. The browser smoke check exercised representative TikTok embeds, switching and disclosure cleanup; availability and real-device playback of every clip remain external-provider dependent.
+
+### Weekly materials first
+
+OB weekly pages begin with the main infographic (visible on phones and expandable in the poster viewer), a closed presentation/handout list, and the weekly outline, followed by study objectives, TikToks and practice. Additional weekly infographics remain in individual disclosures beneath the main image. The final-exam guide and topic-page layout are unchanged. Week 8 retains its links and nested review objectives rather than inventing a new infographic or presentation.
