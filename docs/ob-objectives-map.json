@@ -1136,6 +1136,12 @@
     "feeding-adequacy",
     "milk-expression-storage",
     "formula-preparation",
-    "feeding-special-circumstances"
+    "feeding-special-circumstances",
+    "prematurity-high-risk",
+    "newborn-respiratory-distress",
+    "newborn-temperature-glucose",
+    "newborn-jaundice",
+    "newborn-sepsis-nec",
+    "preterm-ongoing-care"
   ]
 }

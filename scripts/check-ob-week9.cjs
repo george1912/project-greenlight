@@ -10,7 +10,13 @@ const audit=JSON.parse(fs.readFileSync(path.join(root,'docs/ob-week9-notes-audit
 assert.deepEqual(Array.from(week,o=>o.id),expected);assert.deepEqual(audit.objectives.map(o=>o.id),expected);assert(week.every(o=>o.answer.length));assert.deepEqual(Array.from(all.filter(o=>o.answer.length),o=>o.id),map.completedObjectiveIds);
 const hash=value=>crypto.createHash('sha256').update(value).digest('hex');
 assert.equal(audit.preservedCompletedObjectives.length,45);assert.equal(audit.preservedOtherObjectives.length,63);
-for(const saved of [...audit.preservedCompletedObjectives,...audit.preservedOtherObjectives])assert.equal(hash(JSON.stringify(all.find(o=>o.id===saved.id))),saved.sha256,'Preserve earlier/non-Week-9 objective '+saved.id);
+const earlierAnswers=new Set(audit.preservedCompletedObjectives.map(o=>o.id));
+for(const saved of [...audit.preservedCompletedObjectives,...audit.preservedOtherObjectives]){
+ const current=all.find(o=>o.id===saved.id);let candidate=current;
+ // A later week may fill an originally blank answer while preserving its prompt/mappings.
+ if(!earlierAnswers.has(saved.id)&&hash(JSON.stringify(current))!==saved.sha256){candidate={...current,answer:[]};for(const key of ['answerSources','answerSourceNote','answerReviewedOn'])delete candidate[key];}
+ assert.equal(hash(JSON.stringify(candidate)),saved.sha256,'Preserve earlier answer or original objective metadata '+saved.id);
+}
 for(const source of audit.sources){assert.equal(hash(fs.readFileSync(path.join(root,source.path))),source.sha256);assert.equal(JSON.parse(fs.readFileSync(path.join(root,path.dirname(source.path),'deck.json'))).pages.length,source.pages);}
 assert.deepEqual(audit.sources.map(s=>s.pages),[63,7,5,26]);
 const render=route=>{c.location.hash=route;vm.runInContext('render()',c);return main.innerHTML;};
@@ -50,4 +56,4 @@ const coverage={
 for(const [id,terms]of Object.entries(coverage))for(const term of terms)assert(text(id).includes(term),id+': '+term);
 assert(audit.visualReview.find(r=>r.deckId==='infant-feeding').pages.includes(22));assert(audit.visualReview.find(r=>r.deckId==='newborn-care').pages.includes(55));assert.equal(audit.materialLimits.length,4);
 const fact=week[0].answer[1].blocks[0].items[0],saved=fact.text;fact.text='<img src=x onerror="alert(1)"> & safety';for(const route of ['#/ob-final/week-9','#/ob-final/week-10','#/ob-final/topic/normal-newborn']){const part=section(render(route),week[0].id);assert(part.includes('&lt;img src=x onerror=&quot;alert(1)&quot;&gt; &amp; safety'));assert(!part.includes('<img src=x'));}fact.text=saved;
-console.log('Passed: 12 Week 9 objectives, 66 concise closed topics, 130 bold cues, four original PDF hashes/figure coverage, all 45 earlier answers/63 other objectives preserved, safety distinctions, exact weekly/exam/Week 10 reuse, practice access and escaped text.');
+console.log('Passed: 12 Week 9 objectives, 66 concise closed topics, 130 bold cues, four original PDF hashes/figure coverage, all 45 earlier answers/63 other objective prompts and mappings preserved, safety distinctions, exact weekly/exam/Week 10 reuse, practice access and escaped text.');

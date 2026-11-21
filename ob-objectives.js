@@ -10418,28 +10418,1188 @@ const obStudyObjectives = [
     ]
   },
   {
-    id:'prematurity-high-risk',weekIds:['week-10'],topicIds:['newborn-complications'],title:'Prematurity and high-risk assessment',
-    text:'Explain how prematurity, growth restriction, and macrosomia affect newborn adaptation and care. Prioritize assessment, thermal support, infection prevention, nutrition, developmental care, and family support.',answer:[]
+    "id": "prematurity-high-risk",
+    "weekIds": [
+      "week-10"
+    ],
+    "topicIds": [
+      "newborn-complications"
+    ],
+    "title": "Prematurity and high-risk assessment",
+    "text": "Explain how prematurity, growth restriction, and macrosomia affect newborn adaptation and care. Prioritize assessment, thermal support, infection prevention, nutrition, developmental care, and family support.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Assess gestational maturity, growth and the infant’s actual condition separately; preterm, SGA and macrosomic are different descriptions.",
+          "Prioritize breathing/perfusion, temperature, glucose risk, feeding and signs of infection, then tailor monitoring and support.",
+          "Use individualized nutrition, developmental care and family participation; guideline supplements fill high-risk care details absent from the PDFs."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Prematurity, growth restriction and size: separate the terms",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Lecture connection",
+                "text": "The newborn PDFs introduce gestational age, Ballard assessment and SGA contributors. Prematurity means birth before 37 weeks; low birth weight is <2500 g regardless of maturity. The labor slide’s <37 6/7 shorthand is not the preterm boundary."
+              },
+              {
+                "label": "Growth",
+                "text": "SGA describes weight <10th percentile for gestational age; LGA is >90th percentile. Growth restriction describes impaired fetal growth and is not established by one low weight alone."
+              },
+              {
+                "label": "Macrosomia",
+                "text": "The supporting labor PDF uses >4000 g for macrosomia. This is an absolute-weight descriptor, not the same classification as LGA. Review the existing gestational-assessment notes for the full age/percentile method."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Compare adaptation risks without assuming every infant is ill",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Prematurity",
+                "text": "Immature lungs, temperature control and feeding coordination can make adaptation difficult even when size is appropriate for age. The younger the maturity, the more specialized support may be needed."
+              },
+              {
+                "label": "Growth restriction",
+                "text": "The source links reduced placental function and maternal/placental/fetal factors with small size. Limited energy reserves increase concern for poor temperature/glucose stability and ineffective feeding."
+              },
+              {
+                "label": "Large size",
+                "text": "Review maternal diabetes and delivery injury risk as well as glucose surveillance. The labor PDF names shoulder dystocia, clavicle fracture and brachial-plexus injury; assess movement and birth history rather than assuming large size means maturity."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Prioritize assessment before routine care",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "First look",
+                "text": "Assess breathing effort, heart rate, color/perfusion, tone and responsiveness; obtain help for instability before completing a routine examination."
+              },
+              {
+                "label": "Baseline",
+                "text": "Review gestational age/growth, birth and maternal history, transition, medications, infection concerns and any required respiratory support. Document temperature and feeding/urine/stool trends."
+              },
+              {
+                "label": "Plan",
+                "text": "Use infant-specific observation, glucose and laboratory orders. A normal Apgar score or a reassuring single observation does not eliminate later adaptation problems."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Warmth and infection prevention",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Source mechanism",
+                "text": "Cold stress increases oxygen and glucose demands. Prevent heat loss and reassess temperature, using the appropriate incubator/warmer or monitored skin-to-skin plan."
+              },
+              {
+                "label": "Infection prevention",
+                "text": "Use hand hygiene, clean equipment and careful line/skin care. Review maternal infection/rupture history and limit avoidable exposure to ill contacts."
+              },
+              {
+                "label": "Safety clarification",
+                "text": "Temperature instability, new apnea, poor perfusion or feeding change can indicate illness. Do not assume every low temperature is environmental or every infant with an infection must have fever."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Guideline supplement: nutrition and developmental care",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Source limit",
+                "text": "The feeding PDF identifies very preterm/very small infants as needing additional support, but does not provide a full neonatal nutrition plan. Milk type, route and fortification are individualized."
+              },
+              {
+                "label": "Nutrition",
+                "text": "Support mother’s own milk and expression when appropriate; donor milk, fortification or specialized formula may be prescribed. Match oral feeding to breathing/coordination; do not force feeds during distress."
+              },
+              {
+                "label": "Development",
+                "text": "Protect sleep, reduce excessive light/noise and use gentle positioning/handling guided by infant cues. Monitored skin-to-skin and parent participation complement medical care."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Family participation and evaluation",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Family support supplement",
+                "text": "Explain equipment, immediate priorities and the reason for repeated assessments. Invite safe participation in comfort and care, with consent, language support and lactation/social-work help as needed."
+              },
+              {
+                "label": "Evaluate",
+                "text": "Look for stable breathing/perfusion and temperature, effective prescribed nutrition, appropriate glucose trends and growth, and no new infection cues. One satisfactory feed is not the whole assessment."
+              },
+              {
+                "label": "Communicate",
+                "text": "Share changes, action and response at handoff. Give families an understandable plan and realistic next steps rather than a promised discharge date based only on weight."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Assessment & care of the newborn; Newborn assessment review handout. Supporting supplied PDFs: Labor & birth complications; Infant feeding: breast & formula. Uses original maturity, size, cold-stress, risk and feeding material. Clearly labeled supplements add nutrition, developmental care and family involvement; no infant-specific feeding prescription or universal admission/discharge cutoff is invented.",
+    "answerSources": [
+      {
+        "title": "Assessment & care of the newborn (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-care"
+      },
+      {
+        "title": "Newborn assessment review handout (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-handout"
+      },
+      {
+        "title": "Labor & birth complications (original supplied PDF)",
+        "url": "#/ob-final/presentation/labor-complications"
+      },
+      {
+        "title": "Infant feeding: breast & formula (original supplied PDF)",
+        "url": "#/ob-final/presentation/infant-feeding"
+      },
+      {
+        "title": "AHA/AAP: immediate care, temperature and suction safety clarification",
+        "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation"
+      },
+      {
+        "title": "WHO: preterm nutrition, family and developmental-care supplement",
+        "url": "https://www.who.int/publications/b/63796"
+      },
+      {
+        "title": "WHO: monitored skin-to-skin care supplement",
+        "url": "https://www.who.int/publications/m/item/kangaroo-mother-care--a-clinical-practice-guide"
+      },
+      {
+        "title": "CPS: preterm feeding and discharge-readiness supplement",
+        "url": "https://cps.ca/en/documents/position/discharge-planning-of-the-preterm-infant"
+      }
+    ]
   },
   {
-    id:'newborn-respiratory-distress',weekIds:['week-10'],topicIds:['newborn-complications'],title:'Respiratory distress and first actions',
-    text:'Recognize respiratory distress and compare the assessment patterns of RDS, transient tachypnea, and meconium aspiration. Explain immediate priorities, collaborative respiratory support, monitoring, and evaluation of improvement or deterioration.',answer:[]
+    "id": "newborn-respiratory-distress",
+    "weekIds": [
+      "week-10"
+    ],
+    "topicIds": [
+      "newborn-complications"
+    ],
+    "title": "Respiratory distress and first actions",
+    "text": "Recognize respiratory distress and compare the assessment patterns of RDS, transient tachypnea, and meconium aspiration. Explain immediate priorities, collaborative respiratory support, monitoring, and evaluation of improvement or deterioration.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Recognize grunting, flaring, retractions, central cyanosis, apnea or persistent abnormal breathing and assess the infant immediately.",
+          "RDS, TTN and meconium aspiration have different mechanisms, but signs overlap; use birth history, examination and the team’s investigations together.",
+          "Provide the trained airway/breathing response, warmth and prescribed support; do not delay ventilation for routine meconium suctioning."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Recognize distress and call for help",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Source cues",
+                "text": "The newborn PDFs identify nasal flaring, grunting, retractions, cyanosis and abnormal respiratory rate/sounds. Assess work of breathing as well as rate."
+              },
+              {
+                "label": "Immediate priorities",
+                "text": "Summon neonatal help and assess/support breathing and circulation under the trained response; monitor heart rate and oxygenation while maintaining warmth. Apnea, gasping, poor tone or poor perfusion requires urgent action."
+              },
+              {
+                "label": "Feeding safety",
+                "text": "An infant struggling to breathe may not feed safely. Pause oral feeding during significant distress and obtain the team’s respiratory/nutrition plan; a feed is not a treatment for hypoxia."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Guideline supplement: RDS and surfactant deficiency",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Mechanism",
+                "text": "The supporting labor PDF connects antenatal corticosteroids with fetal surfactant production. In neonatal RDS, insufficient surfactant promotes alveolar collapse, increasing work of breathing and impairing gas exchange."
+              },
+              {
+                "label": "Pattern",
+                "text": "Prematurity is a major clue; grunting, retractions, tachypnea and oxygen need typically develop soon after birth. Clinical assessment and imaging help distinguish other causes."
+              },
+              {
+                "label": "Collaborative care",
+                "text": "The team may use CPAP, surfactant and, when needed, ventilation. Nursing care monitors response, oxygen needs and respiratory effort; antenatal steroid treatment is not the newborn’s surfactant-replacement treatment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "TTN: delayed clearance of lung fluid",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Source explanation",
+                "text": "The newborn lecture describes ongoing fluid absorption by pulmonary capillaries/lymphatics and frequent respiratory observation. Retained fetal lung fluid can cause early tachypnea."
+              },
+              {
+                "label": "Pattern clarification",
+                "text": "TTN often follows term/late-preterm birth, including cesarean birth without labor. It commonly improves over the first few days with appropriate support; expected improvement is not permission to overlook deterioration."
+              },
+              {
+                "label": "Care",
+                "text": "Maintain warmth and provide prescribed oxygen/support with monitoring. The slide’s blow-by example does not mean blow-by is sufficient for every infant, and TTN should not be assumed before other causes are assessed."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Meconium exposure versus aspiration",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Source connection",
+                "text": "The labor PDF describes meconium-stained fluid and possible respiratory compromise. Stained fluid is a risk/exposure finding, not by itself a diagnosis of aspiration syndrome."
+              },
+              {
+                "label": "Assessment supplement",
+                "text": "Review maturity, birth/oxygenation history and respiratory findings. Aspirated meconium can obstruct airways and inflame the lungs, causing impaired gas exchange and serious distress; clinical evaluation guides support."
+              },
+              {
+                "label": "Preparation",
+                "text": "Have the skilled neonatal team/equipment available, assess breathing and monitor closely. Record the exposure, infant condition, interventions and response."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Safety clarification: suction and immediate respiratory support",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Current practice",
+                "text": "Routine oral, nasal or tracheal suctioning is not recommended solely for meconium-stained fluid. The supporting slide’s “deep suctioning” language needs this qualification."
+              },
+              {
+                "label": "Priority",
+                "text": "If breathing is absent or ineffective, prioritize effective ventilation under the neonatal algorithm. Suction is reserved for suspected airway obstruction when indicated by the skilled team."
+              },
+              {
+                "label": "Do not wait",
+                "text": "Do not wait for an Apgar total, a chest X-ray or an assumed diagnosis before responding to an infant who is not breathing effectively."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Guideline supplement: collaborative support and monitoring",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Respiratory support",
+                "text": "Provide prescribed oxygen and CPAP/ventilatory support, using the ordered saturation targets and equipment checks. Pulse-ox readings need a reliable signal and clinical interpretation."
+              },
+              {
+                "label": "Investigation",
+                "text": "Prepare ordered blood gases, imaging and infection evaluation as indicated. Respiratory distress can also reflect pneumonia/sepsis, cardiac disease or another cause; it is not always one of the three comparison diagnoses."
+              },
+              {
+                "label": "Nursing surveillance",
+                "text": "Assess chest movement, respiratory effort, perfusion, alertness and device/interface integrity. Support safe fluids/nutrition and report rising support needs or skin injury."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Evaluate improvement or deterioration",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Improvement",
+                "text": "Look for less work of breathing, stable oxygenation on the prescribed support, adequate perfusion and improved alertness. Assess trends rather than a single normal saturation."
+              },
+              {
+                "label": "Deterioration",
+                "text": "Escalate apnea, bradycardia, worsening retractions, exhaustion, asymmetric breath sounds, poor perfusion or increasing oxygen/ventilatory need. A falling rate with poor effort may mean fatigue rather than recovery."
+              },
+              {
+                "label": "Handoff",
+                "text": "Document the suspected cause, support/settings as ordered, findings and response; explain changes to the family and reassess after each intervention."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Assessment & care of the newborn; Newborn assessment review handout. Supporting supplied PDFs: Labor & birth complications. Original PDFs supply distress cues, TTN care, antenatal surfactant context and meconium risk. Labeled supplements complete RDS/comparison/support; suction safety is explicitly corrected. No oxygen-concentration, ventilator-setting, surfactant-dose or resuscitation recipe is authored.",
+    "answerSources": [
+      {
+        "title": "Assessment & care of the newborn (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-care"
+      },
+      {
+        "title": "Newborn assessment review handout (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-handout"
+      },
+      {
+        "title": "Labor & birth complications (original supplied PDF)",
+        "url": "#/ob-final/presentation/labor-complications"
+      },
+      {
+        "title": "NHLBI: respiratory-pattern comparison supplement",
+        "url": "https://www.nhlbi.nih.gov/health/newborn-breathing-conditions/types"
+      },
+      {
+        "title": "NHLBI: surfactant deficiency and RDS supplement",
+        "url": "https://www.nhlbi.nih.gov/health/respiratory-distress-syndrome"
+      },
+      {
+        "title": "NICE: preterm respiratory support and monitoring supplement",
+        "url": "https://www.nice.org.uk/guidance/ng124/chapter/recommendations"
+      },
+      {
+        "title": "AHA/AAP: immediate care, temperature and suction safety clarification",
+        "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation"
+      },
+      {
+        "title": "MedlinePlus: meconium aspiration mechanism clarification",
+        "url": "https://medlineplus.gov/ency/article/001596.htm"
+      }
+    ]
   },
   {
-    id:'newborn-temperature-glucose',weekIds:['week-10'],topicIds:['newborn-complications'],title:'Temperature instability and hypoglycemia',
-    text:'Connect cold stress, oxygen demand, and glucose needs. Identify newborns at risk for hypoglycemia, recognize symptomatic illness, explain prompt assessment and prescribed treatment, and evaluate temperature and glucose trends.',answer:[]
+    "id": "newborn-temperature-glucose",
+    "weekIds": [
+      "week-10"
+    ],
+    "topicIds": [
+      "newborn-complications"
+    ],
+    "title": "Temperature instability and hypoglycemia",
+    "text": "Connect cold stress, oxygen demand, and glucose needs. Identify newborns at risk for hypoglycemia, recognize symptomatic illness, explain prompt assessment and prescribed treatment, and evaluate temperature and glucose trends.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Cold stress increases oxygen and glucose use, so warming, breathing and intake must be assessed together.",
+          "Preterm/SGA infants, infants of diabetic mothers and other at-risk newborns need prescribed glucose surveillance; symptomatic infants need immediate assessment.",
+          "Treat low glucose under the age-specific local pathway, support safe nutrition and recheck temperature, glucose and clinical response."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Cold stress links oxygen use and glucose needs",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Source mechanism",
+                "text": "The lecture’s figure links cold exposure with increased metabolism/oxygen demand, vasoconstriction, reduced tissue oxygenation and acidosis. Brown-fat thermogenesis consumes energy; a newborn has limited reserve."
+              },
+              {
+                "label": "Assessment",
+                "text": "Check temperature with its route, breathing effort, color/perfusion, alertness and feeding. Hypothermia can accompany low glucose, infection or illness, not just a cool room."
+              },
+              {
+                "label": "Priority",
+                "text": "Correct thermal stress while assessing breathing and glucose risk. Do not wait for shivering or treat the thermometer reading in isolation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Prevent heat loss and warm safely",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Four mechanisms",
+                "text": "Prevent evaporation from wet skin, convection to cooler air, conduction to cold surfaces and radiation to nearby cold objects. Dry, protect from drafts and use warm surfaces according to the infant’s plan."
+              },
+              {
+                "label": "Temperature clarification",
+                "text": "AHA/AAP guidance aims for 36.5–37.5°C during admission/stabilization. Use the correct monitoring route and local thermal-care plan; inconsistent slide conversions are not new targets."
+              },
+              {
+                "label": "Reassess",
+                "text": "Use monitored skin-to-skin or the prescribed incubator/warmer, check probes/device settings and reassess to avoid overheating. Persistent instability needs clinical review."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Who needs glucose surveillance?",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Source risk groups",
+                "text": "The newborn PDF identifies SGA, LGA and infants of diabetic mothers; the feeding PDF also highlights preterm/very-low-birth-weight and stressed infants. Assess maturity and the actual feeding/clinical history."
+              },
+              {
+                "label": "Mechanisms supplement",
+                "text": "Low reserves, inadequate intake, increased energy use or excess insulin can reduce available glucose. Infants of diabetic mothers may remain hyperinsulinemic after placental glucose delivery stops."
+              },
+              {
+                "label": "Screening clarification",
+                "text": "Use age/risk-specific timing coordinated with feeding and symptoms. The slide’s “hourly heel stick” is not a universal schedule for every newborn, and one normal reading does not finish indicated surveillance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Guideline supplement: recognize low-glucose illness",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Possible cues",
+                "text": "Jitteriness, poor feeding, lethargy, weak tone, apnea, cyanosis or seizures can accompany hypoglycemia. At-risk infants may also be asymptomatic."
+              },
+              {
+                "label": "Act",
+                "text": "Obtain prompt bedside glucose and clinical assessment, while supporting airway/breathing and warmth. A sick infant needs evaluation for other causes as well, including infection."
+              },
+              {
+                "label": "Measurement",
+                "text": "Point-of-care meters are less reliable at low values. Obtain ordered laboratory confirmation when indicated, but do not delay urgent treatment of symptomatic low glucose while waiting for a result."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Guideline supplement: match treatment to condition",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Well infant able to feed",
+                "text": "Prescribed effective feeding/supplementation and buccal dextrose gel may be used under the local pathway, with a timely repeat measurement. Gel does not replace a feeding plan or reassessment."
+              },
+              {
+                "label": "Symptomatic or unsafe to feed",
+                "text": "Urgent neonatal care and prescribed IV dextrose may be required, especially with severe/persistent low readings or inability to feed safely. Gel may only bridge access when the protocol permits; it must not delay definitive care."
+              },
+              {
+                "label": "Thresholds",
+                "text": "Intervention levels depend on postnatal age, risk, symptoms and persistent versus transitional disease. The original PDFs give no complete threshold/dose algorithm; follow the actual institutional order set."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Reassess and plan safe nutrition",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Evaluate",
+                "text": "Repeat glucose at the ordered short interval after treatment and continue until the pathway’s stability criteria are met. Follow temperature, alertness, feeding tolerance and urine output together."
+              },
+              {
+                "label": "Persistent concerns",
+                "text": "Recurrent low glucose, ongoing symptoms or inability to maintain levels with feeds needs clinician reassessment and investigation rather than repeatedly restarting the same unsuccessful feed."
+              },
+              {
+                "label": "Family and discharge",
+                "text": "Explain the reason for monitoring and supplementation, support desired milk production and document the follow-up plan. Do not assume one corrected value or a warm skin reading proves discharge readiness."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Assessment & care of the newborn; Newborn assessment review handout. Supporting supplied PDFs: Infant feeding: breast & formula. Cold-stress physiology and glucose-risk groups come from the PDFs. Labeled guideline supplements supply symptoms, confirmation and treatment distinctions. No single universal glucose threshold, hourly schedule, gel dose or IV infusion rate is invented.",
+    "answerSources": [
+      {
+        "title": "Assessment & care of the newborn (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-care"
+      },
+      {
+        "title": "Newborn assessment review handout (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-handout"
+      },
+      {
+        "title": "Infant feeding: breast & formula (original supplied PDF)",
+        "url": "#/ob-final/presentation/infant-feeding"
+      },
+      {
+        "title": "AHA/AAP: immediate care, temperature and suction safety clarification",
+        "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation"
+      },
+      {
+        "title": "CPS: newborn glucose assessment/treatment clarification",
+        "url": "https://cps.ca/en/documents/position/newborns-at-risk-for-low-blood-glucose"
+      }
+    ]
   },
   {
-    id:'newborn-jaundice',weekIds:['week-10'],topicIds:['newborn-complications'],title:'Jaundice, hemolysis, and phototherapy',
-    text:'Distinguish expected bilirubin changes from concerning jaundice using age, risk factors, and assessment findings. Explain bilirubin monitoring, the relevance of hemolysis, phototherapy care, feeding support, and follow-up.',answer:[]
+    "id": "newborn-jaundice",
+    "weekIds": [
+      "week-10"
+    ],
+    "topicIds": [
+      "newborn-complications"
+    ],
+    "title": "Jaundice, hemolysis, and phototherapy",
+    "text": "Distinguish expected bilirubin changes from concerning jaundice using age, risk factors, and assessment findings. Explain bilirubin monitoring, the relevance of hemolysis, phototherapy care, feeding support, and follow-up.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Interpret jaundice with age in hours, gestational age, bilirubin measurement and risk, not appearance alone.",
+          "Jaundice in the first 24 hours, rapid progression or an unwell infant needs prompt review; later onset is not automatically benign.",
+          "Provide prescribed phototherapy and feeding/hydration support, then track measured response, rebound risk and follow-up."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Age and risk: common does not mean harmless",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Source explanation",
+                "text": "Bilirubin comes from red-cell breakdown; immature processing and feeding-related clearance contribute to early newborn changes. The lecture describes physiologic rise after the first day."
+              },
+              {
+                "label": "Concerning pattern",
+                "text": "Jaundice before 24 hours, a rapid rise, anemia, poor feeding or illness needs assessment. Prematurity, hemolysis and clinical instability can increase risk."
+              },
+              {
+                "label": "Clarification",
+                "text": "Do not label all later jaundice “physiologic.” Assess measured level/trajectory and the infant’s condition; severe unconjugated hyperbilirubinemia can injure the nervous system."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Measure bilirubin and use the right chart",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Monitoring clarification",
+                "text": "Confirm a measured predischarge bilirubin and plan repeat testing as indicated. Transcutaneous measurement is a screening tool; obtain serum confirmation and treatment monitoring when required."
+              },
+              {
+                "label": "Interpretation",
+                "text": "Use age in hours, gestational age and neurotoxicity risks on the appropriate treatment guideline. The AAP ≥35-week framework is not a treatment chart for a very preterm infant."
+              },
+              {
+                "label": "Source-table safety",
+                "text": "Do not use the lecture’s fixed term/preterm table as a treatment order or assume prematurity allows higher levels. Its SI labels should be µmol/L, not mmol/L; verify the units and actual protocol."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Hemolysis: connect history, anemia and bilirubin",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Source connection",
+                "text": "Review maternal/infant blood group and antibody history when indicated. ABO/Rh incompatibility can cause immune red-cell destruction, increasing bilirubin and sometimes causing anemia."
+              },
+              {
+                "label": "DAT clarification",
+                "text": "A positive direct antiglobulin test indicates antibody coating of red cells; it is not alone proof of clinically important hemolysis. Interpret the bilirubin rate of rise, hemoglobin and clinical findings together."
+              },
+              {
+                "label": "Other causes supplement",
+                "text": "A negative DAT does not exclude all hemolysis. The team may investigate G6PD deficiency or other causes when the pattern warrants it; bruising/cephalohematoma can also add bilirubin load."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Phototherapy: purpose and safe device care",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Purpose clarification",
+                "text": "Therapeutic visible blue light, not ultraviolet light or home sunlight, changes bilirubin into forms the infant can eliminate more readily. Treatment is prescribed from the appropriate measured level/risk."
+              },
+              {
+                "label": "Device care",
+                "text": "Use the ordered device/position/intensity and manufacturer instructions; maximize appropriate exposed skin and check temperature. The lecture describes overhead and blanket devices, which have different handling requirements."
+              },
+              {
+                "label": "Protection",
+                "text": "Use correctly fitted eye protection when required, especially with overhead lights, and provide eye/skin care. Follow device-specific diaper/protection instructions rather than covering treatment surfaces with unnecessary blankets."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Support feeding, hydration and comfort",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Source nursing care",
+                "text": "Support frequent effective milk feeding, assess transfer/tolerance, weight, urine and stool, and monitor temperature and skin. Poor intake can worsen bilirubin clearance and dehydration risk."
+              },
+              {
+                "label": "Plan",
+                "text": "Continue breastfeeding or expressed-milk support when appropriate; use prescribed supplementation/fluids if needed. Coordinate care and permitted feeding breaks without compromising necessary phototherapy."
+              },
+              {
+                "label": "Evaluate",
+                "text": "Track ordered serum bilirubin trends and treatment delivery, not just fading skin color. Report poor intake, weight loss, temperature instability or failure of bilirubin to respond."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Follow-up, rebound and urgent neurologic findings",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "After treatment clarification",
+                "text": "Stopping treatment and rebound testing depend on age/risk, hemolysis and response. Do not stop lights because the infant looks less yellow; follow the clinician’s plan."
+              },
+              {
+                "label": "Urgency",
+                "text": "Marked lethargy, poor suck, a high-pitched cry, unusual tone/arching or seizures with jaundice requires urgent neonatal assessment. Escalate a rapidly rising/high-risk result or clinical deterioration promptly."
+              },
+              {
+                "label": "Discharge",
+                "text": "Handoff the measured result, age at sampling, treatment history and scheduled follow-up/repeat test. Teach feeding and warning signs; “no news” or a single older normal screen is not a follow-up plan."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Assessment & care of the newborn; Newborn assessment review handout. Builds on original jaundice/hemolysis/phototherapy teaching. Safety clarifications replace fixed bilirubin limits, wrong SI labels and the handout’s UV wording; guideline supplements explain risk-based monitoring and rebound. No treatment nomogram, IVIG dose or exchange-transfusion protocol is invented.",
+    "answerSources": [
+      {
+        "title": "Assessment & care of the newborn (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-care"
+      },
+      {
+        "title": "Newborn assessment review handout (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-handout"
+      },
+      {
+        "title": "AAP: bilirubin risk, measurement and follow-up clarification",
+        "url": "https://www.aap.org/en/patient-care/hyperbilirubinemia/frequently-asked-questions-about-the-2022-aap-guideline-on-the-management-of-hyperbilirubinemia/"
+      },
+      {
+        "title": "Royal Children’s Hospital: phototherapy nursing-care clarification",
+        "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Phototherapy_for_neonatal_jaundice/"
+      }
+    ]
   },
   {
-    id:'newborn-sepsis-nec',weekIds:['week-10'],topicIds:['newborn-complications'],title:'Sepsis and gastrointestinal complications',
-    text:'Recognize infection or sepsis and feeding or abdominal findings concerning for necrotizing enterocolitis. Explain risk assessment, urgent reporting, diagnostic evaluation, prescribed treatment, monitoring, and family communication.',answer:[]
+    "id": "newborn-sepsis-nec",
+    "weekIds": [
+      "week-10"
+    ],
+    "topicIds": [
+      "newborn-complications"
+    ],
+    "title": "Sepsis and gastrointestinal complications",
+    "text": "Recognize infection or sepsis and feeding or abdominal findings concerning for necrotizing enterocolitis. Explain risk assessment, urgent reporting, diagnostic evaluation, prescribed treatment, monitoring, and family communication.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Temperature instability, new apnea, poor feeding, lethargy or poor perfusion can signal neonatal infection, even without fever.",
+          "Abdominal distention/discoloration, bilious vomiting or bloody stool can signal NEC; stop the current feed and urgently notify the neonatal team when suspected.",
+          "The PDFs provide infection-risk and abdominal cues; labeled supplements explain sepsis/NEC evaluation, prescribed care and monitoring where a full lecture is absent."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Source connection and infection risk",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Original material",
+                "text": "The antepartum PDF links maternal GBS and membrane/intraamniotic infection with neonatal sepsis, pneumonia and meningitis. The newborn PDF highlights abnormal breathing, feeding and abdominal findings."
+              },
+              {
+                "label": "Risk assessment",
+                "text": "Review prematurity, maternal infection/rupture history, intrapartum treatment and the infant’s clinical course. Later infection risk can also relate to invasive devices and hospital exposures."
+              },
+              {
+                "label": "Limit",
+                "text": "These risk cues do not themselves diagnose sepsis. The PDFs contain no complete neonatal sepsis pathway or dedicated NEC lesson; the following topics are guideline supplements."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Guideline supplement: recognize subtle neonatal sepsis",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Possible signs",
+                "text": "Poor feeding, reduced activity, temperature instability, apnea/bradycardia, respiratory distress or poor perfusion can be early signs. Fever is not required."
+              },
+              {
+                "label": "Assessment",
+                "text": "Check breathing/circulation, alertness, glucose, temperature, urine output and new skin/abdominal changes. Reassess a new pattern against baseline, not just one isolated vital sign."
+              },
+              {
+                "label": "Urgency",
+                "text": "Escalate a clinically ill newborn immediately. Do not dismiss the infant as merely sleepy, cold or feeding poorly without considering infection and other serious causes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Guideline supplement: urgent evaluation and prescribed care",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "First response",
+                "text": "Summon neonatal help and support airway, breathing, circulation and temperature. Prepare monitoring and vascular access according to the team’s plan."
+              },
+              {
+                "label": "Investigation",
+                "text": "Obtain ordered blood cultures before antibiotics when feasible; do not create a treatment delay in an unstable infant. Other tests, including lumbar puncture, depend on condition and indication; no single CBC/CRP excludes sepsis."
+              },
+              {
+                "label": "Treatment",
+                "text": "Administer prompt prescribed antibiotics/support and reassess perfusion, breathing and urine output. Use the actual gestational-age/local pathway; an early-onset risk calculator for older newborns is not a shortcut for a sick or very preterm infant."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Guideline supplement: NEC risk and abdominal cues",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "What NEC means",
+                "text": "NEC involves intestinal inflammation and tissue injury that can progress to necrosis, perforation and systemic infection. Premature/very-small or ill infants are particularly vulnerable."
+              },
+              {
+                "label": "Recognize",
+                "text": "Watch for new feeding intolerance, abdominal distention/tenderness or discoloration, bilious vomiting and bloody stool, with possible lethargy, apnea or temperature instability."
+              },
+              {
+                "label": "Interpret",
+                "text": "Not every residual or distended abdomen is NEC, but a concerning combination or deterioration needs urgent evaluation. NEC is not diagnosed from one diaper or one measurement alone."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Guideline supplement: suspected NEC first response",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Protect",
+                "text": "Stop the current enteral feed and urgently notify the neonatal team. Implement the ordered NPO/bowel-rest plan; do not keep feeding to test tolerance."
+              },
+              {
+                "label": "Prepare",
+                "text": "Support breathing/perfusion and prepare ordered gastric decompression, IV access, fluids/nutrition, cultures and antimicrobial treatment. Monitor the infant while investigations proceed."
+              },
+              {
+                "label": "Escalate",
+                "text": "Shock, a rapidly worsening abdomen or possible perforation needs urgent senior/surgical assessment. Do not wait for every classic sign or a visible large amount of blood."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Guideline supplement: investigation and ongoing NEC care",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Diagnostic evaluation",
+                "text": "Prepare ordered abdominal imaging and laboratory assessment. Gas in the bowel wall (pneumatosis) or free abdominal air is significant; the team interprets imaging with clinical and laboratory trends."
+              },
+              {
+                "label": "Nursing monitoring",
+                "text": "Follow serial abdominal appearance/girth as ordered, stool/emesis or gastric output, respiration, perfusion, urine, glucose and temperature. Watch lines and fluid/nutritional support and document changes promptly."
+              },
+              {
+                "label": "Treatment course",
+                "text": "Continue prescribed bowel rest, decompression, antibiotics and nutrition; surgery may be needed for perforation or severe disease. Feed restarting and advancement require the neonatal/surgical plan, not a fixed timetable."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Family communication and response evaluation",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Communicate",
+                "text": "Explain the concern, immediate care and why feeds or contact may change; provide regular updates and support expression/participation when appropriate. Avoid presenting suspected illness as a confirmed diagnosis before evaluation."
+              },
+              {
+                "label": "Evaluate",
+                "text": "Look for improving perfusion, breathing, temperature, alertness and abdominal findings, with appropriate urine/output and ordered laboratory/imaging trends. Failure to improve requires renewed escalation."
+              },
+              {
+                "label": "Handoff",
+                "text": "Record timing of concern, clinician notification, specimens, treatment and response. Confirm who follows pending cultures/results and the next assessment rather than assuming the initial call completes care."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Assessment & care of the newborn; Newborn assessment review handout. Supporting supplied PDFs: Antepartum risks. Original sources support maternal/infant infection risk and concerning abdominal assessment. Detailed sepsis and NEC nursing explanations are explicitly labeled guideline supplements, not supplied lecture content. Antibiotic choices/doses, calculator cutoffs, NEC staging and surgical protocols remain individualized.",
+    "answerSources": [
+      {
+        "title": "Assessment & care of the newborn (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-care"
+      },
+      {
+        "title": "Newborn assessment review handout (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-handout"
+      },
+      {
+        "title": "Antepartum risks (original supplied PDF)",
+        "url": "#/ob-final/presentation/antepartum-risks"
+      },
+      {
+        "title": "NICE: neonatal-infection recognition and treatment supplement",
+        "url": "https://www.nice.org.uk/guidance/ng195"
+      },
+      {
+        "title": "UCSF: early-onset sepsis assessment supplement (≥34-week scope)",
+        "url": "https://medconnection.ucsfbenioffchildrens.org/neonatal-sepsis-guidelines"
+      },
+      {
+        "title": "NICHD: NEC recognition and diagnostic-evaluation supplement",
+        "url": "https://www.nichd.nih.gov/health/topics/factsheets/nec"
+      },
+      {
+        "title": "NICHD: NEC treatment supplement",
+        "url": "https://www.nichd.nih.gov/health/topics/nec/conditioninfo/treatments"
+      }
+    ]
   },
   {
-    id:'preterm-ongoing-care',weekIds:['week-10'],topicIds:['newborn-complications'],title:'Ongoing care of a preterm newborn',
-    text:'Describe nursing considerations for preterm feeding, oxygen therapy and complications such as retinopathy, developmental support, and discharge planning. Identify how the team evaluates readiness for feeding, growth, and safe transition home.',answer:[]
+    "id": "preterm-ongoing-care",
+    "weekIds": [
+      "week-10"
+    ],
+    "topicIds": [
+      "newborn-complications"
+    ],
+    "title": "Ongoing care of a preterm newborn",
+    "text": "Describe nursing considerations for preterm feeding, oxygen therapy and complications such as retinopathy, developmental support, and discharge planning. Identify how the team evaluates readiness for feeding, growth, and safe transition home.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Ongoing preterm care balances safe nutrition, growth, respiratory stability, temperature and development, with parent participation.",
+          "Use prescribed oxygen targets and complete indicated eye screening; avoid both under-treatment of hypoxia and unnecessary oxygen exposure.",
+          "The PDFs provide only partial preterm-care material; guideline supplements complete readiness, retinopathy and discharge follow-up without a one-weight or one-age discharge rule."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Guideline supplement: assess feeding readiness",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Source connection",
+                "text": "The feeding PDF flags infants <32 weeks or <1500 g for additional nutrition support. Maturity and clinical status determine the safe route, not weight alone."
+              },
+              {
+                "label": "Readiness",
+                "text": "Assess alertness/cues, suck–swallow–breathe coordination, respiratory stability and endurance. Non-nutritive sucking or a single good latch does not prove readiness for all oral intake."
+              },
+              {
+                "label": "Safety",
+                "text": "Pause an oral feed for coughing/choking, color change, bradycardia/desaturation or fatigue and reassess. Tube or other prescribed nutrition may be needed while feeding skills mature."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Guideline supplement: nutrition, growth and feeding evaluation",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Nutrition",
+                "text": "Support human milk and expression when appropriate; donor milk, fortification or formula may be prescribed. Preterm birth does not automatically require avoidance of human milk."
+              },
+              {
+                "label": "Monitoring",
+                "text": "Follow actual intake/tolerance, weight and growth trajectory, urine/stool and ordered laboratory results. Distinguish inadequate intake from a feeding route that is temporarily inappropriate because of illness."
+              },
+              {
+                "label": "Evaluate",
+                "text": "Adjust with the team when growth, hydration or tolerance is inadequate. Teach caregivers the specific milk/fortifier preparation and feeding plan; do not convert the source’s broad supplement list into a universal recipe."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Guideline supplement: oxygen and chronic lung risk",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Purpose and safety",
+                "text": "Titrate oxygen to the prescribed target with continuous monitoring when indicated. Check probe signal, delivery device and clinical status; do not independently increase oxygen to chase a universal saturation number."
+              },
+              {
+                "label": "Complications",
+                "text": "Prolonged respiratory support/oxygen exposure is associated with chronic lung disease/BPD and other complications. Avoid unnecessary exposure, but never withhold needed oxygen because of fear of retinopathy."
+              },
+              {
+                "label": "Ongoing care",
+                "text": "Assess breathing/support needs, feeding endurance, growth and equipment-related skin injury. Persistent apnea/bradycardia, rising oxygen need or exhaustion requires review; caffeine or other treatments are given only as prescribed."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Guideline supplement: retinopathy and eye follow-up",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Mechanism",
+                "text": "In ROP, immature retinal vessels develop abnormally, potentially threatening vision. Prematurity/low birth weight and the clinical course guide screening eligibility."
+              },
+              {
+                "label": "Detection",
+                "text": "Early ROP may have no visible symptoms; an ophthalmic examination is needed. Normal-looking eyes or acceptable oxygen saturation does not cancel the ordered exam."
+              },
+              {
+                "label": "Follow-through",
+                "text": "Verify scheduled examinations/results and the ophthalmology plan. Transfer or discharge does not end surveillance; book the next time-sensitive exam and communicate its importance to the family."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Guideline supplement: development and family care",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Protect development",
+                "text": "Use cue-based handling, supported positioning, protected sleep and appropriate light/noise, while completing essential assessments. Adapt stimulation to the infant’s tolerance."
+              },
+              {
+                "label": "Participation",
+                "text": "Support monitored skin-to-skin, feeding/comfort and parent involvement when appropriate. Teach stress and engagement cues and provide emotional, language and practical support."
+              },
+              {
+                "label": "Follow-up",
+                "text": "Document developmental concerns and arrange appropriate high-risk/developmental services. Explain corrected-age use when relevant without promising outcomes from one examination or milestone."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Guideline supplement: discharge readiness and handoff",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Physiologic readiness",
+                "text": "Confirm stable temperature, an acceptable breathing/apnea plan, adequate nutrition/growth and resolved or managed acute problems under the neonatal team’s criteria. No single weight or corrected age proves readiness."
+              },
+              {
+                "label": "Caregiver readiness",
+                "text": "Use teach-back/demonstration for feeding, prescribed medicines/equipment, safe sleep and illness response. If home oxygen/tube support is planned, verify training, supplies and services rather than assuming every infant must have the same discharge pathway."
+              },
+              {
+                "label": "Continuity",
+                "text": "Arrange early clinical review and nutrition, eye, hearing and developmental follow-up as indicated. Handoff pending results, screening appointments and the escalation plan; assess transport, home support and access barriers."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Assessment & care of the newborn; Newborn assessment review handout. Supporting supplied PDFs: Infant feeding: breast & formula. The PDFs provide maturity, baseline care, discharge and supplement-risk context but no full preterm feeding, ROP, oxygen or developmental/discharge course. All six detailed care topics are labeled guideline supplements; no universal oxygen target, eye-screening cutoff, feed-volume or discharge-weight rule is imposed.",
+    "answerSources": [
+      {
+        "title": "Assessment & care of the newborn (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-care"
+      },
+      {
+        "title": "Newborn assessment review handout (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-handout"
+      },
+      {
+        "title": "Infant feeding: breast & formula (original supplied PDF)",
+        "url": "#/ob-final/presentation/infant-feeding"
+      },
+      {
+        "title": "WHO: preterm nutrition, family and developmental-care supplement",
+        "url": "https://www.who.int/publications/b/63796"
+      },
+      {
+        "title": "WHO: monitored skin-to-skin care supplement",
+        "url": "https://www.who.int/publications/m/item/kangaroo-mother-care--a-clinical-practice-guide"
+      },
+      {
+        "title": "NICE: preterm respiratory support and monitoring supplement",
+        "url": "https://www.nice.org.uk/guidance/ng124/chapter/recommendations"
+      },
+      {
+        "title": "NEI: retinopathy and time-sensitive eye follow-up supplement",
+        "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/retinopathy-prematurity"
+      },
+      {
+        "title": "CPS: preterm feeding and discharge-readiness supplement",
+        "url": "https://cps.ca/en/documents/position/discharge-planning-of-the-preterm-infant"
+      }
+    ]
   },
   {
     id:'contraceptive-choice',weekIds:['august-4'],topicIds:['contraception'],title:'Individualized contraceptive counseling',

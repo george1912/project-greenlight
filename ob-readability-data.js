@@ -4501,5 +4501,349 @@ const obReadabilityRules = {
       "text": "individual neonatal nutrition/glucose plan",
       "style": "bold"
     }
+  ],
+  "prematurity-high-risk|Quick answer": [
+    {
+      "text": "gestational maturity, growth and the infant’s actual condition separately",
+      "style": "bold"
+    },
+    {
+      "text": "breathing/perfusion, temperature, glucose risk, feeding and signs of infection",
+      "style": "bold"
+    },
+    {
+      "text": "guideline supplements fill high-risk care details absent from the PDFs",
+      "style": "bold"
+    }
+  ],
+  "prematurity-high-risk|Prematurity, growth restriction and size: separate the terms": [
+    {
+      "text": "birth before 37 weeks",
+      "style": "bold"
+    }
+  ],
+  "prematurity-high-risk|Compare adaptation risks without assuming every infant is ill": [
+    {
+      "text": "Immature lungs, temperature control and feeding coordination",
+      "style": "bold"
+    }
+  ],
+  "prematurity-high-risk|Prioritize assessment before routine care": [
+    {
+      "text": "breathing effort, heart rate, color/perfusion, tone and responsiveness",
+      "style": "bold"
+    }
+  ],
+  "prematurity-high-risk|Warmth and infection prevention": [
+    {
+      "text": "Prevent heat loss and reassess temperature",
+      "style": "bold"
+    }
+  ],
+  "prematurity-high-risk|Guideline supplement: nutrition and developmental care": [
+    {
+      "text": "Milk type, route and fortification are individualized",
+      "style": "bold"
+    }
+  ],
+  "prematurity-high-risk|Family participation and evaluation": [
+    {
+      "text": "Invite safe participation in comfort and care",
+      "style": "bold"
+    }
+  ],
+  "newborn-respiratory-distress|Quick answer": [
+    {
+      "text": "grunting, flaring, retractions, central cyanosis, apnea or persistent abnormal breathing",
+      "style": "bold"
+    },
+    {
+      "text": "RDS, TTN and meconium aspiration have different mechanisms",
+      "style": "bold"
+    },
+    {
+      "text": "do not delay ventilation for routine meconium suctioning",
+      "style": "bold"
+    }
+  ],
+  "newborn-respiratory-distress|Recognize distress and call for help": [
+    {
+      "text": "nasal flaring, grunting, retractions, cyanosis and abnormal respiratory rate/sounds",
+      "style": "bold"
+    }
+  ],
+  "newborn-respiratory-distress|Guideline supplement: RDS and surfactant deficiency": [
+    {
+      "text": "insufficient surfactant promotes alveolar collapse",
+      "style": "bold"
+    }
+  ],
+  "newborn-respiratory-distress|TTN: delayed clearance of lung fluid": [
+    {
+      "text": "Retained fetal lung fluid can cause early tachypnea",
+      "style": "bold"
+    }
+  ],
+  "newborn-respiratory-distress|Meconium exposure versus aspiration": [
+    {
+      "text": "Stained fluid is a risk/exposure finding, not by itself a diagnosis of aspiration syndrome",
+      "style": "bold"
+    }
+  ],
+  "newborn-respiratory-distress|Safety clarification: suction and immediate respiratory support": [
+    {
+      "text": "Routine oral, nasal or tracheal suctioning is not recommended solely for meconium-stained fluid",
+      "style": "bold"
+    }
+  ],
+  "newborn-respiratory-distress|Guideline supplement: collaborative support and monitoring": [
+    {
+      "text": "prescribed oxygen and CPAP/ventilatory support",
+      "style": "bold"
+    }
+  ],
+  "newborn-respiratory-distress|Evaluate improvement or deterioration": [
+    {
+      "text": "less work of breathing, stable oxygenation on the prescribed support, adequate perfusion and improved alertness",
+      "style": "bold"
+    }
+  ],
+  "newborn-temperature-glucose|Quick answer": [
+    {
+      "text": "Cold stress increases oxygen and glucose use",
+      "style": "bold"
+    },
+    {
+      "text": "prescribed glucose surveillance",
+      "style": "bold"
+    },
+    {
+      "text": "recheck temperature, glucose and clinical response",
+      "style": "bold"
+    }
+  ],
+  "newborn-temperature-glucose|Cold stress links oxygen use and glucose needs": [
+    {
+      "text": "Brown-fat thermogenesis consumes energy",
+      "style": "bold"
+    }
+  ],
+  "newborn-temperature-glucose|Prevent heat loss and warm safely": [
+    {
+      "text": "Dry, protect from drafts and use warm surfaces",
+      "style": "bold"
+    },
+    {
+      "text": "36.5–37.5°C during admission/stabilization",
+      "style": "bold"
+    }
+  ],
+  "newborn-temperature-glucose|Who needs glucose surveillance?": [
+    {
+      "text": "SGA, LGA and infants of diabetic mothers",
+      "style": "bold"
+    }
+  ],
+  "newborn-temperature-glucose|Guideline supplement: recognize low-glucose illness": [
+    {
+      "text": "Jitteriness, poor feeding, lethargy, weak tone, apnea, cyanosis or seizures",
+      "style": "bold"
+    },
+    {
+      "text": "do not delay urgent treatment of symptomatic low glucose",
+      "style": "bold"
+    }
+  ],
+  "newborn-temperature-glucose|Guideline supplement: match treatment to condition": [
+    {
+      "text": "Gel does not replace a feeding plan or reassessment",
+      "style": "bold"
+    },
+    {
+      "text": "IV dextrose",
+      "style": "bold"
+    }
+  ],
+  "newborn-temperature-glucose|Reassess and plan safe nutrition": [
+    {
+      "text": "Recurrent low glucose, ongoing symptoms or inability to maintain levels with feeds",
+      "style": "bold"
+    }
+  ],
+  "newborn-jaundice|Quick answer": [
+    {
+      "text": "age in hours, gestational age, bilirubin measurement and risk",
+      "style": "bold"
+    },
+    {
+      "text": "Jaundice in the first 24 hours, rapid progression or an unwell infant needs prompt review",
+      "style": "bold"
+    },
+    {
+      "text": "track measured response, rebound risk and follow-up",
+      "style": "bold"
+    }
+  ],
+  "newborn-jaundice|Age and risk: common does not mean harmless": [
+    {
+      "text": "Jaundice before 24 hours",
+      "style": "bold"
+    }
+  ],
+  "newborn-jaundice|Measure bilirubin and use the right chart": [
+    {
+      "text": "measured predischarge bilirubin",
+      "style": "bold"
+    },
+    {
+      "text": "Do not use the lecture’s fixed term/preterm table as a treatment order",
+      "style": "bold"
+    }
+  ],
+  "newborn-jaundice|Hemolysis: connect history, anemia and bilirubin": [
+    {
+      "text": "ABO/Rh incompatibility can cause immune red-cell destruction",
+      "style": "bold"
+    }
+  ],
+  "newborn-jaundice|Phototherapy: purpose and safe device care": [
+    {
+      "text": "Therapeutic visible blue light, not ultraviolet light or home sunlight",
+      "style": "bold"
+    }
+  ],
+  "newborn-jaundice|Support feeding, hydration and comfort": [
+    {
+      "text": "Poor intake can worsen bilirubin clearance and dehydration risk",
+      "style": "bold"
+    }
+  ],
+  "newborn-jaundice|Follow-up, rebound and urgent neurologic findings": [
+    {
+      "text": "Do not stop lights because the infant looks less yellow",
+      "style": "bold"
+    },
+    {
+      "text": "urgent neonatal assessment",
+      "style": "bold"
+    }
+  ],
+  "newborn-sepsis-nec|Quick answer": [
+    {
+      "text": "Temperature instability, new apnea, poor feeding, lethargy or poor perfusion can signal neonatal infection",
+      "style": "bold"
+    },
+    {
+      "text": "Abdominal distention/discoloration, bilious vomiting or bloody stool can signal NEC",
+      "style": "bold"
+    },
+    {
+      "text": "labeled supplements explain sepsis/NEC evaluation, prescribed care and monitoring",
+      "style": "bold"
+    }
+  ],
+  "newborn-sepsis-nec|Source connection and infection risk": [
+    {
+      "text": "prematurity, maternal infection/rupture history, intrapartum treatment and the infant’s clinical course",
+      "style": "bold"
+    }
+  ],
+  "newborn-sepsis-nec|Guideline supplement: recognize subtle neonatal sepsis": [
+    {
+      "text": "Poor feeding, reduced activity, temperature instability, apnea/bradycardia, respiratory distress or poor perfusion",
+      "style": "bold"
+    }
+  ],
+  "newborn-sepsis-nec|Guideline supplement: urgent evaluation and prescribed care": [
+    {
+      "text": "airway, breathing, circulation and temperature",
+      "style": "bold"
+    }
+  ],
+  "newborn-sepsis-nec|Guideline supplement: NEC risk and abdominal cues": [
+    {
+      "text": "intestinal inflammation and tissue injury that can progress to necrosis, perforation and systemic infection",
+      "style": "bold"
+    },
+    {
+      "text": "bilious vomiting and bloody stool",
+      "style": "bold"
+    }
+  ],
+  "newborn-sepsis-nec|Guideline supplement: suspected NEC first response": [
+    {
+      "text": "Stop the current enteral feed and urgently notify the neonatal team",
+      "style": "bold"
+    }
+  ],
+  "newborn-sepsis-nec|Guideline supplement: investigation and ongoing NEC care": [
+    {
+      "text": "Gas in the bowel wall (pneumatosis) or free abdominal air",
+      "style": "bold"
+    }
+  ],
+  "newborn-sepsis-nec|Family communication and response evaluation": [
+    {
+      "text": "Avoid presenting suspected illness as a confirmed diagnosis",
+      "style": "bold"
+    }
+  ],
+  "preterm-ongoing-care|Quick answer": [
+    {
+      "text": "safe nutrition, growth, respiratory stability, temperature and development",
+      "style": "bold"
+    },
+    {
+      "text": "Use prescribed oxygen targets and complete indicated eye screening",
+      "style": "bold"
+    },
+    {
+      "text": "guideline supplements complete readiness, retinopathy and discharge follow-up",
+      "style": "bold"
+    }
+  ],
+  "preterm-ongoing-care|Guideline supplement: assess feeding readiness": [
+    {
+      "text": "suck–swallow–breathe coordination, respiratory stability and endurance",
+      "style": "bold"
+    }
+  ],
+  "preterm-ongoing-care|Guideline supplement: nutrition, growth and feeding evaluation": [
+    {
+      "text": "Preterm birth does not automatically require avoidance of human milk",
+      "style": "bold"
+    }
+  ],
+  "preterm-ongoing-care|Guideline supplement: oxygen and chronic lung risk": [
+    {
+      "text": "Titrate oxygen to the prescribed target with continuous monitoring when indicated",
+      "style": "bold"
+    },
+    {
+      "text": "never withhold needed oxygen because of fear of retinopathy",
+      "style": "bold"
+    }
+  ],
+  "preterm-ongoing-care|Guideline supplement: retinopathy and eye follow-up": [
+    {
+      "text": "immature retinal vessels develop abnormally",
+      "style": "bold"
+    },
+    {
+      "text": "no visible symptoms",
+      "style": "bold"
+    }
+  ],
+  "preterm-ongoing-care|Guideline supplement: development and family care": [
+    {
+      "text": "cue-based handling, supported positioning, protected sleep and appropriate light/noise",
+      "style": "bold"
+    }
+  ],
+  "preterm-ongoing-care|Guideline supplement: discharge readiness and handoff": [
+    {
+      "text": "stable temperature, an acceptable breathing/apnea plan, adequate nutrition/growth and resolved or managed acute problems",
+      "style": "bold"
+    }
   ]
 };

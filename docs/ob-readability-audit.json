@@ -14,8 +14,8 @@
     "already-emphasized": 3,
     "adjusted": 9
   },
-  "uniqueRules": 898,
-  "scopes": 455,
+  "uniqueRules": 962,
+  "scopes": 499,
   "additions": [
     {
       "objectiveId": "complicated-labor",
@@ -1906,6 +1906,454 @@
       "exact_text": "individual neonatal nutrition/glucose plan",
       "style": "bold",
       "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "prematurity-high-risk",
+      "section": "Quick answer",
+      "exact_text": "gestational maturity, growth and the infant’s actual condition separately",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "prematurity-high-risk",
+      "section": "Quick answer",
+      "exact_text": "breathing/perfusion, temperature, glucose risk, feeding and signs of infection",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "prematurity-high-risk",
+      "section": "Quick answer",
+      "exact_text": "guideline supplements fill high-risk care details absent from the PDFs",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "prematurity-high-risk",
+      "section": "Prematurity, growth restriction and size: separate the terms",
+      "exact_text": "birth before 37 weeks",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "prematurity-high-risk",
+      "section": "Compare adaptation risks without assuming every infant is ill",
+      "exact_text": "Immature lungs, temperature control and feeding coordination",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "prematurity-high-risk",
+      "section": "Prioritize assessment before routine care",
+      "exact_text": "breathing effort, heart rate, color/perfusion, tone and responsiveness",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "prematurity-high-risk",
+      "section": "Warmth and infection prevention",
+      "exact_text": "Prevent heat loss and reassess temperature",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "prematurity-high-risk",
+      "section": "Guideline supplement: nutrition and developmental care",
+      "exact_text": "Milk type, route and fortification are individualized",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "prematurity-high-risk",
+      "section": "Family participation and evaluation",
+      "exact_text": "Invite safe participation in comfort and care",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-respiratory-distress",
+      "section": "Quick answer",
+      "exact_text": "grunting, flaring, retractions, central cyanosis, apnea or persistent abnormal breathing",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-respiratory-distress",
+      "section": "Quick answer",
+      "exact_text": "RDS, TTN and meconium aspiration have different mechanisms",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-respiratory-distress",
+      "section": "Quick answer",
+      "exact_text": "do not delay ventilation for routine meconium suctioning",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-respiratory-distress",
+      "section": "Recognize distress and call for help",
+      "exact_text": "nasal flaring, grunting, retractions, cyanosis and abnormal respiratory rate/sounds",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-respiratory-distress",
+      "section": "Guideline supplement: RDS and surfactant deficiency",
+      "exact_text": "insufficient surfactant promotes alveolar collapse",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-respiratory-distress",
+      "section": "TTN: delayed clearance of lung fluid",
+      "exact_text": "Retained fetal lung fluid can cause early tachypnea",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-respiratory-distress",
+      "section": "Meconium exposure versus aspiration",
+      "exact_text": "Stained fluid is a risk/exposure finding, not by itself a diagnosis of aspiration syndrome",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-respiratory-distress",
+      "section": "Safety clarification: suction and immediate respiratory support",
+      "exact_text": "Routine oral, nasal or tracheal suctioning is not recommended solely for meconium-stained fluid",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-respiratory-distress",
+      "section": "Guideline supplement: collaborative support and monitoring",
+      "exact_text": "prescribed oxygen and CPAP/ventilatory support",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-respiratory-distress",
+      "section": "Evaluate improvement or deterioration",
+      "exact_text": "less work of breathing, stable oxygenation on the prescribed support, adequate perfusion and improved alertness",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-temperature-glucose",
+      "section": "Quick answer",
+      "exact_text": "Cold stress increases oxygen and glucose use",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-temperature-glucose",
+      "section": "Quick answer",
+      "exact_text": "prescribed glucose surveillance",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-temperature-glucose",
+      "section": "Quick answer",
+      "exact_text": "recheck temperature, glucose and clinical response",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-temperature-glucose",
+      "section": "Cold stress links oxygen use and glucose needs",
+      "exact_text": "Brown-fat thermogenesis consumes energy",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-temperature-glucose",
+      "section": "Prevent heat loss and warm safely",
+      "exact_text": "Dry, protect from drafts and use warm surfaces",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-temperature-glucose",
+      "section": "Prevent heat loss and warm safely",
+      "exact_text": "36.5–37.5°C during admission/stabilization",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-temperature-glucose",
+      "section": "Who needs glucose surveillance?",
+      "exact_text": "SGA, LGA and infants of diabetic mothers",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-temperature-glucose",
+      "section": "Guideline supplement: recognize low-glucose illness",
+      "exact_text": "Jitteriness, poor feeding, lethargy, weak tone, apnea, cyanosis or seizures",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-temperature-glucose",
+      "section": "Guideline supplement: recognize low-glucose illness",
+      "exact_text": "do not delay urgent treatment of symptomatic low glucose",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-temperature-glucose",
+      "section": "Guideline supplement: match treatment to condition",
+      "exact_text": "Gel does not replace a feeding plan or reassessment",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-temperature-glucose",
+      "section": "Guideline supplement: match treatment to condition",
+      "exact_text": "IV dextrose",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-temperature-glucose",
+      "section": "Reassess and plan safe nutrition",
+      "exact_text": "Recurrent low glucose, ongoing symptoms or inability to maintain levels with feeds",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-jaundice",
+      "section": "Quick answer",
+      "exact_text": "age in hours, gestational age, bilirubin measurement and risk",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-jaundice",
+      "section": "Quick answer",
+      "exact_text": "Jaundice in the first 24 hours, rapid progression or an unwell infant needs prompt review",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-jaundice",
+      "section": "Quick answer",
+      "exact_text": "track measured response, rebound risk and follow-up",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-jaundice",
+      "section": "Age and risk: common does not mean harmless",
+      "exact_text": "Jaundice before 24 hours",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-jaundice",
+      "section": "Measure bilirubin and use the right chart",
+      "exact_text": "measured predischarge bilirubin",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-jaundice",
+      "section": "Measure bilirubin and use the right chart",
+      "exact_text": "Do not use the lecture’s fixed term/preterm table as a treatment order",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-jaundice",
+      "section": "Hemolysis: connect history, anemia and bilirubin",
+      "exact_text": "ABO/Rh incompatibility can cause immune red-cell destruction",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-jaundice",
+      "section": "Phototherapy: purpose and safe device care",
+      "exact_text": "Therapeutic visible blue light, not ultraviolet light or home sunlight",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-jaundice",
+      "section": "Support feeding, hydration and comfort",
+      "exact_text": "Poor intake can worsen bilirubin clearance and dehydration risk",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-jaundice",
+      "section": "Follow-up, rebound and urgent neurologic findings",
+      "exact_text": "Do not stop lights because the infant looks less yellow",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-jaundice",
+      "section": "Follow-up, rebound and urgent neurologic findings",
+      "exact_text": "urgent neonatal assessment",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-sepsis-nec",
+      "section": "Quick answer",
+      "exact_text": "Temperature instability, new apnea, poor feeding, lethargy or poor perfusion can signal neonatal infection",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-sepsis-nec",
+      "section": "Quick answer",
+      "exact_text": "Abdominal distention/discoloration, bilious vomiting or bloody stool can signal NEC",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-sepsis-nec",
+      "section": "Quick answer",
+      "exact_text": "labeled supplements explain sepsis/NEC evaluation, prescribed care and monitoring",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-sepsis-nec",
+      "section": "Source connection and infection risk",
+      "exact_text": "prematurity, maternal infection/rupture history, intrapartum treatment and the infant’s clinical course",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-sepsis-nec",
+      "section": "Guideline supplement: recognize subtle neonatal sepsis",
+      "exact_text": "Poor feeding, reduced activity, temperature instability, apnea/bradycardia, respiratory distress or poor perfusion",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-sepsis-nec",
+      "section": "Guideline supplement: urgent evaluation and prescribed care",
+      "exact_text": "airway, breathing, circulation and temperature",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-sepsis-nec",
+      "section": "Guideline supplement: NEC risk and abdominal cues",
+      "exact_text": "intestinal inflammation and tissue injury that can progress to necrosis, perforation and systemic infection",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-sepsis-nec",
+      "section": "Guideline supplement: NEC risk and abdominal cues",
+      "exact_text": "bilious vomiting and bloody stool",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-sepsis-nec",
+      "section": "Guideline supplement: suspected NEC first response",
+      "exact_text": "Stop the current enteral feed and urgently notify the neonatal team",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-sepsis-nec",
+      "section": "Guideline supplement: investigation and ongoing NEC care",
+      "exact_text": "Gas in the bowel wall (pneumatosis) or free abdominal air",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "newborn-sepsis-nec",
+      "section": "Family communication and response evaluation",
+      "exact_text": "Avoid presenting suspected illness as a confirmed diagnosis",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "preterm-ongoing-care",
+      "section": "Quick answer",
+      "exact_text": "safe nutrition, growth, respiratory stability, temperature and development",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "preterm-ongoing-care",
+      "section": "Quick answer",
+      "exact_text": "Use prescribed oxygen targets and complete indicated eye screening",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "preterm-ongoing-care",
+      "section": "Quick answer",
+      "exact_text": "guideline supplements complete readiness, retinopathy and discharge follow-up",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "preterm-ongoing-care",
+      "section": "Guideline supplement: assess feeding readiness",
+      "exact_text": "suck–swallow–breathe coordination, respiratory stability and endurance",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "preterm-ongoing-care",
+      "section": "Guideline supplement: nutrition, growth and feeding evaluation",
+      "exact_text": "Preterm birth does not automatically require avoidance of human milk",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "preterm-ongoing-care",
+      "section": "Guideline supplement: oxygen and chronic lung risk",
+      "exact_text": "Titrate oxygen to the prescribed target with continuous monitoring when indicated",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "preterm-ongoing-care",
+      "section": "Guideline supplement: oxygen and chronic lung risk",
+      "exact_text": "never withhold needed oxygen because of fear of retinopathy",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "preterm-ongoing-care",
+      "section": "Guideline supplement: retinopathy and eye follow-up",
+      "exact_text": "immature retinal vessels develop abnormally",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "preterm-ongoing-care",
+      "section": "Guideline supplement: retinopathy and eye follow-up",
+      "exact_text": "no visible symptoms",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "preterm-ongoing-care",
+      "section": "Guideline supplement: development and family care",
+      "exact_text": "cue-based handling, supported positioning, protected sleep and appropriate light/noise",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "preterm-ongoing-care",
+      "section": "Guideline supplement: discharge readiness and handoff",
+      "exact_text": "stable temperature, an acceptable breathing/apnea plan, adequate nutrition/growth and resolved or managed acute problems",
+      "style": "bold",
+      "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
     }
   ],
   "records": [
@@ -10770,7 +11218,7 @@
   ],
   "boundaries": "Formatting applies only to named OB prompts, quick answers, note-topic text, and four guide spans. Shared objectives reuse the same rules. Headings, sources, navigation, quiz/practice content, video text, posters and question counts retain their existing appearance. No wording, capitalization, note order or objective mappings are changed.",
   "contentHashes": {
-    "ob-objectives.js": "056edbc588809c101b6c18e56cc653c59e4f81fba2d18cdb854153b3e91ef0d0",
+    "ob-objectives.js": "062dd19304367c0b4f3506bb16619221a18d29fa1addbb08641beff5fa4f9df8",
     "ob-content.js": "674b4aea2d633c1ec63fd7f6c4bc45054eb9ed27b18bae92b08396ab0937e33e",
     "ob-videos.js": "0f5c784bdc9261dec46f9b70fac805f7beae693eb69ec328318b3f68238733bd",
     "ob-question-map.js": "f558aa64e688383b259e107d755b3c5b838657363c3fed9f1241af4501d63eab",
@@ -10787,12 +11235,12 @@
     "#/ob-final/week-7": "3c56958428e2bb06f163585e88a3ed8452a4eb28fbd1059f9af863055aafc13c",
     "#/ob-final/week-8": "a39e1e7228820b25220498840ecf3fd7ac7077d127b26ca6e3915c96d6c768c6",
     "#/ob-final/week-9": "21e0c0c8b2653c0e928f8d77034af9813603f66a8cef92da223ee25b485631f4",
-    "#/ob-final/week-10": "e8e4e4b774ba03650e3eedb93d282f7ee72d4cd3d0ce3e33de64af45fbdc268a",
+    "#/ob-final/week-10": "e77d4fec702266a8c2ead911359ebe0ddc77b37744577b7adee03bdf34578252",
     "#/ob-final/august-4": "77b61aaeaef40b044bd5dc3ef1c4d6c9a628a15800dc1f1a7e43e22600e43fd1",
     "#/ob-final/topic/normal-postpartum": "85d12aa45709ec97f6e213b1fd1403f0ca4d551367e9f53a5c8cac1d95a6f848",
     "#/ob-final/topic/postpartum-complications": "af9e64a566d945c75be2a133a68f6a6d63d595397fb5f87aa8d45a984fe166f4",
     "#/ob-final/topic/normal-newborn": "9a31300793496c93c70c4260b7c88d56757f8aa1a3dbc2c28b2d1a9c933456c6",
-    "#/ob-final/topic/newborn-complications": "74e3330bac98d1838cdf841369141181ddf876fae6d3f2b6481f56d2f7559720",
+    "#/ob-final/topic/newborn-complications": "133808a73856833d62654dfb0b68ce21c875271a5a5e76661950396b41f13876",
     "#/ob-final/topic/contraception": "86540cf86128dbb7624134667358398d61040e604c5190f4d9857c3a97b5b7b0",
     "#/ob-final/topic/stis": "da8a4403109f8fc89cb8c9f7d42f0501d820bfaccbb07f47abab576638635dc3",
     "#/ob-final/topic/feeding": "5332fbdc908bec2e9e610b6de6df939f66a04aa7fdc6a881310f3a24e267b76f",
