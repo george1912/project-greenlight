@@ -7,7 +7,7 @@ const all=vm.runInContext('obStudyObjectives',context),week2=all.filter(o=>o.wee
 const audit=JSON.parse(fs.readFileSync(path.join(root,'docs/ob-week2-notes-audit.json'))),map=JSON.parse(fs.readFileSync(path.join(root,'docs/ob-objectives-map.json')));
 const expected=['pregnancy-signs','obstetric-history-gtpal','estimated-due-date','prenatal-assessment','pregnancy-discomforts','prenatal-nutrition-teaching'];
 assert.deepEqual(audit.objectives.map(o=>o.id),expected);assert.equal(week2.length,7);assert(week2.every(o=>o.answer.length));
-assert.equal(map.completedObjectiveIds.length,10);assert.equal(all.filter(o=>!o.answer.length).length,65);
+assert(expected.every(id=>map.completedObjectiveIds.includes(id)));assert.equal(all.filter(o=>!o.answer.length).length,75-map.completedObjectiveIds.length);
 assert.deepEqual(Array.from(all.filter(o=>o.answer.length),o=>o.id),map.completedObjectiveIds);
 for(const source of audit.sources){
  const bytes=fs.readFileSync(path.join(root,source.path));assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),source.sha256);

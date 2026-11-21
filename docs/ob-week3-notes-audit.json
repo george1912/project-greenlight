@@ -1,0 +1,909 @@
+{
+  "weekId": "week-3",
+  "reviewedOn": "2026-11-21",
+  "basis": "Eleven existing Week 3 objectives completed from the two assigned PDFs, organized as three-bullet quick answers and independently collapsed topics. Lecture material is synthesized rather than represented as verbatim faculty objectives. Current authoritative sources clarify outdated/unsafe shortcuts; original PDFs/previews and all prior answers are unchanged.",
+  "sources": [
+    {
+      "deckId": "antepartum-risks",
+      "path": "ob-presentations/antepartum-risks/original.pdf",
+      "pages": 55,
+      "sha256": "9244bc5fc93a2a9808f23ac7e2a1872fd5b60f9076cef482367dc725717a006a"
+    },
+    {
+      "deckId": "diabetes-in-pregnancy",
+      "path": "ob-presentations/diabetes-in-pregnancy/original.pdf",
+      "pages": 26,
+      "sha256": "61c2d92b25c1ad8c7c2ff9638552c8242fed192e64ae49f5c551b68f6355ba30"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "high-risk-pregnancy-assessment",
+      "title": "Assessing a high-risk pregnancy",
+      "lectureRanges": [
+        {
+          "deckId": "antepartum-risks",
+          "firstPage": 2,
+          "lastPage": 55
+        },
+        {
+          "deckId": "diabetes-in-pregnancy",
+          "firstPage": 2,
+          "lastPage": 26
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Maternal, fetal, and obstetric high-risk factors",
+          "noteTopic": "Recognize maternal, fetal, and pregnancy-related risks"
+        },
+        {
+          "requirement": "Assessment findings and prioritization",
+          "noteTopic": "Assess the whole patient and prioritize the findings"
+        },
+        {
+          "requirement": "Surveillance and referrals",
+          "noteTopic": "Match surveillance and referrals to the problem"
+        },
+        {
+          "requirement": "Education, individualized nursing plan, and evaluation",
+          "noteTopic": "Build and evaluate the nursing plan"
+        },
+        {
+          "requirement": "Recognize deterioration requiring urgent action",
+          "noteTopic": "Apply it: a risk factor versus an emergency"
+        }
+      ],
+      "topics": [
+        "Recognize maternal, fetal, and pregnancy-related risks",
+        "Assess the whole patient and prioritize the findings",
+        "Match surveillance and referrals to the problem",
+        "Build and evaluate the nursing plan",
+        "Apply it: a risk factor versus an emergency"
+      ],
+      "reviewSources": [
+        {
+          "title": "NICHD — High-risk pregnancy",
+          "url": "https://www.nichd.nih.gov/health/topics/factsheets/high-risk"
+        },
+        {
+          "title": "CDC Hear Her — Urgent maternal warning signs",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+        },
+        {
+          "title": "SMFM — Activity restriction in obstetric care",
+          "url": "https://publications.smfm.org/publications/326-society-for-maternal-fetal-medicine-consult-series-50/"
+        }
+      ]
+    },
+    {
+      "id": "early-pregnancy-complications",
+      "title": "Early pregnancy complications",
+      "lectureRanges": [
+        {
+          "deckId": "antepartum-risks",
+          "firstPage": 2,
+          "lastPage": 17
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Pregnancy loss: cues, categories, diagnosis, management, and safety",
+          "noteTopic": "Pregnancy loss: assessment, treatment, and follow-up"
+        },
+        {
+          "requirement": "Distinguish threatened, inevitable, complete, incomplete, missed, and septic loss",
+          "noteTopic": "Pregnancy loss: distinguish the lecture terms"
+        },
+        {
+          "requirement": "Ectopic pregnancy: risks, diagnosis, treatment, and rupture response",
+          "noteTopic": "Ectopic pregnancy: recognize rupture and follow treatment"
+        },
+        {
+          "requirement": "GTD: assessment, treatment, surveillance, and teaching",
+          "noteTopic": "Gestational trophoblastic disease: molar pregnancy and follow-up"
+        },
+        {
+          "requirement": "Cervical insufficiency: assessment and care",
+          "noteTopic": "Cervical insufficiency: painless dilation is the clue"
+        },
+        {
+          "requirement": "Hyperemesis: assessment, fluids/nutrition, safety, and evaluation",
+          "noteTopic": "Hyperemesis: restore hydration and nutrition safely"
+        },
+        {
+          "requirement": "Support needs across the conditions",
+          "noteTopic": "Family support and quick comparison"
+        }
+      ],
+      "topics": [
+        "Pregnancy loss: distinguish the lecture terms",
+        "Pregnancy loss: assessment, treatment, and follow-up",
+        "Ectopic pregnancy: recognize rupture and follow treatment",
+        "Gestational trophoblastic disease: molar pregnancy and follow-up",
+        "Cervical insufficiency: painless dilation is the clue",
+        "Hyperemesis: restore hydration and nutrition safely",
+        "Family support and quick comparison"
+      ],
+      "reviewSources": [
+        {
+          "title": "ACOG — Early pregnancy loss",
+          "url": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2018/11/early-pregnancy-loss"
+        },
+        {
+          "title": "ACOG — Ectopic pregnancy",
+          "url": "https://www.acog.org/womens-health/faqs/ectopic-pregnancy"
+        },
+        {
+          "title": "National Cancer Institute — Gestational trophoblastic disease treatment",
+          "url": "https://www.cancer.gov/types/gestational-trophoblastic/hp/gtd-treatment-pdq"
+        },
+        {
+          "title": "SMFM — Short cervix: Consult Series 70",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38754603/"
+        },
+        {
+          "title": "RCOG — Nausea, vomiting, and hyperemesis: Green-top Guideline 69",
+          "url": "https://doi.org/10.1111/1471-0528.17739"
+        },
+        {
+          "title": "SMFM — Activity restriction in obstetric care",
+          "url": "https://publications.smfm.org/publications/326-society-for-maternal-fetal-medicine-consult-series-50/"
+        },
+        {
+          "title": "ASRM — Rh(D) immune globulin in the first trimester (2026)",
+          "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/position-statement-on-rhod-immune-globulin-administration-in-the-first-trimester-2026/"
+        },
+        {
+          "title": "ACOG — Repeated miscarriages",
+          "url": "https://www.acog.org/womens-health/faqs/Repeated-Miscarriages"
+        }
+      ]
+    },
+    {
+      "id": "placental-bleeding",
+      "title": "Placenta previa and placental abruption",
+      "lectureRanges": [
+        {
+          "deckId": "antepartum-risks",
+          "firstPage": 18,
+          "lastPage": 25
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Compare mechanism, risks, and bleeding/uterine findings in previa",
+          "noteTopic": "Placenta previa: location, risks, and expected pattern"
+        },
+        {
+          "requirement": "Compare abruption, concealed loss, and maternal/fetal effects",
+          "noteTopic": "Placental abruption: separation and hidden blood loss"
+        },
+        {
+          "requirement": "Diagnostic approach and examination precautions",
+          "noteTopic": "Diagnostic approach and examination precautions"
+        },
+        {
+          "requirement": "Priorities for maternal/fetal safety and stabilization",
+          "noteTopic": "Nursing priorities: stabilize while the team evaluates"
+        },
+        {
+          "requirement": "Collaborative birth planning and evaluation",
+          "noteTopic": "Birth planning and evaluation"
+        }
+      ],
+      "topics": [
+        "Placenta previa: location, risks, and expected pattern",
+        "Placental abruption: separation and hidden blood loss",
+        "Diagnostic approach and examination precautions",
+        "Nursing priorities: stabilize while the team evaluates",
+        "Birth planning and evaluation"
+      ],
+      "reviewSources": [
+        {
+          "title": "ACOG — Bleeding during pregnancy",
+          "url": "https://www.acog.org/womens-health/faqs/bleeding-during-pregnancy"
+        },
+        {
+          "title": "ACOG — Intrapartum fetal heart rate monitoring guideline",
+          "url": "https://journals.lww.com/greenjournal/fulltext/2025/10000/acog_clinical_practice_guideline_no_.22.aspx"
+        },
+        {
+          "title": "SMFM — Activity restriction in obstetric care",
+          "url": "https://publications.smfm.org/publications/326-society-for-maternal-fetal-medicine-consult-series-50/"
+        }
+      ]
+    },
+    {
+      "id": "diabetes-assessment",
+      "title": "Diabetes: screening and assessment",
+      "lectureRanges": [
+        {
+          "deckId": "diabetes-in-pregnancy",
+          "firstPage": 2,
+          "lastPage": 14
+        },
+        {
+          "deckId": "diabetes-in-pregnancy",
+          "firstPage": 20,
+          "lastPage": 24
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Pregestational versus gestational diabetes and pregnancy metabolism",
+          "noteTopic": "Types, timing, and pregnancy metabolism"
+        },
+        {
+          "requirement": "Screening timing and interpretation",
+          "noteTopic": "Step 1: screening and early assessment"
+        },
+        {
+          "requirement": "Interpret diagnostic tests and distinguish screening from diagnosis",
+          "noteTopic": "Step 2: interpret the course’s diagnostic OGTT"
+        },
+        {
+          "requirement": "Connect control to maternal, fetal, and newborn risks",
+          "noteTopic": "Connect glucose exposure to maternal, fetal, and newborn risks"
+        },
+        {
+          "requirement": "Nursing assessment and follow-up",
+          "noteTopic": "Nursing assessment and diagnostic limits"
+        }
+      ],
+      "topics": [
+        "Types, timing, and pregnancy metabolism",
+        "Step 1: screening and early assessment",
+        "Step 2: interpret the course’s diagnostic OGTT",
+        "Connect glucose exposure to maternal, fetal, and newborn risks",
+        "Nursing assessment and diagnostic limits"
+      ],
+      "reviewSources": [
+        {
+          "title": "ADA — Management of diabetes in pregnancy: Standards of Care 2026",
+          "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S321/163918/15-Management-of-Diabetes-in-Pregnancy-Standards"
+        },
+        {
+          "title": "USPSTF — Gestational diabetes screening",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/gestational-diabetes-screening"
+        },
+        {
+          "title": "ADA — 2026 pregnancy care summary",
+          "url": "https://diabetesjournals.org/docm-care/article/doi/10.2337/doc26-a015/164617/Section-15-Management-of-Diabetes-in-Pregnancy"
+        }
+      ]
+    },
+    {
+      "id": "diabetes-nursing-management",
+      "title": "Diabetes: nursing care and teaching",
+      "lectureRanges": [
+        {
+          "deckId": "diabetes-in-pregnancy",
+          "firstPage": 5,
+          "lastPage": 8
+        },
+        {
+          "deckId": "diabetes-in-pregnancy",
+          "firstPage": 15,
+          "lastPage": 26
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Glucose monitoring and targets",
+          "noteTopic": "Monitoring: connect the number to its timing"
+        },
+        {
+          "requirement": "Nutrition and safe activity",
+          "noteTopic": "Nutrition and activity without underfeeding"
+        },
+        {
+          "requirement": "Prescribed medication and changing requirements",
+          "noteTopic": "Medication teaching and changing insulin needs"
+        },
+        {
+          "requirement": "Recognize and treat hypoglycemia",
+          "noteTopic": "Hypoglycemia: recognize, treat, and reassess"
+        },
+        {
+          "requirement": "Recognize hyperglycemia/DKA and prioritize care",
+          "noteTopic": "Hyperglycemia, illness, and DKA"
+        },
+        {
+          "requirement": "Fetal surveillance and intrapartum care",
+          "noteTopic": "Fetal surveillance and intrapartum care"
+        },
+        {
+          "requirement": "Postpartum and long-term follow-up",
+          "noteTopic": "Postpartum and long-term follow-up"
+        }
+      ],
+      "topics": [
+        "Monitoring: connect the number to its timing",
+        "Nutrition and activity without underfeeding",
+        "Medication teaching and changing insulin needs",
+        "Hypoglycemia: recognize, treat, and reassess",
+        "Hyperglycemia, illness, and DKA",
+        "Fetal surveillance and intrapartum care",
+        "Postpartum and long-term follow-up"
+      ],
+      "reviewSources": [
+        {
+          "title": "ADA — Management of diabetes in pregnancy: Standards of Care 2026",
+          "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S321/163918/15-Management-of-Diabetes-in-Pregnancy-Standards"
+        },
+        {
+          "title": "ADA — 2026 pregnancy care summary",
+          "url": "https://diabetesjournals.org/docm-care/article/doi/10.2337/doc26-a015/164617/Section-15-Management-of-Diabetes-in-Pregnancy"
+        },
+        {
+          "title": "ADA — Glucose targets and monitoring in pregnancy (2026)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12690181/"
+        },
+        {
+          "title": "ADA — Symptoms and treatment of hypoglycemia",
+          "url": "https://diabetes.org/living-with-diabetes/hypoglycemia-low-blood-glucose/symptoms-treatment"
+        }
+      ]
+    },
+    {
+      "id": "hypertensive-disorders",
+      "title": "Hypertension and preeclampsia",
+      "lectureRanges": [
+        {
+          "deckId": "antepartum-risks",
+          "firstPage": 30,
+          "lastPage": 38
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Compare chronic, gestational, preeclampsia, and superimposed hypertension",
+          "noteTopic": "Classify the disorder and recognize overlap"
+        },
+        {
+          "requirement": "Diagnostic measurements, protein testing, and severe BP timing",
+          "noteTopic": "Diagnostic assessment: use correct measurements and units"
+        },
+        {
+          "requirement": "Concerning symptoms, severe features, and lab findings",
+          "noteTopic": "Severe features and findings that need escalation"
+        },
+        {
+          "requirement": "Maternal/fetal complications and mechanisms",
+          "noteTopic": "Why mother and fetus are at risk"
+        },
+        {
+          "requirement": "Nursing priorities, prevention, birth, and postpartum care",
+          "noteTopic": "Nursing care, prevention, and follow-up"
+        }
+      ],
+      "topics": [
+        "Classify the disorder and recognize overlap",
+        "Diagnostic assessment: use correct measurements and units",
+        "Severe features and findings that need escalation",
+        "Why mother and fetus are at risk",
+        "Nursing care, prevention, and follow-up"
+      ],
+      "reviewSources": [
+        {
+          "title": "ACOG — Preeclampsia and high blood pressure",
+          "url": "https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy"
+        },
+        {
+          "title": "ACOG — Emergency treatment of severe hypertension",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30575639/"
+        },
+        {
+          "title": "ACOG — Low-dose aspirin during pregnancy",
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2018/07/low-dose-aspirin-use-during-pregnancy"
+        },
+        {
+          "title": "SMFM — Activity restriction in obstetric care",
+          "url": "https://publications.smfm.org/publications/326-society-for-maternal-fetal-medicine-consult-series-50/"
+        },
+        {
+          "title": "ACOG — Gestational hypertension and preeclampsia bulletin",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32443079/"
+        }
+      ]
+    },
+    {
+      "id": "eclampsia-magnesium-hellp",
+      "title": "Eclampsia, HELLP, and medication safety",
+      "lectureRanges": [
+        {
+          "deckId": "antepartum-risks",
+          "firstPage": 30,
+          "lastPage": 38
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Recognize eclampsia and immediate seizure priorities",
+          "noteTopic": "During a seizure: protect oxygenation and prevent injury"
+        },
+        {
+          "requirement": "Magnesium indication, administration, and renal safety",
+          "noteTopic": "Magnesium therapy: indication and safe administration"
+        },
+        {
+          "requirement": "Toxicity assessment and monitoring",
+          "noteTopic": "Monitor effect and distinguish toxicity"
+        },
+        {
+          "requirement": "Emergency response and antidote",
+          "noteTopic": "Suspected magnesium toxicity: stop, call, support"
+        },
+        {
+          "requirement": "Recognize HELLP and prioritize collaborative care",
+          "noteTopic": "HELLP: connect each letter with the evidence"
+        },
+        {
+          "requirement": "Antihypertensives and evaluation of treatment",
+          "noteTopic": "Antihypertensives and evaluation of the response"
+        }
+      ],
+      "topics": [
+        "During a seizure: protect oxygenation and prevent injury",
+        "Magnesium therapy: indication and safe administration",
+        "Monitor effect and distinguish toxicity",
+        "Suspected magnesium toxicity: stop, call, support",
+        "HELLP: connect each letter with the evidence",
+        "Antihypertensives and evaluation of the response"
+      ],
+      "reviewSources": [
+        {
+          "title": "ACOG — Preeclampsia and high blood pressure",
+          "url": "https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy"
+        },
+        {
+          "title": "ACOG — Emergency treatment of severe hypertension",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30575639/"
+        },
+        {
+          "title": "DailyMed — Magnesium sulfate in dextrose: prescribing information",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=03ebeabb-8386-4af4-3086-bdf3c3fc4a5a"
+        }
+      ]
+    },
+    {
+      "id": "pregnancy-prom-preterm",
+      "title": "Membrane rupture and preterm risk",
+      "lectureRanges": [
+        {
+          "deckId": "antepartum-risks",
+          "firstPage": 26,
+          "lastPage": 29
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Distinguish PROM, PPROM, and preterm labor; findings and risks",
+          "noteTopic": "Separate the terms and recognize presenting cues"
+        },
+        {
+          "requirement": "Assessment, diagnosis, and examination precautions",
+          "noteTopic": "Assess suspected rupture without increasing risk"
+        },
+        {
+          "requirement": "Gestational-age-specific management and unsafe expectant care",
+          "noteTopic": "Collaborative management depends on gestation and stability"
+        },
+        {
+          "requirement": "Steroids, antibiotics, magnesium, tocolysis, and medication safety",
+          "noteTopic": "Know what each medication is intended to do"
+        },
+        {
+          "requirement": "Nursing surveillance and patient return precautions",
+          "noteTopic": "Nursing follow-up and return precautions"
+        }
+      ],
+      "topics": [
+        "Separate the terms and recognize presenting cues",
+        "Assess suspected rupture without increasing risk",
+        "Collaborative management depends on gestation and stability",
+        "Know what each medication is intended to do",
+        "Nursing follow-up and return precautions"
+      ],
+      "reviewSources": [
+        {
+          "title": "ACOG — Prelabor rupture of membranes",
+          "url": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/03/prelabor-rupture-of-membranes"
+        },
+        {
+          "title": "ACOG — Preterm labor and birth",
+          "url": "https://www.acog.org/womens-health/faqs/preterm-labor-and-birth"
+        },
+        {
+          "title": "SMFM — Previable and periviable PPROM: Consult Series 71",
+          "url": "https://publications.smfm.org/publications/573-society-for-maternal-fetal-medicine-consult-series-71/"
+        },
+        {
+          "title": "SMFM — Activity restriction in obstetric care",
+          "url": "https://publications.smfm.org/publications/326-society-for-maternal-fetal-medicine-consult-series-50/"
+        }
+      ]
+    },
+    {
+      "id": "rh-abo-infections",
+      "title": "Alloimmunization and infection prevention",
+      "lectureRanges": [
+        {
+          "deckId": "antepartum-risks",
+          "firstPage": 39,
+          "lastPage": 43
+        },
+        {
+          "deckId": "antepartum-risks",
+          "firstPage": 45,
+          "lastPage": 45
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Rh mechanism and consequences of sensitization",
+          "noteTopic": "Rh incompatibility: explain sensitization and fetal risk"
+        },
+        {
+          "requirement": "Screening and indicated prevention",
+          "noteTopic": "Screening and indicated Rh immune globulin"
+        },
+        {
+          "requirement": "ABO incompatibility and newborn implications",
+          "noteTopic": "ABO incompatibility: newborn follow-up still matters"
+        },
+        {
+          "requirement": "Toxoplasmosis, rubella, syphilis transmission and prevention",
+          "noteTopic": "TORCH: toxoplasmosis, rubella, and syphilis"
+        },
+        {
+          "requirement": "CMV and HSV pregnancy/newborn implications",
+          "noteTopic": "TORCH: CMV and herpes simplex"
+        },
+        {
+          "requirement": "GBS screening and prevention responsibilities",
+          "noteTopic": "GBS: current-pregnancy screening and intrapartum prevention"
+        },
+        {
+          "requirement": "Nursing education, result follow-up, and handoff",
+          "noteTopic": "Nurse’s prevention and teaching responsibilities"
+        }
+      ],
+      "topics": [
+        "Rh incompatibility: explain sensitization and fetal risk",
+        "Screening and indicated Rh immune globulin",
+        "ABO incompatibility: newborn follow-up still matters",
+        "TORCH: toxoplasmosis, rubella, and syphilis",
+        "TORCH: CMV and herpes simplex",
+        "GBS: current-pregnancy screening and intrapartum prevention",
+        "Nurse’s prevention and teaching responsibilities"
+      ],
+      "reviewSources": [
+        {
+          "title": "ACOG — Rh factor and pregnancy",
+          "url": "https://www.acog.org/womens-health/faqs/the-rh-factor-how-it-can-affect-your-pregnancy"
+        },
+        {
+          "title": "ASRM — Rh(D) immune globulin in the first trimester (2026)",
+          "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/position-statement-on-rhod-immune-globulin-administration-in-the-first-trimester-2026/"
+        },
+        {
+          "title": "ACOG — Prevention of early-onset group B strep disease",
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/02/prevention-of-group-b-streptococcal-early-onset-disease-in-newborns"
+        },
+        {
+          "title": "CDC — Preventing toxoplasmosis",
+          "url": "https://www.cdc.gov/toxoplasmosis/prevention/index.html"
+        },
+        {
+          "title": "CDC — Congenital CMV",
+          "url": "https://www.cdc.gov/cytomegalovirus/congenital-infection/index.html"
+        },
+        {
+          "title": "ACOG — CMV during pregnancy",
+          "url": "https://www.acog.org/clinical-information/physician-faqs/cytomegalovirus-in-pregnancy"
+        },
+        {
+          "title": "CDC — Syphilis during pregnancy",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/syphilis-pregnancy.htm"
+        },
+        {
+          "title": "CDC — Genital herpes, pregnancy, and neonatal prevention",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/herpes.htm"
+        },
+        {
+          "title": "AAP — Hyperbilirubinemia guideline implementation",
+          "url": "https://www.aap.org/en/patient-care/hyperbilirubinemia/frequently-asked-questions-about-the-2022-aap-guideline-on-the-management-of-hyperbilirubinemia/"
+        }
+      ]
+    },
+    {
+      "id": "fluid-multiples-pregnancy",
+      "title": "Amniotic fluid disorders and multiple gestation",
+      "lectureRanges": [
+        {
+          "deckId": "antepartum-risks",
+          "firstPage": 46,
+          "lastPage": 55
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Compare low/high fluid physiology and diagnostic estimates",
+          "noteTopic": "Fluid physiology and ultrasound measurements"
+        },
+        {
+          "requirement": "Oligohydramnios causes, risks, assessment, and management",
+          "noteTopic": "Oligohydramnios: find the reason for low fluid"
+        },
+        {
+          "requirement": "Polyhydramnios causes, risks, assessment, and management",
+          "noteTopic": "Polyhydramnios: excess urine or impaired swallowing"
+        },
+        {
+          "requirement": "Additional multiple-gestation risks and care planning",
+          "noteTopic": "Multiple gestation: assess placentas, sacs, and growth"
+        },
+        {
+          "requirement": "Surveillance, patient teaching, nursing assessment, and evaluation",
+          "noteTopic": "Nursing surveillance, teaching, and evaluation"
+        }
+      ],
+      "topics": [
+        "Fluid physiology and ultrasound measurements",
+        "Oligohydramnios: find the reason for low fluid",
+        "Polyhydramnios: excess urine or impaired swallowing",
+        "Multiple gestation: assess placentas, sacs, and growth",
+        "Nursing surveillance, teaching, and evaluation"
+      ],
+      "reviewSources": [
+        {
+          "title": "SMFM — Polyhydramnios: Consult Series 46, reaffirmed 2024",
+          "url": "https://publications.smfm.org/publications/263-society-for-maternal-fetal-medicine-consult-series-46/"
+        },
+        {
+          "title": "ACOG — Multiple pregnancy",
+          "url": "https://www.acog.org/womens-health/faqs/multiple-pregnancy"
+        },
+        {
+          "title": "SMFM — Activity restriction in obstetric care",
+          "url": "https://publications.smfm.org/publications/326-society-for-maternal-fetal-medicine-consult-series-50/"
+        },
+        {
+          "title": "ACOG — Indications for antenatal fetal surveillance",
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2021/06/indications-for-outpatient-antenatal-fetal-surveillance"
+        }
+      ]
+    },
+    {
+      "id": "placental-emergency-response",
+      "title": "Placental emergencies and hemorrhage response",
+      "lectureRanges": [
+        {
+          "deckId": "antepartum-risks",
+          "firstPage": 18,
+          "lastPage": 25
+        },
+        {
+          "deckId": "antepartum-risks",
+          "firstPage": 38,
+          "lastPage": 38
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Prioritize initial assessment and urgent team activation",
+          "noteTopic": "First response: recognize severity and summon the team"
+        },
+        {
+          "requirement": "Hemorrhage response and recognition of shock",
+          "noteTopic": "Restore perfusion and prepare blood-product support"
+        },
+        {
+          "requirement": "Recognize DIC/coagulopathy and coordinate treatment",
+          "noteTopic": "DIC: simultaneous clotting and bleeding"
+        },
+        {
+          "requirement": "Fetal monitoring, birth preparation, and communication",
+          "noteTopic": "Prepare for birth and communicate the plan"
+        },
+        {
+          "requirement": "Evaluate maternal/fetal response and ongoing postpartum risk",
+          "noteTopic": "Reassess through birth and postpartum"
+        }
+      ],
+      "topics": [
+        "First response: recognize severity and summon the team",
+        "Restore perfusion and prepare blood-product support",
+        "DIC: simultaneous clotting and bleeding",
+        "Prepare for birth and communicate the plan",
+        "Reassess through birth and postpartum"
+      ],
+      "reviewSources": [
+        {
+          "title": "ACOG — Bleeding during pregnancy",
+          "url": "https://www.acog.org/womens-health/faqs/bleeding-during-pregnancy"
+        },
+        {
+          "title": "ACOG — Intrapartum fetal heart rate monitoring guideline",
+          "url": "https://journals.lww.com/greenjournal/fulltext/2025/10000/acog_clinical_practice_guideline_no_.22.aspx"
+        },
+        {
+          "title": "ACOG — Preeclampsia and high blood pressure",
+          "url": "https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy"
+        }
+      ]
+    }
+  ],
+  "visualReview": {
+    "deckId": "antepartum-risks",
+    "pages": [
+      7,
+      12,
+      14,
+      19,
+      23,
+      40
+    ],
+    "handling": "Reviewed complete existing previews for image-only ectopic anatomy, molar villi, illustrative hCG curves, previa categories, concealed/apparent abruption, and Rh sensitization; clinical interpretation does not treat illustrative hCG curves or old location labels as diagnostic criteria."
+  },
+  "clarifications": [
+    {
+      "issue": "Pregnancy loss categories, recurrent-loss count, and routine bed rest",
+      "handling": "Distinguishes symptoms from confirmed loss; management depends on stability and preference. Recurrent-loss evaluation may begin after two losses. Routine strict bed rest is not a proven treatment.",
+      "sources": [
+        "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2018/11/early-pregnancy-loss",
+        "https://publications.smfm.org/publications/326-society-for-maternal-fetal-medicine-consult-series-50/"
+      ]
+    },
+    {
+      "issue": "Ectopic diagnosis from progesterone or hCG doubling alone",
+      "handling": "Uses symptoms, transvaginal ultrasound, and appropriate serial hCG. Rupture response is immediate even with little vaginal bleeding.",
+      "sources": [
+        "https://www.acog.org/womens-health/faqs/ectopic-pregnancy"
+      ]
+    },
+    {
+      "issue": "Molar pregnancy described as always an empty sac with automatic chemotherapy",
+      "handling": "Explains complete/partial mole, evacuation, pathology, and serial hCG. Chemotherapy is for selected or persistent/malignant disease, rather than every mole.",
+      "sources": [
+        "https://www.cancer.gov/types/gestational-trophoblastic/hp/gtd-treatment-pdq"
+      ]
+    },
+    {
+      "issue": "Cervical length <3 cm and automatic cerclage/bed rest",
+      "handling": "Uses SMFM’s ≤25-mm short-cervix threshold in the specified singleton context. History, length, dilation, and gestation guide progesterone or cerclage.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/38754603/",
+        "https://publications.smfm.org/publications/326-society-for-maternal-fetal-medicine-consult-series-50/"
+      ]
+    },
+    {
+      "issue": "Hyperemesis care omits thiamine and uses ketonuria alone",
+      "handling": "Assesses hydration, nutrition, and electrolytes clinically. With prolonged poor intake, give thiamine before dextrose/nutrition, without delaying emergency glucose treatment for severe hypoglycemia.",
+      "sources": [
+        "https://doi.org/10.1111/1471-0528.17739"
+      ]
+    },
+    {
+      "issue": "Bleeding patterns treated as absolute, abruption always cesarean, and routine oxygen",
+      "handling": "Explains overlap and concealed bleeding, digital-exam precautions before excluding previa, ultrasound limits, individualized birth decisions, and oxygen for maternal need rather than routine fetal resuscitation with normal maternal saturation.",
+      "sources": [
+        "https://www.acog.org/womens-health/faqs/bleeding-during-pregnancy",
+        "https://journals.lww.com/greenjournal/fulltext/2025/10000/acog_clinical_practice_guideline_no_.22.aspx"
+      ]
+    },
+    {
+      "issue": "100-g OGTT says two of three; fixed diet, medication approval, and late insulin fall",
+      "handling": "Uses four values (95/180/155/140 mg/dL), at-or-above abnormal thresholds, and generally at least two abnormal results. A2GDM means medication-treated. Nutrition, insulin targets, other agents, and changing requirements are individualized.",
+      "sources": [
+        "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/gestational-diabetes-screening",
+        "https://diabetesjournals.org/care/article/49/Supplement_1/S321/163918/15-Management-of-Diabetes-in-Pregnancy-Standards"
+      ]
+    },
+    {
+      "issue": "Hypoglycemia, DKA, and postpartum follow-up are incomplete",
+      "handling": "Includes the 15-g/15-minute approach when safe to swallow, emergency airway/glucagon/dextrose care otherwise, lower-glucose DKA recognition, essential basal insulin in type 1 diabetes, and postpartum 75-g OGTT at 4–12 weeks with repeat screening every 1–3 years.",
+      "sources": [
+        "https://diabetes.org/living-with-diabetes/hypoglycemia-low-blood-glucose/symptoms-treatment",
+        "https://diabetesjournals.org/care/article/49/Supplement_1/S321/163918/15-Management-of-Diabetes-in-Pregnancy-Standards"
+      ]
+    },
+    {
+      "issue": "Proteinuria mandatory, severe proteinuria used for severity, six-hour BP wait, and 42-day chronic-HTN boundary",
+      "handling": "Uses proteinuria OR qualifying organ dysfunction, correct units and thresholds, prompt confirmation of severe BP, treatment within 30–60 minutes, and the usual approximately 12-week postpartum context for chronic disease.",
+      "sources": [
+        "https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy",
+        "https://pubmed.ncbi.nlm.nih.gov/30575639/"
+      ]
+    },
+    {
+      "issue": "Magnesium rapid bolus, isolated toxicity levels, and HELLP platelets <150,000",
+      "handling": "Uses ordered pump/product timing and renal adjustment, bedside breathing/reflex/urine assessment, and calcium gluconate emergency response. Complete HELLP commonly uses platelets <100,000/µL with hemolysis and liver injury.",
+      "sources": [
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=03ebeabb-8386-4af4-3086-bdf3c3fc4a5a",
+        "https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy"
+      ]
+    },
+    {
+      "issue": "PPROM routine waiting until term, steroids only after 32 weeks, prolonged tocolysis/bed rest",
+      "handling": "Gestation and stability guide expectant care versus delivery. Medication purposes/windows are separated, unnecessary digital exams limited, and infection/compromise escalated. Routine strict activity restriction is not recommended.",
+      "sources": [
+        "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/03/prelabor-rupture-of-membranes",
+        "https://www.acog.org/womens-health/faqs/preterm-labor-and-birth",
+        "https://publications.smfm.org/publications/573-society-for-maternal-fetal-medicine-consult-series-71/",
+        "https://publications.smfm.org/publications/326-society-for-maternal-fetal-medicine-consult-series-50/"
+      ]
+    },
+    {
+      "issue": "Rh prophylaxis automatic for every first-trimester loss and no ABO postpartum treatment",
+      "handling": "Uses updated ACOG-aligned early-Rh shared decision-making/protocol review. Anti-D prevents rather than reverses sensitization. ABO-affected newborns may need bilirubin/anemia treatment.",
+      "sources": [
+        "https://www.acog.org/womens-health/faqs/the-rh-factor-how-it-can-affect-your-pregnancy",
+        "https://www.asrm.org/practice-guidance/practice-committee-documents/position-statement-on-rhod-immune-globulin-administration-in-the-first-trimester-2026/"
+      ]
+    },
+    {
+      "issue": "CMV uniformly fatal, no intrauterine HSV, and prior GBS positive means antibiotics forever",
+      "handling": "Explains variable CMV outcomes and timely newborn testing, rare intrauterine HSV and birth precautions for lesions/prodrome, and current GBS screening at 36+0–37+6 with prophylaxis indications distinguished.",
+      "sources": [
+        "https://www.cdc.gov/cytomegalovirus/congenital-infection/index.html",
+        "https://www.cdc.gov/std/treatment-guidelines/herpes.htm",
+        "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/02/prevention-of-group-b-streptococcal-early-onset-disease-in-newborns"
+      ]
+    },
+    {
+      "issue": "Polyhydramnios AFI 25 and routine indomethacin; isolated oligohydramnios uniformly benign",
+      "handling": "Explains SMFM AFI ≥24 cm or DVP ≥8 cm, no indomethacin solely to reduce fluid, cause/severity-based surveillance, intrapartum amnioinfusion context, and individualized twin birth planning.",
+      "sources": [
+        "https://publications.smfm.org/publications/263-society-for-maternal-fetal-medicine-consult-series-46/",
+        "https://www.acog.org/womens-health/faqs/multiple-pregnancy"
+      ]
+    }
+  ],
+  "sharedViews": "Six Week 3 objectives populate existing exam-topic routes. Placental-emergency-response also reuses the same answer in Week 6 and therefore the Week 8 review; no objective routing, topic order, video, practice, poster, presentation, or navigation changes.",
+  "limits": "Educational synthesis. Automated checks verify source integrity, objective coverage, safe rendering, placement and preserved previous answers; they are not independent clinical validation.",
+  "preservedCompletedObjectives": [
+    {
+      "id": "family-centered-care",
+      "sha256": "70a0b3b2ece86eb8bf63f3096dc4920845f670ac30dd63c330d90b1181792671"
+    },
+    {
+      "id": "pregnancy-adaptations",
+      "sha256": "cf195c48ab0f0f1ac71c5cded8f7ade851b4982250c7fb49821e9c42fb7401c2"
+    },
+    {
+      "id": "pregnancy-psychosocial-care",
+      "sha256": "a8fc5c78a886aac82d8136712864eaabd54876c1ceaec7f416e1ac74de96f7bf"
+    },
+    {
+      "id": "conception-fetal-development",
+      "sha256": "a977e1cfd51356225669fd1b760339b7310344d798eb56b69bd1dfb8487ebe3e"
+    },
+    {
+      "id": "pregnancy-signs",
+      "sha256": "d84d6ebc86af9ccf967fc27f093e1962d0012f37730f7c6ed42f09df0e17856a"
+    },
+    {
+      "id": "obstetric-history-gtpal",
+      "sha256": "70b17bd7266c0e4a5f3cbccdd7ec5bf7afff46deb2a254895cf9b814fc7449f5"
+    },
+    {
+      "id": "estimated-due-date",
+      "sha256": "4c7fb355ae71583d39b8eadc5cf27390b0a8cda16b575c5be8be739432901f17"
+    },
+    {
+      "id": "prenatal-assessment",
+      "sha256": "6b6348d843955794ec685927ab731331b7231d2f0ecc6bad6b5fb35faa1fba4e"
+    },
+    {
+      "id": "pregnancy-discomforts",
+      "sha256": "34c498545e7a2cfbaaed7ecbadb19f82b6b852084fdc5d1fe72c8dd230e0da8e"
+    },
+    {
+      "id": "prenatal-nutrition-teaching",
+      "sha256": "83e1f0e7ee44b5408a6c51eb18c495ba50bb04abfcfada596d3c25c1edacb0da"
+    }
+  ]
+}

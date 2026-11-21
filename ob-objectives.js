@@ -2232,44 +2232,1735 @@ const obStudyObjectives = [
     ]
   },
   {
-    id:'high-risk-pregnancy-assessment',weekIds:['week-3'],topicIds:[],title:'Assessing a high-risk pregnancy',
-    text:'Identify maternal and fetal factors that make a pregnancy high risk. Explain how assessment findings guide surveillance, referrals, patient education, and the nursing plan of care.',answer:[]
+    "id": "high-risk-pregnancy-assessment",
+    "weekIds": [
+      "week-3"
+    ],
+    "topicIds": [],
+    "title": "Assessing a high-risk pregnancy",
+    "text": "Identify maternal and fetal factors that make a pregnancy high risk. Explain how assessment findings guide surveillance, referrals, patient education, and the nursing plan of care.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "A high-risk pregnancy has maternal, fetal, placental, or social factors that increase the chance of complications; risk can exist before conception or develop suddenly.",
+          "Assess the patient first, then connect the findings to targeted maternal–fetal surveillance, specialist referral, teaching, and practical support.",
+          "A risk factor calls for a plan, not a prediction of a poor outcome. Reassess throughout pregnancy, birth, and postpartum; escalate new warning signs immediately."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Recognize maternal, fetal, and pregnancy-related risks",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Preexisting maternal factors",
+                "text": "Diabetes, chronic hypertension, renal/cardiac disease, autoimmune disease, anemia, and relevant medications can alter pregnancy care. Review prior cesarean birth, preterm birth, preeclampsia, hemorrhage, losses, and an affected newborn."
+              },
+              {
+                "label": "Conditions arising in pregnancy",
+                "text": "Bleeding, hyperemesis, infection, gestational diabetes, hypertensive disorders, membrane rupture, and preterm labor may change a previously low-risk pregnancy. Age and BMI contribute to assessment but do not determine the entire plan."
+              },
+              {
+                "label": "Fetal and placental factors",
+                "text": "Multiple gestation, abnormal growth/anatomy, alloimmunization, abnormal fluid volume, and placental location/separation can require additional evaluation. Distinguish a screening concern from a confirmed diagnosis."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Assess the whole patient and prioritize the findings",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Current status",
+                "text": "Establish gestational age, symptoms/onset, vital signs including BP and oxygen saturation when indicated, bleeding/fluid loss, pain, intake/output, and fetal movement/heart assessment appropriate to gestation. Instability takes priority over completing a routine history."
+              },
+              {
+                "label": "Baseline and trends",
+                "text": "Review CBC/platelets, blood group/antibody screen, glucose, urine/infection results, and renal/liver studies when indicated. Compare with prior results; a falling platelet count or worsening BP matters even before every diagnostic criterion is met."
+              },
+              {
+                "label": "Social and safety assessment",
+                "text": "Ask privately about violence, mood, substance exposure, food/housing insecurity, transportation, language, and ability to obtain medicines or attend visits. Assess actual barriers without labeling the patient “noncompliant.”"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Match surveillance and referrals to the problem",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Maternal monitoring",
+                "text": "Examples: glucose logs for diabetes; BP, symptoms, platelets, creatinine, and liver tests for hypertensive disease; quantified bleeding/CBC/coagulation studies for hemorrhage. Frequency increases with acuity."
+              },
+              {
+                "label": "Fetal surveillance",
+                "text": "Ultrasound assesses growth, anatomy, fluid, and placenta. A nonstress test (NST) evaluates fetal heart-rate reactivity; a biophysical profile (BPP) adds ultrasound assessment of movement, tone, breathing, and fluid. Doppler studies answer specific blood-flow questions."
+              },
+              {
+                "label": "Coordinate care",
+                "text": "Arrange obstetric/MFM review and condition-specific services such as endocrinology, dietetics, genetics, social work, or neonatal consultation. Explain what a test can and cannot answer and ensure results reach the responsible clinician."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Build and evaluate the nursing plan",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Priorities",
+                "text": "Examples of nursing problems include impaired perfusion, risk for fluid-volume deficit, unstable glucose, infection risk, anxiety, and difficulty accessing care. Link each to the patient’s findings rather than using the same list for everyone."
+              },
+              {
+                "label": "Actions and measurable goals",
+                "text": "Set goals such as stable vital signs, adequate urine output, glucose within the prescribed range, reassuring fetal assessment, and a patient who can explain the escalation plan. Implement ordered treatment, reassess response, and communicate deterioration using SBAR."
+              },
+              {
+                "label": "Teaching and support",
+                "text": "Provide short instructions, written contact/triage details, teach-back, and support people chosen by the patient. Hospital observation may be necessary for complications; routine strict bed rest is not a proven treatment for every high-risk condition and can cause harm."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Apply it: a risk factor versus an emergency",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Controlled chronic hypertension without new symptoms → review the BP/medication plan, preeclampsia prevention eligibility, and scheduled maternal/fetal monitoring.",
+              "Severe headache, visual changes, upper abdominal pain, or severe-range BP → prompt assessment and escalation for severe hypertension/preeclampsia.",
+              "Bleeding with faintness, severe pain, chest pain, severe dyspnea, seizure, or reduced fetal movement → urgent/emergency assessment rather than waiting for the next visit."
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Synthesis of the Week 3 risks discussed throughout Antepartum Risks, pages 2–55, and Diabetes in Pregnancy, pages 2–26. Organized around assessment, surveillance, referral, and the nursing plan rather than implying a separate high-risk lecture was supplied.",
+    "answerSources": [
+      {
+        "title": "NICHD — High-risk pregnancy",
+        "url": "https://www.nichd.nih.gov/health/topics/factsheets/high-risk"
+      },
+      {
+        "title": "CDC Hear Her — Urgent maternal warning signs",
+        "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+      },
+      {
+        "title": "SMFM — Activity restriction in obstetric care",
+        "url": "https://publications.smfm.org/publications/326-society-for-maternal-fetal-medicine-consult-series-50/"
+      }
+    ]
   },
   {
-    id:'early-pregnancy-complications',weekIds:['week-3'],topicIds:[],title:'Early pregnancy complications',
-    text:'Compare pregnancy loss, ectopic pregnancy, gestational trophoblastic disease, cervical insufficiency, and hyperemesis. For each, identify the assessment cues, diagnostic approach, management, safety priorities, and support needs emphasized in the lecture.',answer:[]
+    "id": "early-pregnancy-complications",
+    "weekIds": [
+      "week-3"
+    ],
+    "topicIds": [],
+    "title": "Early pregnancy complications",
+    "text": "Compare pregnancy loss, ectopic pregnancy, gestational trophoblastic disease, cervical insufficiency, and hyperemesis. For each, identify the assessment cues, diagnostic approach, management, safety priorities, and support needs emphasized in the lecture.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Compare the pattern: pregnancy loss often causes bleeding/cramping; ectopic pregnancy can cause internal hemorrhage; molar pregnancy involves abnormal trophoblastic growth; cervical insufficiency may cause painless second-trimester dilation; hyperemesis causes inability to maintain intake.",
+          "Use symptoms, vital signs, ultrasound, and appropriate laboratory trends together. Neither one hCG value nor an assumed “doubling” rule independently proves location or viability.",
+          "Stabilize bleeding, infection, or dehydration first; then support informed treatment choices, follow-up, and grief care without blame."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Pregnancy loss: distinguish the lecture terms",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Threatened versus inevitable",
+                "text": "Threatened: bleeding, sometimes cramps, with a closed cervix and a pregnancy that may continue. Inevitable: cervical dilation with bleeding/cramping suggests loss is progressing. Confirm the clinical diagnosis; bleeding alone does not establish miscarriage."
+              },
+              {
+                "label": "Complete versus incomplete",
+                "text": "Complete: pregnancy tissue has passed and symptoms usually decrease. Incomplete: tissue remains, with ongoing bleeding/cramping and risk of hemorrhage or infection. Ultrasound and follow-up help confirm completion."
+              },
+              {
+                "label": "Missed and septic loss",
+                "text": "Missed loss: a nonviable pregnancy remains in the uterus, sometimes without bleeding. Septic loss: fever, uterine tenderness, foul discharge, or systemic illness requires urgent antibiotics and source control. Do not assume a rigid retained-tissue time predicts DIC."
+              },
+              {
+                "label": "Recurrent loss",
+                "text": "The slide uses three consecutive losses; contemporary assessment may begin after two losses. Ask about the full history and refer for individualized evaluation instead of waiting for a third event by rule."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Pregnancy loss: assessment, treatment, and follow-up",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Assess and confirm",
+                "text": "Measure bleeding, pain, vital signs, and hemodynamic status; review CBC, blood type/antibodies, ultrasound, and hCG when indicated. A scan too early to be definitive may require a planned repeat before treatment."
+              },
+              {
+                "label": "Management choices",
+                "text": "If stable and appropriate, expectant care, prescribed medication, or uterine aspiration/evacuation may be offered according to diagnosis and preference. Hemorrhage, infection, or instability requires urgent intervention, IV access, and possible blood products."
+              },
+              {
+                "label": "Nursing teaching",
+                "text": "Explain expected cramping/bleeding, analgesia, how completion is confirmed, and when to return for heavy bleeding, syncope, fever, or worsening pain. Bed rest has not been shown to prevent an early loss. Review Rh prophylaxis using gestation and current protocol rather than an automatic rule for every early loss."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Ectopic pregnancy: recognize rupture and follow treatment",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Cues and risks",
+                "text": "Amenorrhea/positive hCG with pelvic or one-sided pain and spotting may occur. Prior ectopic pregnancy, tubal damage/PID, tubal surgery, or assisted reproduction increases concern; absence of risk factors does not rule it out. Pregnancy with an IUD is uncommon, but if it occurs the location must be assessed."
+              },
+              {
+                "label": "Diagnostic approach",
+                "text": "Transvaginal ultrasound plus quantitative hCG trends and clinical assessment locate the pregnancy. A pregnancy of unknown location needs a follow-up plan. A single progesterone cutoff or failure to double hCG is not a definitive ectopic diagnosis."
+              },
+              {
+                "label": "Rupture is an emergency",
+                "text": "Sudden severe abdominal/shoulder pain, dizziness/syncope, tachycardia, or hypotension can indicate intraperitoneal hemorrhage with little vaginal bleeding. Activate urgent help, support circulation, and prepare for surgery; do not wait for serial laboratory results."
+              },
+              {
+                "label": "Treatment and teaching",
+                "text": "Selected stable, unruptured cases may receive methotrexate with eligibility assessment and reliable serial hCG follow-up; surgery is required for rupture/instability and other indications. After methotrexate, follow the team’s instructions on medicines, folic acid, alcohol, sex, and conception timing. Rupture remains possible until resolution."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Gestational trophoblastic disease: molar pregnancy and follow-up",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "What changes",
+                "text": "Abnormal trophoblastic/placental proliferation can form swollen grape-like villi. Complete and partial moles differ; a partial mole may contain abnormal fetal tissue, so not every molar pregnancy is an “empty sac.”"
+              },
+              {
+                "label": "Cues and diagnosis",
+                "text": "Bleeding, unusually severe nausea, hCG higher than expected, uterine size inconsistent with dates, or preeclampsia unusually early in pregnancy raise concern. Ultrasound, hCG, and tissue pathology establish the diagnosis; the lecture hCG chart is illustrative, not a diagnostic cutoff."
+              },
+              {
+                "label": "Management",
+                "text": "Uterine evacuation is usual initial treatment for a mole. Chemotherapy is used for persistent/malignant disease and selected specialist indications, not automatically for every patient with a mole."
+              },
+              {
+                "label": "Nursing priorities",
+                "text": "Monitor bleeding and perioperative stability; provide loss support. Emphasize serial hCG until the specialist surveillance plan is complete and reliable contraception during that interval, because a new pregnancy obscures interpretation. Persistent/rising hCG requires review for gestational trophoblastic neoplasia."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Cervical insufficiency: painless dilation is the clue",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Assessment cues",
+                "text": "Prior painless second-trimester losses/preterm birth, pelvic pressure, pink discharge, or painless cervical change raise concern. Transvaginal ultrasound measures cervical length; a short cervix and cervical insufficiency are related but not identical diagnoses."
+              },
+              {
+                "label": "Clarify the slide cutoff",
+                "text": "For an asymptomatic singleton pregnancy without prior spontaneous preterm birth, SMFM uses ≤25 mm in midpregnancy for a short cervix, not a universal <3-cm rule. History and actual dilation change management."
+              },
+              {
+                "label": "Management and teaching",
+                "text": "Selected patients may receive vaginal progesterone or a cerclage (cervical suture) based on history, ultrasound, and examination. Cerclage is not automatic for every short cervix or multiple pregnancy. Teach prompt reporting of contractions, bleeding, fluid leakage, or fever; confirm the follow-up/removal plan. Routine bed rest is not a substitute for surveillance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Hyperemesis: restore hydration and nutrition safely",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Recognize and assess",
+                "text": "Persistent severe vomiting with inability to eat/drink, weight loss, dehydration, or electrolyte abnormalities needs assessment beyond routine morning-sickness advice. Track intake/output, weight, orthostatic symptoms, electrolytes/renal function, and alternative causes. Ketonuria alone does not grade severity."
+              },
+              {
+                "label": "Collaborative management",
+                "text": "Give prescribed antiemetics, IV isotonic fluids, and electrolyte replacement guided by results and renal status. With prolonged vomiting or poor intake, thiamine is given before dextrose-containing fluids/nutrition to reduce Wernicke encephalopathy risk. Do not delay emergency glucose treatment for severe hypoglycemia."
+              },
+              {
+                "label": "Escalation and evaluation",
+                "text": "Resume tolerated small meals/fluids as symptoms improve. Dietitian input, enteral feeding, or occasionally parenteral nutrition may be needed when intake remains inadequate. Reassess urine output, weight, electrolytes, and ability to take medicines/fluids; address distress and access to treatment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Family support and quick comparison",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Ask what language the patient prefers for the pregnancy/loss and whom they want involved. Explain uncertainty and choices in small steps; avoid “at least…” statements, blame, or a fixed timetable for grief.",
+              "Bleeding + closed cervix does not automatically mean loss. Severe unilateral/shoulder pain + faintness means possible ruptured ectopic pregnancy and urgent stabilization.",
+              "Painless second-trimester dilation suggests cervical insufficiency; persistent vomiting with poor intake requires hydration/nutrition assessment. Give a clear follow-up and emergency-return plan for each condition."
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Based on Antepartum Risks, pages 2–17, including the ectopic diagram, molar-tissue image, and illustrative hCG chart. Diagnostic shortcuts, routine bed rest/chemotherapy, cervical-length thresholds, and nutrition safety are clarified below.",
+    "answerSources": [
+      {
+        "title": "ACOG — Early pregnancy loss",
+        "url": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2018/11/early-pregnancy-loss"
+      },
+      {
+        "title": "ACOG — Ectopic pregnancy",
+        "url": "https://www.acog.org/womens-health/faqs/ectopic-pregnancy"
+      },
+      {
+        "title": "National Cancer Institute — Gestational trophoblastic disease treatment",
+        "url": "https://www.cancer.gov/types/gestational-trophoblastic/hp/gtd-treatment-pdq"
+      },
+      {
+        "title": "SMFM — Short cervix: Consult Series 70",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38754603/"
+      },
+      {
+        "title": "RCOG — Nausea, vomiting, and hyperemesis: Green-top Guideline 69",
+        "url": "https://doi.org/10.1111/1471-0528.17739"
+      },
+      {
+        "title": "SMFM — Activity restriction in obstetric care",
+        "url": "https://publications.smfm.org/publications/326-society-for-maternal-fetal-medicine-consult-series-50/"
+      },
+      {
+        "title": "ASRM — Rh(D) immune globulin in the first trimester (2026)",
+        "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/position-statement-on-rhod-immune-globulin-administration-in-the-first-trimester-2026/"
+      },
+      {
+        "title": "ACOG — Repeated miscarriages",
+        "url": "https://www.acog.org/womens-health/faqs/Repeated-Miscarriages"
+      }
+    ]
   },
   {
-    id:'placental-bleeding',weekIds:['week-3'],topicIds:['labor-emergencies'],title:'Placenta previa and placental abruption',
-    text:'Compare placenta previa and placental abruption using risk factors, bleeding, pain, uterine findings, and fetal assessment. Explain the diagnostic approach, precautions, and priorities for maternal and fetal safety.',answer:[]
+    "id": "placental-bleeding",
+    "weekIds": [
+      "week-3"
+    ],
+    "topicIds": [
+      "labor-emergencies"
+    ],
+    "title": "Placenta previa and placental abruption",
+    "text": "Compare placenta previa and placental abruption using risk factors, bleeding, pain, uterine findings, and fetal assessment. Explain the diagnostic approach, precautions, and priorities for maternal and fetal safety.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Placenta previa covers the cervical opening and classically causes painless bright-red bleeding; placental abruption is premature placental separation, often with pain, tenderness, or a firm uterus.",
+          "Bleeding may be concealed in abruption. Color, visible amount, or the absence of pain cannot independently establish or exclude either diagnosis.",
+          "Assess maternal circulation and fetal status urgently. Do not perform a digital vaginal examination until previa has been excluded; prepare for hemorrhage management and possible urgent birth."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Placenta previa: location, risks, and expected pattern",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Mechanism and terminology",
+                "text": "Placenta overlies the internal cervical os; a low-lying placenta is near but not covering it. The lecture shows marginal/partial/complete categories; current assessment emphasizes ultrasound location and distance from the os."
+              },
+              {
+                "label": "Risk factors",
+                "text": "Prior previa, cesarean/uterine surgery, multiple gestation, smoking, and increasing maternal age are associated. Previa with prior cesarean birth also raises concern for placenta accreta spectrum and major hemorrhage."
+              },
+              {
+                "label": "Typical findings",
+                "text": "Recurrent painless bright-red bleeding in the second half of pregnancy; uterus often soft and nontender. Abnormal fetal lie may occur. Contractions or pain can coexist, so the classic pattern is a clue, not a rule."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Placental abruption: separation and hidden blood loss",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Mechanism and risks",
+                "text": "Premature separation reduces placental exchange and causes hemorrhage. Prior abruption, hypertension/preeclampsia, trauma, smoking/cocaine exposure, and uterine overdistension increase concern. Avoid blaming the patient when discussing exposures."
+              },
+              {
+                "label": "Typical findings",
+                "text": "Sudden abdominal/back pain, uterine tenderness, frequent contractions or sustained firm/rigid tone, with or without vaginal bleeding. Blood may remain behind the placenta; visible bleeding can underestimate severity."
+              },
+              {
+                "label": "Maternal and fetal effects",
+                "text": "Maternal shock, DIC, and organ hypoperfusion; fetal distress, growth restriction with chronic disease, prematurity, or death. Worsening fetal heart rate or maternal status may be the first sign of severe concealed bleeding."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Diagnostic approach and examination precautions",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Ultrasound",
+                "text": "Defines placental location; transvaginal ultrasound performed by trained staff is appropriate for assessing previa. A normal ultrasound does not rule out abruption, which is primarily a clinical diagnosis."
+              },
+              {
+                "label": "Assess both patients",
+                "text": "Vital signs, mentation, perfusion, pain/uterine tone, contractions, bleeding trend, and continuous fetal monitoring when appropriate. Obtain CBC/platelets, type and crossmatch, fibrinogen, PT/aPTT, and other ordered tests."
+              },
+              {
+                "label": "Avoid provoking hemorrhage",
+                "text": "No digital vaginal examination before previa is excluded. Communicate the suspected placental problem before anyone examines the cervix; a clinician may perform a carefully indicated sterile speculum assessment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Nursing priorities: stabilize while the team evaluates",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Activate the obstetric team/hemorrhage response for significant bleeding or instability. Assess airway, breathing, circulation, gestational age, and fetal status concurrently.",
+              "Quantify visible loss, maintain IV access (large-bore access for major bleeding), obtain ordered samples, prepare fluids/blood products, and trend vital signs and urine output. Do not delay resuscitation because the initial hemoglobin looks normal.",
+              "Reposition to reduce aortocaval compression as tolerated, keep the patient warm, and provide oxygen for maternal hypoxemia or resuscitation needs; oxygen is not a routine treatment for an abnormal fetal tracing when maternal saturation is normal.",
+              "Prepare for birth, anesthesia, neonatal support, and possible massive transfusion according to maternal/fetal status. Explain actions calmly and support consent and the patient’s chosen support person."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Birth planning and evaluation",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Previa",
+                "text": "A persistent placenta covering the os generally requires cesarean birth; timing depends on bleeding, labor, gestational age, and stability. A low-lying placenta has an individualized plan. Stable patients may have expectant care with clear return precautions."
+              },
+              {
+                "label": "Abruption",
+                "text": "Prompt delivery is often needed for significant abruption, maternal instability, or fetal compromise. Cesarean is not automatic in every case; fetal status, labor progress, bleeding, and coagulopathy guide the team’s decision."
+              },
+              {
+                "label": "Evaluate and teach",
+                "text": "Track perfusion, bleeding, labs, and fetal response through birth and postpartum. Teach immediate contact for new bleeding, pain, contractions, fluid loss, or decreased fetal movement. Pelvic/activity restrictions and observation are individualized; routine long-term strict bed rest is not a universal treatment."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Based on Antepartum Risks, pages 18–25, including the previa-location and concealed/apparent-abruption diagrams. Classic patterns are qualified; examination precautions, oxygen use, and individualized birth decisions are clarified.",
+    "answerSources": [
+      {
+        "title": "ACOG — Bleeding during pregnancy",
+        "url": "https://www.acog.org/womens-health/faqs/bleeding-during-pregnancy"
+      },
+      {
+        "title": "ACOG — Intrapartum fetal heart rate monitoring guideline",
+        "url": "https://journals.lww.com/greenjournal/fulltext/2025/10000/acog_clinical_practice_guideline_no_.22.aspx"
+      },
+      {
+        "title": "SMFM — Activity restriction in obstetric care",
+        "url": "https://publications.smfm.org/publications/326-society-for-maternal-fetal-medicine-consult-series-50/"
+      }
+    ]
   },
   {
-    id:'diabetes-assessment',weekIds:['week-3'],topicIds:['pregnancy-complications'],title:'Diabetes: screening and assessment',
-    text:'Distinguish pregestational diabetes from gestational diabetes. Interpret the screening and diagnostic tests used in the course, and connect glucose control with maternal, fetal, and newborn risks.',answer:[]
+    "id": "diabetes-assessment",
+    "weekIds": [
+      "week-3"
+    ],
+    "topicIds": [
+      "pregnancy-complications"
+    ],
+    "title": "Diabetes: screening and assessment",
+    "text": "Distinguish pregestational diabetes from gestational diabetes. Interpret the screening and diagnostic tests used in the course, and connect glucose control with maternal, fetal, and newborn risks.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Pregestational diabetes is type 1 or type 2 diabetes present before pregnancy; GDM is diabetes diagnosed later in pregnancy that is not clearly preexisting overt diabetes.",
+          "Pregnancy progressively increases insulin resistance. Maternal glucose crosses the placenta, causing fetal insulin production; maternal insulin does not cross in clinically meaningful amounts.",
+          "Know the course’s two-step testing: 50-g screen, then a fasting 100-g/3-hour OGTT when indicated. A positive screen is not the same as a diagnosis."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Types, timing, and pregnancy metabolism",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Pregestational diabetes",
+                "text": "Type 1 involves insulin deficiency; type 2 commonly involves insulin resistance with inadequate insulin secretion. Identify the diagnosis, current treatment, complications, and preconception control. Overt diabetes first recognized early in pregnancy may represent previously undiagnosed disease."
+              },
+              {
+                "label": "GDM and A1/A2",
+                "text": "GDM commonly becomes apparent at 24–28 weeks as placental hormones increase insulin resistance. A1GDM is managed without medication; A2GDM requires medication, often insulin, and is not defined only by one particular drug."
+              },
+              {
+                "label": "Changing requirements",
+                "text": "Early pregnancy nausea/increased insulin sensitivity can increase hypoglycemia risk. Insulin requirements often rise later and drop after placental delivery. Do not assume every patient needs less insulin at a fixed week near term; an unexpected change deserves review."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Step 1: screening and early assessment",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Routine timing",
+                "text": "Screen for GDM at 24–28 weeks even when there are no symptoms. Risk factors include prior GDM, family history, elevated prepregnancy BMI, and prior macrosomia; assess the individual rather than relying on age alone."
+              },
+              {
+                "label": "50-g glucose challenge",
+                "text": "Usually a nonfasting drink followed by a 1-hour glucose level. Depending on the service, a cutoff of 130, 135, or 140 mg/dL triggers diagnostic testing. Explain the local instructions and that an abnormal screen needs follow-up."
+              },
+              {
+                "label": "Early testing",
+                "text": "Selected patients are assessed early for overt/preexisting diabetes and abnormal glucose metabolism. A normal early result does not automatically replace routine 24–28-week testing. Glycosuria alone is not diagnostic."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Step 2: interpret the course’s diagnostic OGTT",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "100-g, 3-hour test",
+                "text": "Follow the laboratory’s fasting and preparation instructions; do not restrict carbohydrates to try to “pass.” Four blood samples are obtained: fasting, then 1, 2, and 3 hours after the glucose load."
+              },
+              {
+                "label": "Carpenter–Coustan thresholds",
+                "text": "Fasting 95; 1 hour 180; 2 hours 155; 3 hours 140 mg/dL. Values AT OR ABOVE the thresholds are abnormal. At least two of the FOUR values are generally required under this approach; the slide’s “two out of three” is an error."
+              },
+              {
+                "label": "Apply it",
+                "text": "Fasting 97, 1 hour 185, 2 hours 150, 3 hours 135 → fasting and 1 hour are abnormal: two abnormal results meet the course’s two-step criteria. A 1-hour screening result of 145 alone is not this diagnostic test."
+              },
+              {
+                "label": "Keep protocols separate",
+                "text": "Some services use a one-step 75-g OGTT with different thresholds and only one abnormal value needed. Do not apply 100-g criteria to that test. HbA1c helps assess longer-term control/preexisting diabetes but does not replace the usual GDM OGTT."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Connect glucose exposure to maternal, fetal, and newborn risks",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Maternal risks",
+                "text": "Hypoglycemia during treatment; DKA with insulin deficiency; infection, preeclampsia, polyhydramnios, and operative birth. Preexisting renal/retinal disease needs condition-specific assessment."
+              },
+              {
+                "label": "Early fetal exposure",
+                "text": "Poor control during organ formation in pregestational/overt diabetes raises miscarriage and congenital anomaly risks. GDM first arising after organogenesis is not automatically associated with the same early-malformation mechanism."
+              },
+              {
+                "label": "Later fetal effects",
+                "text": "Excess glucose → fetal hyperinsulinemia → increased growth/adiposity, macrosomia and shoulder-dystocia/birth-injury risk. Maternal vascular disease can instead cause placental insufficiency and fetal growth restriction; not every fetus is large."
+              },
+              {
+                "label": "After birth",
+                "text": "Placental glucose supply stops while the newborn’s insulin may remain high → neonatal hypoglycemia. Respiratory distress, polycythemia, and hyperbilirubinemia may also occur; risk depends on the whole clinical picture, not a guaranteed outcome."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Nursing assessment and diagnostic limits",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Review the pattern",
+                "text": "Assess fasting/meal-related glucose, treatment, food intake, hypoglycemia episodes, illness/ketones when indicated, weight trend, BP, and fetal growth. Ask about access to supplies and ability to use a meter or CGM."
+              },
+              {
+                "label": "Do not wait for classic symptoms",
+                "text": "GDM often has no symptoms. Polyuria/polydipsia or recurrent infections merit review; vomiting, abdominal pain, rapid breathing, dehydration, or altered consciousness raises concern for DKA even with less dramatic hyperglycemia in pregnancy."
+              },
+              {
+                "label": "Follow through",
+                "text": "Communicate abnormal screens, arrange diagnostic testing, document the diagnosis/plan clearly, and connect to diabetes education, nutrition, and obstetric/MFM care. Explain that diagnosis guides prevention and support rather than reflecting personal failure."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Based on Diabetes in Pregnancy, pages 2–14 and 20–24. Clarifies four diagnostic samples, threshold equality, GDM medication categories, timing of fetal risk, and screening versus diagnosis.",
+    "answerSources": [
+      {
+        "title": "ADA — Management of diabetes in pregnancy: Standards of Care 2026",
+        "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S321/163918/15-Management-of-Diabetes-in-Pregnancy-Standards"
+      },
+      {
+        "title": "USPSTF — Gestational diabetes screening",
+        "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/gestational-diabetes-screening"
+      },
+      {
+        "title": "ADA — 2026 pregnancy care summary",
+        "url": "https://diabetesjournals.org/docm-care/article/doi/10.2337/doc26-a015/164617/Section-15-Management-of-Diabetes-in-Pregnancy"
+      }
+    ]
   },
   {
-    id:'diabetes-nursing-management',weekIds:['week-3'],topicIds:['pregnancy-complications'],title:'Diabetes: nursing care and teaching',
-    text:'Explain glucose monitoring, nutrition, activity, prescribed medication, and fetal surveillance in a pregnancy complicated by diabetes. Recognize hypo- and hyperglycemia, prioritize interventions, and describe intrapartum and postpartum follow-up.',answer:[]
+    "id": "diabetes-nursing-management",
+    "weekIds": [
+      "week-3"
+    ],
+    "topicIds": [
+      "pregnancy-complications"
+    ],
+    "title": "Diabetes: nursing care and teaching",
+    "text": "Explain glucose monitoring, nutrition, activity, prescribed medication, and fetal surveillance in a pregnancy complicated by diabetes. Recognize hypo- and hyperglycemia, prioritize interventions, and describe intrapartum and postpartum follow-up.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Coordinate glucose monitoring, adequate nutrition/activity, prescribed medication, and fetal surveillance; individualize targets and adjust treatment as pregnancy changes.",
+          "Treat hypoglycemia promptly and recognize possible DKA as an emergency. In type 1 diabetes, essential insulin must not be stopped simply because the patient is vomiting or not eating.",
+          "Plan for frequent glucose checks during labor, a marked fall in insulin needs after birth, newborn glucose/feeding assessment, and postpartum diabetes testing after GDM."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Monitoring: connect the number to its timing",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Common pregnancy targets",
+                "text": "Typical goals are fasting <95 mg/dL, 1-hour after meals <140, or 2-hour after meals <120. The team individualizes goals to avoid significant hypoglycemia; do not confuse these treatment goals with diagnostic OGTT thresholds."
+              },
+              {
+                "label": "Schedule and technique",
+                "text": "Check fasting and postmeal glucose as prescribed; insulin-treated/preexisting diabetes may also require premeal, bedtime, overnight, or symptom checks. Teach correct meter use, CGM interpretation, and when a fingerstick confirmation is needed."
+              },
+              {
+                "label": "Log and report",
+                "text": "Record readings with meal timing, medicine doses, activity, illness, and symptoms. Discuss patterns rather than one isolated number; repeated out-of-range results need timely review, not independent dose changes unless a written adjustment plan exists."
+              },
+              {
+                "label": "HbA1c context",
+                "text": "HbA1c complements glucose logs in preexisting diabetes. A pregnancy goal near <6% may be used if achievable without significant hypoglycemia; the team relaxes the goal when necessary for safety. Preconception goals commonly aim for <6.5% to reduce early fetal risk."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Nutrition and activity without underfeeding",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Nutrition plan",
+                "text": "Refer to a dietitian for adequate pregnancy energy, carbohydrate, protein, and micronutrients. Distribute carbohydrate across meals/snacks, choose fiber-rich foods, and pair foods thoughtfully; avoid starvation or a ketogenic diet to lower readings."
+              },
+              {
+                "label": "Activity",
+                "text": "Use safe, tolerated activity after obstetric review; a postmeal walk may help glucose control. Bleeding, membrane rupture, preterm symptoms, or other complications may change the plan. Have rapid-acting carbohydrate available if taking insulin."
+              },
+              {
+                "label": "Practical support",
+                "text": "Adapt to culture, work schedule, nausea, food access, and cost of supplies. Teach that insulin may be needed despite careful nutrition; treatment escalation is not a moral failure. The slide’s fixed calorie/macronutrient recipe is not a universal prescription."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Medication teaching and changing insulin needs",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Insulin",
+                "text": "Preferred pharmacologic treatment for many pregnancies complicated by diabetes, and essential for type 1. Teach the exact product, units, route, timing, injection/storage technique, and device use; verify insulin orders carefully and use the prescribed pump/pen protocol."
+              },
+              {
+                "label": "Match insulin and food",
+                "text": "Rapid-acting lispro/aspart is coordinated closely with meals; regular insulin has a different onset; NPH has a later peak that can cause delayed/overnight hypoglycemia. Product/action tables are approximate, not interchangeable dosing instructions."
+              },
+              {
+                "label": "Other agents",
+                "text": "ADA recommends insulin as first-line medication in pregnancy; metformin and glyburide cross the placenta and are not recommended as first-line agents. Some protocols use metformin after individualized counseling, and insulin may still be needed. Review all diabetes and comorbidity medicines with the obstetric/endocrine team; do not assume the slide’s blanket medication-approval statement is accurate."
+              },
+              {
+                "label": "Dose changes",
+                "text": "Requirements often rise later in pregnancy and fall rapidly postpartum; illness, steroids, intake, and activity also affect them. An unexpected sustained decrease late in pregnancy needs clinical review rather than automatic reassurance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Hypoglycemia: recognize, treat, and reassess",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Cues",
+                "text": "Sweating, tremor, hunger, palpitations, headache, irritability, confusion, or seizure. Check glucose promptly; do not assume dizziness or altered behavior is “just pregnancy.”"
+              },
+              {
+                "label": "Awake and safe to swallow",
+                "text": "For glucose <70 mg/dL, follow the prescribed plan; the common 15–15 approach gives 15 g of fast-acting carbohydrate, rechecks in 15 minutes, and repeats if still low. Follow with a meal/snack as appropriate once corrected."
+              },
+              {
+                "label": "Unsafe to swallow or unconscious",
+                "text": "Call emergency help, protect airway, and give prescribed glucagon or IV dextrose per protocol. Give nothing by mouth. Reassess glucose and neurologic status; investigate the cause and revise the prevention plan."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Hyperglycemia, illness, and DKA",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Recognize risk",
+                "text": "Thirst/polyuria may occur with hyperglycemia. Vomiting, abdominal pain, dehydration, fruity breath, rapid/deep breathing, or altered consciousness suggests DKA, which can occur at lower glucose levels in pregnancy."
+              },
+              {
+                "label": "Sick-day teaching",
+                "text": "Use the team’s plan for more frequent glucose and ketone checks, fluids/carbohydrate intake, and when to call. Never stop basal insulin in type 1 diabetes without a supervised replacement plan; inability to keep fluids down or positive/rising ketones requires prompt assessment."
+              },
+              {
+                "label": "Emergency nursing priorities",
+                "text": "Escalate immediately; assess circulation, electrolytes/ketones and acid–base status, and fetal status as appropriate. Administer ordered IV fluids, insulin, and electrolyte replacement with close monitoring. Treat maternal metabolic instability rather than waiting for glucose to become extremely high."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Fetal surveillance and intrapartum care",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Before birth",
+                "text": "Growth/fluid ultrasound and NST/BPP are selected by diabetes type, control, medication use, vascular disease, and other risks. Detailed anatomy assessment and sometimes fetal echocardiography are indicated by the preexisting-diabetes plan."
+              },
+              {
+                "label": "During labor",
+                "text": "Follow the unit’s frequent glucose-check schedule, prescribed insulin/dextrose protocol, fetal monitoring, and intake plan. Coordinate changes in eating, labor energy use, and medication; prevent both maternal hypoglycemia and sustained hyperglycemia."
+              },
+              {
+                "label": "Prepare the newborn team",
+                "text": "Communicate diabetes type, medicines, control, and birth concerns. Anticipate feeding support, early newborn glucose monitoring per protocol, and assessment for respiratory distress or birth injury. Birth timing/mode is individualized rather than automatic cesarean for diabetes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Postpartum and long-term follow-up",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "After placental delivery",
+                "text": "Insulin resistance drops; preexisting diabetes requires prompt dose reassessment, and GDM medication is often discontinued with glucose monitoring unless persistent diabetes is present. Type 1 diabetes still requires insulin."
+              },
+              {
+                "label": "Feeding support",
+                "text": "Breastfeeding is encouraged when desired and medically appropriate. Review medicine compatibility and maternal food/snack needs, glucose checks, and hypoglycemia prevention during feeds."
+              },
+              {
+                "label": "After GDM",
+                "text": "Arrange a fasting 75-g OGTT at 4–12 weeks postpartum using NONPREGNANCY criteria, then lifelong diabetes screening at least every 1–3 years. A normal newborn or a normal single maternal reading does not replace this test."
+              },
+              {
+                "label": "Evaluate understanding",
+                "text": "Use teach-back for meter/insulin technique, low-glucose treatment, sick-day escalation, postpartum appointments, and future pregnancy planning. Include chosen support people with consent."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Based on Diabetes in Pregnancy, pages 5–8 and 15–26. Targets, oral-agent wording, hypoglycemia treatment, sick-day safety, postpartum insulin changes, and GDM follow-up are clarified using current diabetes guidance.",
+    "answerSources": [
+      {
+        "title": "ADA — Management of diabetes in pregnancy: Standards of Care 2026",
+        "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S321/163918/15-Management-of-Diabetes-in-Pregnancy-Standards"
+      },
+      {
+        "title": "ADA — 2026 pregnancy care summary",
+        "url": "https://diabetesjournals.org/docm-care/article/doi/10.2337/doc26-a015/164617/Section-15-Management-of-Diabetes-in-Pregnancy"
+      },
+      {
+        "title": "ADA — Glucose targets and monitoring in pregnancy (2026)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12690181/"
+      },
+      {
+        "title": "ADA — Symptoms and treatment of hypoglycemia",
+        "url": "https://diabetes.org/living-with-diabetes/hypoglycemia-low-blood-glucose/symptoms-treatment"
+      }
+    ]
   },
   {
-    id:'hypertensive-disorders',weekIds:['week-3'],topicIds:['pregnancy-complications'],title:'Hypertension and preeclampsia',
-    text:'Compare chronic hypertension, gestational hypertension, and preeclampsia. Identify concerning symptoms, severe features, laboratory findings, maternal and fetal complications, and nursing priorities.',answer:[]
+    "id": "hypertensive-disorders",
+    "weekIds": [
+      "week-3"
+    ],
+    "topicIds": [
+      "pregnancy-complications"
+    ],
+    "title": "Hypertension and preeclampsia",
+    "text": "Compare chronic hypertension, gestational hypertension, and preeclampsia. Identify concerning symptoms, severe features, laboratory findings, maternal and fetal complications, and nursing priorities.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Chronic hypertension predates pregnancy or is identified before 20 weeks; gestational hypertension begins after 20 weeks without preeclampsia findings; preeclampsia adds proteinuria or qualifying organ dysfunction.",
+          "Preeclampsia does not require proteinuria when other diagnostic features are present. Severe BP or neurologic, hepatic, renal, hematologic, or pulmonary findings need urgent assessment.",
+          "Prioritize accurate BP, symptom/lab trends, maternal–fetal surveillance, prompt treatment of severe hypertension, seizure prevention when indicated, and a birth/postpartum plan."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Classify the disorder and recognize overlap",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Chronic hypertension",
+                "text": "Present before pregnancy or diagnosed before 20 weeks; persistence beyond the usual postpartum resolution period (about 12 weeks) supports chronic disease. The slide’s 42-day boundary is not the standard definition."
+              },
+              {
+                "label": "Gestational hypertension",
+                "text": "New BP elevation after 20 weeks without proteinuria or qualifying organ dysfunction. It can progress to preeclampsia; severe-range pressures are managed urgently and may be classified/managed as severe-feature disease."
+              },
+              {
+                "label": "Preeclampsia and superimposed disease",
+                "text": "New hypertension after 20 weeks with proteinuria OR specified organ dysfunction. A patient with chronic hypertension can develop superimposed preeclampsia, such as new organ dysfunction or a substantial change in the clinical picture. It can also first present postpartum."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Diagnostic assessment: use correct measurements and units",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Blood pressure",
+                "text": "Systolic ≥140 OR diastolic ≥90 mm Hg on appropriate repeat measurements (usually at least 4 hours apart for nonsevere readings). Use the correct cuff and technique; either number can meet the threshold."
+              },
+              {
+                "label": "Severe pressure",
+                "text": "Systolic ≥160 OR diastolic ≥110 needs immediate escalation and prompt repeat confirmation, often within about 15 minutes if persistent. Do not wait the slide’s 6 hours. Ordered treatment should occur as soon as possible, within 30–60 minutes of confirmed severe hypertension."
+              },
+              {
+                "label": "Protein and organ tests",
+                "text": "Proteinuria: ≥300 mg/24 hours or urine protein/creatinine ratio ≥0.3; dipstick is a less reliable fallback. Evaluate CBC/platelets, creatinine, AST/ALT, symptoms, and oxygenation; urine protein concentration in mg/L is not interchangeable with a 24-hour total."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Severe features and findings that need escalation",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Neurologic and pulmonary",
+                "text": "Persistent severe headache not explained/responding to treatment, visual disturbance, altered mental state, seizure, or pulmonary edema. Assess respiratory effort, saturation, lung sounds, and chest/breathing symptoms."
+              },
+              {
+                "label": "Hepatic, renal, and hematologic",
+                "text": "Persistent right-upper-quadrant/epigastric pain, AST/ALT about twice the upper limit of normal, platelets <100,000/µL, or creatinine >1.1 mg/dL/doubling without another renal cause are key severe-feature criteria. Follow trends and local reference ranges."
+              },
+              {
+                "label": "Avoid false reassurance",
+                "text": "A large protein quantity is not required to define severe disease; edema alone is not diagnostic. New symptoms or a falling platelet count need review even when the BP is not dramatically high. HELLP can occur without the classic full presentation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Why mother and fetus are at risk",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Maternal mechanism",
+                "text": "Placental dysfunction, endothelial injury, vasoconstriction, and capillary leak can impair organ perfusion despite edema. This is more than an isolated high BP reading."
+              },
+              {
+                "label": "Complications",
+                "text": "Stroke, eclampsia, pulmonary edema, kidney/liver injury, HELLP, DIC, and abruption. Excess IV fluid can worsen pulmonary edema; assess intake/output and perfusion rather than assuming swelling means adequate circulating volume."
+              },
+              {
+                "label": "Fetal effects",
+                "text": "Uteroplacental insufficiency can cause growth restriction, low fluid, hypoxemia, and stillbirth; medically indicated preterm birth adds prematurity risks. Ultrasound growth/fluid and indicated fetal testing guide the plan."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Nursing care, prevention, and follow-up",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Ongoing assessment",
+                "text": "Trend BP, headache/vision/pain, reflexes/mentation, respirations, urine output, and laboratory findings. Monitor fetal status as indicated, document clearly, and communicate changes promptly."
+              },
+              {
+                "label": "Prevention and medicines",
+                "text": "Eligible high-risk patients may be prescribed low-dose aspirin 81 mg/day starting at 12–28 weeks, ideally before 16 weeks. It is prevention, not rescue treatment. Use prescribed pregnancy-appropriate antihypertensives; magnesium prevents/treats seizures rather than replacing BP control."
+              },
+              {
+                "label": "Birth planning",
+                "text": "Delivery of the placenta is central to definitive management, but stabilization comes first. Timing depends on gestational age, severe features, and maternal/fetal status; do not delay indicated birth just to finish steroids. Selected nonsevere cases can be monitored closely as outpatients."
+              },
+              {
+                "label": "Postpartum safety",
+                "text": "Risk does not disappear immediately after birth. Arrange early BP review and teach urgent return for headache, visual symptoms, upper abdominal pain, chest pain/dyspnea, or seizure. Explain long-term cardiovascular follow-up after a hypertensive pregnancy."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Based on Antepartum Risks, pages 30–38. Corrects mandatory-proteinuria/severe-protein assumptions, repeat-BP timing, postpartum definition, and routine bed-rest/high-protein treatment shortcuts.",
+    "answerSources": [
+      {
+        "title": "ACOG — Preeclampsia and high blood pressure",
+        "url": "https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy"
+      },
+      {
+        "title": "ACOG — Emergency treatment of severe hypertension",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30575639/"
+      },
+      {
+        "title": "ACOG — Low-dose aspirin during pregnancy",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2018/07/low-dose-aspirin-use-during-pregnancy"
+      },
+      {
+        "title": "SMFM — Activity restriction in obstetric care",
+        "url": "https://publications.smfm.org/publications/326-society-for-maternal-fetal-medicine-consult-series-50/"
+      },
+      {
+        "title": "ACOG — Gestational hypertension and preeclampsia bulletin",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32443079/"
+      }
+    ]
   },
   {
-    id:'eclampsia-magnesium-hellp',weekIds:['week-3'],topicIds:['pregnancy-complications'],title:'Eclampsia, HELLP, and medication safety',
-    text:'Recognize eclampsia and HELLP syndrome and explain immediate nursing priorities. Describe seizure precautions, prescribed antihypertensive and magnesium therapy, toxicity assessment, emergency response, and evaluation of treatment.',answer:[]
+    "id": "eclampsia-magnesium-hellp",
+    "weekIds": [
+      "week-3"
+    ],
+    "topicIds": [
+      "pregnancy-complications"
+    ],
+    "title": "Eclampsia, HELLP, and medication safety",
+    "text": "Recognize eclampsia and HELLP syndrome and explain immediate nursing priorities. Describe seizure precautions, prescribed antihypertensive and magnesium therapy, toxicity assessment, emergency response, and evaluation of treatment.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Eclampsia is a new seizure associated with a hypertensive pregnancy disorder without another explanation; it is an emergency during pregnancy, birth, or postpartum.",
+          "Magnesium sulfate prevents/treats seizures; antihypertensives treat severe BP. Monitor breathing, reflexes, consciousness, urine output, and ordered magnesium levels for toxicity.",
+          "HELLP = hemolysis, elevated liver enzymes, and low platelets. Stabilize the patient, escalate organ dysfunction/bleeding, and prepare for the multidisciplinary birth plan."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "During a seizure: protect oxygenation and prevent injury",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Call for emergency/obstetric help and note the seizure onset, duration, and observed features. Stay with the patient; support a side-lying position when feasible and protect from injury.",
+              "Do not restrain the limbs or place anything in the mouth. Clear the surrounding area, support airway/ventilation, and provide oxygen/suction as clinically indicated and safe.",
+              "Give prescribed magnesium and urgent BP treatment per emergency protocol. Assess glucose and other causes as the team directs; persistent/recurrent seizures require additional emergency management.",
+              "After the seizure, reassess consciousness, breathing, saturation, BP, injury/aspiration risk, and fetal status. Stabilize the mother before deciding timing/mode of birth; cesarean is not automatic solely because a seizure occurred."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Magnesium therapy: indication and safe administration",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Purpose",
+                "text": "First-line seizure prophylaxis for indicated severe preeclampsia and treatment of eclampsia. A different indication is fetal neuroprotection with anticipated very preterm birth; it is not a routine long-term tocolytic."
+              },
+              {
+                "label": "Administration",
+                "text": "Use the ordered concentration, pump, loading time, and maintenance rate; verify calculations and line compatibility. Common obstetric regimens use a 4–6-g loading dose followed by 1–2 g/hour, but exact infusion timing and renal adjustments follow the product/unit protocol. Do not copy a rapid 5-minute slide bolus as a universal order."
+              },
+              {
+                "label": "Renal safety",
+                "text": "Magnesium is cleared by the kidneys. Oliguria/renal dysfunction increases toxicity risk and may require lower dosing and serum levels. Include magnesium carrier fluid in the total fluid balance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Monitor effect and distinguish toxicity",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Routine bedside assessment",
+                "text": "Measure respiratory rate/effort and saturation, deep-tendon reflexes, level of consciousness, BP/pulse, and urine output at protocol intervals. Monitor fetal status and obtain ordered serum magnesium, creatinine, and other labs."
+              },
+              {
+                "label": "Concerning changes",
+                "text": "Absent/decreasing reflexes, respiratory depression, increasing somnolence/weakness, hypotension, or oliguria require prompt action. Common escalation thresholds include respirations <12/min or urine output <25–30 mL/hour; follow the unit’s stricter hold parameters and do not wait for those limits if the patient deteriorates."
+              },
+              {
+                "label": "Do not rely on one blood level",
+                "text": "Check units and the ordered therapeutic range; magnesium concentration supports assessment but does not replace the clinical examination. Flushing/warmth can occur with infusion, but decreased breathing or absent reflexes must not be dismissed as expected discomfort."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Suspected magnesium toxicity: stop, call, support",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Stop the magnesium infusion and call the obstetric/emergency team; assess airway, breathing, pulse, and consciousness immediately.",
+              "Support ventilation/oxygenation and resuscitation as needed. Prepare and administer the ordered antidote, calcium gluconate, according to the emergency protocol; ensure it is readily available during treatment.",
+              "Obtain ordered magnesium/renal/electrolyte studies, review urine output and infusion dose, and continue maternal/fetal monitoring. Document the response and do not restart until the team reassesses the plan."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "HELLP: connect each letter with the evidence",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "H — hemolysis",
+                "text": "Microangiopathic red-cell destruction: falling hemoglobin with evidence such as elevated LDH/indirect bilirubin or abnormal smear. Anemia alone does not prove hemolysis."
+              },
+              {
+                "label": "EL — elevated liver enzymes",
+                "text": "AST/ALT elevation with possible right-upper-quadrant/epigastric pain, nausea/vomiting, or malaise signals hepatic injury. Severe pain can precede worsening laboratory values."
+              },
+              {
+                "label": "LP — low platelets",
+                "text": "A platelet count <100,000/µL is a common complete-HELLP criterion; criteria/classification vary. A count <150,000 is abnormal in some contexts but is not by itself a diagnosis of HELLP."
+              },
+              {
+                "label": "Immediate care",
+                "text": "Urgent obstetric/MFM, anesthesia, and blood-bank involvement; trend CBC/platelets, renal/liver tests, hemolysis and coagulation studies. Watch for DIC, hemorrhage, hepatic complications, pulmonary edema, and renal injury. Prepare for delivery after stabilization as indicated."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Antihypertensives and evaluation of the response",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Severe BP treatment",
+                "text": "Prescribed IV labetalol, IV hydralazine, or immediate-release oral nifedipine are commonly used for acute severe hypertension. Give by the unit’s algorithm and reassess BP/heart rate and adverse effects; oral immediate-release nifedipine is not given sublingually."
+              },
+              {
+                "label": "Seizure and medication checks",
+                "text": "Evaluate for recurrent seizure, respiratory/reflex stability, urine output, and improvement in BP without excessive hypotension. Continue surveillance postpartum; magnesium duration is ordered individually and often continues for about 24 hours after birth/seizure."
+              },
+              {
+                "label": "Apply it",
+                "text": "A patient on magnesium has a respiratory rate of 8/min and absent patellar reflexes → stop the infusion, summon help, support breathing, and prepare calcium gluconate. Do not increase magnesium because the original diagnosis involved hyperreflexia."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Based on Antepartum Risks, pages 30–38. Separates BP control from seizure control, qualifies loading-dose timing and laboratory ranges, and corrects the slide’s nonspecific HELLP platelet cutoff.",
+    "answerSources": [
+      {
+        "title": "ACOG — Preeclampsia and high blood pressure",
+        "url": "https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy"
+      },
+      {
+        "title": "ACOG — Emergency treatment of severe hypertension",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30575639/"
+      },
+      {
+        "title": "DailyMed — Magnesium sulfate in dextrose: prescribing information",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=03ebeabb-8386-4af4-3086-bdf3c3fc4a5a"
+      }
+    ]
   },
   {
-    id:'pregnancy-prom-preterm',weekIds:['week-3'],topicIds:[],title:'Membrane rupture and preterm risk',
-    text:'Distinguish PROM, PPROM, and preterm labor. Identify assessment findings and infection risks, explain diagnostic precautions and collaborative management, and describe patient teaching about when to seek care.',answer:[]
+    "id": "pregnancy-prom-preterm",
+    "weekIds": [
+      "week-3"
+    ],
+    "topicIds": [],
+    "title": "Membrane rupture and preterm risk",
+    "text": "Distinguish PROM, PPROM, and preterm labor. Identify assessment findings and infection risks, explain diagnostic precautions and collaborative management, and describe patient teaching about when to seek care.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "PROM means membranes rupture before labor; PPROM is PROM before 37 weeks. Preterm labor means labor with cervical change before 37 weeks and can occur with intact or ruptured membranes.",
+          "A gush or persistent watery leakage needs assessment of maternal vital signs, infection, fetal heart rate, gestational age, and possible cord prolapse. Avoid unnecessary digital examinations.",
+          "Management balances prematurity against infection and maternal/fetal compromise. Steroids, latency antibiotics, GBS prophylaxis, magnesium neuroprotection, and tocolysis have different indications."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Separate the terms and recognize presenting cues",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "PROM and PPROM",
+                "text": "Prelabor rupture can occur at term (≥37 weeks) or preterm (<37 weeks). The membrane status and gestational age must both be documented; “PROM” does not always mean preterm."
+              },
+              {
+                "label": "Preterm labor",
+                "text": "Regular contractions with cervical change before 37 weeks. Pelvic pressure, persistent low backache, menstrual-like cramps, increased discharge, spotting, or leakage may be early cues. A contraction count by itself does not confirm labor."
+              },
+              {
+                "label": "Shared risks",
+                "text": "Ascending infection, preterm birth, abruption, and cord prolapse/compression after rupture. Prolonged severe low fluid very early in pregnancy can impair lung development; risk varies with gestation, residual fluid, and duration."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Assess suspected rupture without increasing risk",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "History and first checks",
+                "text": "Ask when leakage began, amount/color/odor, contractions, bleeding, fever, fetal movement, and gestational age. Assess vital signs, uterine tenderness, and fetal heart rate promptly; new bradycardia after a gush requires urgent evaluation for cord complications."
+              },
+              {
+                "label": "Confirm membrane status",
+                "text": "A clinician uses a sterile speculum exam for pooling/leakage and tests such as ferning or pH when appropriate. Blood, semen, infection, or sampling problems can affect tests; an equivocal result requires clinical follow-up rather than certainty from nitrazine alone."
+              },
+              {
+                "label": "Precautions and added assessment",
+                "text": "Avoid routine/repeated digital cervical examinations unless needed for an imminent birth or specific emergency. Ultrasound assesses fluid, presentation, growth, and other concerns but does not alone prove/exclude rupture; obtain ordered infection/GBS studies."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Collaborative management depends on gestation and stability",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Term PROM",
+                "text": "Birth/induction is generally recommended, with GBS antibiotics when indicated and individualized counseling if a short period of expectant care is considered. Do not give antibiotics to every term patient solely because membranes have ruptured."
+              },
+              {
+                "label": "PPROM before 34 weeks",
+                "text": "If no contraindication exists, expectant inpatient management commonly includes surveillance, a course of corticosteroids, and latency antibiotics. Late-preterm PPROM (34–36 weeks 6 days) may be managed with delivery or selected expectant care after counseling; the plan is not simply “wait until term” for everyone."
+              },
+              {
+                "label": "Very early PPROM",
+                "text": "Periviable/previable rupture requires individualized counseling about maternal risks, fetal prognosis, resuscitation goals, and pregnancy-management options, including ending the pregnancy or expectant care when appropriate. Do not promise that the leak will seal or that waiting guarantees fetal benefit."
+              },
+              {
+                "label": "When waiting is unsafe",
+                "text": "Suspected intra-amniotic infection, significant abruption/bleeding, maternal deterioration, cord prolapse, or nonreassuring fetal status requires prompt escalation and often delivery. Fever, uterine tenderness, foul fluid, or maternal/fetal tachycardia warrants evaluation; no single sign/lab is the entire diagnosis."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Know what each medication is intended to do",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Corticosteroids",
+                "text": "Speed fetal maturation when preterm birth is likely within 7 days, commonly at 24–33 weeks 6 days, with selected earlier/later indications. They are not restricted to >32 weeks as the slide suggests; do not delay indicated birth to finish a course. Monitor glucose, especially with diabetes."
+              },
+              {
+                "label": "Antibiotics",
+                "text": "Latency antibiotics reduce infection/prolong latency in selected PPROM; GBS prophylaxis protects the newborn during labor; treatment antibiotics address suspected infection. These purposes/regimens differ and one does not automatically replace another."
+              },
+              {
+                "label": "Magnesium and tocolysis",
+                "text": "Magnesium may be used for fetal neuroprotection with anticipated very preterm birth, generally before 32 weeks. Tocolytics may briefly delay selected preterm labor to permit steroids/transfer; they are not used when prolonging pregnancy is unsafe and are not routine maintenance therapy."
+              },
+              {
+                "label": "Medication safety",
+                "text": "Nifedipine and other agents are selected by the clinical situation. Do not teach prolonged/outpatient terbutaline or long-term magnesium as a standard prevention plan; follow maternal monitoring and gestational-age-specific orders."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Nursing follow-up and return precautions",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Trend temperature, pulse/BP, uterine tenderness/contractions, fluid/bleeding, fetal heart rate, and movement. Provide perineal care, document fluid characteristics, and limit unnecessary vaginal procedures.",
+              "Teach immediate contact for fever, foul fluid, increasing pain, bleeding, contractions, or reduced fetal movement; suspected rupture needs assessment even if the leakage later seems to stop.",
+              "Explain the monitoring/medication plan, possible neonatal needs, and transfer/birth preparation. Use the team’s individualized activity/sexual guidance; routine strict bed rest is not a proven way to prevent preterm birth.",
+              "Apply it: watery leakage at 30 weeks with no contractions = possible PPROM, not proof of labor. Leakage plus fever, uterine tenderness, and fetal tachycardia means urgent evaluation for infection, not routine continued waiting."
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Based on Antepartum Risks, pages 26–29. Clarifies prelabor terminology, diagnostic-test limitations, infection evaluation, gestational windows, medication purposes, and the limits of routine bed rest or prolonged tocolysis.",
+    "answerSources": [
+      {
+        "title": "ACOG — Prelabor rupture of membranes",
+        "url": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/03/prelabor-rupture-of-membranes"
+      },
+      {
+        "title": "ACOG — Preterm labor and birth",
+        "url": "https://www.acog.org/womens-health/faqs/preterm-labor-and-birth"
+      },
+      {
+        "title": "SMFM — Previable and periviable PPROM: Consult Series 71",
+        "url": "https://publications.smfm.org/publications/573-society-for-maternal-fetal-medicine-consult-series-71/"
+      },
+      {
+        "title": "SMFM — Activity restriction in obstetric care",
+        "url": "https://publications.smfm.org/publications/326-society-for-maternal-fetal-medicine-consult-series-50/"
+      }
+    ]
   },
   {
-    id:'rh-abo-infections',weekIds:['week-3'],topicIds:[],title:'Alloimmunization and infection prevention',
-    text:'Explain Rh and ABO incompatibility, screening, and indicated prevention. Review the pregnancy and newborn implications of the infections discussed in class, including GBS and TORCH infections, and the nurse’s teaching and prevention responsibilities.',answer:[]
+    "id": "rh-abo-infections",
+    "weekIds": [
+      "week-3"
+    ],
+    "topicIds": [],
+    "title": "Alloimmunization and infection prevention",
+    "text": "Explain Rh and ABO incompatibility, screening, and indicated prevention. Review the pregnancy and newborn implications of the infections discussed in class, including GBS and TORCH infections, and the nurse’s teaching and prevention responsibilities.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Rh alloimmunization can occur when an Rh-negative patient forms antibodies after exposure to Rh-positive red cells; antibodies may cross the placenta and cause fetal/newborn hemolysis.",
+          "Screen maternal blood type and antibodies, give indicated anti-D prophylaxis to an unsensitized eligible patient, and coordinate specialist/newborn monitoring when antibodies are present. ABO incompatibility has no Rh-like preventive injection but can still require newborn treatment.",
+          "For GBS and TORCH-related infections, connect the route of transmission to prevention, screening, pregnancy care, and newborn follow-up; do not assume all infections cause the same outcome."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Rh incompatibility: explain sensitization and fetal risk",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Mechanism",
+                "text": "Fetal Rh-positive red cells entering an Rh-negative patient’s circulation can trigger anti-D formation. Later exposure may produce an IgG response that crosses the placenta, destroying fetal red cells and causing anemia, hydrops, or newborn jaundice."
+              },
+              {
+                "label": "Do not assume the first fetus is safe",
+                "text": "Prior transfusion, loss, bleeding, procedures, trauma, or an earlier pregnancy may already have caused sensitization. ABO/Rh typing alone does not tell whether clinically important antibodies are present."
+              },
+              {
+                "label": "If antibodies are found",
+                "text": "Identify the antibody and review prior Rh immune globulin, because passive anti-D may affect the screen. Established alloimmunization requires an antibody-specific obstetric/MFM plan, sometimes serial titers, fetal antigen assessment, middle-cerebral-artery Doppler, and treatment for fetal anemia."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Screening and indicated Rh immune globulin",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Routine prevention",
+                "text": "For an unsensitized Rh-negative patient with potential Rh-positive fetal exposure, anti-D is commonly given around 28 weeks and within 72 hours after an Rh-positive newborn. The antenatal dose does not automatically replace the postpartum dose."
+              },
+              {
+                "label": "Other exposure and dosing",
+                "text": "Bleeding, abdominal trauma, invasive procedures, or pregnancy loss may require prophylaxis depending on gestation and circumstances. Product/dose and assessment of fetomaternal hemorrhage determine whether additional doses are needed; do not assume one dose covers every exposure."
+              },
+              {
+                "label": "Early-loss clarification",
+                "text": "Current ACOG-aligned guidance does not require routine Rh testing/RhIg for every abortion or pregnancy loss before 12 weeks; use shared decision-making and the current local protocol. Ectopic pregnancy, procedures, or uncertainty need specific clinician review rather than a blanket omission."
+              },
+              {
+                "label": "Nursing checks",
+                "text": "Verify patient/product, Rh/antibody results, indication, dose, consent/education, timing, and documentation. RhIg prevents sensitization; it does not erase existing anti-D or treat an already anemic fetus."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "ABO incompatibility: newborn follow-up still matters",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Typical pattern",
+                "text": "Often a type O mother with an A or B fetus/newborn; maternal IgG anti-A/anti-B can cause hemolysis. It can affect a first pregnancy and is commonly milder than severe Rh disease, but severity varies."
+              },
+              {
+                "label": "Assessment and care",
+                "text": "Assess newborn jaundice, bilirubin trend, hemoglobin, and direct antiglobulin test (DAT) when indicated. Treatment may include phototherapy or escalation for severe hyperbilirubinemia according to age-specific thresholds and clinical risk."
+              },
+              {
+                "label": "Teaching distinction",
+                "text": "There is no ABO equivalent of routine maternal anti-D prophylaxis. The lecture’s “no postpartum treatment” must not be interpreted as “an affected newborn never needs treatment.” Explain follow-up and feeding support."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "TORCH: toxoplasmosis, rubella, and syphilis",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Toxoplasmosis",
+                "text": "Maternal infection can cross the placenta; earlier fetal infection may be more severe. Reduce exposure by thoroughly cooking meat, washing produce/hands, wearing gardening gloves, and having someone else handle cat litter if possible; use gloves/handwashing if necessary. Suspected infection needs targeted specialist assessment."
+              },
+              {
+                "label": "Rubella",
+                "text": "Maternal infection, especially early, can cause congenital cardiac, eye, and hearing problems. Check immunity; live MMR is given before pregnancy or postpartum when indicated, not during pregnancy. Report exposure promptly."
+              },
+              {
+                "label": "Syphilis",
+                "text": "Transplacental infection can cause fetal loss and congenital disease; do not wait for an assumed 16–18-week transmission threshold. Ensure screening, stage-appropriate penicillin treatment, follow-up, and partner care. Penicillin allergy in pregnancy requires specialist management/desensitization when indicated, not substitution with an unproven regimen."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "TORCH: CMV and herpes simplex",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "CMV",
+                "text": "Often mild/asymptomatic maternal illness, but congenital infection can cause hearing loss, growth/neurologic problems, or other outcomes; it is not uniformly fatal. Handwashing after contact with young children’s saliva/urine and avoiding shared utensils reduce exposure."
+              },
+              {
+                "label": "CMV newborn assessment",
+                "text": "When congenital infection is suspected, arrange timely saliva/urine PCR testing in the first 21 days and appropriate hearing/developmental follow-up. A well-appearing baby can still need evaluation; testing later may not distinguish congenital from acquired infection."
+              },
+              {
+                "label": "HSV",
+                "text": "Most neonatal infection is acquired during birth; rare intrauterine transmission can occur. Ask about lesions/prodrome, support prescribed suppressive antivirals, and communicate findings at labor. Active genital lesions or prodromal symptoms generally indicate cesarean birth to reduce transmission."
+              },
+              {
+                "label": "Use the mnemonic correctly",
+                "text": "TORCH is a reminder of possible congenital/perinatal infections, not one diagnosis or a universal indiscriminate screening panel. “Other” infections and indicated testing depend on exposure, symptoms, ultrasound, and local guidance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "GBS: current-pregnancy screening and intrapartum prevention",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Why it matters",
+                "text": "GBS can colonize the GI/genital tract without symptoms; exposure around birth can cause neonatal sepsis, pneumonia, or meningitis. It is not an STI or evidence of poor hygiene."
+              },
+              {
+                "label": "Screening",
+                "text": "Routine vaginal–rectal culture at 36 weeks 0 days–37 weeks 6 days, unless prophylaxis is already indicated by GBS bacteriuria in this pregnancy or a previously affected infant. A positive culture in a past pregnancy alone is not an automatic permanent indication at every future birth."
+              },
+              {
+                "label": "Antibiotics",
+                "text": "Give prescribed intrapartum prophylaxis for current positive status or other indications; assess penicillin allergy and the required alternative carefully. Four hours of appropriate antibiotics before birth is ideal, but necessary obstetric care must not be delayed solely to achieve that interval."
+              },
+              {
+                "label": "Additional distinctions",
+                "text": "With unknown status, preterm labor, prolonged rupture, or fever may change management. Planned cesarean before labor with intact membranes generally does not require GBS-specific prophylaxis, though routine surgical antibiotics still apply. Monitor the newborn and communicate maternal risks/treatment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Nurse’s prevention and teaching responsibilities",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Review blood type/antibody and infection results, explain their meaning privately, administer ordered prophylaxis/treatment, and make sure abnormal results have an assigned follow-up clinician.",
+              "Teach food/hand hygiene, vaccine timing, safer sex, prompt reporting of fever/rash/exposure or genital symptoms, and adherence to the specific treatment plan without stigma.",
+              "Handoff maternal antibody/infection status and treatment to the birth/newborn teams; arrange bilirubin/anemia, infection, hearing, and specialist follow-up when indicated. Use teach-back and address access barriers."
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Based on Antepartum Risks, pages 39–43 and 45, including the sensitization diagram. Updates early-loss Rh prophylaxis and GBS timing, and corrects absolute/no-treatment claims about ABO, CMV, HSV, and prior GBS history.",
+    "answerSources": [
+      {
+        "title": "ACOG — Rh factor and pregnancy",
+        "url": "https://www.acog.org/womens-health/faqs/the-rh-factor-how-it-can-affect-your-pregnancy"
+      },
+      {
+        "title": "ASRM — Rh(D) immune globulin in the first trimester (2026)",
+        "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/position-statement-on-rhod-immune-globulin-administration-in-the-first-trimester-2026/"
+      },
+      {
+        "title": "ACOG — Prevention of early-onset group B strep disease",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/02/prevention-of-group-b-streptococcal-early-onset-disease-in-newborns"
+      },
+      {
+        "title": "CDC — Preventing toxoplasmosis",
+        "url": "https://www.cdc.gov/toxoplasmosis/prevention/index.html"
+      },
+      {
+        "title": "CDC — Congenital CMV",
+        "url": "https://www.cdc.gov/cytomegalovirus/congenital-infection/index.html"
+      },
+      {
+        "title": "ACOG — CMV during pregnancy",
+        "url": "https://www.acog.org/clinical-information/physician-faqs/cytomegalovirus-in-pregnancy"
+      },
+      {
+        "title": "CDC — Syphilis during pregnancy",
+        "url": "https://www.cdc.gov/std/treatment-guidelines/syphilis-pregnancy.htm"
+      },
+      {
+        "title": "CDC — Genital herpes, pregnancy, and neonatal prevention",
+        "url": "https://www.cdc.gov/std/treatment-guidelines/herpes.htm"
+      },
+      {
+        "title": "AAP — Hyperbilirubinemia guideline implementation",
+        "url": "https://www.aap.org/en/patient-care/hyperbilirubinemia/frequently-asked-questions-about-the-2022-aap-guideline-on-the-management-of-hyperbilirubinemia/"
+      }
+    ]
   },
   {
-    id:'fluid-multiples-pregnancy',weekIds:['week-3'],topicIds:[],title:'Amniotic fluid disorders and multiple gestation',
-    text:'Compare oligohydramnios and polyhydramnios and identify the additional risks associated with multiple gestation. Explain the surveillance, nursing assessment, patient teaching, and care planning emphasized in the lecture.',answer:[]
+    "id": "fluid-multiples-pregnancy",
+    "weekIds": [
+      "week-3"
+    ],
+    "topicIds": [],
+    "title": "Amniotic fluid disorders and multiple gestation",
+    "text": "Compare oligohydramnios and polyhydramnios and identify the additional risks associated with multiple gestation. Explain the surveillance, nursing assessment, patient teaching, and care planning emphasized in the lecture.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Oligohydramnios is too little fluid; polyhydramnios is too much. Ultrasound estimates fluid, and the cause/gestational age determine the risk and management.",
+          "Look for membrane rupture, fetal renal/anatomic problems, placental insufficiency, diabetes, or multiple-pregnancy complications rather than treating a fluid measurement in isolation.",
+          "Multiple gestation increases preterm, growth, hypertensive, and hemorrhage risks. Chorionicity/amnionicity—not just whether twins are identical—guides surveillance and birth planning."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Fluid physiology and ultrasound measurements",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Where fluid comes from",
+                "text": "Later in pregnancy fetal urine and lung fluid contribute; fetal swallowing and membrane transfer remove fluid. Fluid cushions the fetus, supports movement and lung development, and reduces cord compression."
+              },
+              {
+                "label": "Measurements",
+                "text": "Ultrasound uses the single deepest vertical pocket (DVP/MVP) or amniotic fluid index (AFI). These are estimates, not exact liters. Interpret with gestational age, number of fetuses, membrane status, anatomy, and growth."
+              },
+              {
+                "label": "Thresholds to recognize",
+                "text": "Oligohydramnios commonly uses DVP <2 cm or AFI ≤5 cm. SMFM defines polyhydramnios in singletons as DVP ≥8 cm or AFI ≥24 cm; the slide uses AFI ≥25. Document which method/criterion is being used."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Oligohydramnios: find the reason for low fluid",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Possible causes",
+                "text": "Ruptured membranes, placental insufficiency/growth restriction, postterm pregnancy, or fetal renal/urinary tract abnormalities; review maternal disease and medicines. Ask about leakage and evaluate growth/anatomy."
+              },
+              {
+                "label": "Fetal risks",
+                "text": "Cord compression and fetal heart-rate changes; prolonged severe early low fluid can impair lung/limb development. Do not interpret the slide’s “isolated low fluid is not associated with risk” as universal reassurance."
+              },
+              {
+                "label": "Care and evaluation",
+                "text": "Serial fluid/growth ultrasound and NST/BPP are chosen by context. Correct dehydration when appropriate, but maternal fluids do not fix every cause. Delivery timing depends on gestation and maternal/fetal status. Intrapartum amnioinfusion may be used for selected recurrent variable decelerations; it is not routine ongoing antepartum fluid replacement."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Polyhydramnios: excess urine or impaired swallowing",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Possible causes",
+                "text": "Diabetes-related fetal osmotic diuresis, impaired swallowing from fetal anomalies, fetal anemia/infection, or twin–twin transfusion; many mild cases are idiopathic after evaluation. Assess anatomy, growth, maternal diabetes, and other suspected causes."
+              },
+              {
+                "label": "Maternal/fetal cues and risks",
+                "text": "Uterus larger than expected, abdominal discomfort or dyspnea, difficulty palpating fetal parts; increased risk of malpresentation, preterm labor, cord prolapse after rupture, abruption, and postpartum hemorrhage from overdistension."
+              },
+              {
+                "label": "Management",
+                "text": "Treat/monitor the cause. Severe maternal discomfort or dyspnea may require specialist amnioreduction. SMFM advises against indomethacin solely to reduce fluid; surveillance is not automatically required for every mild idiopathic case. Severity and associated findings determine follow-up and birth location."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Multiple gestation: assess placentas, sacs, and growth",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Confirm the type early",
+                "text": "Ultrasound determines fetal number, chorionicity, and amnionicity. Shared placentas can create unequal blood flow; a shared amniotic sac also creates cord risks. Zygosity alone does not define surveillance needs."
+              },
+              {
+                "label": "Maternal risks",
+                "text": "More nausea/anemia/nutritional demand; increased GDM, hypertensive disorders, preterm labor/PPROM, operative birth, and postpartum hemorrhage. Individualize nutrition, weight-gain goals, and support without prescribing routine strict bed rest."
+              },
+              {
+                "label": "Fetal risks",
+                "text": "Prematurity and growth restriction/discordance. Monochorionic twins can develop twin–twin transfusion syndrome (TTTS), often with unequal fluid in separate sacs, and need specialist surveillance/treatment."
+              },
+              {
+                "label": "Care planning",
+                "text": "Serial ultrasound and other testing depend on chorionicity, growth, and complications. Plan appropriate obstetric/anesthesia/neonatal resources and assess each fetal heart rate distinctly. Mode/timing of birth is individualized; twins do not automatically require cesarean."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Nursing surveillance, teaching, and evaluation",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Assess fundal growth, discomfort/breathing, contractions, leakage/bleeding, BP, and usual fetal movement. Review serial ultrasound results and escalate abnormal trends instead of relying on one measurement.",
+              "Teach prompt assessment for a gush/leak, reduced fetal movement, regular preterm contractions, severe pain, bleeding, or dyspnea. After rupture with polyhydramnios or malpresentation, urgent fetal assessment is important because of cord-prolapse risk.",
+              "Coordinate specialist follow-up, nutrition, transportation, emotional support, and the birth/newborn plan. Evaluate symptom control, fetal growth/testing, and understanding through teach-back.",
+              "Apply it: low fluid + leaking suggests possible membrane rupture; high fluid + elevated maternal glucose suggests a diabetes-related cause. Markedly unequal fluid/growth in twins sharing a placenta requires specialist evaluation, not a generic hydration prescription."
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Based on Antepartum Risks, pages 46–55. Ultrasound thresholds, indomethacin use, surveillance indications, amnioinfusion context, and individualized multiple-pregnancy care are clarified below.",
+    "answerSources": [
+      {
+        "title": "SMFM — Polyhydramnios: Consult Series 46, reaffirmed 2024",
+        "url": "https://publications.smfm.org/publications/263-society-for-maternal-fetal-medicine-consult-series-46/"
+      },
+      {
+        "title": "ACOG — Multiple pregnancy",
+        "url": "https://www.acog.org/womens-health/faqs/multiple-pregnancy"
+      },
+      {
+        "title": "SMFM — Activity restriction in obstetric care",
+        "url": "https://publications.smfm.org/publications/326-society-for-maternal-fetal-medicine-consult-series-50/"
+      },
+      {
+        "title": "ACOG — Indications for antenatal fetal surveillance",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2021/06/indications-for-outpatient-antenatal-fetal-surveillance"
+      }
+    ]
   },
   {
     id:'normal-labor-process',weekIds:['week-5'],topicIds:[],title:'Preparing for labor and birth',
@@ -2316,8 +4007,149 @@ const obStudyObjectives = [
     text:'Recognize shoulder dystocia, identify contributing risks, and explain the nurse’s immediate actions and role during corrective maneuvers. Include actions to avoid, team communication, timing, documentation, and newborn assessment after birth.',answer:[]
   },
   {
-    id:'placental-emergency-response',weekIds:['week-3','week-6'],topicIds:['labor-emergencies'],title:'Placental emergencies and hemorrhage response',
-    text:'Apply the nursing process to a patient with bleeding related to placental complications. Prioritize assessment, hemorrhage response, fetal monitoring, preparation for birth, and recognition of shock or coagulopathy, including DIC.',answer:[]
+    "id": "placental-emergency-response",
+    "weekIds": [
+      "week-3",
+      "week-6"
+    ],
+    "topicIds": [
+      "labor-emergencies"
+    ],
+    "title": "Placental emergencies and hemorrhage response",
+    "text": "Apply the nursing process to a patient with bleeding related to placental complications. Prioritize assessment, hemorrhage response, fetal monitoring, preparation for birth, and recognition of shock or coagulopathy, including DIC.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "For suspected placental hemorrhage, assess maternal circulation and fetal status immediately while activating the obstetric/hemorrhage team.",
+          "Visible blood loss can underestimate abruption; shock and coagulopathy can develop rapidly. Use trends in perfusion, bleeding, urine output, fetal tracing, and laboratory results.",
+          "Stabilize, prepare IV/blood-product support and possible urgent birth, and reassess after each intervention. Do not perform a digital vaginal exam before previa is excluded."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "First response: recognize severity and summon the team",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Focused assessment",
+                "text": "Identify gestational age, bleeding onset/amount, pain, uterine tone/contractions, membrane status, fetal movement, trauma, and known placenta location. Check airway/breathing, pulse/BP, mentation, skin/perfusion, and oxygenation."
+              },
+              {
+                "label": "Escalation",
+                "text": "Significant bleeding, severe pain/rigidity, fainting, tachycardia/hypotension, or a concerning fetal tracing requires immediate obstetric help. Activate the hemorrhage pathway early rather than waiting for a laboratory diagnosis or ultrasound."
+              },
+              {
+                "label": "Safety precautions",
+                "text": "No digital vaginal examination until previa is excluded. Quantify external loss with weighed materials/collection according to protocol, recognizing that retroplacental blood is concealed. Keep the patient warm, explain actions, and support privacy/consent."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Restore perfusion and prepare blood-product support",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Obtain/maintain large-bore IV access appropriate to severity; draw CBC/platelets, type and crossmatch, fibrinogen, PT/aPTT, and other ordered tests. An initially normal hemoglobin does not exclude acute hemorrhage.",
+              "Administer prescribed resuscitation fluids and blood products using the hemorrhage/massive-transfusion protocol when indicated. Monitor warming, compatibility, reactions, and ordered electrolyte/coagulation studies; do not substitute endless crystalloid for definitive hemorrhage treatment.",
+              "Reposition as tolerated to reduce aortocaval compression; support maternal oxygenation when hypoxemic or needed for resuscitation. Do not apply routine oxygen solely to treat a fetal tracing in a patient with normal oxygen saturation.",
+              "Measure urine output when indicated and trend BP/pulse, consciousness, perfusion, blood loss, and fetal response. Escalate persistent deterioration despite treatment."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "DIC: simultaneous clotting and bleeding",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Mechanism and triggers",
+                "text": "Widespread coagulation consumes platelets/fibrinogen and disrupts perfusion, while breakdown of clots contributes to bleeding. Severe abruption, obstetric sepsis, HELLP, and other major complications can trigger DIC; it is not merely “a low platelet count.”"
+              },
+              {
+                "label": "Clinical/laboratory cues",
+                "text": "Oozing from IV/puncture sites, mucosal bleeding, worsening hemorrhage, or organ dysfunction; falling platelets/fibrinogen, prolonged PT/aPTT, and raised fibrin-degradation markers may support the diagnosis. Fibrinogen normally rises in pregnancy, so a falling or unexpectedly low value matters."
+              },
+              {
+                "label": "Priorities",
+                "text": "Urgently treat the cause and support circulation with the multidisciplinary team; prepare prescribed blood components guided by clinical/laboratory findings. Avoid unnecessary invasive trauma and repeat assessments/labs as ordered. Do not delay action until every test is abnormal."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Prepare for birth and communicate the plan",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Fetal surveillance",
+                "text": "Use continuous fetal monitoring when appropriate for gestation and goals of care; identify persistent abnormalities and notify the team promptly. Maternal resuscitation and preparation for indicated birth occur together."
+              },
+              {
+                "label": "Coordinate resources",
+                "text": "Alert obstetric/MFM, anesthesia, operating-room staff, blood bank, and neonatal team. Prepare for urgent cesarean when indicated, while recognizing that mode depends on cause, fetal status, labor progress, and maternal condition."
+              },
+              {
+                "label": "Patient and family support",
+                "text": "Give concise updates, explain why rapid action may be needed, and help the patient participate in decisions as possible. Acknowledge fear and potential loss; involve the chosen support person and arrange bereavement care if needed."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Reassess through birth and postpartum",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Evaluation targets",
+                "text": "Improving mentation/perfusion, stable vital signs, adequate urine output, controlled bleeding, stabilizing platelet/fibrinogen/coagulation results, and fetal/newborn response. Persistent tachycardia, oliguria, or oozing means the problem may not be controlled."
+              },
+              {
+                "label": "Ongoing risk",
+                "text": "Continue to assess uterine tone, postpartum blood loss, shock/coagulopathy, and transfusion complications. Completion of birth does not mean hemorrhage or DIC has resolved."
+              },
+              {
+                "label": "Document and debrief",
+                "text": "Record times, assessments, quantified loss, communication, orders/interventions, products, and response. Explain the event and follow-up needs to the patient; evaluate the nursing plan and offer emotional support."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Based on Antepartum Risks, pages 18–25 and 38. This nursing-process answer is shared by Week 3 and Week 6 and the existing labor-emergencies topic; it complements the previa/abruption comparison without changing their placement.",
+    "answerSources": [
+      {
+        "title": "ACOG — Bleeding during pregnancy",
+        "url": "https://www.acog.org/womens-health/faqs/bleeding-during-pregnancy"
+      },
+      {
+        "title": "ACOG — Intrapartum fetal heart rate monitoring guideline",
+        "url": "https://journals.lww.com/greenjournal/fulltext/2025/10000/acog_clinical_practice_guideline_no_.22.aspx"
+      },
+      {
+        "title": "ACOG — Preeclampsia and high blood pressure",
+        "url": "https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy"
+      }
+    ]
   },
   {
     id:'other-birth-emergencies',weekIds:['week-6'],topicIds:['labor-emergencies'],title:'Other emergencies in the labor lectures',
