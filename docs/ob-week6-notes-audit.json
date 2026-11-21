@@ -1,7 +1,7 @@
 {
   "weekId": "week-6",
   "reviewedOn": "2026-11-21",
-  "basis": "Five existing Week 6 objectives now have populated notes: four new answers and the unchanged placental-emergency response shared with Week 3. The three-bullet Quick answer / independently collapsed topics format is retained. Content follows the original Labor & Birth Complications PDF, with explicitly identified support from the supplied Pain Management and Postpartum Care PDFs. Limited safety/definition clarifications are labeled rather than attributed to the slides. Objective clauses unsupported in detail by the PDFs are explicitly identified; populated notes are not a claim that the original material supplies every protocol.",
+  "basis": "Original PDF-based Week 6 notes refined after the user requested existing gaps be filled. Lecture content remains the base; labeled guideline supplements add the missing nursing assessment, collaborative care, prevention, recovery teaching and evaluation. All five objective prompts/mappings and all pre-Week-6 completed answers remain unchanged. No fictional cases, medication-dose tables or advanced procedural instructions are added.",
   "sources": [
     {
       "deckId": "labor-complications",
@@ -89,6 +89,18 @@
         {
           "requirement": "Precipitous labor: recognition, urgent preparation and post-birth evaluation",
           "noteTopic": "Precipitous labor: prepare for a rapidly changing birth"
+        },
+        {
+          "requirement": "Confirm suspected PROM/PPROM and prevent examination-related infection",
+          "noteTopic": "Guideline supplement: confirm rupture and reduce infection risk"
+        },
+        {
+          "requirement": "Explain stable gestational-age pathways, antibiotic purposes and indications to end expectant care",
+          "noteTopic": "Guideline supplement: how gestational age changes PROM care"
+        },
+        {
+          "requirement": "Distinguish slow progress from active-phase arrest and connect assessment to management",
+          "noteTopic": "Guideline supplement: slow labor versus active-phase arrest"
         }
       ],
       "topics": [
@@ -96,10 +108,13 @@
         "Preterm assessment and teaching: act on symptoms",
         "Preterm treatment: separate the medication purposes",
         "PROM and PPROM: identify what ruptured and when",
+        "Guideline supplement: confirm rupture and reduce infection risk",
         "PROM and PPROM: compare the management priorities",
+        "Guideline supplement: how gestational age changes PROM care",
         "Suspected intraamniotic infection: recognize and escalate",
         "Post-term pregnancy: surveillance and birth planning",
         "Dysfunctional labor: connect the cause with the pattern",
+        "Guideline supplement: slow labor versus active-phase arrest",
         "Precipitous labor: prepare for a rapidly changing birth"
       ],
       "reviewSources": [
@@ -130,6 +145,14 @@
         {
           "title": "Test clarification — NICE preterm labor assessment",
           "url": "https://www.nice.org.uk/guidance/ng25/chapter/Recommendations"
+        },
+        {
+          "title": "Guideline supplement — RCOG PPROM diagnosis",
+          "url": "https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/care-of-women-presenting-with-suspected-preterm-prelabour-rupture-of-membranes-from-24plus0-weeks-of-gestation-green-top-guideline-no-73/"
+        },
+        {
+          "title": "Guideline supplement — ACOG labor progress and arrest",
+          "url": "https://doi.org/10.1097/AOG.0000000000005447"
         }
       ]
     },
@@ -230,22 +253,42 @@
         },
         {
           "requirement": "Pain management, mobility and evaluation",
-          "noteTopic": "Comfort and mobility: link care to reassessment"
+          "noteTopic": "Guideline supplement: pain relief and safe mobility"
         },
         {
-          "requirement": "Recovery teaching, emotional support and explicit missing cesarean detail",
-          "noteTopic": "Recovery teaching and the limits of the supplied material"
+          "requirement": "Home recovery teaching, activity, teach-back and follow-up",
+          "noteTopic": "Guideline supplement: incision care and recovery at home"
+        },
+        {
+          "requirement": "Preoperative checks, antibiotic prophylaxis and individualized thromboprophylaxis",
+          "noteTopic": "Guideline supplement: cesarean preparation and prevention"
+        },
+        {
+          "requirement": "Anesthesia-specific observation, handoff and respiratory safety",
+          "noteTopic": "Guideline supplement: recovery after anesthesia"
+        },
+        {
+          "requirement": "Oral intake, urinary recovery, infant feeding/handling and family support",
+          "noteTopic": "Guideline supplement: intake, voiding and newborn care"
+        },
+        {
+          "requirement": "Urgent warning signs and readiness-based evaluation",
+          "noteTopic": "Guideline supplement: warning signs and readiness for discharge"
         }
       ],
       "topics": [
         "Birth route: connect the indication with the situation",
         "Preparation and consent: make the plan understandable",
+        "Guideline supplement: cesarean preparation and prevention",
         "Forceps and vacuum: watch progress and fetal response",
         "Birth trauma: distinguish perineal and newborn injuries",
         "Cesarean anesthesia: connect monitoring with the risk",
+        "Guideline supplement: recovery after anesthesia",
         "Recovery monitoring: assess the whole postpartum patient",
-        "Comfort and mobility: link care to reassessment",
-        "Recovery teaching and the limits of the supplied material"
+        "Guideline supplement: pain relief and safe mobility",
+        "Guideline supplement: intake, voiding and newborn care",
+        "Guideline supplement: incision care and recovery at home",
+        "Guideline supplement: warning signs and readiness for discharge"
       ],
       "reviewSources": [
         {
@@ -267,6 +310,34 @@
         {
           "title": "Safety clarification — ASA obstetric anesthesia guidance",
           "url": "https://doi.org/10.1097/ALN.0000000000000935"
+        },
+        {
+          "title": "Guideline supplement — RCOG assisted-birth indications",
+          "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/assisted-vaginal-birth-ventouse-or-forceps/"
+        },
+        {
+          "title": "Guideline supplement — NICE cesarean preparation and monitoring",
+          "url": "https://www.nice.org.uk/guidance/ng192/chapter/Recommendations"
+        },
+        {
+          "title": "Guideline supplement — ACOG postpartum pain management",
+          "url": "https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2021/09/pharmacologic-stepwise-multimodal-approach-for-postpartum-pain-management"
+        },
+        {
+          "title": "Guideline supplement — SMFM cesarean thromboprophylaxis",
+          "url": "https://publications.smfm.org/publications/327-society-for-maternal-fetal-medicine-consult-series-51/"
+        },
+        {
+          "title": "Guideline supplement — NHS cesarean recovery",
+          "url": "https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/"
+        },
+        {
+          "title": "Guideline supplement — CDC urgent maternal warning signs",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+        },
+        {
+          "title": "Guideline supplement — ACOG postpartum follow-up",
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2018/05/optimizing-postpartum-care"
         }
       ]
     },
@@ -383,19 +454,29 @@
         },
         {
           "requirement": "Uterine inversion: supplied definition, limited safety response and reassessment",
-          "noteTopic": "Uterine inversion: separate it from a boggy uterus"
+          "noteTopic": "Guideline supplement: inversion recognition and first response"
         },
         {
           "requirement": "Comparison, communication, oxygen distinction and explicit absence of complete case histories/protocols",
-          "noteTopic": "Shared response, reassessment, and source limits"
+          "noteTopic": "Shared response: communicate, reassess and hand off"
+        },
+        {
+          "requirement": "AFE parallel resuscitation/DIC response, maternal-arrest actions and ongoing evaluation",
+          "noteTopic": "Guideline supplement: AFE resuscitation and reassessment"
+        },
+        {
+          "requirement": "Post-replacement uterotonics, hemorrhage monitoring and escalation",
+          "noteTopic": "Guideline supplement: after the uterus is replaced"
         }
       ],
       "topics": [
         "Cord prolapse: relieve compression while preparing birth",
         "Uterine rupture: treat the cue cluster as an emergency",
         "Amniotic fluid embolism: support breathing and circulation",
-        "Uterine inversion: separate it from a boggy uterus",
-        "Shared response, reassessment, and source limits"
+        "Guideline supplement: AFE resuscitation and reassessment",
+        "Guideline supplement: inversion recognition and first response",
+        "Guideline supplement: after the uterus is replaced",
+        "Shared response: communicate, reassess and hand off"
       ],
       "reviewSources": [
         {
@@ -433,6 +514,14 @@
         {
           "title": "Safety clarification — MSF uterine rupture",
           "url": "https://medicalguidelines.msf.org/en/viewport/ONC/english/3-3-uterine-rupture-51416296.html"
+        },
+        {
+          "title": "Guideline supplement — AHA maternal cardiac arrest response",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation"
+        },
+        {
+          "title": "Guideline supplement — SMFM 2026 AFE response and reassessment",
+          "url": "https://doi.org/10.1002/pmf2.70364"
         }
       ]
     }
@@ -554,15 +643,21 @@
   "materialLimits": [
     {
       "objectiveId": "complicated-labor",
-      "handling": "The slides support recognition, medication purposes and broad care priorities but not a complete gestation-specific PROM/PTL algorithm, dystocia treatment protocol or universal labor-arrest thresholds. Notes mark this limit and avoid filling it with new tables or protocols."
+      "handling": "Added rupture confirmation/infection precautions, stable gestational-age PROM pathways and active-phase arrest decision criteria, with nursing reassessment and emergency exceptions.",
+      "originalLimit": "The slides support recognition, medication purposes and broad care priorities but not a complete gestation-specific PROM/PTL algorithm, dystocia treatment protocol or universal labor-arrest thresholds. Notes mark this limit and avoid filling it with new tables or protocols.",
+      "status": "Addressed with labeled guideline supplementation; original PDF limits remain documented."
     },
     {
       "objectiveId": "assisted-cesarean-birth",
-      "handling": "The original Week 6 deck has brief operative-vaginal/VBAC/cesarean indications, not a complete cesarean nursing pathway. Supplied pain/postpartum PDFs contribute consent, anesthesia and recovery assessments. A full preoperative checklist, timed postoperative regimen, first-walk time, feeding progression and specific home restrictions remain explicitly unsupplied."
+      "handling": "Added preparation/prevention, anesthesia observation, pain and mobility, intake/voiding, wound/home teaching, warning signs and follow-up/readiness assessment. Individual schedules and orders remain local.",
+      "originalLimit": "The original Week 6 deck has brief operative-vaginal/VBAC/cesarean indications, not a complete cesarean nursing pathway. Supplied pain/postpartum PDFs contribute consent, anesthesia and recovery assessments. A full preoperative checklist, timed postoperative regimen, first-walk time, feeding progression and specific home restrictions remain explicitly unsupplied.",
+      "status": "Addressed with labeled guideline supplementation; original PDF limits remain documented."
     },
     {
       "objectiveId": "other-birth-emergencies",
-      "handling": "The original PDFs have recognition lists and cord diagrams, not full case histories or comprehensive rupture/AFE/inversion protocols. Inversion’s definition comes from the supplied postpartum PDF; only essential safety response is clarified externally. No fictional cases or new surgical/resuscitation regimen is authored."
+      "handling": "Added AFE/maternal-arrest reassessment, concealed hemorrhage assessment and inversion replacement/post-replacement priorities. Original case histories are not invented; advanced drug/surgical regimens remain outside these notes.",
+      "originalLimit": "The original PDFs have recognition lists and cord diagrams, not full case histories or comprehensive rupture/AFE/inversion protocols. Inversion’s definition comes from the supplied postpartum PDF; only essential safety response is clarified externally. No fictional cases or new surgical/resuscitation regimen is authored.",
+      "status": "Addressed with labeled guideline supplementation; original PDF limits remain documented."
     }
   ],
   "preservedCompletedObjectives": [
@@ -683,6 +778,162 @@
       "sha256": "528bb4f4558dc54218e43d5c1eabe9d6d496b93fc77377b941f68b49a7c6ef7e"
     }
   ],
-  "sharedViews": "The four new answers appear in Week 6 and the existing Week 8 review; shoulder dystocia and the other emergencies also populate the existing labor-emergencies topic. The shared placental-emergency object, all earlier notes, weekly/topic mappings, main exam-topic order, original PDFs/previews, infographic/presentation layout, videos, practice and navigation are unchanged.",
-  "limits": "Source-led educational summaries with identified source gaps. Automated checks verify mapped coverage, original-source integrity, preserved prior answers and shared safe rendering; they are not independent clinical validation or a new mobile-browser usability test."
+  "sharedViews": "The four refined answers remain shared across Week 6 and Week 8; two also appear in the labor-emergencies exam topic. The existing shared placental-emergency object, all earlier answers and original PDFs/previews remain unchanged. Route/topic mappings, exam order, materials layout, videos, practice and navigation are unchanged.",
+  "limits": "Educational notes combining the supplied PDF base with labeled guideline supplements requested by the user. Source mapping, safe cross-view rendering and earlier-answer preservation are checked automatically; this is not a standalone patient-care protocol or independent clinical validation.",
+  "originalBasis": "Five existing Week 6 objectives now have populated notes: four new answers and the unchanged placental-emergency response shared with Week 3. The three-bullet Quick answer / independently collapsed topics format is retained. Content follows the original Labor & Birth Complications PDF, with explicitly identified support from the supplied Pain Management and Postpartum Care PDFs. Limited safety/definition clarifications are labeled rather than attributed to the slides. Objective clauses unsupported in detail by the PDFs are explicitly identified; populated notes are not a claim that the original material supplies every protocol.",
+  "refinement": {
+    "reviewedOn": "2026-11-21",
+    "request": "Fill existing gaps in the material just published and refine readability/depth.",
+    "method": "Supplement only the existing objective scope. Mark new guideline topics or in-topic additions, preserve original PDF links first, and retain three-bullet overviews/independently collapsed short fact topics.",
+    "guidelineCoverage": [
+      {
+        "objectiveId": "complicated-labor",
+        "requirement": "Confirm suspected PROM/PPROM and prevent examination-related infection",
+        "noteTopic": "Guideline supplement: confirm rupture and reduce infection risk",
+        "sources": [
+          "https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/care-of-women-presenting-with-suspected-preterm-prelabour-rupture-of-membranes-from-24plus0-weeks-of-gestation-green-top-guideline-no-73/",
+          "https://doi.org/10.1097/AOG.0000000000003700"
+        ]
+      },
+      {
+        "objectiveId": "complicated-labor",
+        "requirement": "Explain stable gestational-age pathways, antibiotic purposes and indications to end expectant care",
+        "noteTopic": "Guideline supplement: how gestational age changes PROM care",
+        "sources": [
+          "https://doi.org/10.1097/AOG.0000000000003700"
+        ]
+      },
+      {
+        "objectiveId": "complicated-labor",
+        "requirement": "Distinguish slow progress from active-phase arrest and connect assessment to management",
+        "noteTopic": "Guideline supplement: slow labor versus active-phase arrest",
+        "sources": [
+          "https://doi.org/10.1097/AOG.0000000000005447"
+        ]
+      },
+      {
+        "objectiveId": "assisted-cesarean-birth",
+        "requirement": "Specific assisted-birth indications beyond the lecture’s instrument descriptions",
+        "noteTopic": "Birth route: connect the indication with the situation",
+        "sources": [
+          "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/assisted-vaginal-birth-ventouse-or-forceps/"
+        ]
+      },
+      {
+        "objectiveId": "assisted-cesarean-birth",
+        "requirement": "Preoperative checks, antibiotic prophylaxis and individualized thromboprophylaxis",
+        "noteTopic": "Guideline supplement: cesarean preparation and prevention",
+        "sources": [
+          "https://www.nice.org.uk/guidance/ng192/chapter/Recommendations",
+          "https://publications.smfm.org/publications/327-society-for-maternal-fetal-medicine-consult-series-51/"
+        ]
+      },
+      {
+        "objectiveId": "assisted-cesarean-birth",
+        "requirement": "Anesthesia-specific observation, handoff and respiratory safety",
+        "noteTopic": "Guideline supplement: recovery after anesthesia",
+        "sources": [
+          "https://www.nice.org.uk/guidance/ng192/chapter/Recommendations",
+          "https://doi.org/10.1097/ALN.0000000000000935"
+        ]
+      },
+      {
+        "objectiveId": "assisted-cesarean-birth",
+        "requirement": "Postoperative multimodal pain care, opioid precautions and assisted mobility",
+        "noteTopic": "Guideline supplement: pain relief and safe mobility",
+        "sources": [
+          "https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2021/09/pharmacologic-stepwise-multimodal-approach-for-postpartum-pain-management",
+          "https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/",
+          "https://publications.smfm.org/publications/327-society-for-maternal-fetal-medicine-consult-series-51/"
+        ]
+      },
+      {
+        "objectiveId": "assisted-cesarean-birth",
+        "requirement": "Oral intake, urinary recovery, infant feeding/handling and family support",
+        "noteTopic": "Guideline supplement: intake, voiding and newborn care",
+        "sources": [
+          "https://www.nice.org.uk/guidance/ng192/chapter/Recommendations",
+          "https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/"
+        ]
+      },
+      {
+        "objectiveId": "assisted-cesarean-birth",
+        "requirement": "Home wound care, activity, teach-back and follow-up",
+        "noteTopic": "Guideline supplement: incision care and recovery at home",
+        "sources": [
+          "https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/",
+          "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2018/05/optimizing-postpartum-care"
+        ]
+      },
+      {
+        "objectiveId": "assisted-cesarean-birth",
+        "requirement": "Urgent warning signs and readiness-based evaluation",
+        "noteTopic": "Guideline supplement: warning signs and readiness for discharge",
+        "sources": [
+          "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+          "https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/"
+        ]
+      },
+      {
+        "objectiveId": "shoulder-dystocia",
+        "requirement": "Explicit bedside direction during corrective maneuvers",
+        "noteTopic": "Immediate nursing role: coordinate people and communication",
+        "sources": [
+          "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/shoulder-dystocia-green-top-guideline-no-42/"
+        ]
+      },
+      {
+        "objectiveId": "other-birth-emergencies",
+        "requirement": "Maintain decompression while stopping uterine stimulation and preparing urgent birth",
+        "noteTopic": "Cord prolapse: relieve compression while preparing birth",
+        "sources": [
+          "https://www.ahrq.gov/patient-safety/settings/labor-delivery/perinatal-care/modules/strategies/labor-delivery-unit/tool-cord-prolapse.html"
+        ]
+      },
+      {
+        "objectiveId": "other-birth-emergencies",
+        "requirement": "Concealed hemorrhage, resuscitation preparation and post-birth reassessment in rupture",
+        "noteTopic": "Uterine rupture: treat the cue cluster as an emergency",
+        "sources": [
+          "https://medicalguidelines.msf.org/en/viewport/ONC/english/3-3-uterine-rupture-51416296.html"
+        ]
+      },
+      {
+        "objectiveId": "other-birth-emergencies",
+        "requirement": "AFE parallel resuscitation/DIC response, maternal-arrest actions and ongoing evaluation",
+        "noteTopic": "Guideline supplement: AFE resuscitation and reassessment",
+        "sources": [
+          "https://doi.org/10.1002/pmf2.70364",
+          "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation"
+        ]
+      },
+      {
+        "objectiveId": "other-birth-emergencies",
+        "requirement": "Recognize inversion, coordinate replacement/resuscitation and avoid placental/uterotonic errors",
+        "noteTopic": "Guideline supplement: inversion recognition and first response",
+        "sources": [
+          "https://medicalguidelines.msf.org/en/viewport/ONC/english/8-4-uterine-inversion-51417808.html"
+        ]
+      },
+      {
+        "objectiveId": "other-birth-emergencies",
+        "requirement": "Post-replacement uterotonics, hemorrhage monitoring and escalation",
+        "noteTopic": "Guideline supplement: after the uterus is replaced",
+        "sources": [
+          "https://medicalguidelines.msf.org/en/viewport/ONC/english/8-4-uterine-inversion-51417808.html"
+        ]
+      }
+    ],
+    "remainingBoundaries": [
+      "Institution-specific medication doses, observation frequencies, catheter/ambulation timing, transfusion targets and advanced rescue/surgical techniques depend on local protocols and specialist orders.",
+      "The original PDFs still do not contain full case histories; none are fabricated or labeled as original course cases."
+    ],
+    "safetyReview": [
+      {
+        "issue": "SMFM 2026 AFE checklist correction changes norepinephrine dose units",
+        "handling": "Reviewed the published correction. No vasoactive-drug doses are reproduced in the study notes; additions cover nurse/team actions, monitoring and reassessment.",
+        "source": "https://doi.org/10.1002/pmf2.70459"
+      }
+    ]
+  }
 }

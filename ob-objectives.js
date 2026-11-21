@@ -5144,7 +5144,7 @@ const obStudyObjectives = [
         "items": [
           "Start with gestational age, contractions/cervical change, membrane status, maternal vital signs, and fetal response; similar symptoms can have different causes.",
           "Compare early birth and infection risks with post-term placental/fluid risks; distinguish slow or ineffective labor from birth progressing in under 3 hours.",
-          "Recognize deterioration, notify the team, give ordered treatment, and reassess both patients. The medication and timing statements below explain the lecture rather than supply standing orders."
+          "Recognize deterioration, notify the team, give ordered treatment, and reassess both patients. The labeled guideline supplements explain missing assessment and decision points; medication choices follow the individual obstetric plan."
         ]
       },
       {
@@ -5241,6 +5241,29 @@ const obStudyObjectives = [
       },
       {
         "type": "group",
+        "title": "Guideline supplement: confirm rupture and reduce infection risk",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Confirm the finding",
+                "text": "Assist with a sterile speculum assessment for fluid pooling/leakage. If uncertain, the clinician may use a validated amniotic-fluid test; interpret it with the history and examination."
+              },
+              {
+                "label": "Protect the patient",
+                "text": "Avoid routine repeated digital cervical examinations because of infection risk. An urgent examination for suspected cord prolapse is a different situation."
+              },
+              {
+                "label": "Keep assessing",
+                "text": "Record fluid, temperature, uterine tenderness, contractions, bleeding, and FHR; report a change rather than relying on one reassuring test."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
         "title": "PROM and PPROM: compare the management priorities",
         "blocks": [
           {
@@ -5257,6 +5280,37 @@ const obStudyObjectives = [
               {
                 "label": "Safety clarification",
                 "text": "The slide’s automatic “wait 24 hours / induce if ≥34 weeks” and blanket terbutaline-or-magnesium statements are not universal rules. Delivery timing, antibiotics, and any attempt to delay birth require the obstetric plan; suspected infection or compromise needs prompt reassessment rather than waiting out a clock."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Guideline supplement: how gestational age changes PROM care",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Stable at 24–33 weeks + 6 days",
+                "text": "Expectant care usually includes surveillance, latency antibiotics, and fetal preparation; the team also plans GBS (group B streptococcus) assessment/prophylaxis."
+              },
+              {
+                "label": "Stable at 34–36 weeks + 6 days",
+                "text": "ACOG permits expectant management or delivery after counseling; expectant care does not extend beyond 37 weeks. Latency antibiotics are not routine in this interval."
+              },
+              {
+                "label": "At 37 weeks or later",
+                "text": "Induction is generally recommended if labor has not begun; a brief expectant period may be discussed."
+              },
+              {
+                "label": "When waiting is unsafe",
+                "text": "Infection, abruption, cord prolapse, or nonreassuring fetal status changes the plan toward urgent treatment/birth. Earlier PPROM needs individualized maternal–fetal medicine/neonatal counseling."
+              },
+              {
+                "label": "Two antibiotic purposes",
+                "text": "Latency antibiotics support continued pregnancy and reduce infection risk. They do not replace intrapartum GBS prophylaxis when indicated; expectant management means continuing pregnancy with close maternal–fetal monitoring."
               }
             ]
           }
@@ -5333,6 +5387,33 @@ const obStudyObjectives = [
       },
       {
         "type": "group",
+        "title": "Guideline supplement: slow labor versus active-phase arrest",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Use the right phase",
+                "text": "Active labor begins at 6 cm. A slow latent phase alone is not active-phase arrest."
+              },
+              {
+                "label": "Current arrest criteria",
+                "text": "At ≥6 cm with ruptured membranes, no cervical change despite 4 hours of adequate uterine activity or 6 hours of inadequate activity with oxytocin supports the clinician’s diagnosis of active-phase arrest."
+              },
+              {
+                "label": "Match the response to the cause",
+                "text": "Support position, hydration, analgesia, and reassessment. Inadequate contractions may need ordered augmentation when appropriate; suspected obstruction or established arrest may require operative birth."
+              },
+              {
+                "label": "Nursing evaluation",
+                "text": "Trend dilation/descent, contraction pattern, maternal condition and FHR. These criteria never require waiting through hemorrhage, tachysystole with compromise, or another emergency."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
         "title": "Precipitous labor: prepare for a rapidly changing birth",
         "blocks": [
           {
@@ -5355,7 +5436,7 @@ const obStudyObjectives = [
         ]
       }
     ],
-    "answerSourceNote": "From Labor & Birth Complications pages 2–17, 22–24 and 31, with supportive-care principles from Pain Management pages 2–5 and 12. Brief definition, test and safety clarifications are labeled. The PDFs do not supply a complete gestation-specific PROM/PTL algorithm or a dystocia treatment protocol; no new dosing table or fixed labor-arrest rules are added.",
+    "answerSourceNote": "Lecture base: Labor & Birth Complications pages 2–17, 22–24 and 31; supportive care from Pain Management pages 2–5 and 12. Labeled guideline supplements cover membrane-rupture confirmation, ACOG gestational-age decision points and labor-arrest assessment. They are additional guidance, not content claimed to appear in the PDFs. Local orders and specialist assessment determine the patient’s plan; no medication dosing table is added.",
     "answerSources": [
       {
         "title": "Original PDF — Labor & birth complications",
@@ -5384,6 +5465,14 @@ const obStudyObjectives = [
       {
         "title": "Test clarification — NICE preterm labor assessment",
         "url": "https://www.nice.org.uk/guidance/ng25/chapter/Recommendations"
+      },
+      {
+        "title": "Guideline supplement — RCOG PPROM diagnosis",
+        "url": "https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/care-of-women-presenting-with-suspected-preterm-prelabour-rupture-of-membranes-from-24plus0-weeks-of-gestation-green-top-guideline-no-73/"
+      },
+      {
+        "title": "Guideline supplement — ACOG labor progress and arrest",
+        "url": "https://doi.org/10.1097/AOG.0000000000005447"
       }
     ],
     "answerReviewedOn": "2026-11-21"
@@ -5402,7 +5491,7 @@ const obStudyObjectives = [
         "items": [
           "Operative vaginal birth uses forceps or vacuum to assist a low fetal head; cesarean birth may be needed for obstruction, malpresentation, or unresolved maternal–fetal compromise.",
           "Explain the reason and plan, support informed consent, check preparation and anesthesia needs, monitor FHR, and prepare for a change in birth route if assistance is unsuccessful.",
-          "After birth, reassess bleeding, injury/incision, vital signs, pain/anesthesia recovery, bladder/bowel function, mobility needs, and emotional well-being. The supplied PDFs offer recovery assessments but no complete cesarean pathway."
+          "After birth, assess bleeding, breathing, pain/anesthesia recovery, incision, bladder/bowel function, mobility and emotional well-being. Labeled guideline supplements add preparation, prevention, recovery teaching and evaluation beyond the brief PDFs."
         ]
       },
       {
@@ -5414,7 +5503,7 @@ const obStudyObjectives = [
             "items": [
               {
                 "label": "Assisted vaginal birth",
-                "text": "Forceps permit traction/rotation of the head; a vacuum cup uses suction to assist its birth. The team may use assistance to expedite a feasible vaginal birth; the lecture emphasizes a low presenting part and ongoing descent."
+                "text": "Forceps permit traction/rotation of the head; vacuum uses a suction cup. Guideline supplement: assistance may be considered for poor progress, fetal concerns, or inability to push safely when prerequisites for a feasible vaginal birth are met."
               },
               {
                 "label": "Cesarean cues in the PDF",
@@ -5446,6 +5535,29 @@ const obStudyObjectives = [
               {
                 "label": "Safety clarification",
                 "text": "Before operative vaginal birth, the team confirms full cervical dilation, ruptured membranes, known head position/station, adequate analgesia, an empty bladder, and readiness for cesarean if the attempt fails. The slide’s abbreviated list is not the full eligibility checklist."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Guideline supplement: cesarean preparation and prevention",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Before the procedure",
+                "text": "Verify identity/procedure, consent, allergies and baseline maternal/FHR findings. Handoff the indication/urgency, IV access, medications, relevant history and last oral intake to the obstetric/anesthesia team."
+              },
+              {
+                "label": "Laboratory and infection checks",
+                "text": "Confirm ordered CBC and blood group/antibody screen; arrange additional blood preparation according to risk. Administer ordered prophylactic antibiotics before skin incision."
+              },
+              {
+                "label": "Prevent venous clots",
+                "text": "SMFM recommends sequential compression devices before cesarean and until fully ambulatory. Check fit/use; pharmacologic prophylaxis follows the individual risk assessment and neuraxial-anesthesia timing plan."
               }
             ]
           }
@@ -5522,6 +5634,29 @@ const obStudyObjectives = [
       },
       {
         "type": "group",
+        "title": "Guideline supplement: recovery after anesthesia",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Immediate observation",
+                "text": "After general anesthesia, provide continuous one-to-one observation by a clinician with airway skills until airway control, circulation and communication recover. After regional anesthesia, continue one-to-one observation until hemodynamically stable."
+              },
+              {
+                "label": "Handoff and monitoring",
+                "text": "Document anesthesia/opioid type and timing, blood loss, fluids, urine output and complications. Follow the anesthesia-specific observation plan; neuraxial opioids can cause delayed respiratory depression."
+              },
+              {
+                "label": "Escalate promptly",
+                "text": "Assess sedation, respiratory rate, oxygen saturation, BP, pulse, pain and bleeding together. Excessive sleepiness, slow/ineffective breathing, falling saturation or unstable observations needs urgent review."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
         "title": "Recovery monitoring: assess the whole postpartum patient",
         "blocks": [
           {
@@ -5545,22 +5680,22 @@ const obStudyObjectives = [
       },
       {
         "type": "group",
-        "title": "Comfort and mobility: link care to reassessment",
+        "title": "Guideline supplement: pain relief and safe mobility",
         "blocks": [
           {
             "type": "facts",
             "items": [
               {
-                "label": "Pain relief",
-                "text": "Give prescribed analgesia and reassess relief, alertness, breathing, and ability to participate in care. Use the lecture’s positioning, relaxation, reassurance, and patient-selected support measures where appropriate. No postoperative drug regimen is supplied in the PDFs."
+                "label": "Multimodal pain relief",
+                "text": "As prescribed and appropriate for the patient, acetaminophen plus an NSAID can reduce opioid requirements; opioids may be added for breakthrough pain. Pair medication with positioning, relaxation and reassurance; reassess function as well as the pain score and check contraindications."
               },
               {
-                "label": "Mobility application",
-                "text": "The postpartum PDF links hypercoagulability, birth trauma, and immobility with thromboembolism. Follow the ordered assisted-mobility plan after assessing anesthesia recovery, strength/sensation, and hemodynamic stability; the slides do not specify a first-walk time."
+                "label": "Medication safety",
+                "text": "Check total acetaminophen across combination products. With opioids, assess alertness and breathing; discuss infant sedation/feeding concerns if breastfeeding and follow the prescribed lactation-compatible plan."
               },
               {
-                "label": "Report and evaluate",
-                "text": "Report calf pain with swelling; the PDF advises against Homan’s sign. Recovery should show stable observations, manageable pain, improving function, and safe participation in self/newborn care."
+                "label": "Mobilize safely",
+                "text": "Assist early short walks once anesthesia recovery and circulation permit. Continue ordered clot prevention, support the incision during movement, and reassess dizziness, pain and leg symptoms. Do not use Homan’s sign to screen for DVT."
               }
             ]
           }
@@ -5568,29 +5703,75 @@ const obStudyObjectives = [
       },
       {
         "type": "group",
-        "title": "Recovery teaching and the limits of the supplied material",
+        "title": "Guideline supplement: intake, voiding and newborn care",
         "blocks": [
           {
             "type": "facts",
             "items": [
               {
-                "label": "Teach the assessment priorities",
-                "text": "Explain bleeding/lochia and incision observations, pain management as prescribed, bladder/bowel recovery, mobility assistance, and symptoms requiring prompt contact. Fever, worsening wound findings, heavy bleeding, breathlessness, and painful leg swelling need assessment."
+                "label": "Food and drink",
+                "text": "Uncomplicated recovery generally allows normal eating/drinking as tolerated. Persistent vomiting, marked distention or worsening abdominal pain needs review rather than routine diet advancement."
               },
               {
-                "label": "Support and evaluation",
-                "text": "Discuss the birth experience, support needs, and emotional response; the postpartum lecture notes that an unplanned cesarean may bring grief or disappointment. Check understanding of the individual recovery plan and follow-up."
+                "label": "Urinary recovery",
+                "text": "Track catheter output, distention and ability to void after removal. Remove the catheter according to mobility, anesthesia recovery and the ordered plan; report retention."
               },
               {
-                "label": "Material limit",
-                "text": "The original PDFs do not provide a complete cesarean preoperative checklist, postoperative schedule, feeding-advancement plan, or cesarean-specific home restrictions. These remain items for the course’s operative-birth material; no detailed protocol is invented here."
+                "label": "Family-centered recovery",
+                "text": "Help with skin-to-skin, feeding positions that protect the incision, and lifting/handling the newborn safely. Include the chosen support person, discuss the birth experience and emotional needs, and check that pain control enables care. An unplanned cesarean may bring grief or disappointment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Guideline supplement: incision care and recovery at home",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Teach wound care",
+                "text": "Gently clean and dry the incision daily; follow the dressing/stitch plan. Report spreading redness, increasing wound pain, drainage or separation."
+              },
+              {
+                "label": "Activity and help",
+                "text": "Build up gentle movement; arrange help with heavier tasks. Resume driving, exercise, heavier lifting and sex when recovered and cleared according to the individual plan; driving also requires safe vehicle control and freedom from sedating medication effects."
+              },
+              {
+                "label": "Follow-up and teach-back",
+                "text": "Confirm medication instructions, wound review and contact details. ACOG recommends postpartum contact within 3 weeks and comprehensive care by 12 weeks, with earlier review for individual needs. Ask the patient to explain self-care and when/where to get help."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Guideline supplement: warning signs and readiness for discharge",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Get emergency help",
+                "text": "Chest pain, trouble breathing, fainting, uncontrolled heavy bleeding, or thoughts of harming self/baby need immediate help. Severe or worsening headache, visual changes, severe abdominal pain, or one-sided painful leg swelling need urgent assessment."
+              },
+              {
+                "label": "Contact care promptly",
+                "text": "Fever ≥38°C/100.4°F, worsening wound findings, painful urination or difficulty voiding need assessment; do not dismiss them as normal recovery."
+              },
+              {
+                "label": "Evaluate readiness",
+                "text": "Look for stable observations, controlled bleeding, a satisfactory wound, oral intake, a voiding plan and safe mobility. Pain should allow self-care; confirm support, follow-up and understanding of warning signs rather than using a fixed discharge day."
               }
             ]
           }
         ]
       }
     ],
-    "answerSourceNote": "From Labor & Birth Complications pages 18–24, 26–33 and 42; Pain Management pages 2–5, 9–13 and 15–18; and Postpartum Care pages 4, 11–13, 21, 25–31, 34–40, 52–53 and 59. The latter supplied PDFs support consent/anesthesia and recovery assessments. Brief operative-birth/anesthesia safety clarifications are labeled. Cesarean-specific preparation, recovery schedules and home restrictions remain incompletely covered by the original material.",
+    "answerSourceNote": "Lecture base: Labor & Birth Complications pages 18–24, 26–33 and 42; Pain Management pages 2–5, 9–13 and 15–18; Postpartum Care pages 4, 11–13, 21, 25–31, 34–40, 52–53 and 59. Labeled guideline supplements now fill preparation, prophylaxis, anesthesia recovery, pain/mobility, intake/voiding, wound teaching, follow-up and warning-sign gaps. Those additions come from the linked professional/public-health guidance, not the original slides. Drug doses and exact observation, catheter and activity schedules remain patient- and institution-specific.",
     "answerSources": [
       {
         "title": "Original PDF — Labor & birth complications",
@@ -5611,6 +5792,34 @@ const obStudyObjectives = [
       {
         "title": "Safety clarification — ASA obstetric anesthesia guidance",
         "url": "https://doi.org/10.1097/ALN.0000000000000935"
+      },
+      {
+        "title": "Guideline supplement — RCOG assisted-birth indications",
+        "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/assisted-vaginal-birth-ventouse-or-forceps/"
+      },
+      {
+        "title": "Guideline supplement — NICE cesarean preparation and monitoring",
+        "url": "https://www.nice.org.uk/guidance/ng192/chapter/Recommendations"
+      },
+      {
+        "title": "Guideline supplement — ACOG postpartum pain management",
+        "url": "https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2021/09/pharmacologic-stepwise-multimodal-approach-for-postpartum-pain-management"
+      },
+      {
+        "title": "Guideline supplement — SMFM cesarean thromboprophylaxis",
+        "url": "https://publications.smfm.org/publications/327-society-for-maternal-fetal-medicine-consult-series-51/"
+      },
+      {
+        "title": "Guideline supplement — NHS cesarean recovery",
+        "url": "https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/"
+      },
+      {
+        "title": "Guideline supplement — CDC urgent maternal warning signs",
+        "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+      },
+      {
+        "title": "Guideline supplement — ACOG postpartum follow-up",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2018/05/optimizing-postpartum-care"
       }
     ],
     "answerReviewedOn": "2026-11-21"
@@ -5693,7 +5902,7 @@ const obStudyObjectives = [
               },
               {
                 "label": "At the bedside",
-                "text": "Give brief explanations, help the patient follow the delivering clinician’s instructions, and prepare to assist with the named maneuvers. Communicate requests and completion clearly so the team knows what has been attempted."
+                "text": "Explain briefly what is happening and ask the patient to stop pushing as the delivering clinician directs. Assist with the named maneuvers and communicate requests/completion clearly so the team knows what has been attempted."
               },
               {
                 "label": "Track the response",
@@ -5978,7 +6187,7 @@ const obStudyObjectives = [
         "items": [
           "Use the lecture cues to separate cord compression after membrane rupture, possible uterine rupture, and sudden maternal hypoxic/circulatory collapse with coagulopathy.",
           "Call the emergency team immediately while supporting the threatened function: relieve cord compression, prepare urgent operative/resuscitative care for rupture, or support breathing/circulation for suspected AFE.",
-          "The supplied postpartum PDF defines uterine inversion as the uterus turning inside out. It needs urgent specialist correction and hemorrhage response; the limited safety clarification below is distinguished from the lecture’s brief definition."
+          "Uterine inversion is the uterus turning inside out: activate hemorrhage help and prepare urgent clinician-led replacement. Across emergencies, document the actual response and reassess perfusion, bleeding and newborn condition; labeled supplements add missing follow-through."
         ]
       },
       {
@@ -5994,7 +6203,7 @@ const obStudyObjectives = [
               },
               {
                 "label": "First actions",
-                "text": "Call for help and, as the trained responder, use a sterile-gloved vaginal hand to elevate the presenting part off the cord. Assist with knee-chest/head-down positioning and prepare urgent birth, usually cesarean if vaginal birth is not imminent."
+                "text": "Call for help and, as the trained responder, use a sterile-gloved vaginal hand to elevate the presenting part off the cord. Stop an oxytocin infusion; assist with knee-chest/head-down positioning and prepare urgent birth, usually cesarean if vaginal birth is not imminent."
               },
               {
                 "label": "Safety clarification and evaluation",
@@ -6021,7 +6230,7 @@ const obStudyObjectives = [
               },
               {
                 "label": "Ongoing evaluation",
-                "text": "Follow maternal perfusion/vital signs, bleeding, and FHR while supporting IV access, ordered blood-product response, and transfer/handoff. Improvement in one sign does not exclude ongoing rupture or internal bleeding."
+                "text": "Guideline supplement: bleeding may be concealed; visible loss alone cannot gauge severity. Monitor perfusion, FHR and urine output; support large-bore IV access, ordered blood/coagulation studies and blood products while preparing emergency surgery. Reassess after repair/birth; do not infer resolution from transient improvement."
               }
             ]
           }
@@ -6052,22 +6261,22 @@ const obStudyObjectives = [
       },
       {
         "type": "group",
-        "title": "Uterine inversion: separate it from a boggy uterus",
+        "title": "Guideline supplement: AFE resuscitation and reassessment",
         "blocks": [
           {
             "type": "facts",
             "items": [
               {
-                "label": "Original PDF coverage",
-                "text": "Postpartum Care pages 16 and 18 identify a potentially life-threatening turning inside out of the uterus. They do not provide an inversion-specific case or replacement protocol."
+                "label": "Parallel priorities",
+                "text": "Support airway/breathing and circulation, summon the multidisciplinary team, and activate the hemorrhage/blood-product response when indicated. Obtain ordered CBC, platelets, coagulation and fibrinogen studies; DIC may evolve quickly."
               },
               {
-                "label": "Safety clarification: first response",
-                "text": "Call obstetric/anesthesia and hemorrhage help immediately; support perfusion and prepare urgent uterine replacement by the qualified clinician. A missing usual abdominal fundus or vaginal mass with bleeding/pain/shock warrants urgent assessment."
+                "label": "If maternal cardiac arrest occurs",
+                "text": "Begin CPR/AED response immediately. With the fundus at/above the umbilicus, the team adds manual left uterine displacement during compressions and prepares resuscitative delivery from recognition of arrest, aiming for birth by 5 minutes if circulation has not returned; do not delay resuscitation for an operating-room transfer."
               },
               {
-                "label": "Safety clarification: avoid routine atony treatment",
-                "text": "Do not apply routine fundal massage or cord traction to an inverted uterus. Uterotonics are held during replacement and administered as ordered after correction. Reassess uterine position/tone, bleeding, pain, and perfusion while resuscitation continues."
+                "label": "Evaluate and hand off",
+                "text": "Trend oxygenation, circulation, urine output, bleeding and coagulation response. Record interventions/products and response; critical-care and newborn follow-up continue after birth or return of circulation."
               }
             ]
           }
@@ -6075,7 +6284,53 @@ const obStudyObjectives = [
       },
       {
         "type": "group",
-        "title": "Shared response, reassessment, and source limits",
+        "title": "Guideline supplement: inversion recognition and first response",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Recognize",
+                "text": "The uterus turns inside out; the usual abdominal fundus may be absent and a mass may be felt/seen vaginally, with pelvic pain, bleeding and shock. This differs from an ordinary boggy, atonic uterus."
+              },
+              {
+                "label": "Act simultaneously",
+                "text": "Call obstetric/anesthesia and hemorrhage help; support IV access, perfusion and blood-product preparation while the qualified clinician urgently replaces the uterus. Resuscitation and replacement proceed together."
+              },
+              {
+                "label": "Avoid worsening it",
+                "text": "Do not apply routine fundal massage or cord traction. Do not attempt to remove an attached placenta before replacement. Hold uterotonics during reduction; do not substitute repeated atony treatment for correction of the inversion."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Guideline supplement: after the uterus is replaced",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Restore and maintain contraction",
+                "text": "Once replacement is confirmed, give ordered uterotonics and other hemorrhage treatment; prepare antibiotics as ordered. Persistent or recurrent inversion requires immediate specialist escalation, sometimes operative correction."
+              },
+              {
+                "label": "Reassess",
+                "text": "Monitor fundal position/tone, bleeding, vital signs, perfusion and urine output. Continue shock/blood-product care and document the response; successful replacement alone does not prove hemorrhage has resolved."
+              },
+              {
+                "label": "Explain and follow up",
+                "text": "Debrief the event, assess pain and emotional needs, and communicate ongoing monitoring and follow-up to the patient and receiving team."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Shared response: communicate, reassess and hand off",
         "blocks": [
           {
             "type": "facts",
@@ -6089,15 +6344,15 @@ const obStudyObjectives = [
                 "text": "The lecture lists oxygen for fetal compromise/cord prolapse. Routine oxygen for an abnormal FHR in a normally oxygenated mother is not recommended; oxygen is appropriate for maternal hypoxia or another clinical indication, including hypoxic collapse. It does not replace cord decompression or urgent birth."
               },
               {
-                "label": "Material limit",
-                "text": "These PDFs provide cue lists and cord-prolapse illustrations rather than full case histories or complete rupture/AFE/inversion protocols. Use the shared placental-emergency objective for the existing shock/DIC response; no fictional cases, resuscitation drug doses, or additional surgical techniques are added."
+                "label": "Source distinction",
+                "text": "The PDFs provide cue lists and illustrations, not full clinical cases. Labeled guideline supplements now cover missing response/reassessment steps. The shared placental-emergency objective retains the shock/DIC foundation; exact drugs, transfusion targets and surgical techniques follow specialist/local protocols."
               }
             ]
           }
         ]
       }
     ],
-    "answerSourceNote": "From Labor & Birth Complications pages 24, 26–31 and 42–43, plus the uterine-inversion definition/list in Postpartum Care pages 16–18. Recognition lists are not full clinical cases. Brief safety clarifications supply the essential emergency response, cord handling, oxygen distinction, AFE diagnosis/resuscitation and inversion-versus-atony distinction; the missing detailed protocols remain explicit.",
+    "answerSourceNote": "Lecture base: Labor & Birth Complications pages 24, 26–31 and 42–43, plus the inversion definition/list in Postpartum Care pages 16–18. Labeled guideline supplements add concealed-bleeding assessment, AFE/maternal-arrest follow-through, inversion correction priorities and post-replacement evaluation. These are sourced additions, not cases claimed to exist in the PDFs. Exact drugs, transfusion targets and operative techniques follow specialist/local protocols.",
     "answerSources": [
       {
         "title": "Original PDF — Labor & birth complications",
@@ -6134,6 +6389,14 @@ const obStudyObjectives = [
       {
         "title": "Safety clarification — MSF uterine rupture",
         "url": "https://medicalguidelines.msf.org/en/viewport/ONC/english/3-3-uterine-rupture-51416296.html"
+      },
+      {
+        "title": "Guideline supplement — AHA maternal cardiac arrest response",
+        "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation"
+      },
+      {
+        "title": "Guideline supplement — SMFM 2026 AFE response and reassessment",
+        "url": "https://doi.org/10.1002/pmf2.70364"
       }
     ],
     "answerReviewedOn": "2026-11-21"

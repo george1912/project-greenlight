@@ -30,10 +30,10 @@ for(const record of audit.objectives){
  for(const range of record.lectureRanges){const source=audit.sources.find(s=>s.deckId===range.deckId);assert(source&&range.firstPage>=1&&range.firstPage<=range.lastPage&&range.lastPage<=source.pages);}
  const lectureLinks=objective.answerSources.filter(s=>s.url.startsWith('#/ob-final/presentation/'));assert(lectureLinks.length);assert.equal(lectureLinks[0].url,'#/ob-final/presentation/labor-complications');
  for(const ref of lectureLinks){const id=ref.url.split('/').pop();assert(decks[id]);assert(record.lectureRanges.some(r=>r.deckId===id));assert(objective.answerSources.indexOf(ref)<lectureLinks.length);}
- for(const ref of objective.answerSources.filter(s=>!lectureLinks.includes(s))){assert.equal(new URL(ref.url).protocol,'https:');assert(ref.title.includes('clarification'));}
+ for(const ref of objective.answerSources.filter(s=>!lectureLinks.includes(s))){assert.equal(new URL(ref.url).protocol,'https:');assert(/clarification|Guideline supplement/.test(ref.title),'Distinguish guideline additions from original slides');}
  for(const group of topics){assert(group.blocks.length);for(const block of group.blocks){assert.equal(block.type,'facts');assert(block.items.every(item=>item.label&&item.text));}const words=group.blocks.flatMap(b=>b.items.map(item=>item.label+' '+item.text)).join(' ').split(/\s+/).length;assert(words<=160,'Keep a note topic readable: '+group.title);}
 }
-assert.equal(newTopics,29);
+assert.equal(newTopics,38);
 for(const objective of week6){
  const topics=objective.answer.filter(b=>b.type==='group'),routes=['#/ob-final/week-6','#/ob-final/week-8',...Array.from(objective.topicIds,id=>'#/ob-final/topic/'+id)];
  for(const route of routes){const markup=render(route),part=section(markup,objective.id);assert.equal((markup.match(new RegExp('data-objective="'+objective.id+'"','g'))||[]).length,1);
@@ -43,20 +43,30 @@ for(const objective of week6){
   assert(part.indexOf('Study notes')<part.indexOf('Watch &amp; understand')||part.indexOf('Study notes')<part.indexOf('Watch & understand'));
  }
 }
-assert.equal((weekly.match(/class="ob-note-topic"/g)||[]).length,34);
+assert.equal((weekly.match(/class="ob-note-topic"/g)||[]).length,43);
 const notes=id=>JSON.stringify(all.find(o=>o.id===id).answer).toLowerCase();
 const coverage={
- 'complicated-labor':['before 37 completed weeks','cervical change','fetal fibronectin','intact membranes','do not delay evaluation','bed rest','betamethasone','neuroprotection','prelabor rupture','without a required one-hour','pprom','antibiotics','do not wait until rupture','42 weeks','nonstress','biophysical','hypertonic','hypotonic','<3 hours','perineal injury'],
- 'assisted-cesarean-birth':['forceps','vacuum','cephalopelvic disproportion','informed consent','full cervical dilation','known head position','lack of descent','3 pop-offs','first degree','fourth','rectal mucosa','cephalohematoma','spinal','hypotension','lochia','approximation','urine output','bowel','pain relief','assisted-mobility','homan','no complete cesarean','do not provide a complete cesarean'],
+ 'complicated-labor':['before 37 completed weeks','cervical change','fetal fibronectin','intact membranes','do not delay evaluation','bed rest','betamethasone','neuroprotection','prelabor rupture','without a required one-hour','pprom','antibiotics','do not wait until rupture','42 weeks','nonstress','biophysical','hypertonic','hypotonic','<3 hours','perineal injury','sterile speculum','routine repeated digital','24–33 weeks + 6','34–36 weeks + 6','latency antibiotics are not routine','4 hours of adequate','6 hours of inadequate','never require waiting'],
+ 'assisted-cesarean-birth':['forceps','vacuum','cephalopelvic disproportion','informed consent','full cervical dilation','known head position','lack of descent','3 pop-offs','first degree','fourth','rectal mucosa','cephalohematoma','spinal','hypotension','lochia','approximation','urine output','bowel','pain relief','safe mobility','homan','prophylactic antibiotics before skin incision','sequential compression','one-to-one','delayed respiratory depression','acetaminophen','nsaid','normal eating','ability to void','incision daily','within 3 weeks','by 12 weeks','teach-back','readiness for discharge','100.4'],
  'shoulder-dystocia':['do not wait 2 minutes','previous shoulder dystocia','do not reliably predict','activate','mcroberts','onto her back','suprapubic','woods screw','do not apply','fundal','jerking','head-birth time','body-birth time','contemporaneous','no duration is a guaranteed safe','brachial plexus','clavicular','arm movement','hemorrhage'],
- 'other-birth-emergencies':['after membrane rupture','sterile-gloved','elevate the presenting part','maintain decompression','do not try to push it back','loss of fetal station','stop a labor-stimulating oxytocin','hypotension','hypoxia','coagulopathy','cpr','clinical diagnosis','fetal cells alone do not confirm','turning inside out','uterotonics are held during replacement','after correction','routine oxygen','normally oxygenated','not full clinical cases']
+ 'other-birth-emergencies':['after membrane rupture','sterile-gloved','elevate the presenting part','maintain decompression','do not try to push it back','loss of fetal station','stop a labor-stimulating oxytocin','hypotension','hypoxia','coagulopathy','cpr','clinical diagnosis','fetal cells alone do not confirm','turning inside out','hold uterotonics during reduction','once replacement is confirmed','routine oxygen','normally oxygenated','not full clinical cases','bleeding may be concealed','fibrinogen','left uterine displacement','at/above the umbilicus','from recognition of arrest','by 5 minutes','do not attempt to remove an attached placenta','hemorrhage has resolved']
 };
 // Some coverage is recorded in the objective/source note, where material limits belong.
 for(const [id,terms] of Object.entries(coverage)){const combined=(notes(id)+' '+JSON.stringify(all.find(o=>o.id===id))).toLowerCase();for(const term of terms)assert(combined.includes(term),id+': '+term);}
 assert.deepEqual(audit.materialLimits.map(m=>m.objectiveId),['complicated-labor','assisted-cesarean-birth','other-birth-emergencies']);
+assert(audit.materialLimits.every(item=>item.status.startsWith('Addressed with labeled guideline supplementation')&&item.originalLimit));
+assert.equal(audit.refinement.reviewedOn,audit.reviewedOn);
+for(const record of audit.refinement.guidelineCoverage){
+ const objective=all.find(o=>o.id===record.objectiveId);assert(objective.answer.some(b=>b.type==='group'&&b.title===record.noteTopic));
+ for(const url of record.sources)assert(objective.answerSources.some(source=>source.url===url),'Supplement citation missing: '+record.noteTopic);
+}
+// New topics retain a visible provenance label; no original course cases are fabricated.
+assert.equal(audit.refinement.remainingBoundaries.length,2);
+for(const objective of week6.filter(o=>o.answer.some(b=>b.title?.startsWith('Guideline supplement:'))))assert(objective.answerSourceNote.includes('supplement'));
+assert(notes('shoulder-dystocia').includes('stop pushing'));
 const sourceScope=JSON.stringify(newIds.map(id=>all.find(o=>o.id===id).answer)).toLowerCase();
 for(const term of ['bishop score','montevideo units','zavanelli','huntington','haultain','a-ok regimen'])assert(!sourceScope.includes(term),'Do not add unrelated protocols: '+term);
 assert(!/\b\d+(?:\.\d+)?\s*(?:mg|mcg|micrograms|units\/hr)\b/.test(sourceScope),'No replacement medication dosing table');
 const fact=all.find(o=>o.id==='shoulder-dystocia').answer[1].blocks[0].items[0],saved=fact.text;fact.text='<script>alert("patient")</script> & safety';
 for(const route of ['#/ob-final/week-6','#/ob-final/week-8','#/ob-final/topic/labor-emergencies']){const part=section(render(route),'shoulder-dystocia');assert(part.includes('&lt;script&gt;alert(&quot;patient&quot;)&lt;/script&gt; &amp; safety'));assert(!part.includes('<script>'));}fact.text=saved;
-console.log('Passed: all 5 Week 6 objectives populated, 29 new / 34 total closed topics, source-page/PDF integrity, 29 prior answers and shared hemorrhage preserved, explicit source gaps and limited safety clarifications, weekly/exam/review reuse and safe rendering.');
+console.log('Passed: all 5 Week 6 objectives, 38 refined / 43 total closed topics, original PDF integrity, 29 earlier answers/shared hemorrhage preserved, cited and labeled supplements for PROM/labor progress/cesarean/emergency gaps, scope boundaries, weekly/exam/review reuse and safe rendering.');
