@@ -1,3 +1,4 @@
+const {historicalObjectiveHash,beforeFinalReview}=require('./lib/ob-note-review.cjs');
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict'),crypto=require('node:crypto');
 const root=path.resolve(__dirname,'..'),html=fs.readFileSync(path.join(root,'index.html'),'utf8');
 const main={innerHTML:'',querySelector:()=>null,querySelectorAll:()=>[],focus(){}};
@@ -9,7 +10,7 @@ const expected=['postpartum-physiology','postpartum-assessment','postpartum-labs
 assert.deepEqual(Array.from(week7,o=>o.id),expected);assert.deepEqual(audit.objectives.map(o=>o.id),expected);assert(week7.every(o=>o.answer.length));
 assert.deepEqual(Array.from(all.filter(o=>o.answer.length),o=>o.id),map.completedObjectiveIds);
 const hash=data=>crypto.createHash('sha256').update(data).digest('hex');
-assert.equal(audit.preservedCompletedObjectives.length,33);for(const saved of audit.preservedCompletedObjectives)assert.equal(hash(JSON.stringify(all.find(o=>o.id===saved.id))),saved.sha256,'Preserve earlier objective '+saved.id);
+assert.equal(audit.preservedCompletedObjectives.length,33);for(const saved of audit.preservedCompletedObjectives)assert.equal(historicalObjectiveHash(all.find(o=>o.id===saved.id)),saved.sha256,'Preserve earlier objective '+saved.id);
 for(const source of audit.sources){assert.equal(hash(fs.readFileSync(path.join(root,source.path))),source.sha256);assert.equal(JSON.parse(fs.readFileSync(path.join(root,path.dirname(source.path),'deck.json'))).pages.length,source.pages);}
 const render=route=>{c.location.hash=route;vm.runInContext('render()',c);return main.innerHTML;};
 const section=(markup,id)=>{const markers=[...markup.matchAll(/data-objective="([^"]+)"/g)],i=markers.findIndex(m=>m[1]===id);assert(i>=0,id);return markup.slice(markers[i].index,markers[i+1]?.index);};
@@ -26,7 +27,7 @@ for(const record of audit.objectives){const o=all.find(o=>o.id===record.id),topi
  for(const topic of topics){const text=topic.blocks.flatMap(b=>b.items.map(i=>i.label+' '+i.text)).join(' ');assert(text.split(/\s+/).length<=160,'Readable topic: '+topic.title);assert(!text.includes('**'));assert(topic.blocks.flatMap(b=>b.items).some(i=>formatter.format(i.text,o.id+'|'+topic.title).includes('data-ob-emphasis="bold"')),'Bold study cues: '+topic.title);}
  for(const route of ['#/ob-final/week-7','#/ob-final/week-8',...Array.from(o.topicIds,id=>'#/ob-final/topic/'+id)]){const markup=render(route),part=section(markup,o.id);assert(part.includes('Quick answer')&&part.includes('Sources for these notes'));assert.equal((part.match(/class="ob-note-topic"/g)||[]).length,topics.length);assert(!/<details class="ob-note-(?:topic|sources)"[^>]*\bopen\b/.test(part));assert(!part.includes('<iframe'));assert(!/href="[^\"]+\.pdf/.test(part));assert.equal(answerPart(part),answerPart(section(weekly,o.id)),'Identical shared notes: '+route);}
 }
-assert.equal(groups,58);assert.equal(audit.emphasis.newBoldSpans,130);const additions=review.additions.filter(a=>expected.includes(a.objectiveId)&&a.section!=='prompt');assert.equal(additions.length,130);assert(additions.every(a=>a.style==='bold'));for(const a of additions)assert(rules[a.objectiveId+'|'+a.section].some(r=>r.text===a.exact_text&&r.style==='bold'));
+assert.equal(groups,58);assert.equal(audit.emphasis.newBoldSpans,130);const additions=review.additions.filter(a=>beforeFinalReview(a)&&expected.includes(a.objectiveId)&&a.section!=='prompt');assert.equal(additions.length,130);assert(additions.every(a=>a.style==='bold'));for(const a of additions)assert(rules[a.objectiveId+'|'+a.section].some(r=>r.text===a.exact_text&&r.style==='bold'));
 const text=id=>JSON.stringify(all.find(o=>o.id===id).answer).toLowerCase();
 const coverage={
  'postpartum-physiology':['involution','about 1 cm','rubra','serosa','alba','afterpains','diuresis','estrogen','prolactin','oxytocin','ovulation','diastasis','cervix','postdural','fever ≥38'],

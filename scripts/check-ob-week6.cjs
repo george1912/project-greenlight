@@ -1,3 +1,4 @@
+const {historicalObjectiveHash}=require('./lib/ob-note-review.cjs');
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict'),crypto=require('node:crypto');
 const root=path.resolve(__dirname,'..'),html=fs.readFileSync(path.join(root,'index.html'),'utf8');
 const main={innerHTML:'',querySelector:()=>null,querySelectorAll:()=>[],focus(){}};
@@ -13,8 +14,8 @@ assert.deepEqual(Array.from(all.filter(o=>o.answer.length),o=>o.id),map.complete
 const hash=value=>crypto.createHash('sha256').update(value).digest('hex');
 for(const source of audit.sources){assert.equal(hash(fs.readFileSync(path.join(root,source.path))),source.sha256);assert.equal(JSON.parse(fs.readFileSync(path.join(root,path.dirname(source.path),'deck.json'))).pages.length,source.pages);}
 assert.equal(audit.preservedCompletedObjectives.length,29);
-for(const saved of audit.preservedCompletedObjectives)assert.equal(hash(JSON.stringify(all.find(o=>o.id===saved.id))),saved.sha256,'Preserve earlier objective '+saved.id);
-assert.equal(hash(JSON.stringify(all.find(o=>o.id===audit.sharedObjective.id))),audit.sharedObjective.sha256,'Preserve the entire shared hemorrhage object');
+for(const saved of audit.preservedCompletedObjectives)assert.equal(historicalObjectiveHash(all.find(o=>o.id===saved.id)),saved.sha256,'Preserve earlier objective '+saved.id);
+assert.equal(historicalObjectiveHash(all.find(o=>o.id===audit.sharedObjective.id)),audit.sharedObjective.sha256,'Preserve the entire shared hemorrhage object');
 const render=route=>{context.location.hash=route;vm.runInContext('render()',context);return main.innerHTML;};
 const section=(markup,id)=>{const markers=[...markup.matchAll(/data-objective="([^"]+)"/g)],i=markers.findIndex(m=>m[1]===id);assert(i>=0,id);return markup.slice(markers[i].index,markers[i+1]?.index);};
 const answerPart=markup=>markup.split('<div class="answer-area">')[1].split('</ul></details></div>')[0];

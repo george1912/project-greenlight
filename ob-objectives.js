@@ -2312,6 +2312,10 @@ const obStudyObjectives = [
               {
                 "label": "Coordinate care",
                 "text": "Arrange obstetric/MFM review and condition-specific services such as endocrinology, dietetics, genetics, social work, or neonatal consultation. Explain what a test can and cannot answer and ensure results reach the responsible clinician."
+              },
+              {
+                "label": "NST clarification",
+                "text": "A reactive NST usually has at least two qualifying accelerations in 20 minutes, using gestational-age criteria. Observation may extend to 40 minutes for sleep. Nonreactive is not a diagnosis of hypoxia: assess the whole tracing and arrange further testing/clinical review as indicated."
               }
             ]
           }
@@ -2356,7 +2360,7 @@ const obStudyObjectives = [
       }
     ],
     "answerReviewedOn": "2026-11-21",
-    "answerSourceNote": "Synthesis of the Week 3 risks discussed throughout Antepartum Risks, pages 2–55, and Diabetes in Pregnancy, pages 2–26. Organized around assessment, surveillance, referral, and the nursing plan rather than implying a separate high-risk lecture was supplied.",
+    "answerSourceNote": "Synthesis of the Week 3 risks discussed throughout Antepartum Risks, pages 2–55, and Diabetes in Pregnancy, pages 2–26. Organized around assessment, surveillance, referral, and the nursing plan rather than implying a separate high-risk lecture was supplied. Final review clarification adds NST result interpretation without a universal testing schedule.",
     "answerSources": [
       {
         "title": "NICHD — High-risk pregnancy",
@@ -2369,6 +2373,10 @@ const obStudyObjectives = [
       {
         "title": "SMFM — Activity restriction in obstetric care",
         "url": "https://publications.smfm.org/publications/326-society-for-maternal-fetal-medicine-consult-series-50/"
+      },
+      {
+        "title": "ACOG: NST interpretation and follow-up clarification",
+        "url": "https://www.acog.org/womens-health/faqs/special-tests-for-monitoring-fetal-well-being"
       }
     ]
   },
@@ -3241,7 +3249,7 @@ const obStudyObjectives = [
               },
               {
                 "label": "Postpartum safety",
-                "text": "Risk does not disappear immediately after birth. Arrange early BP review and teach urgent return for headache, visual symptoms, upper abdominal pain, chest pain/dyspnea, or seizure. Explain long-term cardiovascular follow-up after a hypertensive pregnancy."
+                "text": "Risk does not disappear immediately after birth. Guideline clarification: arrange BP review within 72 hours for severe hypertension and by 7–10 days postpartum for other hypertensive disorders. Seek urgent care for headache, visual symptoms, upper abdominal pain, chest pain/dyspnea, or seizure. Maintain long-term cardiovascular follow-up."
               }
             ]
           }
@@ -3249,7 +3257,7 @@ const obStudyObjectives = [
       }
     ],
     "answerReviewedOn": "2026-11-21",
-    "answerSourceNote": "Based on Antepartum Risks, pages 30–38. Corrects mandatory-proteinuria/severe-protein assumptions, repeat-BP timing, postpartum definition, and routine bed-rest/high-protein treatment shortcuts.",
+    "answerSourceNote": "Based on Antepartum Risks, pages 30–38. Corrects mandatory-proteinuria/severe-protein assumptions, repeat-BP timing, postpartum definition, and routine bed-rest/high-protein treatment shortcuts. Final review clarification specifies early postpartum BP-review windows.",
     "answerSources": [
       {
         "title": "ACOG — Preeclampsia and high blood pressure",
@@ -3270,6 +3278,10 @@ const obStudyObjectives = [
       {
         "title": "ACOG — Gestational hypertension and preeclampsia bulletin",
         "url": "https://pubmed.ncbi.nlm.nih.gov/32443079/"
+      },
+      {
+        "title": "ACOG: postpartum BP-review timing clarification",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2018/05/optimizing-postpartum-care"
       }
     ]
   },
@@ -4358,7 +4370,7 @@ const obStudyObjectives = [
               },
               {
                 "label": "Safety and limitations",
-                "text": "These are invasive methods requiring appropriate selection and trained insertion; assess membrane/presentation status and follow procedure precautions. Internal monitoring can improve signal quality but does not eliminate the need to verify the signal, reassess the patient, or interpret the tracing."
+                "text": "These are invasive methods requiring appropriate selection and trained insertion; assess membrane/presentation status and follow procedure precautions. Internal monitoring can improve signal quality but does not eliminate the need to verify the signal, reassess the patient, or interpret the tracing. HIV safety clarification: avoid fetal scalp electrodes with HIV even when suppressed; do not use them when HIV RNA is ≥50 copies/mL. Review infection risk with the team."
               }
             ]
           }
@@ -4380,7 +4392,7 @@ const obStudyObjectives = [
       }
     ],
     "answerReviewedOn": "2026-11-21",
-    "answerSourceNote": "From Fetal & Maternal Monitoring, pages 2–18, and Processes of Labor & Birth, pages 30–35 and 47–48. Clarifies the external toco’s measurement limits and the lecture’s overly absolute “no maternal artifact” wording.",
+    "answerSourceNote": "From Fetal & Maternal Monitoring, pages 2–18, and Processes of Labor & Birth, pages 30–35 and 47–48. Clarifies the external toco’s measurement limits and the lecture’s overly absolute “no maternal artifact” wording. Final review clarification adds NIH fetal-scalp-electrode precautions with HIV.",
     "answerSources": [
       {
         "title": "Assigned lecture — Fetal & maternal monitoring in labor",
@@ -4389,6 +4401,10 @@ const obStudyObjectives = [
       {
         "title": "Assigned lecture — Processes of labor & birth",
         "url": "#/ob-final/presentation/labor-and-birth"
+      },
+      {
+        "title": "NIH: fetal scalp electrode and HIV safety clarification",
+        "url": "https://clinicalinfo.hiv.gov/en/guidelines/perinatal/intrapartum-care"
       }
     ]
   },
@@ -4420,7 +4436,7 @@ const obStudyObjectives = [
             "items": [
               {
                 "label": "How to read it",
-                "text": "Estimate the mean FHR in a 10-minute window, rounded to 5 bpm, excluding accelerations, decelerations, and marked variability. The usual range taught is 110–160 bpm."
+                "text": "Estimate the mean FHR in a 10-minute window, rounded to 5 bpm, excluding accelerations, decelerations, and marked variability. The usual range taught is 110–160 bpm. Definition clarification: identify at least two minutes of baseline within the window, not necessarily contiguous; otherwise the baseline is indeterminate."
               },
               {
                 "label": "Tachycardia versus bradycardia",
@@ -4466,7 +4482,7 @@ const obStudyObjectives = [
             "items": [
               {
                 "label": "Term acceleration",
-                "text": "The usual term definition is a rise ≥15 bpm lasting ≥15 seconds but <2 minutes. Definition clarification: the lecture’s “less than 30 seconds” confuses the rapid onset with the full duration."
+                "text": "The usual term definition is a rise ≥15 bpm lasting ≥15 seconds but <2 minutes. Definition clarification: the lecture’s “less than 30 seconds” confuses the rapid onset with the full duration. Gestational-age clarification: before 32 weeks, use ≥10 bpm for ≥10 seconds but <2 minutes; from 32 weeks, use the 15-by-15 criteria."
               },
               {
                 "label": "Describe a drop",
@@ -4519,7 +4535,7 @@ const obStudyObjectives = [
       }
     ],
     "answerReviewedOn": "2026-11-21",
-    "answerSourceNote": "From Fetal & Maternal Monitoring, pages 18–40 and 43–45, and Processes of Labor & Birth, pages 46–48. Short definition clarifications correct the acceleration duration/minimal-variability boundary and define tachysystole already requested by the objective.",
+    "answerSourceNote": "From Fetal & Maternal Monitoring, pages 18–40 and 43–45, and Processes of Labor & Birth, pages 46–48. Short definition clarifications correct the acceleration duration/minimal-variability boundary and define tachysystole already requested by the objective. Final review clarification adds the minimum identifiable baseline and the <32-week acceleration criteria.",
     "answerSources": [
       {
         "title": "Assigned lecture — Fetal & maternal monitoring in labor",
@@ -4536,6 +4552,10 @@ const obStudyObjectives = [
       {
         "title": "Definition clarification — NICHD fetal monitoring workshop",
         "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1552-6909.2008.00284.x"
+      },
+      {
+        "title": "NICHD workshop nomenclature: baseline and preterm acceleration clarification",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2621055/"
       }
     ]
   },
@@ -5080,7 +5100,7 @@ const obStudyObjectives = [
             "items": [
               {
                 "label": "What it means",
-                "text": "Amniotomy is intentional rupture of the membranes as part of an ordered labor plan. Review presenting-part position/engagement, fetal status, and the indication before the procedure."
+                "text": "Amniotomy is intentional rupture of the membranes as part of an ordered labor plan. Review presenting-part position/engagement, fetal status, and the indication before the procedure. Guideline clarification: explain/verify consent and confirm the head is stable and well applied; unresolved placental/vessel or presentation concerns need obstetric review before rupture."
               },
               {
                 "label": "Assessment afterward",
@@ -5088,7 +5108,7 @@ const obStudyObjectives = [
               },
               {
                 "label": "Limit of the supplied material",
-                "text": "These PDFs discuss membrane status, rupture/cord risk, and monitoring but do not provide a complete amniotomy protocol. Use the responsible clinician’s procedure plan; no additional procedural checklist or new induction method is invented here."
+                "text": "The PDFs do not provide a complete amniotomy protocol. Guideline clarification: continue maternal temperature, fluid, contraction and fetal assessment after rupture, limiting unnecessary digital examinations. Exact procedural steps remain clinician-led."
               }
             ]
           }
@@ -5110,7 +5130,7 @@ const obStudyObjectives = [
       }
     ],
     "answerReviewedOn": "2026-11-21",
-    "answerSourceNote": "From Processes of Labor & Birth, pages 7–13, 24–28, and 42–48, and Fetal & Maternal Monitoring, pages 46–50. Keeps to the named methods; flags the incomplete amniotomy protocol and clarifies unsafe blanket scar/drug/dose instructions without adding a new dosing regimen.",
+    "answerSourceNote": "From Processes of Labor & Birth, pages 7–13, 24–28, and 42–48, and Fetal & Maternal Monitoring, pages 46–50. Keeps to the named methods; flags the incomplete amniotomy protocol and clarifies unsafe blanket scar/drug/dose instructions without adding a new dosing regimen. Final review clarification adds consent, stable presenting-part checks and ongoing surveillance using NICE guidance; the PDFs still do not provide a complete amniotomy procedure.",
     "answerSources": [
       {
         "title": "Assigned lecture — Processes of labor & birth",
@@ -5127,6 +5147,10 @@ const obStudyObjectives = [
       {
         "title": "Safety clarification — ACOG labor induction",
         "url": "https://www.acog.org/womens-health/faqs/labor-induction"
+      },
+      {
+        "title": "NICE: amniotomy preparation and cord-prolapse precautions clarification",
+        "url": "https://www.nice.org.uk/guidance/ng207/chapter/recommendations"
       }
     ]
   },
@@ -7361,6 +7385,10 @@ const obStudyObjectives = [
               {
                 "label": "Evaluation",
                 "text": "A ready discharge plan has understanding, practical support and arranged follow-up, not simply a completed teaching checklist. Document unanswered concerns and the plan to resolve them."
+              },
+              {
+                "label": "BP follow-up clarification",
+                "text": "For hypertensive disorders, arrange BP review by 7–10 days postpartum; severe hypertension needs review within 72 hours. These earlier checks do not replace urgent assessment for new symptoms."
               }
             ]
           }
@@ -7368,7 +7396,7 @@ const obStudyObjectives = [
       }
     ],
     "answerReviewedOn": "2026-11-21",
-    "answerSourceNote": "Lecture base: Postpartum Care & Assessment and the Postpartum Review Handout. Uses the source’s self-care/prevention teaching with labeled clarifications for fever/urgency, postpartum follow-up, MMR, nonsensitized Rh eligibility, LAM and non-universal restrictions/sterilization rules.",
+    "answerSourceNote": "Lecture base: Postpartum Care & Assessment and the Postpartum Review Handout. Uses the source’s self-care/prevention teaching with labeled clarifications for fever/urgency, postpartum follow-up, MMR, nonsensitized Rh eligibility, LAM and non-universal restrictions/sterilization rules. Final review clarification separates the earlier hypertension BP checks from general postpartum contact.",
     "answerSources": [
       {
         "title": "Original PDF — Postpartum care & assessment",
@@ -12256,6 +12284,10 @@ const obStudyObjectives = [
               {
                 "label": "Care",
                 "text": "Insertion/removal requires a trained clinician. Check the site and ability to locate the implant as instructed; report infection, significant arm symptoms or an implant that cannot be felt. Backup depends on start timing; fertility returns promptly after removal."
+              },
+              {
+                "label": "Start clarification",
+                "text": "For a menstruating patient, insertion within the first five days of bleeding needs no backup; later insertion needs seven days. Pregnancy exclusion and postpartum, amenorrhea or switching rules still apply."
               }
             ]
           }
@@ -12279,6 +12311,10 @@ const obStudyObjectives = [
               {
                 "label": "Effects",
                 "text": "Irregular bleeding, later amenorrhea, weight change and bone-density considerations require counseling. Discuss individual risk and review; a universal automatic stop date is not a substitute for medical eligibility and shared decision-making."
+              },
+              {
+                "label": "First injection clarification",
+                "text": "For a menstruating patient, starting within the first seven days of bleeding needs no backup; later starts need seven days. Confirm pregnancy exclusion and any postpartum/switching exception; starting and late-reinjection rules differ."
               }
             ]
           }
@@ -12309,7 +12345,7 @@ const obStudyObjectives = [
       }
     ],
     "answerReviewedOn": "2026-11-21",
-    "answerSourceNote": "Lecture base: Contraception. Updates product durations and eligibility, separates IUD/implant/injection backup and fertility return, and replaces mandatory follow-up or infection myths with current method-specific care.",
+    "answerSourceNote": "Lecture base: Contraception. Updates product durations and eligibility, separates IUD/implant/injection backup and fertility return, and replaces mandatory follow-up or infection myths with current method-specific care. Final review clarification separates implant and first-injection start/backup rules for menstruating patients from postpartum, switching and late-reinjection exceptions.",
     "answerSources": [
       {
         "title": "Contraception (original supplied PDF)",
@@ -12342,6 +12378,10 @@ const obStudyObjectives = [
       {
         "title": "Liletta: contraceptive versus heavy-bleeding duration clarification",
         "url": "https://www.liletta.com/faqs"
+      },
+      {
+        "title": "CDC: implant initiation and backup clarification",
+        "url": "https://www.cdc.gov/contraception/hcp/usspr/implants.html"
       }
     ]
   },

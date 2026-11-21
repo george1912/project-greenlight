@@ -1,3 +1,4 @@
+const {historicalObjectiveHash,beforeFinalReview}=require('./lib/ob-note-review.cjs');
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict'),crypto=require('node:crypto');
 const root=path.resolve(__dirname,'..'),html=fs.readFileSync(path.join(root,'index.html'),'utf8');
 const main={innerHTML:'',querySelector:()=>null,querySelectorAll:()=>[],focus(){}};
@@ -15,7 +16,7 @@ for(const saved of [...audit.preservedCompletedObjectives,...audit.preservedOthe
  const current=all.find(o=>o.id===saved.id);let candidate=current;
  // A later week may fill an originally blank answer while preserving its prompt/mappings.
  if(!earlierAnswers.has(saved.id)&&hash(JSON.stringify(current))!==saved.sha256){candidate={...current,answer:[]};for(const key of ['answerSources','answerSourceNote','answerReviewedOn'])delete candidate[key];}
- assert.equal(hash(JSON.stringify(candidate)),saved.sha256,'Preserve earlier answer or original objective metadata '+saved.id);
+ assert.equal(historicalObjectiveHash(candidate),saved.sha256,'Preserve earlier answer or original objective metadata '+saved.id);
 }
 for(const source of audit.sources){assert.equal(hash(fs.readFileSync(path.join(root,source.path))),source.sha256);assert.equal(JSON.parse(fs.readFileSync(path.join(root,path.dirname(source.path),'deck.json'))).pages.length,source.pages);}
 assert.deepEqual(audit.sources.map(s=>s.pages),[63,7,5,26]);
@@ -35,7 +36,7 @@ for(const record of audit.objectives){
  for(const topic of topics){const facts=topic.blocks.flatMap(b=>b.items),text=facts.map(i=>i.label+' '+i.text).join(' ');assert(text.split(/\s+/).length<=160,'Concise topic: '+topic.title);assert(!text.includes('**'));assert(facts.some(i=>formatter.format(i.text,o.id+'|'+topic.title).includes('data-ob-emphasis="bold"')),'Key study cues: '+topic.title);}
  for(const route of [...Array.from(o.weekIds,id=>'#/ob-final/'+id),...Array.from(o.topicIds,id=>'#/ob-final/topic/'+id)]){const part=section(render(route),o.id);assert(part.includes('Quick answer')&&part.includes('Sources for these notes'));assert.equal((part.match(/class="ob-note-topic"/g)||[]).length,topics.length);assert(!/<details class="ob-note-(?:topic|sources)"[^>]*\bopen\b/.test(part));assert(!part.includes('<iframe'));assert(!/href="[^\"]+\.pdf/.test(part));assert.equal(answerPart(part),answerPart(section(weekly,o.id)),'Identical shared notes: '+route);}
 }
-assert.equal(groupCount,66);assert.equal(audit.emphasis.newBoldSpans,130);assert.equal(review.additions.filter(a=>expected.includes(a.objectiveId)).length,130);
+assert.equal(groupCount,66);assert.equal(audit.emphasis.newBoldSpans,130);assert.equal(review.additions.filter(a=>beforeFinalReview(a)&&expected.includes(a.objectiveId)).length,130);
 assert.deepEqual(Array.from(week.slice(0,6),o=>o.topicIds.join(',')),Array(6).fill('normal-newborn'));assert.deepEqual(Array.from(week.slice(6),o=>o.topicIds.join(',')),Array(6).fill('feeding'));
 assert.deepEqual(Array.from(week.filter(o=>o.weekIds.includes('week-10')),o=>o.id),['newborn-transition-apgar','newborn-head-to-toe','newborn-gestational-assessment','newborn-discharge-teaching']);
 const text=id=>JSON.stringify(all.find(o=>o.id===id).answer).toLowerCase();

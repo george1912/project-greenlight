@@ -18,10 +18,12 @@ for(const [file,expected] of Object.entries(audit.contentHashes))assert.equal(sh
 assert.equal(Object.values(rules).reduce((n,items)=>n+items.length,0),audit.uniqueRules);
 function segments(formatted){
  const result=[];let cursor=0,offset=0;
- const add=(text,styles)=>{const plain=decode(text);result.push({start:offset,end:offset+plain.length,styles,text:plain});offset+=plain.length;};
+ const add=(text,styles)=>{const plain=decode(text);if(!plain.length)return;result.push({start:offset,end:offset+plain.length,styles,text:plain});offset+=plain.length;};
  for(const match of formatted.matchAll(/<(strong|em|span) data-ob-emphasis="([a-z ]+)">([^<]*)<\/\1>/g)){add(formatted.slice(cursor,match.index),[]);add(match[3],match[2].split(' '));cursor=match.index+match[0].length;}
  add(formatted.slice(cursor),[]);return result;
 }
+// Adjacent wrappers have no intervening plain text; empty segments carry no style obligations.
+assert.equal(segments('<strong data-ob-emphasis="bold red">risk</strong><span data-ob-emphasis="red"> persists</span>').length,2);
 for(const record of audit.records.filter(r=>r.objectiveId)){
  const objective=objectives.find(o=>o.id===record.objectiveId),value=record.field.split('.').reduce((value,key)=>value[key],objective);
  assert.equal(typeof value,'string');assert.equal(value.split(record.exact_text).length-1,1,'Unique exact field match for CSV row '+record.row);

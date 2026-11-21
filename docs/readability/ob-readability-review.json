@@ -3219,6 +3219,412 @@
       "exact_text": "what they are taking, when sex can resume, who needs partner care and when to return/test",
       "style": "bold",
       "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "family-centered-care",
+      "section": "Evaluate the care and remember the priorities",
+      "exact_text": "can teach back key warning signs",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "pregnancy-adaptations",
+      "section": "Gastrointestinal, oral, and urinary changes",
+      "exact_text": "Urinary stasis increases infection risk",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "pregnancy-adaptations",
+      "section": "Apply it: expected finding or concern?",
+      "exact_text": "turn laterally",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "pregnancy-psychosocial-care",
+      "section": "Expected emotional variation versus a safety concern",
+      "exact_text": "Persistent sadness, loss of interest",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "conception-fetal-development",
+      "section": "Check yourself: connect structure to function",
+      "exact_text": "umbilical vein",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "obstetric-history-gtpal",
+      "section": "Worked example: singleton births and early losses",
+      "exact_text": "G5 T1 P1 A2 L2",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "prenatal-assessment",
+      "section": "Initial history: establish the baseline and risks",
+      "exact_text": "prior cesarean birth",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "pregnancy-discomforts",
+      "section": "Nausea, reflux, and constipation",
+      "exact_text": "Inability to keep fluids down",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "pregnancy-discomforts",
+      "section": "Fatigue, breast tenderness, and mild breathlessness",
+      "exact_text": "Turn to the side and reassess",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "pregnancy-discomforts",
+      "section": "Backache, leg cramps, and body mechanics",
+      "exact_text": "avoid massaging the leg",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "pregnancy-discomforts",
+      "section": "Dependent edema, varicosities, and hemorrhoids",
+      "exact_text": "Sudden swelling of face/hands",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "pregnancy-discomforts",
+      "section": "Braxton Hicks versus contractions that need assessment",
+      "exact_text": "Before 37 weeks",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "pregnancy-discomforts",
+      "section": "Safety check: when comfort measures are not enough",
+      "exact_text": "reduced or absent movement",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "prenatal-nutrition-teaching",
+      "section": "Individualize the teaching and check understanding",
+      "exact_text": "food insecurity",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "high-risk-pregnancy-assessment",
+      "section": "Recognize maternal, fetal, and pregnancy-related risks",
+      "exact_text": "Multiple gestation",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "high-risk-pregnancy-assessment",
+      "section": "Apply it: a risk factor versus an emergency",
+      "exact_text": "Severe headache",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "early-pregnancy-complications",
+      "section": "Pregnancy loss: assessment, treatment, and follow-up",
+      "exact_text": "how completion is confirmed",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "early-pregnancy-complications",
+      "section": "Gestational trophoblastic disease: molar pregnancy and follow-up",
+      "exact_text": "serial hCG",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "early-pregnancy-complications",
+      "section": "Hyperemesis: restore hydration and nutrition safely",
+      "exact_text": "thiamine is given before dextrose-containing fluids/nutrition",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "early-pregnancy-complications",
+      "section": "Family support and quick comparison",
+      "exact_text": "possible ruptured ectopic pregnancy",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "placental-bleeding",
+      "section": "Nursing priorities: stabilize while the team evaluates",
+      "exact_text": "Activate the obstetric team/hemorrhage response",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "diabetes-assessment",
+      "section": "Types, timing, and pregnancy metabolism",
+      "exact_text": "A1GDM is managed without medication",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "diabetes-assessment",
+      "section": "Nursing assessment and diagnostic limits",
+      "exact_text": "GDM often has no symptoms",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "diabetes-nursing-management",
+      "section": "Nutrition and activity without underfeeding",
+      "exact_text": "avoid starvation or a ketogenic diet",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "diabetes-nursing-management",
+      "section": "Hyperglycemia, illness, and DKA",
+      "exact_text": "Never stop basal insulin",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "diabetes-nursing-management",
+      "section": "Fetal surveillance and intrapartum care",
+      "exact_text": "prescribed insulin/dextrose protocol",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "hypertensive-disorders",
+      "section": "Why mother and fetus are at risk",
+      "exact_text": "Excess IV fluid can worsen pulmonary edema",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "eclampsia-magnesium-hellp",
+      "section": "Antihypertensives and evaluation of the response",
+      "exact_text": "not given sublingually",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "pregnancy-prom-preterm",
+      "section": "Separate the terms and recognize presenting cues",
+      "exact_text": "Ascending infection",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "rh-abo-infections",
+      "section": "Rh incompatibility: explain sensitization and fetal risk",
+      "exact_text": "IgG response",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "rh-abo-infections",
+      "section": "TORCH: toxoplasmosis, rubella, and syphilis",
+      "exact_text": "stage-appropriate penicillin treatment",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "rh-abo-infections",
+      "section": "Nurse’s prevention and teaching responsibilities",
+      "exact_text": "Handoff maternal antibody/infection status",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "fhr-patterns",
+      "section": "Variable and prolonged decelerations",
+      "exact_text": "≥2 but <10 minutes",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "fhr-patterns",
+      "section": "Category II: evaluate the indeterminate pattern",
+      "exact_text": "Indeterminate is not the same as reassuring",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "fhr-patterns",
+      "section": "Category III: the missing combination matters",
+      "exact_text": "Absent baseline variability PLUS",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "fhr-priorities",
+      "section": "Supplied strip 1: early decelerations — page 27",
+      "exact_text": "continue appropriate observation and labor support",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "labor-comfort-medication",
+      "section": "General anesthesia and respiratory emergencies",
+      "exact_text": "effective ventilation",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "labor-comfort-medication",
+      "section": "Evaluate comfort and safety together",
+      "exact_text": "maternal respirations/consciousness and BP",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "complicated-labor",
+      "section": "Preterm assessment and teaching: act on symptoms",
+      "exact_text": "not a stand-alone test confirming ruptured membranes",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "complicated-labor",
+      "section": "Guideline supplement: confirm rupture and reduce infection risk",
+      "exact_text": "Avoid routine repeated digital cervical examinations",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "complicated-labor",
+      "section": "Suspected intraamniotic infection: recognize and escalate",
+      "exact_text": "administer ordered antibiotics",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "complicated-labor",
+      "section": "Dysfunctional labor: connect the cause with the pattern",
+      "exact_text": "inadequate contractions versus obstruction",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "assisted-cesarean-birth",
+      "section": "Cesarean anesthesia: connect monitoring with the risk",
+      "exact_text": "Maternal hypotension can reduce fetal perfusion",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "assisted-cesarean-birth",
+      "section": "Guideline supplement: recovery after anesthesia",
+      "exact_text": "delayed respiratory depression",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "assisted-cesarean-birth",
+      "section": "Guideline supplement: intake, voiding and newborn care",
+      "exact_text": "ability to void after removal",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "assisted-cesarean-birth",
+      "section": "Guideline supplement: warning signs and readiness for discharge",
+      "exact_text": "Fever ≥38°C/100.4°F",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "shoulder-dystocia",
+      "section": "Recognition: act when the shoulder is impacted",
+      "exact_text": "Do not wait 2 minutes",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "shoulder-dystocia",
+      "section": "Actions to avoid: prevent additional injury",
+      "exact_text": "Suprapubic pressure is anatomically different",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "other-birth-emergencies",
+      "section": "Uterine rupture: treat the cue cluster as an emergency",
+      "exact_text": "Stop a labor-stimulating oxytocin infusion",
+      "style": "bold",
+      "reason": "Final OB review: add a focused study cue to an earlier topic without a bold phrase."
+    },
+    {
+      "objectiveId": "high-risk-pregnancy-assessment",
+      "section": "Match surveillance and referrals to the problem",
+      "exact_text": "Nonreactive is not a diagnosis of hypoxia",
+      "style": "bold",
+      "reason": "Final OB review: emphasize an objective-specific clarification added during this review."
+    },
+    {
+      "objectiveId": "fhr-strip-assessment",
+      "section": "Baseline: establish the reference before naming changes",
+      "exact_text": "at least two minutes of baseline",
+      "style": "bold",
+      "reason": "Final OB review: emphasize an objective-specific clarification added during this review."
+    },
+    {
+      "objectiveId": "fhr-strip-assessment",
+      "section": "Accelerations and decelerations: name and time the event",
+      "exact_text": "before 32 weeks, use ≥10 bpm for ≥10 seconds but <2 minutes",
+      "style": "bold",
+      "reason": "Final OB review: emphasize an objective-specific clarification added during this review."
+    },
+    {
+      "objectiveId": "monitoring-methods",
+      "section": "Internal EFM: scalp electrode and IUPC",
+      "exact_text": "avoid fetal scalp electrodes with HIV even when suppressed",
+      "style": "bold",
+      "reason": "Final OB review: emphasize an objective-specific clarification added during this review."
+    },
+    {
+      "objectiveId": "induction-augmentation",
+      "section": "Amniotomy: relate membrane care to the lecture’s risks",
+      "exact_text": "confirm the head is stable and well applied",
+      "style": "bold",
+      "reason": "Final OB review: emphasize an objective-specific clarification added during this review."
+    },
+    {
+      "objectiveId": "hypertensive-disorders",
+      "section": "Nursing care, prevention, and follow-up",
+      "exact_text": "within 72 hours for severe hypertension",
+      "style": "bold",
+      "reason": "Final OB review: emphasize an objective-specific clarification added during this review."
+    },
+    {
+      "objectiveId": "postpartum-discharge",
+      "section": "Follow-up, support and teach-back",
+      "exact_text": "severe hypertension needs review within 72 hours",
+      "style": "bold",
+      "reason": "Final OB review: emphasize an objective-specific clarification added during this review."
+    },
+    {
+      "objectiveId": "iud-implant-care",
+      "section": "The implant: duration, effects and care",
+      "exact_text": "first five days of bleeding needs no backup",
+      "style": "bold",
+      "reason": "Final OB review: emphasize an objective-specific clarification added during this review."
+    },
+    {
+      "objectiveId": "iud-implant-care",
+      "section": "DMPA: scheduled injections and late-dose decisions",
+      "exact_text": "first seven days of bleeding needs no backup",
+      "style": "bold",
+      "reason": "Final OB review: emphasize an objective-specific clarification added during this review."
     }
   ],
   "sourceOriginalSha256": "3dde0d8ff4af9567efa6431697f52e7868aa99026ab60768873385f437de3e2c",

@@ -220,6 +220,10 @@ const obReadabilityRules = {
     {
       "text": "frequency alone does not diagnose a UTI, and lack of symptoms does not exclude asymptomatic bacteriuria",
       "style": "underline"
+    },
+    {
+      "text": "Urinary stasis increases infection risk",
+      "style": "bold"
     }
   ],
   "pregnancy-adaptations|Musculoskeletal and skin changes": [
@@ -282,6 +286,10 @@ const obReadabilityRules = {
     {
       "text": "do not reassure the patient that normal pregnancy increases oxygen demand",
       "style": "red"
+    },
+    {
+      "text": "turn laterally",
+      "style": "bold"
     }
   ],
   "pregnancy-psychosocial-care|prompt": [
@@ -328,6 +336,10 @@ const obReadabilityRules = {
     {
       "text": "Do not dismiss them as normal pregnancy hormones or leave a patient at immediate risk without appropriate support.",
       "style": "red"
+    },
+    {
+      "text": "Persistent sadness, loss of interest",
+      "style": "bold"
     }
   ],
   "pregnancy-psychosocial-care|Partners, siblings, and the wider family": [
@@ -694,6 +706,10 @@ const obReadabilityRules = {
     {
       "text": "Do not wait for the next appointment to address an urgent finding",
       "style": "red"
+    },
+    {
+      "text": "prior cesarean birth",
+      "style": "bold"
     }
   ],
   "prenatal-assessment|Initial examination and maternal measurements": [
@@ -794,6 +810,10 @@ const obReadabilityRules = {
     {
       "text": "Persistent upper abdominal pain with headache/visual symptoms is a warning sign, not simply reflux",
       "style": "red"
+    },
+    {
+      "text": "Inability to keep fluids down",
+      "style": "bold"
     }
   ],
   "pregnancy-discomforts|Urinary frequency and vaginal discharge": [
@@ -810,6 +830,10 @@ const obReadabilityRules = {
     {
       "text": "Sudden dyspnea, breathlessness at rest, chest pain, fainting, or difficulty breathing when lying down needs urgent/emergency evaluation",
       "style": "bold+red"
+    },
+    {
+      "text": "Turn to the side and reassess",
+      "style": "bold"
     }
   ],
   "pregnancy-discomforts|Backache, leg cramps, and body mechanics": [
@@ -824,6 +848,10 @@ const obReadabilityRules = {
     {
       "text": "Persistent low backache with contractions, pelvic pressure, bleeding, or fluid leakage before 37 weeks can be preterm labor",
       "style": "red"
+    },
+    {
+      "text": "avoid massaging the leg",
+      "style": "bold"
     }
   ],
   "pregnancy-discomforts|Dependent edema, varicosities, and hemorrhoids": [
@@ -834,18 +862,30 @@ const obReadabilityRules = {
     {
       "text": "Sudden swelling of face/hands, especially with severe headache, visual disturbance, upper abdominal pain, or high BP, needs prompt evaluation for a hypertensive disorder",
       "style": "red"
+    },
+    {
+      "text": "Sudden swelling of face/hands",
+      "style": "bold"
     }
   ],
   "pregnancy-discomforts|Braxton Hicks versus contractions that need assessment": [
     {
       "text": "Before 37 weeks, seek prompt assessment for possible preterm labor",
       "style": "red"
+    },
+    {
+      "text": "Before 37 weeks",
+      "style": "bold"
     }
   ],
   "pregnancy-discomforts|Safety check: when comfort measures are not enough": [
     {
       "text": "Call promptly for fever ≥100.4°F (38°C), persistent vomiting/dehydration, severe headache/visual changes, severe abdominal pain, vaginal bleeding, fluid leakage, or preterm-labor symptoms",
       "style": "red"
+    },
+    {
+      "text": "reduced or absent movement",
+      "style": "bold"
     }
   ],
   "prenatal-nutrition-teaching|Quick answer": [
@@ -960,6 +1000,10 @@ const obReadabilityRules = {
     {
       "text": "Distinguish a screening concern from a confirmed diagnosis",
       "style": "underline"
+    },
+    {
+      "text": "Multiple gestation",
+      "style": "bold"
     }
   ],
   "high-risk-pregnancy-assessment|Assess the whole patient and prioritize the findings": [
@@ -980,6 +1024,10 @@ const obReadabilityRules = {
     {
       "text": "a biophysical profile (BPP) adds ultrasound assessment of movement, tone, breathing, and fluid",
       "style": "bold"
+    },
+    {
+      "text": "Nonreactive is not a diagnosis of hypoxia",
+      "style": "bold"
     }
   ],
   "high-risk-pregnancy-assessment|Build and evaluate the nursing plan": [
@@ -996,6 +1044,10 @@ const obReadabilityRules = {
     {
       "text": "Bleeding with faintness, severe pain, chest pain, severe dyspnea, seizure, or reduced fetal movement",
       "style": "bold+red"
+    },
+    {
+      "text": "Severe headache",
+      "style": "bold"
     }
   ],
   "early-pregnancy-complications|prompt": [
@@ -1054,6 +1106,10 @@ const obReadabilityRules = {
     {
       "text": "a partial mole may contain abnormal fetal tissue, so not every molar pregnancy is an “empty sac.”",
       "style": "underline"
+    },
+    {
+      "text": "serial hCG",
+      "style": "bold"
     }
   ],
   "early-pregnancy-complications|Cervical insufficiency: painless dilation is the clue": [
@@ -1074,6 +1130,10 @@ const obReadabilityRules = {
     {
       "text": "Do not delay emergency glucose treatment for severe hypoglycemia",
       "style": "red"
+    },
+    {
+      "text": "thiamine is given before dextrose-containing fluids/nutrition",
+      "style": "bold"
     }
   ],
   "placental-bleeding|prompt": [
@@ -1126,6 +1186,10 @@ const obReadabilityRules = {
     {
       "text": "Do not delay resuscitation because the initial hemoglobin looks normal",
       "style": "red"
+    },
+    {
+      "text": "Activate the obstetric team/hemorrhage response",
+      "style": "bold"
     }
   ],
   "placental-bleeding|Birth planning and evaluation": [
@@ -1162,6 +1226,10 @@ const obReadabilityRules = {
     {
       "text": "A1GDM is managed without medication; A2GDM requires medication, often insulin",
       "style": "underline"
+    },
+    {
+      "text": "A1GDM is managed without medication",
+      "style": "bold"
     }
   ],
   "diabetes-assessment|Step 1: screening and early assessment": [
@@ -1206,6 +1274,10 @@ const obReadabilityRules = {
     {
       "text": "raises concern for DKA even with less dramatic hyperglycemia in pregnancy",
       "style": "red"
+    },
+    {
+      "text": "GDM often has no symptoms",
+      "style": "bold"
     }
   ],
   "diabetes-nursing-management|prompt": [
@@ -1258,12 +1330,20 @@ const obReadabilityRules = {
     {
       "text": "Never stop basal insulin in type 1 diabetes without a supervised replacement plan",
       "style": "red"
+    },
+    {
+      "text": "Never stop basal insulin",
+      "style": "bold"
     }
   ],
   "diabetes-nursing-management|Fetal surveillance and intrapartum care": [
     {
       "text": "Birth timing/mode is individualized rather than automatic cesarean for diabetes",
       "style": "underline"
+    },
+    {
+      "text": "prescribed insulin/dextrose protocol",
+      "style": "bold"
     }
   ],
   "diabetes-nursing-management|Postpartum and long-term follow-up": [
@@ -1334,6 +1414,10 @@ const obReadabilityRules = {
     {
       "text": "Excess IV fluid can worsen pulmonary edema",
       "style": "red"
+    },
+    {
+      "text": "Excess IV fluid can worsen pulmonary edema",
+      "style": "bold"
     }
   ],
   "hypertensive-disorders|Nursing care, prevention, and follow-up": [
@@ -1351,6 +1435,10 @@ const obReadabilityRules = {
     },
     {
       "text": "Delivery of the placenta is central to definitive management",
+      "style": "bold"
+    },
+    {
+      "text": "within 72 hours for severe hypertension",
       "style": "bold"
     }
   ],
@@ -1424,6 +1512,10 @@ const obReadabilityRules = {
     {
       "text": "Do not increase magnesium because the original diagnosis involved hyperreflexia",
       "style": "red"
+    },
+    {
+      "text": "not given sublingually",
+      "style": "bold"
     }
   ],
   "pregnancy-prom-preterm|prompt": [
@@ -1446,6 +1538,10 @@ const obReadabilityRules = {
     {
       "text": "“PROM” does not always mean preterm",
       "style": "underline"
+    },
+    {
+      "text": "Ascending infection",
+      "style": "bold"
     }
   ],
   "pregnancy-prom-preterm|Assess suspected rupture without increasing risk": [
@@ -1532,6 +1628,10 @@ const obReadabilityRules = {
     {
       "text": "live MMR is given before pregnancy or postpartum when indicated, not during pregnancy",
       "style": "red"
+    },
+    {
+      "text": "stage-appropriate penicillin treatment",
+      "style": "bold"
     }
   ],
   "rh-abo-infections|TORCH: CMV and herpes simplex": [
@@ -1912,6 +2012,10 @@ const obReadabilityRules = {
     {
       "text": "It does not itself record the FHR",
       "style": "underline"
+    },
+    {
+      "text": "avoid fetal scalp electrodes with HIV even when suppressed",
+      "style": "bold"
     }
   ],
   "monitoring-methods|Interpret and communicate, whichever method is used": [
@@ -1952,6 +2056,10 @@ const obReadabilityRules = {
     {
       "text": "A sustained baseline >160 is tachycardia; <110 is bradycardia",
       "style": "bold"
+    },
+    {
+      "text": "at least two minutes of baseline",
+      "style": "bold"
     }
   ],
   "fhr-strip-assessment|Variability: describe the fluctuations around baseline": [
@@ -1975,6 +2083,10 @@ const obReadabilityRules = {
     },
     {
       "text": "the lecture’s “less than 30 seconds” confuses the rapid onset with the full duration",
+      "style": "bold"
+    },
+    {
+      "text": "before 32 weeks, use ≥10 bpm for ≥10 seconds but <2 minutes",
       "style": "bold"
     }
   ],
@@ -2044,6 +2156,10 @@ const obReadabilityRules = {
     {
       "text": "A tracing does not by itself identify which cause is present; urgently assess the patient and obtain help",
       "style": "red"
+    },
+    {
+      "text": "≥2 but <10 minutes",
+      "style": "bold"
     }
   ],
   "fhr-patterns|Category I: all reassuring criteria must fit": [
@@ -2060,6 +2176,10 @@ const obReadabilityRules = {
     {
       "text": "Indeterminate is not the same as reassuring",
       "style": "underline"
+    },
+    {
+      "text": "Indeterminate is not the same as reassuring",
+      "style": "bold"
     }
   ],
   "fhr-patterns|Category III: the missing combination matters": [
@@ -2070,6 +2190,10 @@ const obReadabilityRules = {
     {
       "text": "If the abnormal pattern does not resolve, prepare for expedited birth as directed",
       "style": "red"
+    },
+    {
+      "text": "Absent baseline variability PLUS",
+      "style": "bold"
     }
   ],
   "fhr-priorities|prompt": [
@@ -2102,6 +2226,10 @@ const obReadabilityRules = {
     {
       "text": "continue appropriate observation and labor support rather than treating early decelerations alone as an emergency",
       "style": "underline"
+    },
+    {
+      "text": "continue appropriate observation and labor support",
+      "style": "bold"
     }
   ],
   "fhr-priorities|Supplied strip 2: late decelerations — page 28": [
@@ -2210,6 +2338,10 @@ const obReadabilityRules = {
     {
       "text": "Do not use the slide’s neonatal naloxone dose table as a substitute for resuscitation",
       "style": "red"
+    },
+    {
+      "text": "effective ventilation",
+      "style": "bold"
     }
   ],
   "induction-augmentation|prompt": [
@@ -2282,6 +2414,10 @@ const obReadabilityRules = {
     {
       "text": "The lecture warns about cord prolapse when the presenting part is not engaged",
       "style": "red"
+    },
+    {
+      "text": "confirm the head is stable and well applied",
+      "style": "bold"
     }
   ],
   "induction-augmentation|When uterine or fetal findings require action": [
@@ -2318,6 +2454,10 @@ const obReadabilityRules = {
     {
       "text": "do not delay evaluation to complete the slide’s one-hour rest/hydration trial",
       "style": "red"
+    },
+    {
+      "text": "not a stand-alone test confirming ruptured membranes",
+      "style": "bold"
     }
   ],
   "complicated-labor|Preterm treatment: separate the medication purposes": [
@@ -2340,6 +2480,10 @@ const obReadabilityRules = {
     {
       "text": "Avoid routine repeated digital cervical examinations",
       "style": "red"
+    },
+    {
+      "text": "Avoid routine repeated digital cervical examinations",
+      "style": "bold"
     }
   ],
   "complicated-labor|PROM and PPROM: compare the management priorities": [
@@ -2370,6 +2514,10 @@ const obReadabilityRules = {
     {
       "text": "Do not wait until rupture has lasted 24 hours",
       "style": "red"
+    },
+    {
+      "text": "administer ordered antibiotics",
+      "style": "bold"
     }
   ],
   "complicated-labor|Post-term pregnancy: surveillance and birth planning": [
@@ -2382,6 +2530,10 @@ const obReadabilityRules = {
     {
       "text": "hypertonic dysfunction from hypotonic uterine inertia",
       "style": "underline"
+    },
+    {
+      "text": "inadequate contractions versus obstruction",
+      "style": "bold"
     }
   ],
   "complicated-labor|Guideline supplement: slow labor versus active-phase arrest": [
@@ -2470,6 +2622,10 @@ const obReadabilityRules = {
     {
       "text": "Epidural medication enters the epidural space; spinal medication enters the intrathecal space.",
       "style": "underline"
+    },
+    {
+      "text": "Maternal hypotension can reduce fetal perfusion",
+      "style": "bold"
     }
   ],
   "assisted-cesarean-birth|Guideline supplement: recovery after anesthesia": [
@@ -2480,6 +2636,10 @@ const obReadabilityRules = {
     {
       "text": "Excessive sleepiness, slow/ineffective breathing, falling saturation or unstable observations needs urgent review.",
       "style": "red"
+    },
+    {
+      "text": "delayed respiratory depression",
+      "style": "bold"
     }
   ],
   "assisted-cesarean-birth|Recovery monitoring: assess the whole postpartum patient": [
@@ -2506,6 +2666,10 @@ const obReadabilityRules = {
     {
       "text": "Persistent vomiting, marked distention or worsening abdominal pain",
       "style": "red"
+    },
+    {
+      "text": "ability to void after removal",
+      "style": "bold"
     }
   ],
   "assisted-cesarean-birth|Guideline supplement: incision care and recovery at home": [
@@ -2522,6 +2686,10 @@ const obReadabilityRules = {
     {
       "text": "Fever ≥38°C/100.4°F",
       "style": "red"
+    },
+    {
+      "text": "Fever ≥38°C/100.4°F",
+      "style": "bold"
     }
   ],
   "shoulder-dystocia|Quick answer": [
@@ -2538,6 +2706,10 @@ const obReadabilityRules = {
     {
       "text": "Do not wait 2 minutes to call shoulder dystocia",
       "style": "red"
+    },
+    {
+      "text": "Do not wait 2 minutes",
+      "style": "bold"
     }
   ],
   "shoulder-dystocia|Contributing risks: prepare without assuming certainty": [
@@ -2574,6 +2746,10 @@ const obReadabilityRules = {
     {
       "text": "Do not use forceful, jerking, or excessive downward traction",
       "style": "bold+red"
+    },
+    {
+      "text": "Suprapubic pressure is anatomically different",
+      "style": "bold"
     }
   ],
   "shoulder-dystocia|Timing and documentation: make the sequence clear": [
@@ -2626,6 +2802,10 @@ const obReadabilityRules = {
     {
       "text": "do not wait for every listed sign",
       "style": "red"
+    },
+    {
+      "text": "Stop a labor-stimulating oxytocin infusion",
+      "style": "bold"
     }
   ],
   "other-birth-emergencies|Amniotic fluid embolism: support breathing and circulation": [
@@ -3537,6 +3717,10 @@ const obReadabilityRules = {
     },
     {
       "text": "understanding, practical support and arranged follow-up",
+      "style": "bold"
+    },
+    {
+      "text": "severe hypertension needs review within 72 hours",
       "style": "bold"
     }
   ],
@@ -5032,11 +5216,19 @@ const obReadabilityRules = {
     {
       "text": "The 2026 FDA label permits Nexplanon use for up to five years",
       "style": "bold"
+    },
+    {
+      "text": "first five days of bleeding needs no backup",
+      "style": "bold"
     }
   ],
   "iud-implant-care|DMPA: scheduled injections and late-dose decisions": [
     {
       "text": "Repeat DMPA every 13 weeks",
+      "style": "bold"
+    },
+    {
+      "text": "first seven days of bleeding needs no backup",
       "style": "bold"
     }
   ],
@@ -5481,6 +5673,66 @@ const obReadabilityRules = {
   "sti-treatment-partner-teaching|Teach-back and evaluation": [
     {
       "text": "what they are taking, when sex can resume, who needs partner care and when to return/test",
+      "style": "bold"
+    }
+  ],
+  "family-centered-care|Evaluate the care and remember the priorities": [
+    {
+      "text": "can teach back key warning signs",
+      "style": "bold"
+    }
+  ],
+  "conception-fetal-development|Check yourself: connect structure to function": [
+    {
+      "text": "umbilical vein",
+      "style": "bold"
+    }
+  ],
+  "obstetric-history-gtpal|Worked example: singleton births and early losses": [
+    {
+      "text": "G5 T1 P1 A2 L2",
+      "style": "bold"
+    }
+  ],
+  "prenatal-nutrition-teaching|Individualize the teaching and check understanding": [
+    {
+      "text": "food insecurity",
+      "style": "bold"
+    }
+  ],
+  "early-pregnancy-complications|Pregnancy loss: assessment, treatment, and follow-up": [
+    {
+      "text": "how completion is confirmed",
+      "style": "bold"
+    }
+  ],
+  "early-pregnancy-complications|Family support and quick comparison": [
+    {
+      "text": "possible ruptured ectopic pregnancy",
+      "style": "bold"
+    }
+  ],
+  "diabetes-nursing-management|Nutrition and activity without underfeeding": [
+    {
+      "text": "avoid starvation or a ketogenic diet",
+      "style": "bold"
+    }
+  ],
+  "rh-abo-infections|Rh incompatibility: explain sensitization and fetal risk": [
+    {
+      "text": "IgG response",
+      "style": "bold"
+    }
+  ],
+  "rh-abo-infections|Nurse’s prevention and teaching responsibilities": [
+    {
+      "text": "Handoff maternal antibody/infection status",
+      "style": "bold"
+    }
+  ],
+  "labor-comfort-medication|Evaluate comfort and safety together": [
+    {
+      "text": "maternal respirations/consciousness and BP",
       "style": "bold"
     }
   ]

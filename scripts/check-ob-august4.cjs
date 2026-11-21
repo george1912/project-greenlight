@@ -1,3 +1,4 @@
+const {historicalObjectiveHash,beforeFinalReview}=require('./lib/ob-note-review.cjs');
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict'),crypto=require('node:crypto');
 const root=path.resolve(__dirname,'..'),html=fs.readFileSync(path.join(root,'index.html'),'utf8');
 const main={innerHTML:'',querySelector:()=>null,querySelectorAll:()=>[],focus(){}};
@@ -9,7 +10,7 @@ const audit=JSON.parse(fs.readFileSync(path.join(root,'docs/ob-august4-notes-aud
 const week=all.filter(o=>o.weekIds.includes('august-4')),hash=value=>crypto.createHash('sha256').update(value).digest('hex');
 assert.equal(all.length,75);assert(all.every(o=>o.answer.length));assert.deepEqual(Array.from(week,o=>o.id),expected);assert.deepEqual(audit.objectives.map(o=>o.id),expected);assert.deepEqual(Array.from(all,o=>o.id),map.completedObjectiveIds);
 assert.equal(audit.preservedCompletedObjectives.length,63);assert.equal(audit.preservedOtherObjectives.length,63);
-for(const saved of [...audit.preservedCompletedObjectives,...audit.preservedOtherObjectives])assert.equal(hash(JSON.stringify(all.find(o=>o.id===saved.id))),saved.sha256,'Earlier content unchanged: '+saved.id);
+for(const saved of [...audit.preservedCompletedObjectives,...audit.preservedOtherObjectives])assert.equal(historicalObjectiveHash(all.find(o=>o.id===saved.id)),saved.sha256,'Earlier content unchanged: '+saved.id);
 const originalReview={...review,additions:review.additions.slice(0,audit.emphasis.earlierAdditions)};assert.equal(hash(JSON.stringify(originalReview)),audit.emphasis.earlierReviewSha256,'All earlier formatting proposals, decisions and additions preserved');
 assert.deepEqual(audit.sources.map(s=>[s.deckId,s.pages]),[['contraception',35],['stis',27]]);for(const source of audit.sources){assert.equal(hash(fs.readFileSync(path.join(root,source.path))),source.sha256);assert.equal(JSON.parse(fs.readFileSync(path.join(root,path.dirname(source.path),'deck.json'))).pages.length,source.pages);}
 const render=route=>{c.location.hash=route;vm.runInContext('render()',c);return main.innerHTML;};
@@ -26,7 +27,7 @@ for(const[index,record]of audit.objectives.entries()){
  for(const topic of topics){assert(topic.blocks.every(b=>b.type==='facts'));const facts=topic.blocks.flatMap(b=>b.items),text=facts.map(i=>i.label+' '+i.text).join(' ');assert(text.split(/\s+/).length<=160,'Concise topic: '+topic.title);assert(!text.includes('**'));assert(!/<\/?[a-z]/i.test(text),'Plain source text');assert(facts.some(i=>formatter.format(i.text,o.id+'|'+topic.title).includes('data-ob-emphasis="bold"')),'Bold study cue: '+topic.title);}
  const routes=['#/ob-final/august-4',...Array.from(o.topicIds,t=>'#/ob-final/topic/'+t)];for(const route of routes){const part=section(render(route),o.id);assert(part.includes('Quick answer')&&part.includes('Sources for these notes'));assert.equal((part.match(/class="ob-note-topic"/g)||[]).length,topics.length);assert(!/<details class="ob-note-(?:topic|sources)"[^>]*\bopen\b/.test(part));assert(!part.includes('<iframe'));assert(!/href="[^\"]+\.pdf/.test(part));assert.equal(answerPart(part),answerPart(section(weekly,o.id)),'Same weekly/exam answer');}
 }
-assert.equal(groups,77);const additions=review.additions.filter(a=>expected.includes(a.objectiveId));assert.equal(additions.length,115);assert.equal(audit.emphasis.newBoldSpans,115);assert(additions.every(a=>a.style==='bold'));
+assert.equal(groups,77);const additions=review.additions.filter(a=>beforeFinalReview(a)&&expected.includes(a.objectiveId));assert.equal(additions.length,115);assert.equal(audit.emphasis.newBoldSpans,115);assert(additions.every(a=>a.style==='bold'));
 for(const a of additions){const o=week.find(o=>o.id===a.objectiveId),texts=a.section==='Quick answer'?o.answer[0].items:o.answer.find(b=>b.title===a.section).blocks.flatMap(b=>b.items.map(i=>i.text));assert.equal(texts.filter(t=>t.includes(a.exact_text)).length,1);}
 const text=id=>JSON.stringify(week.find(o=>o.id===id).answer).toLowerCase();
 const terms={

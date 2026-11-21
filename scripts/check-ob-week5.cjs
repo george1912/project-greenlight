@@ -1,3 +1,4 @@
+const {historicalObjectiveHash}=require('./lib/ob-note-review.cjs');
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict'),crypto=require('node:crypto');
 const root=path.resolve(__dirname,'..'),html=fs.readFileSync(path.join(root,'index.html'),'utf8'),main={innerHTML:'',querySelector:()=>null,querySelectorAll:()=>[],focus(){}};
 const context={URL,console,document:{querySelector:()=>main,title:''},location:{hash:'#/'},window:{addEventListener(){},scrollTo(){}},PresentationViewer:{mount:()=>()=>{}}};vm.createContext(context);
@@ -8,7 +9,7 @@ const expected=['normal-labor-process','labor-nursing-assessment','monitoring-me
 assert.deepEqual(Array.from(week5,o=>o.id),expected);assert.deepEqual(audit.objectives.map(o=>o.id),expected);assert(week5.every(o=>o.answer.length));assert(!course.weeks.some(w=>w.id==='week-4'),'Do not invent teaching notes for Exam I');
 assert.deepEqual(Array.from(all.filter(o=>o.answer.length),o=>o.id),map.completedObjectiveIds);assert.equal(all.filter(o=>!o.answer.length).length,75-map.completedObjectiveIds.length);
 for(const source of audit.sources){const bytes=fs.readFileSync(path.join(root,source.path));assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),source.sha256);assert.equal(JSON.parse(fs.readFileSync(path.join(root,path.dirname(source.path),'deck.json'))).pages.length,source.pages);}
-for(const saved of audit.preservedCompletedObjectives){const o=all.find(o=>o.id===saved.id);assert.equal(crypto.createHash('sha256').update(JSON.stringify(o)).digest('hex'),saved.sha256,'Preserve '+saved.id);}
+for(const saved of audit.preservedCompletedObjectives){const o=all.find(o=>o.id===saved.id);assert.equal(historicalObjectiveHash(o),saved.sha256,'Preserve '+saved.id);}
 const render=route=>{context.location.hash=route;vm.runInContext('render()',context);return main.innerHTML;};
 const section=(markup,id)=>{const markers=[...markup.matchAll(/data-objective="([^"]+)"/g)],i=markers.findIndex(m=>m[1]===id);assert(i>=0,id);return markup.slice(markers[i].index,markers[i+1]?.index);};
 const answerPart=m=>m.split('<div class="answer-area">')[1].split('</ul></details></div>')[0],weekly=render('#/ob-final/week-5');

@@ -1,3 +1,4 @@
+const {historicalObjectiveHash}=require('./lib/ob-note-review.cjs');
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict'),crypto=require('node:crypto');
 const root=path.resolve(__dirname,'..'),html=fs.readFileSync(path.join(root,'index.html'),'utf8');
 const main={innerHTML:'',querySelector:()=>null,querySelectorAll:()=>[],focus(){}};
@@ -48,7 +49,7 @@ for(const [id,terms] of Object.entries(coverage))for(const term of terms)assert(
 const thresholds=[95,180,155,140],abnormal=values=>values.filter((n,i)=>n>=thresholds[i]).length;
 assert.equal(abnormal([97,185,150,135]),2);assert.equal(abnormal([95,179,154,140]),2);assert.equal(abnormal([94,180,154,139]),1);
 // Every earlier completed objective is unchanged, including provenance and sources.
-for(const saved of audit.preservedCompletedObjectives){const actual=all.find(o=>o.id===saved.id);assert.equal(crypto.createHash('sha256').update(JSON.stringify(actual)).digest('hex'),saved.sha256,'Preserved '+saved.id);}
+for(const saved of audit.preservedCompletedObjectives){const actual=all.find(o=>o.id===saved.id);assert.equal(historicalObjectiveHash(actual),saved.sha256,'Preserved '+saved.id);}
 // Same escaping for new fact labels/text across weekly, exam and shared review routes.
 const o=all.find(o=>o.id==='placental-emergency-response'),fact=o.answer[1].blocks[0].items[0],saved=fact.text;fact.text='<script>alert("patient")</script> & safety';
 for(const route of ['#/ob-final/week-3','#/ob-final/week-6','#/ob-final/week-8','#/ob-final/topic/labor-emergencies']){const m=section(render(route),o.id);assert(m.includes('&lt;script&gt;alert(&quot;patient&quot;)&lt;/script&gt; &amp; safety'));assert(!m.includes('<script>'));}fact.text=saved;
