@@ -12,7 +12,7 @@ const audit=JSON.parse(fs.readFileSync(path.join(root,'docs/ob-week1-notes-audit
 const map=JSON.parse(fs.readFileSync(path.join(root,'docs/ob-objectives-map.json')));
 const expected=['family-centered-care','pregnancy-adaptations','pregnancy-psychosocial-care','conception-fetal-development'];
 assert.deepEqual(Array.from(week1,o=>o.id),expected);
-assert.deepEqual(map.completedObjectiveIds,expected);assert.equal(all.filter(o=>!o.answer.length).length,71);
+assert(expected.every(id=>map.completedObjectiveIds.includes(id)));assert.equal(all.filter(o=>!o.answer.length).length,75-map.completedObjectiveIds.length);
 assert.deepEqual(audit.objectives.map(o=>o.id),expected);
 for(const source of audit.sources){
  const bytes=fs.readFileSync(path.join(root,source.path));assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),source.sha256);
@@ -57,4 +57,4 @@ for(const route of ['#/ob-final/week-1','#/ob-final/week-2']){
  const markup=objectiveMarkup(route,conception.id);assert(markup.includes('&lt;script&gt;alert(&quot;patient&quot;)&lt;/script&gt; &amp; teaching'));assert(!markup.includes('<script>'));
 }
 fact.text=saved;
-console.log('Passed: all 4 Week 1 objectives, 36 collapsed note topics, every outline requirement mapped to source slides, unchanged PDF hashes, safety terminology coverage, shared weekly/topic answers, 71 other note areas preserved and safe structured rendering.');
+console.log('Passed: all 4 Week 1 objectives, 36 collapsed note topics, every outline requirement mapped to source slides, unchanged PDF hashes, safety terminology coverage, shared weekly/topic answers and safe structured rendering.');

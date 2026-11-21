@@ -1,0 +1,544 @@
+{
+  "weekId": "week-2",
+  "reviewedOn": "2026-11-21",
+  "basis": "Six previously blank Week 2 objectives completed from assigned lecture PDFs and authoritative reference clarifications. The user emphasized objective coverage because personal Week 2 notes may not have been supplied. No personal notes are represented as a Week 2 source; the shared conception/fetal-development objective and every Week 1 answer are unchanged.",
+  "sources": [
+    {
+      "deckId": "maternal-adaptation",
+      "path": "ob-presentations/maternal-adaptation/original.pdf",
+      "sha256": "cd6da4c5591ee5e2f4bbc827479dcd38f918562e32889e120046934fc13d47f6",
+      "pages": 37
+    },
+    {
+      "deckId": "prenatal-nursing-care",
+      "path": "ob-presentations/prenatal-nursing-care/original.pdf",
+      "sha256": "d6cb3a11c3331df15b164202aee3e92361d9d77fec2d36fe559093afb320b4d1",
+      "pages": 29
+    },
+    {
+      "deckId": "pregnancy-discomforts",
+      "path": "ob-presentations/pregnancy-discomforts/original.pdf",
+      "sha256": "99e3cc8e4f53833ac824b83db6a3fd6994682c012425a7cd28c817e657e2da1e",
+      "pages": 4
+    }
+  ],
+  "objectives": [
+    {
+      "id": "pregnancy-signs",
+      "title": "Recognizing pregnancy",
+      "lectureRanges": [
+        {
+          "deckId": "maternal-adaptation",
+          "firstPage": 10,
+          "lastPage": 13
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Distinguish presumptive, probable, and positive signs",
+          "noteTopic": "Presumptive: what the patient reports"
+        },
+        {
+          "requirement": "Recognize objective probable signs and classify positive hCG correctly",
+          "noteTopic": "Probable: findings that suggest pregnancy"
+        },
+        {
+          "requirement": "Explain confirmation by fetal evidence",
+          "noteTopic": "Positive: evidence from the fetus"
+        },
+        {
+          "requirement": "Explain test roles, limits, and nursing follow-up",
+          "noteTopic": "Pregnancy testing: timing, limits, and follow-up"
+        }
+      ],
+      "topics": [
+        "Presumptive: what the patient reports",
+        "Probable: findings that suggest pregnancy",
+        "Positive: evidence from the fetus",
+        "Pregnancy testing: timing, limits, and follow-up"
+      ],
+      "reviewSources": [
+        {
+          "title": "Open RN — Antepartum assessment and pregnancy signs",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK615334/"
+        },
+        {
+          "title": "MedlinePlus — Pregnancy testing and its limits",
+          "url": "https://www.medlineplus.gov/lab-tests/pregnancy-test/"
+        },
+        {
+          "title": "FDA — Home pregnancy tests",
+          "url": "https://www.fda.gov/medical-devices/home-use-tests/pregnancy"
+        },
+        {
+          "title": "CDC Hear Her — Urgent maternal warning signs",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+        }
+      ]
+    },
+    {
+      "id": "obstetric-history-gtpal",
+      "title": "Obstetric history and GTPAL",
+      "lectureRanges": [
+        {
+          "deckId": "maternal-adaptation",
+          "firstPage": 5,
+          "lastPage": 9
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Define gravida, parity, and each GTPAL component",
+          "noteTopic": "Decode G, parity, and GTPAL"
+        },
+        {
+          "requirement": "Include the ongoing pregnancy and count losses correctly",
+          "noteTopic": "Calculate in a consistent order"
+        },
+        {
+          "requirement": "Calculate and interpret a complete history",
+          "noteTopic": "Worked example: singleton births and early losses"
+        },
+        {
+          "requirement": "Handle multiple gestation, stillbirth/neonatal death, and living children",
+          "noteTopic": "Worked example: twins and the living count"
+        }
+      ],
+      "topics": [
+        "Decode G, parity, and GTPAL",
+        "Calculate in a consistent order",
+        "Worked example: singleton births and early losses",
+        "Worked example: twins and the living count"
+      ],
+      "reviewSources": [
+        {
+          "title": "Open RN — Antepartum assessment and pregnancy signs",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK615334/"
+        },
+        {
+          "title": "ACOG — Definition of term pregnancy",
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/11/definition-of-term-pregnancy"
+        }
+      ]
+    },
+    {
+      "id": "estimated-due-date",
+      "title": "Naegele’s rule and due dates",
+      "lectureRanges": [
+        {
+          "deckId": "prenatal-nursing-care",
+          "firstPage": 4,
+          "lastPage": 8
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Calculate an EDD using Naegele’s rule",
+          "noteTopic": "Use the rule and check the calendar"
+        },
+        {
+          "requirement": "Demonstrate correct date arithmetic",
+          "noteTopic": "Worked examples from the lecture"
+        },
+        {
+          "requirement": "Explain assumptions and menstrual-history limits",
+          "noteTopic": "When menstrual dating is less reliable"
+        },
+        {
+          "requirement": "Explain the role of ultrasound and established dating",
+          "noteTopic": "How ultrasound changes the assessment"
+        }
+      ],
+      "topics": [
+        "Use the rule and check the calendar",
+        "Worked examples from the lecture",
+        "When menstrual dating is less reliable",
+        "How ultrasound changes the assessment"
+      ],
+      "reviewSources": [
+        {
+          "title": "ACOG — Methods for estimating the due date",
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date"
+        },
+        {
+          "title": "ACOG — Prenatal care and tailored visits",
+          "url": "https://www.acog.org/womens-health/faqs/prenatal-care"
+        }
+      ]
+    },
+    {
+      "id": "prenatal-assessment",
+      "title": "Prenatal assessment and monitoring",
+      "lectureRanges": [
+        {
+          "deckId": "prenatal-nursing-care",
+          "firstPage": 2,
+          "lastPage": 17
+        },
+        {
+          "deckId": "prenatal-nursing-care",
+          "firstPage": 27,
+          "lastPage": 29
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Initial prenatal history and risk assessment",
+          "noteTopic": "Initial history: establish the baseline and risks"
+        },
+        {
+          "requirement": "Examination and maternal measurements",
+          "noteTopic": "Initial examination and maternal measurements"
+        },
+        {
+          "requirement": "Routine labs and informed screening choices",
+          "noteTopic": "Early labs: connect each test to its purpose"
+        },
+        {
+          "requirement": "Follow up infection and immunity results",
+          "noteTopic": "Infection results: what changes in care?"
+        },
+        {
+          "requirement": "Follow-up assessment and routine testing timeline",
+          "noteTopic": "Follow-up visits and the screening timeline"
+        },
+        {
+          "requirement": "Interpret glucose screening and diagnostic testing",
+          "noteTopic": "Glucose screening: distinguish screen from diagnosis"
+        },
+        {
+          "requirement": "Assess fetal growth, heart activity, and well-being",
+          "noteTopic": "Fetal growth, heart activity, and movement"
+        },
+        {
+          "requirement": "Identify findings needing urgent reporting and nursing response",
+          "noteTopic": "Report promptly: connect the cue to the next action"
+        }
+      ],
+      "topics": [
+        "Initial history: establish the baseline and risks",
+        "Initial examination and maternal measurements",
+        "Early labs: connect each test to its purpose",
+        "Infection results: what changes in care?",
+        "Follow-up visits and the screening timeline",
+        "Glucose screening: distinguish screen from diagnosis",
+        "Fetal growth, heart activity, and movement",
+        "Report promptly: connect the cue to the next action"
+      ],
+      "reviewSources": [
+        {
+          "title": "ACOG — Prenatal care and tailored visits",
+          "url": "https://www.acog.org/womens-health/faqs/prenatal-care"
+        },
+        {
+          "title": "ACOG — Routine tests during pregnancy",
+          "url": "https://www.acog.org/womens-health/faqs/routine-tests-during-pregnancy"
+        },
+        {
+          "title": "ACOG — Syphilis screening in pregnancy",
+          "url": "https://www.acog.org/clinical-information/physician-faqs/syphilis-screening-in-pregnancy"
+        },
+        {
+          "title": "CDC — Group B strep screening",
+          "url": "https://www.cdc.gov/group-b-strep/testing/index.html"
+        },
+        {
+          "title": "CDC — Perinatal hepatitis B prevention",
+          "url": "https://www.cdc.gov/hepatitis-b/hcp/perinatal-provider-overview/index.html"
+        },
+        {
+          "title": "NIH — Intrapartum care for people with HIV",
+          "url": "https://clinicalinfo.hiv.gov/en/guidelines/perinatal/intrapartum-care"
+        },
+        {
+          "title": "USPSTF — Gestational diabetes screening",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/gestational-diabetes-screening"
+        },
+        {
+          "title": "RCOG — Your baby’s movements in pregnancy",
+          "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/your-babys-movements-in-pregnancy/"
+        },
+        {
+          "title": "CDC Hear Her — Urgent maternal warning signs",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+        },
+        {
+          "title": "ACOG — Preeclampsia and high blood pressure",
+          "url": "https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy"
+        },
+        {
+          "title": "ACOG — Prenatal screening choices and anatomy ultrasound",
+          "url": "https://www.acog.org/advocacy/policy-priorities/non-invasive-prenatal-testing/current-acog-guidance"
+        }
+      ]
+    },
+    {
+      "id": "pregnancy-discomforts",
+      "title": "Discomforts and warning signs",
+      "lectureRanges": [
+        {
+          "deckId": "pregnancy-discomforts",
+          "firstPage": 2,
+          "lastPage": 4
+        },
+        {
+          "deckId": "prenatal-nursing-care",
+          "firstPage": 15,
+          "lastPage": 23
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Nursing teaching for GI discomforts",
+          "noteTopic": "Nausea, reflux, and constipation"
+        },
+        {
+          "requirement": "Urinary frequency and expected versus concerning discharge",
+          "noteTopic": "Urinary frequency and vaginal discharge"
+        },
+        {
+          "requirement": "Fatigue, breast tenderness, dyspnea, and positional symptoms",
+          "noteTopic": "Fatigue, breast tenderness, and mild breathlessness"
+        },
+        {
+          "requirement": "Musculoskeletal comfort and DVT precautions",
+          "noteTopic": "Backache, leg cramps, and body mechanics"
+        },
+        {
+          "requirement": "Edema, varicosities, and hemorrhoids",
+          "noteTopic": "Dependent edema, varicosities, and hemorrhoids"
+        },
+        {
+          "requirement": "Distinguish Braxton Hicks and possible labor",
+          "noteTopic": "Braxton Hicks versus contractions that need assessment"
+        },
+        {
+          "requirement": "Identify warning signs requiring prompt evaluation",
+          "noteTopic": "Safety check: when comfort measures are not enough"
+        }
+      ],
+      "topics": [
+        "Nausea, reflux, and constipation",
+        "Urinary frequency and vaginal discharge",
+        "Fatigue, breast tenderness, and mild breathlessness",
+        "Backache, leg cramps, and body mechanics",
+        "Dependent edema, varicosities, and hemorrhoids",
+        "Braxton Hicks versus contractions that need assessment",
+        "Safety check: when comfort measures are not enough"
+      ],
+      "reviewSources": [
+        {
+          "title": "Merck Manual Professional — Physiology of pregnancy",
+          "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/approach-to-the-pregnant-woman-and-prenatal-care/physiology-of-pregnancy"
+        },
+        {
+          "title": "CDC Hear Her — Urgent maternal warning signs",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+        },
+        {
+          "title": "RCOG — Your baby’s movements in pregnancy",
+          "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/your-babys-movements-in-pregnancy/"
+        }
+      ]
+    },
+    {
+      "id": "prenatal-nutrition-teaching",
+      "title": "Nutrition and health promotion",
+      "lectureRanges": [
+        {
+          "deckId": "maternal-adaptation",
+          "firstPage": 26,
+          "lastPage": 33
+        },
+        {
+          "deckId": "prenatal-nursing-care",
+          "firstPage": 2,
+          "lastPage": 3
+        },
+        {
+          "deckId": "prenatal-nursing-care",
+          "firstPage": 18,
+          "lastPage": 29
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Nutrition, energy intake, and weight-gain goals",
+          "noteTopic": "Food, energy, and weight-gain goals"
+        },
+        {
+          "requirement": "Supplements, nutrient requirements, and correct units",
+          "noteTopic": "Key nutrients and supplement safety"
+        },
+        {
+          "requirement": "Foodborne illness, mercury, and caffeine teaching",
+          "noteTopic": "Food safety, fish, and caffeine"
+        },
+        {
+          "requirement": "Activity, rest, hygiene, sexuality, and travel safety",
+          "noteTopic": "Activity, rest, hygiene, and everyday safety"
+        },
+        {
+          "requirement": "Medication and substance exposure teaching",
+          "noteTopic": "Medicines, alcohol, tobacco, and other exposures"
+        },
+        {
+          "requirement": "Immunizations and postpartum follow-through",
+          "noteTopic": "Immunizations: timing and purpose"
+        },
+        {
+          "requirement": "Individual risks, support systems, warning signs, and evaluation of teaching",
+          "noteTopic": "Individualize the teaching and check understanding"
+        }
+      ],
+      "topics": [
+        "Food, energy, and weight-gain goals",
+        "Key nutrients and supplement safety",
+        "Food safety, fish, and caffeine",
+        "Activity, rest, hygiene, and everyday safety",
+        "Medicines, alcohol, tobacco, and other exposures",
+        "Immunizations: timing and purpose",
+        "Individualize the teaching and check understanding"
+      ],
+      "reviewSources": [
+        {
+          "title": "CDC — Pregnancy weight gain and energy needs",
+          "url": "https://www.cdc.gov/maternal-infant-health/pregnancy-weight/"
+        },
+        {
+          "title": "NIH Office of Dietary Supplements — Pregnancy nutrient requirements",
+          "url": "https://ods.od.nih.gov/factsheets/pregnancy-healthprofessional/"
+        },
+        {
+          "title": "CDC — Safer food choices during pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        },
+        {
+          "title": "FDA/EPA — Fish choices and portions in pregnancy",
+          "url": "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or"
+        },
+        {
+          "title": "ACOG — Exercise during pregnancy",
+          "url": "https://www.acog.org/womens-health/faqs/exercise-during-pregnancy"
+        },
+        {
+          "title": "ACOG — 2026 maternal immunization schedule",
+          "url": "https://www.acog.org/clinical-information/maternal-immunization-schedule"
+        },
+        {
+          "title": "CDC — Guidelines for vaccinating pregnant patients",
+          "url": "https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/"
+        },
+        {
+          "title": "CDC Hear Her — Urgent maternal warning signs",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+        },
+        {
+          "title": "ACOG — Caffeine during pregnancy",
+          "url": "https://www.acog.org/womens-health/experts-and-stories/ask-acog/how-much-coffee-can-i-drink-while-pregnant"
+        },
+        {
+          "title": "Office on Women’s Health — Pregnancy and medicines",
+          "url": "https://womenshealth.gov/a-z-topics/pregnancy-and-medicines"
+        }
+      ]
+    }
+  ],
+  "sharedObjective": {
+    "id": "conception-fetal-development",
+    "handling": "Reuses the existing Week 1 answer without changes; source mapping remains in ob-week1-notes-audit.json."
+  },
+  "clarifications": [
+    {
+      "issue": "Second Naegele example has incorrect final month/date",
+      "handling": "August 20, 2025 LMP gives May 27, 2026; both lecture examples checked against exact +280 days. Notes distinguish calendar-month shortcut from exact day arithmetic.",
+      "sources": [
+        "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date"
+      ]
+    },
+    {
+      "issue": "Probable hCG test and overly early guaranteed detection",
+      "handling": "Explains false early negatives, test instructions, serum versus urine, and need for symptoms/ultrasound to establish location and development.",
+      "sources": [
+        "https://www.medlineplus.gov/lab-tests/pregnancy-test/",
+        "https://www.fda.gov/medical-devices/home-use-tests/pregnancy"
+      ]
+    },
+    {
+      "issue": "Term, preterm, parity, and viability are conflated in places",
+      "handling": "Uses course GTPAL threshold 20 weeks, term ≥37+0 and preterm through36+6. Separates parity from living children and from individualized viability.",
+      "sources": [
+        "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/11/definition-of-term-pregnancy",
+        "https://www.ncbi.nlm.nih.gov/books/NBK615334/"
+      ]
+    },
+    {
+      "issue": "Fixed prenatal visit timetable and blanket screening statements",
+      "handling": "Identifies traditional schedule as lecture pattern, explains tailored care, urine culture, hepatitis C, test timing, repeat syphilis testing and GBS36+0–37+6.",
+      "sources": [
+        "https://www.acog.org/womens-health/faqs/prenatal-care",
+        "https://www.acog.org/womens-health/faqs/routine-tests-during-pregnancy",
+        "https://www.acog.org/clinical-information/physician-faqs/syphilis-screening-in-pregnancy",
+        "https://www.cdc.gov/group-b-strep/testing/index.html"
+      ]
+    },
+    {
+      "issue": "Proteinuria alone or dilution used to dismiss abnormal findings",
+      "handling": "Preeclampsia may occur without proteinuria; severe BP/symptoms need escalation; anemia needs appropriate interpretation.",
+      "sources": [
+        "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+        "https://www.acog.org/womens-health/faqs/routine-tests-during-pregnancy"
+      ]
+    },
+    {
+      "issue": "All patients with HIV said to need IV medication during labor; exposed-infant HBV follow-up misstated",
+      "handling": "HIV plan depends on viral load/treatment/adherence. HBV vaccine+HBIG within12h and PVST9–12months or after delayed completion are specified.",
+      "sources": [
+        "https://clinicalinfo.hiv.gov/en/guidelines/perinatal/intrapartum-care",
+        "https://www.cdc.gov/hepatitis-b/hcp/perinatal-provider-overview/index.html"
+      ]
+    },
+    {
+      "issue": "Movement advice permits12h delay and juice/repeated waiting; fever cutoff low/inconsistent",
+      "handling": "Reduced movement from usual prompts contact without waiting until tomorrow or relying on home Doppler; fever≥100.4F38C.",
+      "sources": [
+        "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/your-babys-movements-in-pregnancy/",
+        "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+      ]
+    },
+    {
+      "issue": "Glucose diagnostic threshold equality is ambiguous",
+      "handling": "Separates screening from100g diagnostic testing, at-or-above abnormal thresholds95/180/155/140, usually2abnormal underCarpenter–Coustan; does not mix75g criteria.",
+      "sources": [
+        "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/gestational-diabetes-screening"
+      ]
+    },
+    {
+      "issue": "Iron/folate unit errors, fixed calorie increase, blanket diet bans",
+      "handling": "Correct mg/mcgDFE, trimester energy estimates, singletonBMIranges and current CDC/FDA food handling/fish advice.",
+      "sources": [
+        "https://ods.od.nih.gov/factsheets/pregnancy-healthprofessional/",
+        "https://www.cdc.gov/maternal-infant-health/pregnancy-weight/",
+        "https://www.cdc.gov/food-safety/foods/pregnant-women.html",
+        "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or"
+      ]
+    },
+    {
+      "issue": "2024 vaccine slide and blanket medication substitutions",
+      "handling": "Uses ACOG2026 maternal schedule, Tdap eachpregnancy, eligible first maternalRSVdose32+0–36+6 seasonal, liveMMR/varicellapostpartum. Essential treatment is not abruptly stopped; anticoagulation/seizuremedication decisions require specialist review.",
+      "sources": [
+        "https://www.acog.org/clinical-information/maternal-immunization-schedule",
+        "https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/"
+      ]
+    },
+    {
+      "issue": "Amniocentesis for routine lung maturity before early delivery",
+      "handling": "Not carried forward as a routine prenatal-care service or a justification for elective early delivery; notes emphasize best established gestational age.",
+      "sources": [
+        "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date"
+      ]
+    }
+  ],
+  "display": "Each new objective opens to a three-bullet Quick answer, then independently collapsed topics with short bullets/labeled facts. Existing infographic, presentation disclosures, TikToks, practice, breadcrumbs, and exam-topic order are preserved.",
+  "limits": "Study synthesis organized by the objectives. Automated checks verify coverage, placement, arithmetic, source integrity and rendering; these checks are not independent clinical validation."
+}

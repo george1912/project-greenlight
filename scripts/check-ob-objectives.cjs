@@ -7,6 +7,7 @@ for(const match of html.matchAll(/<script src="([^?]+)\?[^\"]+" defer><\/script>
  vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),context,{filename:file});
 }
 const course=vm.runInContext('obCourse',context),objectives=vm.runInContext('obStudyObjectives',context);
+const completed=new Set(JSON.parse(fs.readFileSync(path.join(root,'docs/ob-objectives-map.json'),'utf8')).completedObjectiveIds);
 const escapeHTML=text=>String(text).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const render=route=>{context.location.hash=route;vm.runInContext('render()',context);return main.innerHTML;};
 const ids=markup=>[...markup.matchAll(/data-objective="([^"]+)"/g)].map(match=>match[1]);
@@ -14,7 +15,7 @@ const sorted=values=>Array.from(values).sort();
 assert.equal(objectives.length,75);assert.equal(objectives.filter(o=>o.topicIds.length).length,60);
 assert.equal(new Set(objectives.map(o=>o.id)).size,75);
 for(const objective of objectives){
- assert(/^[a-z0-9-]+$/.test(objective.id));assert(objective.title&&objective.text);if(!objective.weekIds.includes('week-1'))assert.equal(objective.answer.length,0,'Other answers await the user’s notes');
+ assert(/^[a-z0-9-]+$/.test(objective.id));assert(objective.title&&objective.text);assert.equal(Boolean(objective.answer.length),completed.has(objective.id),'Only documented completed objectives have answers');
  assert(objective.weekIds.length);assert(objective.weekIds.every(id=>course.weeks.some(w=>w.id===id&&!w.reviewOf)));
  assert(objective.topicIds.every(id=>course.topics.some(t=>t.id===id)));
 }
@@ -36,7 +37,7 @@ for(const topic of course.topics){
  assert(markup.includes('<details class="ob-presentations"><summary>'));
  assert(!markup.includes('<details class="ob-presentations" open'));
  assert(markup.indexOf('class="condition-poster"')<markup.indexOf('class="ob-objectives"'));
- assert(markup.includes('Ready for your notes'));assert(!markup.includes('class="ob-notes-pending"'));
+ assert.equal(markup.includes('Ready for your notes'),expected.some(o=>!o.answer.length));assert(!markup.includes('class="ob-notes-pending"'));
  assert(!markup.includes('download')&&!markup.includes('Syllabus(1).pdf'));
 }
 const family=objectives.find(o=>o.id==='family-centered-care');
@@ -61,4 +62,4 @@ const audit=JSON.parse(fs.readFileSync(path.join(root,'docs/ob-objectives-map.js
 assert.equal(audit.counts.allObjectives,75);assert.equal(audit.counts.examObjectives,60);assert.equal(audit.noteStorage,'obStudyObjectives[].answer');assert.equal(audit.objectives.length,75);
 for(const entry of audit.objectives){const item=objectives.find(o=>o.id===entry.id);assert(item);assert.deepEqual(sorted(entry.weekIds),sorted(item.weekIds));assert.deepEqual(sorted(entry.topicIds),sorted(item.topicIds));}
 const workflow=fs.readFileSync(path.join(root,'.github/workflows/pages.yml'),'utf8');assert(workflow.includes('ob-objectives.js'));assert(html.indexOf('ob-objectives.js?')<html.indexOf('src="ob.js?'));
-console.log('Passed: 75 shared objectives across all 9 teaching sessions, 60 mapped to all 11 exam topics; Week 8 reuses Weeks 5–7; all four completed Week 1 objectives, other blank note areas, safe future note rendering in both views, nursing outline, source mapping, and deployment.');
+console.log('Passed: 75 shared objectives across all 9 teaching sessions, 60 mapped to all 11 exam topics; Week 8 reuses Weeks 5–7; documented completed objectives, remaining blank note areas, safe future note rendering in both views, nursing outline, source mapping, and deployment.');

@@ -37,7 +37,8 @@ for(const week of course.weeks){
  const markup=render('#/ob-final/'+week.id);assert.deepEqual(sections(markup),expected.sort(),week.id);
  assert.equal(new Set(sections(markup)).size,sections(markup).length);assert(!markup.includes('data-practice-question='));
 }
-assert(objectives.filter(o=>!o.weekIds.includes('week-1')).every(o=>!o.answer.length),'Other study notes remain for the user to supply');
+const completed=new Set(JSON.parse(fs.readFileSync(path.join(root,'docs/ob-objectives-map.json'),'utf8')).completedObjectiveIds);
+assert(objectives.every(o=>Boolean(o.answer.length)===completed.has(o.id)),'Note completion agrees with the objective audit');
 assert(objectives.filter(o=>o.weekIds.includes('week-1')).every(o=>o.answer.length),'All Week 1 notes are preserved');
 assert(!Object.keys(bank.sections).some(id=>id.startsWith('sti-')),'Do not invent an STI bank from unrelated questions');
 assert(answers.get(83).answer.includes('unreliable'));assert(answers.get(95).answer.includes('within 3 weeks'));assert(answers.get(195).answer.includes('6 cm'));

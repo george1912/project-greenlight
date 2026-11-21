@@ -1047,28 +1047,1189 @@ const obStudyObjectives = [
     ]
   },
   {
-    id:'pregnancy-signs',weekIds:['week-2'],topicIds:['antepartum-prenatal'],title:'Recognizing pregnancy',
-    text:'Distinguish presumptive, probable, and positive signs of pregnancy. Explain the role and limits of pregnancy testing and how findings are confirmed.',answer:[]
+    "id": "pregnancy-signs",
+    "weekIds": [
+      "week-2"
+    ],
+    "topicIds": [
+      "antepartum-prenatal"
+    ],
+    "title": "Recognizing pregnancy",
+    "text": "Distinguish presumptive, probable, and positive signs of pregnancy. Explain the role and limits of pregnancy testing and how findings are confirmed.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Presumptive signs are the patient’s symptoms; probable signs are findings that suggest pregnancy; positive signs provide direct evidence of an embryo or fetus.",
+          "A positive hCG test is a probable sign in the nursing classification. It does not establish where the pregnancy is located or whether it is developing normally.",
+          "Confirm with the clinical history and appropriate ultrasound/follow-up. Pain, bleeding, fainting, or shoulder pain needs urgent assessment even if an early urine test is negative."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Presumptive: what the patient reports",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Examples",
+                "text": "Amenorrhea (missed period), nausea/vomiting, fatigue, breast tenderness, urinary frequency, and quickening (the patient first perceives fetal movement)."
+              },
+              {
+                "label": "Why these are not proof",
+                "text": "Stress, endocrine conditions, illness, medications, and other causes can produce similar symptoms. Quickening is subjective; it is different from an examiner detecting fetal movement."
+              },
+              {
+                "label": "Nursing assessment",
+                "text": "Ask about the first day of the last menstrual period (LMP), usual cycle, contraception, symptoms, test timing, and pregnancy possibility. Respond without assumptions about whether the pregnancy is wanted."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Probable: findings that suggest pregnancy",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Cervical and uterine signs",
+                "text": "Goodell sign = softening of the cervix; Chadwick sign = bluish-purple cervix/vaginal tissue from increased vascularity; Hegar sign = softening of the lower uterine segment. These are not independently diagnostic."
+              },
+              {
+                "label": "Other examples",
+                "text": "Uterine enlargement, Braxton Hicks contractions, and ballottement (rebound of a floating structure when tapped during examination) suggest pregnancy but can have other explanations."
+              },
+              {
+                "label": "Positive pregnancy test",
+                "text": "Urine or serum hCG detects a hormone associated with pregnancy. Despite the word “positive,” the test belongs in the probable-sign category; fetal evidence confirms pregnancy in this framework."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Positive: evidence from the fetus",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Ultrasound",
+                "text": "Visualization of an embryo or fetus, with cardiac activity when expected for gestational age, supplies direct evidence. A very early indeterminate scan may need a planned repeat; it does not automatically establish pregnancy loss."
+              },
+              {
+                "label": "Fetal heart activity",
+                "text": "A clinician detects fetal heart activity distinct from the maternal pulse. Compare the maternal pulse to avoid mistaking maternal circulation for fetal activity."
+              },
+              {
+                "label": "Movement felt by the examiner",
+                "text": "Fetal movement palpated by a trained examiner is a positive sign; movement only reported by the patient remains presumptive. Detection depends on gestational age and assessment method."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Pregnancy testing: timing, limits, and follow-up",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Urine versus serum",
+                "text": "Urine tests usually give a yes/no answer. Serum testing can detect lower hCG levels and may measure a quantitative value; serial results can help guide evaluation when clinically indicated."
+              },
+              {
+                "label": "An early negative can be false",
+                "text": "Testing before enough hCG is present, diluted urine, or incorrect use can miss pregnancy. Follow the test directions; first-morning urine can improve detection. If suspicion persists, repeat after several days or arrange clinical testing."
+              },
+              {
+                "label": "A positive does not locate the pregnancy",
+                "text": "hCG may be present in ectopic pregnancy, after a recent pregnancy, or with some fertility medications. One value or a simple “doubling” rule cannot independently diagnose location or viability; interpret symptoms, trends, and ultrasound together."
+              },
+              {
+                "label": "Apply it",
+                "text": "Missed period + breast tenderness = presumptive. Positive home test = probable. Embryo seen on ultrasound = positive. Unilateral pelvic pain with dizziness or bleeding requires urgent evaluation for ectopic pregnancy; do not wait for a repeat home test."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Objective-focused synthesis of Maternal Adaptation, pages 10–13, with pregnancy-test timing and confirmation clarified using the references below.",
+    "answerSources": [
+      {
+        "title": "Open RN — Antepartum assessment and pregnancy signs",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK615334/"
+      },
+      {
+        "title": "MedlinePlus — Pregnancy testing and its limits",
+        "url": "https://www.medlineplus.gov/lab-tests/pregnancy-test/"
+      },
+      {
+        "title": "FDA — Home pregnancy tests",
+        "url": "https://www.fda.gov/medical-devices/home-use-tests/pregnancy"
+      },
+      {
+        "title": "CDC Hear Her — Urgent maternal warning signs",
+        "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+      }
+    ]
   },
   {
-    id:'obstetric-history-gtpal',weekIds:['week-2'],topicIds:['antepartum-prenatal'],title:'Obstetric history and GTPAL',
-    text:'Calculate and interpret gravida, parity, and GTPAL from a patient history. Include the current pregnancy, term and preterm births, pregnancy losses, multiple gestation, and living children.',answer:[]
+    "id": "obstetric-history-gtpal",
+    "weekIds": [
+      "week-2"
+    ],
+    "topicIds": [
+      "antepartum-prenatal"
+    ],
+    "title": "Obstetric history and GTPAL",
+    "text": "Calculate and interpret gravida, parity, and GTPAL from a patient history. Include the current pregnancy, term and preterm births, pregnancy losses, multiple gestation, and living children.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Gravida counts all pregnancies, including the current pregnancy; parity counts pregnancies delivered at the course’s gestational-age threshold, regardless of live birth or stillbirth.",
+          "GTPAL = total pregnancies, term births, preterm births, losses before 20 weeks, and children currently living. T and P count pregnancies delivered, not individual babies.",
+          "Twins count as one pregnancy and one birth event but can add two to L. The current pregnancy increases G only until delivery."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Decode G, parity, and GTPAL",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "G — gravida",
+                "text": "Every pregnancy counts once: current pregnancy, term/preterm births, miscarriage, induced abortion, and ectopic or molar pregnancy. A twin pregnancy still adds only one to G."
+              },
+              {
+                "label": "Parity in G/P notation",
+                "text": "Number of pregnancies reaching the reporting threshold, whether the infant is born alive or stillborn. This course uses 20 weeks. Nulligravida = never pregnant; primigravida = first pregnancy; nullipara = no birth at/after that threshold."
+              },
+              {
+                "label": "T — term births",
+                "text": "Pregnancies delivered at 37 weeks 0 days or later. In GTPAL this includes early term, full term, late term, and postterm; it is not limited to 39–40 weeks."
+              },
+              {
+                "label": "P — preterm births",
+                "text": "Pregnancies delivered from 20 weeks 0 days through 36 weeks 6 days in this course. P here means preterm, whereas P in simple G/P means overall parity."
+              },
+              {
+                "label": "A and L",
+                "text": "A counts pregnancies ending before 20 weeks, whether spontaneous or induced; use respectful language when asking about losses. L counts children currently living. A is a documentation category, not a statement about intent."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Calculate in a consistent order",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "List each pregnancy once with gestational age at its end, number of babies, and whether each child is currently living. Add the current pregnancy as its own row.",
+              "Count all rows for G. Classify each completed pregnancy into T, P, or A using gestational age at the outcome; do not classify the ongoing pregnancy yet.",
+              "Count living children separately for L. A stillbirth or a child who later died still counts in T or P when the gestational threshold was reached, but does not add to current L.",
+              "Cross-check: for an ongoing pregnancy, G = T + P + A + 1; after all pregnancies have ended, G = T + P + A. This assumes every prior pregnancy is accounted for.",
+              "Document exact gestational ages when known. Institutions may use different reporting conventions near the threshold; 20 weeks is the course convention, not a universal viability prediction."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Worked example: singleton births and early losses",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "History",
+                "text": "Pregnant now; one birth at 39 weeks and one at 34 weeks, both children living; one induced abortion at 8 weeks and one miscarriage at 18 weeks."
+              },
+              {
+                "label": "Count",
+                "text": "G = 5 total pregnancies. T = 1 (39-week birth). P = 1 (34-week birth). A = 2 (8- and 18-week losses). L = 2 living children."
+              },
+              {
+                "label": "Answer",
+                "text": "G5 T1 P1 A2 L2; often written G5P1122. In simple gravida/para notation this is G5 P2, because overall parity = T + P = 2."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Worked example: twins and the living count",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "History",
+                "text": "Pregnant now; two prior singleton births at 39 and 40 weeks; one twin pregnancy delivered at 35 weeks; three losses at 12, 14, and 10 weeks. All four born children are living."
+              },
+              {
+                "label": "Answer",
+                "text": "G7 T2 P1 A3 L4 (G7P2134). The twin delivery adds one to preterm P and two to living L. Check: 2 + 1 + 3 + 1 current pregnancy = 7."
+              },
+              {
+                "label": "If one twin had died",
+                "text": "G, T, P, and A would stay the same, but L would be 3. Living children are not the same thing as number of deliveries."
+              },
+              {
+                "label": "Why the nurse needs more than the code",
+                "text": "GTPAL does not reveal previous cesarean birth, hemorrhage, preeclampsia, birth trauma, or neonatal complications. Ask about these and the patient’s experience to guide this pregnancy’s care."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Based on Maternal Adaptation, pages 5–9. Worked examples show the counting process; the 20-week classification follows the course and is distinguished from individualized viability.",
+    "answerSources": [
+      {
+        "title": "Open RN — Antepartum assessment and pregnancy signs",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK615334/"
+      },
+      {
+        "title": "ACOG — Definition of term pregnancy",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/11/definition-of-term-pregnancy"
+      }
+    ]
   },
   {
-    id:'estimated-due-date',weekIds:['week-2'],topicIds:['antepartum-prenatal'],title:'Naegele’s rule and due dates',
-    text:'Calculate an estimated due date using Naegele’s rule, explain the assumptions behind the calculation, and identify when menstrual history or ultrasound dating changes the assessment.',answer:[]
+    "id": "estimated-due-date",
+    "weekIds": [
+      "week-2"
+    ],
+    "topicIds": [
+      "antepartum-prenatal"
+    ],
+    "title": "Naegele’s rule and due dates",
+    "text": "Calculate an estimated due date using Naegele’s rule, explain the assumptions behind the calculation, and identify when menstrual history or ultrasound dating changes the assessment.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Naegele’s rule uses the FIRST day of the last menstrual period: subtract 3 months, add 7 days, then add 1 year.",
+          "It estimates a 40-week pregnancy from the LMP and assumes a regular 28-day cycle with ovulation around day 14. It is an estimate, not a guaranteed birth date.",
+          "Uncertain LMP, irregular cycles, recent hormonal changes, or assisted reproduction can make the shortcut unreliable. Early ultrasound and the clinician’s documented best obstetric estimate guide dating."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Use the rule and check the calendar",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Starting point",
+                "text": "Use the first day of the last normal menstrual period, not the last day of bleeding, the positive test date, or the date of intercourse."
+              },
+              {
+                "label": "Method",
+                "text": "LMP − 3 calendar months + 7 days + 1 year. An equivalent classroom shortcut is +9 calendar months +7 days; carry dates across months/years correctly."
+              },
+              {
+                "label": "Gestational age",
+                "text": "Clinical gestational age starts at the LMP and is roughly 2 weeks longer than time since fertilization in a typical cycle. Forty weeks = 280 days from the LMP."
+              },
+              {
+                "label": "Calendar caveat",
+                "text": "Calendar-month arithmetic can differ slightly from an exact 280-day calculation because months differ in length. Use the stated method for a classroom problem and a validated calculator plus the clinical dating plan for patient care."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Worked examples from the lecture",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Example 1",
+                "text": "LMP November 21, 2025 → subtract 3 months: August 21, 2025 → add 7 days: August 28, 2025 → add 1 year: EDD August 28, 2026."
+              },
+              {
+                "label": "Example 2",
+                "text": "LMP August 20, 2025 → May 20, 2025 → May 27, 2025 → EDD May 27, 2026. The final August date printed on the second lecture example is a slide error."
+              },
+              {
+                "label": "Check your answer",
+                "text": "Both examples also give the same dates with exact +280-day arithmetic. Always check the final year, month, and whether the result is approximately 9 months after the LMP."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "When menstrual dating is less reliable",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Ask about reliability",
+                "text": "Confirm whether the date is certain and bleeding was typical. Ask about cycle length/regularity, recent contraception use, breastfeeding, postpartum status, and recent pregnancy loss."
+              },
+              {
+                "label": "Cycle assumption",
+                "text": "Longer or shorter regular cycles shift the likely ovulation date; irregular cycles make a simple adjustment unreliable. Share this history with the clinician rather than treating the standard shortcut as definitive."
+              },
+              {
+                "label": "Assisted reproduction",
+                "text": "Known embryo age and transfer date guide dating after IVF. Do not replace this with an assumed LMP or a recollection of intercourse."
+              },
+              {
+                "label": "Nurse’s role",
+                "text": "Record the reported LMP, its certainty, cycle history, ultrasound dates, and the established EDD. Explain the method and help resolve conflicting dates with the obstetric team."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "How ultrasound changes the assessment",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Most accurate window",
+                "text": "First-trimester ultrasound through 13 weeks 6 days, usually using crown–rump length, is the most accurate way to establish or confirm gestational age."
+              },
+              {
+                "label": "When to reconsider the EDD",
+                "text": "An uncertain LMP or a meaningful discrepancy between LMP dating and ultrasound prompts clinician review using gestational-age-specific criteria. A tiny difference does not automatically require redating."
+              },
+              {
+                "label": "After dating is established",
+                "text": "Document and discuss any change; later growth scans should not routinely reset the due date. A smaller third-trimester fetus may have a growth problem rather than a younger gestational age."
+              },
+              {
+                "label": "Why accuracy matters",
+                "text": "Dating determines the timing and interpretation of screening, growth assessment, preterm/term classification, and birth planning. An EDD is not proof that fetal lungs are mature or justification for an elective early delivery."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Based on Prenatal Nursing Care, pages 4–8. The second worked example’s printed final date is corrected; clinical ultrasound dating follows ACOG guidance.",
+    "answerSources": [
+      {
+        "title": "ACOG — Methods for estimating the due date",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date"
+      },
+      {
+        "title": "ACOG — Prenatal care and tailored visits",
+        "url": "https://www.acog.org/womens-health/faqs/prenatal-care"
+      }
+    ]
   },
   {
-    id:'prenatal-assessment',weekIds:['week-2'],topicIds:['antepartum-prenatal'],title:'Prenatal assessment and monitoring',
-    text:'Describe the initial and follow-up prenatal assessment, routine screening, maternal measurements, and assessment of fetal well-being. Identify which findings require follow-up or urgent reporting.',answer:[]
+    "id": "prenatal-assessment",
+    "weekIds": [
+      "week-2"
+    ],
+    "topicIds": [
+      "antepartum-prenatal"
+    ],
+    "title": "Prenatal assessment and monitoring",
+    "text": "Describe the initial and follow-up prenatal assessment, routine screening, maternal measurements, and assessment of fetal well-being. Identify which findings require follow-up or urgent reporting.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "The first visit establishes gestational age, baseline maternal health, pregnancy history, support needs, and a plan for labs, screening, and follow-up.",
+          "Follow-up tracks symptoms, blood pressure, weight trend, fetal growth/heart activity, and movement as gestation advances; reassess risk and teaching needs at every contact.",
+          "A screening result identifies risk or the need for further testing. Follow up abnormal findings and escalate urgent symptoms; a normal earlier test does not rule out a new problem."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Initial history: establish the baseline and risks",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Pregnancy and obstetric history",
+                "text": "Confirm LMP/cycle reliability, test results, dating ultrasound and EDD; calculate GTPAL. Ask about prior cesarean birth, preterm birth, hypertensive disorders, diabetes, hemorrhage, losses, and newborn complications."
+              },
+              {
+                "label": "Medical and exposure history",
+                "text": "Review chronic illness, surgery, allergies, family/genetic history, infections, prescription/OTC/herbal products, alcohol, tobacco/vaping, and other substances. Identify symptoms requiring assessment before routine intake continues."
+              },
+              {
+                "label": "Family-centered assessment",
+                "text": "Ask about the patient’s goals, preferred language, chosen support people, nutrition, mental health, safety, housing, transportation, and access to care. Screen privately for violence and substance use with a nonjudgmental approach."
+              },
+              {
+                "label": "Nursing action",
+                "text": "Reconcile medications, arrange ordered tests/referrals, identify barriers early, and ensure the patient knows how to reach the team between visits. Do not wait for the next appointment to address an urgent finding."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Initial examination and maternal measurements",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Baseline measurements",
+                "text": "Measure blood pressure with the correct cuff, pulse, and weight; obtain height/prepregnancy BMI and temperature or other vital signs as indicated. Review trends and symptoms rather than treating one number as the whole assessment."
+              },
+              {
+                "label": "Focused examination",
+                "text": "Assess general appearance, heart/lungs, thyroid or other systems as indicated, abdomen/uterine size, and extremities. Pelvic examination and cervical screening are performed when indicated, with explanation, consent, privacy, and appropriate support."
+              },
+              {
+                "label": "Avoid overinterpreting findings",
+                "text": "A named pelvic shape does not guarantee a vaginal birth. Edema alone does not diagnose preeclampsia. Hemodilution can lower hemoglobin, but anemia still needs trimester-appropriate interpretation and follow-up."
+              },
+              {
+                "label": "Follow up abnormal BP",
+                "text": "New systolic BP ≥140 or diastolic BP ≥90 requires prompt evaluation and confirmation according to protocol. Severe-range BP ≥160 systolic or ≥110 diastolic needs immediate escalation and timely confirmation/treatment; do not wait hours or for a routine visit."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Early labs: connect each test to its purpose",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "CBC",
+                "text": "Assesses hemoglobin/hematocrit and platelets. Follow up anemia or thrombocytopenia; do not label every low hemoglobin value “normal dilution.”"
+              },
+              {
+                "label": "ABO/Rh and antibody screen",
+                "text": "Identifies blood group, Rh status, and red-cell antibodies. An unsensitized Rh-negative patient may need Rh immune globulin at the indicated times; a positive antibody screen needs a specific follow-up plan."
+              },
+              {
+                "label": "Urine testing",
+                "text": "A urine culture screens for asymptomatic bacteriuria, which can progress to pyelonephritis. Urinalysis helps evaluate symptoms/findings; dipstick glucose does not diagnose gestational diabetes, and protein alone does not establish preeclampsia."
+              },
+              {
+                "label": "Infection and immunity testing",
+                "text": "Check rubella immunity and screen for hepatitis B, hepatitis C, HIV, and syphilis. Gonorrhea/chlamydia and other tests follow age, exposure risk, and local recommendations; discuss results privately."
+              },
+              {
+                "label": "Genetic screening choices",
+                "text": "Offer informed discussion of screening and diagnostic options to all patients, including the option to decline. A positive aneuploidy screen is a risk result requiring counseling and possible diagnostic testing, not a confirmed fetal diagnosis."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Infection results: what changes in care?",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Rubella nonimmune",
+                "text": "Teach avoidance of exposure and plan postpartum MMR vaccination. MMR is a live vaccine and is not given during pregnancy."
+              },
+              {
+                "label": "Hepatitis B positive",
+                "text": "Coordinate the maternal plan and notify the newborn team: the exposed infant needs hepatitis B vaccine plus HBIG within 12 hours of birth. Ensure series completion and follow-up blood tests at 9–12 months (or 1–2 months after delayed completion)."
+              },
+              {
+                "label": "HIV positive",
+                "text": "Link promptly to specialist care and ongoing antiretroviral therapy. Viral load, treatment, and adherence guide delivery/newborn prevention plans; IV zidovudine during labor is not automatically required for every patient with HIV."
+              },
+              {
+                "label": "Syphilis and other STIs",
+                "text": "Ensure timely treatment, appropriate partner care, and retesting. ACOG recommends syphilis screening at the first prenatal visit, in the third trimester, and at birth; other repeat testing depends on the infection and local protocol."
+              },
+              {
+                "label": "GBS colonization",
+                "text": "GBS is not an STI. The late-pregnancy vaginal–rectal swab guides intrapartum antibiotics to reduce early-onset neonatal infection; it does not mean the patient caused an infection."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Follow-up visits and the screening timeline",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Visit schedule",
+                "text": "Know the lecture’s traditional pattern: about every 4 weeks to 28 weeks, every 2 weeks to 36 weeks, then weekly. Current care is tailored to risk, services needed, access, and patient preferences; symptoms can require extra assessment at any time."
+              },
+              {
+                "label": "At follow-up",
+                "text": "Review interval symptoms, BP, weight/gain trend, ordered results, medications, coping/support, and fetal assessment appropriate to gestational age. Urine tests and additional examination follow clinical need and the care plan."
+              },
+              {
+                "label": "18–22 weeks",
+                "text": "The fetal anatomy ultrasound assesses structures and can evaluate placental location. A normal anatomy scan does not exclude every condition; follow up incomplete views or abnormal findings."
+              },
+              {
+                "label": "24–28 weeks",
+                "text": "Routine gestational diabetes testing and commonly repeat CBC. Earlier testing for preexisting diabetes may be indicated by risk. Review results and arrange the required follow-up rather than assuming no symptoms means no diabetes."
+              },
+              {
+                "label": "Around 28 weeks",
+                "text": "Reassess red-cell antibodies and give Rh immune globulin as ordered for an unsensitized Rh-negative patient; additional doses may be needed after sensitizing events and after an Rh-positive newborn. It does not treat existing alloimmunization."
+              },
+              {
+                "label": "36 weeks 0 days–37 weeks 6 days",
+                "text": "Routine GBS screening guides birth care; known GBS bacteriuria this pregnancy or a prior infant with GBS disease can already indicate intrapartum prophylaxis. Coordinate vaccines and repeat infection testing at their appropriate times."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Glucose screening: distinguish screen from diagnosis",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Common two-step approach",
+                "text": "A 50-g, 1-hour glucose challenge is a screen, often without fasting. A result meeting the local cutoff (130, 135, or 140 mg/dL) commonly leads to a fasting 100-g, 3-hour oral glucose tolerance test."
+              },
+              {
+                "label": "Carpenter–Coustan values",
+                "text": "For the 100-g test: fasting 95, 1 hour 180, 2 hours 155, and 3 hours 140 mg/dL. A value AT OR ABOVE the threshold is abnormal; diagnosis generally requires at least two abnormal values under this approach."
+              },
+              {
+                "label": "Protocol matters",
+                "text": "Some services use a one-step 75-g test with different criteria. Do not mix test doses, timing, or thresholds. Explain preparation, communicate results, and confirm the follow-up appointment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Fetal growth, heart activity, and movement",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Fundal height",
+                "text": "The uterus is near the symphysis around 12 weeks and the umbilicus around 20 weeks. From about 20–36 weeks, fundal height in cm roughly tracks gestational weeks in a singleton pregnancy. An unexpected trend prompts evaluation, not automatic redating."
+              },
+              {
+                "label": "Factors affecting size",
+                "text": "Dating error, multiple pregnancy, body habitus, fibroids, amniotic fluid, and growth abnormalities can change the measurement. Use serial measurements and ultrasound when indicated."
+              },
+              {
+                "label": "Fetal heart assessment",
+                "text": "Assess with the method appropriate to gestational age and compare with the maternal pulse. Later-pregnancy baseline fetal heart rate is generally 110–160 beats/min; a persistently abnormal rate needs assessment, not reassurance from movement alone."
+              },
+              {
+                "label": "Movement teaching",
+                "text": "Once a pattern is established, teach awareness of the baby’s usual activity. If a formal count is prescribed, follow the team’s specific method (a common method uses 10 movements within up to 2 hours). Reduced or absent movement from usual needs prompt contact; do not wait 12 hours, until tomorrow, or for juice to “fix” it."
+              },
+              {
+                "label": "When more testing is needed",
+                "text": "NST, biophysical profile, growth ultrasound, or Doppler studies are used for clinical indications, not automatically at every low-risk visit. A home Doppler cannot confirm fetal well-being."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Report promptly: connect the cue to the next action",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Urgent maternal symptoms",
+                "text": "Severe/persistent headache, vision changes, severe upper abdominal pain, sudden face/hand swelling, fever ≥100.4°F (38°C), persistent vomiting/dehydration, or painful urination with fever/flank pain require prompt evaluation. Preeclampsia can occur without proteinuria."
+              },
+              {
+                "label": "Bleeding, fluid, or preterm symptoms",
+                "text": "Report vaginal bleeding, a gush/trickle of fluid, or regular contractions/pelvic pressure/backache before 37 weeks. Do not assume these are normal discharge or Braxton Hicks."
+              },
+              {
+                "label": "Emergency symptoms",
+                "text": "Heavy bleeding, severe abdominal/shoulder pain with faintness, chest pain, severe breathing difficulty, seizure, or thoughts of self-harm need emergency help. Unilateral leg swelling/pain needs urgent evaluation for a clot; chest/breathing symptoms can signal pulmonary embolism."
+              },
+              {
+                "label": "Nursing response",
+                "text": "Assess stability and vital signs, obtain gestational age and symptom details, escalate to the obstetric/emergency team, and document findings, communication, and response. Teach whom to call and where to go; use teach-back to confirm the plan."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Based on Prenatal Nursing Care, pages 2–17 and 27–29. Screening schedules, infection follow-up, movement teaching, and abnormal findings are clarified with current references; care is individualized.",
+    "answerSources": [
+      {
+        "title": "ACOG — Prenatal care and tailored visits",
+        "url": "https://www.acog.org/womens-health/faqs/prenatal-care"
+      },
+      {
+        "title": "ACOG — Routine tests during pregnancy",
+        "url": "https://www.acog.org/womens-health/faqs/routine-tests-during-pregnancy"
+      },
+      {
+        "title": "ACOG — Syphilis screening in pregnancy",
+        "url": "https://www.acog.org/clinical-information/physician-faqs/syphilis-screening-in-pregnancy"
+      },
+      {
+        "title": "CDC — Group B strep screening",
+        "url": "https://www.cdc.gov/group-b-strep/testing/index.html"
+      },
+      {
+        "title": "CDC — Perinatal hepatitis B prevention",
+        "url": "https://www.cdc.gov/hepatitis-b/hcp/perinatal-provider-overview/index.html"
+      },
+      {
+        "title": "NIH — Intrapartum care for people with HIV",
+        "url": "https://clinicalinfo.hiv.gov/en/guidelines/perinatal/intrapartum-care"
+      },
+      {
+        "title": "USPSTF — Gestational diabetes screening",
+        "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/gestational-diabetes-screening"
+      },
+      {
+        "title": "RCOG — Your baby’s movements in pregnancy",
+        "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/your-babys-movements-in-pregnancy/"
+      },
+      {
+        "title": "CDC Hear Her — Urgent maternal warning signs",
+        "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+      },
+      {
+        "title": "ACOG — Preeclampsia and high blood pressure",
+        "url": "https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy"
+      },
+      {
+        "title": "ACOG — Prenatal screening choices and anatomy ultrasound",
+        "url": "https://www.acog.org/advocacy/policy-priorities/non-invasive-prenatal-testing/current-acog-guidance"
+      }
+    ]
   },
   {
-    id:'pregnancy-discomforts',weekIds:['week-2'],topicIds:['antepartum-prenatal'],title:'Discomforts and warning signs',
-    text:'Explain nursing measures and patient teaching for common pregnancy discomforts. Distinguish normal discomforts from warning signs that need prompt evaluation.',answer:[]
+    "id": "pregnancy-discomforts",
+    "weekIds": [
+      "week-2"
+    ],
+    "topicIds": [
+      "antepartum-prenatal"
+    ],
+    "title": "Discomforts and warning signs",
+    "text": "Explain nursing measures and patient teaching for common pregnancy discomforts. Distinguish normal discomforts from warning signs that need prompt evaluation.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "For a common discomfort, connect the pregnancy-related cause to a practical comfort measure, then name the warning signs that change the plan.",
+          "Use hydration, food changes, rest/activity, positioning, and body mechanics when appropriate. Review medicines and supplements with the prenatal team instead of assuming OTC means safe.",
+          "Severe, persistent, sudden, or associated symptoms need assessment. Bleeding, leaking fluid, preterm contractions, reduced fetal movement, and cardiopulmonary symptoms must not be dismissed as normal pregnancy."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Nausea, reflux, and constipation",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Nausea/vomiting",
+                "text": "Often worse early in pregnancy. Try small frequent meals, a dry snack before rising, avoiding smell/food triggers, and small sips of fluids between meals. Ask about provider-approved treatment if symptoms interfere with intake."
+              },
+              {
+                "label": "Escalate vomiting",
+                "text": "Inability to keep fluids down, reduced/dark urine, dizziness, weight loss, blood in vomit, or severe pain needs evaluation for dehydration/hyperemesis or another cause."
+              },
+              {
+                "label": "Heartburn",
+                "text": "Progesterone relaxes the lower esophageal sphincter and the uterus increases abdominal pressure. Use smaller meals, stay upright after eating, avoid late meals and personal triggers, and elevate the upper body for sleep."
+              },
+              {
+                "label": "Medication teaching",
+                "text": "Use antacids or other reflux medicines only as advised; calcium-containing antacids count toward total calcium. Check dose limits and spacing from iron/other medicines with the pharmacist. Persistent upper abdominal pain with headache/visual symptoms is a warning sign, not simply reflux."
+              },
+              {
+                "label": "Constipation",
+                "text": "Slower bowel motility and iron can contribute. Increase fiber gradually, drink fluids, move regularly, and respond to the urge to defecate. Discuss a pregnancy-appropriate stool softener or other treatment if needed; do not stop prescribed iron or start laxatives/herbals without review."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Urinary frequency and vaginal discharge",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Urinary frequency",
+                "text": "Early renal changes and later bladder pressure can increase frequency. Void regularly, consider pelvic-floor exercises, limit bladder irritants, and shift some fluids earlier if nighttime voiding disrupts sleep; maintain adequate total hydration."
+              },
+              {
+                "label": "Possible UTI",
+                "text": "Burning, urgency with pain, hematuria, or suprapubic pain needs follow-up. Fever, chills, flank pain, or vomiting can indicate kidney infection and require prompt evaluation. Frequency alone does not establish a UTI."
+              },
+              {
+                "label": "Leukorrhea",
+                "text": "Thin white/milky discharge without strong odor, itching, or pain can increase. Use gentle external hygiene and breathable underwear; avoid douching or inserting treatments without assessment."
+              },
+              {
+                "label": "Fluid versus discharge",
+                "text": "Itching, malodor, or colored discharge needs assessment. A gush or ongoing watery trickle may be ruptured membranes: contact the team promptly rather than assuming ordinary discharge or urine."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Fatigue, breast tenderness, and mild breathlessness",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Fatigue",
+                "text": "Metabolic demands, sleep changes, and later physical discomfort can contribute. Plan rest, regular sleep, balanced meals, and tolerable activity. Persistent or disproportionate fatigue merits assessment for anemia, mood concerns, thyroid problems, or illness."
+              },
+              {
+                "label": "Breast tenderness",
+                "text": "Use a well-fitting supportive bra and avoid friction. Fever, a focal red/hot area, a new concerning mass, or severe localized pain needs evaluation."
+              },
+              {
+                "label": "Breathlessness",
+                "text": "Mild gradual breathlessness can accompany increased ventilation and later uterine pressure. Adjust posture, slow the pace, and rest as needed. Sudden dyspnea, breathlessness at rest, chest pain, fainting, or difficulty breathing when lying down needs urgent/emergency evaluation."
+              },
+              {
+                "label": "Dizziness when supine",
+                "text": "The enlarged uterus can reduce venous return while lying flat. Turn to the side and reassess; persistent dizziness, syncope, bleeding, or chest symptoms need prompt evaluation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Backache, leg cramps, and body mechanics",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Backache",
+                "text": "Changing center of gravity and ligament relaxation strain the back. Use good posture, bend the knees to lift, wear supportive low-heeled shoes, change position often, and use pillows for support. Gentle stretching and brief low heat may help; avoid overheating."
+              },
+              {
+                "label": "Leg cramps",
+                "text": "Gently dorsiflex the foot (toes toward the shin), stretch the calf, and review hydration/activity. Do not automatically prescribe high-dose calcium or other supplements without assessing intake and the care plan."
+              },
+              {
+                "label": "Do not massage a possible clot",
+                "text": "One-sided calf pain, warmth, redness, or swelling is not a routine cramp. Obtain urgent assessment for DVT; avoid massaging the leg. Chest pain or shortness of breath with these findings is an emergency."
+              },
+              {
+                "label": "Back pain needing follow-up",
+                "text": "Persistent low backache with contractions, pelvic pressure, bleeding, or fluid leakage before 37 weeks can be preterm labor. Fever or flank pain suggests a possible urinary infection."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Dependent edema, varicosities, and hemorrhoids",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Leg/ankle edema",
+                "text": "Venous pressure can cause bilateral dependent swelling that worsens after standing. Change position, elevate legs, take walking breaks, and rest side-lying as comfortable. Do not restrict fluids or take diuretics without an order."
+              },
+              {
+                "label": "Varicose veins",
+                "text": "Avoid prolonged standing/sitting and constrictive clothing; use leg elevation, movement, and properly fitted support stockings if advised. Sudden unilateral swelling/pain needs urgent assessment."
+              },
+              {
+                "label": "Hemorrhoids",
+                "text": "Prevent constipation and straining; use fluids/fiber, short periods of sitting, and a comfortably warm sitz bath. Ask about approved topical treatment. Persistent/heavy rectal bleeding or severe pain needs assessment."
+              },
+              {
+                "label": "Swelling warning",
+                "text": "Sudden swelling of face/hands, especially with severe headache, visual disturbance, upper abdominal pain, or high BP, needs prompt evaluation for a hypertensive disorder. Edema alone is not diagnostic."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Braxton Hicks versus contractions that need assessment",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Typical Braxton Hicks",
+                "text": "Usually irregular, without a progressively stronger/closer pattern, and may ease with a change of activity, rest, or hydration. They do not progressively dilate the cervix, but this cannot be determined from symptoms alone at home."
+              },
+              {
+                "label": "Possible labor",
+                "text": "Contractions becoming regular, longer, stronger, and closer together, persistent low back/pelvic pressure, or bleeding/fluid loss warrant contact with the birth team. Before 37 weeks, seek prompt assessment for possible preterm labor."
+              },
+              {
+                "label": "At term",
+                "text": "Follow the individualized plan for when to call or come in. Do not rely on one fixed contraction rule when there is fluid leakage, bleeding, reduced fetal movement, severe pain, or another concern."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Safety check: when comfort measures are not enough",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Call promptly for fever ≥100.4°F (38°C), persistent vomiting/dehydration, severe headache/visual changes, severe abdominal pain, vaginal bleeding, fluid leakage, or preterm-labor symptoms.",
+              "Once fetal movement has an established pattern, reduced or absent movement needs prompt contact. Do not wait until the next day or use a home Doppler as reassurance.",
+              "Use emergency services for heavy bleeding with weakness/fainting, seizure, chest pain, severe shortness of breath, or immediate danger of self-harm.",
+              "Apply it: ankle swelling after standing that improves with elevation may be dependent edema. Swelling of face/hands with headache and visual changes requires urgent evaluation, even if rest seems to help briefly."
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Based on the Pregnancy Discomforts handout, pages 2–4, and Prenatal Nursing Care, pages 15 and 18–23. Comfort measures are paired with assessment cues and current maternal/fetal warning-sign guidance.",
+    "answerSources": [
+      {
+        "title": "Merck Manual Professional — Physiology of pregnancy",
+        "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/approach-to-the-pregnant-woman-and-prenatal-care/physiology-of-pregnancy"
+      },
+      {
+        "title": "CDC Hear Her — Urgent maternal warning signs",
+        "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+      },
+      {
+        "title": "RCOG — Your baby’s movements in pregnancy",
+        "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/your-babys-movements-in-pregnancy/"
+      }
+    ]
   },
   {
-    id:'prenatal-nutrition-teaching',weekIds:['week-2'],topicIds:['antepartum-prenatal'],title:'Nutrition and health promotion',
-    text:'Develop teaching about nutrition, weight gain, supplements, activity, medication and substance exposure, immunizations, and when to seek care during pregnancy. Adapt the plan to individual risks and needs.',answer:[]
+    "id": "prenatal-nutrition-teaching",
+    "weekIds": [
+      "week-2"
+    ],
+    "topicIds": [
+      "antepartum-prenatal"
+    ],
+    "title": "Nutrition and health promotion",
+    "text": "Develop teaching about nutrition, weight gain, supplements, activity, medication and substance exposure, immunizations, and when to seek care during pregnancy. Adapt the plan to individual risks and needs.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Build an individual plan for balanced food intake, appropriate weight gain, a reviewed prenatal supplement, safe activity, and avoidance of harmful exposures.",
+          "Teaching should cover what to do, why it matters, and when to call. Adapt for prepregnancy BMI, age, multiple pregnancy, chronic illness, food access, culture, and personal preferences.",
+          "Review all medicines and vaccines with the prenatal team. Do not abruptly stop essential treatment; untreated illness and withdrawal can also harm pregnancy."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Food, energy, and weight-gain goals",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Balanced intake",
+                "text": "Include vegetables/fruit, whole grains, protein foods, and pasteurized dairy or fortified alternatives. Choose practical, culturally acceptable foods; plan fluids and small meals around nausea/reflux. “Eating for two” does not mean doubling portions."
+              },
+              {
+                "label": "Typical energy needs",
+                "text": "For many singleton pregnancies, no extra calories are needed in the first trimester; about +340 calories/day in the second and +450 in the third are general estimates. Adjust for activity, baseline nutrition, weight trend, and clinical needs."
+              },
+              {
+                "label": "Singleton total weight gain",
+                "text": "Prepregnancy BMI <18.5: 28–40 lb; BMI 18.5–24.9: 25–35 lb; BMI 25–29.9: 15–25 lb; BMI ≥30: generally 11–20 lb. Use an individualized goal rather than a judgment about body size."
+              },
+              {
+                "label": "Assess the trend",
+                "text": "Weight gain includes fetus, placenta, fluid, and maternal tissue. Too little gain prompts assessment of intake, vomiting, food access, or growth; sudden gain with swelling/headache needs evaluation for fluid retention and hypertensive disease. Multiple pregnancies need different goals."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Key nutrients and supplement safety",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Folate/folic acid",
+                "text": "Pregnancy requires 600 micrograms dietary folate equivalents (mcg DFE) daily. Folic acid before conception and early pregnancy helps prevent neural-tube defects; low-risk preconception supplements commonly provide 400–800 mcg/day. The DFE requirement and supplement dose are not interchangeable units. Higher-risk dosing is prescribed individually."
+              },
+              {
+                "label": "Iron",
+                "text": "Pregnancy RDA = 27 mg/day, supporting red-cell production and fetal needs. Pair plant iron with vitamin C; discuss constipation, tolerability, and timing around calcium. Anemia treatment may require a separate prescribed dose; 27 mg is not a treatment dose for every patient."
+              },
+              {
+                "label": "Calcium and vitamin D",
+                "text": "Calcium: 1,000 mg/day for adults, 1,300 mg/day for adolescents; vitamin D supports absorption and bone health. Count food plus supplements/antacids, and assess dairy-free diets for fortified alternatives."
+              },
+              {
+                "label": "Other nutrients",
+                "text": "Ensure adequate protein, vitamin B12, iodine, choline, and vitamin D through diet and a reviewed supplement plan. Vegan diets need reliable B12 sources; some prenatal products omit important nutrients."
+              },
+              {
+                "label": "Use the actual label",
+                "text": "Review the prenatal product, dose, duplicate supplements, and nonprescription/herbal products. Avoid megadoses and excess preformed vitamin A/retinol. Iron is measured in mg and folate in micrograms, correcting the lecture’s unit errors."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Food safety, fish, and caffeine",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Prevent foodborne infection",
+                "text": "Wash produce; separate raw from ready-to-eat foods; cook meat, eggs, and seafood thoroughly; refrigerate promptly; choose pasteurized milk/juice. Avoid raw/undercooked animal foods and unpasteurized dairy."
+              },
+              {
+                "label": "Listeria precautions",
+                "text": "Heat deli meats/hot dogs to 165°F or steaming hot. Avoid unheated queso fresco–type cheeses, including products made with pasteurized milk; current CDC guidance advises heating these to 165°F or steaming hot. Check product safety rather than assuming every pasteurized soft cheese is equally low risk."
+              },
+              {
+                "label": "Fish can be beneficial",
+                "text": "Aim for 8–12 oz/week (2–3 four-ounce servings) of varied cooked lower-mercury fish from FDA’s Best Choices list. Avoid highest-mercury fish such as shark, swordfish, king mackerel, and bigeye tuna; follow local advisories for caught fish."
+              },
+              {
+                "label": "Caffeine",
+                "text": "Keep total caffeine below 200 mg/day under standard obstetric guidance; count coffee, tea, energy drinks, cola, chocolate, and medicines. Discuss energy drinks and other stimulants rather than treating their ingredients as harmless."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Activity, rest, hygiene, and everyday safety",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Activity goal",
+                "text": "For an uncomplicated pregnancy, aim for at least 150 minutes/week of moderate activity, such as walking or swimming, with clinician guidance. Start gradually, hydrate, avoid overheating, and choose activities that minimize falls, abdominal trauma, and contact injury."
+              },
+              {
+                "label": "Stop and seek advice",
+                "text": "Stop exercise for bleeding, fluid leakage, dizziness, chest pain, breathing difficulty before exertion, calf pain/swelling, or regular painful contractions. Complications can change the exercise plan; routine bed rest is not a universal solution."
+              },
+              {
+                "label": "Rest and comfort",
+                "text": "Plan adequate sleep, rest breaks, supportive clothing, and comfortable side-lying positions later in pregnancy. Continue dental care and gentle hygiene; avoid douching, hot tubs/saunas that overheat the body, and hot yoga."
+              },
+              {
+                "label": "Sex and travel",
+                "text": "Sex is generally safe in an uncomplicated pregnancy, but bleeding, leaking fluid, placental problems, or preterm-labor concerns require individual advice. In a car, use the shoulder belt across the chest and lap belt low under the abdomen; take movement breaks on long trips."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Medicines, alcohol, tobacco, and other exposures",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Medication reconciliation",
+                "text": "Review prescription drugs, OTC pain/cold products, vitamins, herbs, and topical treatments. Check indication, dose, gestational age, interactions, and risks of untreated illness with the prescriber/pharmacist."
+              },
+              {
+                "label": "High-risk exposures",
+                "text": "Isotretinoin and some antiseizure or anticoagulant regimens need prompt specialist review. Do not abruptly stop seizure medicines or anticoagulation; substitution depends on the condition, including special circumstances such as mechanical heart valves."
+              },
+              {
+                "label": "Alcohol",
+                "text": "There is no known safe amount, time, or type of alcohol in pregnancy. Use nonjudgmental counseling and connect the patient to support. If dependence is possible, arrange medical assessment rather than suggesting unmanaged withdrawal."
+              },
+              {
+                "label": "Tobacco, vaping, cannabis, and other drugs",
+                "text": "Support cessation of smoking/vaping and avoidance of cannabis, including use for nausea. Assess secondhand exposure and offer treatment/referral without stigma. Patients using opioids need an evidence-based treatment plan, not abrupt unsupervised discontinuation."
+              },
+              {
+                "label": "Work/home risks",
+                "text": "Ask about solvents, radiation, lead, infection exposure, and tasks involving injury risk. Discuss specific workplace protections and safe food/animal-waste handling with the team rather than assuming every exposure has the same risk."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Immunizations: timing and purpose",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Review early",
+                "text": "Check records at the first visit and make an individualized schedule. These notes follow ACOG’s 2026 maternal schedule; vaccine recommendations are date-sensitive and should be checked against the current obstetric plan."
+              },
+              {
+                "label": "Influenza and COVID-19",
+                "text": "ACOG recommends inactivated/recombinant influenza vaccine and the current COVID-19 vaccine during pregnancy; either can be given at any gestational age. Do not use the live intranasal influenza vaccine."
+              },
+              {
+                "label": "Tdap",
+                "text": "Give during each pregnancy, preferably early in the 27–36-week window, to transfer antibodies that protect the newborn from pertussis. Prior Tdap outside the current pregnancy does not replace this dose."
+              },
+              {
+                "label": "RSV",
+                "text": "Use only Abrysvo for maternal RSV vaccination, at 32 weeks 0 days–36 weeks 6 days during the recommended season (September–January in most of the continental U.S.) if eligible and not previously vaccinated. A prior maternal RSV dose is not routinely repeated; arrange the infant antibody plan as appropriate."
+              },
+              {
+                "label": "Other vaccines and postpartum plan",
+                "text": "Hepatitis A/B and other nonlive vaccines depend on immunity, age, exposure risk, and indications. Live MMR and varicella are deferred until postpartum when indicated. Plan follow-through rather than leaving nonimmunity undocumented."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Individualize the teaching and check understanding",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Adapt to the patient",
+                "text": "For diabetes, hyperemesis, anemia, prior bariatric surgery, food allergy, multiple pregnancy, eating disorder, or adolescent pregnancy, coordinate the appropriate dietitian/specialist plan. Ask about cultural/religious food practices without stereotyping."
+              },
+              {
+                "label": "Access and support",
+                "text": "Screen for food insecurity, safe housing, transportation, insurance, and ability to obtain supplements. Connect to WIC, social work, community resources, interpreters, and chosen support people with consent. Assess pica (craving/eating nonfood substances) and possible iron deficiency without judgment."
+              },
+              {
+                "label": "Prepare for birth and feeding",
+                "text": "Offer childbirth education, discuss preferences and support people, and provide balanced infant-feeding education/referral. Teach the warning signs and the team’s contact/triage plan before symptoms occur."
+              },
+              {
+                "label": "Teach-back",
+                "text": "Ask the patient to describe their daily food/supplement plan, medication questions, next vaccine/testing dates, and what they would do for bleeding, leaking fluid, severe headache/visual changes, fever, or reduced fetal movement. Revisit the plan at follow-up."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Objective-focused synthesis of Maternal Adaptation, pages 26–33, and Prenatal Nursing Care, pages 2–3 and 18–29. Nutrient units, food handling, activity advice, medication precautions, and vaccine timing are clarified with the references below.",
+    "answerSources": [
+      {
+        "title": "CDC — Pregnancy weight gain and energy needs",
+        "url": "https://www.cdc.gov/maternal-infant-health/pregnancy-weight/"
+      },
+      {
+        "title": "NIH Office of Dietary Supplements — Pregnancy nutrient requirements",
+        "url": "https://ods.od.nih.gov/factsheets/pregnancy-healthprofessional/"
+      },
+      {
+        "title": "CDC — Safer food choices during pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "title": "FDA/EPA — Fish choices and portions in pregnancy",
+        "url": "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or"
+      },
+      {
+        "title": "ACOG — Exercise during pregnancy",
+        "url": "https://www.acog.org/womens-health/faqs/exercise-during-pregnancy"
+      },
+      {
+        "title": "ACOG — 2026 maternal immunization schedule",
+        "url": "https://www.acog.org/clinical-information/maternal-immunization-schedule"
+      },
+      {
+        "title": "CDC — Guidelines for vaccinating pregnant patients",
+        "url": "https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/"
+      },
+      {
+        "title": "CDC Hear Her — Urgent maternal warning signs",
+        "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+      },
+      {
+        "title": "ACOG — Caffeine during pregnancy",
+        "url": "https://www.acog.org/womens-health/experts-and-stories/ask-acog/how-much-coffee-can-i-drink-while-pregnant"
+      },
+      {
+        "title": "Office on Women’s Health — Pregnancy and medicines",
+        "url": "https://womenshealth.gov/a-z-topics/pregnancy-and-medicines"
+      }
+    ]
   },
   {
     id:'high-risk-pregnancy-assessment',weekIds:['week-3'],topicIds:[],title:'Assessing a high-risk pregnancy',
