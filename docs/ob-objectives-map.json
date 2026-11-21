@@ -1112,6 +1112,18 @@
     "assisted-cesarean-birth",
     "shoulder-dystocia",
     "placental-emergency-response",
-    "other-birth-emergencies"
+    "other-birth-emergencies",
+    "postpartum-physiology",
+    "postpartum-assessment",
+    "postpartum-labs-elimination",
+    "postpartum-comfort-mobility",
+    "postpartum-family-adaptation",
+    "postpartum-discharge",
+    "postpartum-hemorrhage-assessment",
+    "postpartum-hemorrhage-management",
+    "postpartum-subinvolution",
+    "postpartum-infections",
+    "postpartum-thromboembolism",
+    "postpartum-mental-health"
   ]
 }

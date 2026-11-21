@@ -6402,52 +6402,1902 @@ const obStudyObjectives = [
     "answerReviewedOn": "2026-11-21"
   },
   {
-    id:'postpartum-physiology',weekIds:['week-7'],topicIds:['normal-postpartum'],title:'Expected postpartum recovery',
-    text:'Explain uterine involution, lochia progression, afterpains, fluid shifts, and major postpartum body-system changes. Describe how expected findings change over time and distinguish them from findings needing follow-up.',answer:[]
+    "id": "postpartum-physiology",
+    "weekIds": [
+      "week-7"
+    ],
+    "topicIds": [
+      "normal-postpartum"
+    ],
+    "title": "Expected postpartum recovery",
+    "text": "Explain uterine involution, lochia progression, afterpains, fluid shifts, and major postpartum body-system changes. Describe how expected findings change over time and distinguish them from findings needing follow-up.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Expected recovery includes a firm uterus that progressively descends, lochia changing from rubra to serosa to alba, and fluid loss through urine and perspiration.",
+          "Afterpains and early soreness should improve; interpret findings by time since birth, birth route, medications, feeding, and the patient’s baseline.",
+          "Heavy/increasing bleeding, fever, chest symptoms, severe headache, or deterioration needs assessment. A normal-looking recovery timetable never overrides concerning symptoms."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Involution and afterpains: follow the direction of change",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Involution",
+                "text": "The uterus reduces toward its prepregnancy size after placental delivery. The PDFs place it below the umbilicus immediately after birth, near the umbilicus around 12 hours, then descending about 1 cm per day; by roughly 2 weeks it lies in the true pelvis. These are approximate trends."
+              },
+              {
+                "label": "Why contractions matter",
+                "text": "Contracting uterine muscle compresses vessels at the placental site, helping control bleeding. Oxytocin strengthens contractions; breastfeeding stimulates its release."
+              },
+              {
+                "label": "Afterpains",
+                "text": "Cramping may accompany involution and feeding. Assess pain and provide ordered comfort measures; severe, persistent or worsening pain requires assessment rather than an assumption of normal afterpains."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Lochia: compare color, amount, odor and trend",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Expected sequence",
+                "text": "Rubra → serosa → alba: the lecture describes dark-red lochia in the first few days, pinkish discharge around days 3–10, then yellow-white discharge over subsequent weeks. Timing varies; assess the whole pattern."
+              },
+              {
+                "label": "Assess rather than count colors",
+                "text": "Document amount, clots, odor and changes with activity or position. A brief gush on rising may represent pooled blood, but continued or increasing flow needs reassessment."
+              },
+              {
+                "label": "Concerning change",
+                "text": "Rapid pad saturation, large clots, renewed heavy bleeding, foul odor, fever or worsening pelvic pain warrants follow-up. Do not use a supposedly normal lochia stage to dismiss these findings."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Fluid, circulation and breathing: normal shifts versus deterioration",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Fluid removal",
+                "text": "Diuresis and night sweats help remove retained pregnancy fluid. The source emphasizes the first 12–24 hours for increased urine output and early nights of diaphoresis; monitor hydration, edema, bladder function and intake/output."
+              },
+              {
+                "label": "Circulation",
+                "text": "Blood volume and cardiovascular workload readjust over weeks. Pregnancy’s expanded volume can mask early signs of loss; normal BP alone does not rule out hemorrhage."
+              },
+              {
+                "label": "Respiratory findings",
+                "text": "The lecture identifies rising respiratory rate or falling oxygen saturation as abnormal. New breathlessness or chest pain is not routine fluid adjustment and needs urgent assessment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Hormones, breasts and return of fertility",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Hormonal change",
+                "text": "Estrogen and progesterone fall after placental delivery. Prolactin supports milk production; oxytocin supports milk ejection and uterine contraction. Breast fullness or engorgement must be assessed with feeding/latch and inflammation symptoms."
+              },
+              {
+                "label": "Return of cycles",
+                "text": "Return of menstruation varies with feeding and the individual. Ovulation can occur before the first period, so absence of menses does not establish infertility."
+              },
+              {
+                "label": "Safety clarification",
+                "text": "The handout’s long breastfeeding-related delay is not a dependable contraception rule. Lactational amenorrhea requires all criteria; see the discharge objective for the limits."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Perineum, abdomen, pelvic floor and skin",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Healing",
+                "text": "Early perineal/vaginal bruising and edema should improve. The cervix gradually closes, with a more transverse external opening after vaginal birth. The source describes vaginal recovery over weeks and pelvic-floor tone taking up to several months to recover. Inspect the actual wound and symptoms rather than declaring healing by date alone."
+              },
+              {
+                "label": "Abdomen and pelvic support",
+                "text": "Abdominal laxity/diastasis may leave a pregnant appearance initially. Pelvic pressure, persistent incontinence or leakage through the vagina needs assessment; the lecture illustrates prolapse, cystocele, rectocele and fistulas."
+              },
+              {
+                "label": "Skin and neurologic change",
+                "text": "Pregnancy pigmentation and vascular changes may fade; striae can persist. Some pregnancy discomforts improve, but a new or severe headache requires assessment. The lecture identifies hypertension and a postdural-puncture headache after neuraxial anesthesia among possible causes; assess BP, vision and neurologic findings."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Put expected findings in context",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Recovery period",
+                "text": "Puerperium traditionally refers to about 6 weeks after placental delivery; recovery, family adjustment and pregnancy-related complications can extend beyond this interval."
+              },
+              {
+                "label": "Assess the trend",
+                "text": "Compare fundal position/tone, lochia, vital signs, pain, elimination and function with earlier findings. Reassuring recovery means improving symptoms and stable function, not one isolated normal measurement."
+              },
+              {
+                "label": "Safety clarification",
+                "text": "The slides describe temperature rises with lactation, but fever ≥38°C/100.4°F needs clinical assessment, including early postpartum. It should not automatically be attributed to milk coming in."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Postpartum Care & Assessment and the Postpartum Review Handout. Expected recovery is organized from the two PDFs. Brief clarifications qualify approximate timelines, fever, circulatory reassurance and lactational infertility; no universal recovery timetable is imposed.",
+    "answerSources": [
+      {
+        "title": "Original PDF — Postpartum care & assessment",
+        "url": "#/ob-final/presentation/postpartum-care"
+      },
+      {
+        "title": "Original PDF — Postpartum review handout",
+        "url": "#/ob-final/presentation/postpartum-handout"
+      },
+      {
+        "title": "Safety clarification — CDC urgent maternal warning signs",
+        "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+      },
+      {
+        "title": "Timing clarification — MSD postpartum physiology and laboratory changes",
+        "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/postpartum-care-and-associated-disorders/postpartum-care"
+      },
+      {
+        "title": "Contraception clarification — CDC lactational amenorrhea criteria",
+        "url": "https://www.cdc.gov/contraception/hcp/usmec/lactational-amenorrhea-method.html"
+      }
+    ]
   },
   {
-    id:'postpartum-assessment',weekIds:['week-7'],topicIds:['normal-postpartum'],title:'Systematic postpartum assessment',
-    text:'Perform a systematic postpartum assessment using the course’s BUBBLEHE framework. Include vital signs, pain, breasts, fundus, bladder, bowel, lochia, perineum or incision, legs, and emotional status; explain how findings guide care.',answer:[]
+    "id": "postpartum-assessment",
+    "weekIds": [
+      "week-7"
+    ],
+    "topicIds": [
+      "normal-postpartum"
+    ],
+    "title": "Systematic postpartum assessment",
+    "text": "Perform a systematic postpartum assessment using the course’s BUBBLEHE framework. Include vital signs, pain, breasts, fundus, bladder, bowel, lochia, perineum or incision, legs, and emotional status; explain how findings guide care.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Use BUBBLEHE plus vital signs, pain and legs to assess recovery systematically and document trends.",
+          "Prioritize uterine tone/position, bleeding and perfusion, then connect breast, elimination, wound and emotional findings with needed care.",
+          "Escalate abnormal findings and reassess the response. The mnemonic organizes assessment; it does not replace an emergency evaluation."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Start with safety, history and the course mnemonic",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Baseline",
+                "text": "Review time/birth route, blood loss, anesthesia/medications, complications, feeding preferences and current symptoms. Assess vital signs, pain, alertness and overall appearance before working down the checklist."
+              },
+              {
+                "label": "BUBBLEHE",
+                "text": "The course framework covers breasts, uterus, bladder, bowel, lochia, episiotomy/incision, hemorrhoids and emotional status. Include legs and respiratory/perfusion assessment even though they are not separate letters in this version."
+              },
+              {
+                "label": "Individualize",
+                "text": "Explain the examination, obtain permission, protect privacy and use the patient’s preferred support. Look for improvement from the previous assessment and document the action taken when findings change."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Breasts: match assessment with feeding goals",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Look and ask",
+                "text": "Assess fullness, tenderness, skin color/warmth and nipple integrity. Ask about feeding comfort, latch and milk transfer; nipple trauma or persistent pain merits help."
+              },
+              {
+                "label": "Distinguish patterns",
+                "text": "Generalized fullness differs from a focal increasingly red, hot or painful area with systemic symptoms. The latter raises concern for inflammation/mastitis and needs clinical review."
+              },
+              {
+                "label": "Guide care",
+                "text": "Offer feeding support or comfortable suppression care consistent with the patient’s goals. Safety clarification: avoid tight binding or deep breast massage; cold packs and a supportive, nonconstricting bra are preferable for swelling."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Uterus, lochia and perfusion: connect the findings",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Fundus",
+                "text": "Assess and record height, midline position and firm versus boggy tone. Support the lower uterine segment during fundal assessment/massage according to training; avoid forceful downward pressure."
+              },
+              {
+                "label": "Interpretation",
+                "text": "A distended bladder can elevate/displace the uterus and impair contraction. A boggy uterus with increased bleeding suggests atony; bleeding with a firm uterus needs another cause considered, such as trauma."
+              },
+              {
+                "label": "Lochia and action",
+                "text": "Record color, amount, odor and clots; inspect pads/underlying linen and measured blood loss. Heavy bleeding or poor perfusion calls for the hemorrhage response, not completion of the routine checklist first."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Bladder and bowel: assess ability as well as output",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Bladder",
+                "text": "Ask when and how much the patient last voided; check output, distention and symptoms. Decreased bladder sensation can conceal retention after birth/anesthesia."
+              },
+              {
+                "label": "Bowel",
+                "text": "Ask about intake, flatus, bowel activity, constipation and hemorrhoids. Delayed bowel movement can occur; assess significant pain, vomiting or distention separately."
+              },
+              {
+                "label": "Guide care",
+                "text": "Provide privacy, safe assistance, fluids/food as appropriate and ordered stool softeners. Reassess voiding and uterine position after addressing a full bladder; escalate ongoing retention."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Perineum or incision, hemorrhoids and legs",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Wound assessment",
+                "text": "Use REEDA: redness, edema, ecchymosis, drainage and approximation. The source calls for side-lying/Sims positioning for perineal inspection. Assess repair/incision, swelling, pain, drainage and separation."
+              },
+              {
+                "label": "Concealed injury",
+                "text": "Severe pain or asymmetric swelling may indicate a hematoma even if visible lochia is modest. Hemorrhoids may need local comfort care, but worsening pain still requires assessment."
+              },
+              {
+                "label": "Legs and breathing",
+                "text": "Ask about unilateral swelling/pain and chest or respiratory symptoms. Do not use Homan’s sign; concerning findings need prompt assessment rather than repeated dorsiflexion or reassurance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Emotional status, documentation and evaluation",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Ask directly",
+                "text": "Assess mood, anxiety, sleep, coping, support, safety and ability to care for self/baby. Observe interaction without requiring one ideal bonding behavior."
+              },
+              {
+                "label": "Safety clarification",
+                "text": "Requesting nursery help or not showing immediate affection does not by itself diagnose impaired attachment or depression; consider pain, fatigue, culture, trauma and infant illness."
+              },
+              {
+                "label": "Close the loop",
+                "text": "Document findings, communication, interventions and reassessment. Evaluation should show stable perfusion, controlled bleeding and improving comfort/function, with a clear plan for unresolved physical or emotional concerns."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Postpartum Care & Assessment and the Postpartum Review Handout. Uses the course’s BUBBLEHE components without changing the objective wording. Wound, bladder, bleeding and emotional observations are tied to nursing action. Breast-binding/massage and single-behavior bonding assumptions are clarified.",
+    "answerSources": [
+      {
+        "title": "Original PDF — Postpartum care & assessment",
+        "url": "#/ob-final/presentation/postpartum-care"
+      },
+      {
+        "title": "Original PDF — Postpartum review handout",
+        "url": "#/ob-final/presentation/postpartum-handout"
+      },
+      {
+        "title": "Care clarification — NICE postnatal care",
+        "url": "https://www.nice.org.uk/guidance/ng194/chapter/Recommendations"
+      },
+      {
+        "title": "Breast-care clarification — ABM Mastitis Spectrum Protocol 36",
+        "url": "https://doi.org/10.1089/bfm.2022.29207.kbm"
+      },
+      {
+        "title": "Safety clarification — CDC urgent maternal warning signs",
+        "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+      }
+    ]
   },
   {
-    id:'postpartum-labs-elimination',weekIds:['week-7'],topicIds:['normal-postpartum'],title:'Vital signs, labs, and elimination',
-    text:'Interpret postpartum vital signs and laboratory changes in context. Assess urinary retention, diuresis, constipation, and the effect of bladder distention on recovery; choose appropriate nursing interventions and evaluate the response.',answer:[]
+    "id": "postpartum-labs-elimination",
+    "weekIds": [
+      "week-7"
+    ],
+    "topicIds": [
+      "normal-postpartum"
+    ],
+    "title": "Vital signs, labs, and elimination",
+    "text": "Interpret postpartum vital signs and laboratory changes in context. Assess urinary retention, diuresis, constipation, and the effect of bladder distention on recovery; choose appropriate nursing interventions and evaluate the response.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Interpret vital-sign and laboratory trends with symptoms and blood loss; isolated numbers can mislead during postpartum fluid shifts.",
+          "Diuresis can coexist with urinary retention because bladder sensation may be reduced. A full bladder can worsen uterine displacement and bleeding.",
+          "Promote safe voiding and bowel recovery, then evaluate output, comfort and uterine position; report persistent retention, fever or deterioration."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Vital signs: assess the patient behind the number",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Temperature",
+                "text": "The lecture describes early transient changes, but safety clarification is to assess fever ≥38°C/100.4°F rather than dismiss it as dehydration or lactation. Evaluate symptoms, wounds, breasts, urine and lochia."
+              },
+              {
+                "label": "Pulse and BP",
+                "text": "Interpret trends with blood loss, pain, medications and history. Persistent tachycardia or falling BP raises concern for loss/infection; new hypertension or severe headache requires review. Do not wait for hypotension to recognize hemorrhage."
+              },
+              {
+                "label": "Respirations and oxygenation",
+                "text": "The source expects no major normal change in respiratory rate. New tachypnea, low saturation, dyspnea or chest pain needs urgent assessment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "CBC and fluid shifts: avoid false reassurance",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Hemoglobin/hematocrit",
+                "text": "Blood loss and changing plasma volume affect results. A single normal or high Hgb/Hct does not exclude acute hemorrhage; correlate with measured loss, perfusion and repeat tests as ordered."
+              },
+              {
+                "label": "White cells",
+                "text": "Timing clarification: physiological leukocytosis can reach about 20,000–30,000/µL in the first 24 hours. The slide’s shorthand is not a normal range for every postpartum day."
+              },
+              {
+                "label": "Use the context",
+                "text": "White cells alone neither establish nor exclude infection. Fever, local findings and systemic deterioration matter. Pregnancy/birth-associated hypercoagulability and immobility also contribute to thromboembolism risk."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Diuresis versus retention: these are different findings",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Expected shift",
+                "text": "Increased urine output and night sweating help eliminate retained fluid. The lecture links reduced bladder sensation with birth trauma, distention and epidural medication."
+              },
+              {
+                "label": "Retention cues",
+                "text": "Ask about a weak/small void, inability to void, incomplete emptying or suprapubic fullness. Frequent small voids do not prove the bladder is empty; compare with bladder findings and uterine displacement."
+              },
+              {
+                "label": "Why the uterus matters",
+                "text": "An overfull bladder can shift the uterus and interfere with contraction, increasing bleeding. Reassess bladder and fundus together."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Help the patient void and evaluate the result",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Support",
+                "text": "Offer privacy, a comfortable position and safe help to the toilet after evaluating mobility/anesthesia recovery. Measure voids and follow catheter-removal instructions."
+              },
+              {
+                "label": "Escalate",
+                "text": "The course targets voiding within about 6 hours of birth or catheter removal. Inability to void with a palpable/distended bladder needs earlier attention and the local bladder-assessment/catheterization plan; do not wait through painful retention."
+              },
+              {
+                "label": "Evaluate",
+                "text": "Record volume, symptoms and bladder fullness; use ordered bladder scanning/residual assessment when indicated. A successful plan improves emptying, comfort and uterine midline position."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Bowel recovery and constipation",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Expected context",
+                "text": "The first bowel movement may be delayed 2–3 days in the lecture’s description. Reduced intake, discomfort and fear of straining can contribute; assess individual bowel function."
+              },
+              {
+                "label": "Nursing care",
+                "text": "Support fluids, fiber, mobility and ordered stool softeners; address perineal pain/hemorrhoids. After cesarean, follow intake tolerance and orders rather than making a fixed clear-liquid phase universal."
+              },
+              {
+                "label": "Follow up",
+                "text": "Evaluate passage of stool/flatus and relief. Persistent vomiting, marked distention or worsening abdominal pain warrants assessment rather than treatment as simple constipation."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Postpartum Care & Assessment and the Postpartum Review Handout. Source-led vital-sign/lab/elimination review. Clarifications distinguish first-day leukocytosis from later infection assessment, fever from lactation, acute blood-loss trends, and an individualized bladder/diet plan.",
+    "answerSources": [
+      {
+        "title": "Original PDF — Postpartum care & assessment",
+        "url": "#/ob-final/presentation/postpartum-care"
+      },
+      {
+        "title": "Original PDF — Postpartum review handout",
+        "url": "#/ob-final/presentation/postpartum-handout"
+      },
+      {
+        "title": "Safety clarification — CDC urgent maternal warning signs",
+        "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+      },
+      {
+        "title": "Timing clarification — MSD postpartum physiology and laboratory changes",
+        "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/postpartum-care-and-associated-disorders/postpartum-care"
+      },
+      {
+        "title": "Care clarification — NICE postnatal care",
+        "url": "https://www.nice.org.uk/guidance/ng194/chapter/Recommendations"
+      },
+      {
+        "title": "Recovery clarification — NICE cesarean care",
+        "url": "https://www.nice.org.uk/guidance/ng192/chapter/Recommendations"
+      }
+    ]
   },
   {
-    id:'postpartum-comfort-mobility',weekIds:['week-7'],topicIds:['normal-postpartum'],title:'Comfort and physical recovery',
-    text:'Plan nursing care for pain, perineal or incision healing, breast discomfort, mobility, rest, nutrition, and hydration after vaginal or cesarean birth. Explain safety precautions, self-care teaching, and expected outcomes.',answer:[]
+    "id": "postpartum-comfort-mobility",
+    "weekIds": [
+      "week-7"
+    ],
+    "topicIds": [
+      "normal-postpartum"
+    ],
+    "title": "Comfort and physical recovery",
+    "text": "Plan nursing care for pain, perineal or incision healing, breast discomfort, mobility, rest, nutrition, and hydration after vaginal or cesarean birth. Explain safety precautions, self-care teaching, and expected outcomes.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Treat pain while continuing to assess its cause: pain should become manageable and function should improve.",
+          "Combine prescribed medication with perineal/incision care, breast support, safe mobility, rest and elimination support.",
+          "Worsening focal pain, new leg/chest symptoms, fever or wound changes require review; comfort measures must not hide a complication."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Pain: connect location, cause and treatment",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Assess",
+                "text": "Identify location, severity, timing, quality and effects on walking, sleep, feeding and self-care. Compare afterpains with perineal, incisional, breast or headache symptoms."
+              },
+              {
+                "label": "Care",
+                "text": "Give ordered analgesia and reassess response. Medication clarification: acetaminophen and an NSAID are common foundations when appropriate; opioids require sedation/breathing assessment and an individualized feeding-compatible plan."
+              },
+              {
+                "label": "Evaluate",
+                "text": "Check both pain relief and function. Severe or rising pain, especially with bleeding, swelling, fever or neurologic symptoms, needs a cause assessed."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Perineum and hemorrhoids: reduce swelling and protect healing",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Early comfort",
+                "text": "The PDFs describe covered cold packs during the first 24 hours, followed by comfortably warm sitz baths as appropriate. Avoid ice directly on skin or excessively hot water."
+              },
+              {
+                "label": "Local care",
+                "text": "Keep the area clean, change pads, assess repair with REEDA and provide prescribed/local hemorrhoid care. Support fluids, fiber and stool softeners to reduce straining."
+              },
+              {
+                "label": "Safety",
+                "text": "Disproportionate pain or asymmetric swelling may mean hematoma. Persistent redness, drainage, wound opening or fever needs review, not repeated comfort treatment alone."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Cesarean incision and safe movement",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Assess",
+                "text": "Monitor incision approximation, drainage, redness, tenderness and bleeding along with uterine tone/lochia. Surgical birth does not eliminate postpartum uterine bleeding."
+              },
+              {
+                "label": "Move safely",
+                "text": "Assist initial mobility after anesthesia and hemodynamic assessment. Give pain relief before activity when appropriate, support the incision, and use the prescribed thromboprophylaxis plan."
+              },
+              {
+                "label": "Clarification",
+                "text": "The handout’s reference to “sweeping the uterus” describes no routine bedside nursing procedure. Uterine exploration is clinician-led and indication-specific; continue normal recovery assessment and escalate concerns."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Breast discomfort: support the chosen feeding plan",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Assess and support",
+                "text": "Check fullness, nipple injury, latch and focal warmth/redness. Offer a supportive bra and feeding/lactation assistance. Ask the patient’s goals rather than assuming breastfeeding or suppression."
+              },
+              {
+                "label": "Safety clarification",
+                "text": "For inflammation/engorgement, use cold and avoid tight binding, deep massage or forced extra pumping. If breastfeeding, support normal effective feeding rather than routinely “emptying” the breast."
+              },
+              {
+                "label": "Follow up",
+                "text": "Persistent or worsening focal redness/pain, fever or systemic illness needs assessment for mastitis or another cause. Cold packs alone do not treat bacterial infection."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Rest, food, hydration and pelvic-floor recovery",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Support function",
+                "text": "Plan rest and help with infant care, comfortable feeding positions, food and hydration appropriate to recovery. Assess barriers such as nausea, pain, fatigue or lack of help."
+              },
+              {
+                "label": "Pelvic-floor care",
+                "text": "The source describes Kegel exercises for gradual recovery and notes that tone can take months to return. Practice with an empty bladder, not by repeatedly stopping urine flow; follow individualized guidance for healing/pelvic-floor symptoms."
+              },
+              {
+                "label": "Evaluate",
+                "text": "Look for tolerable pain, safe walking, adequate intake, improving elimination and workable support. Persistent pelvic pressure, incontinence or suspected fistula symptoms require referral."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Postpartum Care & Assessment and the Postpartum Review Handout. Builds comfort and function care from the PDFs. Short safety clarifications address analgesic monitoring, breast binding/deep massage, routine urine interruption, diet/mobility individualization and the handout’s misleading uterine-sweeping phrase.",
+    "answerSources": [
+      {
+        "title": "Original PDF — Postpartum care & assessment",
+        "url": "#/ob-final/presentation/postpartum-care"
+      },
+      {
+        "title": "Original PDF — Postpartum review handout",
+        "url": "#/ob-final/presentation/postpartum-handout"
+      },
+      {
+        "title": "Pain-care clarification — ACOG postpartum pain management",
+        "url": "https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2021/09/pharmacologic-stepwise-multimodal-approach-for-postpartum-pain-management"
+      },
+      {
+        "title": "Breast-care clarification — ABM Mastitis Spectrum Protocol 36",
+        "url": "https://doi.org/10.1089/bfm.2022.29207.kbm"
+      },
+      {
+        "title": "Recovery clarification — NICE cesarean care",
+        "url": "https://www.nice.org.uk/guidance/ng192/chapter/Recommendations"
+      },
+      {
+        "title": "Care clarification — NICE postnatal care",
+        "url": "https://www.nice.org.uk/guidance/ng194/chapter/Recommendations"
+      },
+      {
+        "title": "Pelvic-floor clarification — NHS exercises after childbirth",
+        "url": "https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/advice-and-exercise-following-childbirth"
+      }
+    ]
   },
   {
-    id:'postpartum-family-adaptation',weekIds:['week-7'],topicIds:['normal-postpartum'],title:'Attachment and family adaptation',
-    text:'Describe maternal role adaptation, attachment, and family adjustment after birth. Assess coping, support, and barriers to bonding, and explain how the nurse supports individualized recovery and infant care.',answer:[]
+    "id": "postpartum-family-adaptation",
+    "weekIds": [
+      "week-7"
+    ],
+    "topicIds": [
+      "normal-postpartum"
+    ],
+    "title": "Attachment and family adaptation",
+    "text": "Describe maternal role adaptation, attachment, and family adjustment after birth. Assess coping, support, and barriers to bonding, and explain how the nurse supports individualized recovery and infant care.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "The lecture describes taking-in, taking-hold and letting-go, along with gradual development of a parental identity.",
+          "Assess coping, expectations, birth experience, infant health and available support rather than judging attachment from one behavior.",
+          "Support the whole family with practical teaching and help; persistent distress or impaired safety/function requires follow-up."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Rubin’s phases: use them as a framework",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Taking-in",
+                "text": "Early recovery may involve dependence on others, rest and retelling the birth. Meet physical needs and listen to the birth story without withholding participation or teaching the patient wants."
+              },
+              {
+                "label": "Taking-hold",
+                "text": "Interest in care and growing independence may coexist with uncertainty. Offer demonstrations, guided practice and encouragement."
+              },
+              {
+                "label": "Letting-go",
+                "text": "The family reorganizes relationships and expectations around the new baby. These stages describe possible patterns, not a mandatory sequence or a parenting score."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Becoming a parent and partner adjustment",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Maternal identity",
+                "text": "The source describes commitment/attachment in pregnancy, learning baby care and physical restoration, movement toward a new normal, and a developing parental identity over months. Adjustment continues beyond hospital discharge."
+              },
+              {
+                "label": "Partner adaptation",
+                "text": "The lecture’s engrossment includes interest in looking at, touching and learning the baby’s features; its role phases move from expectations to reality and mastery. Include the chosen partner/support people and avoid assuming one family structure."
+              },
+              {
+                "label": "Family changes",
+                "text": "Ask how siblings and extended family are adjusting, who will help, and how responsibilities and rest will be shared."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Assess attachment and the barriers around it",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Observe with context",
+                "text": "Observe communication, touch, responsiveness and participation while considering pain, fatigue, culture, traumatic birth, separation and infant illness. There is no single required display of bonding."
+              },
+              {
+                "label": "Risk and support",
+                "text": "The PDFs list confidence, prior relationships, mental health, finances/housing, partner support, stress and infant health as influences. Ask what is difficult rather than treating a risk factor as a diagnosis."
+              },
+              {
+                "label": "Clarification",
+                "text": "Wanting nursery help, limited eye contact or delayed enthusiasm does not alone establish poor attachment. Assess needs and offer support before drawing conclusions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Nursing support and evaluation",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Intervene",
+                "text": "Use brief teaching with demonstration/return demonstration. Invite the patient/support person to practice safe feeding and routine care; support contact and communication when parent/baby separation occurs."
+              },
+              {
+                "label": "Mobilize help",
+                "text": "Identify family/community and professional supports for practical care, feeding, finances and emotional health. Ask who will help after discharge and address gaps."
+              },
+              {
+                "label": "Evaluate",
+                "text": "Assess confidence, coping, safe participation and realistic support arrangements. Persistent anxiety/depression, inability to function or safety concerns requires referral; use the mental-health objective for urgency distinctions."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Postpartum Care & Assessment and the Postpartum Review Handout. Preserves the lecture’s adaptation frameworks and family factors while clarifying that stage timing and immediate bonding behavior are not diagnostic tests.",
+    "answerSources": [
+      {
+        "title": "Original PDF — Postpartum care & assessment",
+        "url": "#/ob-final/presentation/postpartum-care"
+      },
+      {
+        "title": "Original PDF — Postpartum review handout",
+        "url": "#/ob-final/presentation/postpartum-handout"
+      },
+      {
+        "title": "Care clarification — NICE postnatal care",
+        "url": "https://www.nice.org.uk/guidance/ng194/chapter/Recommendations"
+      },
+      {
+        "title": "Screening clarification — ACOG perinatal mental health",
+        "url": "https://www.acog.org/programs/perinatal-mental-health/patient-screening"
+      }
+    ]
   },
   {
-    id:'postpartum-discharge',weekIds:['week-7'],topicIds:['normal-postpartum'],title:'Discharge teaching and follow-up',
-    text:'Develop postpartum teaching about self-care, activity, nutrition, follow-up, warning signs, immunizations or Rh prophylaxis when indicated, and reproductive planning. Explain how you would confirm understanding and readiness for discharge.',answer:[]
+    "id": "postpartum-discharge",
+    "weekIds": [
+      "week-7"
+    ],
+    "topicIds": [
+      "normal-postpartum"
+    ],
+    "title": "Discharge teaching and follow-up",
+    "text": "Develop postpartum teaching about self-care, activity, nutrition, follow-up, warning signs, immunizations or Rh prophylaxis when indicated, and reproductive planning. Explain how you would confirm understanding and readiness for discharge.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Discharge teaching covers self-care, feeding, medicines, activity, follow-up and warning signs, adapted to the birth and complications.",
+          "Verify MMR/rubella immunity, Rh prophylaxis when indicated and contraception planning; pregnancy can occur before menses returns.",
+          "Use teach-back and return demonstration to confirm a safe plan, support at home and a clear route to urgent help."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Check readiness and teach self-care",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Physical readiness",
+                "text": "Review bleeding, pain, wound/perineum, voiding, intake, mobility and any unresolved complication. Confirm the patient can use the recovery plan and knows whom to contact."
+              },
+              {
+                "label": "Practical teaching",
+                "text": "Review medications as prescribed, incision/perineal hygiene, pads/lochia, bowel care, food/fluids, rest and gradual activity. Include feeding goals and the ability to handle the baby safely."
+              },
+              {
+                "label": "Individualize activity",
+                "text": "The PDFs mention pelvic rest for 6 weeks; frame this as the course instruction with individual obstetric guidance for wound recovery, symptoms and resuming sex/activity. Do not treat one date as proof of healing."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Warning signs: make the action clear",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Urgent physical symptoms",
+                "text": "Heavy/increasing bleeding, chest pain, trouble breathing, fainting, severe headache/visual change or severe abdominal pain needs urgent assessment. Include a unilateral painful/swollen leg and fever ≥38°C/100.4°F."
+              },
+              {
+                "label": "Local changes",
+                "text": "Teach reporting of foul lochia, increasing wound redness/drainage/opening, worsening pelvic/perineal pain, breast inflammation/systemic symptoms, or inability to void."
+              },
+              {
+                "label": "Safety and timing",
+                "text": "Psychosis or an immediate risk of harm needs emergency help and protection of parent/baby. Do not wait for the scheduled postpartum visit when concerning symptoms occur; risks can extend beyond 6 weeks."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Rubella/MMR and Rh prophylaxis: different purposes",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "MMR",
+                "text": "Review immunity and arrange postpartum vaccination when indicated. Breastfeeding is compatible with MMR; counsel avoiding pregnancy for 28 days afterward. The lecture’s egg-allergy/shedding wording is not a routine reason to withhold it; screen actual contraindications."
+              },
+              {
+                "label": "Rh immune globulin",
+                "text": "For an unsensitized Rh-negative patient with an Rh-positive infant, verify postpartum Rh immune globulin, ideally within 72 hours, and the ordered fetomaternal-hemorrhage/dose assessment. It prevents sensitization; it does not treat established antibodies."
+              },
+              {
+                "label": "Close the loop",
+                "text": "Confirm tests, administration/documentation and follow-up rather than assuming prenatal prophylaxis covers the postpartum indication."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Fertility and contraception: correct the long-delay assumption",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Pregnancy can precede a period",
+                "text": "Ovulation may occur before menstruation resumes. Review reproductive goals, breastfeeding and an appropriate contraceptive plan; do not rely on the handout’s long average delay."
+              },
+              {
+                "label": "LAM clarification",
+                "text": "All criteria must be met: amenorrhea, fully/nearly fully breastfeeding and <6 months postpartum. CDC also limits feeding intervals to no more than 4 hours by day/6 hours at night; use another method when criteria stop being met."
+              },
+              {
+                "label": "Planning",
+                "text": "Discuss method access and follow-up. Sterilization consent rules depend on jurisdiction/funding and circumstances; the handout’s 30-day statement is not a universal rule for all patients."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Follow-up, support and teach-back",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Follow-up clarification",
+                "text": "ACOG recommends postpartum contact within 3 weeks and comprehensive care by 12 weeks, with earlier/ongoing review for individual needs such as BP, wounds, mood or complications."
+              },
+              {
+                "label": "Teach-back",
+                "text": "Ask the patient to explain warning signs, contact numbers/routes, medication use, feeding and follow-up; use a return demonstration where appropriate. Address language, transport, cost and support barriers."
+              },
+              {
+                "label": "Evaluation",
+                "text": "A ready discharge plan has understanding, practical support and arranged follow-up, not simply a completed teaching checklist. Document unanswered concerns and the plan to resolve them."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Postpartum Care & Assessment and the Postpartum Review Handout. Uses the source’s self-care/prevention teaching with labeled clarifications for fever/urgency, postpartum follow-up, MMR, nonsensitized Rh eligibility, LAM and non-universal restrictions/sterilization rules.",
+    "answerSources": [
+      {
+        "title": "Original PDF — Postpartum care & assessment",
+        "url": "#/ob-final/presentation/postpartum-care"
+      },
+      {
+        "title": "Original PDF — Postpartum review handout",
+        "url": "#/ob-final/presentation/postpartum-handout"
+      },
+      {
+        "title": "Safety clarification — CDC urgent maternal warning signs",
+        "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+      },
+      {
+        "title": "Follow-up clarification — ACOG optimizing postpartum care",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2018/05/optimizing-postpartum-care"
+      },
+      {
+        "title": "Prevention clarification — ACOG Rh factor and immune globulin",
+        "url": "https://www.acog.org/womens-health/faqs/the-rh-factor-how-it-can-affect-your-pregnancy"
+      },
+      {
+        "title": "Vaccine clarification — CDC pregnancy and postpartum vaccination",
+        "url": "https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/index.html"
+      },
+      {
+        "title": "Vaccine clarification — CDC rubella recommendations",
+        "url": "https://www.cdc.gov/rubella/hcp/vaccine-considerations/"
+      },
+      {
+        "title": "Contraception clarification — CDC lactational amenorrhea criteria",
+        "url": "https://www.cdc.gov/contraception/hcp/usmec/lactational-amenorrhea-method.html"
+      },
+      {
+        "title": "Vaccine clarification — CDC MMR and egg allergy",
+        "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/measles-rubeola.html"
+      }
+    ]
   },
   {
-    id:'postpartum-hemorrhage-assessment',weekIds:['week-7'],topicIds:['postpartum-complications'],title:'Recognize postpartum hemorrhage',
-    text:'Identify risk factors, assessment cues, and causes of postpartum hemorrhage. Compare uterine atony, retained tissue, genital tract trauma or hematoma, and coagulation problems using uterine tone, bleeding, pain, and hemodynamic findings.',answer:[]
+    "id": "postpartum-hemorrhage-assessment",
+    "weekIds": [
+      "week-7"
+    ],
+    "topicIds": [
+      "postpartum-complications"
+    ],
+    "title": "Recognize postpartum hemorrhage",
+    "text": "Identify risk factors, assessment cues, and causes of postpartum hemorrhage. Compare uterine atony, retained tissue, genital tract trauma or hematoma, and coagulation problems using uterine tone, bleeding, pain, and hemodynamic findings.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Recognize hemorrhage from bleeding plus uterine tone, pain and perfusion; visible loss can underestimate severity.",
+          "Compare atony, trauma/hematoma, retained tissue and coagulation problems, because treatment depends on the cause.",
+          "Call for help when bleeding or the patient’s condition is concerning. Do not wait for a volume threshold or low BP before acting."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Definition, timing and risk recognition",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Definition clarification",
+                "text": "The PDFs use traditional >500 mL vaginal/>1000 mL cesarean thresholds. ACOG defines early maternal hemorrhage as cumulative loss ≥1000 mL or bleeding with hypovolemia within 24 hours, regardless of birth route. This is not a threshold for delaying treatment."
+              },
+              {
+                "label": "Risk cues",
+                "text": "The source lists atony, infection, retained placenta/tissue and grand multiparity. Connect these with the birth history, uterine overdistention, trauma/operative birth and prior bleeding concerns."
+              },
+              {
+                "label": "Keep reassessing",
+                "text": "Risk can change during recovery and hemorrhage can occur without an identified risk. Look at ongoing loss, tone, symptoms and physiologic response."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Atony: a poorly contracted uterus",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Key cue",
+                "text": "Boggy uterine tone with increased bleeding suggests atony; contraction is needed to compress placental-site vessels. Assess position and bladder distention."
+              },
+              {
+                "label": "Contributors",
+                "text": "A full bladder, retained tissue, infection and overdistention can interfere with effective contraction. Atony is a finding that still needs its contributing cause assessed."
+              },
+              {
+                "label": "Priority",
+                "text": "Assess and summon help while starting the trained atony response; do not leave a bleeding patient alone to fetch supplies. Reassess whether tone and bleeding improve."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Trauma and hematoma: the uterus may be firm",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Laceration cue",
+                "text": "Continued bleeding despite a firm uterus suggests genital-tract trauma or another non-atony cause. Prepare for clinician examination/repair rather than repeatedly treating tone alone."
+              },
+              {
+                "label": "Hematoma cue",
+                "text": "Severe localized pain, pressure, asymmetric swelling or worsening perfusion may indicate concealed blood in a hematoma. Small visible lochia does not exclude substantial concealed bleeding."
+              },
+              {
+                "label": "Nursing assessment",
+                "text": "Inspect accessible wounds/perineum with privacy and consent, quantify visible loss, assess vital signs/pain and report change promptly. Avoid manipulating a suspected hematoma."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Retained tissue, inversion and coagulation problems",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Tissue",
+                "text": "Retained placental fragments may keep the uterus from contracting well or cause later subinvolution/bleeding. Report persistent loss and the placenta/birth history; removal is clinician-led."
+              },
+              {
+                "label": "Inversion",
+                "text": "A missing expected abdominal fundus or vaginal mass with pain/bleeding/shock needs urgent assessment. Inversion is not ordinary atony; the Week 6 emergency notes explain replacement/resuscitation priorities."
+              },
+              {
+                "label": "Coagulation",
+                "text": "Diffuse bleeding or oozing from puncture sites raises concern for coagulopathy/DIC. Prepare ordered blood/coagulation studies and blood-product support; check both the cause and consequences of hemorrhage."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Quantify loss and recognize shock early",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Quantification clarification",
+                "text": "Measure collected loss and weigh soaked items after subtracting dry weight; account for other fluids. 1 g of added weight is approximately 1 mL of blood—the slide’s “500 mL = 454 g” is not the conversion to use."
+              },
+              {
+                "label": "Perfusion cues",
+                "text": "Trend pulse, BP, respiratory rate, saturation, mental status, skin/peripheral perfusion and urine output. Tachycardia, pallor, dizziness, weakness or restlessness may precede hypotension."
+              },
+              {
+                "label": "Interpret together",
+                "text": "Normal BP or an early normal Hgb does not rule out hemorrhage. Communicate cumulative loss and trajectory; a pad count is an alert cue, not an exact volume measurement."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Postpartum Care & Assessment and the Postpartum Review Handout. Compares the source’s bleeding causes using bedside clues. Definitions/QBL are clarified, and inversion/coagulation patterns are connected to the already supplied emergency framework. No fictional case or universal volume-only trigger is created.",
+    "answerSources": [
+      {
+        "title": "Original PDF — Postpartum care & assessment",
+        "url": "#/ob-final/presentation/postpartum-care"
+      },
+      {
+        "title": "Original PDF — Postpartum review handout",
+        "url": "#/ob-final/presentation/postpartum-handout"
+      },
+      {
+        "title": "Definition clarification — ACOG postpartum hemorrhage",
+        "url": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2017/10/postpartum-hemorrhage"
+      },
+      {
+        "title": "Measurement clarification — ACOG quantitative blood loss",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/12/quantitative-blood-loss-in-obstetric-hemorrhage"
+      },
+      {
+        "title": "Response/medication clarification — CMQCC obstetric hemorrhage toolkit",
+        "url": "https://www.cmqcc.org/toolkits-quality-improvement/hemorrhage"
+      }
+    ]
   },
   {
-    id:'postpartum-hemorrhage-management',weekIds:['week-7'],topicIds:['postpartum-complications'],title:'Respond to hemorrhage and shock',
-    text:'Explain the first nursing action and coordinated response to postpartum hemorrhage or shock. Include cause-directed interventions, quantified blood loss, fluids or blood products, prescribed uterotonics and their precautions, reassessment, and escalation.',answer:[]
+    "id": "postpartum-hemorrhage-management",
+    "weekIds": [
+      "week-7"
+    ],
+    "topicIds": [
+      "postpartum-complications"
+    ],
+    "title": "Respond to hemorrhage and shock",
+    "text": "Explain the first nursing action and coordinated response to postpartum hemorrhage or shock. Include cause-directed interventions, quantified blood loss, fluids or blood products, prescribed uterotonics and their precautions, reassessment, and escalation.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "For heavy bleeding or shock cues, summon the hemorrhage team and assess tone/perfusion immediately, with interventions occurring in parallel.",
+          "For a boggy uterus, begin trained massage and ordered uterotonic care while addressing bladder/cause; a firm uterus with bleeding needs trauma/tissue/coagulation assessment.",
+          "Trend blood loss and the patient’s response continuously; escalate persistent bleeding, restore perfusion and prepare cause-directed treatment."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "First response: call, assess and act together",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Immediate priority",
+                "text": "Activate the obstetric hemorrhage response and stay with the patient. Assess uterine tone, bleeding and perfusion while directing team help, monitoring and needed supplies."
+              },
+              {
+                "label": "Boggy versus firm",
+                "text": "For a boggy uterus, perform trained fundal massage with lower-segment support and help address bladder distention. Continued bleeding with a firm uterus needs prompt clinician assessment for other causes."
+              },
+              {
+                "label": "Safety clarification",
+                "text": "Do not apply routine atony massage to suspected inversion or assume “uterine sweeping” is nursing care. Urgent specialist correction and resuscitation may be needed."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Restore perfusion and prepare the team’s treatment",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Support circulation",
+                "text": "Assist with IV access, ordered fluids/blood products, oxygen for hypoxia/clinical indication and urgent laboratory sampling. Keep the patient warm and prepare definitive treatment in parallel."
+              },
+              {
+                "label": "Monitor",
+                "text": "Track cumulative measured loss, vital-sign/perfusion trends, alertness and urine output; prepare ordered CBC, coagulation/fibrinogen and blood-bank specimens. Clinical deterioration takes priority over an initially reassuring lab result."
+              },
+              {
+                "label": "Escalate",
+                "text": "Persistent bleeding or shock needs the local staged/massive-transfusion response and rapid cause control. No fixed fluid volume or transfusion ratio is prescribed by these source notes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Uterotonics: purpose and the key safety checks",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Oxytocin",
+                "text": "The PDFs name oxytocin/Pitocin to promote uterine contraction. Administer through the actual order/protocol and reassess tone, bleeding and maternal status; do not invent an IV-push regimen."
+              },
+              {
+                "label": "Methylergonovine safety clarification",
+                "text": "The handout names this drug; avoid methylergonovine with hypertension/preeclampsia and check BP and the order before use."
+              },
+              {
+                "label": "Carboprost safety clarification",
+                "text": "The handout also names carboprost; avoid carboprost in asthma and assess the individual contraindications. Medication choice depends on the patient as well as the bleeding."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Treat the cause and continue escalation",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Cause-directed care",
+                "text": "Support clinician-led repair of lacerations, assessment/removal of retained tissue, inversion correction or coagulation support as indicated. Improving uterine tone alone is not adequate if bleeding continues."
+              },
+              {
+                "label": "Response clarification",
+                "text": "Contemporary hemorrhage guidance pairs uterotonic care with early resuscitation/cause assessment. Ordered tranexamic acid is an antifibrinolytic, not a uterotonic; WHO recommends early use within 3 hours of birth for PPH."
+              },
+              {
+                "label": "Prepare definitive measures",
+                "text": "If first-line care fails, prepare the obstetric team’s procedural/operative plan and transfer/handoff. Advanced techniques and drug doses are not supplied as a new bedside protocol here."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Evaluate, document and support recovery",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Evaluate response",
+                "text": "Look for decreasing bleeding and improving perfusion, appropriate uterine tone and urine output, and stabilizing observations/laboratory trends. Reassess after every intervention and again after apparent control."
+              },
+              {
+                "label": "Document clearly",
+                "text": "Record cumulative loss, findings, activation/escalation times, drugs/fluids/products, clinician response and reassessment. Communicate any persistent concerns during handoff."
+              },
+              {
+                "label": "Support the family",
+                "text": "Explain briefly during the emergency and debrief afterward. Address pain, anemia/fatigue, feeding/separation, emotional needs, follow-up and warning signs after discharge."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Postpartum Care & Assessment and the Postpartum Review Handout. Builds the source’s early-recognition/massage/uterotonic approach into a nursing response. Brief labeled response and drug-safety clarifications supply essential contraindication/urgent-care context absent from the slides; no new dose, transfusion or surgical protocol is authored.",
+    "answerSources": [
+      {
+        "title": "Original PDF — Postpartum care & assessment",
+        "url": "#/ob-final/presentation/postpartum-care"
+      },
+      {
+        "title": "Original PDF — Postpartum review handout",
+        "url": "#/ob-final/presentation/postpartum-handout"
+      },
+      {
+        "title": "Response/medication clarification — CMQCC obstetric hemorrhage toolkit",
+        "url": "https://www.cmqcc.org/toolkits-quality-improvement/hemorrhage"
+      },
+      {
+        "title": "Response clarification — WHO postpartum hemorrhage guideline",
+        "url": "https://www.who.int/publications/i/item/9789240115637"
+      },
+      {
+        "title": "Measurement clarification — ACOG quantitative blood loss",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/12/quantitative-blood-loss-in-obstetric-hemorrhage"
+      }
+    ]
   },
   {
-    id:'postpartum-subinvolution',weekIds:['week-7'],topicIds:['postpartum-complications'],title:'Subinvolution and delayed bleeding',
-    text:'Recognize a concerning pattern of delayed uterine involution or recurrent bleeding. Explain assessment for possible causes, collaborative management, nursing interventions, and discharge teaching about when to seek urgent care.',answer:[]
+    "id": "postpartum-subinvolution",
+    "weekIds": [
+      "week-7"
+    ],
+    "topicIds": [
+      "postpartum-complications"
+    ],
+    "title": "Subinvolution and delayed bleeding",
+    "text": "Recognize a concerning pattern of delayed uterine involution or recurrent bleeding. Explain assessment for possible causes, collaborative management, nursing interventions, and discharge teaching about when to seek urgent care.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Subinvolution means the uterus fails to regress as expected after birth and can present with delayed or recurrent bleeding.",
+          "The PDFs identify retained placental fragments and pelvic infection as important possible causes.",
+          "Assess bleeding, uterine trend and maternal condition, seek prompt review and teach when recurrent bleeding becomes urgent."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Recognize a pattern of delayed recovery",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Expected comparison",
+                "text": "Use the normal pattern of progressive fundal descent and lessening lochia as the reference. Subinvolution is delayed regression; it differs from sudden immediate atony but both may cause hemorrhage."
+              },
+              {
+                "label": "Concerning findings",
+                "text": "A uterus not descending as expected with persistent/recurrent bleeding needs assessment. Ask about the amount/trajectory of bleeding, clots, pain, odor and fever."
+              },
+              {
+                "label": "Avoid a calendar-only judgment",
+                "text": "One fundal measurement or lochia color is insufficient. Compare earlier findings and consider bladder distention, birth history and symptoms."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Assess the cause and support collaborative care",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Source causes",
+                "text": "Retained tissue can impair contraction/involution; infection can delay recovery and cause pain or foul lochia. The source does not provide a complete diagnostic algorithm."
+              },
+              {
+                "label": "Nursing priorities",
+                "text": "Assess perfusion and bleeding severity first, then document uterine findings, temperature, pain, urine/bladder function and relevant delivery/placental history."
+              },
+              {
+                "label": "Collaborative management",
+                "text": "Notify the clinician; prepare ordered investigations and treatment of retained tissue/infection, with uterotonic or antibiotic care as prescribed. Heavy bleeding/shock triggers the hemorrhage response rather than routine outpatient review."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Evaluate treatment and teach return precautions",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Evaluate",
+                "text": "Follow bleeding, fundal trend, pain/temperature and general function. Improvement means the concerning pattern is resolving, not just that one episode of bleeding stopped."
+              },
+              {
+                "label": "Teach",
+                "text": "Explain expected lochia progression and the need to report recurrent/increasing bleeding, large clots, foul discharge, fever or increasing pelvic pain."
+              },
+              {
+                "label": "Urgency",
+                "text": "Heavy bleeding, faintness or other poor-perfusion symptoms needs urgent help. Confirm treatment adherence and planned follow-up; do not wait for the routine postpartum appointment if symptoms recur."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Postpartum Care & Assessment and the Postpartum Review Handout. Follows the PDFs’ brief definition and retained-tissue/infection causes. Recognition, prioritization, treatment preparation and evaluation are explained without inventing a diagnostic or medication regimen.",
+    "answerSources": [
+      {
+        "title": "Original PDF — Postpartum care & assessment",
+        "url": "#/ob-final/presentation/postpartum-care"
+      },
+      {
+        "title": "Original PDF — Postpartum review handout",
+        "url": "#/ob-final/presentation/postpartum-handout"
+      },
+      {
+        "title": "Care clarification — NICE postnatal care",
+        "url": "https://www.nice.org.uk/guidance/ng194/chapter/Recommendations"
+      },
+      {
+        "title": "Safety clarification — CDC urgent maternal warning signs",
+        "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+      }
+    ]
   },
   {
-    id:'postpartum-infections',weekIds:['week-7'],topicIds:['postpartum-complications'],title:'Postpartum infections',
-    text:'Compare endometritis, wound or urinary infection, and mastitis by risk factors, local and systemic findings, and nursing assessment. Explain prescribed treatment, supportive care, feeding considerations, and signs requiring urgent escalation.',answer:[]
+    "id": "postpartum-infections",
+    "weekIds": [
+      "week-7"
+    ],
+    "topicIds": [
+      "postpartum-complications"
+    ],
+    "title": "Postpartum infections",
+    "text": "Compare endometritis, wound or urinary infection, and mastitis by risk factors, local and systemic findings, and nursing assessment. Explain prescribed treatment, supportive care, feeding considerations, and signs requiring urgent escalation.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Compare uterine, wound, urinary and breast findings rather than treating every postpartum fever as one condition.",
+          "Assess local symptoms plus temperature, perfusion and function; fever or systemic deterioration is not normal lactation.",
+          "Give ordered treatment and supportive care, reassess, and activate urgent sepsis care when organ dysfunction or shock is suspected."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Endometritis: think uterine infection",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Source connection",
+                "text": "The lecture lists endometritis and connects retained fragments/pelvic infection with subinvolution. Risk assessment includes birth/operative history, membrane/infection history and retained-tissue concerns."
+              },
+              {
+                "label": "Clinical clarification",
+                "text": "Fever with uterine/pelvic tenderness or foul-smelling lochia raises concern for endometritis. Assess bleeding, involution and maternal condition; not every symptom must be present."
+              },
+              {
+                "label": "Nursing care",
+                "text": "Notify the clinician, obtain ordered specimens and give prescribed antibiotics/support. Reassess temperature, pain, lochia and perfusion; retained tissue or another source may require additional treatment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Perineal or incision infection: inspect the wound",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Assess",
+                "text": "Use REEDA and ask about increasing wound pain, redness, drainage or separation. Differentiate expected improving bruising/soreness from a worsening pattern."
+              },
+              {
+                "label": "Care",
+                "text": "Use appropriate hygiene/dressing care, pain relief and prescribed treatment. Prepare wound evaluation/cultures when ordered; report deep pain, spreading changes or systemic symptoms."
+              },
+              {
+                "label": "Evaluate",
+                "text": "Look for improving local findings and function. Continued drainage, wound breakdown, fever or deterioration needs reassessment rather than automatic continuation of routine self-care."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Urinary infection: separate dysuria from retention",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Assess",
+                "text": "Ask about dysuria, urgency/frequency, suprapubic discomfort and incomplete emptying; review catheter/voiding history. Fever with flank pain or systemic illness needs prompt assessment."
+              },
+              {
+                "label": "Care",
+                "text": "Measure output and assess distention; collect ordered urine studies and give prescribed antibiotics/support. Clean collection technique matters because postpartum discharge can contaminate a sample."
+              },
+              {
+                "label": "Evaluate",
+                "text": "Follow pain, fever, voiding and general condition. Persistent symptoms may reflect retention or another complication as well as infection."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Mastitis: inflammation is not always bacterial infection",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Recognize",
+                "text": "A focal painful, warm/red area with systemic symptoms warrants assessment; evaluate latch/feeding pattern, nipple injury and excessive milk removal."
+              },
+              {
+                "label": "Breast-care clarification",
+                "text": "Support normal breastfeeding/milk removal as tolerated, cold and appropriate analgesia. Avoid deep massage, tight binding or repeated extra pumping to empty the breast; antibiotics are prescribed for bacterial mastitis when indicated."
+              },
+              {
+                "label": "Reassess",
+                "text": "Persistent focal swelling, worsening illness or poor response needs clinician review for abscess/other pathology. Most mastitis does not require stopping breastfeeding; confirm the medication and individual feeding plan."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Systemic deterioration: recognize sepsis and act",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Definition/safety clarification",
+                "text": "The source lists puerperal infection; sepsis means infection with life-threatening organ dysfunction, not simply a site infection within a fixed 28-day window. It can occur without fever."
+              },
+              {
+                "label": "Urgent response",
+                "text": "Escalate suspected sepsis immediately. Support monitoring, ordered cultures/lactate, prompt antibiotics, perfusion support and source control; do not delay necessary antibiotics for specimens."
+              },
+              {
+                "label": "Evaluate",
+                "text": "Follow mental status, breathing/oxygenation, circulation, urine output and response to treatment. Failure to improve needs renewed assessment/escalation, including after discharge."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Postpartum Care & Assessment and the Postpartum Review Handout. The PDFs name the infection types but do not give complete diagnosis/treatment pathways. Brief clinical/safety clarifications explain local cue differences, normal feeding/mastitis care and sepsis urgency; actual antibiotics and source-control decisions remain prescribed.",
+    "answerSources": [
+      {
+        "title": "Original PDF — Postpartum care & assessment",
+        "url": "#/ob-final/presentation/postpartum-care"
+      },
+      {
+        "title": "Original PDF — Postpartum review handout",
+        "url": "#/ob-final/presentation/postpartum-handout"
+      },
+      {
+        "title": "Care clarification — NICE postnatal care",
+        "url": "https://www.nice.org.uk/guidance/ng194/chapter/Recommendations"
+      },
+      {
+        "title": "Breast-care clarification — ABM Mastitis Spectrum Protocol 36",
+        "url": "https://doi.org/10.1089/bfm.2022.29207.kbm"
+      },
+      {
+        "title": "Safety clarification — SMFM maternal sepsis",
+        "url": "https://publications.smfm.org/publications/507-society-for-maternal-fetal-medicine-consult-series-67/"
+      },
+      {
+        "title": "Safety clarification — CDC urgent maternal warning signs",
+        "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+      }
+    ]
   },
   {
-    id:'postpartum-thromboembolism',weekIds:['week-7'],topicIds:['postpartum-complications'],title:'Thromboembolism and urgent warning signs',
-    text:'Identify postpartum thromboembolism risks and distinguish concerning leg findings from symptoms of a possible pulmonary emergency. Explain prevention, immediate nursing priorities, safe care, and patient teaching.',answer:[]
+    "id": "postpartum-thromboembolism",
+    "weekIds": [
+      "week-7"
+    ],
+    "topicIds": [
+      "postpartum-complications"
+    ],
+    "title": "Thromboembolism and urgent warning signs",
+    "text": "Identify postpartum thromboembolism risks and distinguish concerning leg findings from symptoms of a possible pulmonary emergency. Explain prevention, immediate nursing priorities, safe care, and patient teaching.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "The source links hypercoagulability, vessel injury and immobility with postpartum clot risk.",
+          "Unilateral leg pain/swelling needs assessment; sudden breathlessness, chest pain or collapse may indicate a pulmonary emergency.",
+          "Use safe mobility and ordered prophylaxis; suspected DVT/PE requires urgent evaluation, not Homan’s sign or an assumption of normal edema."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Understand the risk and prevent avoidable immobility",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Source mechanism",
+                "text": "Pregnancy/birth increases clotting tendency, tissue/vessel injury occurs, and reduced movement promotes stasis. Review operative birth, illness, mobility and personal clot history with the team."
+              },
+              {
+                "label": "Prevention",
+                "text": "Encourage safe early mobility when stable, hydration appropriate to the patient and the prescribed prophylaxis plan. Assess anesthesia recovery and bleeding/fall risk before ambulation."
+              },
+              {
+                "label": "Cesarean clarification",
+                "text": "SMFM recommends sequential compression devices before cesarean and until fully ambulatory. Pharmacologic prophylaxis is individualized; check bleeding and neuraxial timing considerations."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Possible DVT: evaluate unilateral findings",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Cues",
+                "text": "New one-sided swelling, tenderness, warmth or pain is concerning. General dependent edema from fluid shifts does not explain every new asymmetric finding."
+              },
+              {
+                "label": "First action",
+                "text": "Notify the clinician promptly, assess vital signs and ask about chest/breathing symptoms. Do not force walking or vigorous massage as a treatment for a suspected clot."
+              },
+              {
+                "label": "Assessment clarification",
+                "text": "Do not use Homan’s sign to diagnose or exclude DVT. The team may use compression ultrasound and begin prescribed anticoagulation when indicated; assessment cannot end with a bedside maneuver."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Possible PE: treat chest or breathing symptoms as urgent",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Cues",
+                "text": "Sudden dyspnea, chest pain, hypoxia, coughing blood or collapse can indicate PE and requires urgent evaluation; other postpartum cardiac/pulmonary causes must also be considered."
+              },
+              {
+                "label": "Immediate nursing priorities",
+                "text": "Activate emergency help; assess/support airway, breathing and circulation, monitor oxygenation/perfusion and prepare the urgent team workup. Do not leave the patient to walk for help."
+              },
+              {
+                "label": "Ongoing care",
+                "text": "Support ordered diagnostic and anticoagulant treatment. Reassess breathing, circulation, pain, bleeding and response; escalate deterioration immediately."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Teaching and evaluation",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Teach prevention",
+                "text": "Explain mobility, prescribed devices/medicines and follow-up. For anticoagulation, review adherence and bleeding precautions with the individual treatment plan."
+              },
+              {
+                "label": "Teach urgency",
+                "text": "New unilateral leg findings need prompt contact; chest pain, breathlessness or collapse needs emergency help. Symptoms can start after discharge."
+              },
+              {
+                "label": "Evaluate",
+                "text": "Check symptom trajectory, safe function, treatment tolerance and understanding. The original PDF supplies risk cues and the no-Homan warning, not a complete anticoagulant protocol."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Postpartum Care & Assessment and the Postpartum Review Handout. Uses source risk factors and leg-assessment cautions. Brief labeled assessment/prevention clarifications connect DVT/PE cues with diagnostic/team response and prescribed prophylaxis; no new anticoagulant dosing or duration table is added.",
+    "answerSources": [
+      {
+        "title": "Original PDF — Postpartum care & assessment",
+        "url": "#/ob-final/presentation/postpartum-care"
+      },
+      {
+        "title": "Original PDF — Postpartum review handout",
+        "url": "#/ob-final/presentation/postpartum-handout"
+      },
+      {
+        "title": "Assessment/response clarification — RCOG venous thrombosis after birth",
+        "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/diagnosis-and-treatment-of-venous-thrombosis-in-pregnancy-and-after-birth/"
+      },
+      {
+        "title": "Prevention clarification — SMFM cesarean thromboprophylaxis",
+        "url": "https://publications.smfm.org/publications/327-society-for-maternal-fetal-medicine-consult-series-51/"
+      },
+      {
+        "title": "Safety clarification — CDC urgent maternal warning signs",
+        "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+      }
+    ]
   },
   {
-    id:'postpartum-mental-health',weekIds:['week-7'],topicIds:['postpartum-complications'],title:'Blues, depression, anxiety, and psychosis',
-    text:'Compare postpartum blues, depression, anxiety or intrusive thoughts, and psychosis. Assess symptoms, function, coping, and safety; identify when urgent intervention is needed and explain screening, referral, and family education.',answer:[]
+    "id": "postpartum-mental-health",
+    "weekIds": [
+      "week-7"
+    ],
+    "topicIds": [
+      "postpartum-complications"
+    ],
+    "title": "Blues, depression, anxiety, and psychosis",
+    "text": "Compare postpartum blues, depression, anxiety or intrusive thoughts, and psychosis. Assess symptoms, function, coping, and safety; identify when urgent intervention is needed and explain screening, referral, and family education.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Distinguish short-lived blues from persistent depression/anxiety and loss of reality testing; timing, function and safety matter more than a label alone.",
+          "Ask about mood, anxiety, sleep, coping, support, self/baby care and thoughts of harm. Unwanted intrusive thoughts are not automatically psychosis, but they still need sensitive assessment.",
+          "Psychosis or immediate danger requires emergency assessment and protection. A positive screen needs clinical follow-through; routine reassurance is insufficient for severe symptoms."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Blues versus depression: duration and function guide concern",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Baby blues",
+                "text": "The PDFs describe transient tearfulness/lability, fatigue and worry. Timing clarification: mild symptoms usually improve within 2 weeks; provide rest, practical help and follow-up."
+              },
+              {
+                "label": "Depression",
+                "text": "Persistent low mood, loss of interest, anxiety/guilt and impaired self/baby care needs assessment. Severe symptoms or poor function require help even before 2 weeks; do not wait to meet a duration rule."
+              },
+              {
+                "label": "Risk context",
+                "text": "The lecture lists prior depression/anxiety/bipolar disorder, traumatic birth, poor support, violence, substance use and financial/housing strain. Risk factors prompt assessment, not blame or an automatic diagnosis."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Anxiety and intrusive thoughts: ask without judgment",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Assess the impact",
+                "text": "Excessive worry, panic, checking, avoidance or inability to sleep despite an opportunity to rest may impair function. Ask what the thoughts mean to the patient and how they affect care."
+              },
+              {
+                "label": "Safety clarification",
+                "text": "In OCD, intrusive thoughts are often unwanted, distressing and recognized as thoughts; psychosis involves impaired reality testing/delusions/hallucinations. Fear of a thought or asking for help does not by itself prove intent to act."
+              },
+              {
+                "label": "Still assess safety",
+                "text": "Ask about self-harm/infant-harm thoughts, intent, plan, access to means, control, reality testing and available supervision/support. Do not assume either safety or psychosis from the word “intrusive”; escalate uncertainty or risk."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Psychosis and immediate danger: protect and escalate",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Recognition",
+                "text": "Hallucinations, delusions, severe confusion, mania or loss of reality testing after birth may indicate postpartum psychosis. It is distinct from ordinary blues and is not an inevitable progression of depression."
+              },
+              {
+                "label": "Immediate response",
+                "text": "Seek emergency psychiatric/medical assessment. Do not leave a patient at immediate risk alone with the baby; arrange appropriate supervision, infant safety and the emergency response."
+              },
+              {
+                "label": "Assessment",
+                "text": "Communicate observed behavior, onset, sleep/function, bipolar/psychosis history, medications/substances and any intent/plan. Severe suicidal or infant-harm intent is urgent whether or not psychosis is present."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Screening, referral and treatment follow-through",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Use the correct tool",
+                "text": "The lecture names BDI-II; the handout names EPDS. Clarification: EPDS or PHQ-9 are commonly used validated screens, but screening is not diagnosis and their scores are not interchangeable. Use the prescribed tool/process."
+              },
+              {
+                "label": "Act on the result",
+                "text": "A concerning response—especially self-harm content—requires direct assessment and a documented referral/safety plan. Do not simply record a total score and discharge."
+              },
+              {
+                "label": "Collaborative care",
+                "text": "Support mental-health evaluation and prescribed psychotherapy/medication care, with feeding and medical considerations. Confirm who will follow symptoms and whether the patient can access care."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Family education and evaluation",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Practical support",
+                "text": "Discuss sleep/rest, feeding assistance, daily tasks and trusted support; involve chosen family with consent. Illness is not a failure of parenting."
+              },
+              {
+                "label": "Teach warning signs",
+                "text": "Explain persistent/worsening mood or anxiety, inability to function, psychotic symptoms and immediate-danger cues. Provide a clear plan for urgent help and follow-up, not only a reassurance that hormones will settle."
+              },
+              {
+                "label": "Evaluate",
+                "text": "Reassess symptoms, functioning, safety, treatment access and support. Continue follow-up even when a patient appears bonded or a single screening score improves."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Postpartum Care & Assessment and the Postpartum Review Handout. Based on the PDFs’ mood/risk/support material. Brief timing, screening and safety clarifications distinguish depression, anxiety/intrusive thoughts and psychosis, which the handout conflates. No prevalence guarantee or one-score diagnosis is taught.",
+    "answerSources": [
+      {
+        "title": "Original PDF — Postpartum care & assessment",
+        "url": "#/ob-final/presentation/postpartum-care"
+      },
+      {
+        "title": "Original PDF — Postpartum review handout",
+        "url": "#/ob-final/presentation/postpartum-handout"
+      },
+      {
+        "title": "Mental-health clarification — NIMH perinatal depression",
+        "url": "https://www.nimh.nih.gov/health/publications/perinatal-depression"
+      },
+      {
+        "title": "Screening clarification — ACOG perinatal mental health",
+        "url": "https://www.acog.org/programs/perinatal-mental-health/patient-screening"
+      },
+      {
+        "title": "Safety clarification — IOCDF intrusive thoughts versus psychosis",
+        "url": "https://iocdf.org/perinatal-ocd/for-clinical-providers/perinatal-ocd-overview/"
+      }
+    ]
   },
   {
     id:'newborn-transition-apgar',weekIds:['week-9','week-10'],topicIds:['normal-newborn'],title:'Transition and Apgar scoring',

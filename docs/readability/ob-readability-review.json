@@ -146,6 +146,916 @@
       "exact_text": "Once replacement is confirmed, give ordered uterotonics",
       "reason": "Highlights the condition-dependent reversal from holding uterotonics during reduction to giving them after confirmed replacement.",
       "style": "bold"
+    },
+    {
+      "objectiveId": "postpartum-physiology",
+      "section": "Quick answer",
+      "exact_text": "firm uterus that progressively descends",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-physiology",
+      "section": "Quick answer",
+      "exact_text": "Afterpains and early soreness should improve",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-physiology",
+      "section": "Quick answer",
+      "exact_text": "Heavy/increasing bleeding, fever, chest symptoms, severe headache, or deterioration needs assessment",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-physiology",
+      "section": "Involution and afterpains: follow the direction of change",
+      "exact_text": "about 1 cm per day",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-physiology",
+      "section": "Involution and afterpains: follow the direction of change",
+      "exact_text": "compresses vessels at the placental site",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-physiology",
+      "section": "Involution and afterpains: follow the direction of change",
+      "exact_text": "severe, persistent or worsening pain",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-physiology",
+      "section": "Lochia: compare color, amount, odor and trend",
+      "exact_text": "Rubra → serosa → alba",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-physiology",
+      "section": "Lochia: compare color, amount, odor and trend",
+      "exact_text": "continued or increasing flow needs reassessment",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-physiology",
+      "section": "Fluid, circulation and breathing: normal shifts versus deterioration",
+      "exact_text": "12–24 hours for increased urine output",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-physiology",
+      "section": "Fluid, circulation and breathing: normal shifts versus deterioration",
+      "exact_text": "normal BP alone does not rule out hemorrhage",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-physiology",
+      "section": "Fluid, circulation and breathing: normal shifts versus deterioration",
+      "exact_text": "New breathlessness or chest pain is not routine fluid adjustment",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-physiology",
+      "section": "Hormones, breasts and return of fertility",
+      "exact_text": "Estrogen and progesterone fall after placental delivery",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-physiology",
+      "section": "Hormones, breasts and return of fertility",
+      "exact_text": "Ovulation can occur before the first period",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-physiology",
+      "section": "Perineum, abdomen, pelvic floor and skin",
+      "exact_text": "up to several months to recover",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-physiology",
+      "section": "Perineum, abdomen, pelvic floor and skin",
+      "exact_text": "a new or severe headache requires assessment",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-physiology",
+      "section": "Put expected findings in context",
+      "exact_text": "6 weeks after placental delivery",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-physiology",
+      "section": "Put expected findings in context",
+      "exact_text": "improving symptoms and stable function",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-physiology",
+      "section": "Put expected findings in context",
+      "exact_text": "fever ≥38°C/100.4°F needs clinical assessment",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-assessment",
+      "section": "Quick answer",
+      "exact_text": "BUBBLEHE plus vital signs, pain and legs",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-assessment",
+      "section": "Quick answer",
+      "exact_text": "uterine tone/position, bleeding and perfusion",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-assessment",
+      "section": "Quick answer",
+      "exact_text": "Escalate abnormal findings and reassess the response",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-assessment",
+      "section": "Start with safety, history and the course mnemonic",
+      "exact_text": "vital signs, pain, alertness and overall appearance",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-assessment",
+      "section": "Start with safety, history and the course mnemonic",
+      "exact_text": "breasts, uterus, bladder, bowel, lochia, episiotomy/incision, hemorrhoids and emotional status",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-assessment",
+      "section": "Breasts: match assessment with feeding goals",
+      "exact_text": "nipple trauma or persistent pain merits help",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-assessment",
+      "section": "Breasts: match assessment with feeding goals",
+      "exact_text": "avoid tight binding or deep breast massage",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-assessment",
+      "section": "Uterus, lochia and perfusion: connect the findings",
+      "exact_text": "firm versus boggy tone",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-assessment",
+      "section": "Uterus, lochia and perfusion: connect the findings",
+      "exact_text": "bleeding with a firm uterus needs another cause considered",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-assessment",
+      "section": "Bladder and bowel: assess ability as well as output",
+      "exact_text": "Decreased bladder sensation can conceal retention",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-assessment",
+      "section": "Perineum or incision, hemorrhoids and legs",
+      "exact_text": "REEDA: redness, edema, ecchymosis, drainage and approximation",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-assessment",
+      "section": "Perineum or incision, hemorrhoids and legs",
+      "exact_text": "Severe pain or asymmetric swelling",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-assessment",
+      "section": "Perineum or incision, hemorrhoids and legs",
+      "exact_text": "Do not use Homan’s sign",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-assessment",
+      "section": "Emotional status, documentation and evaluation",
+      "exact_text": "does not by itself diagnose impaired attachment or depression",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-assessment",
+      "section": "Emotional status, documentation and evaluation",
+      "exact_text": "stable perfusion, controlled bleeding and improving comfort/function",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-labs-elimination",
+      "section": "Quick answer",
+      "exact_text": "vital-sign and laboratory trends with symptoms and blood loss",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-labs-elimination",
+      "section": "Quick answer",
+      "exact_text": "Diuresis can coexist with urinary retention",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-labs-elimination",
+      "section": "Quick answer",
+      "exact_text": "evaluate output, comfort and uterine position",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-labs-elimination",
+      "section": "Vital signs: assess the patient behind the number",
+      "exact_text": "assess fever ≥38°C/100.4°F",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-labs-elimination",
+      "section": "Vital signs: assess the patient behind the number",
+      "exact_text": "Do not wait for hypotension to recognize hemorrhage",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-labs-elimination",
+      "section": "CBC and fluid shifts: avoid false reassurance",
+      "exact_text": "A single normal or high Hgb/Hct does not exclude acute hemorrhage",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-labs-elimination",
+      "section": "CBC and fluid shifts: avoid false reassurance",
+      "exact_text": "about 20,000–30,000/µL in the first 24 hours",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-labs-elimination",
+      "section": "Diuresis versus retention: these are different findings",
+      "exact_text": "Frequent small voids do not prove the bladder is empty",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-labs-elimination",
+      "section": "Help the patient void and evaluate the result",
+      "exact_text": "within about 6 hours of birth or catheter removal",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-labs-elimination",
+      "section": "Bowel recovery and constipation",
+      "exact_text": "2–3 days",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-labs-elimination",
+      "section": "Bowel recovery and constipation",
+      "exact_text": "Persistent vomiting, marked distention or worsening abdominal pain",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-comfort-mobility",
+      "section": "Quick answer",
+      "exact_text": "pain should become manageable and function should improve",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-comfort-mobility",
+      "section": "Quick answer",
+      "exact_text": "perineal/incision care, breast support, safe mobility, rest and elimination support",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-comfort-mobility",
+      "section": "Quick answer",
+      "exact_text": "Worsening focal pain, new leg/chest symptoms, fever or wound changes require review",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-comfort-mobility",
+      "section": "Pain: connect location, cause and treatment",
+      "exact_text": "acetaminophen and an NSAID are common foundations when appropriate",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-comfort-mobility",
+      "section": "Perineum and hemorrhoids: reduce swelling and protect healing",
+      "exact_text": "covered cold packs during the first 24 hours",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-comfort-mobility",
+      "section": "Perineum and hemorrhoids: reduce swelling and protect healing",
+      "exact_text": "Disproportionate pain or asymmetric swelling may mean hematoma",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-comfort-mobility",
+      "section": "Cesarean incision and safe movement",
+      "exact_text": "Assist initial mobility after anesthesia and hemodynamic assessment",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-comfort-mobility",
+      "section": "Cesarean incision and safe movement",
+      "exact_text": "Uterine exploration is clinician-led and indication-specific",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-comfort-mobility",
+      "section": "Breast discomfort: support the chosen feeding plan",
+      "exact_text": "use cold and avoid tight binding, deep massage or forced extra pumping",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-comfort-mobility",
+      "section": "Rest, food, hydration and pelvic-floor recovery",
+      "exact_text": "Practice with an empty bladder, not by repeatedly stopping urine flow",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-family-adaptation",
+      "section": "Quick answer",
+      "exact_text": "taking-in, taking-hold and letting-go",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-family-adaptation",
+      "section": "Quick answer",
+      "exact_text": "coping, expectations, birth experience, infant health and available support",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-family-adaptation",
+      "section": "Quick answer",
+      "exact_text": "persistent distress or impaired safety/function requires follow-up",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-family-adaptation",
+      "section": "Rubin’s phases: use them as a framework",
+      "exact_text": "Meet physical needs and listen to the birth story",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-family-adaptation",
+      "section": "Rubin’s phases: use them as a framework",
+      "exact_text": "not a mandatory sequence or a parenting score",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-family-adaptation",
+      "section": "Becoming a parent and partner adjustment",
+      "exact_text": "Adjustment continues beyond hospital discharge",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-family-adaptation",
+      "section": "Assess attachment and the barriers around it",
+      "exact_text": "There is no single required display of bonding",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-family-adaptation",
+      "section": "Assess attachment and the barriers around it",
+      "exact_text": "does not alone establish poor attachment",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-family-adaptation",
+      "section": "Nursing support and evaluation",
+      "exact_text": "Ask who will help after discharge",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-discharge",
+      "section": "Quick answer",
+      "exact_text": "self-care, feeding, medicines, activity, follow-up and warning signs",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-discharge",
+      "section": "Quick answer",
+      "exact_text": "MMR/rubella immunity, Rh prophylaxis when indicated and contraception planning",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-discharge",
+      "section": "Quick answer",
+      "exact_text": "teach-back and return demonstration",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-discharge",
+      "section": "Check readiness and teach self-care",
+      "exact_text": "pelvic rest for 6 weeks",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-discharge",
+      "section": "Warning signs: make the action clear",
+      "exact_text": "Heavy/increasing bleeding, chest pain, trouble breathing, fainting, severe headache/visual change or severe abdominal pain",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-discharge",
+      "section": "Warning signs: make the action clear",
+      "exact_text": "Do not wait for the scheduled postpartum visit",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-discharge",
+      "section": "Rubella/MMR and Rh prophylaxis: different purposes",
+      "exact_text": "Breastfeeding is compatible with MMR",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-discharge",
+      "section": "Rubella/MMR and Rh prophylaxis: different purposes",
+      "exact_text": "unsensitized Rh-negative patient with an Rh-positive infant",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-discharge",
+      "section": "Fertility and contraception: correct the long-delay assumption",
+      "exact_text": "Ovulation may occur before menstruation resumes",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-discharge",
+      "section": "Fertility and contraception: correct the long-delay assumption",
+      "exact_text": "amenorrhea, fully/nearly fully breastfeeding and <6 months postpartum",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-discharge",
+      "section": "Follow-up, support and teach-back",
+      "exact_text": "postpartum contact within 3 weeks",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-discharge",
+      "section": "Follow-up, support and teach-back",
+      "exact_text": "understanding, practical support and arranged follow-up",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-assessment",
+      "section": "Quick answer",
+      "exact_text": "bleeding plus uterine tone, pain and perfusion",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-assessment",
+      "section": "Quick answer",
+      "exact_text": "atony, trauma/hematoma, retained tissue and coagulation problems",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-assessment",
+      "section": "Quick answer",
+      "exact_text": "Call for help when bleeding or the patient’s condition is concerning",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-assessment",
+      "section": "Definition, timing and risk recognition",
+      "exact_text": "cumulative loss ≥1000 mL or bleeding with hypovolemia within 24 hours",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-assessment",
+      "section": "Atony: a poorly contracted uterus",
+      "exact_text": "Boggy uterine tone with increased bleeding",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-assessment",
+      "section": "Trauma and hematoma: the uterus may be firm",
+      "exact_text": "Continued bleeding despite a firm uterus",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-assessment",
+      "section": "Trauma and hematoma: the uterus may be firm",
+      "exact_text": "Small visible lochia does not exclude substantial concealed bleeding",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-assessment",
+      "section": "Retained tissue, inversion and coagulation problems",
+      "exact_text": "Inversion is not ordinary atony",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-assessment",
+      "section": "Retained tissue, inversion and coagulation problems",
+      "exact_text": "oozing from puncture sites",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-assessment",
+      "section": "Quantify loss and recognize shock early",
+      "exact_text": "1 g of added weight is approximately 1 mL of blood",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-assessment",
+      "section": "Quantify loss and recognize shock early",
+      "exact_text": "Normal BP or an early normal Hgb does not rule out hemorrhage",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-management",
+      "section": "Quick answer",
+      "exact_text": "summon the hemorrhage team and assess tone/perfusion immediately",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-management",
+      "section": "Quick answer",
+      "exact_text": "a firm uterus with bleeding needs trauma/tissue/coagulation assessment",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-management",
+      "section": "Quick answer",
+      "exact_text": "Trend blood loss and the patient’s response continuously",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-management",
+      "section": "First response: call, assess and act together",
+      "exact_text": "Activate the obstetric hemorrhage response",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-management",
+      "section": "Restore perfusion and prepare the team’s treatment",
+      "exact_text": "Clinical deterioration takes priority over an initially reassuring lab result",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-management",
+      "section": "Uterotonics: purpose and the key safety checks",
+      "exact_text": "avoid methylergonovine with hypertension/preeclampsia",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-management",
+      "section": "Uterotonics: purpose and the key safety checks",
+      "exact_text": "avoid carboprost in asthma",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-management",
+      "section": "Treat the cause and continue escalation",
+      "exact_text": "Improving uterine tone alone is not adequate if bleeding continues",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-management",
+      "section": "Treat the cause and continue escalation",
+      "exact_text": "tranexamic acid is an antifibrinolytic, not a uterotonic",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-management",
+      "section": "Evaluate, document and support recovery",
+      "exact_text": "decreasing bleeding and improving perfusion",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-subinvolution",
+      "section": "Quick answer",
+      "exact_text": "fails to regress as expected",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-subinvolution",
+      "section": "Quick answer",
+      "exact_text": "retained placental fragments and pelvic infection",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-subinvolution",
+      "section": "Quick answer",
+      "exact_text": "Assess bleeding, uterine trend and maternal condition",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-subinvolution",
+      "section": "Recognize a pattern of delayed recovery",
+      "exact_text": "A uterus not descending as expected with persistent/recurrent bleeding",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-subinvolution",
+      "section": "Assess the cause and support collaborative care",
+      "exact_text": "Assess perfusion and bleeding severity first",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-subinvolution",
+      "section": "Evaluate treatment and teach return precautions",
+      "exact_text": "the concerning pattern is resolving",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-subinvolution",
+      "section": "Evaluate treatment and teach return precautions",
+      "exact_text": "Heavy bleeding, faintness or other poor-perfusion symptoms needs urgent help",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-infections",
+      "section": "Quick answer",
+      "exact_text": "uterine, wound, urinary and breast findings",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-infections",
+      "section": "Quick answer",
+      "exact_text": "fever or systemic deterioration is not normal lactation",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-infections",
+      "section": "Quick answer",
+      "exact_text": "activate urgent sepsis care when organ dysfunction or shock is suspected",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-infections",
+      "section": "Endometritis: think uterine infection",
+      "exact_text": "uterine/pelvic tenderness or foul-smelling lochia",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-infections",
+      "section": "Perineal or incision infection: inspect the wound",
+      "exact_text": "increasing wound pain, redness, drainage or separation",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-infections",
+      "section": "Urinary infection: separate dysuria from retention",
+      "exact_text": "Fever with flank pain or systemic illness",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-infections",
+      "section": "Mastitis: inflammation is not always bacterial infection",
+      "exact_text": "normal breastfeeding/milk removal as tolerated",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-infections",
+      "section": "Systemic deterioration: recognize sepsis and act",
+      "exact_text": "sepsis means infection with life-threatening organ dysfunction",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-thromboembolism",
+      "section": "Quick answer",
+      "exact_text": "hypercoagulability, vessel injury and immobility",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-thromboembolism",
+      "section": "Quick answer",
+      "exact_text": "Unilateral leg pain/swelling",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-thromboembolism",
+      "section": "Quick answer",
+      "exact_text": "suspected DVT/PE requires urgent evaluation",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-thromboembolism",
+      "section": "Understand the risk and prevent avoidable immobility",
+      "exact_text": "safe early mobility when stable",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-thromboembolism",
+      "section": "Possible DVT: evaluate unilateral findings",
+      "exact_text": "one-sided swelling, tenderness, warmth or pain",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-thromboembolism",
+      "section": "Possible DVT: evaluate unilateral findings",
+      "exact_text": "Do not use Homan’s sign to diagnose or exclude DVT",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-thromboembolism",
+      "section": "Possible PE: treat chest or breathing symptoms as urgent",
+      "exact_text": "Sudden dyspnea, chest pain, hypoxia, coughing blood or collapse",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-thromboembolism",
+      "section": "Teaching and evaluation",
+      "exact_text": "adherence and bleeding precautions",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-mental-health",
+      "section": "Quick answer",
+      "exact_text": "short-lived blues from persistent depression/anxiety and loss of reality testing",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-mental-health",
+      "section": "Quick answer",
+      "exact_text": "Unwanted intrusive thoughts are not automatically psychosis",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-mental-health",
+      "section": "Quick answer",
+      "exact_text": "Psychosis or immediate danger requires emergency assessment and protection",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-mental-health",
+      "section": "Blues versus depression: duration and function guide concern",
+      "exact_text": "within 2 weeks",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-mental-health",
+      "section": "Blues versus depression: duration and function guide concern",
+      "exact_text": "Severe symptoms or poor function require help even before 2 weeks",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-mental-health",
+      "section": "Anxiety and intrusive thoughts: ask without judgment",
+      "exact_text": "unwanted, distressing and recognized as thoughts",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-mental-health",
+      "section": "Anxiety and intrusive thoughts: ask without judgment",
+      "exact_text": "Do not assume either safety or psychosis from the word “intrusive”",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-mental-health",
+      "section": "Psychosis and immediate danger: protect and escalate",
+      "exact_text": "Hallucinations, delusions, severe confusion, mania or loss of reality testing",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-mental-health",
+      "section": "Psychosis and immediate danger: protect and escalate",
+      "exact_text": "Do not leave a patient at immediate risk alone with the baby",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-mental-health",
+      "section": "Screening, referral and treatment follow-through",
+      "exact_text": "EPDS or PHQ-9 are commonly used validated screens",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "postpartum-mental-health",
+      "section": "Family education and evaluation",
+      "exact_text": "Provide a clear plan for urgent help and follow-up",
+      "style": "bold",
+      "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
     }
   ],
   "sourceOriginalSha256": "3dde0d8ff4af9567efa6431697f52e7868aa99026ab60768873385f437de3e2c",

@@ -51,11 +51,12 @@ assert(familyMarkup.includes('<h4>')&&!familyMarkup.includes('<h5>'));
 assert(render('#/ob-final/week-2').includes('Sources for these notes'),'Shared Week 1 objectives retain notes in Week 2');
 // One future note edit must appear unchanged in both views and preserve safe formatting.
 const item=objectives.find(o=>o.id==='postpartum-assessment');
+const priorAnswerLength=item.answer.length;
 item.answer.push('A future note with <patient> & safety cues.',{type:'list',items:['Assessment','Nursing diagnosis','Plan, intervene, evaluate']});
 for(const route of ['#/ob-final/week-7','#/ob-final/topic/normal-postpartum','#/ob-final/week-8']){
  const markup=render(route);assert(markup.includes('A future note with &lt;patient&gt; &amp; safety cues.'));assert(markup.includes('<li>Nursing diagnosis</li>'));assert(!markup.includes('<patient>'));
 }
-item.answer.length=0;
+item.answer.length=priorAnswerLength;
 const guide=render('#/ob-final/study-guide');assert(guide.includes('How to organize your notes'));for(const section of course.sections)assert(guide.includes(escapeHTML(section.title)));
 assert(guide.includes('#/ob-final/practice')&&guide.includes('#/ob-final/podcast'));
 for(const keyword of ['GTPAL','Naegele','Diabetes','preeclampsia','HELLP','magnesium','variability','decelerations','two different strips','Shoulder dystocia','Placenta previa','Prematurity','phototherapy','formula','LAM','partner'])assert(JSON.stringify(objectives).toLowerCase().includes(keyword.toLowerCase()),keyword);

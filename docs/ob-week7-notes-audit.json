@@ -1,0 +1,1240 @@
+{
+  "weekId": "week-7",
+  "reviewedOn": "2026-11-21",
+  "basis": "All twelve existing Week 7 objectives populated from the two assigned original PDFs. Three-bullet Quick answers lead into short independently collapsed fact topics. Nursing assessment, recognition, action, teaching and evaluation are tied to each objective. Safety/definition/care clarifications are explicitly identified and sourced; the supplied PDFs remain unchanged. No fictional cases, new dose table or standalone treatment protocol is authored.",
+  "sources": [
+    {
+      "deckId": "postpartum-care",
+      "path": "ob-presentations/postpartum-care/original.pdf",
+      "pages": 59,
+      "sha256": "8c7913d97c7a9f7bc6f8c5cf4064049cdcf057d396ff358c927940ab6a1165a6"
+    },
+    {
+      "deckId": "postpartum-handout",
+      "path": "ob-presentations/postpartum-handout/original.pdf",
+      "pages": 7,
+      "sha256": "a5d9e02a483829307e78209096eca54f35f3abe71b906a0d89524865e7228b3a"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "postpartum-physiology",
+      "title": "Expected postpartum recovery",
+      "lectureRanges": [
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 2,
+          "lastPage": 13
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 20,
+          "lastPage": 33
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 59,
+          "lastPage": 59
+        },
+        {
+          "deckId": "postpartum-handout",
+          "firstPage": 1,
+          "lastPage": 4
+        }
+      ],
+      "topics": [
+        "Involution and afterpains: follow the direction of change",
+        "Lochia: compare color, amount, odor and trend",
+        "Fluid, circulation and breathing: normal shifts versus deterioration",
+        "Hormones, breasts and return of fertility",
+        "Perineum, abdomen, pelvic floor and skin",
+        "Put expected findings in context"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Involution and afterpains: follow the direction of change",
+          "noteTopic": "Involution and afterpains: follow the direction of change"
+        },
+        {
+          "requirement": "Lochia: compare color, amount, odor and trend",
+          "noteTopic": "Lochia: compare color, amount, odor and trend"
+        },
+        {
+          "requirement": "Fluid, circulation and breathing: normal shifts versus deterioration",
+          "noteTopic": "Fluid, circulation and breathing: normal shifts versus deterioration"
+        },
+        {
+          "requirement": "Hormones, breasts and return of fertility",
+          "noteTopic": "Hormones, breasts and return of fertility"
+        },
+        {
+          "requirement": "Perineum, abdomen, pelvic floor and skin",
+          "noteTopic": "Perineum, abdomen, pelvic floor and skin"
+        },
+        {
+          "requirement": "Put expected findings in context",
+          "noteTopic": "Put expected findings in context"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Original PDF — Postpartum care & assessment",
+          "url": "#/ob-final/presentation/postpartum-care"
+        },
+        {
+          "title": "Original PDF — Postpartum review handout",
+          "url": "#/ob-final/presentation/postpartum-handout"
+        },
+        {
+          "title": "Safety clarification — CDC urgent maternal warning signs",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+        },
+        {
+          "title": "Timing clarification — MSD postpartum physiology and laboratory changes",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/postpartum-care-and-associated-disorders/postpartum-care"
+        },
+        {
+          "title": "Contraception clarification — CDC lactational amenorrhea criteria",
+          "url": "https://www.cdc.gov/contraception/hcp/usmec/lactational-amenorrhea-method.html"
+        }
+      ],
+      "scope": "Expected recovery is organized from the two PDFs. Brief clarifications qualify approximate timelines, fever, circulatory reassurance and lactational infertility; no universal recovery timetable is imposed."
+    },
+    {
+      "id": "postpartum-assessment",
+      "title": "Systematic postpartum assessment",
+      "lectureRanges": [
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 11,
+          "lastPage": 13
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 21,
+          "lastPage": 21
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 25,
+          "lastPage": 31
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 34,
+          "lastPage": 40
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 51,
+          "lastPage": 56
+        },
+        {
+          "deckId": "postpartum-handout",
+          "firstPage": 2,
+          "lastPage": 6
+        }
+      ],
+      "topics": [
+        "Start with safety, history and the course mnemonic",
+        "Breasts: match assessment with feeding goals",
+        "Uterus, lochia and perfusion: connect the findings",
+        "Bladder and bowel: assess ability as well as output",
+        "Perineum or incision, hemorrhoids and legs",
+        "Emotional status, documentation and evaluation"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Start with safety, history and the course mnemonic",
+          "noteTopic": "Start with safety, history and the course mnemonic"
+        },
+        {
+          "requirement": "Breasts: match assessment with feeding goals",
+          "noteTopic": "Breasts: match assessment with feeding goals"
+        },
+        {
+          "requirement": "Uterus, lochia and perfusion: connect the findings",
+          "noteTopic": "Uterus, lochia and perfusion: connect the findings"
+        },
+        {
+          "requirement": "Bladder and bowel: assess ability as well as output",
+          "noteTopic": "Bladder and bowel: assess ability as well as output"
+        },
+        {
+          "requirement": "Perineum or incision, hemorrhoids and legs",
+          "noteTopic": "Perineum or incision, hemorrhoids and legs"
+        },
+        {
+          "requirement": "Emotional status, documentation and evaluation",
+          "noteTopic": "Emotional status, documentation and evaluation"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Original PDF — Postpartum care & assessment",
+          "url": "#/ob-final/presentation/postpartum-care"
+        },
+        {
+          "title": "Original PDF — Postpartum review handout",
+          "url": "#/ob-final/presentation/postpartum-handout"
+        },
+        {
+          "title": "Care clarification — NICE postnatal care",
+          "url": "https://www.nice.org.uk/guidance/ng194/chapter/Recommendations"
+        },
+        {
+          "title": "Breast-care clarification — ABM Mastitis Spectrum Protocol 36",
+          "url": "https://doi.org/10.1089/bfm.2022.29207.kbm"
+        },
+        {
+          "title": "Safety clarification — CDC urgent maternal warning signs",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+        }
+      ],
+      "scope": "Uses the course’s BUBBLEHE components without changing the objective wording. Wound, bladder, bleeding and emotional observations are tied to nursing action. Breast-binding/massage and single-behavior bonding assumptions are clarified."
+    },
+    {
+      "id": "postpartum-labs-elimination",
+      "title": "Vital signs, labs, and elimination",
+      "lectureRanges": [
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 25,
+          "lastPage": 31
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 36,
+          "lastPage": 39
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 59,
+          "lastPage": 59
+        },
+        {
+          "deckId": "postpartum-handout",
+          "firstPage": 3,
+          "lastPage": 5
+        }
+      ],
+      "topics": [
+        "Vital signs: assess the patient behind the number",
+        "CBC and fluid shifts: avoid false reassurance",
+        "Diuresis versus retention: these are different findings",
+        "Help the patient void and evaluate the result",
+        "Bowel recovery and constipation"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Vital signs: assess the patient behind the number",
+          "noteTopic": "Vital signs: assess the patient behind the number"
+        },
+        {
+          "requirement": "CBC and fluid shifts: avoid false reassurance",
+          "noteTopic": "CBC and fluid shifts: avoid false reassurance"
+        },
+        {
+          "requirement": "Diuresis versus retention: these are different findings",
+          "noteTopic": "Diuresis versus retention: these are different findings"
+        },
+        {
+          "requirement": "Help the patient void and evaluate the result",
+          "noteTopic": "Help the patient void and evaluate the result"
+        },
+        {
+          "requirement": "Bowel recovery and constipation",
+          "noteTopic": "Bowel recovery and constipation"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Original PDF — Postpartum care & assessment",
+          "url": "#/ob-final/presentation/postpartum-care"
+        },
+        {
+          "title": "Original PDF — Postpartum review handout",
+          "url": "#/ob-final/presentation/postpartum-handout"
+        },
+        {
+          "title": "Safety clarification — CDC urgent maternal warning signs",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+        },
+        {
+          "title": "Timing clarification — MSD postpartum physiology and laboratory changes",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/postpartum-care-and-associated-disorders/postpartum-care"
+        },
+        {
+          "title": "Care clarification — NICE postnatal care",
+          "url": "https://www.nice.org.uk/guidance/ng194/chapter/Recommendations"
+        },
+        {
+          "title": "Recovery clarification — NICE cesarean care",
+          "url": "https://www.nice.org.uk/guidance/ng192/chapter/Recommendations"
+        }
+      ],
+      "scope": "Source-led vital-sign/lab/elimination review. Clarifications distinguish first-day leukocytosis from later infection assessment, fever from lactation, acute blood-loss trends, and an individualized bladder/diet plan."
+    },
+    {
+      "id": "postpartum-comfort-mobility",
+      "title": "Comfort and physical recovery",
+      "lectureRanges": [
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 13,
+          "lastPage": 13
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 20,
+          "lastPage": 22
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 25,
+          "lastPage": 26
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 34,
+          "lastPage": 45
+        },
+        {
+          "deckId": "postpartum-handout",
+          "firstPage": 2,
+          "lastPage": 5
+        }
+      ],
+      "topics": [
+        "Pain: connect location, cause and treatment",
+        "Perineum and hemorrhoids: reduce swelling and protect healing",
+        "Cesarean incision and safe movement",
+        "Breast discomfort: support the chosen feeding plan",
+        "Rest, food, hydration and pelvic-floor recovery"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Pain: connect location, cause and treatment",
+          "noteTopic": "Pain: connect location, cause and treatment"
+        },
+        {
+          "requirement": "Perineum and hemorrhoids: reduce swelling and protect healing",
+          "noteTopic": "Perineum and hemorrhoids: reduce swelling and protect healing"
+        },
+        {
+          "requirement": "Cesarean incision and safe movement",
+          "noteTopic": "Cesarean incision and safe movement"
+        },
+        {
+          "requirement": "Breast discomfort: support the chosen feeding plan",
+          "noteTopic": "Breast discomfort: support the chosen feeding plan"
+        },
+        {
+          "requirement": "Rest, food, hydration and pelvic-floor recovery",
+          "noteTopic": "Rest, food, hydration and pelvic-floor recovery"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Original PDF — Postpartum care & assessment",
+          "url": "#/ob-final/presentation/postpartum-care"
+        },
+        {
+          "title": "Original PDF — Postpartum review handout",
+          "url": "#/ob-final/presentation/postpartum-handout"
+        },
+        {
+          "title": "Pain-care clarification — ACOG postpartum pain management",
+          "url": "https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2021/09/pharmacologic-stepwise-multimodal-approach-for-postpartum-pain-management"
+        },
+        {
+          "title": "Breast-care clarification — ABM Mastitis Spectrum Protocol 36",
+          "url": "https://doi.org/10.1089/bfm.2022.29207.kbm"
+        },
+        {
+          "title": "Recovery clarification — NICE cesarean care",
+          "url": "https://www.nice.org.uk/guidance/ng192/chapter/Recommendations"
+        },
+        {
+          "title": "Care clarification — NICE postnatal care",
+          "url": "https://www.nice.org.uk/guidance/ng194/chapter/Recommendations"
+        },
+        {
+          "title": "Pelvic-floor clarification — NHS exercises after childbirth",
+          "url": "https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/advice-and-exercise-following-childbirth"
+        }
+      ],
+      "scope": "Builds comfort and function care from the PDFs. Short safety clarifications address analgesic monitoring, breast binding/deep massage, routine urine interruption, diet/mobility individualization and the handout’s misleading uterine-sweeping phrase."
+    },
+    {
+      "id": "postpartum-family-adaptation",
+      "title": "Attachment and family adaptation",
+      "lectureRanges": [
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 4,
+          "lastPage": 4
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 46,
+          "lastPage": 56
+        },
+        {
+          "deckId": "postpartum-handout",
+          "firstPage": 5,
+          "lastPage": 7
+        }
+      ],
+      "topics": [
+        "Rubin’s phases: use them as a framework",
+        "Becoming a parent and partner adjustment",
+        "Assess attachment and the barriers around it",
+        "Nursing support and evaluation"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Rubin’s phases: use them as a framework",
+          "noteTopic": "Rubin’s phases: use them as a framework"
+        },
+        {
+          "requirement": "Becoming a parent and partner adjustment",
+          "noteTopic": "Becoming a parent and partner adjustment"
+        },
+        {
+          "requirement": "Assess attachment and the barriers around it",
+          "noteTopic": "Assess attachment and the barriers around it"
+        },
+        {
+          "requirement": "Nursing support and evaluation",
+          "noteTopic": "Nursing support and evaluation"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Original PDF — Postpartum care & assessment",
+          "url": "#/ob-final/presentation/postpartum-care"
+        },
+        {
+          "title": "Original PDF — Postpartum review handout",
+          "url": "#/ob-final/presentation/postpartum-handout"
+        },
+        {
+          "title": "Care clarification — NICE postnatal care",
+          "url": "https://www.nice.org.uk/guidance/ng194/chapter/Recommendations"
+        },
+        {
+          "title": "Screening clarification — ACOG perinatal mental health",
+          "url": "https://www.acog.org/programs/perinatal-mental-health/patient-screening"
+        }
+      ],
+      "scope": "Preserves the lecture’s adaptation frameworks and family factors while clarifying that stage timing and immediate bonding behavior are not diagnostic tests."
+    },
+    {
+      "id": "postpartum-discharge",
+      "title": "Discharge teaching and follow-up",
+      "lectureRanges": [
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 4,
+          "lastPage": 4
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 33,
+          "lastPage": 40
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 52,
+          "lastPage": 59
+        },
+        {
+          "deckId": "postpartum-handout",
+          "firstPage": 2,
+          "lastPage": 7
+        }
+      ],
+      "topics": [
+        "Check readiness and teach self-care",
+        "Warning signs: make the action clear",
+        "Rubella/MMR and Rh prophylaxis: different purposes",
+        "Fertility and contraception: correct the long-delay assumption",
+        "Follow-up, support and teach-back"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Check readiness and teach self-care",
+          "noteTopic": "Check readiness and teach self-care"
+        },
+        {
+          "requirement": "Warning signs: make the action clear",
+          "noteTopic": "Warning signs: make the action clear"
+        },
+        {
+          "requirement": "Rubella/MMR and Rh prophylaxis: different purposes",
+          "noteTopic": "Rubella/MMR and Rh prophylaxis: different purposes"
+        },
+        {
+          "requirement": "Fertility and contraception: correct the long-delay assumption",
+          "noteTopic": "Fertility and contraception: correct the long-delay assumption"
+        },
+        {
+          "requirement": "Follow-up, support and teach-back",
+          "noteTopic": "Follow-up, support and teach-back"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Original PDF — Postpartum care & assessment",
+          "url": "#/ob-final/presentation/postpartum-care"
+        },
+        {
+          "title": "Original PDF — Postpartum review handout",
+          "url": "#/ob-final/presentation/postpartum-handout"
+        },
+        {
+          "title": "Safety clarification — CDC urgent maternal warning signs",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+        },
+        {
+          "title": "Follow-up clarification — ACOG optimizing postpartum care",
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2018/05/optimizing-postpartum-care"
+        },
+        {
+          "title": "Prevention clarification — ACOG Rh factor and immune globulin",
+          "url": "https://www.acog.org/womens-health/faqs/the-rh-factor-how-it-can-affect-your-pregnancy"
+        },
+        {
+          "title": "Vaccine clarification — CDC pregnancy and postpartum vaccination",
+          "url": "https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/index.html"
+        },
+        {
+          "title": "Vaccine clarification — CDC rubella recommendations",
+          "url": "https://www.cdc.gov/rubella/hcp/vaccine-considerations/"
+        },
+        {
+          "title": "Contraception clarification — CDC lactational amenorrhea criteria",
+          "url": "https://www.cdc.gov/contraception/hcp/usmec/lactational-amenorrhea-method.html"
+        },
+        {
+          "title": "Vaccine clarification — CDC MMR and egg allergy",
+          "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/measles-rubeola.html"
+        }
+      ],
+      "scope": "Uses the source’s self-care/prevention teaching with labeled clarifications for fever/urgency, postpartum follow-up, MMR, nonsensitized Rh eligibility, LAM and non-universal restrictions/sterilization rules."
+    },
+    {
+      "id": "postpartum-hemorrhage-assessment",
+      "title": "Recognize postpartum hemorrhage",
+      "lectureRanges": [
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 5,
+          "lastPage": 18
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 25,
+          "lastPage": 30
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 36,
+          "lastPage": 39
+        },
+        {
+          "deckId": "postpartum-handout",
+          "firstPage": 1,
+          "lastPage": 5
+        }
+      ],
+      "topics": [
+        "Definition, timing and risk recognition",
+        "Atony: a poorly contracted uterus",
+        "Trauma and hematoma: the uterus may be firm",
+        "Retained tissue, inversion and coagulation problems",
+        "Quantify loss and recognize shock early"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Definition, timing and risk recognition",
+          "noteTopic": "Definition, timing and risk recognition"
+        },
+        {
+          "requirement": "Atony: a poorly contracted uterus",
+          "noteTopic": "Atony: a poorly contracted uterus"
+        },
+        {
+          "requirement": "Trauma and hematoma: the uterus may be firm",
+          "noteTopic": "Trauma and hematoma: the uterus may be firm"
+        },
+        {
+          "requirement": "Retained tissue, inversion and coagulation problems",
+          "noteTopic": "Retained tissue, inversion and coagulation problems"
+        },
+        {
+          "requirement": "Quantify loss and recognize shock early",
+          "noteTopic": "Quantify loss and recognize shock early"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Original PDF — Postpartum care & assessment",
+          "url": "#/ob-final/presentation/postpartum-care"
+        },
+        {
+          "title": "Original PDF — Postpartum review handout",
+          "url": "#/ob-final/presentation/postpartum-handout"
+        },
+        {
+          "title": "Definition clarification — ACOG postpartum hemorrhage",
+          "url": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2017/10/postpartum-hemorrhage"
+        },
+        {
+          "title": "Measurement clarification — ACOG quantitative blood loss",
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/12/quantitative-blood-loss-in-obstetric-hemorrhage"
+        },
+        {
+          "title": "Response/medication clarification — CMQCC obstetric hemorrhage toolkit",
+          "url": "https://www.cmqcc.org/toolkits-quality-improvement/hemorrhage"
+        }
+      ],
+      "scope": "Compares the source’s bleeding causes using bedside clues. Definitions/QBL are clarified, and inversion/coagulation patterns are connected to the already supplied emergency framework. No fictional case or universal volume-only trigger is created."
+    },
+    {
+      "id": "postpartum-hemorrhage-management",
+      "title": "Respond to hemorrhage and shock",
+      "lectureRanges": [
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 9,
+          "lastPage": 18
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 25,
+          "lastPage": 30
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 36,
+          "lastPage": 39
+        },
+        {
+          "deckId": "postpartum-handout",
+          "firstPage": 2,
+          "lastPage": 5
+        }
+      ],
+      "topics": [
+        "First response: call, assess and act together",
+        "Restore perfusion and prepare the team’s treatment",
+        "Uterotonics: purpose and the key safety checks",
+        "Treat the cause and continue escalation",
+        "Evaluate, document and support recovery"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "First response: call, assess and act together",
+          "noteTopic": "First response: call, assess and act together"
+        },
+        {
+          "requirement": "Restore perfusion and prepare the team’s treatment",
+          "noteTopic": "Restore perfusion and prepare the team’s treatment"
+        },
+        {
+          "requirement": "Uterotonics: purpose and the key safety checks",
+          "noteTopic": "Uterotonics: purpose and the key safety checks"
+        },
+        {
+          "requirement": "Treat the cause and continue escalation",
+          "noteTopic": "Treat the cause and continue escalation"
+        },
+        {
+          "requirement": "Evaluate, document and support recovery",
+          "noteTopic": "Evaluate, document and support recovery"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Original PDF — Postpartum care & assessment",
+          "url": "#/ob-final/presentation/postpartum-care"
+        },
+        {
+          "title": "Original PDF — Postpartum review handout",
+          "url": "#/ob-final/presentation/postpartum-handout"
+        },
+        {
+          "title": "Response/medication clarification — CMQCC obstetric hemorrhage toolkit",
+          "url": "https://www.cmqcc.org/toolkits-quality-improvement/hemorrhage"
+        },
+        {
+          "title": "Response clarification — WHO postpartum hemorrhage guideline",
+          "url": "https://www.who.int/publications/i/item/9789240115637"
+        },
+        {
+          "title": "Measurement clarification — ACOG quantitative blood loss",
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/12/quantitative-blood-loss-in-obstetric-hemorrhage"
+        }
+      ],
+      "scope": "Builds the source’s early-recognition/massage/uterotonic approach into a nursing response. Brief labeled response and drug-safety clarifications supply essential contraindication/urgent-care context absent from the slides; no new dose, transfusion or surgical protocol is authored."
+    },
+    {
+      "id": "postpartum-subinvolution",
+      "title": "Subinvolution and delayed bleeding",
+      "lectureRanges": [
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 5,
+          "lastPage": 6
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 14,
+          "lastPage": 18
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 36,
+          "lastPage": 38
+        },
+        {
+          "deckId": "postpartum-handout",
+          "firstPage": 1,
+          "lastPage": 2
+        }
+      ],
+      "topics": [
+        "Recognize a pattern of delayed recovery",
+        "Assess the cause and support collaborative care",
+        "Evaluate treatment and teach return precautions"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Recognize a pattern of delayed recovery",
+          "noteTopic": "Recognize a pattern of delayed recovery"
+        },
+        {
+          "requirement": "Assess the cause and support collaborative care",
+          "noteTopic": "Assess the cause and support collaborative care"
+        },
+        {
+          "requirement": "Evaluate treatment and teach return precautions",
+          "noteTopic": "Evaluate treatment and teach return precautions"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Original PDF — Postpartum care & assessment",
+          "url": "#/ob-final/presentation/postpartum-care"
+        },
+        {
+          "title": "Original PDF — Postpartum review handout",
+          "url": "#/ob-final/presentation/postpartum-handout"
+        },
+        {
+          "title": "Care clarification — NICE postnatal care",
+          "url": "https://www.nice.org.uk/guidance/ng194/chapter/Recommendations"
+        },
+        {
+          "title": "Safety clarification — CDC urgent maternal warning signs",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+        }
+      ],
+      "scope": "Follows the PDFs’ brief definition and retained-tissue/infection causes. Recognition, prioritization, treatment preparation and evaluation are explained without inventing a diagnostic or medication regimen."
+    },
+    {
+      "id": "postpartum-infections",
+      "title": "Postpartum infections",
+      "lectureRanges": [
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 6,
+          "lastPage": 6
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 27,
+          "lastPage": 28
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 34,
+          "lastPage": 40
+        },
+        {
+          "deckId": "postpartum-handout",
+          "firstPage": 2,
+          "lastPage": 6
+        }
+      ],
+      "topics": [
+        "Endometritis: think uterine infection",
+        "Perineal or incision infection: inspect the wound",
+        "Urinary infection: separate dysuria from retention",
+        "Mastitis: inflammation is not always bacterial infection",
+        "Systemic deterioration: recognize sepsis and act"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Endometritis: think uterine infection",
+          "noteTopic": "Endometritis: think uterine infection"
+        },
+        {
+          "requirement": "Perineal or incision infection: inspect the wound",
+          "noteTopic": "Perineal or incision infection: inspect the wound"
+        },
+        {
+          "requirement": "Urinary infection: separate dysuria from retention",
+          "noteTopic": "Urinary infection: separate dysuria from retention"
+        },
+        {
+          "requirement": "Mastitis: inflammation is not always bacterial infection",
+          "noteTopic": "Mastitis: inflammation is not always bacterial infection"
+        },
+        {
+          "requirement": "Systemic deterioration: recognize sepsis and act",
+          "noteTopic": "Systemic deterioration: recognize sepsis and act"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Original PDF — Postpartum care & assessment",
+          "url": "#/ob-final/presentation/postpartum-care"
+        },
+        {
+          "title": "Original PDF — Postpartum review handout",
+          "url": "#/ob-final/presentation/postpartum-handout"
+        },
+        {
+          "title": "Care clarification — NICE postnatal care",
+          "url": "https://www.nice.org.uk/guidance/ng194/chapter/Recommendations"
+        },
+        {
+          "title": "Breast-care clarification — ABM Mastitis Spectrum Protocol 36",
+          "url": "https://doi.org/10.1089/bfm.2022.29207.kbm"
+        },
+        {
+          "title": "Safety clarification — SMFM maternal sepsis",
+          "url": "https://publications.smfm.org/publications/507-society-for-maternal-fetal-medicine-consult-series-67/"
+        },
+        {
+          "title": "Safety clarification — CDC urgent maternal warning signs",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+        }
+      ],
+      "scope": "The PDFs name the infection types but do not give complete diagnosis/treatment pathways. Brief clinical/safety clarifications explain local cue differences, normal feeding/mastitis care and sepsis urgency; actual antibiotics and source-control decisions remain prescribed."
+    },
+    {
+      "id": "postpartum-thromboembolism",
+      "title": "Thromboembolism and urgent warning signs",
+      "lectureRanges": [
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 28,
+          "lastPage": 30
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 39,
+          "lastPage": 39
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 59,
+          "lastPage": 59
+        },
+        {
+          "deckId": "postpartum-handout",
+          "firstPage": 4,
+          "lastPage": 5
+        }
+      ],
+      "topics": [
+        "Understand the risk and prevent avoidable immobility",
+        "Possible DVT: evaluate unilateral findings",
+        "Possible PE: treat chest or breathing symptoms as urgent",
+        "Teaching and evaluation"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Understand the risk and prevent avoidable immobility",
+          "noteTopic": "Understand the risk and prevent avoidable immobility"
+        },
+        {
+          "requirement": "Possible DVT: evaluate unilateral findings",
+          "noteTopic": "Possible DVT: evaluate unilateral findings"
+        },
+        {
+          "requirement": "Possible PE: treat chest or breathing symptoms as urgent",
+          "noteTopic": "Possible PE: treat chest or breathing symptoms as urgent"
+        },
+        {
+          "requirement": "Teaching and evaluation",
+          "noteTopic": "Teaching and evaluation"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Original PDF — Postpartum care & assessment",
+          "url": "#/ob-final/presentation/postpartum-care"
+        },
+        {
+          "title": "Original PDF — Postpartum review handout",
+          "url": "#/ob-final/presentation/postpartum-handout"
+        },
+        {
+          "title": "Assessment/response clarification — RCOG venous thrombosis after birth",
+          "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/diagnosis-and-treatment-of-venous-thrombosis-in-pregnancy-and-after-birth/"
+        },
+        {
+          "title": "Prevention clarification — SMFM cesarean thromboprophylaxis",
+          "url": "https://publications.smfm.org/publications/327-society-for-maternal-fetal-medicine-consult-series-51/"
+        },
+        {
+          "title": "Safety clarification — CDC urgent maternal warning signs",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+        }
+      ],
+      "scope": "Uses source risk factors and leg-assessment cautions. Brief labeled assessment/prevention clarifications connect DVT/PE cues with diagnostic/team response and prescribed prophylaxis; no new anticoagulant dosing or duration table is added."
+    },
+    {
+      "id": "postpartum-mental-health",
+      "title": "Blues, depression, anxiety, and psychosis",
+      "lectureRanges": [
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 46,
+          "lastPage": 56
+        },
+        {
+          "deckId": "postpartum-handout",
+          "firstPage": 1,
+          "lastPage": 1
+        },
+        {
+          "deckId": "postpartum-handout",
+          "firstPage": 6,
+          "lastPage": 7
+        }
+      ],
+      "topics": [
+        "Blues versus depression: duration and function guide concern",
+        "Anxiety and intrusive thoughts: ask without judgment",
+        "Psychosis and immediate danger: protect and escalate",
+        "Screening, referral and treatment follow-through",
+        "Family education and evaluation"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Blues versus depression: duration and function guide concern",
+          "noteTopic": "Blues versus depression: duration and function guide concern"
+        },
+        {
+          "requirement": "Anxiety and intrusive thoughts: ask without judgment",
+          "noteTopic": "Anxiety and intrusive thoughts: ask without judgment"
+        },
+        {
+          "requirement": "Psychosis and immediate danger: protect and escalate",
+          "noteTopic": "Psychosis and immediate danger: protect and escalate"
+        },
+        {
+          "requirement": "Screening, referral and treatment follow-through",
+          "noteTopic": "Screening, referral and treatment follow-through"
+        },
+        {
+          "requirement": "Family education and evaluation",
+          "noteTopic": "Family education and evaluation"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Original PDF — Postpartum care & assessment",
+          "url": "#/ob-final/presentation/postpartum-care"
+        },
+        {
+          "title": "Original PDF — Postpartum review handout",
+          "url": "#/ob-final/presentation/postpartum-handout"
+        },
+        {
+          "title": "Mental-health clarification — NIMH perinatal depression",
+          "url": "https://www.nimh.nih.gov/health/publications/perinatal-depression"
+        },
+        {
+          "title": "Screening clarification — ACOG perinatal mental health",
+          "url": "https://www.acog.org/programs/perinatal-mental-health/patient-screening"
+        },
+        {
+          "title": "Safety clarification — IOCDF intrusive thoughts versus psychosis",
+          "url": "https://iocdf.org/perinatal-ocd/for-clinical-providers/perinatal-ocd-overview/"
+        }
+      ],
+      "scope": "Based on the PDFs’ mood/risk/support material. Brief timing, screening and safety clarifications distinguish depression, anxiety/intrusive thoughts and psychosis, which the handout conflates. No prevalence guarantee or one-score diagnosis is taught."
+    }
+  ],
+  "visualReview": [
+    {
+      "deckId": "postpartum-care",
+      "pages": [
+        7,
+        8,
+        12,
+        19,
+        42,
+        45,
+        50
+      ],
+      "purpose": "Reviewed fundal descent/assessment, pad saturation and erroneous mass-volume conversion, cervical appearance, prolapse/fistula diagrams and family interaction image. Image-only pages contain no hidden medication table or treatment protocol."
+    }
+  ],
+  "preservedCompletedObjectives": [
+    {
+      "id": "family-centered-care",
+      "sha256": "70a0b3b2ece86eb8bf63f3096dc4920845f670ac30dd63c330d90b1181792671"
+    },
+    {
+      "id": "pregnancy-adaptations",
+      "sha256": "cf195c48ab0f0f1ac71c5cded8f7ade851b4982250c7fb49821e9c42fb7401c2"
+    },
+    {
+      "id": "pregnancy-psychosocial-care",
+      "sha256": "a8fc5c78a886aac82d8136712864eaabd54876c1ceaec7f416e1ac74de96f7bf"
+    },
+    {
+      "id": "conception-fetal-development",
+      "sha256": "a977e1cfd51356225669fd1b760339b7310344d798eb56b69bd1dfb8487ebe3e"
+    },
+    {
+      "id": "pregnancy-signs",
+      "sha256": "d84d6ebc86af9ccf967fc27f093e1962d0012f37730f7c6ed42f09df0e17856a"
+    },
+    {
+      "id": "obstetric-history-gtpal",
+      "sha256": "70b17bd7266c0e4a5f3cbccdd7ec5bf7afff46deb2a254895cf9b814fc7449f5"
+    },
+    {
+      "id": "estimated-due-date",
+      "sha256": "4c7fb355ae71583d39b8eadc5cf27390b0a8cda16b575c5be8be739432901f17"
+    },
+    {
+      "id": "prenatal-assessment",
+      "sha256": "6b6348d843955794ec685927ab731331b7231d2f0ecc6bad6b5fb35faa1fba4e"
+    },
+    {
+      "id": "pregnancy-discomforts",
+      "sha256": "34c498545e7a2cfbaaed7ecbadb19f82b6b852084fdc5d1fe72c8dd230e0da8e"
+    },
+    {
+      "id": "prenatal-nutrition-teaching",
+      "sha256": "83e1f0e7ee44b5408a6c51eb18c495ba50bb04abfcfada596d3c25c1edacb0da"
+    },
+    {
+      "id": "high-risk-pregnancy-assessment",
+      "sha256": "58ac88980195a296e5d2deee1a458f1f13a5ee7bdb3e7ad8ae36890462d21a8b"
+    },
+    {
+      "id": "early-pregnancy-complications",
+      "sha256": "ad306f6df18fd34dee9ffb08bd37d1f7f6dc399d62d7fe4c989c4f4911c58696"
+    },
+    {
+      "id": "placental-bleeding",
+      "sha256": "707c745c51110fb3dae06c67efed3e4a5abdd952a8b3f86c9a6680800c2ac69d"
+    },
+    {
+      "id": "diabetes-assessment",
+      "sha256": "d339f75477a7e32654b26c0b34a13e69d00853d964c3b2146e327f88224b46d7"
+    },
+    {
+      "id": "diabetes-nursing-management",
+      "sha256": "094361a09b9d7defe6b6573413678eeabc31c2cefd846f72181120f949a70d37"
+    },
+    {
+      "id": "hypertensive-disorders",
+      "sha256": "c8593c799384dbaee342a6b08ce90a44dd2287055dc5595d8afb7ef1fae45307"
+    },
+    {
+      "id": "eclampsia-magnesium-hellp",
+      "sha256": "cf3ccd761f55857d196adbf4cf5b18d4c7fdda6eeb37291c54abecd98fcf9d0a"
+    },
+    {
+      "id": "pregnancy-prom-preterm",
+      "sha256": "a2ab601a785d8e285014984761f78364211d07fba602e986c4bfae92493e7df8"
+    },
+    {
+      "id": "rh-abo-infections",
+      "sha256": "274d6e23637b7dc15ef4f825f7d2520b59559325e07f4d688c2601917a133ef8"
+    },
+    {
+      "id": "fluid-multiples-pregnancy",
+      "sha256": "17dc96e563f057c24236fd7cf495942c7753c675986f571e2cfdeac9651c0e0e"
+    },
+    {
+      "id": "normal-labor-process",
+      "sha256": "b55ba5250d8dbc3f88c551be736418952d6ebf1a66341bc5d5d550dcafc5c5f4"
+    },
+    {
+      "id": "labor-nursing-assessment",
+      "sha256": "51eecfc874b5ecc7f956a4527500f4ab43790624925455e33b361eaef3db1138"
+    },
+    {
+      "id": "monitoring-methods",
+      "sha256": "29a00577b42d3fd5b69c403b3014e53161fe2635a6e637b16578acf93010daac"
+    },
+    {
+      "id": "fhr-strip-assessment",
+      "sha256": "a6a31f52d11398179b459d3ae919b226c760d9410eb68716691abebcd3381a63"
+    },
+    {
+      "id": "fhr-patterns",
+      "sha256": "55d736bced31e3f903cf3e03b85d5b2ea9e76c682d0ef45ff5269cbf7cbf37cb"
+    },
+    {
+      "id": "fhr-priorities",
+      "sha256": "c5f77e4885ea7ac00eaf2a2428c8be195602b2cc4e646946552983c15edfa27a"
+    },
+    {
+      "id": "labor-comfort-medication",
+      "sha256": "43debdc4bebe66782ea977c4fe524b259c50e47dbeffddf6320d6e7595c84c21"
+    },
+    {
+      "id": "induction-augmentation",
+      "sha256": "a21c21dff0b36b1a19f2b9f966ac38276e584b0871ca33c4774b6efbbc6f14c2"
+    },
+    {
+      "id": "complicated-labor",
+      "sha256": "dbfa4f53b59403adb8f0e1b8148910bcfe155c41353d4075fbfb7026c84b44fd"
+    },
+    {
+      "id": "assisted-cesarean-birth",
+      "sha256": "e18bb1ae3b2d153c39c30296e8849b2ae26c2c667b8dde9a6d26a84849628aa4"
+    },
+    {
+      "id": "shoulder-dystocia",
+      "sha256": "5b84d05572cac4ed63f9a5158bf8c6310b64cdd23987ac2e4fab963f6ce226ec"
+    },
+    {
+      "id": "placental-emergency-response",
+      "sha256": "528bb4f4558dc54218e43d5c1eabe9d6d496b93fc77377b941f68b49a7c6ef7e"
+    },
+    {
+      "id": "other-birth-emergencies",
+      "sha256": "e16f05346676b038a75b440593aafc083a1f10a697c815436cfe3d237f16c861"
+    }
+  ],
+  "emphasis": {
+    "newBoldSpans": 130,
+    "storage": "docs/readability/ob-readability-review.json",
+    "handling": "Exact phrases only; no Markdown/HTML is inserted into the authored notes. Earlier CSV flags, decisions and ten Week 6 additions remain unchanged."
+  },
+  "materialLimits": [
+    {
+      "objectiveId": "postpartum-infections",
+      "handling": "Original PDFs list infection categories but not complete diagnostic/antibiotic regimens; brief clinical clarification differentiates site findings, mastitis care and sepsis response. Prescribed drug choices and source-control plans remain individualized."
+    },
+    {
+      "objectiveId": "postpartum-thromboembolism",
+      "handling": "Original PDFs provide risk factors and the no-Homan warning but no diagnostic/anticoagulant protocol; brief labeled clarification connects symptoms with urgent evaluation and ordered prevention/treatment."
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-management",
+      "handling": "Original material names massage, oxytocin, methylergonovine and carboprost but lacks full staged response/doses/contraindications. Essential response and medication-safety clarifications are included; no new dosing or surgical protocol is supplied."
+    },
+    {
+      "objectiveId": "postpartum-subinvolution",
+      "handling": "The slides name delayed bleeding, retained tissue and infection without a full workup; nursing preparation/evaluation is explained without inventing a diagnostic algorithm."
+    }
+  ],
+  "clarifications": [
+    {
+      "issue": "Fever/tachycardia and increased blood volume presented as reassurance",
+      "handling": "Interpret trends and assess fever ≥38°C at any point; normal BP or initial hemoglobin cannot exclude hemorrhage.",
+      "sources": [
+        "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+        "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/postpartum-care-and-associated-disorders/postpartum-care",
+        "https://www.cmqcc.org/toolkits-quality-improvement/hemorrhage"
+      ]
+    },
+    {
+      "issue": "Lochia pad categories and 500 mL = 454 g conversion",
+      "handling": "Separate visual saturation cues from quantification; subtract dry weight and use approximately 1 g = 1 mL added blood weight.",
+      "sources": [
+        "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/12/quantitative-blood-loss-in-obstetric-hemorrhage"
+      ]
+    },
+    {
+      "issue": "Traditional route-specific PPH thresholds",
+      "handling": "Distinguish lecture thresholds from ACOG definition, with action before a threshold when clinically indicated.",
+      "sources": [
+        "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2017/10/postpartum-hemorrhage"
+      ]
+    },
+    {
+      "issue": "Uterotonics named without safety checks; incomplete response",
+      "handling": "Clarify methylergonovine/HTN and carboprost/asthma precautions, parallel resuscitation/cause control and ordered early TXA as an antifibrinolytic.",
+      "sources": [
+        "https://www.cmqcc.org/toolkits-quality-improvement/hemorrhage",
+        "https://www.who.int/publications/i/item/9789240115637"
+      ]
+    },
+    {
+      "issue": "Breast binding/deep massage and extra pumping",
+      "handling": "Support nonconstricting bra, cold and normal effective feeding; avoid deep massage/binding/forced emptying.",
+      "sources": [
+        "https://doi.org/10.1089/bfm.2022.29207.kbm"
+      ]
+    },
+    {
+      "issue": "Routine urine interruption and universal cesarean clear-liquid/ambulation rules",
+      "handling": "Empty-bladder pelvic-floor practice and individualized diet/mobility/voiding plans.",
+      "sources": [
+        "https://www.nice.org.uk/guidance/ng194/chapter/Recommendations",
+        "https://www.nice.org.uk/guidance/ng192/chapter/Recommendations",
+        "https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/advice-and-exercise-following-childbirth"
+      ]
+    },
+    {
+      "issue": "Handout implies routine bedside uterine sweeping",
+      "handling": "Uterine exploration/removal is clinician-led and indication-specific, not routine nursing recovery care.",
+      "sources": [
+        "https://www.cmqcc.org/toolkits-quality-improvement/hemorrhage"
+      ]
+    },
+    {
+      "issue": "MMR egg/shedding wording, broad Rh dosing and lactational infertility",
+      "handling": "Clarify MMR/breastfeeding and 28-day pregnancy avoidance, unsensitized Rh-negative/Rh-positive eligibility and 72-hour prophylaxis, and all LAM criteria.",
+      "sources": [
+        "https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/index.html",
+        "https://www.cdc.gov/rubella/hcp/vaccine-considerations/",
+        "https://www.acog.org/womens-health/faqs/the-rh-factor-how-it-can-affect-your-pregnancy",
+        "https://www.cdc.gov/contraception/hcp/usmec/lactational-amenorrhea-method.html",
+        "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/measles-rubeola.html"
+      ]
+    },
+    {
+      "issue": "One postpartum visit/fixed restriction or universal sterilization rule",
+      "handling": "Earlier individualized follow-up with contact by 3 weeks and comprehensive care by 12 weeks; avoid universal restrictions or legal claims.",
+      "sources": [
+        "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2018/05/optimizing-postpartum-care"
+      ]
+    },
+    {
+      "issue": "Infection equated with sepsis in fixed time window",
+      "handling": "Differentiate infection from organ dysfunction, including possible sepsis without fever and urgent treatment.",
+      "sources": [
+        "https://publications.smfm.org/publications/507-society-for-maternal-fetal-medicine-consult-series-67/"
+      ]
+    },
+    {
+      "issue": "Depression/intrusive thoughts automatically progress to psychosis; screening scales conflated",
+      "handling": "Distinguish duration/function, insight/reality testing and immediate danger; name BDI-II versus EPDS/PHQ-9 without importing diagnostic cutoffs.",
+      "sources": [
+        "https://www.nimh.nih.gov/health/publications/perinatal-depression",
+        "https://iocdf.org/perinatal-ocd/for-clinical-providers/perinatal-ocd-overview/",
+        "https://www.acog.org/programs/perinatal-mental-health/patient-screening"
+      ]
+    }
+  ],
+  "sharedViews": "All twelve answers are reused in Week 8. Six appear on normal-postpartum and six on postpartum-complications. Original topic order, question banks/maps, practice shortcuts, TikToks, materials layout and navigation are unchanged.",
+  "limits": "Source-led educational notes with clearly labeled clinical safety/care clarifications. Automated checks verify coverage, original-source integrity, earlier-note preservation and rendering; these are not independent clinical validation or a bedside order set."
+}

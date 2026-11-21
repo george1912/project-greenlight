@@ -3165,5 +3165,665 @@ const obReadabilityRules = {
       "text": "prevention of reinfection",
       "style": "bold"
     }
+  ],
+  "postpartum-physiology|Quick answer": [
+    {
+      "text": "firm uterus that progressively descends",
+      "style": "bold"
+    },
+    {
+      "text": "Afterpains and early soreness should improve",
+      "style": "bold"
+    },
+    {
+      "text": "Heavy/increasing bleeding, fever, chest symptoms, severe headache, or deterioration needs assessment",
+      "style": "bold"
+    }
+  ],
+  "postpartum-physiology|Involution and afterpains: follow the direction of change": [
+    {
+      "text": "about 1 cm per day",
+      "style": "bold"
+    },
+    {
+      "text": "compresses vessels at the placental site",
+      "style": "bold"
+    },
+    {
+      "text": "severe, persistent or worsening pain",
+      "style": "bold"
+    }
+  ],
+  "postpartum-physiology|Lochia: compare color, amount, odor and trend": [
+    {
+      "text": "Rubra → serosa → alba",
+      "style": "bold"
+    },
+    {
+      "text": "continued or increasing flow needs reassessment",
+      "style": "bold"
+    }
+  ],
+  "postpartum-physiology|Fluid, circulation and breathing: normal shifts versus deterioration": [
+    {
+      "text": "12–24 hours for increased urine output",
+      "style": "bold"
+    },
+    {
+      "text": "normal BP alone does not rule out hemorrhage",
+      "style": "bold"
+    },
+    {
+      "text": "New breathlessness or chest pain is not routine fluid adjustment",
+      "style": "bold"
+    }
+  ],
+  "postpartum-physiology|Hormones, breasts and return of fertility": [
+    {
+      "text": "Estrogen and progesterone fall after placental delivery",
+      "style": "bold"
+    },
+    {
+      "text": "Ovulation can occur before the first period",
+      "style": "bold"
+    }
+  ],
+  "postpartum-physiology|Perineum, abdomen, pelvic floor and skin": [
+    {
+      "text": "up to several months to recover",
+      "style": "bold"
+    },
+    {
+      "text": "a new or severe headache requires assessment",
+      "style": "bold"
+    }
+  ],
+  "postpartum-physiology|Put expected findings in context": [
+    {
+      "text": "6 weeks after placental delivery",
+      "style": "bold"
+    },
+    {
+      "text": "improving symptoms and stable function",
+      "style": "bold"
+    },
+    {
+      "text": "fever ≥38°C/100.4°F needs clinical assessment",
+      "style": "bold"
+    }
+  ],
+  "postpartum-assessment|Quick answer": [
+    {
+      "text": "BUBBLEHE plus vital signs, pain and legs",
+      "style": "bold"
+    },
+    {
+      "text": "uterine tone/position, bleeding and perfusion",
+      "style": "bold"
+    },
+    {
+      "text": "Escalate abnormal findings and reassess the response",
+      "style": "bold"
+    }
+  ],
+  "postpartum-assessment|Start with safety, history and the course mnemonic": [
+    {
+      "text": "vital signs, pain, alertness and overall appearance",
+      "style": "bold"
+    },
+    {
+      "text": "breasts, uterus, bladder, bowel, lochia, episiotomy/incision, hemorrhoids and emotional status",
+      "style": "bold"
+    }
+  ],
+  "postpartum-assessment|Breasts: match assessment with feeding goals": [
+    {
+      "text": "nipple trauma or persistent pain merits help",
+      "style": "bold"
+    },
+    {
+      "text": "avoid tight binding or deep breast massage",
+      "style": "bold"
+    }
+  ],
+  "postpartum-assessment|Uterus, lochia and perfusion: connect the findings": [
+    {
+      "text": "firm versus boggy tone",
+      "style": "bold"
+    },
+    {
+      "text": "bleeding with a firm uterus needs another cause considered",
+      "style": "bold"
+    }
+  ],
+  "postpartum-assessment|Bladder and bowel: assess ability as well as output": [
+    {
+      "text": "Decreased bladder sensation can conceal retention",
+      "style": "bold"
+    }
+  ],
+  "postpartum-assessment|Perineum or incision, hemorrhoids and legs": [
+    {
+      "text": "REEDA: redness, edema, ecchymosis, drainage and approximation",
+      "style": "bold"
+    },
+    {
+      "text": "Severe pain or asymmetric swelling",
+      "style": "bold"
+    },
+    {
+      "text": "Do not use Homan’s sign",
+      "style": "bold"
+    }
+  ],
+  "postpartum-assessment|Emotional status, documentation and evaluation": [
+    {
+      "text": "does not by itself diagnose impaired attachment or depression",
+      "style": "bold"
+    },
+    {
+      "text": "stable perfusion, controlled bleeding and improving comfort/function",
+      "style": "bold"
+    }
+  ],
+  "postpartum-labs-elimination|Quick answer": [
+    {
+      "text": "vital-sign and laboratory trends with symptoms and blood loss",
+      "style": "bold"
+    },
+    {
+      "text": "Diuresis can coexist with urinary retention",
+      "style": "bold"
+    },
+    {
+      "text": "evaluate output, comfort and uterine position",
+      "style": "bold"
+    }
+  ],
+  "postpartum-labs-elimination|Vital signs: assess the patient behind the number": [
+    {
+      "text": "assess fever ≥38°C/100.4°F",
+      "style": "bold"
+    },
+    {
+      "text": "Do not wait for hypotension to recognize hemorrhage",
+      "style": "bold"
+    }
+  ],
+  "postpartum-labs-elimination|CBC and fluid shifts: avoid false reassurance": [
+    {
+      "text": "A single normal or high Hgb/Hct does not exclude acute hemorrhage",
+      "style": "bold"
+    },
+    {
+      "text": "about 20,000–30,000/µL in the first 24 hours",
+      "style": "bold"
+    }
+  ],
+  "postpartum-labs-elimination|Diuresis versus retention: these are different findings": [
+    {
+      "text": "Frequent small voids do not prove the bladder is empty",
+      "style": "bold"
+    }
+  ],
+  "postpartum-labs-elimination|Help the patient void and evaluate the result": [
+    {
+      "text": "within about 6 hours of birth or catheter removal",
+      "style": "bold"
+    }
+  ],
+  "postpartum-labs-elimination|Bowel recovery and constipation": [
+    {
+      "text": "2–3 days",
+      "style": "bold"
+    },
+    {
+      "text": "Persistent vomiting, marked distention or worsening abdominal pain",
+      "style": "bold"
+    }
+  ],
+  "postpartum-comfort-mobility|Quick answer": [
+    {
+      "text": "pain should become manageable and function should improve",
+      "style": "bold"
+    },
+    {
+      "text": "perineal/incision care, breast support, safe mobility, rest and elimination support",
+      "style": "bold"
+    },
+    {
+      "text": "Worsening focal pain, new leg/chest symptoms, fever or wound changes require review",
+      "style": "bold"
+    }
+  ],
+  "postpartum-comfort-mobility|Pain: connect location, cause and treatment": [
+    {
+      "text": "acetaminophen and an NSAID are common foundations when appropriate",
+      "style": "bold"
+    }
+  ],
+  "postpartum-comfort-mobility|Perineum and hemorrhoids: reduce swelling and protect healing": [
+    {
+      "text": "covered cold packs during the first 24 hours",
+      "style": "bold"
+    },
+    {
+      "text": "Disproportionate pain or asymmetric swelling may mean hematoma",
+      "style": "bold"
+    }
+  ],
+  "postpartum-comfort-mobility|Cesarean incision and safe movement": [
+    {
+      "text": "Assist initial mobility after anesthesia and hemodynamic assessment",
+      "style": "bold"
+    },
+    {
+      "text": "Uterine exploration is clinician-led and indication-specific",
+      "style": "bold"
+    }
+  ],
+  "postpartum-comfort-mobility|Breast discomfort: support the chosen feeding plan": [
+    {
+      "text": "use cold and avoid tight binding, deep massage or forced extra pumping",
+      "style": "bold"
+    }
+  ],
+  "postpartum-comfort-mobility|Rest, food, hydration and pelvic-floor recovery": [
+    {
+      "text": "Practice with an empty bladder, not by repeatedly stopping urine flow",
+      "style": "bold"
+    }
+  ],
+  "postpartum-family-adaptation|Quick answer": [
+    {
+      "text": "taking-in, taking-hold and letting-go",
+      "style": "bold"
+    },
+    {
+      "text": "coping, expectations, birth experience, infant health and available support",
+      "style": "bold"
+    },
+    {
+      "text": "persistent distress or impaired safety/function requires follow-up",
+      "style": "bold"
+    }
+  ],
+  "postpartum-family-adaptation|Rubin’s phases: use them as a framework": [
+    {
+      "text": "Meet physical needs and listen to the birth story",
+      "style": "bold"
+    },
+    {
+      "text": "not a mandatory sequence or a parenting score",
+      "style": "bold"
+    }
+  ],
+  "postpartum-family-adaptation|Becoming a parent and partner adjustment": [
+    {
+      "text": "Adjustment continues beyond hospital discharge",
+      "style": "bold"
+    }
+  ],
+  "postpartum-family-adaptation|Assess attachment and the barriers around it": [
+    {
+      "text": "There is no single required display of bonding",
+      "style": "bold"
+    },
+    {
+      "text": "does not alone establish poor attachment",
+      "style": "bold"
+    }
+  ],
+  "postpartum-family-adaptation|Nursing support and evaluation": [
+    {
+      "text": "Ask who will help after discharge",
+      "style": "bold"
+    }
+  ],
+  "postpartum-discharge|Quick answer": [
+    {
+      "text": "self-care, feeding, medicines, activity, follow-up and warning signs",
+      "style": "bold"
+    },
+    {
+      "text": "MMR/rubella immunity, Rh prophylaxis when indicated and contraception planning",
+      "style": "bold"
+    },
+    {
+      "text": "teach-back and return demonstration",
+      "style": "bold"
+    }
+  ],
+  "postpartum-discharge|Check readiness and teach self-care": [
+    {
+      "text": "pelvic rest for 6 weeks",
+      "style": "bold"
+    }
+  ],
+  "postpartum-discharge|Warning signs: make the action clear": [
+    {
+      "text": "Heavy/increasing bleeding, chest pain, trouble breathing, fainting, severe headache/visual change or severe abdominal pain",
+      "style": "bold"
+    },
+    {
+      "text": "Do not wait for the scheduled postpartum visit",
+      "style": "bold"
+    }
+  ],
+  "postpartum-discharge|Rubella/MMR and Rh prophylaxis: different purposes": [
+    {
+      "text": "Breastfeeding is compatible with MMR",
+      "style": "bold"
+    },
+    {
+      "text": "unsensitized Rh-negative patient with an Rh-positive infant",
+      "style": "bold"
+    }
+  ],
+  "postpartum-discharge|Fertility and contraception: correct the long-delay assumption": [
+    {
+      "text": "Ovulation may occur before menstruation resumes",
+      "style": "bold"
+    },
+    {
+      "text": "amenorrhea, fully/nearly fully breastfeeding and <6 months postpartum",
+      "style": "bold"
+    }
+  ],
+  "postpartum-discharge|Follow-up, support and teach-back": [
+    {
+      "text": "postpartum contact within 3 weeks",
+      "style": "bold"
+    },
+    {
+      "text": "understanding, practical support and arranged follow-up",
+      "style": "bold"
+    }
+  ],
+  "postpartum-hemorrhage-assessment|Quick answer": [
+    {
+      "text": "bleeding plus uterine tone, pain and perfusion",
+      "style": "bold"
+    },
+    {
+      "text": "atony, trauma/hematoma, retained tissue and coagulation problems",
+      "style": "bold"
+    },
+    {
+      "text": "Call for help when bleeding or the patient’s condition is concerning",
+      "style": "bold"
+    }
+  ],
+  "postpartum-hemorrhage-assessment|Definition, timing and risk recognition": [
+    {
+      "text": "cumulative loss ≥1000 mL or bleeding with hypovolemia within 24 hours",
+      "style": "bold"
+    }
+  ],
+  "postpartum-hemorrhage-assessment|Atony: a poorly contracted uterus": [
+    {
+      "text": "Boggy uterine tone with increased bleeding",
+      "style": "bold"
+    }
+  ],
+  "postpartum-hemorrhage-assessment|Trauma and hematoma: the uterus may be firm": [
+    {
+      "text": "Continued bleeding despite a firm uterus",
+      "style": "bold"
+    },
+    {
+      "text": "Small visible lochia does not exclude substantial concealed bleeding",
+      "style": "bold"
+    }
+  ],
+  "postpartum-hemorrhage-assessment|Retained tissue, inversion and coagulation problems": [
+    {
+      "text": "Inversion is not ordinary atony",
+      "style": "bold"
+    },
+    {
+      "text": "oozing from puncture sites",
+      "style": "bold"
+    }
+  ],
+  "postpartum-hemorrhage-assessment|Quantify loss and recognize shock early": [
+    {
+      "text": "1 g of added weight is approximately 1 mL of blood",
+      "style": "bold"
+    },
+    {
+      "text": "Normal BP or an early normal Hgb does not rule out hemorrhage",
+      "style": "bold"
+    }
+  ],
+  "postpartum-hemorrhage-management|Quick answer": [
+    {
+      "text": "summon the hemorrhage team and assess tone/perfusion immediately",
+      "style": "bold"
+    },
+    {
+      "text": "a firm uterus with bleeding needs trauma/tissue/coagulation assessment",
+      "style": "bold"
+    },
+    {
+      "text": "Trend blood loss and the patient’s response continuously",
+      "style": "bold"
+    }
+  ],
+  "postpartum-hemorrhage-management|First response: call, assess and act together": [
+    {
+      "text": "Activate the obstetric hemorrhage response",
+      "style": "bold"
+    }
+  ],
+  "postpartum-hemorrhage-management|Restore perfusion and prepare the team’s treatment": [
+    {
+      "text": "Clinical deterioration takes priority over an initially reassuring lab result",
+      "style": "bold"
+    }
+  ],
+  "postpartum-hemorrhage-management|Uterotonics: purpose and the key safety checks": [
+    {
+      "text": "avoid methylergonovine with hypertension/preeclampsia",
+      "style": "bold"
+    },
+    {
+      "text": "avoid carboprost in asthma",
+      "style": "bold"
+    }
+  ],
+  "postpartum-hemorrhage-management|Treat the cause and continue escalation": [
+    {
+      "text": "Improving uterine tone alone is not adequate if bleeding continues",
+      "style": "bold"
+    },
+    {
+      "text": "tranexamic acid is an antifibrinolytic, not a uterotonic",
+      "style": "bold"
+    }
+  ],
+  "postpartum-hemorrhage-management|Evaluate, document and support recovery": [
+    {
+      "text": "decreasing bleeding and improving perfusion",
+      "style": "bold"
+    }
+  ],
+  "postpartum-subinvolution|Quick answer": [
+    {
+      "text": "fails to regress as expected",
+      "style": "bold"
+    },
+    {
+      "text": "retained placental fragments and pelvic infection",
+      "style": "bold"
+    },
+    {
+      "text": "Assess bleeding, uterine trend and maternal condition",
+      "style": "bold"
+    }
+  ],
+  "postpartum-subinvolution|Recognize a pattern of delayed recovery": [
+    {
+      "text": "A uterus not descending as expected with persistent/recurrent bleeding",
+      "style": "bold"
+    }
+  ],
+  "postpartum-subinvolution|Assess the cause and support collaborative care": [
+    {
+      "text": "Assess perfusion and bleeding severity first",
+      "style": "bold"
+    }
+  ],
+  "postpartum-subinvolution|Evaluate treatment and teach return precautions": [
+    {
+      "text": "the concerning pattern is resolving",
+      "style": "bold"
+    },
+    {
+      "text": "Heavy bleeding, faintness or other poor-perfusion symptoms needs urgent help",
+      "style": "bold"
+    }
+  ],
+  "postpartum-infections|Quick answer": [
+    {
+      "text": "uterine, wound, urinary and breast findings",
+      "style": "bold"
+    },
+    {
+      "text": "fever or systemic deterioration is not normal lactation",
+      "style": "bold"
+    },
+    {
+      "text": "activate urgent sepsis care when organ dysfunction or shock is suspected",
+      "style": "bold"
+    }
+  ],
+  "postpartum-infections|Endometritis: think uterine infection": [
+    {
+      "text": "uterine/pelvic tenderness or foul-smelling lochia",
+      "style": "bold"
+    }
+  ],
+  "postpartum-infections|Perineal or incision infection: inspect the wound": [
+    {
+      "text": "increasing wound pain, redness, drainage or separation",
+      "style": "bold"
+    }
+  ],
+  "postpartum-infections|Urinary infection: separate dysuria from retention": [
+    {
+      "text": "Fever with flank pain or systemic illness",
+      "style": "bold"
+    }
+  ],
+  "postpartum-infections|Mastitis: inflammation is not always bacterial infection": [
+    {
+      "text": "normal breastfeeding/milk removal as tolerated",
+      "style": "bold"
+    }
+  ],
+  "postpartum-infections|Systemic deterioration: recognize sepsis and act": [
+    {
+      "text": "sepsis means infection with life-threatening organ dysfunction",
+      "style": "bold"
+    }
+  ],
+  "postpartum-thromboembolism|Quick answer": [
+    {
+      "text": "hypercoagulability, vessel injury and immobility",
+      "style": "bold"
+    },
+    {
+      "text": "Unilateral leg pain/swelling",
+      "style": "bold"
+    },
+    {
+      "text": "suspected DVT/PE requires urgent evaluation",
+      "style": "bold"
+    }
+  ],
+  "postpartum-thromboembolism|Understand the risk and prevent avoidable immobility": [
+    {
+      "text": "safe early mobility when stable",
+      "style": "bold"
+    }
+  ],
+  "postpartum-thromboembolism|Possible DVT: evaluate unilateral findings": [
+    {
+      "text": "one-sided swelling, tenderness, warmth or pain",
+      "style": "bold"
+    },
+    {
+      "text": "Do not use Homan’s sign to diagnose or exclude DVT",
+      "style": "bold"
+    }
+  ],
+  "postpartum-thromboembolism|Possible PE: treat chest or breathing symptoms as urgent": [
+    {
+      "text": "Sudden dyspnea, chest pain, hypoxia, coughing blood or collapse",
+      "style": "bold"
+    }
+  ],
+  "postpartum-thromboembolism|Teaching and evaluation": [
+    {
+      "text": "adherence and bleeding precautions",
+      "style": "bold"
+    }
+  ],
+  "postpartum-mental-health|Quick answer": [
+    {
+      "text": "short-lived blues from persistent depression/anxiety and loss of reality testing",
+      "style": "bold"
+    },
+    {
+      "text": "Unwanted intrusive thoughts are not automatically psychosis",
+      "style": "bold"
+    },
+    {
+      "text": "Psychosis or immediate danger requires emergency assessment and protection",
+      "style": "bold"
+    }
+  ],
+  "postpartum-mental-health|Blues versus depression: duration and function guide concern": [
+    {
+      "text": "within 2 weeks",
+      "style": "bold"
+    },
+    {
+      "text": "Severe symptoms or poor function require help even before 2 weeks",
+      "style": "bold"
+    }
+  ],
+  "postpartum-mental-health|Anxiety and intrusive thoughts: ask without judgment": [
+    {
+      "text": "unwanted, distressing and recognized as thoughts",
+      "style": "bold"
+    },
+    {
+      "text": "Do not assume either safety or psychosis from the word “intrusive”",
+      "style": "bold"
+    }
+  ],
+  "postpartum-mental-health|Psychosis and immediate danger: protect and escalate": [
+    {
+      "text": "Hallucinations, delusions, severe confusion, mania or loss of reality testing",
+      "style": "bold"
+    },
+    {
+      "text": "Do not leave a patient at immediate risk alone with the baby",
+      "style": "bold"
+    }
+  ],
+  "postpartum-mental-health|Screening, referral and treatment follow-through": [
+    {
+      "text": "EPDS or PHQ-9 are commonly used validated screens",
+      "style": "bold"
+    }
+  ],
+  "postpartum-mental-health|Family education and evaluation": [
+    {
+      "text": "Provide a clear plan for urgent help and follow-up",
+      "style": "bold"
+    }
   ]
 };

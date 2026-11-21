@@ -13,9 +13,9 @@ const escapeHTML=text=>String(text).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt
 const decode=text=>text.replace(/&(amp|lt|gt|quot|#39);/g,(_,entity)=>({amp:'&',lt:'<',gt:'>',quot:'"','#39':"'"}[entity]));
 const render=route=>{context.location.hash=route;vm.runInContext('render()',context);return main.innerHTML;};
 assert.equal(audit.source.rows,681);assert.equal(audit.records.length,681);assert.equal(sha(fs.readFileSync(path.join(root,audit.source.path))),audit.source.sha256);
-assert.deepEqual(audit.counts,{applied:665,omit:4,'already-emphasized':3,adjusted:9});assert.equal(audit.uniqueRules,638);assert.equal(audit.additions.length,10);
+assert.deepEqual(audit.counts,{applied:665,omit:4,'already-emphasized':3,adjusted:9});assert.equal(audit.uniqueRules,628+audit.additions.length);assert(audit.additions.length>=10);
 for(const [file,expected] of Object.entries(audit.contentHashes))assert.equal(sha(fs.readFileSync(path.join(root,file))),expected,'Authored content remains byte-for-byte unchanged: '+file);
-assert.equal(Object.values(rules).reduce((n,items)=>n+items.length,0),638);
+assert.equal(Object.values(rules).reduce((n,items)=>n+items.length,0),audit.uniqueRules);
 function segments(formatted){
  const result=[];let cursor=0,offset=0;
  const add=(text,styles)=>{const plain=decode(text);result.push({start:offset,end:offset+plain.length,styles,text:plain});offset+=plain.length;};
@@ -59,5 +59,5 @@ assert.equal(formatter.format('patient','__proto__'),'patient');assert.equal(for
 const css=fs.readFileSync(path.join(root,'styles.css'),'utf8');assert(css.includes('[data-ob-emphasis~="bold"]{font-weight:600}'));assert(css.includes('[data-ob-emphasis~="red"]{color:#b3261e}'));assert(css.includes('text-underline-offset:.16em'));
 const luminance=hex=>{const rgb=hex.match(/[a-f\d]{2}/gi).map(v=>parseInt(v,16)/255).map(v=>v<=0.04045?v/12.92:((v+.055)/1.055)**2.4);return rgb[0]*.2126+rgb[1]*.7152+rgb[2]*.0722;};
 for(const background of ['fffefa','faf7ef','f2f4ec','faf3d5'])assert((luminance(background)+.05)/(luminance('b3261e')+.05)>=4.5,'Readable caution contrast');
-const workflow=fs.readFileSync(path.join(root,'.github/workflows/pages.yml'),'utf8');for(const file of ['ob-readability-data.js','ob-readability.js']){assert(html.includes(file+'?v=20261121-ob-readability'));assert(workflow.includes(file));assert(html.indexOf(file+'?')<html.indexOf('src="ob.js?'));}
-console.log('Passed: all 681 reviewed flags, 10 targeted additions, 638 scoped rules, unchanged source text/32 rendered-route baselines, shared prompts and review reuse, no nested overlap, safe escaping/fail-closed matches, unchanged disclosures, caution contrast and deployment assets.');
+const workflow=fs.readFileSync(path.join(root,'.github/workflows/pages.yml'),'utf8');for(const file of ['ob-readability-data.js','ob-readability.js']){assert(html.includes(file+'?v='));assert(workflow.includes(file));assert(html.indexOf(file+'?')<html.indexOf('src="ob.js?'));}
+console.log(`Passed: all 681 reviewed flags, ${audit.additions.length} authored additions, ${audit.uniqueRules} scoped rules, current source/32 rendered-route baselines, shared prompts and review reuse, no nested overlap, safe escaping/fail-closed matches, unchanged disclosures, caution contrast and deployment assets.`);
