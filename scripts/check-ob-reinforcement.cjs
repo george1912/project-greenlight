@@ -37,8 +37,8 @@ for(const week of course.weeks){
  const markup=render('#/ob-final/'+week.id);assert.deepEqual(sections(markup),expected.sort(),week.id);
  assert.equal(new Set(sections(markup)).size,sections(markup).length);assert(!markup.includes('data-practice-question='));
 }
-assert(objectives.filter(o=>o.id!=='family-centered-care').every(o=>!o.answer.length),'Other study notes remain for the user to supply');
-assert(objectives.find(o=>o.id==='family-centered-care').answer.length,'Supplied family-centered notes are preserved');
+assert(objectives.filter(o=>!o.weekIds.includes('week-1')).every(o=>!o.answer.length),'Other study notes remain for the user to supply');
+assert(objectives.filter(o=>o.weekIds.includes('week-1')).every(o=>o.answer.length),'All Week 1 notes are preserved');
 assert(!Object.keys(bank.sections).some(id=>id.startsWith('sti-')),'Do not invent an STI bank from unrelated questions');
 assert(answers.get(83).answer.includes('unreliable'));assert(answers.get(95).answer.includes('within 3 weeks'));assert(answers.get(195).answer.includes('6 cm'));
 assert(answers.get(103).answer.includes('100/min or greater'));assert(!answers.get(216).answer.includes('Reposition, oxygen'));
@@ -59,4 +59,4 @@ if(arg){
  }
 }
 const workflow=fs.readFileSync(path.join(root,'.github/workflows/pages.yml'),'utf8');for(const asset of ['ob-question-map.js','ob-question-quizzes.js','ob-practice-questions'])assert(workflow.includes(asset));
-console.log('Passed: all 541 source rows and keys, 50 mapped sections, shuffled choices, grading, clinical corrections, exact weekly/exam placement, weekly-only infant review, collapsed lazy panels, preserved supplied family-centered notes, other blank study-note areas, and publication assets.');
+console.log('Passed: all 541 source rows and keys, 50 mapped sections, shuffled choices, grading, clinical corrections, exact weekly/exam placement, weekly-only infant review, collapsed lazy panels, preserved completed Week 1 notes, other blank study-note areas, and publication assets.');

@@ -1080,6 +1080,9 @@
     }
   ],
   "completedObjectiveIds": [
-    "family-centered-care"
+    "family-centered-care",
+    "pregnancy-adaptations",
+    "pregnancy-psychosocial-care",
+    "conception-fetal-development"
   ]
 }

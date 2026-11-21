@@ -10,6 +10,14 @@ const OBStudy = (() => {
   const objectives = () => typeof obStudyObjectives === 'undefined' ? [] : obStudyObjectives;
   const weekObjectives = week => objectives().filter(objective=>objective.weekIds.includes(week.id));
   const topicObjectives = topic => objectives().filter(objective=>objective.topicIds.includes(topic.id));
+  function objectiveNotes(blocks) {
+    return blocks.map(block=>{
+      if(block.type==='overview')return `<div class="ob-note-overview"><h4>Quick answer</h4>${studyContent([{type:'list',items:block.items}],'h4')}</div>`;
+      if(block.type==='group')return `<details class="ob-note-topic"><summary><h4>${escapeHTML(block.title)}</h4></summary><div class="ob-note-topic-body">${objectiveNotes(block.blocks)}</div></details>`;
+      if(block.type==='facts')return `<dl class="ob-note-facts">${block.items.map(item=>`<div><dt>${escapeHTML(item.label)}</dt><dd>${escapeHTML(item.text)}</dd></div>`).join('')}</dl>`;
+      return studyContent([block],'h4');
+    }).join('');
+  }
   function noteSources(objective) {
     if (!objective.answerSources?.length) return '';
     return `<details class="ob-note-sources"><summary>Sources for these notes</summary><p>${escapeHTML(objective.answerSourceNote)} Reviewed ${escapeHTML(objective.answerReviewedOn)}.</p><ul>${objective.answerSources.map(source=>`<li><a href="${escapeHTML(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(source.title)}</a></li>`).join('')}</ul></details>`;
@@ -18,7 +26,7 @@ const OBStudy = (() => {
     if (!items.length) return '';
     return `<section class="ob-objectives" aria-label="${escapeHTML(heading)}"><h2>${escapeHTML(heading)}</h2><p class="ob-objectives-intro">Study prompts based on the syllabus, exam blueprint, and teaching presentations. Use them to guide your notes; expand a prompt to read its study notes.</p><div class="objectives">${items.map((objective,index)=>{
       const examTopics=course.topics.filter(topic=>objective.topicIds.includes(topic.id));
-      return `<details class="objective ob-study-objective" data-objective="${escapeHTML(objective.id)}"><summary><span class="objective-number" aria-hidden="true">${String(index+1).padStart(2,'0')}</span><span class="objective-heading"><span class="ob-objective-title">${escapeHTML(objective.title)}</span><span class="ob-objective-prompt">${escapeHTML(objective.text)}</span></span><span class="expand-icon" aria-hidden="true"></span></summary><div class="objective-body"><div class="answer-area"><h3>Study notes</h3>${objective.answer.length ? studyContent(objective.answer, 'h4') : '<p class="empty-answer">Ready for your notes. Write your explanation in your own words; we’ll add it here when you’re ready.</p>'}${noteSources(objective)}</div>${VideoLibrary.objectiveSection(objective.id)}${typeof OBReinforcement!=='undefined'?OBReinforcement.section(objective.id):''}${weekly ? examTopics.length ? `<nav class="ob-objective-topics" aria-label="Related final exam topics">${examTopics.map(topic=>`<a class="text-link" href="${topicURL(topic)}">${escapeHTML(topic.title)}</a>`).join('')}</nav>` : '<p class="ob-objective-context">Weekly course review.</p>' : ''}</div></details>`;
+      return `<details class="objective ob-study-objective" data-objective="${escapeHTML(objective.id)}"><summary><span class="objective-number" aria-hidden="true">${String(index+1).padStart(2,'0')}</span><span class="objective-heading"><span class="ob-objective-title">${escapeHTML(objective.title)}</span><span class="ob-objective-prompt">${escapeHTML(objective.text)}</span></span><span class="expand-icon" aria-hidden="true"></span></summary><div class="objective-body"><div class="answer-area"><h3>Study notes</h3>${objective.answer.length ? objectiveNotes(objective.answer) : '<p class="empty-answer">Ready for your notes. Write your explanation in your own words; we’ll add it here when you’re ready.</p>'}${noteSources(objective)}</div>${VideoLibrary.objectiveSection(objective.id)}${typeof OBReinforcement!=='undefined'?OBReinforcement.section(objective.id):''}${weekly ? examTopics.length ? `<nav class="ob-objective-topics" aria-label="Related final exam topics">${examTopics.map(topic=>`<a class="text-link" href="${topicURL(topic)}">${escapeHTML(topic.title)}</a>`).join('')}</nav>` : '<p class="ob-objective-context">Weekly course review.</p>' : ''}</div></details>`;
     }).join('')}</div></section>`;
   }
   function breadcrumb(label, {parents = [], overview = false, backLabel} = {}) {

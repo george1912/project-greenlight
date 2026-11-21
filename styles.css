@@ -497,3 +497,23 @@ details.ob-presentations>.ob-deck-grid{padding:16px;grid-template-columns:minmax
 .course-back-link:hover{background:var(--mint)}
 .course-page-navigation~.guide-bottom a{display:inline-flex;align-items:center;min-height:44px;font-size:15px;line-height:1.5}
 @media(max-width:680px){.course-page-navigation{display:block;margin-top:16px}.course-breadcrumb li[aria-current=page]{flex-basis:100%;padding-top:0}.course-back-link{margin-top:8px}.course-page-navigation~.guide-bottom{flex-wrap:wrap}}
+
+/* A short overview stays visible; each note topic can be studied independently. */
+.ob-note-overview{margin:12px 0 20px;padding:12px 14px;background:var(--white);border:1px solid var(--line)}
+.ob-study-objective .answer-area .ob-note-overview>h4{margin:0 0 8px;font-size:22px}
+.ob-note-overview ul{margin:0;padding-left:22px}
+.ob-note-topic{margin:10px 0;border:1px solid var(--line);background:var(--white)}
+.ob-study-objective .ob-note-topic>summary{display:flex;align-items:center;gap:12px;min-height:48px;padding:14px;list-style:none;background:var(--white);border:0;cursor:pointer}
+.ob-study-objective .ob-note-topic>summary>h4{flex:1;min-width:0;margin:0;font-size:21px;line-height:1.4}
+.ob-note-topic>summary:after{content:'+';color:var(--green);font:24px/1 var(--pixel)}
+.ob-note-topic[open]>summary:after{content:'−'}
+.ob-study-objective .ob-note-topic[open]>summary{background:var(--mint);border-bottom:1px solid var(--line)}
+.ob-note-topic-body{padding:14px 16px}
+.ob-study-objective .answer-area .ob-note-topic-body p{margin:0 0 12px}
+.ob-note-topic-body>ul{padding-left:22px;margin:0}
+.ob-note-facts{margin:0}
+.ob-note-facts>div+div{border-top:1px solid var(--line);margin-top:14px;padding-top:14px}
+.ob-note-facts dt{font-weight:600;font-size:16px;line-height:1.5;color:var(--green);margin-bottom:5px}
+.ob-note-facts dd{margin:0;font-size:16px;line-height:1.75;overflow-wrap:anywhere}
+.ob-note-topic>summary:focus-visible{outline:3px solid #ac542f;outline-offset:3px}
+@media(max-width:680px){.ob-study-objective .ob-note-topic>summary{padding:12px;gap:8px}.ob-study-objective .ob-note-topic>summary>h4{font-size:20px}.ob-note-topic-body{padding:12px}.ob-note-overview{padding:10px 12px}}

@@ -1,0 +1,502 @@
+{
+  "weekId": "week-1",
+  "reviewedOn": "2026-11-20",
+  "basis": "The four existing Week 1 outline objectives and all three decks linked to Week 1. Course slides provide the primary structure; listed clinical clarifications use retrieved authoritative references. No source PDFs or original slide images changed.",
+  "sources": [
+    {
+      "deckId": "historical-context",
+      "path": "ob-presentations/historical-context/original.pdf",
+      "sha256": "ecfbac51bca49acab837a42b4c5cf7e1b872a1ae5ab932bcf8d6e7783d705dfb",
+      "pages": 16,
+      "visualReview": "Existing full-page WebP previews reviewed for image-only charts, figures, tables, and milestone cards as well as extracted slide text."
+    },
+    {
+      "deckId": "maternal-adaptation",
+      "path": "ob-presentations/maternal-adaptation/original.pdf",
+      "sha256": "cd6da4c5591ee5e2f4bbc827479dcd38f918562e32889e120046934fc13d47f6",
+      "pages": 37,
+      "visualReview": "Existing full-page WebP previews reviewed for image-only charts, figures, tables, and milestone cards as well as extracted slide text."
+    },
+    {
+      "deckId": "fetal-development",
+      "path": "ob-presentations/fetal-development/original.pdf",
+      "sha256": "e525c92498513e7b2a6c5bbb091bff8aaae9300f70d8cc20771e97b4e8adcd53",
+      "pages": 24,
+      "visualReview": "Existing full-page WebP previews reviewed for image-only charts, figures, tables, and milestone cards as well as extracted slide text."
+    }
+  ],
+  "objectives": [
+    {
+      "id": "family-centered-care",
+      "title": "Family-centered obstetric nursing",
+      "weekIds": [
+        "week-1"
+      ],
+      "topicIds": [],
+      "lectureRanges": [
+        {
+          "deckId": "historical-context",
+          "firstPage": 2,
+          "lastPage": 16
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Nurse role across pregnancy, birth, and recovery",
+          "noteTopic": "What the nurse does across pregnancy, birth, and recovery"
+        },
+        {
+          "requirement": "Safety, risk management, maternal and newborn failure to rescue",
+          "noteTopic": "Safety, risk management, and failure to rescue"
+        },
+        {
+          "requirement": "Culturally responsive communication",
+          "noteTopic": "Communication and culturally responsive care"
+        },
+        {
+          "requirement": "Consent, advocacy, and privacy",
+          "noteTopic": "Consent, advocacy, and privacy"
+        },
+        {
+          "requirement": "Education and support systems",
+          "noteTopic": "Teaching, support systems, and community resources"
+        },
+        {
+          "requirement": "Hospital, midwifery, and birth-center roles",
+          "noteTopic": "Care settings and team roles"
+        }
+      ],
+      "topics": [
+        "The nurse’s role: safe care with the patient and family",
+        "Safety, risk management, and failure to rescue",
+        "What the nurse does across pregnancy, birth, and recovery",
+        "Communication and culturally responsive care",
+        "Consent, advocacy, and privacy",
+        "Teaching, support systems, and community resources",
+        "Care settings and team roles",
+        "Population health: what the lecture’s statistics mean",
+        "Ethical issues and professional responsibility",
+        "Evaluate the care and remember the priorities"
+      ],
+      "reviewSources": [
+        {
+          "title": "WHO — Respectful maternal and newborn care",
+          "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/quality-of-care/respectful-care"
+        },
+        {
+          "title": "ACOG — Informed consent and shared decision making",
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2021/02/informed-consent-and-shared-decision-making-in-obstetrics-and-gynecology"
+        },
+        {
+          "title": "Joint Commission — Sentinel event policy and procedures",
+          "url": "https://www.jointcommission.org/en-us/knowledge-library/support-center/standards-interpretation/sentinel-event-policy-and-procedures"
+        },
+        {
+          "title": "AHRQ PSNet — Failure to Rescue",
+          "url": "https://psnet.ahrq.gov/primer/failure-rescue"
+        },
+        {
+          "title": "CDC Hear Her — Urgent maternal warning signs",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+        },
+        {
+          "title": "Public Health Agency of Canada — Family-centred care during pregnancy",
+          "url": "https://www.canada.ca/en/public-health/services/publications/healthy-living/maternity-newborn-care-guidelines-chapter-3.html"
+        },
+        {
+          "title": "HRSA — Maternal, Infant, and Early Childhood Home Visiting",
+          "url": "https://www.hrsa.gov/services/maternal-infant-early-childhood-home-visiting-program"
+        },
+        {
+          "title": "USDA — WIC frequently asked questions",
+          "url": "https://www.fna.usda.gov/wic/faqs"
+        },
+        {
+          "title": "American College of Nurse-Midwives — Midwifery FAQs",
+          "url": "https://midwife.org/faqs/"
+        },
+        {
+          "title": "CDC NCHS — Maternal mortality definitions",
+          "url": "https://www.cdc.gov/nchs/maternal-mortality/faq.htm"
+        },
+        {
+          "title": "CDC — Pregnancy Mortality Surveillance System methods",
+          "url": "https://www.cdc.gov/maternal-mortality/php/pregnancy-mortality-surveillance-data/about.html"
+        }
+      ]
+    },
+    {
+      "id": "pregnancy-adaptations",
+      "title": "Maternal adaptations to pregnancy",
+      "weekIds": [
+        "week-1"
+      ],
+      "topicIds": [
+        "antepartum-prenatal"
+      ],
+      "lectureRanges": [
+        {
+          "deckId": "maternal-adaptation",
+          "firstPage": 2,
+          "lastPage": 33
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Reproductive system and pregnancy signs",
+          "noteTopic": "Reproductive changes: uterus, cervix, vagina, and breasts"
+        },
+        {
+          "requirement": "Cardiovascular/hematologic mechanisms, expected changes, and warning signs",
+          "noteTopic": "Cardiovascular and blood changes"
+        },
+        {
+          "requirement": "Respiratory mechanisms, expected changes, and warning signs",
+          "noteTopic": "Respiratory changes"
+        },
+        {
+          "requirement": "GI and urinary mechanisms, comfort, and concerning findings",
+          "noteTopic": "Gastrointestinal, oral, and urinary changes"
+        },
+        {
+          "requirement": "Musculoskeletal and integumentary changes",
+          "noteTopic": "Musculoskeletal and skin changes"
+        },
+        {
+          "requirement": "Endocrine and metabolic functions",
+          "noteTopic": "Hormones: connect the name with the job"
+        },
+        {
+          "requirement": "Connect findings to nursing assessment and action",
+          "noteTopic": "Apply it: expected finding or concern?"
+        }
+      ],
+      "topics": [
+        "Dating, trimesters, term, and viability",
+        "Reproductive changes: uterus, cervix, vagina, and breasts",
+        "Cardiovascular and blood changes",
+        "Respiratory changes",
+        "Gastrointestinal, oral, and urinary changes",
+        "Musculoskeletal and skin changes",
+        "Hormones: connect the name with the job",
+        "Shared-deck essentials: pregnancy signs and GTPAL",
+        "Shared-deck essentials: nutrition and weight gain",
+        "Apply it: expected finding or concern?"
+      ],
+      "reviewSources": [
+        {
+          "title": "Merck Manual Professional — Physiology of pregnancy",
+          "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/approach-to-the-pregnant-woman-and-prenatal-care/physiology-of-pregnancy"
+        },
+        {
+          "title": "OpenStax — Physiologic changes due to pregnancy",
+          "url": "https://openstax.org/books/maternal-newborn-nursing/pages/10-1-physiologic-changes-due-to-pregnancy"
+        },
+        {
+          "title": "ACOG — Definition of term pregnancy",
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/11/definition-of-term-pregnancy"
+        },
+        {
+          "title": "CDC — Urgent maternal warning signs",
+          "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+        },
+        {
+          "title": "NIH Office of Dietary Supplements — Pregnancy nutrient requirements",
+          "url": "https://ods.od.nih.gov/factsheets/pregnancy-healthprofessional/"
+        },
+        {
+          "title": "CDC — Weight gain during pregnancy",
+          "url": "https://www.cdc.gov/maternal-infant-health/pregnancy-weight/"
+        },
+        {
+          "title": "ACOG — Healthy eating during pregnancy",
+          "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+        },
+        {
+          "title": "CDC — Safer food choices during pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        },
+        {
+          "title": "RCOG — Intrahepatic cholestasis of pregnancy",
+          "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/intrahepatic-cholestasis-of-pregnancy"
+        },
+        {
+          "title": "ACOG — Periviable birth and individualized counseling",
+          "url": "https://www.acog.org/clinical/clinical-guidance/obstetric-care-consensus/articles/2017/10/periviable-birth"
+        }
+      ]
+    },
+    {
+      "id": "pregnancy-psychosocial-care",
+      "title": "Psychological adaptation and support",
+      "weekIds": [
+        "week-1"
+      ],
+      "topicIds": [],
+      "lectureRanges": [
+        {
+          "deckId": "maternal-adaptation",
+          "firstPage": 34,
+          "lastPage": 37
+        },
+        {
+          "deckId": "historical-context",
+          "firstPage": 9,
+          "lastPage": 16
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Psychological adaptation over pregnancy",
+          "noteTopic": "Emotional adaptation over time"
+        },
+        {
+          "requirement": "Coping, mood, and body image assessment",
+          "noteTopic": "Assess coping, mood, and body image"
+        },
+        {
+          "requirement": "Family and partner/sibling support",
+          "noteTopic": "Partners, siblings, and the wider family"
+        },
+        {
+          "requirement": "Cultural preferences and sexuality",
+          "noteTopic": "Culture, sexuality, and communication"
+        },
+        {
+          "requirement": "Safety and intimate-partner violence",
+          "noteTopic": "Assess intimate-partner violence and practical barriers"
+        },
+        {
+          "requirement": "Individualize and evaluate the nursing plan",
+          "noteTopic": "Nursing plan and quick application"
+        }
+      ],
+      "topics": [
+        "Emotional adaptation over time",
+        "Assess coping, mood, and body image",
+        "Expected emotional variation versus a safety concern",
+        "Partners, siblings, and the wider family",
+        "Culture, sexuality, and communication",
+        "Assess intimate-partner violence and practical barriers",
+        "Nursing plan and quick application"
+      ],
+      "reviewSources": [
+        {
+          "title": "OpenStax — Psychosocial aspects of pregnancy",
+          "url": "https://openstax.org/books/maternal-newborn-nursing/pages/10-2-psychosocial-aspects-of-pregnancy"
+        },
+        {
+          "title": "ACOG — Screening and diagnosis of perinatal mental health conditions",
+          "url": "https://www.acog.org/clinical/clinical-guidance/clinical-practice-guideline/articles/2023/06/screening-and-diagnosis-of-mental-health-conditions-during-pregnancy-and-postpartum"
+        },
+        {
+          "title": "Public Health Agency of Canada — Family-centred care during pregnancy",
+          "url": "https://www.canada.ca/en/public-health/services/publications/healthy-living/maternity-newborn-care-guidelines-chapter-3.html"
+        },
+        {
+          "title": "ACOG — Anxiety and pregnancy",
+          "url": "https://www.acog.org/womens-health/faqs/anxiety-and-pregnancy"
+        },
+        {
+          "title": "ACOG — How to tell when labor begins",
+          "url": "https://www.acog.org/womens-health/faqs/how-to-tell-when-labor-begins"
+        },
+        {
+          "title": "March of Dimes — Sex during pregnancy",
+          "url": "https://www.marchofdimes.org/find-support/topics/pregnancy/sex-during-pregnancy"
+        }
+      ]
+    },
+    {
+      "id": "conception-fetal-development",
+      "title": "Conception and fetal development",
+      "weekIds": [
+        "week-1",
+        "week-2"
+      ],
+      "topicIds": [],
+      "lectureRanges": [
+        {
+          "deckId": "fetal-development",
+          "firstPage": 2,
+          "lastPage": 24
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Reproductive cycle and hormones",
+          "noteTopic": "Reproductive cycle: match the ovarian and uterine phases"
+        },
+        {
+          "requirement": "Fertilization and implantation",
+          "noteTopic": "Fertilization, cell division, and implantation"
+        },
+        {
+          "requirement": "Stages, time scales, and germ layers",
+          "noteTopic": "Developmental stages, germ layers, and time scales"
+        },
+        {
+          "requirement": "Placenta and membranes",
+          "noteTopic": "Membranes, placenta, and pregnancy hormones"
+        },
+        {
+          "requirement": "Cord and amniotic-fluid functions",
+          "noteTopic": "Umbilical cord and amniotic fluid"
+        },
+        {
+          "requirement": "Three shunts and fetal blood flow",
+          "noteTopic": "Fetal circulation: trace the blood and name the three shunts"
+        }
+      ],
+      "topics": [
+        "Reproductive cycle: match the ovarian and uterine phases",
+        "Fertilization, cell division, and implantation",
+        "Developmental stages, germ layers, and time scales",
+        "Membranes, placenta, and pregnancy hormones",
+        "Umbilical cord and amniotic fluid",
+        "Fetal circulation: trace the blood and name the three shunts",
+        "Developmental milestones and twins",
+        "Genetics: screening versus diagnosis",
+        "Check yourself: connect structure to function"
+      ],
+      "reviewSources": [
+        {
+          "title": "MedlinePlus — Fetal development",
+          "url": "https://www.medlineplus.gov/ency/article/002398.htm"
+        },
+        {
+          "title": "American Heart Association — Fetal circulation",
+          "url": "https://www.heart.org/en/health-topics/congenital-heart-defects/symptoms--diagnosis-of-congenital-heart-defects/fetal-circulation"
+        },
+        {
+          "title": "ACOG — Prenatal genetic screening tests",
+          "url": "https://www.acog.org/womens-health/faqs/prenatal-genetic-screening-tests"
+        },
+        {
+          "title": "ACOG — Prenatal genetic diagnostic tests",
+          "url": "https://www.acog.org/womens-health/faqs/prenatal-genetic-diagnostic-tests"
+        },
+        {
+          "title": "ACOG — Current prenatal genetic screening guidance",
+          "url": "https://www.acog.org/advocacy/policy-priorities/non-invasive-prenatal-testing/current-acog-guidance"
+        },
+        {
+          "title": "ACOG — Definition of term pregnancy",
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/11/definition-of-term-pregnancy"
+        },
+        {
+          "title": "ACOG — Periviable birth and individualized counseling",
+          "url": "https://www.acog.org/clinical/clinical-guidance/obstetric-care-consensus/articles/2017/10/periviable-birth"
+        },
+        {
+          "title": "ACOG — Multiple pregnancy: chorionicity and amnionicity",
+          "url": "https://www.acog.org/womens-health/faqs/multiple-pregnancy"
+        },
+        {
+          "title": "Children’s Hospital of Philadelphia — Maternal antibodies and passive immunity",
+          "url": "https://www.chop.edu/vaccine-education-center/human-immune-system/development-immune-system"
+        }
+      ]
+    }
+  ],
+  "clarifications": [
+    {
+      "issue": "Term and preterm boundaries conflict between slides",
+      "handling": "Uses early term 37+0–38+6, full term 39+0–40+6, late term 41+0–41+6, postterm ≥42+0; identifies trimester conventions.",
+      "sources": [
+        "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/11/definition-of-term-pregnancy"
+      ]
+    },
+    {
+      "issue": "Dating after fertilization versus LMP-based gestational age",
+      "handling": "Explicitly separates the two clocks and explains the approximate two-week offset and stage boundaries.",
+      "sources": [
+        "https://www.medlineplus.gov/ency/article/002398.htm"
+      ]
+    },
+    {
+      "issue": "Fetal circulation shown as beginning only in the fetal stage",
+      "handling": "Explains that cardiac activity/circulation develops in the embryonic period; traces placental flow and all three shunts.",
+      "sources": [
+        "https://www.heart.org/en/health-topics/congenital-heart-defects/symptoms--diagnosis-of-congenital-heart-defects/fetal-circulation",
+        "https://www.medlineplus.gov/ency/article/002398.htm"
+      ]
+    },
+    {
+      "issue": "Quickening labeled lightening",
+      "handling": "Quickening is perceived fetal movement; lightening is descent into the pelvis.",
+      "sources": [
+        "https://www.acog.org/womens-health/faqs/how-to-tell-when-labor-begins"
+      ]
+    },
+    {
+      "issue": "Sexual intercourse declared safe whenever membranes are intact",
+      "handling": "Explains uncomplicated-pregnancy context and need for individualized advice with bleeding, fluid leakage, placental concerns, or preterm-labor symptoms.",
+      "sources": [
+        "https://www.marchofdimes.org/find-support/topics/pregnancy/sex-during-pregnancy"
+      ]
+    },
+    {
+      "issue": "Absolute viability/weight and survival percentages",
+      "handling": "Does not present one gestational week, weight, or historical percentage as a universal survival or neurodevelopment prediction.",
+      "sources": [
+        "https://www.acog.org/clinical/clinical-guidance/obstetric-care-consensus/articles/2017/10/periviable-birth"
+      ]
+    },
+    {
+      "issue": "Respiration, hemodilution, and thyroid shorthand",
+      "handling": "Clarifies deeper ventilation, physiologic dilution versus other anemia, positional venous-return effects, and pregnancy-specific thyroid interpretation.",
+      "sources": [
+        "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/approach-to-the-pregnant-woman-and-prenatal-care/physiology-of-pregnancy"
+      ]
+    },
+    {
+      "issue": "Nutrition unit errors and fixed calorie increase",
+      "handling": "Iron uses mg and folate micrograms DFE; includes trimester-based energy estimates and singleton BMI-based weight-gain framework, with individualized multiple-pregnancy planning.",
+      "sources": [
+        "https://ods.od.nih.gov/factsheets/pregnancy-healthprofessional/",
+        "https://www.cdc.gov/maternal-infant-health/pregnancy-weight/"
+      ]
+    },
+    {
+      "issue": "Blanket food-name bans",
+      "handling": "Uses safe-handling principles with heated deli meats and current higher-risk cheese guidance rather than treating every food of one name as equivalent.",
+      "sources": [
+        "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      ]
+    },
+    {
+      "issue": "Placental immune protection and endocrine wording",
+      "handling": "Describes separate circulations, imperfect barrier function, hormonal support, and ongoing organ maturation; does not claim the placenta matures into fetal organs.",
+      "sources": [
+        "https://openstax.org/books/maternal-newborn-nursing/pages/10-1-physiologic-changes-due-to-pregnancy"
+      ]
+    },
+    {
+      "issue": "Identical twins presented with one membrane arrangement",
+      "handling": "Distinguishes zygosity from ultrasound-defined chorionicity/amnionicity.",
+      "sources": [
+        "https://www.acog.org/womens-health/faqs/multiple-pregnancy"
+      ]
+    },
+    {
+      "issue": "Genetic screening and invasive-test shorthand",
+      "handling": "cfDNA is mainly placental; a screen is not diagnostic. NT is fetal neck fluid. CVS/amniocentesis indications, timing, limits and counseling are distinguished.",
+      "sources": [
+        "https://www.acog.org/womens-health/faqs/prenatal-genetic-screening-tests",
+        "https://www.acog.org/womens-health/faqs/prenatal-genetic-diagnostic-tests"
+      ]
+    },
+    {
+      "issue": "Historical country rankings, racial disparity charts, legal statements and unsupported prevalence figures",
+      "handling": "Retains population-health and ethics concepts, denominators, and access/bias implications without claiming old rates are current or generalized state-specific legal rules.",
+      "sources": [
+        "https://www.cdc.gov/nchs/maternal-mortality/faq.htm",
+        "https://www.cdc.gov/maternal-mortality/php/pregnancy-mortality-surveillance-data/about.html"
+      ]
+    }
+  ],
+  "sharedDeckMaterial": "The maternal deck is assigned to Weeks 1 and 2. Compact terminology, GTPAL, pregnancy-sign, and nutrition topics are included within the Week 1 adaptations objective; separate Week 2 objectives remain available for their own future note entries. The conception objective automatically reuses its answer in Week 2; the adaptations objective reuses its answer on the antepartum/prenatal exam-topic page.",
+  "display": "Four short quick-answer blocks; 36 independently expandable note topics; no topic forced open. Sources, TikToks, and existing practice panels follow notes.",
+  "limits": "This is a study synthesis, not a replacement for faculty instruction or individualized clinical protocols. Automated checks verify placement, source integrity, content coverage and rendering; they are not independent clinical validation."
+}
