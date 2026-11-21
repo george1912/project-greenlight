@@ -25,7 +25,7 @@ for(const week of data.ob.weeks){const objectives=week.reviewOf?week.reviewOf.fl
 for(const topic of data.ob.topics)if(data.objectives.some(o=>o.topicIds.includes(topic.id)&&o.answer.length)||Object.values(topic.content).some(b=>b.length))expected.push('#/ob-final/topic/'+topic.id);
 for(const week of data.weeks)if(week.objectives.some(o=>o.answer.length))expected.push('#/final/week-'+week.number);
 for(const topic of data.topics)if(Object.values(data.conditions[topic.id]?.content||{}).some(b=>b.length))expected.push('#/final/condition/'+topic.id);
-assert.deepEqual(Array.from(pages,p=>p.route),expected);assert.equal(pages.length,29);assert.equal(new Set(pages.map(p=>p.path)).size,pages.length);
+assert.deepEqual(Array.from(pages,p=>p.route),expected);assert.equal(new Set(pages.map(p=>p.path)).size,pages.length);
 const temp=fs.mkdtempSync(path.join(os.tmpdir(),'green-light-reader-check-'));
 let textChecks=0;
 try{
@@ -58,7 +58,8 @@ try{
   }
   const regular=render(page.route);assert(regular.includes(reader.link(page.route)),page.route+' has its Reader view entry');
  }
- for(const route of ['#/','#/ob-final','#/ob-final/study-guide','#/ob-final/week-9','#/ob-final/week-10','#/ob-final/august-4','#/ob-final/topic/normal-newborn','#/ob-final/practice','#/ob-final/practice/exam-1','#/ob-final/podcast','#/ob-final/presentation/postpartum-care','#/final/study-guide','#/final/week-8','#/final/week-9','#/final/quiz','#/final/nclex','#/final/podcast','#/final/presentation/parkinsons'])assert(!render(route).includes('class="study-reader-link"'),'No empty/unrelated Reader button: '+route);
+ const emptyOB=[...Array.from(data.ob.weeks,w=>'#/ob-final/'+w.id),...Array.from(data.ob.topics,t=>'#/ob-final/topic/'+t.id)].filter(route=>!expected.includes(route));
+ for(const route of ['#/','#/ob-final','#/ob-final/study-guide',...emptyOB,'#/ob-final/practice','#/ob-final/practice/exam-1','#/ob-final/podcast','#/ob-final/presentation/postpartum-care','#/final/study-guide','#/final/week-8','#/final/week-9','#/final/quiz','#/final/nclex','#/final/podcast','#/final/presentation/parkinsons'])assert(!render(route).includes('class="study-reader-link"'),'No empty/unrelated Reader button: '+route);
  const weekly=render('#/ob-final/week-7');assert.equal((weekly.match(/class="study-reader-link"/g)||[]).length,1);assert(!/<details class="(?:objective ob-study-objective|ob-note-topic|ob-note-sources)"[^>]*\bopen\b/.test(weekly));assert(weekly.includes('class="ob-practice-overview"'));
  const all=data.objectives,unsafe='<img src=x onerror="alert(1)"> & "care"',o=all.find(o=>o.id==='postpartum-physiology'),saved=o.answer[1].blocks[0].items[0].text;
  o.answer[1].blocks[0].items[0].text=unsafe;const altered=vm.runInContext('StudyReader.documentFor(StudyReader.pages().find(p=>p.route==="#/ob-final/week-7"))',c);assert(altered.includes(escape(unsafe)));assert(!altered.includes('<img src=x'));o.answer[1].blocks[0].items[0].text=saved;

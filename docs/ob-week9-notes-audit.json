@@ -1,0 +1,1672 @@
+{
+  "weekId": "week-9",
+  "reviewedOn": "2026-11-21",
+  "basis": "All twelve existing Week 9 objectives filled from four original supplied PDFs, including image-only assessment and feeding tables. Three-bullet Quick answers and short closed fact topics preserve the established format, with exact-span bold emphasis. Clinical safety/definition/timing clarifications are labeled and separately sourced. No new patient cases, individual feed prescriptions or resuscitation/drug protocols are invented.",
+  "sources": [
+    {
+      "deckId": "newborn-care",
+      "path": "ob-presentations/newborn-care/original.pdf",
+      "pages": 63,
+      "sha256": "f461ea9e420f11ab390e90500a33efb12514e0eaf40c4b1fe48ab0b131df036e"
+    },
+    {
+      "deckId": "newborn-handout",
+      "path": "ob-presentations/newborn-handout/original.pdf",
+      "pages": 7,
+      "sha256": "f2e243c2e4c79d33582dacca79a2a4ce96e651455e0e59ee71369f65710856f3"
+    },
+    {
+      "deckId": "newborn-care-plan",
+      "path": "ob-presentations/newborn-care-plan/original.pdf",
+      "pages": 5,
+      "sha256": "fd0b963965ac0dc25dff1a82ba1558433470415ea2b02495a8c0b6ebec0ad52e"
+    },
+    {
+      "deckId": "infant-feeding",
+      "path": "ob-presentations/infant-feeding/original.pdf",
+      "pages": 26,
+      "sha256": "a748668457a5f2187cd068866a6649c1c986da04428da98e37f9f4ee9f514339"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "newborn-transition-apgar",
+      "title": "Transition and Apgar scoring",
+      "lectureRanges": [
+        {
+          "deckId": "newborn-care",
+          "firstPage": 2,
+          "lastPage": 13
+        },
+        {
+          "deckId": "newborn-care",
+          "firstPage": 51,
+          "lastPage": 52
+        },
+        {
+          "deckId": "newborn-handout",
+          "firstPage": 1,
+          "lastPage": 2
+        },
+        {
+          "deckId": "newborn-handout",
+          "firstPage": 6,
+          "lastPage": 6
+        }
+      ],
+      "topics": [
+        "Respiratory transition: establish effective ventilation",
+        "Circulatory transition: connect the lungs and shunts",
+        "Apgar: score heart rate and respiratory effort",
+        "Apgar: score tone, reflex response and color",
+        "Calculate, time and interpret the total",
+        "Reactivity and reassessment: behavior does not override distress"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Respiratory adaptation and immediate priorities",
+          "noteTopic": "Respiratory transition: establish effective ventilation"
+        },
+        {
+          "requirement": "Circulatory adaptation",
+          "noteTopic": "Circulatory transition: connect the lungs and shunts"
+        },
+        {
+          "requirement": "Calculate each Apgar component",
+          "noteTopic": "Apgar: score heart rate and respiratory effort"
+        },
+        {
+          "requirement": "Tone, reflex and color scoring",
+          "noteTopic": "Apgar: score tone, reflex response and color"
+        },
+        {
+          "requirement": "Apgar total, timing, role and limitations",
+          "noteTopic": "Calculate, time and interpret the total"
+        },
+        {
+          "requirement": "Ongoing reassessment",
+          "noteTopic": "Reactivity and reassessment: behavior does not override distress"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Assessment & care of the newborn (original supplied PDF)",
+          "url": "#/ob-final/presentation/newborn-care"
+        },
+        {
+          "title": "Newborn assessment review handout (original supplied PDF)",
+          "url": "#/ob-final/presentation/newborn-handout"
+        },
+        {
+          "title": "ACOG: Apgar timing and interpretation clarification",
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2015/10/the-apgar-score"
+        },
+        {
+          "title": "AHA/AAP: newborn transition and immediate-care clarification",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation"
+        }
+      ],
+      "scope": "Source-led transition/Apgar review with labeled boundary, repeat-timing and immediate-care clarifications. Table arithmetic is demonstrated without inventing a patient case or a resuscitation order set."
+    },
+    {
+      "id": "newborn-head-to-toe",
+      "title": "Head-to-toe newborn assessment",
+      "lectureRanges": [
+        {
+          "deckId": "newborn-care",
+          "firstPage": 17,
+          "lastPage": 40
+        },
+        {
+          "deckId": "newborn-care",
+          "firstPage": 51,
+          "lastPage": 52
+        },
+        {
+          "deckId": "newborn-care",
+          "firstPage": 58,
+          "lastPage": 58
+        },
+        {
+          "deckId": "newborn-handout",
+          "firstPage": 2,
+          "lastPage": 6
+        },
+        {
+          "deckId": "newborn-care-plan",
+          "firstPage": 1,
+          "lastPage": 5
+        }
+      ],
+      "topics": [
+        "General survey and vital signs",
+        "Measurements, head and face",
+        "Heart, lungs and chest",
+        "Abdomen, cord and elimination",
+        "Genitalia and anus",
+        "Spine, extremities and hips",
+        "Neurologic findings and primitive reflexes",
+        "Behavior, senses and documentation"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Vital signs and baseline assessment",
+          "noteTopic": "General survey and vital signs"
+        },
+        {
+          "requirement": "Measurements, head and face",
+          "noteTopic": "Measurements, head and face"
+        },
+        {
+          "requirement": "Heart, lungs and chest",
+          "noteTopic": "Heart, lungs and chest"
+        },
+        {
+          "requirement": "Abdomen, cord and elimination",
+          "noteTopic": "Abdomen, cord and elimination"
+        },
+        {
+          "requirement": "Genitalia and anus",
+          "noteTopic": "Genitalia and anus"
+        },
+        {
+          "requirement": "Spine, hips and extremities",
+          "noteTopic": "Spine, extremities and hips"
+        },
+        {
+          "requirement": "Neurologic status and reflexes",
+          "noteTopic": "Neurologic findings and primitive reflexes"
+        },
+        {
+          "requirement": "Behavior, documentation and follow-up",
+          "noteTopic": "Behavior, senses and documentation"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Assessment & care of the newborn (original supplied PDF)",
+          "url": "#/ob-final/presentation/newborn-care"
+        },
+        {
+          "title": "Newborn assessment review handout (original supplied PDF)",
+          "url": "#/ob-final/presentation/newborn-handout"
+        },
+        {
+          "title": "Newborn assessment & care-plan worksheet (original supplied PDF)",
+          "url": "#/ob-final/presentation/newborn-care-plan"
+        },
+        {
+          "title": "Stanford Newborn Nursery: hip-assessment clarification",
+          "url": "https://med.stanford.edu/newborns/professional-education/photo-gallery/hips.html"
+        },
+        {
+          "title": "Stanford Newborn Nursery: circumcision precautions clarification",
+          "url": "https://med.stanford.edu/newborns/professional-education/circumcision/contraindications.html"
+        },
+        {
+          "title": "AHA/AAP: newborn transition and immediate-care clarification",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation"
+        },
+        {
+          "title": "Stanford Newborn Nursery: primitive-reflex clarification",
+          "url": "https://med.stanford.edu/newborns/professional-education/photo-gallery/neuro-reflexes.html"
+        }
+      ],
+      "scope": "Uses the worksheet and lecture sequence; clarifies hip/Babinski terminology and inconsistent temperature tables without diagnosing anomalies from isolated features."
+    },
+    {
+      "id": "newborn-variants",
+      "title": "Normal variations and concerning findings",
+      "lectureRanges": [
+        {
+          "deckId": "newborn-care",
+          "firstPage": 16,
+          "lastPage": 16
+        },
+        {
+          "deckId": "newborn-care",
+          "firstPage": 21,
+          "lastPage": 29
+        },
+        {
+          "deckId": "newborn-care",
+          "firstPage": 58,
+          "lastPage": 58
+        },
+        {
+          "deckId": "newborn-handout",
+          "firstPage": 3,
+          "lastPage": 4
+        },
+        {
+          "deckId": "newborn-care-plan",
+          "firstPage": 1,
+          "lastPage": 2
+        }
+      ],
+      "topics": [
+        "Common skin findings: describe and reassure appropriately",
+        "Color changes: check location and timing",
+        "Molding and caput: different processes",
+        "Cephalohematoma: blood confined by the periosteum",
+        "Subgaleal bleeding: recognize a potentially dangerous pattern"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Common skin variants and documentation",
+          "noteTopic": "Common skin findings: describe and reassure appropriately"
+        },
+        {
+          "requirement": "Color suggesting illness",
+          "noteTopic": "Color changes: check location and timing"
+        },
+        {
+          "requirement": "Molding versus caput",
+          "noteTopic": "Molding and caput: different processes"
+        },
+        {
+          "requirement": "Cephalohematoma assessment and care",
+          "noteTopic": "Cephalohematoma: blood confined by the periosteum"
+        },
+        {
+          "requirement": "Subgaleal injury recognition and urgent priorities",
+          "noteTopic": "Subgaleal bleeding: recognize a potentially dangerous pattern"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Assessment & care of the newborn (original supplied PDF)",
+          "url": "#/ob-final/presentation/newborn-care"
+        },
+        {
+          "title": "Newborn assessment review handout (original supplied PDF)",
+          "url": "#/ob-final/presentation/newborn-handout"
+        },
+        {
+          "title": "Newborn assessment & care-plan worksheet (original supplied PDF)",
+          "url": "#/ob-final/presentation/newborn-care-plan"
+        },
+        {
+          "title": "Stanford Newborn Nursery: scalp-swelling clarification",
+          "url": "https://med.stanford.edu/newborns/professional-education/photo-gallery/head.html"
+        },
+        {
+          "title": "AHA/AAP: newborn transition and immediate-care clarification",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation"
+        },
+        {
+          "title": "AAP: predischarge bilirubin and follow-up clarification",
+          "url": "https://www.aap.org/en/patient-care/hyperbilirubinemia/frequently-asked-questions-about-the-2022-aap-guideline-on-the-management-of-hyperbilirubinemia/"
+        }
+      ],
+      "scope": "Uses original skin/scalp figures; adds a short labeled subgaleal safety explanation and separates benign patterns from concerning trends. Bilirubin treatment is not reduced to the slide’s fixed table."
+    },
+    {
+      "id": "newborn-gestational-assessment",
+      "title": "Gestational age and growth classification",
+      "lectureRanges": [
+        {
+          "deckId": "newborn-care",
+          "firstPage": 18,
+          "lastPage": 18
+        },
+        {
+          "deckId": "newborn-care",
+          "firstPage": 45,
+          "lastPage": 45
+        },
+        {
+          "deckId": "newborn-care",
+          "firstPage": 52,
+          "lastPage": 56
+        },
+        {
+          "deckId": "newborn-handout",
+          "firstPage": 6,
+          "lastPage": 6
+        }
+      ],
+      "topics": [
+        "Age categories: correct the lecture’s broad term range",
+        "Ballard: assess two kinds of maturity",
+        "Growth classification: percentiles rather than fixed gram cutoffs",
+        "Apply the classification to care"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Preterm/term/postterm classification",
+          "noteTopic": "Age categories: correct the lecture’s broad term range"
+        },
+        {
+          "requirement": "Physical and neuromuscular Ballard assessment",
+          "noteTopic": "Ballard: assess two kinds of maturity"
+        },
+        {
+          "requirement": "SGA/AGA/LGA versus weight and gestational age",
+          "noteTopic": "Growth classification: percentiles rather than fixed gram cutoffs"
+        },
+        {
+          "requirement": "Source-chart application and nursing implications",
+          "noteTopic": "Apply the classification to care"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Assessment & care of the newborn (original supplied PDF)",
+          "url": "#/ob-final/presentation/newborn-care"
+        },
+        {
+          "title": "Newborn assessment review handout (original supplied PDF)",
+          "url": "#/ob-final/presentation/newborn-handout"
+        },
+        {
+          "title": "ACOG: gestational-age terminology clarification",
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/11/definition-of-term-pregnancy"
+        },
+        {
+          "title": "MSD Professional: growth-percentile clarification",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/perinatal-problems/small-for-gestational-age-sga-infant"
+        }
+      ],
+      "scope": "Clarifies gestational boundaries and percentiles. The actual Ballard chart supplies the arithmetic illustration; no fictional patient case, missing growth percentile or universal glucose threshold is invented."
+    },
+    {
+      "id": "newborn-routine-care",
+      "title": "Routine care, prophylaxis, and screening",
+      "lectureRanges": [
+        {
+          "deckId": "newborn-care",
+          "firstPage": 11,
+          "lastPage": 15
+        },
+        {
+          "deckId": "newborn-care",
+          "firstPage": 39,
+          "lastPage": 50
+        },
+        {
+          "deckId": "newborn-care",
+          "firstPage": 57,
+          "lastPage": 63
+        },
+        {
+          "deckId": "newborn-handout",
+          "firstPage": 5,
+          "lastPage": 7
+        },
+        {
+          "deckId": "newborn-care-plan",
+          "firstPage": 1,
+          "lastPage": 5
+        }
+      ],
+      "topics": [
+        "Airway and warmth: support transition safely",
+        "Identification and everyday safety",
+        "Skin, diaper and cord care",
+        "Vitamin K and eye prophylaxis: two different purposes",
+        "Hepatitis B: verify maternal status and infant timing",
+        "Blood-spot screening and indicated laboratory tests",
+        "Hearing and pulse-ox screening: add the follow-through",
+        "Circumcision: preparation, comfort and observation"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Airway, thermoregulation and heat-loss prevention",
+          "noteTopic": "Airway and warmth: support transition safely"
+        },
+        {
+          "requirement": "Identification, security and daily assessment",
+          "noteTopic": "Identification and everyday safety"
+        },
+        {
+          "requirement": "Skin, diapers and cord care",
+          "noteTopic": "Skin, diaper and cord care"
+        },
+        {
+          "requirement": "Purpose/timing of vitamin K and eye prophylaxis",
+          "noteTopic": "Vitamin K and eye prophylaxis: two different purposes"
+        },
+        {
+          "requirement": "Hepatitis B immunization/exposure prevention",
+          "noteTopic": "Hepatitis B: verify maternal status and infant timing"
+        },
+        {
+          "requirement": "Blood-spot screening, indicated labs and result follow-up",
+          "noteTopic": "Blood-spot screening and indicated laboratory tests"
+        },
+        {
+          "requirement": "Hearing and CCHD screening timing/follow-up",
+          "noteTopic": "Hearing and pulse-ox screening: add the follow-through"
+        },
+        {
+          "requirement": "Circumcision care and safety",
+          "noteTopic": "Circumcision: preparation, comfort and observation"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Assessment & care of the newborn (original supplied PDF)",
+          "url": "#/ob-final/presentation/newborn-care"
+        },
+        {
+          "title": "Newborn assessment review handout (original supplied PDF)",
+          "url": "#/ob-final/presentation/newborn-handout"
+        },
+        {
+          "title": "Newborn assessment & care-plan worksheet (original supplied PDF)",
+          "url": "#/ob-final/presentation/newborn-care-plan"
+        },
+        {
+          "title": "AHA/AAP: newborn transition and immediate-care clarification",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation"
+        },
+        {
+          "title": "CDC: vitamin K purpose/timing clarification",
+          "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/vitamin-k.html"
+        },
+        {
+          "title": "CDC: ocular prophylaxis clarification",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/gonorrhea-neonates.htm"
+        },
+        {
+          "title": "CDC: perinatal hepatitis B prevention clarification",
+          "url": "https://www.cdc.gov/hepatitis-b/hcp/perinatal-provider-overview/vaccine-administration.html"
+        },
+        {
+          "title": "CDC: blood-spot screening and follow-up clarification",
+          "url": "https://www.cdc.gov/newborn-screening/about/general-information.html"
+        },
+        {
+          "title": "CDC: newborn hearing screening clarification",
+          "url": "https://www.cdc.gov/hearing-loss-children-guide/parents-guide/newborn-hearing-screening.html"
+        },
+        {
+          "title": "CDC: critical-heart-defect screening clarification",
+          "url": "https://www.cdc.gov/heart-defects/hcp/screening/"
+        },
+        {
+          "title": "Stanford Newborn Nursery: circumcision precautions clarification",
+          "url": "https://med.stanford.edu/newborns/professional-education/circumcision/contraindications.html"
+        },
+        {
+          "title": "AAP: predischarge bilirubin and follow-up clarification",
+          "url": "https://www.aap.org/en/patient-care/hyperbilirubinemia/frequently-asked-questions-about-the-2022-aap-guideline-on-the-management-of-hyperbilirubinemia/"
+        }
+      ],
+      "scope": "Routine care follows the supplied material. Labeled safety/timing clarifications address suction, vitamin K/eye prophylaxis, hepatitis B/HBIG, screening/result tracking and circumcision precautions. No new medication-dose table or glucose/bilirubin treatment protocol is supplied."
+    },
+    {
+      "id": "newborn-discharge-teaching",
+      "title": "Newborn discharge readiness",
+      "lectureRanges": [
+        {
+          "deckId": "newborn-care",
+          "firstPage": 39,
+          "lastPage": 44
+        },
+        {
+          "deckId": "newborn-care",
+          "firstPage": 50,
+          "lastPage": 50
+        },
+        {
+          "deckId": "newborn-care",
+          "firstPage": 60,
+          "lastPage": 63
+        },
+        {
+          "deckId": "newborn-handout",
+          "firstPage": 5,
+          "lastPage": 7
+        },
+        {
+          "deckId": "newborn-care-plan",
+          "firstPage": 1,
+          "lastPage": 5
+        },
+        {
+          "deckId": "infant-feeding",
+          "firstPage": 14,
+          "lastPage": 15
+        },
+        {
+          "deckId": "infant-feeding",
+          "firstPage": 22,
+          "lastPage": 26
+        }
+      ],
+      "topics": [
+        "Assess readiness and the home support plan",
+        "Safe sleep and transport",
+        "Temperature and urgent signs: state the action",
+        "Daily care, feeding and elimination",
+        "Follow-up and evaluation of teaching"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Readiness, support and referral",
+          "noteTopic": "Assess readiness and the home support plan"
+        },
+        {
+          "requirement": "Safe sleep, car seat and supervision",
+          "noteTopic": "Safe sleep and transport"
+        },
+        {
+          "requirement": "Temperature and illness warning signs",
+          "noteTopic": "Temperature and urgent signs: state the action"
+        },
+        {
+          "requirement": "Cord/circumcision, feeding and elimination teaching",
+          "noteTopic": "Daily care, feeding and elimination"
+        },
+        {
+          "requirement": "Follow-up and evaluating understanding",
+          "noteTopic": "Follow-up and evaluation of teaching"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Assessment & care of the newborn (original supplied PDF)",
+          "url": "#/ob-final/presentation/newborn-care"
+        },
+        {
+          "title": "Newborn assessment review handout (original supplied PDF)",
+          "url": "#/ob-final/presentation/newborn-handout"
+        },
+        {
+          "title": "Newborn assessment & care-plan worksheet (original supplied PDF)",
+          "url": "#/ob-final/presentation/newborn-care-plan"
+        },
+        {
+          "title": "Infant feeding: breast & formula (original supplied PDF)",
+          "url": "#/ob-final/presentation/infant-feeding"
+        },
+        {
+          "title": "NIH Safe to Sleep: sleep-surface clarification",
+          "url": "https://safetosleep.nichd.nih.gov/reduce-risk/back-sleeping"
+        },
+        {
+          "title": "AAP HealthyChildren: infant-fever urgency clarification",
+          "url": "https://www.healthychildren.org/English/health-issues/conditions/fever/Pages/Fever-and-Your-Baby.aspx"
+        },
+        {
+          "title": "AAP: early follow-up and weight-loss clarification",
+          "url": "https://www.aap.org/en/patient-care/newborn-infant-and-early-childhood-nutrition/newborn-and-infant-health-assessment-and-promotion/first-office-visit-3-5-days/"
+        }
+      ],
+      "scope": "Source discharge teaching with labeled safe-sleep, fever, early-follow-up and screening-result clarifications; supports practical teach-back without new discharge cutoffs or individual feed-volume orders."
+    },
+    {
+      "id": "feeding-needs-milk-changes",
+      "title": "Newborn nutrition and milk changes",
+      "lectureRanges": [
+        {
+          "deckId": "infant-feeding",
+          "firstPage": 2,
+          "lastPage": 13
+        },
+        {
+          "deckId": "newborn-care",
+          "firstPage": 14,
+          "lastPage": 16
+        },
+        {
+          "deckId": "newborn-care",
+          "firstPage": 62,
+          "lastPage": 62
+        },
+        {
+          "deckId": "newborn-handout",
+          "firstPage": 2,
+          "lastPage": 3
+        }
+      ],
+      "topics": [
+        "Nutrition and fluid needs: respect the infant’s age",
+        "Colostrum, transitional milk and mature milk",
+        "Milk production and milk release",
+        "Human milk and formula: explain without blame",
+        "Vitamins, minerals and safe supplementation"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Nutritional/fluid needs and early intake",
+          "noteTopic": "Nutrition and fluid needs: respect the infant’s age"
+        },
+        {
+          "requirement": "Colostrum-to-mature-milk progression",
+          "noteTopic": "Colostrum, transitional milk and mature milk"
+        },
+        {
+          "requirement": "Milk production, release and changing composition",
+          "noteTopic": "Milk production and milk release"
+        },
+        {
+          "requirement": "Breast milk/formula comparison and informed choices",
+          "noteTopic": "Human milk and formula: explain without blame"
+        },
+        {
+          "requirement": "Safe nutrient-supplement teaching",
+          "noteTopic": "Vitamins, minerals and safe supplementation"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Infant feeding: breast & formula (original supplied PDF)",
+          "url": "#/ob-final/presentation/infant-feeding"
+        },
+        {
+          "title": "Assessment & care of the newborn (original supplied PDF)",
+          "url": "#/ob-final/presentation/newborn-care"
+        },
+        {
+          "title": "Newborn assessment review handout (original supplied PDF)",
+          "url": "#/ob-final/presentation/newborn-handout"
+        },
+        {
+          "title": "CDC: early feeding-frequency clarification",
+          "url": "https://www.cdc.gov/infant-toddler-nutrition/breastfeeding/how-much-and-how-often.html"
+        },
+        {
+          "title": "CDC: infant vitamin D clarification",
+          "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/vitamin-d.html"
+        },
+        {
+          "title": "CDC: formula preparation/storage clarification",
+          "url": "https://www.cdc.gov/infant-toddler-nutrition/formula-feeding/preparation-and-storage.html"
+        },
+        {
+          "title": "CDC: vitamin K purpose/timing clarification",
+          "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/vitamin-k.html"
+        }
+      ],
+      "scope": "Keeps the lecture’s nutrition/milk progression while clarifying age-specific volumes, normal composition variation, informed choice, vitamin D and the distinction from birth vitamin K. No individualized nutrition prescription is created."
+    },
+    {
+      "id": "breastfeeding-latch-support",
+      "title": "Positioning, latch, and feeding support",
+      "lectureRanges": [
+        {
+          "deckId": "infant-feeding",
+          "firstPage": 6,
+          "lastPage": 6
+        },
+        {
+          "deckId": "infant-feeding",
+          "firstPage": 11,
+          "lastPage": 22
+        },
+        {
+          "deckId": "newborn-handout",
+          "firstPage": 5,
+          "lastPage": 5
+        }
+      ],
+      "topics": [
+        "Cues, timing and a sleepy infant",
+        "Position: bring the infant and parent into alignment",
+        "Latch: use a wide mouth and deep attachment",
+        "Milk transfer: watch an actual feed",
+        "Pain, poor transfer and referral"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Cues and feeding frequency",
+          "noteTopic": "Cues, timing and a sleepy infant"
+        },
+        {
+          "requirement": "Position and breast support",
+          "noteTopic": "Position: bring the infant and parent into alignment"
+        },
+        {
+          "requirement": "Deep latch and correction",
+          "noteTopic": "Latch: use a wide mouth and deep attachment"
+        },
+        {
+          "requirement": "Milk-transfer assessment",
+          "noteTopic": "Milk transfer: watch an actual feed"
+        },
+        {
+          "requirement": "Ineffective feeding, pain, support and referral",
+          "noteTopic": "Pain, poor transfer and referral"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Infant feeding: breast & formula (original supplied PDF)",
+          "url": "#/ob-final/presentation/infant-feeding"
+        },
+        {
+          "title": "Newborn assessment review handout (original supplied PDF)",
+          "url": "#/ob-final/presentation/newborn-handout"
+        },
+        {
+          "title": "CDC: latch and intake-assessment clarification",
+          "url": "https://www.cdc.gov/infant-toddler-nutrition/breastfeeding/newborn-basics.html"
+        },
+        {
+          "title": "CDC: early feeding-frequency clarification",
+          "url": "https://www.cdc.gov/infant-toddler-nutrition/breastfeeding/how-much-and-how-often.html"
+        }
+      ],
+      "scope": "Uses the actual positioning/latch/evaluation images, including text not extracted from the PDF. Clarifies sleepy-infant/pain/transfer safety without arbitrary feed lengths or fictional cases."
+    },
+    {
+      "id": "feeding-adequacy",
+      "title": "Evaluate feeding adequacy",
+      "lectureRanges": [
+        {
+          "deckId": "infant-feeding",
+          "firstPage": 2,
+          "lastPage": 4
+        },
+        {
+          "deckId": "infant-feeding",
+          "firstPage": 14,
+          "lastPage": 14
+        },
+        {
+          "deckId": "infant-feeding",
+          "firstPage": 22,
+          "lastPage": 22
+        },
+        {
+          "deckId": "infant-feeding",
+          "firstPage": 25,
+          "lastPage": 26
+        },
+        {
+          "deckId": "newborn-care",
+          "firstPage": 18,
+          "lastPage": 18
+        },
+        {
+          "deckId": "newborn-care",
+          "firstPage": 39,
+          "lastPage": 41
+        },
+        {
+          "deckId": "newborn-care",
+          "firstPage": 61,
+          "lastPage": 63
+        },
+        {
+          "deckId": "newborn-handout",
+          "firstPage": 5,
+          "lastPage": 7
+        }
+      ],
+      "topics": [
+        "Observe intake and assess hydration",
+        "Weight trend: quantify and interpret the loss",
+        "Urine and stool: use age-related trends",
+        "Supplement when indicated, then evaluate"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Feeding behavior and hydration",
+          "noteTopic": "Observe intake and assess hydration"
+        },
+        {
+          "requirement": "Weight-loss calculation and trend",
+          "noteTopic": "Weight trend: quantify and interpret the loss"
+        },
+        {
+          "requirement": "Urine and stool patterns",
+          "noteTopic": "Urine and stool: use age-related trends"
+        },
+        {
+          "requirement": "Follow-up, indicated supplementation and reassessment",
+          "noteTopic": "Supplement when indicated, then evaluate"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Infant feeding: breast & formula (original supplied PDF)",
+          "url": "#/ob-final/presentation/infant-feeding"
+        },
+        {
+          "title": "Assessment & care of the newborn (original supplied PDF)",
+          "url": "#/ob-final/presentation/newborn-care"
+        },
+        {
+          "title": "Newborn assessment review handout (original supplied PDF)",
+          "url": "#/ob-final/presentation/newborn-handout"
+        },
+        {
+          "title": "AAP: early follow-up and weight-loss clarification",
+          "url": "https://www.aap.org/en/patient-care/newborn-infant-and-early-childhood-nutrition/newborn-and-infant-health-assessment-and-promotion/first-office-visit-3-5-days/"
+        },
+        {
+          "title": "CDC: latch and intake-assessment clarification",
+          "url": "https://www.cdc.gov/infant-toddler-nutrition/breastfeeding/newborn-basics.html"
+        }
+      ],
+      "scope": "Combines lecture intake cues with labeled weight-loss/early-follow-up clarification. No formula-only rule, invented supplement-volume schedule or hypoglycemia treatment threshold is supplied."
+    },
+    {
+      "id": "milk-expression-storage",
+      "title": "Milk expression, storage, and maternal needs",
+      "lectureRanges": [
+        {
+          "deckId": "infant-feeding",
+          "firstPage": 7,
+          "lastPage": 8
+        },
+        {
+          "deckId": "infant-feeding",
+          "firstPage": 11,
+          "lastPage": 15
+        },
+        {
+          "deckId": "infant-feeding",
+          "firstPage": 23,
+          "lastPage": 23
+        }
+      ],
+      "topics": [
+        "Maintain supply, comfort and maternal wellbeing",
+        "Expression and cleaning",
+        "Fresh milk: use the corrected storage limits",
+        "Thawing, warming and leftovers",
+        "Transport, work and teach-back"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Supply, breast comfort and maternal nutrition",
+          "noteTopic": "Maintain supply, comfort and maternal wellbeing"
+        },
+        {
+          "requirement": "Safe expression and pump hygiene",
+          "noteTopic": "Expression and cleaning"
+        },
+        {
+          "requirement": "Fresh milk storage",
+          "noteTopic": "Fresh milk: use the corrected storage limits"
+        },
+        {
+          "requirement": "Thawing/warming/leftovers",
+          "noteTopic": "Thawing, warming and leftovers"
+        },
+        {
+          "requirement": "Work, separation, transport and teaching evaluation",
+          "noteTopic": "Transport, work and teach-back"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Infant feeding: breast & formula (original supplied PDF)",
+          "url": "#/ob-final/presentation/infant-feeding"
+        },
+        {
+          "title": "CDC: expressed-milk storage clarification",
+          "url": "https://www.cdc.gov/breastfeeding/breast-milk-preparation-and-storage/handling-breastmilk.html"
+        },
+        {
+          "title": "CDC: pump-cleaning clarification",
+          "url": "https://www.cdc.gov/hygiene/about/about-breast-pump-hygiene.html"
+        },
+        {
+          "title": "CDC: maternal-nutrition clarification",
+          "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/maternal-diet.html"
+        },
+        {
+          "title": "CDC: expressing milk during separation clarification",
+          "url": "https://www.cdc.gov/infant-toddler-nutrition/breastfeeding/returning-to-your-workplace.html"
+        }
+      ],
+      "scope": "The lecture’s storage topic is retained, but outdated time/container advice is explicitly corrected using CDC home guidance. Hospital high-risk storage and individualized feeding plans remain separate."
+    },
+    {
+      "id": "formula-preparation",
+      "title": "Formula preparation and bottle safety",
+      "lectureRanges": [
+        {
+          "deckId": "infant-feeding",
+          "firstPage": 23,
+          "lastPage": 26
+        },
+        {
+          "deckId": "newborn-care",
+          "firstPage": 61,
+          "lastPage": 63
+        }
+      ],
+      "topics": [
+        "Product and dilution: read the label together",
+        "Water and hygiene: correct the running-tap shortcut",
+        "Storage and discard: track three clocks",
+        "Responsive bottle feeding",
+        "Equipment, teach-back and evaluation"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Formula forms and correct dilution",
+          "noteTopic": "Product and dilution: read the label together"
+        },
+        {
+          "requirement": "Safe water, risk-based preparation and hygiene",
+          "noteTopic": "Water and hygiene: correct the running-tap shortcut"
+        },
+        {
+          "requirement": "Storage and disposal",
+          "noteTopic": "Storage and discard: track three clocks"
+        },
+        {
+          "requirement": "Positioning and responsive feeding",
+          "noteTopic": "Responsive bottle feeding"
+        },
+        {
+          "requirement": "Equipment cleaning and evaluating understanding",
+          "noteTopic": "Equipment, teach-back and evaluation"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Infant feeding: breast & formula (original supplied PDF)",
+          "url": "#/ob-final/presentation/infant-feeding"
+        },
+        {
+          "title": "Assessment & care of the newborn (original supplied PDF)",
+          "url": "#/ob-final/presentation/newborn-care"
+        },
+        {
+          "title": "CDC: formula preparation/storage clarification",
+          "url": "https://www.cdc.gov/infant-toddler-nutrition/formula-feeding/preparation-and-storage.html"
+        },
+        {
+          "title": "CDC: pump-cleaning clarification",
+          "url": "https://www.cdc.gov/hygiene/about/about-breast-pump-hygiene.html"
+        }
+      ],
+      "scope": "Source formula/bottle teaching with labeled CDC corrections to powder sterility, water preparation, dilution and discard times. No new infant-specific volume prescription or formula recipe is invented."
+    },
+    {
+      "id": "feeding-special-circumstances",
+      "title": "Feeding precautions and supplementation",
+      "lectureRanges": [
+        {
+          "deckId": "infant-feeding",
+          "firstPage": 24,
+          "lastPage": 26
+        }
+      ],
+      "topics": [
+        "Hepatitis B and C: correct the blanket restriction",
+        "Breast HSV lesions: distinguish the affected side",
+        "HIV: use current specialist counseling",
+        "Medications, radioactive exposure and substance use",
+        "Infant metabolic disorders: standard formula is not interchangeable",
+        "Preterm, very small or glucose-risk infants: supplement purposefully"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Maternal hepatitis and precautions",
+          "noteTopic": "Hepatitis B and C: correct the blanket restriction"
+        },
+        {
+          "requirement": "Direct versus expressed milk with breast HSV",
+          "noteTopic": "Breast HSV lesions: distinguish the affected side"
+        },
+        {
+          "requirement": "HIV counseling and monitoring",
+          "noteTopic": "HIV: use current specialist counseling"
+        },
+        {
+          "requirement": "Medication, radioactive exposure and substance-specific decisions",
+          "noteTopic": "Medications, radioactive exposure and substance use"
+        },
+        {
+          "requirement": "Infant metabolic conditions and alternative milk",
+          "noteTopic": "Infant metabolic disorders: standard formula is not interchangeable"
+        },
+        {
+          "requirement": "Preterm/glucose-risk supplementation and follow-up",
+          "noteTopic": "Preterm, very small or glucose-risk infants: supplement purposefully"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Infant feeding: breast & formula (original supplied PDF)",
+          "url": "#/ob-final/presentation/infant-feeding"
+        },
+        {
+          "title": "CDC: individualized feeding-precautions clarification",
+          "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/contraindications/"
+        },
+        {
+          "title": "CDC: hepatitis B/C feeding clarification",
+          "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/illnesses-conditions/hepatitis-b-c.html"
+        },
+        {
+          "title": "CDC: perinatal hepatitis B prevention clarification",
+          "url": "https://www.cdc.gov/hepatitis-b/hcp/perinatal-provider-overview/vaccine-administration.html"
+        },
+        {
+          "title": "CDC: direct breastfeeding versus expressed milk with HSV clarification",
+          "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/illnesses-conditions/herpes.html"
+        },
+        {
+          "title": "NHS Health Research Authority: PKU feeding clarification",
+          "url": "https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/phenylalanine-free-infant-formula-in-pku/"
+        },
+        {
+          "title": "UK screening programme: MSUD feeding clarification",
+          "url": "https://www.gov.uk/government/publications/msud-suspected-description-in-brief/maple-syrup-urine-disease-msud-detailed-information"
+        }
+      ],
+      "scope": "The source’s broad contraindication lists need explicit safety clarification for hepatitis, HIV, HSV, medications, metabolic disease and preterm supplementation. This is decision-oriented teaching, not a drug-specific hold-time or metabolic diet prescription."
+    }
+  ],
+  "visualReview": [
+    {
+      "deckId": "newborn-care",
+      "pages": [
+        4,
+        10,
+        12,
+        26,
+        35,
+        40,
+        55
+      ],
+      "purpose": "Checked Apgar boundaries/table, fetal-shunt diagram, cold-stress figure, scalp compartments, primitive-reflex table, conflicting vital-sign ranges and actual Ballard score-to-age chart."
+    },
+    {
+      "deckId": "infant-feeding",
+      "pages": [
+        6,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "purpose": "Checked breast anatomy, all five positions, C/U and scissor holds, asymmetric latch technique, milk-transfer/diaper evaluation and outdated side-by-side storage table. Image-only text was incorporated in the notes."
+    },
+    {
+      "deckId": "newborn-care-plan",
+      "pages": [
+        5
+      ],
+      "purpose": "Confirmed the final worksheet page is blank; no hidden care-plan table or completed patient case is omitted."
+    }
+  ],
+  "preservedCompletedObjectives": [
+    {
+      "id": "family-centered-care",
+      "sha256": "70a0b3b2ece86eb8bf63f3096dc4920845f670ac30dd63c330d90b1181792671"
+    },
+    {
+      "id": "pregnancy-adaptations",
+      "sha256": "cf195c48ab0f0f1ac71c5cded8f7ade851b4982250c7fb49821e9c42fb7401c2"
+    },
+    {
+      "id": "pregnancy-psychosocial-care",
+      "sha256": "a8fc5c78a886aac82d8136712864eaabd54876c1ceaec7f416e1ac74de96f7bf"
+    },
+    {
+      "id": "conception-fetal-development",
+      "sha256": "a977e1cfd51356225669fd1b760339b7310344d798eb56b69bd1dfb8487ebe3e"
+    },
+    {
+      "id": "pregnancy-signs",
+      "sha256": "d84d6ebc86af9ccf967fc27f093e1962d0012f37730f7c6ed42f09df0e17856a"
+    },
+    {
+      "id": "obstetric-history-gtpal",
+      "sha256": "70b17bd7266c0e4a5f3cbccdd7ec5bf7afff46deb2a254895cf9b814fc7449f5"
+    },
+    {
+      "id": "estimated-due-date",
+      "sha256": "4c7fb355ae71583d39b8eadc5cf27390b0a8cda16b575c5be8be739432901f17"
+    },
+    {
+      "id": "prenatal-assessment",
+      "sha256": "6b6348d843955794ec685927ab731331b7231d2f0ecc6bad6b5fb35faa1fba4e"
+    },
+    {
+      "id": "pregnancy-discomforts",
+      "sha256": "34c498545e7a2cfbaaed7ecbadb19f82b6b852084fdc5d1fe72c8dd230e0da8e"
+    },
+    {
+      "id": "prenatal-nutrition-teaching",
+      "sha256": "83e1f0e7ee44b5408a6c51eb18c495ba50bb04abfcfada596d3c25c1edacb0da"
+    },
+    {
+      "id": "high-risk-pregnancy-assessment",
+      "sha256": "58ac88980195a296e5d2deee1a458f1f13a5ee7bdb3e7ad8ae36890462d21a8b"
+    },
+    {
+      "id": "early-pregnancy-complications",
+      "sha256": "ad306f6df18fd34dee9ffb08bd37d1f7f6dc399d62d7fe4c989c4f4911c58696"
+    },
+    {
+      "id": "placental-bleeding",
+      "sha256": "707c745c51110fb3dae06c67efed3e4a5abdd952a8b3f86c9a6680800c2ac69d"
+    },
+    {
+      "id": "diabetes-assessment",
+      "sha256": "d339f75477a7e32654b26c0b34a13e69d00853d964c3b2146e327f88224b46d7"
+    },
+    {
+      "id": "diabetes-nursing-management",
+      "sha256": "094361a09b9d7defe6b6573413678eeabc31c2cefd846f72181120f949a70d37"
+    },
+    {
+      "id": "hypertensive-disorders",
+      "sha256": "c8593c799384dbaee342a6b08ce90a44dd2287055dc5595d8afb7ef1fae45307"
+    },
+    {
+      "id": "eclampsia-magnesium-hellp",
+      "sha256": "cf3ccd761f55857d196adbf4cf5b18d4c7fdda6eeb37291c54abecd98fcf9d0a"
+    },
+    {
+      "id": "pregnancy-prom-preterm",
+      "sha256": "a2ab601a785d8e285014984761f78364211d07fba602e986c4bfae92493e7df8"
+    },
+    {
+      "id": "rh-abo-infections",
+      "sha256": "274d6e23637b7dc15ef4f825f7d2520b59559325e07f4d688c2601917a133ef8"
+    },
+    {
+      "id": "fluid-multiples-pregnancy",
+      "sha256": "17dc96e563f057c24236fd7cf495942c7753c675986f571e2cfdeac9651c0e0e"
+    },
+    {
+      "id": "normal-labor-process",
+      "sha256": "b55ba5250d8dbc3f88c551be736418952d6ebf1a66341bc5d5d550dcafc5c5f4"
+    },
+    {
+      "id": "labor-nursing-assessment",
+      "sha256": "51eecfc874b5ecc7f956a4527500f4ab43790624925455e33b361eaef3db1138"
+    },
+    {
+      "id": "monitoring-methods",
+      "sha256": "29a00577b42d3fd5b69c403b3014e53161fe2635a6e637b16578acf93010daac"
+    },
+    {
+      "id": "fhr-strip-assessment",
+      "sha256": "a6a31f52d11398179b459d3ae919b226c760d9410eb68716691abebcd3381a63"
+    },
+    {
+      "id": "fhr-patterns",
+      "sha256": "55d736bced31e3f903cf3e03b85d5b2ea9e76c682d0ef45ff5269cbf7cbf37cb"
+    },
+    {
+      "id": "fhr-priorities",
+      "sha256": "c5f77e4885ea7ac00eaf2a2428c8be195602b2cc4e646946552983c15edfa27a"
+    },
+    {
+      "id": "labor-comfort-medication",
+      "sha256": "43debdc4bebe66782ea977c4fe524b259c50e47dbeffddf6320d6e7595c84c21"
+    },
+    {
+      "id": "induction-augmentation",
+      "sha256": "a21c21dff0b36b1a19f2b9f966ac38276e584b0871ca33c4774b6efbbc6f14c2"
+    },
+    {
+      "id": "complicated-labor",
+      "sha256": "dbfa4f53b59403adb8f0e1b8148910bcfe155c41353d4075fbfb7026c84b44fd"
+    },
+    {
+      "id": "assisted-cesarean-birth",
+      "sha256": "e18bb1ae3b2d153c39c30296e8849b2ae26c2c667b8dde9a6d26a84849628aa4"
+    },
+    {
+      "id": "shoulder-dystocia",
+      "sha256": "5b84d05572cac4ed63f9a5158bf8c6310b64cdd23987ac2e4fab963f6ce226ec"
+    },
+    {
+      "id": "placental-emergency-response",
+      "sha256": "528bb4f4558dc54218e43d5c1eabe9d6d496b93fc77377b941f68b49a7c6ef7e"
+    },
+    {
+      "id": "other-birth-emergencies",
+      "sha256": "e16f05346676b038a75b440593aafc083a1f10a697c815436cfe3d237f16c861"
+    },
+    {
+      "id": "postpartum-physiology",
+      "sha256": "736b7f87980f3a06b0e2c932aa6324a044ecb7ef8cc9a6c8759912c16d6eb8a6"
+    },
+    {
+      "id": "postpartum-assessment",
+      "sha256": "b7e13530e090470d46f5aafaef3644f8d316747400410fdfce5b4bc7e528afd8"
+    },
+    {
+      "id": "postpartum-labs-elimination",
+      "sha256": "8a6d3f4029b68e392d929a10085506abefba4b6bea6097f46253081bdff44215"
+    },
+    {
+      "id": "postpartum-comfort-mobility",
+      "sha256": "3cacc9d4c53b0e1136ab17d16502a82c764b69494e6175154a01049e57af5888"
+    },
+    {
+      "id": "postpartum-family-adaptation",
+      "sha256": "7812d6d7bf91e100d43bea0147edccf6da32bd35722f271ee8226645541b454c"
+    },
+    {
+      "id": "postpartum-discharge",
+      "sha256": "ffd0b3e3294032b7d7f3de83d85508582ac813156a836a1879c9801be9b33c4c"
+    },
+    {
+      "id": "postpartum-hemorrhage-assessment",
+      "sha256": "6650b75ca4741912d2469d888082b322fd37b273c18ad2d87aa51e65af562101"
+    },
+    {
+      "id": "postpartum-hemorrhage-management",
+      "sha256": "19a79c51e42a73c6bf2b2d7b2a81ff916c2e2d7f299c09d26d608694c0ec017b"
+    },
+    {
+      "id": "postpartum-subinvolution",
+      "sha256": "471e66ff4e78f7ddb5a09a48a6177a571d86f85f51aa7a06ce78460ab922cff2"
+    },
+    {
+      "id": "postpartum-infections",
+      "sha256": "a38a1743dd91340d916c0421b83da8bddd2c7be24f49dd6aad0e9b8c40d7b7a6"
+    },
+    {
+      "id": "postpartum-thromboembolism",
+      "sha256": "33186bc29d8a69b42128da382acf65fc791e22ebab5a92606e6f2610793caebf"
+    },
+    {
+      "id": "postpartum-mental-health",
+      "sha256": "a26dcbe1b99f2f1db741a5510e59b3244c2a27aff834c96bbe472bf2962f1eed"
+    }
+  ],
+  "preservedOtherObjectives": [
+    {
+      "id": "family-centered-care",
+      "sha256": "70a0b3b2ece86eb8bf63f3096dc4920845f670ac30dd63c330d90b1181792671"
+    },
+    {
+      "id": "pregnancy-adaptations",
+      "sha256": "cf195c48ab0f0f1ac71c5cded8f7ade851b4982250c7fb49821e9c42fb7401c2"
+    },
+    {
+      "id": "pregnancy-psychosocial-care",
+      "sha256": "a8fc5c78a886aac82d8136712864eaabd54876c1ceaec7f416e1ac74de96f7bf"
+    },
+    {
+      "id": "conception-fetal-development",
+      "sha256": "a977e1cfd51356225669fd1b760339b7310344d798eb56b69bd1dfb8487ebe3e"
+    },
+    {
+      "id": "pregnancy-signs",
+      "sha256": "d84d6ebc86af9ccf967fc27f093e1962d0012f37730f7c6ed42f09df0e17856a"
+    },
+    {
+      "id": "obstetric-history-gtpal",
+      "sha256": "70b17bd7266c0e4a5f3cbccdd7ec5bf7afff46deb2a254895cf9b814fc7449f5"
+    },
+    {
+      "id": "estimated-due-date",
+      "sha256": "4c7fb355ae71583d39b8eadc5cf27390b0a8cda16b575c5be8be739432901f17"
+    },
+    {
+      "id": "prenatal-assessment",
+      "sha256": "6b6348d843955794ec685927ab731331b7231d2f0ecc6bad6b5fb35faa1fba4e"
+    },
+    {
+      "id": "pregnancy-discomforts",
+      "sha256": "34c498545e7a2cfbaaed7ecbadb19f82b6b852084fdc5d1fe72c8dd230e0da8e"
+    },
+    {
+      "id": "prenatal-nutrition-teaching",
+      "sha256": "83e1f0e7ee44b5408a6c51eb18c495ba50bb04abfcfada596d3c25c1edacb0da"
+    },
+    {
+      "id": "high-risk-pregnancy-assessment",
+      "sha256": "58ac88980195a296e5d2deee1a458f1f13a5ee7bdb3e7ad8ae36890462d21a8b"
+    },
+    {
+      "id": "early-pregnancy-complications",
+      "sha256": "ad306f6df18fd34dee9ffb08bd37d1f7f6dc399d62d7fe4c989c4f4911c58696"
+    },
+    {
+      "id": "placental-bleeding",
+      "sha256": "707c745c51110fb3dae06c67efed3e4a5abdd952a8b3f86c9a6680800c2ac69d"
+    },
+    {
+      "id": "diabetes-assessment",
+      "sha256": "d339f75477a7e32654b26c0b34a13e69d00853d964c3b2146e327f88224b46d7"
+    },
+    {
+      "id": "diabetes-nursing-management",
+      "sha256": "094361a09b9d7defe6b6573413678eeabc31c2cefd846f72181120f949a70d37"
+    },
+    {
+      "id": "hypertensive-disorders",
+      "sha256": "c8593c799384dbaee342a6b08ce90a44dd2287055dc5595d8afb7ef1fae45307"
+    },
+    {
+      "id": "eclampsia-magnesium-hellp",
+      "sha256": "cf3ccd761f55857d196adbf4cf5b18d4c7fdda6eeb37291c54abecd98fcf9d0a"
+    },
+    {
+      "id": "pregnancy-prom-preterm",
+      "sha256": "a2ab601a785d8e285014984761f78364211d07fba602e986c4bfae92493e7df8"
+    },
+    {
+      "id": "rh-abo-infections",
+      "sha256": "274d6e23637b7dc15ef4f825f7d2520b59559325e07f4d688c2601917a133ef8"
+    },
+    {
+      "id": "fluid-multiples-pregnancy",
+      "sha256": "17dc96e563f057c24236fd7cf495942c7753c675986f571e2cfdeac9651c0e0e"
+    },
+    {
+      "id": "normal-labor-process",
+      "sha256": "b55ba5250d8dbc3f88c551be736418952d6ebf1a66341bc5d5d550dcafc5c5f4"
+    },
+    {
+      "id": "labor-nursing-assessment",
+      "sha256": "51eecfc874b5ecc7f956a4527500f4ab43790624925455e33b361eaef3db1138"
+    },
+    {
+      "id": "monitoring-methods",
+      "sha256": "29a00577b42d3fd5b69c403b3014e53161fe2635a6e637b16578acf93010daac"
+    },
+    {
+      "id": "fhr-strip-assessment",
+      "sha256": "a6a31f52d11398179b459d3ae919b226c760d9410eb68716691abebcd3381a63"
+    },
+    {
+      "id": "fhr-patterns",
+      "sha256": "55d736bced31e3f903cf3e03b85d5b2ea9e76c682d0ef45ff5269cbf7cbf37cb"
+    },
+    {
+      "id": "fhr-priorities",
+      "sha256": "c5f77e4885ea7ac00eaf2a2428c8be195602b2cc4e646946552983c15edfa27a"
+    },
+    {
+      "id": "labor-comfort-medication",
+      "sha256": "43debdc4bebe66782ea977c4fe524b259c50e47dbeffddf6320d6e7595c84c21"
+    },
+    {
+      "id": "induction-augmentation",
+      "sha256": "a21c21dff0b36b1a19f2b9f966ac38276e584b0871ca33c4774b6efbbc6f14c2"
+    },
+    {
+      "id": "complicated-labor",
+      "sha256": "dbfa4f53b59403adb8f0e1b8148910bcfe155c41353d4075fbfb7026c84b44fd"
+    },
+    {
+      "id": "assisted-cesarean-birth",
+      "sha256": "e18bb1ae3b2d153c39c30296e8849b2ae26c2c667b8dde9a6d26a84849628aa4"
+    },
+    {
+      "id": "shoulder-dystocia",
+      "sha256": "5b84d05572cac4ed63f9a5158bf8c6310b64cdd23987ac2e4fab963f6ce226ec"
+    },
+    {
+      "id": "placental-emergency-response",
+      "sha256": "528bb4f4558dc54218e43d5c1eabe9d6d496b93fc77377b941f68b49a7c6ef7e"
+    },
+    {
+      "id": "other-birth-emergencies",
+      "sha256": "e16f05346676b038a75b440593aafc083a1f10a697c815436cfe3d237f16c861"
+    },
+    {
+      "id": "postpartum-physiology",
+      "sha256": "736b7f87980f3a06b0e2c932aa6324a044ecb7ef8cc9a6c8759912c16d6eb8a6"
+    },
+    {
+      "id": "postpartum-assessment",
+      "sha256": "b7e13530e090470d46f5aafaef3644f8d316747400410fdfce5b4bc7e528afd8"
+    },
+    {
+      "id": "postpartum-labs-elimination",
+      "sha256": "8a6d3f4029b68e392d929a10085506abefba4b6bea6097f46253081bdff44215"
+    },
+    {
+      "id": "postpartum-comfort-mobility",
+      "sha256": "3cacc9d4c53b0e1136ab17d16502a82c764b69494e6175154a01049e57af5888"
+    },
+    {
+      "id": "postpartum-family-adaptation",
+      "sha256": "7812d6d7bf91e100d43bea0147edccf6da32bd35722f271ee8226645541b454c"
+    },
+    {
+      "id": "postpartum-discharge",
+      "sha256": "ffd0b3e3294032b7d7f3de83d85508582ac813156a836a1879c9801be9b33c4c"
+    },
+    {
+      "id": "postpartum-hemorrhage-assessment",
+      "sha256": "6650b75ca4741912d2469d888082b322fd37b273c18ad2d87aa51e65af562101"
+    },
+    {
+      "id": "postpartum-hemorrhage-management",
+      "sha256": "19a79c51e42a73c6bf2b2d7b2a81ff916c2e2d7f299c09d26d608694c0ec017b"
+    },
+    {
+      "id": "postpartum-subinvolution",
+      "sha256": "471e66ff4e78f7ddb5a09a48a6177a571d86f85f51aa7a06ce78460ab922cff2"
+    },
+    {
+      "id": "postpartum-infections",
+      "sha256": "a38a1743dd91340d916c0421b83da8bddd2c7be24f49dd6aad0e9b8c40d7b7a6"
+    },
+    {
+      "id": "postpartum-thromboembolism",
+      "sha256": "33186bc29d8a69b42128da382acf65fc791e22ebab5a92606e6f2610793caebf"
+    },
+    {
+      "id": "postpartum-mental-health",
+      "sha256": "a26dcbe1b99f2f1db741a5510e59b3244c2a27aff834c96bbe472bf2962f1eed"
+    },
+    {
+      "id": "prematurity-high-risk",
+      "sha256": "b315fc3218e1b8b5cf0ff466640ea69a5715102496bc154247273d51dbf820e8"
+    },
+    {
+      "id": "newborn-respiratory-distress",
+      "sha256": "d383d8471bd46a9fb9188db1a909fc00cd1930bcb3a2b8e1a084bd886b252d0d"
+    },
+    {
+      "id": "newborn-temperature-glucose",
+      "sha256": "c412588cf3dc2873d85f83b898583fc2c104c25f73e7309f1829f8f9137676f3"
+    },
+    {
+      "id": "newborn-jaundice",
+      "sha256": "acda6d61fb2b62dea69c91235c376cc7fc6329f2fbcc60be959df77061da88c0"
+    },
+    {
+      "id": "newborn-sepsis-nec",
+      "sha256": "9233116d317c6f0dbb6f4948c6dbb6d9ff32bead3905897d5756bd8d746c5cd0"
+    },
+    {
+      "id": "preterm-ongoing-care",
+      "sha256": "6e52fa09d3a520c01ee99fa25758aca9721aff46f85acb6b5e03c089a5357aca"
+    },
+    {
+      "id": "contraceptive-choice",
+      "sha256": "de0a7f06c1aeb709e0ea8caf920931040f7cd98174687f7568dfbd81d5fde83a"
+    },
+    {
+      "id": "hormonal-contraception-safety",
+      "sha256": "e1f5fe89bf92fc3f86ff3e82aa13cba3256ed3b18ebaa69c09cf0da3bb115087"
+    },
+    {
+      "id": "missed-contraception",
+      "sha256": "98f3060d88833f23d1a9ec5611e300d4dcef18a7d118571c77d404c492ca2aa7"
+    },
+    {
+      "id": "iud-implant-care",
+      "sha256": "51176960ee61f87b10a899e4911fbd6b7ee9aaac689826b94cea1a2340a70057"
+    },
+    {
+      "id": "barrier-fertility-lam",
+      "sha256": "0c005b99066e1e9e42f98285aedbbd782a33cda580d0d5d6123d3191fb3d8f63"
+    },
+    {
+      "id": "emergency-permanent-contraception",
+      "sha256": "1339d724b651c4d9e4e81201275aa49a48d5e173c886ec0b993e143b7623046e"
+    },
+    {
+      "id": "fertility-reproductive-planning",
+      "sha256": "b738eb5ba30f370994e8fa79251075386d8d40e5b9bac5c6d8a1b6cbed826751"
+    },
+    {
+      "id": "sti-assessment-discharge",
+      "sha256": "fbd70e3742cc8dc2b7a4fcb342e950a3f9359667ee46cf085021e131e0594228"
+    },
+    {
+      "id": "syphilis-hpv-hsv",
+      "sha256": "b621a8b2751d5a8de431aa3e0176152f2a68e22c062536cb1c5704167a052ee1"
+    },
+    {
+      "id": "pid-complications",
+      "sha256": "b81f6d6618c11aad7db2e9625da8869e29f59c3216c32e6479b5652f92a6123d"
+    },
+    {
+      "id": "hiv-hepatitis-perinatal-care",
+      "sha256": "d90dc8ce540f2731ff87353c57f7f316f76291b70c4433b49c512dcdfe95caec"
+    },
+    {
+      "id": "sti-treatment-partner-teaching",
+      "sha256": "5ffb8cfb14044c622fcdd69e31ac356f1aacc797141a2cc378b63280cc974da6"
+    }
+  ],
+  "emphasis": {
+    "newBoldSpans": 130,
+    "storage": "docs/readability/ob-readability-review.json",
+    "handling": "Exact scoped spans only; no inline Markdown/HTML. All prior CSV decisions and authored additions are unchanged."
+  },
+  "materialLimits": [
+    {
+      "objectiveId": "newborn-transition-apgar",
+      "handling": "No supplied patient case; arithmetic uses the original Apgar table rather than a fabricated case. Resuscitation is referred to trained neonatal protocols."
+    },
+    {
+      "objectiveId": "newborn-gestational-assessment",
+      "handling": "No complete supplied age/weight percentile case; the actual Ballard chart supplies a 35-point-to-38-week illustration, with size requiring separate percentile plotting."
+    },
+    {
+      "objectiveId": "newborn-routine-care",
+      "handling": "Source screen/treatment shortcuts are not complete algorithms; no universal glucose threshold, hourly heel-stick plan, bilirubin treatment table or medication-dose table is authored."
+    },
+    {
+      "objectiveId": "feeding-special-circumstances",
+      "handling": "The lecture lists conditions without individual diet/drug hold protocols. Current distinctions are clarified; specialist feeding amounts, exposure hold times and metabolic treatment remain individualized."
+    }
+  ],
+  "clarifications": [
+    {
+      "issue": "Apgar >100 boundary, one 10-minute repeat and delayed resuscitation implications",
+      "handling": "Use ≥100 for 2 heart-rate points, indicated repeat scoring through 20 minutes, and immediate condition-based care; Apgar alone does not diagnose asphyxia or determine NICU admission.",
+      "sources": [
+        "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2015/10/the-apgar-score",
+        "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation"
+      ]
+    },
+    {
+      "issue": "Any respiratory pause <20 seconds labeled normal; single oxygen number applied at birth",
+      "handling": "Interpret effort/color/heart rate and urgent symptoms; avoid routine suction and use the neonatal/CCHD context rather than a single >95% birth target.",
+      "sources": [
+        "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation",
+        "https://www.cdc.gov/heart-defects/hcp/screening/"
+      ]
+    },
+    {
+      "issue": "Molding and caput conflated; subgaleal figure lacks explanatory nursing text",
+      "handling": "Separate skull shape, edema, periosteal and subgaleal bleeding, with progressive swelling/perfusion deterioration urgent.",
+      "sources": [
+        "https://med.stanford.edu/newborns/professional-education/photo-gallery/head.html"
+      ]
+    },
+    {
+      "issue": "Hip click/Galeazzi and diagnostic shortcuts",
+      "handling": "Differentiate true clunk from click and knee-height comparison from folds; isolated physical traits do not diagnose syndromes.",
+      "sources": [
+        "https://med.stanford.edu/newborns/professional-education/photo-gallery/hips.html",
+        "https://med.stanford.edu/newborns/professional-education/photo-gallery/neuro-reflexes.html"
+      ]
+    },
+    {
+      "issue": "Term 38–42 and fixed gram cutoffs used as SGA/LGA",
+      "handling": "Use standard gestational boundaries and gestational-age percentiles separately from weight.",
+      "sources": [
+        "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/11/definition-of-term-pregnancy",
+        "https://www.msdmanuals.com/professional/pediatrics/perinatal-problems/small-for-gestational-age-sga-infant"
+      ]
+    },
+    {
+      "issue": "Prophylaxis/screening timing, HBIG series and no-news result tracking",
+      "handling": "Separate purposes/timing, maternal-status/weight-based HBV prevention, multi-disorder screens and confirmed follow-up.",
+      "sources": [
+        "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/vitamin-k.html",
+        "https://www.cdc.gov/std/treatment-guidelines/gonorrhea-neonates.htm",
+        "https://www.cdc.gov/hepatitis-b/hcp/perinatal-provider-overview/vaccine-administration.html",
+        "https://www.cdc.gov/newborn-screening/about/general-information.html",
+        "https://www.cdc.gov/hearing-loss-children-guide/parents-guide/newborn-hearing-screening.html",
+        "https://www.cdc.gov/heart-defects/hcp/screening/",
+        "https://www.aap.org/en/patient-care/hyperbilirubinemia/frequently-asked-questions-about-the-2022-aap-guideline-on-the-management-of-hyperbilirubinemia/"
+      ]
+    },
+    {
+      "issue": "Incomplete safe sleep, fever and follow-up teaching",
+      "handling": "Clarify separate firm flat back-sleep surface, urgent fever and early newborn weight/feeding/jaundice review.",
+      "sources": [
+        "https://safetosleep.nichd.nih.gov/reduce-risk/back-sleeping",
+        "https://www.healthychildren.org/English/health-issues/conditions/fever/Pages/Fever-and-Your-Baby.aspx",
+        "https://www.aap.org/en/patient-care/newborn-infant-and-early-childhood-nutrition/newborn-and-infant-health-assessment-and-promotion/first-office-visit-3-5-days/"
+      ]
+    },
+    {
+      "issue": "Fixed early volumes, 10% weight loss treated as automatically normal and nonspecific vitamin advice",
+      "handling": "Do not turn later neonatal values into first-day prescriptions; assess weight/hydration and individualize nutrients including vitamin D.",
+      "sources": [
+        "https://www.aap.org/en/patient-care/newborn-infant-and-early-childhood-nutrition/newborn-and-infant-health-assessment-and-promotion/first-office-visit-3-5-days/",
+        "https://www.cdc.gov/infant-toddler-nutrition/breastfeeding/how-much-and-how-often.html",
+        "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/vitamin-d.html"
+      ]
+    },
+    {
+      "issue": "Image-only feeding evaluation omitted by extraction; sleepy/poor intake minimized",
+      "handling": "Include deep latch/transfer cues and age-related diaper trends; assess persistent pain and inadequate intake promptly.",
+      "sources": [
+        "https://www.cdc.gov/infant-toddler-nutrition/breastfeeding/newborn-basics.html"
+      ]
+    },
+    {
+      "issue": "Eight-day milk refrigeration and glass-only/container advice",
+      "handling": "Use current CDC milk storage, thawing, leftover and pump-cleaning guidance with hospital high-risk exceptions explicit.",
+      "sources": [
+        "https://www.cdc.gov/breastfeeding/breast-milk-preparation-and-storage/handling-breastmilk.html",
+        "https://www.cdc.gov/hygiene/about/about-breast-pump-hygiene.html"
+      ]
+    },
+    {
+      "issue": "Formula four-hour room limit, generalized refrigerator limits and running-tap preparation shortcut",
+      "handling": "Use exact labeled dilution, high-risk newborn water preparation, two-hour/one-hour/24-hour clocks, and no bottle propping.",
+      "sources": [
+        "https://www.cdc.gov/infant-toddler-nutrition/formula-feeding/preparation-and-storage.html"
+      ]
+    },
+    {
+      "issue": "Blanket feeding contraindications for hepatitis/HIV, affected breast HSV, medications and metabolic disease",
+      "handling": "Distinguish direct/expressed milk and affected side, ART/viral status, specific agents, classic galactosemia versus specialist PKU/MSUD plans, and human-milk support for preterm infants.",
+      "sources": [
+        "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/contraindications/",
+        "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/illnesses-conditions/hepatitis-b-c.html",
+        "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/illnesses-conditions/herpes.html",
+        "https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/phenylalanine-free-infant-formula-in-pku/",
+        "https://www.gov.uk/government/publications/msud-suspected-description-in-brief/maple-syrup-urine-disease-msud-detailed-information"
+      ]
+    },
+    {
+      "issue": "Source limits bilirubin to symptoms and implies later jaundice is always physiologic",
+      "handling": "Document a predischarge measured bilirubin with age/risk-based interpretation and follow-up; avoid the fixed source table and do not dismiss later jaundice.",
+      "sources": [
+        "https://www.aap.org/en/patient-care/hyperbilirubinemia/frequently-asked-questions-about-the-2022-aap-guideline-on-the-management-of-hyperbilirubinemia/"
+      ]
+    }
+  ],
+  "sharedViews": "Six normal-newborn and six feeding answers reuse the existing topic mapping. Transition, head-to-toe assessment, gestational assessment and discharge teaching also appear in Week 10. Static Reader articles are generated from the same content. Original objective order/mappings, PDF files/previews, practice banks/access, videos and navigation remain unchanged.",
+  "limits": "Source-led educational material, with concise labeled safety clarifications rather than replacement lecture content. Automated checks establish source/text preservation, coverage and rendering; they do not constitute independent clinical validation or a physical iPhone/Safari test."
+}

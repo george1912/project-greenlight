@@ -3825,5 +3825,681 @@ const obReadabilityRules = {
       "text": "Provide a clear plan for urgent help and follow-up",
       "style": "bold"
     }
+  ],
+  "newborn-transition-apgar|Quick answer": [
+    {
+      "text": "effective breathing, changing circulation and adequate warmth",
+      "style": "bold"
+    },
+    {
+      "text": "Apgar scores five findings from 0–2 each",
+      "style": "bold"
+    },
+    {
+      "text": "Do not wait for an Apgar score to begin needed resuscitation",
+      "style": "bold"
+    }
+  ],
+  "newborn-transition-apgar|Respiratory transition: establish effective ventilation": [
+    {
+      "text": "30–60 breaths/minute",
+      "style": "bold"
+    },
+    {
+      "text": "A pause with color change, bradycardia or poor tone is concerning even if shorter than 20 seconds",
+      "style": "bold"
+    }
+  ],
+  "newborn-transition-apgar|Circulatory transition: connect the lungs and shunts": [
+    {
+      "text": "apical pulse for one full minute",
+      "style": "bold"
+    }
+  ],
+  "newborn-transition-apgar|Apgar: score heart rate and respiratory effort": [
+    {
+      "text": "2 for ≥100 beats/minute",
+      "style": "bold"
+    }
+  ],
+  "newborn-transition-apgar|Apgar: score tone, reflex response and color": [
+    {
+      "text": "2 for active movement with well-flexed extremities",
+      "style": "bold"
+    }
+  ],
+  "newborn-transition-apgar|Calculate, time and interpret the total": [
+    {
+      "text": "2 + 2 + 2 + 2 + 2 = 10",
+      "style": "bold"
+    },
+    {
+      "text": "every 5 minutes through 20 minutes",
+      "style": "bold"
+    }
+  ],
+  "newborn-transition-apgar|Reactivity and reassessment: behavior does not override distress": [
+    {
+      "text": "breathing, heart rate, tone, temperature and feeding ability",
+      "style": "bold"
+    }
+  ],
+  "newborn-head-to-toe|Quick answer": [
+    {
+      "text": "general condition and vital signs first",
+      "style": "bold"
+    },
+    {
+      "text": "tone, reflexes and behavior",
+      "style": "bold"
+    },
+    {
+      "text": "Concerning breathing, perfusion, neurologic or feeding findings take priority",
+      "style": "bold"
+    }
+  ],
+  "newborn-head-to-toe|General survey and vital signs": [
+    {
+      "text": "30–60/minute",
+      "style": "bold"
+    }
+  ],
+  "newborn-head-to-toe|Measurements, head and face": [
+    {
+      "text": "weight, length and head circumference",
+      "style": "bold"
+    }
+  ],
+  "newborn-head-to-toe|Heart, lungs and chest": [
+    {
+      "text": "nasal flaring, grunting, retractions and central cyanosis",
+      "style": "bold"
+    }
+  ],
+  "newborn-head-to-toe|Abdomen, cord and elimination": [
+    {
+      "text": "Marked distention, a scaphoid abdomen with respiratory symptoms or bilious vomiting",
+      "style": "bold"
+    },
+    {
+      "text": "two arteries and one vein",
+      "style": "bold"
+    }
+  ],
+  "newborn-head-to-toe|Genitalia and anus": [
+    {
+      "text": "Do not force foreskin retraction",
+      "style": "bold"
+    }
+  ],
+  "newborn-head-to-toe|Spine, extremities and hips": [
+    {
+      "text": "Asymmetric movement, deformity or a concerning spinal lesion",
+      "style": "bold"
+    },
+    {
+      "text": "knee heights with hips/knees flexed",
+      "style": "bold"
+    }
+  ],
+  "newborn-head-to-toe|Neurologic findings and primitive reflexes": [
+    {
+      "text": "Flaccidity, marked asymmetry or poor responsiveness",
+      "style": "bold"
+    }
+  ],
+  "newborn-head-to-toe|Behavior, senses and documentation": [
+    {
+      "text": "deep sleep, light sleep, drowsy, quiet alert, active alert and crying",
+      "style": "bold"
+    }
+  ],
+  "newborn-variants|Quick answer": [
+    {
+      "text": "appearance, distribution, change and the infant’s overall condition",
+      "style": "bold"
+    },
+    {
+      "text": "Molding changes skull shape; caput is scalp edema; cephalohematoma is blood beneath the periosteum",
+      "style": "bold"
+    },
+    {
+      "text": "Progressive diffuse scalp swelling with pallor or poor perfusion may be subgaleal hemorrhage",
+      "style": "bold"
+    }
+  ],
+  "newborn-variants|Common skin findings: describe and reassure appropriately": [
+    {
+      "text": "do not squeeze or treat milia as acne",
+      "style": "bold"
+    },
+    {
+      "text": "Document location, size and color",
+      "style": "bold"
+    }
+  ],
+  "newborn-variants|Color changes: check location and timing": [
+    {
+      "text": "Blue tongue/mucosa or trunk is central cyanosis",
+      "style": "bold"
+    },
+    {
+      "text": "first 24 hours",
+      "style": "bold"
+    }
+  ],
+  "newborn-variants|Molding and caput: different processes": [
+    {
+      "text": "can cross suture lines",
+      "style": "bold"
+    }
+  ],
+  "newborn-variants|Cephalohematoma: blood confined by the periosteum": [
+    {
+      "text": "does not cross suture lines",
+      "style": "bold"
+    }
+  ],
+  "newborn-variants|Subgaleal bleeding: recognize a potentially dangerous pattern": [
+    {
+      "text": "Diffuse, fluctuant or expanding swelling crossing sutures",
+      "style": "bold"
+    },
+    {
+      "text": "Pallor, tachycardia, poor perfusion or increasing swelling",
+      "style": "bold"
+    }
+  ],
+  "newborn-gestational-assessment|Quick answer": [
+    {
+      "text": "gestational age and size for gestational age separately",
+      "style": "bold"
+    },
+    {
+      "text": "Ballard combines physical and neuromuscular maturity",
+      "style": "bold"
+    },
+    {
+      "text": "gestational-age percentiles",
+      "style": "bold"
+    }
+  ],
+  "newborn-gestational-assessment|Age categories: correct the lecture’s broad term range": [
+    {
+      "text": "<37 weeks",
+      "style": "bold"
+    },
+    {
+      "text": "postterm is ≥42 weeks",
+      "style": "bold"
+    }
+  ],
+  "newborn-gestational-assessment|Ballard: assess two kinds of maturity": [
+    {
+      "text": "skin, lanugo, plantar creases, breast tissue, eyes/ears and genitalia",
+      "style": "bold"
+    }
+  ],
+  "newborn-gestational-assessment|Growth classification: percentiles rather than fixed gram cutoffs": [
+    {
+      "text": "SGA <10th percentile; AGA 10th–90th percentile; LGA >90th percentile",
+      "style": "bold"
+    }
+  ],
+  "newborn-gestational-assessment|Apply the classification to care": [
+    {
+      "text": "a total of 35 maps to 38 weeks",
+      "style": "bold"
+    }
+  ],
+  "newborn-routine-care|Quick answer": [
+    {
+      "text": "breathing, warmth, correct identification and repeated assessment",
+      "style": "bold"
+    },
+    {
+      "text": "vitamin K, eye prophylaxis, hepatitis B prevention and screening",
+      "style": "bold"
+    },
+    {
+      "text": "resolve abnormal or pending findings before an appropriate discharge plan",
+      "style": "bold"
+    }
+  ],
+  "newborn-routine-care|Airway and warmth: support transition safely": [
+    {
+      "text": "Do not routinely suction a breathing newborn",
+      "style": "bold"
+    }
+  ],
+  "newborn-routine-care|Identification and everyday safety": [
+    {
+      "text": "Match the infant with the caregiver before transfers, treatments and discharge",
+      "style": "bold"
+    }
+  ],
+  "newborn-routine-care|Skin, diaper and cord care": [
+    {
+      "text": "keep the stump clean and dry",
+      "style": "bold"
+    }
+  ],
+  "newborn-routine-care|Vitamin K and eye prophylaxis: two different purposes": [
+    {
+      "text": "intramuscular dose within 6 hours of birth",
+      "style": "bold"
+    },
+    {
+      "text": "Eye ointment does not prevent every neonatal eye infection",
+      "style": "bold"
+    }
+  ],
+  "newborn-routine-care|Hepatitis B: verify maternal status and infant timing": [
+    {
+      "text": "hepatitis B vaccine plus HBIG within 12 hours",
+      "style": "bold"
+    },
+    {
+      "text": "HBIG is not the vaccine series",
+      "style": "bold"
+    }
+  ],
+  "newborn-routine-care|Blood-spot screening and indicated laboratory tests": [
+    {
+      "text": "24–48 hours",
+      "style": "bold"
+    },
+    {
+      "text": "Do not assume no news means a confirmed normal screen",
+      "style": "bold"
+    }
+  ],
+  "newborn-routine-care|Hearing and pulse-ox screening: add the follow-through": [
+    {
+      "text": "by 1 month",
+      "style": "bold"
+    },
+    {
+      "text": "≥24 hours",
+      "style": "bold"
+    }
+  ],
+  "newborn-routine-care|Circumcision: preparation, comfort and observation": [
+    {
+      "text": "A penile anomaly such as hypospadias requires review before routine circumcision",
+      "style": "bold"
+    }
+  ],
+  "newborn-discharge-teaching|Quick answer": [
+    {
+      "text": "stable recovery, effective feeding, elimination, completed or tracked screening and an arranged follow-up plan",
+      "style": "bold"
+    },
+    {
+      "text": "demonstration and teach-back",
+      "style": "bold"
+    },
+    {
+      "text": "Fever, breathing/color changes, poor responsiveness or inability to feed need prompt help",
+      "style": "bold"
+    }
+  ],
+  "newborn-discharge-teaching|Assess readiness and the home support plan": [
+    {
+      "text": "Use an interpreter and return demonstration when needed",
+      "style": "bold"
+    }
+  ],
+  "newborn-discharge-teaching|Safe sleep and transport": [
+    {
+      "text": "on the back for every sleep on a firm, flat, level separate surface",
+      "style": "bold"
+    }
+  ],
+  "newborn-discharge-teaching|Temperature and urgent signs: state the action": [
+    {
+      "text": "A rectal temperature ≥38°C/100.4°F in a young infant needs immediate clinician contact/evaluation",
+      "style": "bold"
+    },
+    {
+      "text": "Blue tongue/trunk, severe breathing difficulty, unresponsiveness or seizure-like activity needs emergency help",
+      "style": "bold"
+    }
+  ],
+  "newborn-discharge-teaching|Daily care, feeding and elimination": [
+    {
+      "text": "Never leave the infant unattended in water",
+      "style": "bold"
+    }
+  ],
+  "newborn-discharge-teaching|Follow-up and evaluation of teaching": [
+    {
+      "text": "at age 3–5 days",
+      "style": "bold"
+    },
+    {
+      "text": "screening and immunization follow-up",
+      "style": "bold"
+    }
+  ],
+  "feeding-needs-milk-changes|Quick answer": [
+    {
+      "text": "growth, warmth and fluid balance",
+      "style": "bold"
+    },
+    {
+      "text": "Colostrum progresses to transitional and mature milk",
+      "style": "bold"
+    },
+    {
+      "text": "teach indicated vitamin D and other prescribed supplementation",
+      "style": "bold"
+    }
+  ],
+  "feeding-needs-milk-changes|Nutrition and fluid needs: respect the infant’s age": [
+    {
+      "text": "These are not universal first-day feeding orders",
+      "style": "bold"
+    },
+    {
+      "text": "do not add free water or dilute feeds",
+      "style": "bold"
+    }
+  ],
+  "feeding-needs-milk-changes|Colostrum, transitional milk and mature milk": [
+    {
+      "text": "Small volume does not mean nutritionally empty",
+      "style": "bold"
+    },
+    {
+      "text": "Fixed daily slide volumes are examples, not a supply test",
+      "style": "bold"
+    }
+  ],
+  "feeding-needs-milk-changes|Milk production and milk release": [
+    {
+      "text": "oxytocin supports milk ejection/let-down",
+      "style": "bold"
+    }
+  ],
+  "feeding-needs-milk-changes|Human milk and formula: explain without blame": [
+    {
+      "text": "Benefits are not a guarantee of a particular health outcome",
+      "style": "bold"
+    },
+    {
+      "text": "Both feeding methods require responsive feeding and follow-up",
+      "style": "bold"
+    }
+  ],
+  "feeding-needs-milk-changes|Vitamins, minerals and safe supplementation": [
+    {
+      "text": "400 IU daily starting shortly after birth",
+      "style": "bold"
+    }
+  ],
+  "breastfeeding-latch-support|Quick answer": [
+    {
+      "text": "early feeding cues",
+      "style": "bold"
+    },
+    {
+      "text": "alignment, a deep comfortable latch and visible/audible swallowing",
+      "style": "bold"
+    },
+    {
+      "text": "Persistent pain or poor transfer needs reassessment and help",
+      "style": "bold"
+    }
+  ],
+  "breastfeeding-latch-support|Cues, timing and a sleepy infant": [
+    {
+      "text": "8–12 feeds in 24 hours",
+      "style": "bold"
+    },
+    {
+      "text": "poor arousal or ineffective feeding requires assessment",
+      "style": "bold"
+    }
+  ],
+  "breastfeeding-latch-support|Position: bring the infant and parent into alignment": [
+    {
+      "text": "ear, shoulder and hip aligned",
+      "style": "bold"
+    }
+  ],
+  "breastfeeding-latch-support|Latch: use a wide mouth and deep attachment": [
+    {
+      "text": "chin first toward the breast",
+      "style": "bold"
+    },
+    {
+      "text": "Do not continue a painful ineffective latch",
+      "style": "bold"
+    }
+  ],
+  "breastfeeding-latch-support|Milk transfer: watch an actual feed": [
+    {
+      "text": "Swallowing and transfer matter more than minutes spent latched",
+      "style": "bold"
+    }
+  ],
+  "breastfeeding-latch-support|Pain, poor transfer and referral": [
+    {
+      "text": "Seek lactation help promptly for persistent pain, damaged nipples or ineffective transfer",
+      "style": "bold"
+    }
+  ],
+  "feeding-adequacy|Quick answer": [
+    {
+      "text": "an observed feed, serial weight, urine/stool and hydration together",
+      "style": "bold"
+    },
+    {
+      "text": "Excessive or ongoing weight loss, few wet diapers, poor swallowing or lethargy needs assessment",
+      "style": "bold"
+    },
+    {
+      "text": "reassess the infant’s response and follow-up",
+      "style": "bold"
+    }
+  ],
+  "feeding-adequacy|Observe intake and assess hydration": [
+    {
+      "text": "Continued voiding does not by itself exclude dehydration",
+      "style": "bold"
+    }
+  ],
+  "feeding-adequacy|Weight trend: quantify and interpret the loss": [
+    {
+      "text": "(birth weight − current weight) ÷ birth weight × 100",
+      "style": "bold"
+    },
+    {
+      "text": ">10% requires evaluation",
+      "style": "bold"
+    }
+  ],
+  "feeding-adequacy|Urine and stool: use age-related trends": [
+    {
+      "text": "about six or more wet diapers/day by around day 5",
+      "style": "bold"
+    }
+  ],
+  "feeding-adequacy|Supplement when indicated, then evaluate": [
+    {
+      "text": "Do not use crying alone or bottle acceptance alone as the indication",
+      "style": "bold"
+    }
+  ],
+  "milk-expression-storage|Quick answer": [
+    {
+      "text": "remove milk about as often as the infant normally feeds",
+      "style": "bold"
+    },
+    {
+      "text": "follow the clarified storage clocks rather than the older slide’s refrigerator limit",
+      "style": "bold"
+    },
+    {
+      "text": "review technique, supply concerns and the infant’s intake",
+      "style": "bold"
+    }
+  ],
+  "milk-expression-storage|Maintain supply, comfort and maternal wellbeing": [
+    {
+      "text": "Avoid long unplanned gaps in milk removal",
+      "style": "bold"
+    }
+  ],
+  "milk-expression-storage|Expression and cleaning": [
+    {
+      "text": "Clean milk-contact pump parts after every use",
+      "style": "bold"
+    }
+  ],
+  "milk-expression-storage|Fresh milk: use the corrected storage limits": [
+    {
+      "text": "up to 4 hours at ≤25°C/77°F and up to 4 days refrigerated at ≤4°C/40°F",
+      "style": "bold"
+    },
+    {
+      "text": "about 6 months is best; up to 12 months is acceptable",
+      "style": "bold"
+    }
+  ],
+  "milk-expression-storage|Thawing, warming and leftovers": [
+    {
+      "text": "Never microwave milk or refreeze fully thawed milk",
+      "style": "bold"
+    },
+    {
+      "text": "24 hours from complete thawing",
+      "style": "bold"
+    }
+  ],
+  "milk-expression-storage|Transport, work and teach-back": [
+    {
+      "text": "frozen ice packs can hold expressed milk up to 24 hours",
+      "style": "bold"
+    }
+  ],
+  "formula-preparation|Quick answer": [
+    {
+      "text": "measure the exact water-to-powder/concentrate ratio",
+      "style": "bold"
+    },
+    {
+      "text": "Powdered formula is not sterile",
+      "style": "bold"
+    },
+    {
+      "text": "use the correct preparation, refrigeration and feeding-discard clocks",
+      "style": "bold"
+    }
+  ],
+  "formula-preparation|Product and dilution: read the label together": [
+    {
+      "text": "Ready-to-feed needs no added water",
+      "style": "bold"
+    },
+    {
+      "text": "measure the water first, then add the specified powder",
+      "style": "bold"
+    }
+  ],
+  "formula-preparation|Water and hygiene: correct the running-tap shortcut": [
+    {
+      "text": "running tap water for one minute does not itself sterilize powder",
+      "style": "bold"
+    },
+    {
+      "text": "younger than 2 months, preterm or immunocompromised",
+      "style": "bold"
+    }
+  ],
+  "formula-preparation|Storage and discard: track three clocks": [
+    {
+      "text": "2 hours of preparation",
+      "style": "bold"
+    },
+    {
+      "text": "1 hour from the start of feeding",
+      "style": "bold"
+    }
+  ],
+  "formula-preparation|Responsive bottle feeding": [
+    {
+      "text": "Hold the infant semi-upright with head supported",
+      "style": "bold"
+    }
+  ],
+  "formula-preparation|Equipment, teach-back and evaluation": [
+    {
+      "text": "prepare a bottle and explain when it must be discarded",
+      "style": "bold"
+    }
+  ],
+  "feeding-special-circumstances|Quick answer": [
+    {
+      "text": "the exact infection, exposure, medication and infant condition",
+      "style": "bold"
+    },
+    {
+      "text": "Direct breastfeeding and expressed milk may have different restrictions",
+      "style": "bold"
+    },
+    {
+      "text": "a clear review point and follow-up",
+      "style": "bold"
+    }
+  ],
+  "feeding-special-circumstances|Hepatitis B and C: correct the blanket restriction": [
+    {
+      "text": "Hepatitis B or C alone is not a routine reason to stop breastfeeding",
+      "style": "bold"
+    },
+    {
+      "text": "within 12 hours when indicated",
+      "style": "bold"
+    }
+  ],
+  "feeding-special-circumstances|Breast HSV lesions: distinguish the affected side": [
+    {
+      "text": "Do not directly breastfeed or feed expressed milk from a breast with active HSV lesions",
+      "style": "bold"
+    },
+    {
+      "text": "Expressing affected milk does not make it safe",
+      "style": "bold"
+    }
+  ],
+  "feeding-special-circumstances|HIV: use current specialist counseling": [
+    {
+      "text": "without sustained viral suppression, breastfeeding/expressed milk is not recommended",
+      "style": "bold"
+    }
+  ],
+  "feeding-special-circumstances|Medications, radioactive exposure and substance use": [
+    {
+      "text": "Check the specific agent, dose/timing and feeding guidance with the treating team/pharmacist",
+      "style": "bold"
+    }
+  ],
+  "feeding-special-circumstances|Infant metabolic disorders: standard formula is not interchangeable": [
+    {
+      "text": "Classic galactosemia is a contraindication to human milk",
+      "style": "bold"
+    },
+    {
+      "text": "measured breast milk may be included in the prescribed plan",
+      "style": "bold"
+    }
+  ],
+  "feeding-special-circumstances|Preterm, very small or glucose-risk infants: supplement purposefully": [
+    {
+      "text": "individual neonatal nutrition/glucose plan",
+      "style": "bold"
+    }
   ]
 };

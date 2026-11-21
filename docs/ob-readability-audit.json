@@ -14,8 +14,8 @@
     "already-emphasized": 3,
     "adjusted": 9
   },
-  "uniqueRules": 768,
-  "scopes": 377,
+  "uniqueRules": 898,
+  "scopes": 455,
   "additions": [
     {
       "objectiveId": "complicated-labor",
@@ -996,6 +996,916 @@
       "exact_text": "Provide a clear plan for urgent help and follow-up",
       "style": "bold",
       "reason": "Week 7 student emphasis: key assessment, distinction, value or nursing action."
+    },
+    {
+      "objectiveId": "newborn-transition-apgar",
+      "section": "Quick answer",
+      "exact_text": "effective breathing, changing circulation and adequate warmth",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-transition-apgar",
+      "section": "Quick answer",
+      "exact_text": "Apgar scores five findings from 0–2 each",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-transition-apgar",
+      "section": "Quick answer",
+      "exact_text": "Do not wait for an Apgar score to begin needed resuscitation",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-transition-apgar",
+      "section": "Respiratory transition: establish effective ventilation",
+      "exact_text": "30–60 breaths/minute",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-transition-apgar",
+      "section": "Respiratory transition: establish effective ventilation",
+      "exact_text": "A pause with color change, bradycardia or poor tone is concerning even if shorter than 20 seconds",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-transition-apgar",
+      "section": "Circulatory transition: connect the lungs and shunts",
+      "exact_text": "apical pulse for one full minute",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-transition-apgar",
+      "section": "Apgar: score heart rate and respiratory effort",
+      "exact_text": "2 for ≥100 beats/minute",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-transition-apgar",
+      "section": "Apgar: score tone, reflex response and color",
+      "exact_text": "2 for active movement with well-flexed extremities",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-transition-apgar",
+      "section": "Calculate, time and interpret the total",
+      "exact_text": "2 + 2 + 2 + 2 + 2 = 10",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-transition-apgar",
+      "section": "Calculate, time and interpret the total",
+      "exact_text": "every 5 minutes through 20 minutes",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-transition-apgar",
+      "section": "Reactivity and reassessment: behavior does not override distress",
+      "exact_text": "breathing, heart rate, tone, temperature and feeding ability",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-head-to-toe",
+      "section": "Quick answer",
+      "exact_text": "general condition and vital signs first",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-head-to-toe",
+      "section": "Quick answer",
+      "exact_text": "tone, reflexes and behavior",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-head-to-toe",
+      "section": "Quick answer",
+      "exact_text": "Concerning breathing, perfusion, neurologic or feeding findings take priority",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-head-to-toe",
+      "section": "General survey and vital signs",
+      "exact_text": "30–60/minute",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-head-to-toe",
+      "section": "Measurements, head and face",
+      "exact_text": "weight, length and head circumference",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-head-to-toe",
+      "section": "Heart, lungs and chest",
+      "exact_text": "nasal flaring, grunting, retractions and central cyanosis",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-head-to-toe",
+      "section": "Abdomen, cord and elimination",
+      "exact_text": "Marked distention, a scaphoid abdomen with respiratory symptoms or bilious vomiting",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-head-to-toe",
+      "section": "Abdomen, cord and elimination",
+      "exact_text": "two arteries and one vein",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-head-to-toe",
+      "section": "Genitalia and anus",
+      "exact_text": "Do not force foreskin retraction",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-head-to-toe",
+      "section": "Spine, extremities and hips",
+      "exact_text": "Asymmetric movement, deformity or a concerning spinal lesion",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-head-to-toe",
+      "section": "Spine, extremities and hips",
+      "exact_text": "knee heights with hips/knees flexed",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-head-to-toe",
+      "section": "Neurologic findings and primitive reflexes",
+      "exact_text": "Flaccidity, marked asymmetry or poor responsiveness",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-head-to-toe",
+      "section": "Behavior, senses and documentation",
+      "exact_text": "deep sleep, light sleep, drowsy, quiet alert, active alert and crying",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-variants",
+      "section": "Quick answer",
+      "exact_text": "appearance, distribution, change and the infant’s overall condition",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-variants",
+      "section": "Quick answer",
+      "exact_text": "Molding changes skull shape; caput is scalp edema; cephalohematoma is blood beneath the periosteum",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-variants",
+      "section": "Quick answer",
+      "exact_text": "Progressive diffuse scalp swelling with pallor or poor perfusion may be subgaleal hemorrhage",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-variants",
+      "section": "Common skin findings: describe and reassure appropriately",
+      "exact_text": "do not squeeze or treat milia as acne",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-variants",
+      "section": "Common skin findings: describe and reassure appropriately",
+      "exact_text": "Document location, size and color",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-variants",
+      "section": "Color changes: check location and timing",
+      "exact_text": "Blue tongue/mucosa or trunk is central cyanosis",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-variants",
+      "section": "Color changes: check location and timing",
+      "exact_text": "first 24 hours",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-variants",
+      "section": "Molding and caput: different processes",
+      "exact_text": "can cross suture lines",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-variants",
+      "section": "Cephalohematoma: blood confined by the periosteum",
+      "exact_text": "does not cross suture lines",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-variants",
+      "section": "Subgaleal bleeding: recognize a potentially dangerous pattern",
+      "exact_text": "Diffuse, fluctuant or expanding swelling crossing sutures",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-variants",
+      "section": "Subgaleal bleeding: recognize a potentially dangerous pattern",
+      "exact_text": "Pallor, tachycardia, poor perfusion or increasing swelling",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-gestational-assessment",
+      "section": "Quick answer",
+      "exact_text": "gestational age and size for gestational age separately",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-gestational-assessment",
+      "section": "Quick answer",
+      "exact_text": "Ballard combines physical and neuromuscular maturity",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-gestational-assessment",
+      "section": "Quick answer",
+      "exact_text": "gestational-age percentiles",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-gestational-assessment",
+      "section": "Age categories: correct the lecture’s broad term range",
+      "exact_text": "<37 weeks",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-gestational-assessment",
+      "section": "Age categories: correct the lecture’s broad term range",
+      "exact_text": "postterm is ≥42 weeks",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-gestational-assessment",
+      "section": "Ballard: assess two kinds of maturity",
+      "exact_text": "skin, lanugo, plantar creases, breast tissue, eyes/ears and genitalia",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-gestational-assessment",
+      "section": "Growth classification: percentiles rather than fixed gram cutoffs",
+      "exact_text": "SGA <10th percentile; AGA 10th–90th percentile; LGA >90th percentile",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-gestational-assessment",
+      "section": "Apply the classification to care",
+      "exact_text": "a total of 35 maps to 38 weeks",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-routine-care",
+      "section": "Quick answer",
+      "exact_text": "breathing, warmth, correct identification and repeated assessment",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-routine-care",
+      "section": "Quick answer",
+      "exact_text": "vitamin K, eye prophylaxis, hepatitis B prevention and screening",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-routine-care",
+      "section": "Quick answer",
+      "exact_text": "resolve abnormal or pending findings before an appropriate discharge plan",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-routine-care",
+      "section": "Airway and warmth: support transition safely",
+      "exact_text": "Do not routinely suction a breathing newborn",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-routine-care",
+      "section": "Identification and everyday safety",
+      "exact_text": "Match the infant with the caregiver before transfers, treatments and discharge",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-routine-care",
+      "section": "Skin, diaper and cord care",
+      "exact_text": "keep the stump clean and dry",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-routine-care",
+      "section": "Vitamin K and eye prophylaxis: two different purposes",
+      "exact_text": "intramuscular dose within 6 hours of birth",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-routine-care",
+      "section": "Vitamin K and eye prophylaxis: two different purposes",
+      "exact_text": "Eye ointment does not prevent every neonatal eye infection",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-routine-care",
+      "section": "Hepatitis B: verify maternal status and infant timing",
+      "exact_text": "hepatitis B vaccine plus HBIG within 12 hours",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-routine-care",
+      "section": "Hepatitis B: verify maternal status and infant timing",
+      "exact_text": "HBIG is not the vaccine series",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-routine-care",
+      "section": "Blood-spot screening and indicated laboratory tests",
+      "exact_text": "24–48 hours",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-routine-care",
+      "section": "Blood-spot screening and indicated laboratory tests",
+      "exact_text": "Do not assume no news means a confirmed normal screen",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-routine-care",
+      "section": "Hearing and pulse-ox screening: add the follow-through",
+      "exact_text": "by 1 month",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-routine-care",
+      "section": "Hearing and pulse-ox screening: add the follow-through",
+      "exact_text": "≥24 hours",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-routine-care",
+      "section": "Circumcision: preparation, comfort and observation",
+      "exact_text": "A penile anomaly such as hypospadias requires review before routine circumcision",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-discharge-teaching",
+      "section": "Quick answer",
+      "exact_text": "stable recovery, effective feeding, elimination, completed or tracked screening and an arranged follow-up plan",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-discharge-teaching",
+      "section": "Quick answer",
+      "exact_text": "demonstration and teach-back",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-discharge-teaching",
+      "section": "Quick answer",
+      "exact_text": "Fever, breathing/color changes, poor responsiveness or inability to feed need prompt help",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-discharge-teaching",
+      "section": "Assess readiness and the home support plan",
+      "exact_text": "Use an interpreter and return demonstration when needed",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-discharge-teaching",
+      "section": "Safe sleep and transport",
+      "exact_text": "on the back for every sleep on a firm, flat, level separate surface",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-discharge-teaching",
+      "section": "Temperature and urgent signs: state the action",
+      "exact_text": "A rectal temperature ≥38°C/100.4°F in a young infant needs immediate clinician contact/evaluation",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-discharge-teaching",
+      "section": "Temperature and urgent signs: state the action",
+      "exact_text": "Blue tongue/trunk, severe breathing difficulty, unresponsiveness or seizure-like activity needs emergency help",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-discharge-teaching",
+      "section": "Daily care, feeding and elimination",
+      "exact_text": "Never leave the infant unattended in water",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-discharge-teaching",
+      "section": "Follow-up and evaluation of teaching",
+      "exact_text": "at age 3–5 days",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "newborn-discharge-teaching",
+      "section": "Follow-up and evaluation of teaching",
+      "exact_text": "screening and immunization follow-up",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-needs-milk-changes",
+      "section": "Quick answer",
+      "exact_text": "growth, warmth and fluid balance",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-needs-milk-changes",
+      "section": "Quick answer",
+      "exact_text": "Colostrum progresses to transitional and mature milk",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-needs-milk-changes",
+      "section": "Quick answer",
+      "exact_text": "teach indicated vitamin D and other prescribed supplementation",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-needs-milk-changes",
+      "section": "Nutrition and fluid needs: respect the infant’s age",
+      "exact_text": "These are not universal first-day feeding orders",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-needs-milk-changes",
+      "section": "Nutrition and fluid needs: respect the infant’s age",
+      "exact_text": "do not add free water or dilute feeds",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-needs-milk-changes",
+      "section": "Colostrum, transitional milk and mature milk",
+      "exact_text": "Small volume does not mean nutritionally empty",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-needs-milk-changes",
+      "section": "Colostrum, transitional milk and mature milk",
+      "exact_text": "Fixed daily slide volumes are examples, not a supply test",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-needs-milk-changes",
+      "section": "Milk production and milk release",
+      "exact_text": "oxytocin supports milk ejection/let-down",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-needs-milk-changes",
+      "section": "Human milk and formula: explain without blame",
+      "exact_text": "Benefits are not a guarantee of a particular health outcome",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-needs-milk-changes",
+      "section": "Human milk and formula: explain without blame",
+      "exact_text": "Both feeding methods require responsive feeding and follow-up",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-needs-milk-changes",
+      "section": "Vitamins, minerals and safe supplementation",
+      "exact_text": "400 IU daily starting shortly after birth",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "breastfeeding-latch-support",
+      "section": "Quick answer",
+      "exact_text": "early feeding cues",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "breastfeeding-latch-support",
+      "section": "Quick answer",
+      "exact_text": "alignment, a deep comfortable latch and visible/audible swallowing",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "breastfeeding-latch-support",
+      "section": "Quick answer",
+      "exact_text": "Persistent pain or poor transfer needs reassessment and help",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "breastfeeding-latch-support",
+      "section": "Cues, timing and a sleepy infant",
+      "exact_text": "8–12 feeds in 24 hours",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "breastfeeding-latch-support",
+      "section": "Cues, timing and a sleepy infant",
+      "exact_text": "poor arousal or ineffective feeding requires assessment",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "breastfeeding-latch-support",
+      "section": "Position: bring the infant and parent into alignment",
+      "exact_text": "ear, shoulder and hip aligned",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "breastfeeding-latch-support",
+      "section": "Latch: use a wide mouth and deep attachment",
+      "exact_text": "chin first toward the breast",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "breastfeeding-latch-support",
+      "section": "Latch: use a wide mouth and deep attachment",
+      "exact_text": "Do not continue a painful ineffective latch",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "breastfeeding-latch-support",
+      "section": "Milk transfer: watch an actual feed",
+      "exact_text": "Swallowing and transfer matter more than minutes spent latched",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "breastfeeding-latch-support",
+      "section": "Pain, poor transfer and referral",
+      "exact_text": "Seek lactation help promptly for persistent pain, damaged nipples or ineffective transfer",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-adequacy",
+      "section": "Quick answer",
+      "exact_text": "an observed feed, serial weight, urine/stool and hydration together",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-adequacy",
+      "section": "Quick answer",
+      "exact_text": "Excessive or ongoing weight loss, few wet diapers, poor swallowing or lethargy needs assessment",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-adequacy",
+      "section": "Quick answer",
+      "exact_text": "reassess the infant’s response and follow-up",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-adequacy",
+      "section": "Observe intake and assess hydration",
+      "exact_text": "Continued voiding does not by itself exclude dehydration",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-adequacy",
+      "section": "Weight trend: quantify and interpret the loss",
+      "exact_text": "(birth weight − current weight) ÷ birth weight × 100",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-adequacy",
+      "section": "Weight trend: quantify and interpret the loss",
+      "exact_text": ">10% requires evaluation",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-adequacy",
+      "section": "Urine and stool: use age-related trends",
+      "exact_text": "about six or more wet diapers/day by around day 5",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-adequacy",
+      "section": "Supplement when indicated, then evaluate",
+      "exact_text": "Do not use crying alone or bottle acceptance alone as the indication",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "milk-expression-storage",
+      "section": "Quick answer",
+      "exact_text": "remove milk about as often as the infant normally feeds",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "milk-expression-storage",
+      "section": "Quick answer",
+      "exact_text": "follow the clarified storage clocks rather than the older slide’s refrigerator limit",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "milk-expression-storage",
+      "section": "Quick answer",
+      "exact_text": "review technique, supply concerns and the infant’s intake",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "milk-expression-storage",
+      "section": "Maintain supply, comfort and maternal wellbeing",
+      "exact_text": "Avoid long unplanned gaps in milk removal",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "milk-expression-storage",
+      "section": "Expression and cleaning",
+      "exact_text": "Clean milk-contact pump parts after every use",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "milk-expression-storage",
+      "section": "Fresh milk: use the corrected storage limits",
+      "exact_text": "up to 4 hours at ≤25°C/77°F and up to 4 days refrigerated at ≤4°C/40°F",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "milk-expression-storage",
+      "section": "Fresh milk: use the corrected storage limits",
+      "exact_text": "about 6 months is best; up to 12 months is acceptable",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "milk-expression-storage",
+      "section": "Thawing, warming and leftovers",
+      "exact_text": "Never microwave milk or refreeze fully thawed milk",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "milk-expression-storage",
+      "section": "Thawing, warming and leftovers",
+      "exact_text": "24 hours from complete thawing",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "milk-expression-storage",
+      "section": "Transport, work and teach-back",
+      "exact_text": "frozen ice packs can hold expressed milk up to 24 hours",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "formula-preparation",
+      "section": "Quick answer",
+      "exact_text": "measure the exact water-to-powder/concentrate ratio",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "formula-preparation",
+      "section": "Quick answer",
+      "exact_text": "Powdered formula is not sterile",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "formula-preparation",
+      "section": "Quick answer",
+      "exact_text": "use the correct preparation, refrigeration and feeding-discard clocks",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "formula-preparation",
+      "section": "Product and dilution: read the label together",
+      "exact_text": "Ready-to-feed needs no added water",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "formula-preparation",
+      "section": "Product and dilution: read the label together",
+      "exact_text": "measure the water first, then add the specified powder",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "formula-preparation",
+      "section": "Water and hygiene: correct the running-tap shortcut",
+      "exact_text": "running tap water for one minute does not itself sterilize powder",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "formula-preparation",
+      "section": "Water and hygiene: correct the running-tap shortcut",
+      "exact_text": "younger than 2 months, preterm or immunocompromised",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "formula-preparation",
+      "section": "Storage and discard: track three clocks",
+      "exact_text": "2 hours of preparation",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "formula-preparation",
+      "section": "Storage and discard: track three clocks",
+      "exact_text": "1 hour from the start of feeding",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "formula-preparation",
+      "section": "Responsive bottle feeding",
+      "exact_text": "Hold the infant semi-upright with head supported",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "formula-preparation",
+      "section": "Equipment, teach-back and evaluation",
+      "exact_text": "prepare a bottle and explain when it must be discarded",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-special-circumstances",
+      "section": "Quick answer",
+      "exact_text": "the exact infection, exposure, medication and infant condition",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-special-circumstances",
+      "section": "Quick answer",
+      "exact_text": "Direct breastfeeding and expressed milk may have different restrictions",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-special-circumstances",
+      "section": "Quick answer",
+      "exact_text": "a clear review point and follow-up",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-special-circumstances",
+      "section": "Hepatitis B and C: correct the blanket restriction",
+      "exact_text": "Hepatitis B or C alone is not a routine reason to stop breastfeeding",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-special-circumstances",
+      "section": "Hepatitis B and C: correct the blanket restriction",
+      "exact_text": "within 12 hours when indicated",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-special-circumstances",
+      "section": "Breast HSV lesions: distinguish the affected side",
+      "exact_text": "Do not directly breastfeed or feed expressed milk from a breast with active HSV lesions",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-special-circumstances",
+      "section": "Breast HSV lesions: distinguish the affected side",
+      "exact_text": "Expressing affected milk does not make it safe",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-special-circumstances",
+      "section": "HIV: use current specialist counseling",
+      "exact_text": "without sustained viral suppression, breastfeeding/expressed milk is not recommended",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-special-circumstances",
+      "section": "Medications, radioactive exposure and substance use",
+      "exact_text": "Check the specific agent, dose/timing and feeding guidance with the treating team/pharmacist",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-special-circumstances",
+      "section": "Infant metabolic disorders: standard formula is not interchangeable",
+      "exact_text": "Classic galactosemia is a contraindication to human milk",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-special-circumstances",
+      "section": "Infant metabolic disorders: standard formula is not interchangeable",
+      "exact_text": "measured breast milk may be included in the prescribed plan",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
+    },
+    {
+      "objectiveId": "feeding-special-circumstances",
+      "section": "Preterm, very small or glucose-risk infants: supplement purposefully",
+      "exact_text": "individual neonatal nutrition/glucose plan",
+      "style": "bold",
+      "reason": "Week 9 study emphasis: important assessment, distinction, threshold or nursing action."
     }
   ],
   "records": [
@@ -9860,7 +10770,7 @@
   ],
   "boundaries": "Formatting applies only to named OB prompts, quick answers, note-topic text, and four guide spans. Shared objectives reuse the same rules. Headings, sources, navigation, quiz/practice content, video text, posters and question counts retain their existing appearance. No wording, capitalization, note order or objective mappings are changed.",
   "contentHashes": {
-    "ob-objectives.js": "4633efc408fb40f0c9bd8148eafd6f57bbf6a18d637bd3f60515efa31751e46d",
+    "ob-objectives.js": "056edbc588809c101b6c18e56cc653c59e4f81fba2d18cdb854153b3e91ef0d0",
     "ob-content.js": "674b4aea2d633c1ec63fd7f6c4bc45054eb9ed27b18bae92b08396ab0937e33e",
     "ob-videos.js": "0f5c784bdc9261dec46f9b70fac805f7beae693eb69ec328318b3f68238733bd",
     "ob-question-map.js": "f558aa64e688383b259e107d755b3c5b838657363c3fed9f1241af4501d63eab",
@@ -9876,16 +10786,16 @@
     "#/ob-final/week-6": "e990f4620169d1f969a3fd6afb30bd7557a99a7583f6510d2078a4fac9dc7c21",
     "#/ob-final/week-7": "3c56958428e2bb06f163585e88a3ed8452a4eb28fbd1059f9af863055aafc13c",
     "#/ob-final/week-8": "a39e1e7228820b25220498840ecf3fd7ac7077d127b26ca6e3915c96d6c768c6",
-    "#/ob-final/week-9": "2af3f52341e227e387f8503d182b51d24176aa8fba5fa72a28f2bebc17e2aec6",
-    "#/ob-final/week-10": "bac4c34fd007209b1b83072ce7273a3f7407c52ab594c904f0797f8b208bd374",
+    "#/ob-final/week-9": "21e0c0c8b2653c0e928f8d77034af9813603f66a8cef92da223ee25b485631f4",
+    "#/ob-final/week-10": "e8e4e4b774ba03650e3eedb93d282f7ee72d4cd3d0ce3e33de64af45fbdc268a",
     "#/ob-final/august-4": "77b61aaeaef40b044bd5dc3ef1c4d6c9a628a15800dc1f1a7e43e22600e43fd1",
     "#/ob-final/topic/normal-postpartum": "85d12aa45709ec97f6e213b1fd1403f0ca4d551367e9f53a5c8cac1d95a6f848",
     "#/ob-final/topic/postpartum-complications": "af9e64a566d945c75be2a133a68f6a6d63d595397fb5f87aa8d45a984fe166f4",
-    "#/ob-final/topic/normal-newborn": "1f200aed9288750b5fed2393ada2a2a21695311cdb5bc8d8347cf0224aa668b5",
+    "#/ob-final/topic/normal-newborn": "9a31300793496c93c70c4260b7c88d56757f8aa1a3dbc2c28b2d1a9c933456c6",
     "#/ob-final/topic/newborn-complications": "74e3330bac98d1838cdf841369141181ddf876fae6d3f2b6481f56d2f7559720",
     "#/ob-final/topic/contraception": "86540cf86128dbb7624134667358398d61040e604c5190f4d9857c3a97b5b7b0",
     "#/ob-final/topic/stis": "da8a4403109f8fc89cb8c9f7d42f0501d820bfaccbb07f47abab576638635dc3",
-    "#/ob-final/topic/feeding": "fe69693968a926e518e221ae0f0a61ac41d0f218940a2e1f9053b8851829c076",
+    "#/ob-final/topic/feeding": "5332fbdc908bec2e9e610b6de6df939f66a04aa7fdc6a881310f3a24e267b76f",
     "#/ob-final/topic/antepartum-prenatal": "f7f5af65b077389b8cfdeafc297ac91edcf86646a6404a1a32662df98550290f",
     "#/ob-final/topic/pregnancy-complications": "4e061dd5dd3db782ed47bc15da8a1b7ff70d78d58758975896fc006567c06f2c",
     "#/ob-final/topic/fetal-monitoring": "c1329c67efe34eedf7727331cdd9391a78277e79c43b6c64e1627011ca7db394",

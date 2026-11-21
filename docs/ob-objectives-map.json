@@ -1124,6 +1124,18 @@
     "postpartum-subinvolution",
     "postpartum-infections",
     "postpartum-thromboembolism",
-    "postpartum-mental-health"
+    "postpartum-mental-health",
+    "newborn-transition-apgar",
+    "newborn-head-to-toe",
+    "newborn-variants",
+    "newborn-gestational-assessment",
+    "newborn-routine-care",
+    "newborn-discharge-teaching",
+    "feeding-needs-milk-changes",
+    "breastfeeding-latch-support",
+    "feeding-adequacy",
+    "milk-expression-storage",
+    "formula-preparation",
+    "feeding-special-circumstances"
   ]
 }

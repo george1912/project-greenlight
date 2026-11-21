@@ -8300,52 +8300,2122 @@ const obStudyObjectives = [
     ]
   },
   {
-    id:'newborn-transition-apgar',weekIds:['week-9','week-10'],topicIds:['normal-newborn'],title:'Transition and Apgar scoring',
-    text:'Explain the newborn’s transition to extrauterine life, including respiratory and circulatory adaptation. Calculate an Apgar score from a case and explain its role alongside ongoing assessment and immediate care priorities.',answer:[]
+    "id": "newborn-transition-apgar",
+    "weekIds": [
+      "week-9",
+      "week-10"
+    ],
+    "topicIds": [
+      "normal-newborn"
+    ],
+    "title": "Transition and Apgar scoring",
+    "text": "Explain the newborn’s transition to extrauterine life, including respiratory and circulatory adaptation. Calculate an Apgar score from a case and explain its role alongside ongoing assessment and immediate care priorities.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Transition depends on effective breathing, changing circulation and adequate warmth; assess the infant’s condition continuously.",
+          "Apgar scores five findings from 0–2 each, for a total of 0–10 at 1 and 5 minutes; use the findings and response to care together.",
+          "Do not wait for an Apgar score to begin needed resuscitation. Apnea, gasping, central cyanosis or poor tone requires immediate assessment/help."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Respiratory transition: establish effective ventilation",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "What changes",
+                "text": "The first breaths expand the lungs and help clear fetal lung fluid. The lecture’s birth-pressure explanation is a simplification: ongoing fluid absorption also matters."
+              },
+              {
+                "label": "Assess",
+                "text": "Count respirations for a full minute and assess effort, symmetry and color. The source’s usual resting range is 30–60 breaths/minute; grunting, retractions, persistent tachypnea or central cyanosis is concerning."
+              },
+              {
+                "label": "Safety clarification",
+                "text": "Apnea or gasping needs an immediate trained neonatal response. A pause with color change, bradycardia or poor tone is concerning even if shorter than 20 seconds; the slide’s duration alone cannot establish normality."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Circulatory transition: connect the lungs and shunts",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Pressure changes",
+                "text": "Lung expansion lowers pulmonary vascular resistance and increases pulmonary blood flow; loss of placental circulation changes systemic pressures."
+              },
+              {
+                "label": "Fetal pathways",
+                "text": "The PDF diagram shows the foramen ovale, ductus arteriosus and ductus venosus. Functional closure and later anatomic closure are different processes, not one instantaneous event."
+              },
+              {
+                "label": "Assessment",
+                "text": "Auscultate the apical pulse for one full minute and assess perfusion and breathing. Acrocyanosis may occur early, but a blue tongue/trunk or persistent poor perfusion needs evaluation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Apgar: score heart rate and respiratory effort",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Heart rate",
+                "text": "Score 0 for absent; 1 for <100 beats/minute; 2 for ≥100 beats/minute. Boundary clarification: exactly 100 belongs in the 2-point category despite the slide’s >100 shorthand."
+              },
+              {
+                "label": "Respiratory effort",
+                "text": "Score 0 for absent respirations; 1 for slow/irregular breathing or a weak cry; 2 for good respiratory effort with a strong cry."
+              },
+              {
+                "label": "Use actual observations",
+                "text": "Assign points to each finding at the recorded time. A heart-rate score is not a substitute for assessing whether ventilation is effective."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Apgar: score tone, reflex response and color",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Muscle tone",
+                "text": "Score 0 for limp/flaccid; 1 for some flexion; 2 for active movement with well-flexed extremities."
+              },
+              {
+                "label": "Reflex response",
+                "text": "Score 0 for no response; 1 for grimace/weak response; 2 for vigorous response such as a cry, cough or withdrawal with stimulation."
+              },
+              {
+                "label": "Color",
+                "text": "Score 0 for blue/pale throughout; 1 for a pink body with blue extremities; 2 for normal color throughout. Interpret color with other oxygenation/perfusion findings and the infant’s skin tone."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Calculate, time and interpret the total",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Calculation from the source table",
+                "text": "Add heart rate + respiratory effort + tone + reflex response + color. The PDF’s complete 2-point column gives 2 + 2 + 2 + 2 + 2 = 10; its complete 1-point column gives 5. For a case, choose each row separately rather than assigning a score from appearance alone."
+              },
+              {
+                "label": "Timing clarification",
+                "text": "Record at 1 and 5 minutes. If the 5-minute score is <7, repeat every 5 minutes through 20 minutes as indicated; a single 10-minute repeat is not the entire rule."
+              },
+              {
+                "label": "Meaning",
+                "text": "Describe transition and response to care. Apgar alone neither diagnoses birth asphyxia nor predicts an individual child’s long-term neurologic outcome or automatically determines NICU admission."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Reactivity and reassessment: behavior does not override distress",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Source sequence",
+                "text": "The lecture describes initial reactivity for about 30 minutes, a quieter interval and a second reactive period around 4–8 hours. Alertness and feeding interest vary."
+              },
+              {
+                "label": "Nursing care",
+                "text": "Provide warmth, observation and feeding/skin-to-skin support when stable. Follow breathing, heart rate, tone, temperature and feeding ability over time."
+              },
+              {
+                "label": "Escalate",
+                "text": "Persistent abnormal breathing, lethargy, flaccidity or poor perfusion is not explained away by a reactivity period. Reassess and summon appropriate neonatal help."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Assessment & care of the newborn; Newborn assessment review handout. Source-led transition/Apgar review with labeled boundary, repeat-timing and immediate-care clarifications. Table arithmetic is demonstrated without inventing a patient case or a resuscitation order set.",
+    "answerSources": [
+      {
+        "title": "Assessment & care of the newborn (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-care"
+      },
+      {
+        "title": "Newborn assessment review handout (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-handout"
+      },
+      {
+        "title": "ACOG: Apgar timing and interpretation clarification",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2015/10/the-apgar-score"
+      },
+      {
+        "title": "AHA/AAP: newborn transition and immediate-care clarification",
+        "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation"
+      }
+    ]
   },
   {
-    id:'newborn-head-to-toe',weekIds:['week-9','week-10'],topicIds:['normal-newborn'],title:'Head-to-toe newborn assessment',
-    text:'Describe a systematic newborn assessment, including vital signs, measurements, neurologic and reflex findings, skin, head, heart and lungs, abdomen, hips, genitalia, and behavior. Identify expected findings and those requiring follow-up.',answer:[]
+    "id": "newborn-head-to-toe",
+    "weekIds": [
+      "week-9",
+      "week-10"
+    ],
+    "topicIds": [
+      "normal-newborn"
+    ],
+    "title": "Head-to-toe newborn assessment",
+    "text": "Describe a systematic newborn assessment, including vital signs, measurements, neurologic and reflex findings, skin, head, heart and lungs, abdomen, hips, genitalia, and behavior. Identify expected findings and those requiring follow-up.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Assess general condition and vital signs first, then examine systematically using the supplied newborn worksheet.",
+          "Document measurements, skin/head, heart/lungs, abdomen, genitalia, spine/hips, tone, reflexes and behavior; compare with age and prior findings.",
+          "Concerning breathing, perfusion, neurologic or feeding findings take priority over completing a routine checklist."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "General survey and vital signs",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Begin",
+                "text": "Review gestational age, birth route, Apgar/transition, maternal history, medications, feeding and complications. Observe color, posture, spontaneous movement, tone and alertness before disturbing the infant."
+              },
+              {
+                "label": "Measure",
+                "text": "The source gives an apical pulse around 110–160/minute at rest and respirations 30–60/minute, counted for a full minute. Interpret state and trends; persistent abnormalities need review."
+              },
+              {
+                "label": "Temperature clarification",
+                "text": "Measure/document the route. Slides give 36.5–37.2°C, while the pictured table also gives 36.5–37.5°C. Use the local neonatal range and assess abnormal temperature with the infant’s condition; do not treat conflicting Fahrenheit conversions as separate targets."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Measurements, head and face",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Measurements",
+                "text": "Record weight, length and head circumference; compare growth for gestational age. The lecture gives a descriptive length of about 45–55 cm and birth weight of 2500–4000 g; these are not percentile definitions. Head circumference is described as about 1–2 cm above chest circumference, but one ratio does not diagnose microcephaly."
+              },
+              {
+                "label": "Head",
+                "text": "Inspect shape, sutures, fontanelles and scalp swelling. The source describes a diamond-shaped anterior fontanelle closing around 18 months and a triangular posterior fontanelle around 8–12 weeks; timing varies. Assess state/position; persistent bulging, marked depression or unusual head size needs review."
+              },
+              {
+                "label": "Face and mouth",
+                "text": "Check symmetry, eyes/discharge, ear position/tags, nasal patency, palate integrity and oral lesions. Document actual findings; one unusual feature is not by itself a genetic diagnosis."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Heart, lungs and chest",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Respiratory assessment",
+                "text": "Observe chest movement and listen bilaterally; assess for nasal flaring, grunting, retractions and central cyanosis. Distress is an urgent finding, not a normal newborn variant."
+              },
+              {
+                "label": "Cardiac assessment",
+                "text": "Count the apical rate, note rhythm/murmur and assess color/perfusion. A murmur needs clinical interpretation; absence of a murmur does not exclude congenital heart disease."
+              },
+              {
+                "label": "Chest",
+                "text": "Document symmetry and breast tissue. Maternal hormones can cause temporary breast enlargement/discharge; avoid squeezing the tissue."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Abdomen, cord and elimination",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Abdomen",
+                "text": "Inspect contour and palpate/listen as appropriate. Marked distention, a scaphoid abdomen with respiratory symptoms or bilious vomiting requires prompt assessment."
+              },
+              {
+                "label": "Cord",
+                "text": "Look at the clamp/stump and document the expected two arteries and one vein. A single umbilical artery prompts further evaluation rather than a bedside diagnosis of a specific anomaly."
+              },
+              {
+                "label": "Elimination",
+                "text": "Confirm urine and meconium passage. The source expects meconium during the first 24–48 hours; report delay, earlier concern or associated vomiting/distention rather than waiting for the limit."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Genitalia and anus",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Female",
+                "text": "Inspect anatomy, edema and discharge. A small transient blood-tinged discharge can reflect maternal hormone withdrawal; heavy/persistent bleeding or illness needs assessment."
+              },
+              {
+                "label": "Male",
+                "text": "Identify the urethral opening and testes. Do not force foreskin retraction. Clarification: suspected hypospadias/other penile anomaly requires review before routine circumcision."
+              },
+              {
+                "label": "Anus and skin",
+                "text": "Inspect the perineum and confirm documented stool passage. Record lesions/swelling and seek review for suspected anatomic abnormality."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Spine, extremities and hips",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Spine and limbs",
+                "text": "Inspect spinal skin, dimples/tufts/masses, clavicles, digits, alignment, movement and range of motion. Asymmetric movement, deformity or a concerning spinal lesion needs follow-up."
+              },
+              {
+                "label": "Hip clarification",
+                "text": "A trained examiner performs gentle hip assessment. A true Ortolani clunk suggests instability; an isolated click is not equivalent. Do not repeatedly provoke a suspected unstable hip."
+              },
+              {
+                "label": "Galeazzi clarification",
+                "text": "Galeazzi compares knee heights with hips/knees flexed, rather than simply naming unequal skin folds. Bilateral abnormalities can look symmetric; interpret the full examination."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Neurologic findings and primitive reflexes",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Tone and feeding",
+                "text": "Expect flexed posture and spontaneous movement appropriate to age; assess suck/swallow coordination. Flaccidity, marked asymmetry or poor responsiveness needs assessment."
+              },
+              {
+                "label": "Reflex pattern",
+                "text": "Rooting turns toward cheek stimulation; suck/swallow supports feeding; palmar/plantar grasp grips; Moro produces symmetric startle/arm movement. Assess presence, quality and symmetry, not just a checklist tick."
+              },
+              {
+                "label": "Other reflexes",
+                "text": "The sources include stepping, tonic-neck and Babinski responses. Clarification: the infant Babinski is an upgoing great toe with fanning; disappearance ages in the table are developmental guides, not a single-test diagnosis. The pictured course table places Moro disappearance around 3–6 months, stepping around 1–2 months and Babinski around 12 months; assess the full developmental pattern."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Behavior, senses and documentation",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Behavior",
+                "text": "Recognize deep sleep, light sleep, drowsy, quiet alert, active alert and crying. Gestational age, medications, time and stimulation influence the examination."
+              },
+              {
+                "label": "Interaction",
+                "text": "The lecture describes close visual attention at about 8–12 inches and responses to sound, touch, smell and taste. Reduce overstimulation and support caregiver interaction when stable."
+              },
+              {
+                "label": "Close the loop",
+                "text": "Document findings, action and reassessment on the worksheet framework. Link concerns to a plan and handoff; a reassuring brief interaction does not replace feeding or physiologic assessment."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Assessment & care of the newborn; Newborn assessment review handout; Newborn assessment & care-plan worksheet. Uses the worksheet and lecture sequence; clarifies hip/Babinski terminology and inconsistent temperature tables without diagnosing anomalies from isolated features.",
+    "answerSources": [
+      {
+        "title": "Assessment & care of the newborn (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-care"
+      },
+      {
+        "title": "Newborn assessment review handout (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-handout"
+      },
+      {
+        "title": "Newborn assessment & care-plan worksheet (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-care-plan"
+      },
+      {
+        "title": "Stanford Newborn Nursery: hip-assessment clarification",
+        "url": "https://med.stanford.edu/newborns/professional-education/photo-gallery/hips.html"
+      },
+      {
+        "title": "Stanford Newborn Nursery: circumcision precautions clarification",
+        "url": "https://med.stanford.edu/newborns/professional-education/circumcision/contraindications.html"
+      },
+      {
+        "title": "AHA/AAP: newborn transition and immediate-care clarification",
+        "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation"
+      },
+      {
+        "title": "Stanford Newborn Nursery: primitive-reflex clarification",
+        "url": "https://med.stanford.edu/newborns/professional-education/photo-gallery/neuro-reflexes.html"
+      }
+    ]
   },
   {
-    id:'newborn-variants',weekIds:['week-9'],topicIds:['normal-newborn'],title:'Normal variations and concerning findings',
-    text:'Distinguish common newborn skin findings and head-shape variations from findings suggesting injury or illness. Compare molding, caput, cephalohematoma, and subgaleal bleeding using assessment cues and nursing priorities.',answer:[]
+    "id": "newborn-variants",
+    "weekIds": [
+      "week-9"
+    ],
+    "topicIds": [
+      "normal-newborn"
+    ],
+    "title": "Normal variations and concerning findings",
+    "text": "Distinguish common newborn skin findings and head-shape variations from findings suggesting injury or illness. Compare molding, caput, cephalohematoma, and subgaleal bleeding using assessment cues and nursing priorities.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Common skin findings are often benign; assess appearance, distribution, change and the infant’s overall condition before reassuring.",
+          "Molding changes skull shape; caput is scalp edema; cephalohematoma is blood beneath the periosteum and does not cross sutures.",
+          "Progressive diffuse scalp swelling with pallor or poor perfusion may be subgaleal hemorrhage and needs urgent escalation."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Common skin findings: describe and reassure appropriately",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Surface findings",
+                "text": "Vernix is a protective coating, lanugo is fine hair, and mild desquamation can occur. Milia are small white spots; do not squeeze or treat milia as acne."
+              },
+              {
+                "label": "Rashes and marks",
+                "text": "The lecture pictures erythema toxicum, salmon patches and vascular lesions. Assess location, blanching, size and change; not every red lesion should receive one label or treatment."
+              },
+              {
+                "label": "Terminology clarification",
+                "text": "Use congenital dermal melanocytosis for the blue-gray birthmarks called “Mongolian spots” in the source. Document location, size and color so birthmarks are not later confused with injury."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Color changes: check location and timing",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Peripheral versus central",
+                "text": "Early acrocyanosis is blue hands/feet with otherwise reassuring color. Blue tongue/mucosa or trunk is central cyanosis and needs urgent assessment."
+              },
+              {
+                "label": "Transient patterns",
+                "text": "Harlequin color change or mottling must be interpreted with temperature, perfusion and behavior. Pallor, persistent mottling or an ill appearance should not be dismissed as a skin variant."
+              },
+              {
+                "label": "Jaundice clarification",
+                "text": "Jaundice in the first 24 hours needs prompt evaluation. Later onset can also be abnormal; use measured bilirubin with age in hours/risk, not color or onset alone, to determine follow-up."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Molding and caput: different processes",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Molding",
+                "text": "Overlapping skull bones change head shape after birth. Document the shape and trend; the handout’s fixed resolution time is not a guarantee for every infant."
+              },
+              {
+                "label": "Caput",
+                "text": "Caput is superficial scalp edema and can cross suture lines. The source describes improvement over several days. It is not the same process as bony molding."
+              },
+              {
+                "label": "Nursing judgment",
+                "text": "Monitor swelling and general condition. Crossing sutures alone does not prove caput; progressive boggy swelling or deterioration needs assessment for bleeding."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Cephalohematoma: blood confined by the periosteum",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Location",
+                "text": "Blood lies between skull bone and periosteum, so a cephalohematoma does not cross suture lines. It may become more apparent after birth."
+              },
+              {
+                "label": "Assessment",
+                "text": "Document size/location and follow the trend. Monitor jaundice and signs of blood loss; breakdown of collected blood can increase bilirubin."
+              },
+              {
+                "label": "Care",
+                "text": "Protect the area and notify the clinician about concerning change. Do not massage or attempt to drain the swelling."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Subgaleal bleeding: recognize a potentially dangerous pattern",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Clinical clarification",
+                "text": "The figure shows blood in a broad subgaleal space. Diffuse, fluctuant or expanding swelling crossing sutures, especially after assisted birth, can represent substantial concealed loss."
+              },
+              {
+                "label": "Assess urgently",
+                "text": "Check serial scalp/head findings, heart rate, perfusion, alertness and vital signs. Pallor, tachycardia, poor perfusion or increasing swelling requires immediate neonatal evaluation."
+              },
+              {
+                "label": "Nursing priority",
+                "text": "Summon help, monitor closely and prepare ordered evaluation/resuscitation. Do not wait for visible external blood or assume every cross-suture swelling is benign caput."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Assessment & care of the newborn; Newborn assessment review handout; Newborn assessment & care-plan worksheet. Uses original skin/scalp figures; adds a short labeled subgaleal safety explanation and separates benign patterns from concerning trends. Bilirubin treatment is not reduced to the slide’s fixed table.",
+    "answerSources": [
+      {
+        "title": "Assessment & care of the newborn (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-care"
+      },
+      {
+        "title": "Newborn assessment review handout (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-handout"
+      },
+      {
+        "title": "Newborn assessment & care-plan worksheet (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-care-plan"
+      },
+      {
+        "title": "Stanford Newborn Nursery: scalp-swelling clarification",
+        "url": "https://med.stanford.edu/newborns/professional-education/photo-gallery/head.html"
+      },
+      {
+        "title": "AHA/AAP: newborn transition and immediate-care clarification",
+        "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation"
+      },
+      {
+        "title": "AAP: predischarge bilirubin and follow-up clarification",
+        "url": "https://www.aap.org/en/patient-care/hyperbilirubinemia/frequently-asked-questions-about-the-2022-aap-guideline-on-the-management-of-hyperbilirubinemia/"
+      }
+    ]
   },
   {
-    id:'newborn-gestational-assessment',weekIds:['week-9','week-10'],topicIds:['normal-newborn'],title:'Gestational age and growth classification',
-    text:'Explain Ballard assessment and distinguish gestational age from size for gestational age. Classify a case as preterm, term, or post-term and as SGA, AGA, or LGA, then identify implications for assessment and care.',answer:[]
+    "id": "newborn-gestational-assessment",
+    "weekIds": [
+      "week-9",
+      "week-10"
+    ],
+    "topicIds": [
+      "normal-newborn"
+    ],
+    "title": "Gestational age and growth classification",
+    "text": "Explain Ballard assessment and distinguish gestational age from size for gestational age. Classify a case as preterm, term, or post-term and as SGA, AGA, or LGA, then identify implications for assessment and care.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Record gestational age and size for gestational age separately; a small weight does not automatically mean prematurity.",
+          "Ballard combines physical and neuromuscular maturity to estimate age, interpreted with the best obstetric dating and clinical context.",
+          "Use gestational-age percentiles for SGA/AGA/LGA and connect the category with breathing, warmth, feeding and glucose surveillance."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Age categories: correct the lecture’s broad term range",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Definitions clarification",
+                "text": "Preterm is <37 weeks. Early term is 37 weeks 0 days–38 weeks 6 days; full term is 39 weeks 0 days–40 weeks 6 days."
+              },
+              {
+                "label": "Later categories",
+                "text": "Late term is 41 weeks 0 days–41 weeks 6 days; postterm is ≥42 weeks. The PDF’s “term 38–42” shorthand misses these boundaries."
+              },
+              {
+                "label": "Distinguish concepts",
+                "text": "Postmaturity describes clinical effects of prolonged gestation/placental insufficiency; it is not a substitute for recording gestational age."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Ballard: assess two kinds of maturity",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Physical signs",
+                "text": "Assess skin, lanugo, plantar creases, breast tissue, eyes/ears and genitalia using the supplied chart. One feature alone cannot establish age."
+              },
+              {
+                "label": "Neuromuscular signs",
+                "text": "Assess posture, square window, arm recoil, popliteal angle, scarf sign and heel-to-ear. Greater flexion/resistance generally suggests maturity; use gentle trained technique rather than forcing a joint."
+              },
+              {
+                "label": "Interpretation",
+                "text": "Add physical and neuromuscular points and use the chart’s age conversion. Compare with obstetric dating and factors affecting tone; the score is an estimate, not a precise replacement for reliable dating."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Growth classification: percentiles rather than fixed gram cutoffs",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Size clarification",
+                "text": "SGA <10th percentile; AGA 10th–90th percentile; LGA >90th percentile for gestational age on the selected growth standard."
+              },
+              {
+                "label": "Weight is a different descriptor",
+                "text": "Low birth weight is <2500 g regardless of age. The lecture’s <2500/>4000 g shorthand does not by itself define SGA/LGA; a preterm infant can be AGA."
+              },
+              {
+                "label": "Classification method",
+                "text": "First establish age, then plot birth weight against the appropriate age/sex standard and document both. The PDF supplies a maturity chart, not a complete growth-percentile case set."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Apply the classification to care",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Source-chart check",
+                "text": "On the supplied Ballard chart, a total of 35 maps to 38 weeks. That age is early term under the clarified categories; SGA/AGA/LGA still requires a separate growth percentile."
+              },
+              {
+                "label": "Risk assessment",
+                "text": "Preterm infants need extra attention to breathing, temperature and feeding maturity. SGA/LGA or infants of diabetic mothers may need prescribed glucose surveillance; size is a risk cue, not a diagnosis of hypoglycemia."
+              },
+              {
+                "label": "Source factors and nursing response",
+                "text": "The lecture lists maternal vascular disease, smoking, placental insufficiency, infection/anomalies and multiple gestation among SGA contributors. Review history, assess the actual infant and tailor warmth, feeding and monitoring; no universal hourly heel-stick schedule is assumed."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Assessment & care of the newborn; Newborn assessment review handout. Clarifies gestational boundaries and percentiles. The actual Ballard chart supplies the arithmetic illustration; no fictional patient case, missing growth percentile or universal glucose threshold is invented.",
+    "answerSources": [
+      {
+        "title": "Assessment & care of the newborn (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-care"
+      },
+      {
+        "title": "Newborn assessment review handout (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-handout"
+      },
+      {
+        "title": "ACOG: gestational-age terminology clarification",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/11/definition-of-term-pregnancy"
+      },
+      {
+        "title": "MSD Professional: growth-percentile clarification",
+        "url": "https://www.msdmanuals.com/professional/pediatrics/perinatal-problems/small-for-gestational-age-sga-infant"
+      }
+    ]
   },
   {
-    id:'newborn-routine-care',weekIds:['week-9'],topicIds:['normal-newborn'],title:'Routine care, prophylaxis, and screening',
-    text:'Plan routine newborn care for airway, warmth, identification and safety, skin and cord care, and circumcision when applicable. Explain the purpose and timing of prescribed prophylaxis, immunizations, and newborn screening and how results are followed up.',answer:[]
+    "id": "newborn-routine-care",
+    "weekIds": [
+      "week-9"
+    ],
+    "topicIds": [
+      "normal-newborn"
+    ],
+    "title": "Routine care, prophylaxis, and screening",
+    "text": "Plan routine newborn care for airway, warmth, identification and safety, skin and cord care, and circumcision when applicable. Explain the purpose and timing of prescribed prophylaxis, immunizations, and newborn screening and how results are followed up.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Prioritize breathing, warmth, correct identification and repeated assessment, with routine care adapted to the infant’s condition.",
+          "Explain vitamin K, eye prophylaxis, hepatitis B prevention and screening by purpose, prescribed timing and follow-up.",
+          "Document care and results, teach the family, and resolve abnormal or pending findings before an appropriate discharge plan."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Airway and warmth: support transition safely",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Immediate care",
+                "text": "Assess breathing/tone, dry the infant, remove wet linen and maintain an appropriate thermal environment. Use monitored skin-to-skin when stable or the ordered warming method."
+              },
+              {
+                "label": "Cold stress",
+                "text": "The source links cold stress with increased oxygen/glucose use and acidosis. Prevent evaporation, convection, conduction and radiation with drying, draft protection and warm surfaces."
+              },
+              {
+                "label": "Safety clarification",
+                "text": "Do not routinely suction a breathing newborn, even with meconium-stained fluid; follow the trained response for obstruction or inadequate breathing. Use radiant warmers/temperature probes according to their protocol, with reassessment to avoid overheating."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Identification and everyday safety",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Identification",
+                "text": "Apply and verify matching identification bands and the facility’s security process. Match the infant with the caregiver before transfers, treatments and discharge."
+              },
+              {
+                "label": "Infection prevention",
+                "text": "Use hand hygiene and clean equipment. Assess skin integrity and avoid exposure to ill visitors; explain why routine safety checks apply even when the infant looks well."
+              },
+              {
+                "label": "Document",
+                "text": "Record vital signs, weight, feeding, voiding/stooling, skin/color and family interaction. Compare findings over time and hand off unresolved concerns."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Skin, diaper and cord care",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Skin and diapers",
+                "text": "Use gentle cleansing, avoid perfumes/overbathing, change wet/soiled diapers and use an appropriate barrier when needed. Inspect folds and genital skin."
+              },
+              {
+                "label": "Cord",
+                "text": "Follow local cord-care orders; keep the stump clean and dry and do not pull it off. The source’s approximate separation time is a guide, not a deadline."
+              },
+              {
+                "label": "Report",
+                "text": "Spreading redness, foul/purulent discharge, persistent bleeding or systemic illness needs assessment. Do not teach routine alcohol/iodine application as mandatory for every setting."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Vitamin K and eye prophylaxis: two different purposes",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Vitamin K clarification",
+                "text": "Vitamin K prevents vitamin K deficiency bleeding. Verify the prescribed intramuscular dose within 6 hours of birth; dose selection follows weight/order. Feeding does not replace this prophylaxis."
+              },
+              {
+                "label": "Eye clarification",
+                "text": "Erythromycin ointment prevents gonococcal ophthalmia. The lecture uses the first 1–2 hours; CDC specifies administration as soon as possible after delivery and within 24 hours. Follow local requirements/order."
+              },
+              {
+                "label": "Teach and document",
+                "text": "Explain purpose, check administration and document counseling. Eye ointment does not prevent every neonatal eye infection; new redness/discharge still needs evaluation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Hepatitis B: verify maternal status and infant timing",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Routine prevention",
+                "text": "The lecture places vaccination before discharge. Current CDC perinatal guidance specifies the birth dose within 24 hours for medically stable infants ≥2000 g with an HBsAg-negative parent; smaller infants follow their specific schedule."
+              },
+              {
+                "label": "Exposure clarification",
+                "text": "For an HBsAg-positive parent, give hepatitis B vaccine plus HBIG within 12 hours, at separate sites, according to orders. Unknown status needs urgent testing and the weight/status-based prophylaxis pathway."
+              },
+              {
+                "label": "Follow-up",
+                "text": "Document dose/site/time and arrange the vaccine series and indicated postvaccination testing. HBIG is not the vaccine series; the slide’s later dose list should not be taught as repeated routine HBIG."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Blood-spot screening and indicated laboratory tests",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Purpose/timing clarification",
+                "text": "The “PKU” heel-stick screen covers a panel of disorders, not just PKU. Collect the newborn blood spot at 24–48 hours under the state programme; early discharge or other circumstances may require repeat collection."
+              },
+              {
+                "label": "Other tests",
+                "text": "Glucose and blood group/antibody studies follow infant risk and protocol. A direct antiglobulin result supports evaluation for immune hemolysis but is not alone proof of clinical disease."
+              },
+              {
+                "label": "Close the result loop",
+                "text": "Confirm specimen quality, tracking and who reviews results. Do not assume no news means a confirmed normal screen; abnormal screens require prompt follow-up and diagnostic testing."
+              },
+              {
+                "label": "Bilirubin clarification",
+                "text": "Confirm a measured predischarge bilirubin and age/risk-based follow-up; visual assessment or the slide’s fixed bilirubin table is insufficient. Handoff the result and follow-up plan to the infant’s clinician."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Hearing and pulse-ox screening: add the follow-through",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Hearing clarification",
+                "text": "Verify hearing screening, preferably before discharge and by 1 month, and arrange timely rescreen/diagnostic follow-up when needed. A screen is not a final hearing diagnosis."
+              },
+              {
+                "label": "CCHD clarification",
+                "text": "Screen for critical congenital heart defects at ≥24 hours, or as late as possible before an earlier discharge, using right-hand and foot oxygen readings under the current algorithm."
+              },
+              {
+                "label": "Safety",
+                "text": "A failed screen needs prompt evaluation, and a passed screen does not exclude all defects. The lecture’s single >95% value is not a complete screen or an immediate postbirth oxygen target."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Circumcision: preparation, comfort and observation",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Before",
+                "text": "Confirm family choice/consent, examination, ordered analgesia and the clinician’s readiness criteria. A penile anomaly such as hypospadias requires review before routine circumcision."
+              },
+              {
+                "label": "After",
+                "text": "Observe bleeding and the first void, provide gentle diaper care and follow method-specific dressing/petroleum instructions. Sucrose is an adjunct; it does not replace indicated procedural analgesia."
+              },
+              {
+                "label": "Teach",
+                "text": "Report persistent bleeding, failure to void, spreading redness or illness. Healing varies by technique; routine antibiotic ointment is not automatically required for every circumcision."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Assessment & care of the newborn; Newborn assessment review handout; Newborn assessment & care-plan worksheet. Routine care follows the supplied material. Labeled safety/timing clarifications address suction, vitamin K/eye prophylaxis, hepatitis B/HBIG, screening/result tracking and circumcision precautions. No new medication-dose table or glucose/bilirubin treatment protocol is supplied.",
+    "answerSources": [
+      {
+        "title": "Assessment & care of the newborn (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-care"
+      },
+      {
+        "title": "Newborn assessment review handout (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-handout"
+      },
+      {
+        "title": "Newborn assessment & care-plan worksheet (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-care-plan"
+      },
+      {
+        "title": "AHA/AAP: newborn transition and immediate-care clarification",
+        "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation"
+      },
+      {
+        "title": "CDC: vitamin K purpose/timing clarification",
+        "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/vitamin-k.html"
+      },
+      {
+        "title": "CDC: ocular prophylaxis clarification",
+        "url": "https://www.cdc.gov/std/treatment-guidelines/gonorrhea-neonates.htm"
+      },
+      {
+        "title": "CDC: perinatal hepatitis B prevention clarification",
+        "url": "https://www.cdc.gov/hepatitis-b/hcp/perinatal-provider-overview/vaccine-administration.html"
+      },
+      {
+        "title": "CDC: blood-spot screening and follow-up clarification",
+        "url": "https://www.cdc.gov/newborn-screening/about/general-information.html"
+      },
+      {
+        "title": "CDC: newborn hearing screening clarification",
+        "url": "https://www.cdc.gov/hearing-loss-children-guide/parents-guide/newborn-hearing-screening.html"
+      },
+      {
+        "title": "CDC: critical-heart-defect screening clarification",
+        "url": "https://www.cdc.gov/heart-defects/hcp/screening/"
+      },
+      {
+        "title": "Stanford Newborn Nursery: circumcision precautions clarification",
+        "url": "https://med.stanford.edu/newborns/professional-education/circumcision/contraindications.html"
+      },
+      {
+        "title": "AAP: predischarge bilirubin and follow-up clarification",
+        "url": "https://www.aap.org/en/patient-care/hyperbilirubinemia/frequently-asked-questions-about-the-2022-aap-guideline-on-the-management-of-hyperbilirubinemia/"
+      }
+    ]
   },
   {
-    id:'newborn-discharge-teaching',weekIds:['week-9','week-10'],topicIds:['normal-newborn'],title:'Newborn discharge readiness',
-    text:'Teach caregivers about safe sleep, temperature, cord or circumcision care, feeding and elimination, follow-up, and signs of illness. Evaluate their understanding and ability to provide care and identify support or referral needs.',answer:[]
+    "id": "newborn-discharge-teaching",
+    "weekIds": [
+      "week-9",
+      "week-10"
+    ],
+    "topicIds": [
+      "normal-newborn"
+    ],
+    "title": "Newborn discharge readiness",
+    "text": "Teach caregivers about safe sleep, temperature, cord or circumcision care, feeding and elimination, follow-up, and signs of illness. Evaluate their understanding and ability to provide care and identify support or referral needs.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Discharge readiness includes stable recovery, effective feeding, elimination, completed or tracked screening and an arranged follow-up plan.",
+          "Teach safe sleep, transport, hygiene, temperature and feeding using demonstration and teach-back, with the family’s support/language needs in mind.",
+          "Fever, breathing/color changes, poor responsiveness or inability to feed need prompt help; caregivers need a clear contact and emergency plan."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Assess readiness and the home support plan",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Infant readiness",
+                "text": "Review vital signs/temperature, breathing, feeding observation, weight trend, urine/stool, jaundice and any birth complication. Confirm that unresolved concerns have an appropriate plan."
+              },
+              {
+                "label": "Caregiver readiness",
+                "text": "Assess skills, confidence, language, supplies, transport, safe sleep space and support. Use an interpreter and return demonstration when needed."
+              },
+              {
+                "label": "Continuity",
+                "text": "Provide written contacts and a follow-up appointment, including responsibility for pending results. Involve chosen support people and refer for practical/community help."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Safe sleep and transport",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Sleep clarification",
+                "text": "Place the infant on the back for every sleep on a firm, flat, level separate surface, with a fitted sheet and no loose bedding, pillows or toys. Room-share without bed-sharing."
+              },
+              {
+                "label": "Feeding and swaddling",
+                "text": "A feeding-position pillow or adult bed is not a sleep surface. Avoid overheating; if swaddled, keep the face uncovered and stop swaddling when rolling attempts begin. Return the infant to the safe sleep space after feeding."
+              },
+              {
+                "label": "Transport and supervision",
+                "text": "Teach rear-facing car-seat use according to the seat/vehicle instructions and arrange a qualified fitting check where available. Do not assume every fire station offers one; never leave a newborn alone with a young sibling."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Temperature and urgent signs: state the action",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Fever clarification",
+                "text": "Teach the clinician-recommended temperature method. A rectal temperature ≥38°C/100.4°F in a young infant needs immediate clinician contact/evaluation; do not give a medicine and simply wait for improvement."
+              },
+              {
+                "label": "Emergency signs",
+                "text": "Blue tongue/trunk, severe breathing difficulty, unresponsiveness or seizure-like activity needs emergency help. Persistent grunting/retractions or unusual lethargy needs urgent assessment."
+              },
+              {
+                "label": "Other concerns",
+                "text": "Report poor feeding, reduced urine, persistent abnormal temperature, worsening jaundice, bilious vomiting or an inconsolable high-pitched cry. Give specific contact instructions rather than a vague “watch the baby.”"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Daily care, feeding and elimination",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Hygiene",
+                "text": "Show gentle bathing and diaper care, stump care and method-specific circumcision care. Never leave the infant unattended in water; check water temperature and avoid irritating products."
+              },
+              {
+                "label": "Feeding",
+                "text": "Review the chosen feeding plan, cues and safe handling. Do not force a fixed bottle volume or put cereal/water in the bottle to treat crying. Persistent feeding difficulty needs review."
+              },
+              {
+                "label": "Diapers",
+                "text": "Keep a feeding/urine/stool record during early establishment. Wet diapers should increase over the first days; by around day 5, roughly six or more wet diapers/day supports intake when other findings are reassuring."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Follow-up and evaluation of teaching",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Early review clarification",
+                "text": "Arrange an early newborn visit, usually at age 3–5 days, with earlier review when clinically indicated. Recheck feeding, weight, hydration and jaundice; do not wait for the next vaccination visit."
+              },
+              {
+                "label": "Teach-back",
+                "text": "Ask caregivers to demonstrate a feed, safe sleep setup and diaper/cord care, and explain when/where they would seek help. Review screening and immunization follow-up."
+              },
+              {
+                "label": "Evaluate",
+                "text": "Document what caregivers can do, unresolved barriers and the agreed plan. A signed checklist is insufficient if the family cannot obtain feeds, attend follow-up or recognize illness."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Assessment & care of the newborn; Newborn assessment review handout; Newborn assessment & care-plan worksheet; Infant feeding: breast & formula. Source discharge teaching with labeled safe-sleep, fever, early-follow-up and screening-result clarifications; supports practical teach-back without new discharge cutoffs or individual feed-volume orders.",
+    "answerSources": [
+      {
+        "title": "Assessment & care of the newborn (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-care"
+      },
+      {
+        "title": "Newborn assessment review handout (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-handout"
+      },
+      {
+        "title": "Newborn assessment & care-plan worksheet (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-care-plan"
+      },
+      {
+        "title": "Infant feeding: breast & formula (original supplied PDF)",
+        "url": "#/ob-final/presentation/infant-feeding"
+      },
+      {
+        "title": "NIH Safe to Sleep: sleep-surface clarification",
+        "url": "https://safetosleep.nichd.nih.gov/reduce-risk/back-sleeping"
+      },
+      {
+        "title": "AAP HealthyChildren: infant-fever urgency clarification",
+        "url": "https://www.healthychildren.org/English/health-issues/conditions/fever/Pages/Fever-and-Your-Baby.aspx"
+      },
+      {
+        "title": "AAP: early follow-up and weight-loss clarification",
+        "url": "https://www.aap.org/en/patient-care/newborn-infant-and-early-childhood-nutrition/newborn-and-infant-health-assessment-and-promotion/first-office-visit-3-5-days/"
+      }
+    ]
   },
   {
-    id:'feeding-needs-milk-changes',weekIds:['week-9'],topicIds:['feeding'],title:'Newborn nutrition and milk changes',
-    text:'Explain the newborn’s nutritional and fluid needs and the progression from colostrum to mature milk. Compare breast milk and formula and explain how teaching supports informed, individualized feeding choices.',answer:[]
+    "id": "feeding-needs-milk-changes",
+    "weekIds": [
+      "week-9"
+    ],
+    "topicIds": [
+      "feeding"
+    ],
+    "title": "Newborn nutrition and milk changes",
+    "text": "Explain the newborn’s nutritional and fluid needs and the progression from colostrum to mature milk. Compare breast milk and formula and explain how teaching supports informed, individualized feeding choices.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Newborn intake supports growth, warmth and fluid balance; assess age-specific feeding and hydration rather than prescribing one volume to every baby.",
+          "Colostrum progresses to transitional and mature milk, with changing volume and composition; frequent effective feeding supports supply.",
+          "Explain benefits and practical differences, support informed feeding choices, and teach indicated vitamin D and other prescribed supplementation."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Nutrition and fluid needs: respect the infant’s age",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Lecture numbers",
+                "text": "The source lists 100–115 kcal/kg/day at about 1 month and a neonatal fluid figure of 140–160 mL/kg/day. These are not universal first-day feeding orders; needs depend on age, maturity, illness and growth."
+              },
+              {
+                "label": "Early intake",
+                "text": "Small early colostrum volumes accompany normal fluid shifts, but poor feeding/dehydration is never a required part of weight loss. Follow feeding effectiveness, weight and elimination."
+              },
+              {
+                "label": "Safety clarification",
+                "text": "Provide human milk or correctly prepared infant formula; do not add free water or dilute feeds to meet the fluid figure. The slide’s 30–90 mL stomach figure is not a mandatory volume for each first-day feed."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Colostrum, transitional milk and mature milk",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Colostrum",
+                "text": "Early yellow milk is low-volume and rich in protein and immune factors, including IgA. It helps early gut function and meconium passage. Small volume does not mean nutritionally empty."
+              },
+              {
+                "label": "Transitional milk",
+                "text": "Milk volume generally increases over the first several days; the lecture describes roughly 32–96 hours as transition begins. Fat, energy and other components change; timing/volume varies."
+              },
+              {
+                "label": "Mature milk",
+                "text": "The source places mature milk around 2 weeks, with mostly water plus carbohydrate, fat and protein. Fixed daily slide volumes are examples, not a supply test for an individual parent."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Milk production and milk release",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Anatomy",
+                "text": "The breast diagram shows alveolar secretory cells and ducts leading to the nipple. Prolactin supports production and oxytocin supports milk ejection/let-down."
+              },
+              {
+                "label": "Stimulation",
+                "text": "Frequent effective nursing or expression sends a demand signal. Poor transfer, separation or missed feeds may reduce effective stimulation and warrants help."
+              },
+              {
+                "label": "Within a feed",
+                "text": "The lecture contrasts foremilk and hindmilk. Treat composition as changing during a feed, not as two separate products; do not discard early milk or impose a stopwatch rule to obtain fat."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Human milk and formula: explain without blame",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Human milk",
+                "text": "The PDFs describe immune components, changing composition and population health benefits, plus feeding support at home/work transitions. Benefits are not a guarantee of a particular health outcome."
+              },
+              {
+                "label": "Formula",
+                "text": "Commercial infant formula provides nutrition when chosen or indicated, but requires correct preparation and storage and does not reproduce all human-milk immune components. It should not be described simply as missing all necessary nutrients."
+              },
+              {
+                "label": "Individualize",
+                "text": "Discuss goals, medical needs, access, cost and caregiver support without judgment. Both feeding methods require responsive feeding and follow-up; parents can bond and share care with either plan."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Vitamins, minerals and safe supplementation",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Vitamin D clarification",
+                "text": "Human milk alone usually supplies insufficient vitamin D. Breastfed/partially breastfed infants generally need 400 IU daily starting shortly after birth; confirm the product/dose with the clinician."
+              },
+              {
+                "label": "Formula threshold clarification",
+                "text": "An infant consuming about 32 ounces/day of vitamin-D-fortified formula generally does not need additional vitamin D. A newborn’s lower intake may still require a supplement; do not wait for cow’s milk."
+              },
+              {
+                "label": "Other nutrients",
+                "text": "Iron needs depend on age, prematurity and feeding; follow the infant’s prescribed plan. Do not add high-dose vitamins or assume the lecture’s general fat-soluble-vitamin caution replaces newborn vitamin K prophylaxis."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Infant feeding: breast & formula; Assessment & care of the newborn; Newborn assessment review handout. Keeps the lecture’s nutrition/milk progression while clarifying age-specific volumes, normal composition variation, informed choice, vitamin D and the distinction from birth vitamin K. No individualized nutrition prescription is created.",
+    "answerSources": [
+      {
+        "title": "Infant feeding: breast & formula (original supplied PDF)",
+        "url": "#/ob-final/presentation/infant-feeding"
+      },
+      {
+        "title": "Assessment & care of the newborn (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-care"
+      },
+      {
+        "title": "Newborn assessment review handout (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-handout"
+      },
+      {
+        "title": "CDC: early feeding-frequency clarification",
+        "url": "https://www.cdc.gov/infant-toddler-nutrition/breastfeeding/how-much-and-how-often.html"
+      },
+      {
+        "title": "CDC: infant vitamin D clarification",
+        "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/vitamin-d.html"
+      },
+      {
+        "title": "CDC: formula preparation/storage clarification",
+        "url": "https://www.cdc.gov/infant-toddler-nutrition/formula-feeding/preparation-and-storage.html"
+      },
+      {
+        "title": "CDC: vitamin K purpose/timing clarification",
+        "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/vitamin-k.html"
+      }
+    ]
   },
   {
-    id:'breastfeeding-latch-support',weekIds:['week-9'],topicIds:['feeding'],title:'Positioning, latch, and feeding support',
-    text:'Demonstrate how to assess feeding cues, positioning, latch, and milk transfer. Recognize ineffective feeding or persistent pain, choose supportive interventions, and identify when lactation referral is needed.',answer:[]
+    "id": "breastfeeding-latch-support",
+    "weekIds": [
+      "week-9"
+    ],
+    "topicIds": [
+      "feeding"
+    ],
+    "title": "Positioning, latch, and feeding support",
+    "text": "Demonstrate how to assess feeding cues, positioning, latch, and milk transfer. Recognize ineffective feeding or persistent pain, choose supportive interventions, and identify when lactation referral is needed.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Recognize early feeding cues and support frequent feeds, usually 8–12 in 24 hours during establishment.",
+          "Assess alignment, a deep comfortable latch and visible/audible swallowing, rather than time at the breast alone.",
+          "Persistent pain or poor transfer needs reassessment and help; support intake and supply while arranging appropriate lactation/clinical review."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Cues, timing and a sleepy infant",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Early cues",
+                "text": "Look for stirring, rooting, hands toward the mouth and increased alertness; crying is a late cue. Offer calm contact and feeding before the infant becomes very distressed."
+              },
+              {
+                "label": "Frequency",
+                "text": "The source supports 8–12 feeds in 24 hours, often with cluster feeding. Feed by cues while following the early-age/risk-based plan for waking a sleepy infant."
+              },
+              {
+                "label": "Safety clarification",
+                "text": "Support monitored skin-to-skin and gentle waking when stable, but poor arousal or ineffective feeding requires assessment. The slide’s suggestion that an infant may be uninterested for days is not permission to leave intake unassessed."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Position: bring the infant and parent into alignment",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Options in the figures",
+                "text": "Cradle, cross-cradle, football, side-lying and laid-back positions can be chosen for comfort, birth recovery and infant needs. Positioning pillows support a feed, not infant sleep."
+              },
+              {
+                "label": "Alignment",
+                "text": "Keep the ear, shoulder and hip aligned, with the infant facing the breast, body close and head/neck supported. Avoid twisting the neck or forcing the head forward."
+              },
+              {
+                "label": "Breast support",
+                "text": "The pictures favor a C/U hold with fingers behind the areola. The scissor hold can crowd the latch or compress tissue; adjust support rather than pinching the nipple."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Latch: use a wide mouth and deep attachment",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Approach",
+                "text": "Place the nose near the nipple, elicit rooting and wait for a wide gape. Bring the infant chin first toward the breast so the mouth takes breast tissue, not only the nipple."
+              },
+              {
+                "label": "Check",
+                "text": "Look for lips flanged outward, chin close, an open airway and a deep asymmetric latch. The images explain that the nipple should not remain pinched at the front of the mouth."
+              },
+              {
+                "label": "Correct",
+                "text": "If attachment is shallow/painful, gently release suction and reposition. Do not continue a painful ineffective latch just to complete a set feeding time."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Milk transfer: watch an actual feed",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Observe",
+                "text": "Assess rhythmic sucking with swallowing, pauses, comfortable breathing and sustained attachment. Swallowing and transfer matter more than minutes spent latched."
+              },
+              {
+                "label": "After",
+                "text": "Assess comfort, nipple shape and breast softening; pair these with the infant’s weight and diaper trends. A calm infant alone is not proof of adequate intake."
+              },
+              {
+                "label": "Source figure",
+                "text": "Page 22 links frequent nursing, audible swallowing, softer breasts, increasing urine and lightening stools. It also warns that accepting a supplemental bottle does not itself prove hunger or low milk supply."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Pain, poor transfer and referral",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Assess causes",
+                "text": "Ask about persistent nipple/breast pain and inspect the nipple; reassess position, latch, feeding frequency, infant alertness and suck/swallow. Consider parent/infant health rather than blaming effort."
+              },
+              {
+                "label": "Support",
+                "text": "Offer hands-on help with consent, comfortable positioning and an appropriate expression/feeding plan. Seek lactation help promptly for persistent pain, damaged nipples or ineffective transfer."
+              },
+              {
+                "label": "Escalate and evaluate",
+                "text": "Poor arousal, dehydration, significant weight loss or illness requires clinical review, not lactation advice alone. Reobserve a feed and reassess comfort, transfer and intake after the change."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Infant feeding: breast & formula; Newborn assessment review handout. Uses the actual positioning/latch/evaluation images, including text not extracted from the PDF. Clarifies sleepy-infant/pain/transfer safety without arbitrary feed lengths or fictional cases.",
+    "answerSources": [
+      {
+        "title": "Infant feeding: breast & formula (original supplied PDF)",
+        "url": "#/ob-final/presentation/infant-feeding"
+      },
+      {
+        "title": "Newborn assessment review handout (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-handout"
+      },
+      {
+        "title": "CDC: latch and intake-assessment clarification",
+        "url": "https://www.cdc.gov/infant-toddler-nutrition/breastfeeding/newborn-basics.html"
+      },
+      {
+        "title": "CDC: early feeding-frequency clarification",
+        "url": "https://www.cdc.gov/infant-toddler-nutrition/breastfeeding/how-much-and-how-often.html"
+      }
+    ]
   },
   {
-    id:'feeding-adequacy',weekIds:['week-9'],topicIds:['feeding'],title:'Evaluate feeding adequacy',
-    text:'Use feeding behavior, weight trends, urine and stool patterns, and hydration findings to evaluate intake. Identify findings that need follow-up, explain supplementation when indicated, and reassess whether the plan is effective.',answer:[]
+    "id": "feeding-adequacy",
+    "weekIds": [
+      "week-9"
+    ],
+    "topicIds": [
+      "feeding"
+    ],
+    "title": "Evaluate feeding adequacy",
+    "text": "Use feeding behavior, weight trends, urine and stool patterns, and hydration findings to evaluate intake. Identify findings that need follow-up, explain supplementation when indicated, and reassess whether the plan is effective.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Judge intake from an observed feed, serial weight, urine/stool and hydration together, not one diaper or crying episode.",
+          "Excessive or ongoing weight loss, few wet diapers, poor swallowing or lethargy needs assessment; normal early fluid loss is not an excuse for dehydration.",
+          "When supplementation is indicated, explain the plan, support desired milk production and reassess the infant’s response and follow-up."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Observe intake and assess hydration",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Feeding",
+                "text": "Record frequency, feeding method, actual transfer or amount offered/taken, tolerance and alertness. Watch a feed instead of assuming a recorded duration equals intake."
+              },
+              {
+                "label": "Hydration",
+                "text": "Assess mucosa, fontanelle, activity and urine trend. The source lists dry mouth, concentrated/decreased urine, weakness and lethargy as dehydration cues. Continued voiding does not by itself exclude dehydration."
+              },
+              {
+                "label": "Interpretation",
+                "text": "Contentment, breast softening or bottle acceptance is one clue, not a stand-alone test. Link observations with weight, stool transition and the infant’s condition."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Weight trend: quantify and interpret the loss",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Calculate",
+                "text": "Use (birth weight − current weight) ÷ birth weight × 100 for percent loss; compare weights obtained consistently. Review age in hours/days and birth/feeding context."
+              },
+              {
+                "label": "Clarification",
+                "text": "The PDFs describe 5–10% early loss, but >10% requires evaluation, not routine reassurance. Concerning symptoms or a poor trajectory can need review before that amount."
+              },
+              {
+                "label": "Recovery",
+                "text": "AAP describes birth-weight recovery commonly over 7–14 days. Continued loss after day 5, inadequate gain or illness needs reassessment; neither a fixed “gain starts day 5” rule nor one number proves adequate feeding."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Urine and stool: use age-related trends",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Urine",
+                "text": "The source image expects wet diapers to increase daily during the first days, with about six or more wet diapers/day by around day 5. Check actual wetness rather than judging diaper weight by appearance alone."
+              },
+              {
+                "label": "Stool",
+                "text": "Meconium should progress toward transitional then milk stools; the figure expects stool lightening by day 3 and yellow by about day 5 in breastfed infants. Formula stools differ."
+              },
+              {
+                "label": "Follow up",
+                "text": "Reduced output, delayed transition, dark urine, pale stools or persistent feeding concerns needs review. Diaper counts support assessment but do not replace weight/hydration evaluation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Supplement when indicated, then evaluate",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Assess first",
+                "text": "Poor transfer, dehydration, concerning weight loss or a prescribed glucose plan may require additional milk. Do not use crying alone or bottle acceptance alone as the indication."
+              },
+              {
+                "label": "Individual plan",
+                "text": "Explain the reason, milk type, amount/method, frequency and review plan with the team. Support latch and expression if continued breastfeeding is desired; do not delay treatment of an unwell infant."
+              },
+              {
+                "label": "Evaluate",
+                "text": "Recheck alertness, transfer/tolerance, urine/stool, weight and indicated labs. Document the follow-up and how supplementation will be reviewed as feeding becomes effective."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Infant feeding: breast & formula; Assessment & care of the newborn; Newborn assessment review handout. Combines lecture intake cues with labeled weight-loss/early-follow-up clarification. No formula-only rule, invented supplement-volume schedule or hypoglycemia treatment threshold is supplied.",
+    "answerSources": [
+      {
+        "title": "Infant feeding: breast & formula (original supplied PDF)",
+        "url": "#/ob-final/presentation/infant-feeding"
+      },
+      {
+        "title": "Assessment & care of the newborn (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-care"
+      },
+      {
+        "title": "Newborn assessment review handout (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-handout"
+      },
+      {
+        "title": "AAP: early follow-up and weight-loss clarification",
+        "url": "https://www.aap.org/en/patient-care/newborn-infant-and-early-childhood-nutrition/newborn-and-infant-health-assessment-and-promotion/first-office-visit-3-5-days/"
+      },
+      {
+        "title": "CDC: latch and intake-assessment clarification",
+        "url": "https://www.cdc.gov/infant-toddler-nutrition/breastfeeding/newborn-basics.html"
+      }
+    ]
   },
   {
-    id:'milk-expression-storage',weekIds:['week-9'],topicIds:['feeding'],title:'Milk expression, storage, and maternal needs',
-    text:'Explain safe milk expression, storage, thawing, and handling. Include maternal nutrition, breast comfort, maintaining an appropriate milk supply, and teaching for a parent returning to work or separating from the infant.',answer:[]
+    "id": "milk-expression-storage",
+    "weekIds": [
+      "week-9"
+    ],
+    "topicIds": [
+      "feeding"
+    ],
+    "title": "Milk expression, storage, and maternal needs",
+    "text": "Explain safe milk expression, storage, thawing, and handling. Include maternal nutrition, breast comfort, maintaining an appropriate milk supply, and teaching for a parent returning to work or separating from the infant.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Use clean hand expression or a suitable pump, and remove milk about as often as the infant normally feeds during separation.",
+          "Keep expressed milk labeled and cold when needed; follow the clarified storage clocks rather than the older slide’s refrigerator limit.",
+          "Support maternal food, fluids, comfort and a workable return-to-work plan; review technique, supply concerns and the infant’s intake."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Maintain supply, comfort and maternal wellbeing",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Supply",
+                "text": "Plan regular effective nursing or expression, especially when a feed is missed or parent/infant are separated. Avoid long unplanned gaps in milk removal when maintaining supply is the goal."
+              },
+              {
+                "label": "Maternal needs clarification",
+                "text": "Encourage a varied diet, access to food and fluids, and rest/support. Individual restrictions or nutrient supplements depend on health/diet; extra fluid or a “perfect” diet is not a guaranteed supply treatment."
+              },
+              {
+                "label": "Comfort",
+                "text": "Check flange fit, suction and breast/nipple comfort; persistent pain needs help. Do not use aggressive massage or repeatedly pump beyond the feeding plan to force an “empty” breast."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Expression and cleaning",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Prepare",
+                "text": "Wash hands; inspect and assemble clean equipment. Hand expression and manual/electric pumping are options; assess what the parent can use comfortably."
+              },
+              {
+                "label": "Cleaning clarification",
+                "text": "Clean milk-contact pump parts after every use, using the manufacturer’s instructions, then air-dry thoroughly. Clean/sanitize items before storage rather than putting damp pieces away."
+              },
+              {
+                "label": "Extra protection",
+                "text": "Daily sanitizing is especially important for infants <2 months, preterm or immunocompromised. Use breast-milk storage bags or clean food-grade glass/plastic containers with secure lids; glass is not the only safe option."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Fresh milk: use the corrected storage limits",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Safety clarification",
+                "text": "CDC home guidance for freshly expressed milk: up to 4 hours at ≤25°C/77°F and up to 4 days refrigerated at ≤4°C/40°F. The slide’s 8-day refrigerator limit is not the teaching rule."
+              },
+              {
+                "label": "Freezer",
+                "text": "At ≤−18°C/0°F, about 6 months is best; up to 12 months is acceptable. Freeze promptly if it will not be used within the refrigerator limit."
+              },
+              {
+                "label": "Apply safely",
+                "text": "Use shorter/individual facility instructions for higher-risk hospitalized infants or uncertain handling. Label expression dates and store away from the refrigerator door; do not combine uncertain milk into a new storage clock."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Thawing, warming and leftovers",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Thaw",
+                "text": "Use the refrigerator or gentle lukewarm-water methods. Never microwave milk or refreeze fully thawed milk; heating can create burns and change milk quality."
+              },
+              {
+                "label": "Use by",
+                "text": "Use refrigerated thawed milk within 24 hours from complete thawing; once warmed or brought to room temperature, use within 2 hours. Milk does not have to be warmed for every feed."
+              },
+              {
+                "label": "After a feed",
+                "text": "Use unfinished expressed milk within 2 hours after feeding ends, then discard. Keep these rules separate from formula’s shorter post-feeding clock."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Transport, work and teach-back",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Transport clarification",
+                "text": "An insulated cooler with frozen ice packs can hold expressed milk up to 24 hours. On arrival, refrigerate/use/freeze according to the remaining safe handling limits."
+              },
+              {
+                "label": "Plan separation",
+                "text": "Agree where and when to express, how equipment will be cleaned and how milk will be stored/carried. Teach the caregiver safe milk handling and responsive bottle feeding."
+              },
+              {
+                "label": "Evaluate",
+                "text": "Ask for a storage/thawing demonstration and check dates/times. Review comfort, feasible expression frequency and infant growth/intake; refer if pain or supply concerns persist."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Infant feeding: breast & formula. The lecture’s storage topic is retained, but outdated time/container advice is explicitly corrected using CDC home guidance. Hospital high-risk storage and individualized feeding plans remain separate.",
+    "answerSources": [
+      {
+        "title": "Infant feeding: breast & formula (original supplied PDF)",
+        "url": "#/ob-final/presentation/infant-feeding"
+      },
+      {
+        "title": "CDC: expressed-milk storage clarification",
+        "url": "https://www.cdc.gov/breastfeeding/breast-milk-preparation-and-storage/handling-breastmilk.html"
+      },
+      {
+        "title": "CDC: pump-cleaning clarification",
+        "url": "https://www.cdc.gov/hygiene/about/about-breast-pump-hygiene.html"
+      },
+      {
+        "title": "CDC: maternal-nutrition clarification",
+        "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/maternal-diet.html"
+      },
+      {
+        "title": "CDC: expressing milk during separation clarification",
+        "url": "https://www.cdc.gov/infant-toddler-nutrition/breastfeeding/returning-to-your-workplace.html"
+      }
+    ]
   },
   {
-    id:'formula-preparation',weekIds:['week-9'],topicIds:['feeding'],title:'Formula preparation and bottle safety',
-    text:'Teach safe preparation, dilution, handling, storage, and disposal of formula. Explain safe bottle-feeding positioning, responsive feeding, equipment hygiene, and how to evaluate caregiver understanding.',answer:[]
+    "id": "formula-preparation",
+    "weekIds": [
+      "week-9"
+    ],
+    "topicIds": [
+      "feeding"
+    ],
+    "title": "Formula preparation and bottle safety",
+    "text": "Teach safe preparation, dilution, handling, storage, and disposal of formula. Explain safe bottle-feeding positioning, responsive feeding, equipment hygiene, and how to evaluate caregiver understanding.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Choose the prescribed infant formula and measure the exact water-to-powder/concentrate ratio; never dilute to stretch a feed or concentrate without an order.",
+          "Powdered formula is not sterile. Use safe water, clean equipment and the age/risk-appropriate preparation method.",
+          "Feed while holding the infant, follow hunger/fullness cues and use the correct preparation, refrigeration and feeding-discard clocks."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Product and dilution: read the label together",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Forms",
+                "text": "Distinguish ready-to-feed, liquid concentrate and powder. Ready-to-feed needs no added water; concentrate and powder follow their own labeled instructions."
+              },
+              {
+                "label": "Measure",
+                "text": "For powder, measure the water first, then add the specified powder with its own scoop. Extra water lowers nutrition; too little water can cause excessive concentration and dehydration."
+              },
+              {
+                "label": "Safety",
+                "text": "Check the product, use-by date and storage instructions. Do not use homemade formula or add cereal/medicines unless specifically directed by the clinician."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Water and hygiene: correct the running-tap shortcut",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Prepare safely",
+                "text": "Wash hands and clean/sanitize the preparation area and feeding equipment. Use a safe water source; running tap water for one minute does not itself sterilize powder."
+              },
+              {
+                "label": "Higher-risk clarification",
+                "text": "For infants younger than 2 months, preterm or immunocompromised, CDC advises extra precautions: boil water, wait about 5 minutes, then mix while still about 70°C/158°F. Cool safely before feeding; use the clinician/product-specific plan."
+              },
+              {
+                "label": "Product choice",
+                "text": "Ready-to-feed sterile liquid formula may be appropriate when reducing powder-related infection risk. Never microwave a bottle; warming is optional and must not leave hot spots."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Storage and discard: track three clocks",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Preparation clarification",
+                "text": "Use prepared formula within 2 hours of preparation. If it will not be used promptly, refrigerate immediately and use within 24 hours."
+              },
+              {
+                "label": "Once feeding begins",
+                "text": "Use within 1 hour from the start of feeding, while also respecting the preparation limit. Discard what remains; do not refrigerate a partially used bottle for the next feed."
+              },
+              {
+                "label": "Opened containers",
+                "text": "Follow the manufacturer’s directions for opened ready-to-feed/concentrate and powder; most opened powders have about a 1-month limit. Do not apply the slide’s blanket 4-hour room/24–48-hour refrigerator rule to every formula."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Responsive bottle feeding",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Position",
+                "text": "Hold the infant semi-upright with head supported and keep the nipple appropriately filled. Never prop a bottle or leave the infant alone to feed."
+              },
+              {
+                "label": "Pace",
+                "text": "Pause as needed, assess suck/swallow/breathing and stop with fullness cues. Turning away or releasing the nipple can signal a pause/end; finishing the bottle is not the goal."
+              },
+              {
+                "label": "Assess",
+                "text": "Record intake/tolerance and follow weight, hydration and diapers. The source’s example volumes are not a universal target for every age or infant; persistent poor intake or breathing difficulty needs review."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Equipment, teach-back and evaluation",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "After feeding",
+                "text": "Disassemble and clean bottle parts, nipples and other milk-contact items, then dry and store safely. Sanitizing frequency follows infant risk and product guidance."
+              },
+              {
+                "label": "Teach-back",
+                "text": "Have the caregiver prepare a bottle and explain when it must be discarded. Check the scoop/ratio, safe water, temperature, labeling and storage rather than asking only “Do you understand?”"
+              },
+              {
+                "label": "Evaluate",
+                "text": "Resolve cost, supply, refrigeration or clean-water barriers before discharge. Arrange review if intake, weight, hydration or feeding tolerance remains concerning."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Infant feeding: breast & formula; Assessment & care of the newborn. Source formula/bottle teaching with labeled CDC corrections to powder sterility, water preparation, dilution and discard times. No new infant-specific volume prescription or formula recipe is invented.",
+    "answerSources": [
+      {
+        "title": "Infant feeding: breast & formula (original supplied PDF)",
+        "url": "#/ob-final/presentation/infant-feeding"
+      },
+      {
+        "title": "Assessment & care of the newborn (original supplied PDF)",
+        "url": "#/ob-final/presentation/newborn-care"
+      },
+      {
+        "title": "CDC: formula preparation/storage clarification",
+        "url": "https://www.cdc.gov/infant-toddler-nutrition/formula-feeding/preparation-and-storage.html"
+      },
+      {
+        "title": "CDC: pump-cleaning clarification",
+        "url": "https://www.cdc.gov/hygiene/about/about-breast-pump-hygiene.html"
+      }
+    ]
   },
   {
-    id:'feeding-special-circumstances',weekIds:['week-9'],topicIds:['feeding'],title:'Feeding precautions and supplementation',
-    text:'Identify maternal and infant circumstances requiring feeding precautions, temporary interruption, or an alternative to breast milk. Distinguish direct breastfeeding from use of expressed milk and explain individualized counseling and follow-up.',answer:[]
+    "id": "feeding-special-circumstances",
+    "weekIds": [
+      "week-9"
+    ],
+    "topicIds": [
+      "feeding"
+    ],
+    "title": "Feeding precautions and supplementation",
+    "text": "Identify maternal and infant circumstances requiring feeding precautions, temporary interruption, or an alternative to breast milk. Distinguish direct breastfeeding from use of expressed milk and explain individualized counseling and follow-up.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "A feeding precaution depends on the exact infection, exposure, medication and infant condition, not the presence of any diagnosis alone.",
+          "Direct breastfeeding and expressed milk may have different restrictions; explain what is safe, what is held, and how intake/supply will be supported.",
+          "Use an individualized clinical plan for supplementation or interruption, with a clear review point and follow-up."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Hepatitis B and C: correct the blanket restriction",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Hepatitis clarification",
+                "text": "Hepatitis B or C alone is not a routine reason to stop breastfeeding. The slide lists these too broadly as formula indications."
+              },
+              {
+                "label": "Prevention",
+                "text": "For maternal hepatitis B, verify infant vaccine/HBIG prophylaxis within 12 hours when indicated. Do not delay until 48 hours or wait for the entire series before allowing feeding."
+              },
+              {
+                "label": "Bleeding nipples",
+                "text": "With cracked/bleeding nipples and hepatitis B/C, obtain a temporary feeding/express-and-discard plan until healing, because blood exposure is the concern. Continue support and arrange reassessment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Breast HSV lesions: distinguish the affected side",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Safety clarification",
+                "text": "Do not directly breastfeed or feed expressed milk from a breast with active HSV lesions; discard milk from that side until lesions heal under the clinician’s plan."
+              },
+              {
+                "label": "Unaffected side",
+                "text": "Direct feeding or expressed milk from the unaffected breast may be used if lesions elsewhere are fully covered and hygiene prevents contact/contamination."
+              },
+              {
+                "label": "Support",
+                "text": "Help maintain supply safely and arrange an alternative milk source as needed. Expressing affected milk does not make it safe; confirm healing before resuming its use."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "HIV: use current specialist counseling",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Clarification",
+                "text": "The slide’s universal HIV prohibition is incomplete. Without ART or without sustained viral suppression, breastfeeding/expressed milk is not recommended under current CDC guidance."
+              },
+              {
+                "label": "Individual counseling",
+                "text": "For a parent with sustained suppression on ART, use specialist, patient-centered counseling on feeding options, remaining transmission risk, infant prophylaxis/testing and ongoing monitoring. Viral suppression does not mean zero breastfeeding risk."
+              },
+              {
+                "label": "Nursing role",
+                "text": "Support informed decisions without stigma; confirm the agreed milk source and follow-up. Do not apply the sexual-transmission meaning of U=U to breastfeeding."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Medications, radioactive exposure and substance use",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Verify the exact exposure",
+                "text": "The source flags cytotoxic treatment, iodine-131 and certain substance exposures. Check the specific agent, dose/timing and feeding guidance with the treating team/pharmacist; some restrictions apply to expressed milk as well."
+              },
+              {
+                "label": "Avoid blanket rules",
+                "text": "Not every prescribed medicine or diagnostic study requires interruption. Stable prescribed methadone/buprenorphine treatment is not the same as active illicit opioid use; use the specialist plan."
+              },
+              {
+                "label": "Support and review",
+                "text": "If holding milk is needed, document duration, whether to discard, alternative feeding and when to reassess/resume. Include practical help and safety assessment rather than an unsupported permanent stop."
+              },
+              {
+                "label": "Exposure counseling",
+                "text": "Active illicit stimulant use, alcohol, cannabis and sedating substances require specific risk counseling and a safe feeding plan. Do not treat all exposures as having the same interruption period."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Infant metabolic disorders: standard formula is not interchangeable",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Classic galactosemia",
+                "text": "Classic galactosemia is a contraindication to human milk and needs the metabolic team’s appropriate alternative formula. Routine cow’s-milk formula is not a universal substitute."
+              },
+              {
+                "label": "PKU clarification",
+                "text": "PKU needs controlled phenylalanine intake with specialist formula and monitoring; measured breast milk may be included in the prescribed plan. Do not turn the slide’s list into a ban for every affected infant."
+              },
+              {
+                "label": "MSUD clarification",
+                "text": "Initial treatment may temporarily stop breast milk/standard formula and use a specialized formula; breast milk may later be reintroduced under metabolic monitoring. Do not independently choose a protein restriction or restart."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Preterm, very small or glucose-risk infants: supplement purposefully",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Source risks",
+                "text": "The PDF lists <32 weeks, <1500 g and persistent hypoglycemia despite feeding. These infants need an individual neonatal nutrition/glucose plan, not automatic avoidance of all human milk."
+              },
+              {
+                "label": "Plan",
+                "text": "Discuss expressed milk, donor milk when appropriate/available, fortification or formula as prescribed, with intake and supply support. Amount, route and schedule depend on maturity and condition."
+              },
+              {
+                "label": "Evaluate and teach",
+                "text": "Explain why supplementation is needed, reassess intake/growth and ordered glucose results, and confirm follow-up. The plan must protect immediate nutrition while respecting the family’s feeding goals."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Lecture base: Infant feeding: breast & formula. The source’s broad contraindication lists need explicit safety clarification for hepatitis, HIV, HSV, medications, metabolic disease and preterm supplementation. This is decision-oriented teaching, not a drug-specific hold-time or metabolic diet prescription.",
+    "answerSources": [
+      {
+        "title": "Infant feeding: breast & formula (original supplied PDF)",
+        "url": "#/ob-final/presentation/infant-feeding"
+      },
+      {
+        "title": "CDC: individualized feeding-precautions clarification",
+        "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/contraindications/"
+      },
+      {
+        "title": "CDC: hepatitis B/C feeding clarification",
+        "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/illnesses-conditions/hepatitis-b-c.html"
+      },
+      {
+        "title": "CDC: perinatal hepatitis B prevention clarification",
+        "url": "https://www.cdc.gov/hepatitis-b/hcp/perinatal-provider-overview/vaccine-administration.html"
+      },
+      {
+        "title": "CDC: direct breastfeeding versus expressed milk with HSV clarification",
+        "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/illnesses-conditions/herpes.html"
+      },
+      {
+        "title": "NHS Health Research Authority: PKU feeding clarification",
+        "url": "https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/phenylalanine-free-infant-formula-in-pku/"
+      },
+      {
+        "title": "UK screening programme: MSUD feeding clarification",
+        "url": "https://www.gov.uk/government/publications/msud-suspected-description-in-brief/maple-syrup-urine-disease-msud-detailed-information"
+      }
+    ]
   },
   {
     id:'prematurity-high-risk',weekIds:['week-10'],topicIds:['newborn-complications'],title:'Prematurity and high-risk assessment',
