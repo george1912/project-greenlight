@@ -1,0 +1,688 @@
+{
+  "weekId": "week-6",
+  "reviewedOn": "2026-11-21",
+  "basis": "Five existing Week 6 objectives now have populated notes: four new answers and the unchanged placental-emergency response shared with Week 3. The three-bullet Quick answer / independently collapsed topics format is retained. Content follows the original Labor & Birth Complications PDF, with explicitly identified support from the supplied Pain Management and Postpartum Care PDFs. Limited safety/definition clarifications are labeled rather than attributed to the slides. Objective clauses unsupported in detail by the PDFs are explicitly identified; populated notes are not a claim that the original material supplies every protocol.",
+  "sources": [
+    {
+      "deckId": "labor-complications",
+      "path": "ob-presentations/labor-complications/original.pdf",
+      "pages": 43,
+      "sha256": "05776a93d78fee17bf34f2f96de3e9fde92303ee461cd1e4390bbb9cfd23c6be"
+    },
+    {
+      "deckId": "labor-pain-management",
+      "path": "ob-presentations/labor-pain-management/original.pdf",
+      "pages": 18,
+      "sha256": "3ee863e8897fda8f0a64073ee89c2fab1e8daf54cf8811cb601308c33bf637a2"
+    },
+    {
+      "deckId": "postpartum-care",
+      "path": "ob-presentations/postpartum-care/original.pdf",
+      "pages": 59,
+      "sha256": "8c7913d97c7a9f7bc6f8c5cf4064049cdcf057d396ff358c927940ab6a1165a6"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "complicated-labor",
+      "title": "Complicated labor and membrane rupture",
+      "lectureRanges": [
+        {
+          "deckId": "labor-complications",
+          "firstPage": 2,
+          "lastPage": 17
+        },
+        {
+          "deckId": "labor-complications",
+          "firstPage": 22,
+          "lastPage": 24
+        },
+        {
+          "deckId": "labor-complications",
+          "firstPage": 31,
+          "lastPage": 31
+        },
+        {
+          "deckId": "labor-pain-management",
+          "firstPage": 2,
+          "lastPage": 5
+        },
+        {
+          "deckId": "labor-pain-management",
+          "firstPage": 12,
+          "lastPage": 12
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Preterm labor recognition, risks, maternal/newborn priorities",
+          "noteTopic": "Preterm labor: recognize the pattern and risks"
+        },
+        {
+          "requirement": "Assessment and symptom teaching; testing and activity safety",
+          "noteTopic": "Preterm assessment and teaching: act on symptoms"
+        },
+        {
+          "requirement": "Collaborative fetal preparation, medication purposes and neonatal readiness",
+          "noteTopic": "Preterm treatment: separate the medication purposes"
+        },
+        {
+          "requirement": "PROM/PPROM recognition and comparison",
+          "noteTopic": "PROM and PPROM: identify what ruptured and when"
+        },
+        {
+          "requirement": "PROM/PPROM collaborative management and reassessment",
+          "noteTopic": "PROM and PPROM: compare the management priorities"
+        },
+        {
+          "requirement": "Suspected intraamniotic infection: cues, treatment, newborn communication and evaluation",
+          "noteTopic": "Suspected intraamniotic infection: recognize and escalate"
+        },
+        {
+          "requirement": "Post-term labor: recognition, risks, surveillance and birth planning",
+          "noteTopic": "Post-term pregnancy: surveillance and birth planning"
+        },
+        {
+          "requirement": "Dysfunctional labor: causes, patterns and nursing response",
+          "noteTopic": "Dysfunctional labor: connect the cause with the pattern"
+        },
+        {
+          "requirement": "Precipitous labor: recognition, urgent preparation and post-birth evaluation",
+          "noteTopic": "Precipitous labor: prepare for a rapidly changing birth"
+        }
+      ],
+      "topics": [
+        "Preterm labor: recognize the pattern and risks",
+        "Preterm assessment and teaching: act on symptoms",
+        "Preterm treatment: separate the medication purposes",
+        "PROM and PPROM: identify what ruptured and when",
+        "PROM and PPROM: compare the management priorities",
+        "Suspected intraamniotic infection: recognize and escalate",
+        "Post-term pregnancy: surveillance and birth planning",
+        "Dysfunctional labor: connect the cause with the pattern",
+        "Precipitous labor: prepare for a rapidly changing birth"
+      ],
+      "reviewSources": [
+        {
+          "title": "Original PDF — Labor & birth complications",
+          "url": "#/ob-final/presentation/labor-complications"
+        },
+        {
+          "title": "Original PDF — Pain management in labor",
+          "url": "#/ob-final/presentation/labor-pain-management"
+        },
+        {
+          "title": "Definition/safety clarification — ACOG preterm labor and birth",
+          "url": "https://www.acog.org/womens-health/faqs/preterm-labor-and-birth"
+        },
+        {
+          "title": "Safety clarification — SMFM activity restriction",
+          "url": "https://publications.smfm.org/publications/326-society-for-maternal-fetal-medicine-consult-series-50/"
+        },
+        {
+          "title": "Definition/safety clarification — ACOG prelabor rupture of membranes",
+          "url": "https://doi.org/10.1097/AOG.0000000000003700"
+        },
+        {
+          "title": "Safety clarification — ACOG intraamniotic infection",
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/08/intrapartum-management-of-intraamniotic-infection"
+        },
+        {
+          "title": "Test clarification — NICE preterm labor assessment",
+          "url": "https://www.nice.org.uk/guidance/ng25/chapter/Recommendations"
+        }
+      ]
+    },
+    {
+      "id": "assisted-cesarean-birth",
+      "title": "Assisted vaginal and cesarean birth",
+      "lectureRanges": [
+        {
+          "deckId": "labor-complications",
+          "firstPage": 18,
+          "lastPage": 24
+        },
+        {
+          "deckId": "labor-complications",
+          "firstPage": 26,
+          "lastPage": 33
+        },
+        {
+          "deckId": "labor-complications",
+          "firstPage": 42,
+          "lastPage": 42
+        },
+        {
+          "deckId": "labor-pain-management",
+          "firstPage": 2,
+          "lastPage": 5
+        },
+        {
+          "deckId": "labor-pain-management",
+          "firstPage": 9,
+          "lastPage": 13
+        },
+        {
+          "deckId": "labor-pain-management",
+          "firstPage": 15,
+          "lastPage": 18
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 4,
+          "lastPage": 4
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 11,
+          "lastPage": 13
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 21,
+          "lastPage": 21
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 25,
+          "lastPage": 31
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 34,
+          "lastPage": 40
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 52,
+          "lastPage": 53
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 59,
+          "lastPage": 59
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Operative vaginal/cesarean indications and birth-route comparison",
+          "noteTopic": "Birth route: connect the indication with the situation"
+        },
+        {
+          "requirement": "Preparation, consent, assessment and contingency planning",
+          "noteTopic": "Preparation and consent: make the plan understandable"
+        },
+        {
+          "requirement": "Instrument use, fetal monitoring, progress and stopping concerns",
+          "noteTopic": "Forceps and vacuum: watch progress and fetal response"
+        },
+        {
+          "requirement": "Maternal/newborn trauma, complications and laceration depth",
+          "noteTopic": "Birth trauma: distinguish perineal and newborn injuries"
+        },
+        {
+          "requirement": "Anesthesia preparation, risks and nursing monitoring",
+          "noteTopic": "Cesarean anesthesia: connect monitoring with the risk"
+        },
+        {
+          "requirement": "Postoperative/postpartum monitoring and complication recognition",
+          "noteTopic": "Recovery monitoring: assess the whole postpartum patient"
+        },
+        {
+          "requirement": "Pain management, mobility and evaluation",
+          "noteTopic": "Comfort and mobility: link care to reassessment"
+        },
+        {
+          "requirement": "Recovery teaching, emotional support and explicit missing cesarean detail",
+          "noteTopic": "Recovery teaching and the limits of the supplied material"
+        }
+      ],
+      "topics": [
+        "Birth route: connect the indication with the situation",
+        "Preparation and consent: make the plan understandable",
+        "Forceps and vacuum: watch progress and fetal response",
+        "Birth trauma: distinguish perineal and newborn injuries",
+        "Cesarean anesthesia: connect monitoring with the risk",
+        "Recovery monitoring: assess the whole postpartum patient",
+        "Comfort and mobility: link care to reassessment",
+        "Recovery teaching and the limits of the supplied material"
+      ],
+      "reviewSources": [
+        {
+          "title": "Original PDF — Labor & birth complications",
+          "url": "#/ob-final/presentation/labor-complications"
+        },
+        {
+          "title": "Original PDF — Pain management in labor",
+          "url": "#/ob-final/presentation/labor-pain-management"
+        },
+        {
+          "title": "Original PDF — Postpartum care & assessment",
+          "url": "#/ob-final/presentation/postpartum-care"
+        },
+        {
+          "title": "Safety clarification — CRICO operative vaginal birth",
+          "url": "https://www.rmf.harvard.edu/Risk-Prevention-and-Education/Guidelines-and-Algorithms-Catalog-Page/Guidelines-Algorithms/2026/OB-Guideline-Files/Guideline18-Operative-Vaginal-Birth"
+        },
+        {
+          "title": "Safety clarification — ASA obstetric anesthesia guidance",
+          "url": "https://doi.org/10.1097/ALN.0000000000000935"
+        }
+      ]
+    },
+    {
+      "id": "shoulder-dystocia",
+      "title": "Shoulder dystocia",
+      "lectureRanges": [
+        {
+          "deckId": "labor-complications",
+          "firstPage": 23,
+          "lastPage": 23
+        },
+        {
+          "deckId": "labor-complications",
+          "firstPage": 35,
+          "lastPage": 41
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Recognition and immediate escalation without a diagnostic waiting interval",
+          "noteTopic": "Recognition: act when the shoulder is impacted"
+        },
+        {
+          "requirement": "Contributing risk factors and limits of prediction",
+          "noteTopic": "Contributing risks: prepare without assuming certainty"
+        },
+        {
+          "requirement": "Immediate nursing actions and coordinated team communication",
+          "noteTopic": "Immediate nursing role: coordinate people and communication"
+        },
+        {
+          "requirement": "Nurse’s role in McRoberts, suprapubic pressure and internal rotation",
+          "noteTopic": "Corrective maneuvers: understand the nurse’s assisting role"
+        },
+        {
+          "requirement": "Actions to avoid and safe expert escalation",
+          "noteTopic": "Actions to avoid: prevent additional injury"
+        },
+        {
+          "requirement": "Timing and factual contemporaneous documentation",
+          "noteTopic": "Timing and documentation: make the sequence clear"
+        },
+        {
+          "requirement": "Newborn assessment, maternal trauma/bleeding assessment and follow-up",
+          "noteTopic": "After birth: assess both patients and explain the event"
+        }
+      ],
+      "topics": [
+        "Recognition: act when the shoulder is impacted",
+        "Contributing risks: prepare without assuming certainty",
+        "Immediate nursing role: coordinate people and communication",
+        "Corrective maneuvers: understand the nurse’s assisting role",
+        "Actions to avoid: prevent additional injury",
+        "Timing and documentation: make the sequence clear",
+        "After birth: assess both patients and explain the event"
+      ],
+      "reviewSources": [
+        {
+          "title": "Original PDF — Labor & birth complications",
+          "url": "#/ob-final/presentation/labor-complications"
+        },
+        {
+          "title": "Safety clarification — RCOG shoulder dystocia",
+          "url": "https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/shoulder-dystocia-green-top-guideline-no-42/"
+        },
+        {
+          "title": "Safety clarification — RCOG maneuvers and documentation",
+          "url": "https://obgyn.onlinelibrary.wiley.com/doi/10.1111/1471-0528.70258"
+        },
+        {
+          "title": "Safety clarification — RCOG patient information and follow-up",
+          "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/shoulder-dystocia-green-top-guideline-no-42/"
+        }
+      ]
+    },
+    {
+      "id": "other-birth-emergencies",
+      "title": "Other emergencies in the labor lectures",
+      "lectureRanges": [
+        {
+          "deckId": "labor-complications",
+          "firstPage": 24,
+          "lastPage": 24
+        },
+        {
+          "deckId": "labor-complications",
+          "firstPage": 26,
+          "lastPage": 31
+        },
+        {
+          "deckId": "labor-complications",
+          "firstPage": 42,
+          "lastPage": 43
+        },
+        {
+          "deckId": "postpartum-care",
+          "firstPage": 16,
+          "lastPage": 18
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Cord prolapse: supplied cues, first actions, team, monitoring and evaluation",
+          "noteTopic": "Cord prolapse: relieve compression while preparing birth"
+        },
+        {
+          "requirement": "Uterine rupture: supplied cues, urgent operative/resuscitative response and evaluation",
+          "noteTopic": "Uterine rupture: treat the cue cluster as an emergency"
+        },
+        {
+          "requirement": "AFE: supplied cues, immediate resuscitative response, clinical diagnosis and monitoring",
+          "noteTopic": "Amniotic fluid embolism: support breathing and circulation"
+        },
+        {
+          "requirement": "Uterine inversion: supplied definition, limited safety response and reassessment",
+          "noteTopic": "Uterine inversion: separate it from a boggy uterus"
+        },
+        {
+          "requirement": "Comparison, communication, oxygen distinction and explicit absence of complete case histories/protocols",
+          "noteTopic": "Shared response, reassessment, and source limits"
+        }
+      ],
+      "topics": [
+        "Cord prolapse: relieve compression while preparing birth",
+        "Uterine rupture: treat the cue cluster as an emergency",
+        "Amniotic fluid embolism: support breathing and circulation",
+        "Uterine inversion: separate it from a boggy uterus",
+        "Shared response, reassessment, and source limits"
+      ],
+      "reviewSources": [
+        {
+          "title": "Original PDF — Labor & birth complications",
+          "url": "#/ob-final/presentation/labor-complications"
+        },
+        {
+          "title": "Original PDF — Postpartum care & assessment",
+          "url": "#/ob-final/presentation/postpartum-care"
+        },
+        {
+          "title": "Safety clarification — RCOG cord prolapse",
+          "url": "https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/umbilical-cord-prolapse-green-top-guideline-no-50/"
+        },
+        {
+          "title": "Safety clarification — AHRQ cord-prolapse response",
+          "url": "https://www.ahrq.gov/patient-safety/settings/labor-delivery/perinatal-care/modules/strategies/labor-delivery-unit/tool-cord-prolapse.html"
+        },
+        {
+          "title": "Safety clarification — ACOG intrapartum FHR management",
+          "url": "https://journals.lww.com/greenjournal/fulltext/2025/10000/acog_clinical_practice_guideline_no_.22.aspx"
+        },
+        {
+          "title": "Safety clarification — SMFM amniotic fluid embolism",
+          "url": "https://publications.smfm.org/publications/581-society-for-maternal-fetal-medicine-clinical-guidelines-9/"
+        },
+        {
+          "title": "Safety clarification — SMFM AFE checklist, updated 2026",
+          "url": "https://publications.smfm.org/publications/636-society-for-maternal-fetal-medicine-special-statement-checklist/"
+        },
+        {
+          "title": "Safety clarification — MSF uterine inversion",
+          "url": "https://medicalguidelines.msf.org/en/viewport/ONC/english/8-4-uterine-inversion-51417808.html"
+        },
+        {
+          "title": "Safety clarification — MSF uterine rupture",
+          "url": "https://medicalguidelines.msf.org/en/viewport/ONC/english/3-3-uterine-rupture-51416296.html"
+        }
+      ]
+    }
+  ],
+  "sharedObjective": {
+    "id": "placental-emergency-response",
+    "handling": "Unchanged complete object, including all original notes, metadata and sources. Reused in Week 6, Week 8 and the labor-emergencies topic. Its original source-page mapping and clarifications remain in docs/ob-week3-notes-audit.json.",
+    "sha256": "528bb4f4558dc54218e43d5c1eabe9d6d496b93fc77377b941f68b49a7c6ef7e"
+  },
+  "visualReview": [
+    {
+      "deckId": "labor-complications",
+      "pages": [
+        19,
+        21,
+        28,
+        29,
+        30,
+        35,
+        37,
+        38,
+        39,
+        40
+      ],
+      "purpose": "Reviewed original preview figures: episiotomy directions and laceration depths; cord presentations/prolapse, gravity-reducing positions and manual elevation; slide 35 timing language; supine McRoberts, suprapubic pressure and internal shoulder rotation. The all-fours knee-chest illustration is not misidentified as McRoberts. No complete clinical case history is inferred from diagrams."
+    },
+    {
+      "deckId": "postpartum-care",
+      "pages": [
+        16,
+        18,
+        26,
+        38
+      ],
+      "purpose": "Verified the limited inversion definition/list and absence of a replacement protocol; reviewed brief post-cesarean bowel and lochia/incision assessment material. These pages do not supply a complete operative-birth recovery or discharge pathway."
+    }
+  ],
+  "clarifications": [
+    {
+      "issue": "Preterm boundary written <37 6/7; steroid benefit/timing shorthand; magnesium listed as PPROM labor suppression",
+      "handling": "Uses <37 completed weeks; explains corticosteroid maturation versus selected short-term tocolysis versus magnesium neuroprotection. No replacement dose schedule or expanded gestational eligibility table.",
+      "sources": [
+        "https://www.acog.org/womens-health/faqs/preterm-labor-and-birth"
+      ]
+    },
+    {
+      "issue": "Routine bed rest/activity restrictions and one-hour home symptom trial",
+      "handling": "Symptoms/leakage prompt contact rather than delayed evaluation; routine restriction is not presented as prevention treatment.",
+      "sources": [
+        "https://www.acog.org/womens-health/faqs/preterm-labor-and-birth",
+        "https://publications.smfm.org/publications/326-society-for-maternal-fetal-medicine-consult-series-50/"
+      ]
+    },
+    {
+      "issue": "Fetal fibronectin suggested when ROM suspected",
+      "handling": "Distinguishes selected preterm-birth risk assessment with intact membranes from confirmation of membrane rupture.",
+      "sources": [
+        "https://www.nice.org.uk/guidance/ng25/chapter/Recommendations",
+        "https://doi.org/10.1097/AOG.0000000000003700"
+      ]
+    },
+    {
+      "issue": "PROM defined by one-hour interval; PPROM induction/antibiotics framed as automatic 24-hour/34-week rules",
+      "handling": "Defines prelabor rupture without a required interval, PPROM <37 weeks, individualized gestation/status-based planning and prompt response to infection/compromise.",
+      "sources": [
+        "https://doi.org/10.1097/AOG.0000000000003700",
+        "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/08/intrapartum-management-of-intraamniotic-infection"
+      ]
+    },
+    {
+      "issue": "Abbreviated operative vaginal eligibility and three pop-offs phrased as a continuation allowance",
+      "handling": "Clarifies full dilation/membranes/head position/analgesia and backup readiness; poor progress or compromise requires reassessment before a numeric limit is reached.",
+      "sources": [
+        "https://www.rmf.harvard.edu/Risk-Prevention-and-Education/Guidelines-and-Algorithms-Catalog-Page/Guidelines-Algorithms/2026/OB-Guideline-Files/Guideline18-Operative-Vaginal-Birth"
+      ]
+    },
+    {
+      "issue": "Anesthetic-space, fixed-preload and dilation shorthand in supportive pain PDF",
+      "handling": "Separates epidural/intrathecal anatomy and follows an individualized anesthesia plan rather than importing the fixed rules.",
+      "sources": [
+        "https://doi.org/10.1097/ALN.0000000000000935"
+      ]
+    },
+    {
+      "issue": "Two-minute shoulder-dystocia waiting rule; ambiguous McRoberts wording; ordinary cesarean escalation after head birth",
+      "handling": "Immediate recognition/help, correct supine hyperflexed positioning, no fundal/excessive traction, immediate expert rescue rather than an ordinary transfer, and concise timing/documentation/newborn follow-up clarification.",
+      "sources": [
+        "https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/shoulder-dystocia-green-top-guideline-no-42/",
+        "https://obgyn.onlinelibrary.wiley.com/doi/10.1111/1471-0528.70258",
+        "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/shoulder-dystocia-green-top-guideline-no-42/"
+      ]
+    },
+    {
+      "issue": "Cord manipulation/decompression and routine maternal oxygen listed for fetal distress",
+      "handling": "Maintain elevation of presenting part, minimize cord handling/do not replace cord above fetus, prioritize birth and use oxygen for maternal hypoxia/clinical indication rather than routinely for normoxic FHR changes.",
+      "sources": [
+        "https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/umbilical-cord-prolapse-green-top-guideline-no-50/",
+        "https://www.ahrq.gov/patient-safety/settings/labor-delivery/perinatal-care/modules/strategies/labor-delivery-unit/tool-cord-prolapse.html",
+        "https://journals.lww.com/greenjournal/fulltext/2025/10000/acog_clinical_practice_guideline_no_.22.aspx"
+      ]
+    },
+    {
+      "issue": "Rupture/AFE slides mainly list findings; AFE implies fetal cells confirm the diagnosis and quotes older mortality estimates",
+      "handling": "Labels immediate response priorities, distinguishes AFE as a clinical diagnosis, and omits unneeded older mortality claims, resuscitation doses and surgical details.",
+      "sources": [
+        "https://publications.smfm.org/publications/581-society-for-maternal-fetal-medicine-clinical-guidelines-9/",
+        "https://publications.smfm.org/publications/636-society-for-maternal-fetal-medicine-special-statement-checklist/",
+        "https://medicalguidelines.msf.org/en/viewport/ONC/english/3-3-uterine-rupture-51416296.html"
+      ]
+    },
+    {
+      "issue": "Inversion appears near general atony/fundal-massage material without specific response",
+      "handling": "Labels urgent specialist replacement/resuscitation, distinguishes inversion from routine atony massage and uterotonic use, and marks the absence of a complete source protocol.",
+      "sources": [
+        "https://medicalguidelines.msf.org/en/viewport/ONC/english/8-4-uterine-inversion-51417808.html"
+      ]
+    }
+  ],
+  "materialLimits": [
+    {
+      "objectiveId": "complicated-labor",
+      "handling": "The slides support recognition, medication purposes and broad care priorities but not a complete gestation-specific PROM/PTL algorithm, dystocia treatment protocol or universal labor-arrest thresholds. Notes mark this limit and avoid filling it with new tables or protocols."
+    },
+    {
+      "objectiveId": "assisted-cesarean-birth",
+      "handling": "The original Week 6 deck has brief operative-vaginal/VBAC/cesarean indications, not a complete cesarean nursing pathway. Supplied pain/postpartum PDFs contribute consent, anesthesia and recovery assessments. A full preoperative checklist, timed postoperative regimen, first-walk time, feeding progression and specific home restrictions remain explicitly unsupplied."
+    },
+    {
+      "objectiveId": "other-birth-emergencies",
+      "handling": "The original PDFs have recognition lists and cord diagrams, not full case histories or comprehensive rupture/AFE/inversion protocols. Inversion’s definition comes from the supplied postpartum PDF; only essential safety response is clarified externally. No fictional cases or new surgical/resuscitation regimen is authored."
+    }
+  ],
+  "preservedCompletedObjectives": [
+    {
+      "id": "family-centered-care",
+      "sha256": "70a0b3b2ece86eb8bf63f3096dc4920845f670ac30dd63c330d90b1181792671"
+    },
+    {
+      "id": "pregnancy-adaptations",
+      "sha256": "cf195c48ab0f0f1ac71c5cded8f7ade851b4982250c7fb49821e9c42fb7401c2"
+    },
+    {
+      "id": "pregnancy-psychosocial-care",
+      "sha256": "a8fc5c78a886aac82d8136712864eaabd54876c1ceaec7f416e1ac74de96f7bf"
+    },
+    {
+      "id": "conception-fetal-development",
+      "sha256": "a977e1cfd51356225669fd1b760339b7310344d798eb56b69bd1dfb8487ebe3e"
+    },
+    {
+      "id": "pregnancy-signs",
+      "sha256": "d84d6ebc86af9ccf967fc27f093e1962d0012f37730f7c6ed42f09df0e17856a"
+    },
+    {
+      "id": "obstetric-history-gtpal",
+      "sha256": "70b17bd7266c0e4a5f3cbccdd7ec5bf7afff46deb2a254895cf9b814fc7449f5"
+    },
+    {
+      "id": "estimated-due-date",
+      "sha256": "4c7fb355ae71583d39b8eadc5cf27390b0a8cda16b575c5be8be739432901f17"
+    },
+    {
+      "id": "prenatal-assessment",
+      "sha256": "6b6348d843955794ec685927ab731331b7231d2f0ecc6bad6b5fb35faa1fba4e"
+    },
+    {
+      "id": "pregnancy-discomforts",
+      "sha256": "34c498545e7a2cfbaaed7ecbadb19f82b6b852084fdc5d1fe72c8dd230e0da8e"
+    },
+    {
+      "id": "prenatal-nutrition-teaching",
+      "sha256": "83e1f0e7ee44b5408a6c51eb18c495ba50bb04abfcfada596d3c25c1edacb0da"
+    },
+    {
+      "id": "high-risk-pregnancy-assessment",
+      "sha256": "58ac88980195a296e5d2deee1a458f1f13a5ee7bdb3e7ad8ae36890462d21a8b"
+    },
+    {
+      "id": "early-pregnancy-complications",
+      "sha256": "ad306f6df18fd34dee9ffb08bd37d1f7f6dc399d62d7fe4c989c4f4911c58696"
+    },
+    {
+      "id": "placental-bleeding",
+      "sha256": "707c745c51110fb3dae06c67efed3e4a5abdd952a8b3f86c9a6680800c2ac69d"
+    },
+    {
+      "id": "diabetes-assessment",
+      "sha256": "d339f75477a7e32654b26c0b34a13e69d00853d964c3b2146e327f88224b46d7"
+    },
+    {
+      "id": "diabetes-nursing-management",
+      "sha256": "094361a09b9d7defe6b6573413678eeabc31c2cefd846f72181120f949a70d37"
+    },
+    {
+      "id": "hypertensive-disorders",
+      "sha256": "c8593c799384dbaee342a6b08ce90a44dd2287055dc5595d8afb7ef1fae45307"
+    },
+    {
+      "id": "eclampsia-magnesium-hellp",
+      "sha256": "cf3ccd761f55857d196adbf4cf5b18d4c7fdda6eeb37291c54abecd98fcf9d0a"
+    },
+    {
+      "id": "pregnancy-prom-preterm",
+      "sha256": "a2ab601a785d8e285014984761f78364211d07fba602e986c4bfae92493e7df8"
+    },
+    {
+      "id": "rh-abo-infections",
+      "sha256": "274d6e23637b7dc15ef4f825f7d2520b59559325e07f4d688c2601917a133ef8"
+    },
+    {
+      "id": "fluid-multiples-pregnancy",
+      "sha256": "17dc96e563f057c24236fd7cf495942c7753c675986f571e2cfdeac9651c0e0e"
+    },
+    {
+      "id": "normal-labor-process",
+      "sha256": "b55ba5250d8dbc3f88c551be736418952d6ebf1a66341bc5d5d550dcafc5c5f4"
+    },
+    {
+      "id": "labor-nursing-assessment",
+      "sha256": "51eecfc874b5ecc7f956a4527500f4ab43790624925455e33b361eaef3db1138"
+    },
+    {
+      "id": "monitoring-methods",
+      "sha256": "29a00577b42d3fd5b69c403b3014e53161fe2635a6e637b16578acf93010daac"
+    },
+    {
+      "id": "fhr-strip-assessment",
+      "sha256": "a6a31f52d11398179b459d3ae919b226c760d9410eb68716691abebcd3381a63"
+    },
+    {
+      "id": "fhr-patterns",
+      "sha256": "55d736bced31e3f903cf3e03b85d5b2ea9e76c682d0ef45ff5269cbf7cbf37cb"
+    },
+    {
+      "id": "fhr-priorities",
+      "sha256": "c5f77e4885ea7ac00eaf2a2428c8be195602b2cc4e646946552983c15edfa27a"
+    },
+    {
+      "id": "labor-comfort-medication",
+      "sha256": "43debdc4bebe66782ea977c4fe524b259c50e47dbeffddf6320d6e7595c84c21"
+    },
+    {
+      "id": "induction-augmentation",
+      "sha256": "a21c21dff0b36b1a19f2b9f966ac38276e584b0871ca33c4774b6efbbc6f14c2"
+    },
+    {
+      "id": "placental-emergency-response",
+      "sha256": "528bb4f4558dc54218e43d5c1eabe9d6d496b93fc77377b941f68b49a7c6ef7e"
+    }
+  ],
+  "sharedViews": "The four new answers appear in Week 6 and the existing Week 8 review; shoulder dystocia and the other emergencies also populate the existing labor-emergencies topic. The shared placental-emergency object, all earlier notes, weekly/topic mappings, main exam-topic order, original PDFs/previews, infographic/presentation layout, videos, practice and navigation are unchanged.",
+  "limits": "Source-led educational summaries with identified source gaps. Automated checks verify mapped coverage, original-source integrity, preserved prior answers and shared safe rendering; they are not independent clinical validation or a new mobile-browser usability test."
+}

@@ -1108,6 +1108,10 @@
     "fhr-priorities",
     "labor-comfort-medication",
     "induction-augmentation",
-    "placental-emergency-response"
+    "complicated-labor",
+    "assisted-cesarean-birth",
+    "shoulder-dystocia",
+    "placental-emergency-response",
+    "other-birth-emergencies"
   ]
 }

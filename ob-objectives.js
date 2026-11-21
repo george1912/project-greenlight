@@ -5131,16 +5131,691 @@ const obStudyObjectives = [
     ]
   },
   {
-    id:'complicated-labor',weekIds:['week-6'],topicIds:[],title:'Complicated labor and membrane rupture',
-    text:'Compare preterm and post-term labor, dysfunctional and precipitous labor, PROM/PPROM, and suspected intraamniotic infection. For each, describe recognition, collaborative management, and maternal and newborn nursing priorities.',answer:[]
+    "id": "complicated-labor",
+    "weekIds": [
+      "week-6"
+    ],
+    "topicIds": [],
+    "title": "Complicated labor and membrane rupture",
+    "text": "Compare preterm and post-term labor, dysfunctional and precipitous labor, PROM/PPROM, and suspected intraamniotic infection. For each, describe recognition, collaborative management, and maternal and newborn nursing priorities.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Start with gestational age, contractions/cervical change, membrane status, maternal vital signs, and fetal response; similar symptoms can have different causes.",
+          "Compare early birth and infection risks with post-term placental/fluid risks; distinguish slow or ineffective labor from birth progressing in under 3 hours.",
+          "Recognize deterioration, notify the team, give ordered treatment, and reassess both patients. The medication and timing statements below explain the lecture rather than supply standing orders."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Preterm labor: recognize the pattern and risks",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Definition clarification",
+                "text": "Preterm labor occurs before 37 completed weeks and involves contractions with cervical change. The slide’s “<37 6/7 weeks” is too broad. Prematurity describes gestational age; low birth weight describes weight."
+              },
+              {
+                "label": "Risk cues from the PDF",
+                "text": "Prior preterm birth, short cervix/cervical insufficiency, multiple gestation, uterine abnormalities, membrane rupture, infection, placental problems, smoking/substance exposure, poor nutrition, and limited prenatal care warrant closer assessment."
+              },
+              {
+                "label": "Symptoms to report",
+                "text": "Contractions or cramping, low backache, pelvic pressure, increased discharge, or leaking fluid. Gastrointestinal symptoms may accompany these findings; assess the pattern rather than diagnosing from one symptom."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Preterm assessment and teaching: act on symptoms",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Assess and report",
+                "text": "Establish gestational age; assess uterine activity, cervical change, membranes, vital signs, and FHR. The lecture lists CBC, metabolic/electrolyte studies, and urine testing; obtain ordered studies and trend relevant findings."
+              },
+              {
+                "label": "Test clarification",
+                "text": "Fetal fibronectin may help assess preterm-birth risk in selected patients with intact membranes. It is not a stand-alone test confirming ruptured membranes."
+              },
+              {
+                "label": "Safety clarification",
+                "text": "Contact the maternity team promptly for symptoms or fluid leakage; do not delay evaluation to complete the slide’s one-hour rest/hydration trial. Routine bed rest/activity restriction is not an effective prevention treatment; restrictions require an individual indication."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Preterm treatment: separate the medication purposes",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Corticosteroid",
+                "text": "Betamethasone promotes fetal maturation and reduces complications of prematurity. The lecture centers on approximately 24–34 weeks. Timing clarification: greatest benefit generally develops over about 2 days, with some benefit sooner; the slide’s dose alternatives are not reproduced as a prescribing schedule."
+              },
+              {
+                "label": "Tocolysis versus neuroprotection",
+                "text": "A selected short course of tocolysis may buy time for fetal treatment or transfer; it does not cure the cause. Magnesium sulfate before anticipated early birth, generally <32 weeks, is for fetal neuroprotection, not routine PPROM tocolysis."
+              },
+              {
+                "label": "Nursing priorities",
+                "text": "Administer actual orders; reassess maternal vital signs, respiratory status/lung sounds, infection findings, contractions, and FHR. Prepare the neonatal team if birth progresses: the PDF emphasizes malpresentation, cord risk, respiratory support, and family support."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "PROM and PPROM: identify what ruptured and when",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Definition clarification",
+                "text": "PROM means prelabor rupture of membranes: the sac ruptures before labor, without a required one-hour interval. PPROM is the same event before 37 completed weeks."
+              },
+              {
+                "label": "Assess immediately",
+                "text": "Record when leakage began, the fluid’s amount, color and odor, contractions, gestational age, maternal vital signs, and FHR. A new fetal abnormality after rupture raises concern for cord compression/prolapse."
+              },
+              {
+                "label": "Why it matters",
+                "text": "Loss of the membrane barrier increases infection risk. PPROM also creates the competing risk of premature birth; the plan balances the condition of mother and fetus with gestational maturity."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "PROM and PPROM: compare the management priorities",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "PROM at term",
+                "text": "The lecture anticipates induction and continued maternal–fetal assessment. Explain the plan and report fever, uterine tenderness, abnormal fluid, or FHR changes."
+              },
+              {
+                "label": "PPROM",
+                "text": "Selected stable patients may receive expectant care, hospital monitoring, antibiotics, and gestation-appropriate fetal preparation. Watch for infection or fetal compromise that changes the plan."
+              },
+              {
+                "label": "Safety clarification",
+                "text": "The slide’s automatic “wait 24 hours / induce if ≥34 weeks” and blanket terbutaline-or-magnesium statements are not universal rules. Delivery timing, antibiotics, and any attempt to delay birth require the obstetric plan; suspected infection or compromise needs prompt reassessment rather than waiting out a clock."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Suspected intraamniotic infection: recognize and escalate",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Cues in the lecture",
+                "text": "Prolonged membrane rupture increases risk. Maternal fever, fetal tachycardia, uterine tenderness, and foul-smelling amniotic fluid form the lecture’s recognition cluster."
+              },
+              {
+                "label": "Collaborative response",
+                "text": "Notify the obstetric team promptly, trend maternal vital signs and FHR, administer ordered antibiotics, and prepare for the team’s birth plan. Communicate suspected infection to the newborn team for assessment after birth."
+              },
+              {
+                "label": "Safety clarification and evaluation",
+                "text": "Do not wait until rupture has lasted 24 hours to treat suspected infection. Reassess temperature, perfusion, symptoms, and fetal response. Infection alone does not automatically require cesarean birth."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Post-term pregnancy: surveillance and birth planning",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Definition",
+                "text": "Post-term begins at 42 weeks. The lecture discusses induction around 41 weeks; that planning point is earlier than the post-term definition."
+              },
+              {
+                "label": "Compare the risks",
+                "text": "Maternal: dysfunctional labor, fatigue, perineal trauma, hemorrhage, and infection. Fetal: abnormal growth/macrosomia, birth injury, declining placental function, and oligohydramnios."
+              },
+              {
+                "label": "Nursing and collaborative priorities",
+                "text": "Review dating and the ordered induction/surveillance plan. The PDF names nonstress testing and biophysical profile. Assess fetal well-being and labor progress, explain the reason for testing, and promptly report concerning changes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Dysfunctional labor: connect the cause with the pattern",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "What it means",
+                "text": "Dystocia is long, difficult, or abnormal labor. Consider powers (contractions), passage (bony or soft-tissue obstruction), passenger (fetal size/position), maternal position, and psychological response."
+              },
+              {
+                "label": "Recognize and reassess",
+                "text": "The lecture distinguishes hypertonic dysfunction from hypotonic uterine inertia and lists prolonged/protracted dilation, arrest, and poor descent. Assess the contraction/progress trend, FHR, fatigue, hydration, pain, and coping; a pattern name alone does not establish its cause."
+              },
+              {
+                "label": "Nursing application",
+                "text": "Report the findings, assist with positioning and comfort, and follow the team’s plan for inadequate contractions versus obstruction. Oxytocin overstimulation can itself worsen problems; continued stimulation is not the answer to every slow labor."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Precipitous labor: prepare for a rapidly changing birth",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Recognition",
+                "text": "The lecture defines precipitous labor as birth occurring after labor lasting <3 hours. Rapid progress contrasts with the prolonged or arrested patterns of dystocia."
+              },
+              {
+                "label": "Lecture associations",
+                "text": "Strong/hypertonic uterine activity, tachysystole, placental abruption, and recent cocaine exposure are listed. Assess the actual contractions, bleeding, pain, and FHR rather than assuming rapid labor is uncomplicated."
+              },
+              {
+                "label": "Nursing application and evaluation",
+                "text": "Stay with the patient, summon birth/newborn assistance, and prepare for an unexpectedly fast birth. After birth, assess bleeding and perineal injury and ensure newborn assessment; continue communication and reassurance."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerSourceNote": "From Labor & Birth Complications pages 2–17, 22–24 and 31, with supportive-care principles from Pain Management pages 2–5 and 12. Brief definition, test and safety clarifications are labeled. The PDFs do not supply a complete gestation-specific PROM/PTL algorithm or a dystocia treatment protocol; no new dosing table or fixed labor-arrest rules are added.",
+    "answerSources": [
+      {
+        "title": "Original PDF — Labor & birth complications",
+        "url": "#/ob-final/presentation/labor-complications"
+      },
+      {
+        "title": "Original PDF — Pain management in labor",
+        "url": "#/ob-final/presentation/labor-pain-management"
+      },
+      {
+        "title": "Definition/safety clarification — ACOG preterm labor and birth",
+        "url": "https://www.acog.org/womens-health/faqs/preterm-labor-and-birth"
+      },
+      {
+        "title": "Safety clarification — SMFM activity restriction",
+        "url": "https://publications.smfm.org/publications/326-society-for-maternal-fetal-medicine-consult-series-50/"
+      },
+      {
+        "title": "Definition/safety clarification — ACOG prelabor rupture of membranes",
+        "url": "https://doi.org/10.1097/AOG.0000000000003700"
+      },
+      {
+        "title": "Safety clarification — ACOG intraamniotic infection",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/08/intrapartum-management-of-intraamniotic-infection"
+      },
+      {
+        "title": "Test clarification — NICE preterm labor assessment",
+        "url": "https://www.nice.org.uk/guidance/ng25/chapter/Recommendations"
+      }
+    ],
+    "answerReviewedOn": "2026-11-21"
   },
   {
-    id:'assisted-cesarean-birth',weekIds:['week-6'],topicIds:[],title:'Assisted vaginal and cesarean birth',
-    text:'Explain indications, preparation, consent, assessment, and complications associated with operative vaginal and cesarean birth. Describe postoperative monitoring, pain management, mobility, recovery teaching, and evaluation.',answer:[]
+    "id": "assisted-cesarean-birth",
+    "weekIds": [
+      "week-6"
+    ],
+    "topicIds": [],
+    "title": "Assisted vaginal and cesarean birth",
+    "text": "Explain indications, preparation, consent, assessment, and complications associated with operative vaginal and cesarean birth. Describe postoperative monitoring, pain management, mobility, recovery teaching, and evaluation.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Operative vaginal birth uses forceps or vacuum to assist a low fetal head; cesarean birth may be needed for obstruction, malpresentation, or unresolved maternal–fetal compromise.",
+          "Explain the reason and plan, support informed consent, check preparation and anesthesia needs, monitor FHR, and prepare for a change in birth route if assistance is unsuccessful.",
+          "After birth, reassess bleeding, injury/incision, vital signs, pain/anesthesia recovery, bladder/bowel function, mobility needs, and emotional well-being. The supplied PDFs offer recovery assessments but no complete cesarean pathway."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Birth route: connect the indication with the situation",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Assisted vaginal birth",
+                "text": "Forceps permit traction/rotation of the head; a vacuum cup uses suction to assist its birth. The team may use assistance to expedite a feasible vaginal birth; the lecture emphasizes a low presenting part and ongoing descent."
+              },
+              {
+                "label": "Cesarean cues in the PDF",
+                "text": "Dystocia/cephalopelvic disproportion, breech presentation, and fetal compromise may lead to surgical birth. Cord prolapse is an emergency example when rapid vaginal birth is not available."
+              },
+              {
+                "label": "Future birth",
+                "text": "VBAC means vaginal birth after cesarean; a trial of labor assesses whether vaginal birth can proceed safely. A prior cesarean does not automatically decide every future birth route; the obstetric team determines candidacy."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Preparation and consent: make the plan understandable",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Communication",
+                "text": "Use the lecture’s pain-management framework: discuss what is happening, respect maternal choices, explain procedures, and verify informed consent. Refer unanswered questions about risks, benefits, alternatives, or the proposed operation to the clinician obtaining consent."
+              },
+              {
+                "label": "Nursing preparation",
+                "text": "Assess maternal status, FHR, IV access/hydration, pain plan, bladder status, and the presenting part/progress. Assist with positioning and explain who will provide birth, anesthesia, and newborn care."
+              },
+              {
+                "label": "Safety clarification",
+                "text": "Before operative vaginal birth, the team confirms full cervical dilation, ruptured membranes, known head position/station, adequate analgesia, an empty bladder, and readiness for cesarean if the attempt fails. The slide’s abbreviated list is not the full eligibility checklist."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Forceps and vacuum: watch progress and fetal response",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "During assistance",
+                "text": "Monitor FHR and communicate changes. Observe and document descent, the instrument used, attempts/detachments, timing, and maternal response with the delivering team."
+              },
+              {
+                "label": "When progress is absent",
+                "text": "The lecture says descent must occur to continue vacuum use. Escalate lack of descent or repeated cup detachments; the operator reassesses and may abandon assistance for cesarean."
+              },
+              {
+                "label": "Safety clarification",
+                "text": "The slide’s “3 pop-offs” is not permission to keep pulling through poor progress or fetal compromise. Stopping limits depend on the instrument and local protocol; agree on a contingency plan before starting."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Birth trauma: distinguish perineal and newborn injuries",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Maternal risk",
+                "text": "Forceps/vacuum and a large fetus increase perineal trauma risk. Assess bleeding, pain, swelling, repair, and hematoma findings. The PDF contrasts midline episiotomy’s potential sphincter extension with greater pain/blood loss and repair difficulty in mediolateral incisions."
+              },
+              {
+                "label": "Laceration depth",
+                "text": "First degree: skin/superficial tissue. Second: perineal muscles. Third: anal sphincter. Fourth: extends into rectal mucosa. These describe injury depth, not a pain scale."
+              },
+              {
+                "label": "Newborn risk",
+                "text": "The lecture lists cephalohematoma and extensive caput after instrumental birth, with clavicular/brachial plexus injury in macrosomia/shoulder dystocia. Communicate the birth history and abnormal findings to the newborn team for assessment and follow-up."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Cesarean anesthesia: connect monitoring with the risk",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Regional versus general",
+                "text": "The original pain PDF identifies spinal anesthesia as common for cesarean and general anesthesia for selected urgent births or when regional techniques cannot be used. Choice belongs to the anesthesia/obstetric plan."
+              },
+              {
+                "label": "Nursing role",
+                "text": "Check IV access, assist with positioning, assess maternal BP/respiratory status and fetal well-being, and monitor bladder function. Maternal hypotension can reduce fetal perfusion; opioids/anesthesia may impair breathing. Spinal headache requires assessment."
+              },
+              {
+                "label": "Safety clarification",
+                "text": "Epidural medication enters the epidural space; spinal medication enters the intrathecal space. The slides’ fixed fluid preload and cervical-dilation rule are not universal orders. Follow the individual anesthesia plan and monitoring requirements."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Recovery monitoring: assess the whole postpartum patient",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Bleeding and perfusion",
+                "text": "Assess vital signs and trends, uterine position/tone, lochia amount/clots, and blood loss. Cesarean birth does not eliminate vaginal bleeding. Escalate increasing bleeding, abnormal perfusion, or deterioration."
+              },
+              {
+                "label": "Incision and pain",
+                "text": "Use the supplied redness, edema, ecchymosis, drainage, and approximation assessment. Report concerning drainage/separation, fever, or increasing pain; distinguish expected discomfort from a worsening pattern."
+              },
+              {
+                "label": "Bladder, bowel, and breathing",
+                "text": "Follow urine output/return of voiding, bladder distention, bowel sounds/function, intake tolerance, respiratory rate, and oxygen saturation. The postpartum PDF specifically identifies increasing respirations or low saturation as abnormal, not routine recovery."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Comfort and mobility: link care to reassessment",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Pain relief",
+                "text": "Give prescribed analgesia and reassess relief, alertness, breathing, and ability to participate in care. Use the lecture’s positioning, relaxation, reassurance, and patient-selected support measures where appropriate. No postoperative drug regimen is supplied in the PDFs."
+              },
+              {
+                "label": "Mobility application",
+                "text": "The postpartum PDF links hypercoagulability, birth trauma, and immobility with thromboembolism. Follow the ordered assisted-mobility plan after assessing anesthesia recovery, strength/sensation, and hemodynamic stability; the slides do not specify a first-walk time."
+              },
+              {
+                "label": "Report and evaluate",
+                "text": "Report calf pain with swelling; the PDF advises against Homan’s sign. Recovery should show stable observations, manageable pain, improving function, and safe participation in self/newborn care."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Recovery teaching and the limits of the supplied material",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Teach the assessment priorities",
+                "text": "Explain bleeding/lochia and incision observations, pain management as prescribed, bladder/bowel recovery, mobility assistance, and symptoms requiring prompt contact. Fever, worsening wound findings, heavy bleeding, breathlessness, and painful leg swelling need assessment."
+              },
+              {
+                "label": "Support and evaluation",
+                "text": "Discuss the birth experience, support needs, and emotional response; the postpartum lecture notes that an unplanned cesarean may bring grief or disappointment. Check understanding of the individual recovery plan and follow-up."
+              },
+              {
+                "label": "Material limit",
+                "text": "The original PDFs do not provide a complete cesarean preoperative checklist, postoperative schedule, feeding-advancement plan, or cesarean-specific home restrictions. These remain items for the course’s operative-birth material; no detailed protocol is invented here."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerSourceNote": "From Labor & Birth Complications pages 18–24, 26–33 and 42; Pain Management pages 2–5, 9–13 and 15–18; and Postpartum Care pages 4, 11–13, 21, 25–31, 34–40, 52–53 and 59. The latter supplied PDFs support consent/anesthesia and recovery assessments. Brief operative-birth/anesthesia safety clarifications are labeled. Cesarean-specific preparation, recovery schedules and home restrictions remain incompletely covered by the original material.",
+    "answerSources": [
+      {
+        "title": "Original PDF — Labor & birth complications",
+        "url": "#/ob-final/presentation/labor-complications"
+      },
+      {
+        "title": "Original PDF — Pain management in labor",
+        "url": "#/ob-final/presentation/labor-pain-management"
+      },
+      {
+        "title": "Original PDF — Postpartum care & assessment",
+        "url": "#/ob-final/presentation/postpartum-care"
+      },
+      {
+        "title": "Safety clarification — CRICO operative vaginal birth",
+        "url": "https://www.rmf.harvard.edu/Risk-Prevention-and-Education/Guidelines-and-Algorithms-Catalog-Page/Guidelines-Algorithms/2026/OB-Guideline-Files/Guideline18-Operative-Vaginal-Birth"
+      },
+      {
+        "title": "Safety clarification — ASA obstetric anesthesia guidance",
+        "url": "https://doi.org/10.1097/ALN.0000000000000935"
+      }
+    ],
+    "answerReviewedOn": "2026-11-21"
   },
   {
-    id:'shoulder-dystocia',weekIds:['week-6'],topicIds:['labor-emergencies'],title:'Shoulder dystocia',
-    text:'Recognize shoulder dystocia, identify contributing risks, and explain the nurse’s immediate actions and role during corrective maneuvers. Include actions to avoid, team communication, timing, documentation, and newborn assessment after birth.',answer:[]
+    "id": "shoulder-dystocia",
+    "weekIds": [
+      "week-6"
+    ],
+    "topicIds": [
+      "labor-emergencies"
+    ],
+    "title": "Shoulder dystocia",
+    "text": "Recognize shoulder dystocia, identify contributing risks, and explain the nurse’s immediate actions and role during corrective maneuvers. Include actions to avoid, team communication, timing, documentation, and newborn assessment after birth.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Shoulder dystocia occurs after the head is born when an impacted shoulder prevents the body from delivering with routine gentle traction. Recognize it and call for help immediately.",
+          "Assist with McRoberts positioning and directed suprapubic pressure; support the delivering clinician during further maneuvers. Never apply fundal pressure or forceful traction.",
+          "Time and communicate the response, document the maneuver sequence and birth times, and reassess maternal bleeding/trauma and the newborn’s breathing, arms, and clavicles."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Recognition: act when the shoulder is impacted",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Lecture cue",
+                "text": "The head has delivered, but the anterior shoulder is trapped beneath the pubic arch and the body does not follow. This creates an urgent risk of hypoxia and birth injury."
+              },
+              {
+                "label": "Safety clarification",
+                "text": "Do not wait 2 minutes to call shoulder dystocia. The need for additional maneuvers after routine gentle traction is the key recognition point; the slide’s timing statement is not a diagnostic waiting period."
+              },
+              {
+                "label": "Nursing priority",
+                "text": "Announce the emergency, summon help, and begin/continue timing from birth of the head while the team acts. A listed risk factor is not required before taking the finding seriously."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Contributing risks: prepare without assuming certainty",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Key lecture risks",
+                "text": "Previous shoulder dystocia, suspected macrosomia, maternal obesity, postdates pregnancy, abnormal fetal position, prolonged/ineffective labor, and a high head at complete dilation are listed."
+              },
+              {
+                "label": "Why size matters",
+                "text": "The lecture defines macrosomia as >4000 g and connects it with disproportion, difficult labor, maternal lacerations/hemorrhage, and fetal clavicular or brachial plexus injury."
+              },
+              {
+                "label": "Risk clarification",
+                "text": "Risk factors do not reliably predict every event. Maintain readiness even when the pregnancy seemed low risk; do not treat an estimated weight or a long risk list as proof of impaction."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Immediate nursing role: coordinate people and communication",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Call and allocate roles",
+                "text": "Activate the obstetric emergency response and summon additional nursing, obstetric, anesthesia, and newborn support. Assign assistance with positioning, timekeeping/documentation, and equipment."
+              },
+              {
+                "label": "At the bedside",
+                "text": "Give brief explanations, help the patient follow the delivering clinician’s instructions, and prepare to assist with the named maneuvers. Communicate requests and completion clearly so the team knows what has been attempted."
+              },
+              {
+                "label": "Track the response",
+                "text": "The lecture calls for elapsed-time announcements at 30-second to 1-minute intervals. Continue updating the team during active treatment; timekeeping must support the response rather than delay it."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Corrective maneuvers: understand the nurse’s assisting role",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "McRoberts",
+                "text": "Assist the patient onto her back with thighs sharply flexed toward the abdomen/chest. This changes the pelvic relationship. The PDF illustration distinguishes this from the all-fours knee-chest position used for cord prolapse."
+              },
+              {
+                "label": "Suprapubic pressure",
+                "text": "Under the delivering clinician’s direction, apply pressure just above the pubic bone to help dislodge/adduct the impacted anterior shoulder. The lecture positions the assistant on the fetal-back side; confirm direction with the clinician."
+              },
+              {
+                "label": "Woods screw",
+                "text": "The delivering clinician uses internal rotation of the shoulders to relieve impaction. Assist with position, communication, and supplies; the diagram is a concept illustration, not a substitute for supervised maneuver training."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Actions to avoid: prevent additional injury",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Fundal pressure",
+                "text": "Do not apply it: pressure over the uterine fundus can worsen impaction. Suprapubic pressure is anatomically different."
+              },
+              {
+                "label": "Traction safety clarification",
+                "text": "Do not use forceful, jerking, or excessive downward traction on the head/neck. Escalation uses coordinated maneuvers rather than stronger pulling."
+              },
+              {
+                "label": "Escalation clarification",
+                "text": "The slide mentions a stat cesarean. Once the head is born, an ordinary transfer for cesarean is not a simple next step; persistent impaction requires immediate expert rescue at the bedside, with operative/anesthesia support as directed. No advanced rescue procedure is taught by these notes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Timing and documentation: make the sequence clear",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Times and team",
+                "text": "Record head-birth time, recognition/help call, team arrival, each maneuver and response, and body-birth time. The nurse’s elapsed-time announcements support a shared record."
+              },
+              {
+                "label": "What happened",
+                "text": "Include fetal orientation/affected shoulder when identified, sequence of positions/pressure/internal maneuvers, clinicians involved, and relevant maternal/newborn findings. Documentation clarification: use contemporaneous, factual entries rather than a single “difficult delivery” label."
+              },
+              {
+                "label": "Meaning of elapsed time",
+                "text": "The lecture associates longer delay with hypoxia/acidosis. No duration is a guaranteed safe window; continue urgent coordinated care and hand off the actual interval to the newborn team."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "After birth: assess both patients and explain the event",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Newborn assessment",
+                "text": "Ensure immediate assessment of breathing and overall condition. The PDF highlights brachial plexus injury and clavicular fracture; nursing application is to observe arm movement/symmetry and report reduced movement, apparent pain, or suspected injury for neonatal evaluation."
+              },
+              {
+                "label": "Maternal assessment",
+                "text": "Assess blood loss, uterine tone, vital signs, perineal/rectal injury, and pain. The lecture lists hemorrhage, rectal injury, and pubic injury among possible complications."
+              },
+              {
+                "label": "Evaluation and follow-up",
+                "text": "Communicate findings, resuscitation needs, and any injuries; continue reassessment and explain the event to the patient/support person. Document the post-birth examinations and follow-up plan."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerSourceNote": "From Labor & Birth Complications page 23 and pages 35–41, including the McRoberts, suprapubic-pressure and Woods-screw figures. Brief safety clarifications address immediate recognition rather than a two-minute wait, unpredictable risk, traction, rescue escalation and documentation. Advanced maneuvers are not expanded beyond the supplied material.",
+    "answerSources": [
+      {
+        "title": "Original PDF — Labor & birth complications",
+        "url": "#/ob-final/presentation/labor-complications"
+      },
+      {
+        "title": "Safety clarification — RCOG shoulder dystocia",
+        "url": "https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/shoulder-dystocia-green-top-guideline-no-42/"
+      },
+      {
+        "title": "Safety clarification — RCOG maneuvers and documentation",
+        "url": "https://obgyn.onlinelibrary.wiley.com/doi/10.1111/1471-0528.70258"
+      },
+      {
+        "title": "Safety clarification — RCOG patient information and follow-up",
+        "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/shoulder-dystocia-green-top-guideline-no-42/"
+      }
+    ],
+    "answerReviewedOn": "2026-11-21"
   },
   {
     "id": "placental-emergency-response",
@@ -5288,8 +5963,180 @@ const obStudyObjectives = [
     ]
   },
   {
-    id:'other-birth-emergencies',weekIds:['week-6'],topicIds:['labor-emergencies'],title:'Other emergencies in the labor lectures',
-    text:'Compare cord prolapse, uterine rupture, amniotic fluid embolism, and uterine inversion using the case cues in the lectures. Identify the first action, urgent team response, ongoing monitoring, and evaluation for each.',answer:[]
+    "id": "other-birth-emergencies",
+    "weekIds": [
+      "week-6"
+    ],
+    "topicIds": [
+      "labor-emergencies"
+    ],
+    "title": "Other emergencies in the labor lectures",
+    "text": "Compare cord prolapse, uterine rupture, amniotic fluid embolism, and uterine inversion using the case cues in the lectures. Identify the first action, urgent team response, ongoing monitoring, and evaluation for each.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Use the lecture cues to separate cord compression after membrane rupture, possible uterine rupture, and sudden maternal hypoxic/circulatory collapse with coagulopathy.",
+          "Call the emergency team immediately while supporting the threatened function: relieve cord compression, prepare urgent operative/resuscitative care for rupture, or support breathing/circulation for suspected AFE.",
+          "The supplied postpartum PDF defines uterine inversion as the uterus turning inside out. It needs urgent specialist correction and hemorrhage response; the limited safety clarification below is distinguished from the lecture’s brief definition."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Cord prolapse: relieve compression while preparing birth",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Lecture cues",
+                "text": "The cord descends below the presenting part and may be compressed, reducing fetal oxygenation. Watch FHR after membrane rupture/amniotomy, especially with an unengaged head, breech/transverse lie, or long cord."
+              },
+              {
+                "label": "First actions",
+                "text": "Call for help and, as the trained responder, use a sterile-gloved vaginal hand to elevate the presenting part off the cord. Assist with knee-chest/head-down positioning and prepare urgent birth, usually cesarean if vaginal birth is not imminent."
+              },
+              {
+                "label": "Safety clarification and evaluation",
+                "text": "Maintain decompression until relieved by the birth team; minimize cord handling and do not try to push it back above the fetus. Continue FHR assessment and communicate whether it improves while birth is organized."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Uterine rupture: treat the cue cluster as an emergency",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Lecture cues",
+                "text": "Abnormal FHR, loss of fetal station, abdominal pain/rigidity, and shock suggest rupture. The PDF emphasizes a scarred uterus; risks include multiple cesareans, induced/augmented labor, multifetal gestation, macrosomia, infection, and a short pregnancy interval."
+              },
+              {
+                "label": "Safety clarification: priority response",
+                "text": "Activate the obstetric emergency response, report the findings, and prepare immediate operative birth/repair and maternal resuscitation. Stop a labor-stimulating oxytocin infusion during the emergency response; do not wait for every listed sign."
+              },
+              {
+                "label": "Ongoing evaluation",
+                "text": "Follow maternal perfusion/vital signs, bleeding, and FHR while supporting IV access, ordered blood-product response, and transfer/handoff. Improvement in one sign does not exclude ongoing rupture or internal bleeding."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Amniotic fluid embolism: support breathing and circulation",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Lecture cues",
+                "text": "Sudden hypotension, hypoxia, cardiovascular collapse, and coagulopathy during labor/birth or shortly afterward. The slide calls this an anaphylactic syndrome of pregnancy."
+              },
+              {
+                "label": "Safety clarification: immediate response",
+                "text": "Activate maternal emergency/resuscitation help, support oxygenation/ventilation, and begin high-quality CPR if cardiac arrest occurs. Coordinate obstetric, anesthesia, respiratory, critical-care and blood-product support rather than waiting for diagnostic confirmation."
+              },
+              {
+                "label": "Diagnosis and evaluation clarification",
+                "text": "AFE is a clinical diagnosis; fetal cells alone do not confirm it. Monitor oxygenation, circulation, bleeding/coagulation and response to resuscitation. The supplied slide is a recognition summary, not a complete AFE treatment or medication algorithm."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Uterine inversion: separate it from a boggy uterus",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Original PDF coverage",
+                "text": "Postpartum Care pages 16 and 18 identify a potentially life-threatening turning inside out of the uterus. They do not provide an inversion-specific case or replacement protocol."
+              },
+              {
+                "label": "Safety clarification: first response",
+                "text": "Call obstetric/anesthesia and hemorrhage help immediately; support perfusion and prepare urgent uterine replacement by the qualified clinician. A missing usual abdominal fundus or vaginal mass with bleeding/pain/shock warrants urgent assessment."
+              },
+              {
+                "label": "Safety clarification: avoid routine atony treatment",
+                "text": "Do not apply routine fundal massage or cord traction to an inverted uterus. Uterotonics are held during replacement and administered as ordered after correction. Reassess uterine position/tone, bleeding, pain, and perfusion while resuscitation continues."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Shared response, reassessment, and source limits",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Communicate and document",
+                "text": "Name the suspected emergency, actual findings, membrane/birth status, relevant history, onset time, actions, response, and team arrival. Give the patient/support person brief explanations; document maternal/newborn outcome and follow-up."
+              },
+              {
+                "label": "Oxygen safety clarification",
+                "text": "The lecture lists oxygen for fetal compromise/cord prolapse. Routine oxygen for an abnormal FHR in a normally oxygenated mother is not recommended; oxygen is appropriate for maternal hypoxia or another clinical indication, including hypoxic collapse. It does not replace cord decompression or urgent birth."
+              },
+              {
+                "label": "Material limit",
+                "text": "These PDFs provide cue lists and cord-prolapse illustrations rather than full case histories or complete rupture/AFE/inversion protocols. Use the shared placental-emergency objective for the existing shock/DIC response; no fictional cases, resuscitation drug doses, or additional surgical techniques are added."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerSourceNote": "From Labor & Birth Complications pages 24, 26–31 and 42–43, plus the uterine-inversion definition/list in Postpartum Care pages 16–18. Recognition lists are not full clinical cases. Brief safety clarifications supply the essential emergency response, cord handling, oxygen distinction, AFE diagnosis/resuscitation and inversion-versus-atony distinction; the missing detailed protocols remain explicit.",
+    "answerSources": [
+      {
+        "title": "Original PDF — Labor & birth complications",
+        "url": "#/ob-final/presentation/labor-complications"
+      },
+      {
+        "title": "Original PDF — Postpartum care & assessment",
+        "url": "#/ob-final/presentation/postpartum-care"
+      },
+      {
+        "title": "Safety clarification — RCOG cord prolapse",
+        "url": "https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/umbilical-cord-prolapse-green-top-guideline-no-50/"
+      },
+      {
+        "title": "Safety clarification — AHRQ cord-prolapse response",
+        "url": "https://www.ahrq.gov/patient-safety/settings/labor-delivery/perinatal-care/modules/strategies/labor-delivery-unit/tool-cord-prolapse.html"
+      },
+      {
+        "title": "Safety clarification — ACOG intrapartum FHR management",
+        "url": "https://journals.lww.com/greenjournal/fulltext/2025/10000/acog_clinical_practice_guideline_no_.22.aspx"
+      },
+      {
+        "title": "Safety clarification — SMFM amniotic fluid embolism",
+        "url": "https://publications.smfm.org/publications/581-society-for-maternal-fetal-medicine-clinical-guidelines-9/"
+      },
+      {
+        "title": "Safety clarification — SMFM AFE checklist, updated 2026",
+        "url": "https://publications.smfm.org/publications/636-society-for-maternal-fetal-medicine-special-statement-checklist/"
+      },
+      {
+        "title": "Safety clarification — MSF uterine inversion",
+        "url": "https://medicalguidelines.msf.org/en/viewport/ONC/english/8-4-uterine-inversion-51417808.html"
+      },
+      {
+        "title": "Safety clarification — MSF uterine rupture",
+        "url": "https://medicalguidelines.msf.org/en/viewport/ONC/english/3-3-uterine-rupture-51416296.html"
+      }
+    ],
+    "answerReviewedOn": "2026-11-21"
   },
   {
     id:'postpartum-physiology',weekIds:['week-7'],topicIds:['normal-postpartum'],title:'Expected postpartum recovery',
