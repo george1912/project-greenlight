@@ -25,6 +25,27 @@ function checkMarkup(markup){
 }
 checkMarkup(html);
 for(const route of routes){sandbox.location.hash=route;assert.doesNotThrow(()=>vm.runInContext('render()',sandbox),route);assert(!sandbox.document.title.includes('Page not found'),route);assert(!sandbox.document.title.includes('undefined'),route);checkMarkup(main.innerHTML);}
+function courseNavigation(route){
+ sandbox.location.hash=route;vm.runInContext('render()',sandbox);
+ const markup=main.innerHTML.match(/<div class="course-page-navigation">([\s\S]*?)<\/div>/)?.[1];
+ assert(markup,'Missing course navigation: '+route);
+ assert.equal((markup.match(/aria-current="page"/g)||[]).length,1);
+ assert(markup.includes('<ol>')&&markup.includes('class="course-back-link"'));
+ assert(!markup.includes(`href="${route}"`),'Current page is not a self-link: '+route);
+ return markup;
+}
+for(const route of routes.filter(route=>route!=='#/'))courseNavigation(route);
+assert(courseNavigation('#/final/week-8').includes('All weekly materials'));
+assert(courseNavigation('#/final/condition/myasthenia-gravis').includes('All exam topics'));
+assert(courseNavigation('#/final/presentation/myasthenia-gravis').includes('Back to Myasthenia gravis'));
+assert(courseNavigation('#/final/nclex/myasthenia-gravis').includes('Back to Myasthenia gravis presentation'));
+assert(courseNavigation('#/final/presentation/myasthenia-gravis').includes('Back to Myasthenia gravis'),'Quiz return preserves the condition parent');
+courseNavigation('#/final/week-8');
+assert(courseNavigation('#/final/presentation/myasthenia-gravis').includes('Back to Week 8 materials'));
+sandbox.location.hash='#/';vm.runInContext('render()',sandbox);
+assert(courseNavigation('#/final/presentation/meniere-disease').includes('All presentations'),'Direct visit to an unassigned deck has a parent');
+sandbox.location.hash='#/';vm.runInContext('render()',sandbox);
+assert(courseNavigation('#/final/nclex/meniere-disease').includes('All NCLEX-style quizzes'),'Direct quiz visit returns to the list');
 for(const route of ['#/final/condition/constructor','#/final/condition/__proto__','#/final/nclex/toString','#/final/presentation/constructor','#/ob-final/topic/constructor','#/ob-final/week-99','#/ob-final/presentation/constructor','#/ob-final/presentation/postpartum-care/unknown','#/ob-final/practice/constructor','#/ob-final/practice/exam-99','#/missing']){sandbox.location.hash=route;assert.doesNotThrow(()=>vm.runInContext('render()',sandbox));assert(sandbox.document.title.includes('Page not found'),route);}
 for(const route of ['#/final/','#/final/study-guide/','#/final/condition/hiv/','#/final/presentation/breast-cancer/?source=class','#/final/quiz?source=class','#/ob-final/','#/ob-final/practice/exam-2/?source=class','#/ob-final/topic/feeding/?source=class']){sandbox.location.hash=route;vm.runInContext('render()',sandbox);assert(!sandbox.document.title.includes('Page not found'),route);}
 sandbox.location.hash='#/final/focused-review';let prevented=false;skipHandlers.click({preventDefault(){prevented=true;}});assert(prevented&&main.focused&&main.scrolled);assert.equal(sandbox.location.hash,'#/final/focused-review');
@@ -42,4 +63,4 @@ for(const page of ['final','final/study-guide','final/condition/hiv/','final/ncl
 for(const page of ['404.html','bad-link','finale','ob-finalist']){let redirected=false;vm.runInNewContext(script,{location:{pathname:'/project-greenlight/'+page,origin,search:'',replace:()=>{redirected=true;}},URL});assert(!redirected,'Redirect loop risk '+page);}
 const workflow=fs.readFileSync(path.join(root,'.github/workflows/pages.yml'),'utf8');assert(workflow.includes('index.html 404.html'));assert(workflow.includes('resources assets _site/'));
 const arg=process.argv.find(arg=>arg.startsWith('--asset-list='));if(arg)fs.writeFileSync(arg.slice(13),JSON.stringify([...files].sort(),null,2)+'\n');
-console.log(`Passed: sharing metadata/icons, ${routes.length} routes, ${links} internal links, ${files.size} local assets, malformed-ID fallbacks, slash/query variants, skip-link route preservation, clean-link recovery and loop prevention.`);
+console.log(`Passed: sharing metadata/icons, ${routes.length} routes, ${links} internal links, ${files.size} local assets, malformed-ID fallbacks, slash/query variants, skip-link route preservation, clean-link recovery, all course breadcrumb trails, contextual return paths and loop prevention.`);

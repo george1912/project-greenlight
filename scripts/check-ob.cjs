@@ -8,9 +8,9 @@ const course=vm.runInContext('obCourse',s);
 assert(main.innerHTML.includes('class="exam-card" href="#/final"'));assert(main.innerHTML.includes('class="exam-card" href="#/ob-final"'));
 function render(route){s.location.hash=route;vm.runInContext('render()',s);return main.innerHTML;}
 function navigation(route){
- const markup=render(route).match(/<div class="ob-page-navigation">([\s\S]*?)<\/div>/)[1];
+ const markup=render(route).match(/<div class="course-page-navigation">([\s\S]*?)<\/div>/)[1];
  assert.equal((markup.match(/aria-current="page"/g)||[]).length,1);
- assert(markup.includes('<ol>')&&markup.includes('class="ob-back-link"'));
+ assert(markup.includes('<ol>')&&markup.includes('class="course-back-link"'));
  assert(!markup.includes(`href="${route}"`),'Current page is a label, not a self-link');
  return markup;
 }

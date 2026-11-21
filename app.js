@@ -7,6 +7,20 @@ let disposePoster = () => {};
 let disposeSectionQuizzes = () => {};
 let disposeFocusedReview = () => {};
 const escapeHTML = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+const medOverview = {label:'Med-Surg overview',url:'#/final'};
+const medExamTopics = {label:'Exam topics',url:'#/final/study-guide'};
+const medPresentations = {label:'Presentations',url:'#/final/presentations'};
+const medQuizzes = {label:'NCLEX-style quizzes',url:'#/final/nclex'};
+let currentStudyRoute = '', previousStudyRoute = '', medReaderContext = null;
+
+function courseBreadcrumb(label, {overview, parents = [], isOverview = false, backLabel, returnTo} = {}) {
+  const ancestors = [{label:'Home',url:'#/'}, ...(isOverview ? [] : [overview]), ...parents];
+  const parent = returnTo || ancestors[ancestors.length - 1];
+  return `<div class="course-page-navigation"><nav class="breadcrumb course-breadcrumb" aria-label="Breadcrumb"><ol>${ancestors.map(item=>`<li><a href="${escapeHTML(item.url)}">${escapeHTML(item.label)}</a><span class="course-crumb-separator" aria-hidden="true">/</span></li>`).join('')}<li aria-current="page">${escapeHTML(label)}</li></ol></nav><a class="course-back-link" href="${escapeHTML(parent.url)}">${escapeHTML(backLabel || `Back to ${parent.label}`)}</a></div>`;
+}
+function medBreadcrumb(label, options = {}) {
+  return courseBreadcrumb(label, {overview:medOverview, ...options});
+}
 function studyContent(blocks, headingTag = 'h5') {
   const subheading = headingTag === 'h4' ? 'h4' : 'h5';
   return blocks.map(block => {
@@ -72,7 +86,7 @@ function studyGuideEntry() {
 
 function renderStudyGuide() {
   document.title = 'Final exam study guide · Project Green Light';
-  main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/final">Med-Surg III</a><span aria-hidden="true">/</span><span>Study guide</span></nav>
+  main.innerHTML = `${medBreadcrumb('Exam topics',{backLabel:'All weekly materials'})}
     <section class="hero condition-hero study-guide-hero"><p class="eyebrow">MED-SURG III / FINAL EXAM</p><h1>Final exam<br><span>study guide.</span></h1><p class="hero-copy">Review a condition, test yourself, or listen.</p></section>
     <nav class="study-guide-tools" aria-label="Study guide tools"><a href="#/final/focused-review"><strong>Focused review</strong><span>Study guide topics</span><span class="study-tool-arrow" aria-hidden="true">→</span></a><a href="#/final/quiz"><strong>Practice quiz</strong><span>Answer & review</span><span class="study-tool-arrow" aria-hidden="true">→</span></a><a href="#/final/nclex"><strong>NCLEX-style quiz</strong><span>Presentation questions</span><span class="study-tool-arrow" aria-hidden="true">→</span></a><a href="#/final/podcast"><strong>Podcast</strong><span>Listen & review</span><span class="study-tool-arrow" aria-hidden="true">→</span></a><a href="#/final/videos"><strong>Videos</strong><span>Watch & understand</span><span class="study-tool-arrow" aria-hidden="true">→</span></a></nav>
     <section class="condition-library" aria-labelledby="conditions-title"><div class="section-heading"><h2 id="conditions-title">Choose a condition</h2></div><div class="condition-topic-list">${examTopics.map(topic => {
@@ -96,7 +110,7 @@ function renderCondition(condition) {
   const topic = examTopics.find(t => conditionNotes[t.id] === condition);
   const poster = ConditionPosters.section(topic.id);
   document.title = `${condition.title} · Study guide · Project Green Light`;
-  main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/final/study-guide">Final exam study guide</a><span aria-hidden="true">/</span><span>${escapeHTML(condition.abbreviation)}</span></nav>
+  main.innerHTML = `${medBreadcrumb(condition.title,{parents:[medExamTopics],backLabel:'All exam topics'})}
     <section class="hero condition-hero${poster ? ' condition-hero-with-poster' : ''}"><p class="eyebrow">FINAL EXAM STUDY GUIDE / ${condition.week ? `WEEK ${condition.week}` : 'ADDITIONAL PRESENTATIONS'}</p><h1>${escapeHTML(condition.title)}</h1><p class="hero-copy">Understand the condition. Recognize the findings. Apply the nursing process.</p><a class="condition-slides text-link" href="${condition.deck ? `#/final/presentation/${condition.deck}` : `#/final/week-${condition.week}`}">${condition.deck ? 'Read the original presentation →' : `Read the Week ${condition.week} learning objectives →`}</a></section>
     <div class="condition-intro${poster ? ' condition-intro-with-poster' : ''}">${poster}<div class="condition-navigation">
     <aside class="condition-focus" aria-labelledby="exam-focus-title"><h2 id="exam-focus-title">Exam focus</h2><p>Highlighted in your study guide. Review these alongside the full condition breakdown.</p><div class="condition-focus-links">${condition.focus.map(focus => `<button class="condition-jump" type="button" data-open-section="${focus.section}">${escapeHTML(focus.label)} <span aria-hidden="true">↘</span></button>`).join('')}</div></aside>
@@ -126,13 +140,13 @@ function examNavigation(active) {
 
 function renderFocusedReview() {
   document.title = 'Focused review guide · Project Green Light';
-  main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/final/study-guide">Final exam study guide</a><span aria-hidden="true">/</span><span>Focused review</span></nav><section class="hero quiz-hero"><p class="eyebrow">FINAL EXAM STUDY GUIDE</p><h1>Focused review<br><span>guide.</span></h1></section>${FocusedReview.section()}<nav class="guide-bottom" aria-label="Study guide"><a class="text-link" href="#/final/study-guide">← Final exam study guide</a></nav>`;
+  main.innerHTML = `${medBreadcrumb('Focused review',{parents:[medExamTopics]})}<section class="hero quiz-hero"><p class="eyebrow">FINAL EXAM STUDY GUIDE</p><h1>Focused review<br><span>guide.</span></h1></section>${FocusedReview.section()}<nav class="guide-bottom" aria-label="Study guide"><a class="text-link" href="#/final/study-guide">← Final exam study guide</a></nav>`;
   disposeFocusedReview = FocusedReview.mount(main);
 }
 
 function renderPodcast() {
   document.title = 'Study podcast · Project Green Light';
-  main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/final/study-guide">Final exam study guide</a><span aria-hidden="true">/</span><span>Podcast</span></nav>
+  main.innerHTML = `${medBreadcrumb('Podcast',{parents:[medExamTopics]})}
     <section class="hero podcast-hero"><p class="eyebrow">FINAL EXAM STUDY GUIDE</p><h1>Study <span>podcast.</span></h1><p class="hero-copy">A different way to review.</p></section>
     ${PodcastPlayer.section()}
     <nav class="guide-bottom" aria-label="Study guide"><a class="text-link" href="#/final/study-guide">← Final exam study guide</a></nav>`;
@@ -140,14 +154,16 @@ function renderPodcast() {
 }
 
 function renderPresentationQuiz(selectedID = '') {
+  const selectedDeck = Object.prototype.hasOwnProperty.call(presentationDecks,selectedID) ? presentationDecks[selectedID] : null;
+  const fromReader = selectedDeck && previousStudyRoute === `#/final/presentation/${selectedDeck.id}`;
   document.title = 'NCLEX-style quiz · Project Green Light';
-  main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/final/study-guide">Final exam study guide</a><span aria-hidden="true">/</span><span>NCLEX-style quiz</span></nav><section class="hero quiz-hero"><p class="eyebrow">FINAL EXAM STUDY GUIDE</p><h1>NCLEX-style<br><span>quiz.</span></h1><p class="hero-copy">Review the presentation questions.</p></section>${PresentationQuizzes.section(selectedID)}<nav class="guide-bottom" aria-label="Study guide"><a class="text-link" href="#/final/study-guide">← Final exam study guide</a></nav>`;
+  main.innerHTML = `${medBreadcrumb(selectedDeck ? `NCLEX-style quiz: ${selectedDeck.title}` : 'NCLEX-style quizzes',{parents:selectedDeck ? [medExamTopics,medQuizzes] : [medExamTopics],backLabel:fromReader ? undefined : selectedDeck ? 'All NCLEX-style quizzes' : 'All exam topics',returnTo:fromReader ? {label:`${selectedDeck.title} presentation`,url:`#/final/presentation/${selectedDeck.id}`} : undefined})}<section class="hero quiz-hero"><p class="eyebrow">FINAL EXAM STUDY GUIDE</p><h1>NCLEX-style<br><span>quiz.</span></h1><p class="hero-copy">Review the presentation questions.</p></section>${PresentationQuizzes.section(selectedID)}<nav class="guide-bottom" aria-label="Study guide"><a class="text-link" href="#/final/study-guide">← Final exam study guide</a></nav>`;
   disposeQuiz = PresentationQuizzes.mount(main, selectedID);
 }
 
 function renderPracticeQuiz() {
   document.title = 'Practice quiz · Project Green Light';
-  main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/final/study-guide">Final exam study guide</a><span aria-hidden="true">/</span><span>Practice quiz</span></nav>
+  main.innerHTML = `${medBreadcrumb('Practice quiz',{parents:[medExamTopics]})}
     <section class="hero quiz-hero"><p class="eyebrow">FINAL EXAM STUDY GUIDE</p><h1>Practice <span>quiz.</span></h1><p class="hero-copy">Answer, submit, then review.</p></section>
     ${PracticeQuiz.section()}
     <nav class="guide-bottom" aria-label="Study guide"><a class="text-link" href="#/final/study-guide">← Final exam study guide</a></nav>`;
@@ -157,7 +173,7 @@ function renderPracticeQuiz() {
 function renderWeek(week, overview = false) {
   document.title = overview ? 'Med-Surg III Final Exam · Project Green Light' : `Week ${week.number} · Med-Surg III · Project Green Light`;
   main.innerHTML = `
-    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><span>Med-Surg III Final Exam</span></nav>
+    ${medBreadcrumb(overview ? 'Med-Surg overview' : `Week ${week.number}`,{isOverview:overview,backLabel:overview ? 'Back to Home' : 'All weekly materials'})}
     <section class="hero exam-hero" aria-labelledby="exam-title"><p class="eyebrow">NRBS 4210 / YOUR FINAL EXAM STUDY GUIDE</p><h1 id="exam-title">Med-Surg III<br><span>Final Exam.</span></h1><div class="hero-meta">Weeks 7, 8, 9 & 12</div></section>
     ${studyGuideEntry()}
     ${examNavigation(week.number)}
@@ -187,7 +203,7 @@ function presentationList(week) {
 
 function renderPresentationLibrary() {
   document.title = 'Student presentations · Project Green Light';
-  main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/final">Final exam</a><span aria-hidden="true">/</span><span>Presentations</span></nav>
+  main.innerHTML = `${medBreadcrumb('Presentations')}
     <section class="hero presentation-library-hero"><p class="eyebrow">MED-SURG III FINAL EXAM</p><h1>Student<br><span>presentations.</span></h1><p class="hero-copy">Choose a topic. Read the original slides, one page at a time.</p></section>
     ${studyWeeks.filter(w => w.presentations.length).map(week => `<section class="presentation-library-group"><div class="section-heading"><h2>Week ${week.number}</h2><a class="text-link" href="#/final/week-${week.number}">Week ${week.number} guide →</a></div>${presentationList(week)}</section>`).join('')}
     <section class="presentation-library-group"><div class="section-heading"><h2>Additional presentations</h2></div><div class="presentation-list">${Object.values(presentationDecks).filter(deck => deck.week === null).map(deck => `<a class="presentation presentation-link additional-presentation" href="#/final/presentation/${deck.id}"><h4>${escapeHTML(deck.title)}</h4><span class="presentation-state">View PDF →</span></a>`).join('')}</div></section>`;
@@ -196,22 +212,29 @@ function renderPresentationLibrary() {
 function renderPresentation(deck) {
   document.title = `${deck.title} · Presentation · Project Green Light`;
   const conditionEntry = Object.entries(conditionNotes).find(([, condition]) => condition.deck === deck.id);
-  main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/final/presentations">Presentations</a>${deck.week ? `<span aria-hidden="true">/</span><a href="#/final/week-${deck.week}">Week ${deck.week}</a>` : ''}</nav><nav class="presentation-study-link" aria-label="Presentation study tools">${conditionEntry ? `<a class="text-link" href="#/final/condition/${conditionEntry[0]}">Open ${escapeHTML(deck.title)} study breakdown →</a>` : ''}<a class="text-link" href="#/final/nclex/${deck.id}">NCLEX-style quiz →</a></nav><section class="presentation-reader" aria-label="${escapeHTML(deck.title)} PDF viewer"></section><div class="guide-bottom"><a class="text-link" href="#/final/presentations">← All presentations</a>${deck.week ? `<a class="text-link" href="#/final/week-${deck.week}">← Week ${deck.week} guide</a>` : ''}</div>`;
+  const originCondition = Object.entries(conditionNotes).find(([id,condition])=>condition.deck===deck.id&&previousStudyRoute===`#/final/condition/${id}`);
+  if(originCondition) medReaderContext={deckId:deck.id,parents:[medExamTopics,{label:originCondition[1].title,url:`#/final/condition/${originCondition[0]}`}]};
+  else if(deck.week && previousStudyRoute===`#/final/week-${deck.week}`) medReaderContext={deckId:deck.id,parents:[{label:`Week ${deck.week}`,url:`#/final/week-${deck.week}`}],backLabel:`Back to Week ${deck.week} materials`};
+  else if(deck.week===studyWeeks[0].number && previousStudyRoute==='#/final') medReaderContext={deckId:deck.id,parents:[],backLabel:'All weekly materials'};
+  else if(!(medReaderContext?.deckId===deck.id && previousStudyRoute===`#/final/nclex/${deck.id}`)) medReaderContext={deckId:deck.id,parents:[medPresentations],backLabel:'All presentations'};
+
+  main.innerHTML = `${medBreadcrumb(`${deck.title} presentation`,medReaderContext)}<nav class="presentation-study-link" aria-label="Presentation study tools">${conditionEntry ? `<a class="text-link" href="#/final/condition/${conditionEntry[0]}">Open ${escapeHTML(deck.title)} study breakdown →</a>` : ''}<a class="text-link" href="#/final/nclex/${deck.id}">NCLEX-style quiz →</a></nav><section class="presentation-reader" aria-label="${escapeHTML(deck.title)} PDF viewer"></section><div class="guide-bottom"><a class="text-link" href="#/final/presentations">← All presentations</a>${deck.week ? `<a class="text-link" href="#/final/week-${deck.week}">← Week ${deck.week} guide</a>` : ''}</div>`;
   disposePresentation = PresentationViewer.mount(document.querySelector('.presentation-reader'), deck);
 }
 
 function renderVideoLibrary() {
   document.title = 'Video resources · Project Green Light';
-  main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/final/study-guide">Study guide</a><span aria-hidden="true">/</span><span>Videos</span></nav><section class="hero"><p class="eyebrow">MED-SURG III / FINAL EXAM</p><h1>Watch &amp;<br><span>understand.</span></h1><p class="hero-copy">Short reviews organized by your study-guide topics.</p></section>${VideoLibrary.section()}`;
+  main.innerHTML = `${medBreadcrumb('Videos',{parents:[medExamTopics]})}<section class="hero"><p class="eyebrow">MED-SURG III / FINAL EXAM</p><h1>Watch &amp;<br><span>understand.</span></h1><p class="hero-copy">Short reviews organized by your study-guide topics.</p></section>${VideoLibrary.section()}`;
 }
 function renderPendingCondition(topic) {
   document.title = `${topic.title} · Project Green Light`;
-  main.innerHTML = `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="#/final/study-guide">Study guide</a><span aria-hidden="true">/</span><span>${escapeHTML(topic.title)}</span></nav><section class="hero condition-hero"><p class="eyebrow">FINAL EXAM / TOPIC ${topic.number}</p><h1>${escapeHTML(topic.title)}</h1><p class="hero-copy">Study notes are coming soon. Explore the video resources below.</p></section><div class="condition-sections">${VideoLibrary.section(topic.number)}</div><nav class="guide-bottom"><a class="text-link" href="#/final/study-guide">← All study guide topics</a><a class="text-link" href="#/final/videos">All videos →</a></nav>`;
+  main.innerHTML = `${medBreadcrumb(topic.title,{parents:[medExamTopics],backLabel:'All exam topics'})}<section class="hero condition-hero"><p class="eyebrow">FINAL EXAM / TOPIC ${topic.number}</p><h1>${escapeHTML(topic.title)}</h1><p class="hero-copy">Study notes are coming soon. Explore the video resources below.</p></section><div class="condition-sections">${VideoLibrary.section(topic.number)}</div><nav class="guide-bottom"><a class="text-link" href="#/final/study-guide">← All study guide topics</a><a class="text-link" href="#/final/videos">All videos →</a></nav>`;
 }
 function render(focus = false) {
   const rawRoute = location.hash || '#/';
   const route = rawRoute.startsWith('#/') ? (rawRoute.split('?')[0].replace(/\/+$/, '') || '#/') : rawRoute;
   if (route === '#main') { if (!main.innerHTML.trim()) renderHome(); main.focus(); return; }
+  if(route!==currentStudyRoute){previousStudyRoute=currentStudyRoute;currentStudyRoute=route;}
   disposePresentation(); disposePresentation = () => {};
   disposeVideos(); disposeVideos = () => {};
   disposePodcast(); disposePodcast = () => {};

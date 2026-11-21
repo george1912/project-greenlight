@@ -22,9 +22,7 @@ const OBStudy = (() => {
     }).join('')}</div></section>`;
   }
   function breadcrumb(label, {parents = [], overview = false, backLabel} = {}) {
-    const ancestors = [{label:'Home',url:'#/'}, ...(overview ? [] : [{label:'OB overview',url:'#/ob-final'}]), ...parents];
-    const parent = ancestors[ancestors.length - 1];
-    return `<div class="ob-page-navigation"><nav class="breadcrumb ob-breadcrumb" aria-label="Breadcrumb"><ol>${ancestors.map(item=>`<li><a href="${item.url}">${escapeHTML(item.label)}</a><span class="ob-crumb-separator" aria-hidden="true">/</span></li>`).join('')}<li aria-current="page">${escapeHTML(label)}</li></ol></nav><a class="ob-back-link" href="${parent.url}">${escapeHTML(backLabel || `Back to ${parent.label}`)}</a></div>`;
+    return courseBreadcrumb(label,{overview:{label:'OB overview',url:'#/ob-final'},parents,isOverview:overview,backLabel});
   }
   function guideEntry() {
     return `<a class="study-guide-entry" href="#/ob-final/study-guide"><span class="study-guide-entry-copy"><strong>Final exam<br>study guide</strong><span class="study-guide-description">Postpartum, newborn, reproductive health, and cumulative review.</span></span><span class="entry-arrow">Open study guide</span></a>`;

@@ -11,7 +11,7 @@ const empty=score({});assert.equal(empty.correct,0);assert.equal(empty.unanswere
 const mixed=score({1:['B'],2:['A'],5:['A','B','D']});assert.equal(mixed.correct,2);assert.equal(mixed.incorrect,1);assert.equal(mixed.unanswered,12);assert.equal(mixed.percentage,13);
 const wrong=Object.fromEntries(qs.map(q=>[q.id,[q.options.find(o=>!q.correct.includes(o.id)).id]]));assert.equal(score(wrong).correct,0);assert.equal(score(wrong).incorrect,15);
 for(let bits=0;bits<32;bits++){const selected=['A','B','C','D','E'].filter((_,i)=>bits&(1<<i));const result=score({5:selected}).results.find(r=>r.id===5);assert.equal(result.status,selected.length===0?'unanswered':selected.join('')==='ABD'?'correct':'incorrect');}
-assert(main.innerHTML.includes('Special thanks to Danalky.'));assert(!main.innerHTML.includes('exam-section-nav'));assert(main.innerHTML.includes('href="#/final/study-guide">Final exam study guide</a>'));
+assert(main.innerHTML.includes('Special thanks to Danalky.'));assert(!main.innerHTML.includes('exam-section-nav'));assert(main.innerHTML.includes('href="#/final/study-guide">Exam topics</a>'));
 assert.equal((main.innerHTML.match(/type="radio"/g)||[]).length,56);assert.equal((main.innerHTML.match(/type="checkbox"/g)||[]).length,5);
 assert(!main.innerHTML.includes('Provided answer-key rationale:'));assert(!main.innerHTML.includes('quiz-verdict'));assert(main.innerHTML.includes('Submit quiz'));assert(main.innerHTML.includes('Reset quiz'));
 assert(main.innerHTML.indexOf('id="quiz-reading-title"')>main.innerHTML.indexOf('id="quiz-question-15"'));
