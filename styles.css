@@ -515,5 +515,10 @@ details.ob-presentations>.ob-deck-grid{padding:16px;grid-template-columns:minmax
 .ob-note-facts>div+div{border-top:1px solid var(--line);margin-top:14px;padding-top:14px}
 .ob-note-facts dt{font-weight:600;font-size:16px;line-height:1.5;color:var(--green);margin-bottom:5px}
 .ob-note-facts dd{margin:0;font-size:16px;line-height:1.75;overflow-wrap:anywhere}
+/* Typographic emphasis keeps the authored wording, layout and link affordances intact. */
+[data-ob-emphasis~="bold"]{font-weight:600}
+[data-ob-emphasis~="italic"]{font-style:italic}
+[data-ob-emphasis~="red"]{color:#b3261e}
+[data-ob-emphasis~="underline"]{text-decoration-line:underline;text-decoration-thickness:.08em;text-underline-offset:.16em;text-decoration-skip-ink:auto}
 .ob-note-topic>summary:focus-visible{outline:3px solid #ac542f;outline-offset:3px}
 @media(max-width:680px){.ob-study-objective .ob-note-topic>summary{padding:12px;gap:8px}.ob-study-objective .ob-note-topic>summary>h4{font-size:20px}.ob-note-topic-body{padding:12px}.ob-note-overview{padding:10px 12px}}

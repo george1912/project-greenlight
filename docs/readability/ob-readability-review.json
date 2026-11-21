@@ -1,0 +1,153 @@
+{
+  "reviewedOn": "2026-11-21",
+  "basis": "The supplied CSV is a set of formatting proposals. The user requested unchanged wording and asked us to use clinical judgment for student study. An independent second agent reviewed exact matches, shared content, density, and style meaning. No content corrections mentioned in the handoff are part of this task.",
+  "decisions": {
+    "65": {
+      "action": "omit",
+      "reason": "An entire editorial correction sentence would obscure more useful adjacent study facts."
+    },
+    "76": {
+      "action": "omit",
+      "reason": "A broad process list adds little scan hierarchy when entirely bold."
+    },
+    "222": {
+      "action": "already-emphasized",
+      "reason": "This exact fact label already has semibold weight and green text."
+    },
+    "223": {
+      "action": "already-emphasized",
+      "reason": "This exact fact label already has semibold weight and green text."
+    },
+    "335": {
+      "action": "already-emphasized",
+      "reason": "This exact fact label already has semibold weight and green text."
+    },
+    "447": {
+      "action": "omit",
+      "reason": "A generic multi-step study process should not dominate nearby clinical interpretation cues."
+    },
+    "461": {
+      "action": "omit",
+      "reason": "Most of the remaining objective prompt would become bold, leaving little plain-text contrast."
+    },
+    "587": {
+      "action": "style",
+      "style": "bold",
+      "reason": "A generic study-prompt term, rather than an actual patient warning sign."
+    },
+    "596": {
+      "action": "style",
+      "style": "bold",
+      "reason": "A learning instruction about seeking care, rather than a specific danger sign."
+    },
+    "599": {
+      "action": "style",
+      "style": "bold",
+      "reason": "A general escalation instruction in a learning prompt."
+    },
+    "618": {
+      "action": "style",
+      "style": "bold",
+      "reason": "A generic topic phrase in a learning prompt."
+    },
+    "638": {
+      "action": "style",
+      "style": "bold",
+      "reason": "The shared generic learning prompt should have identical emphasis."
+    },
+    "644": {
+      "action": "style",
+      "style": "bold",
+      "reason": "A risk topic in a prompt, rather than a clinical danger finding."
+    },
+    "647": {
+      "action": "style",
+      "style": "bold",
+      "reason": "The prompt names NEC as a subject to study, not an active emergency cue."
+    },
+    "648": {
+      "action": "style",
+      "style": "bold",
+      "reason": "A generic study instruction about reporting."
+    },
+    "656": {
+      "action": "style",
+      "style": "bold",
+      "reason": "A generic study-prompt term, rather than an actual patient warning sign."
+    }
+  },
+  "additions": [
+    {
+      "objectiveId": "complicated-labor",
+      "section": "Guideline supplement: slow labor versus active-phase arrest",
+      "exact_text": "At ≥6 cm with ruptured membranes, no cervical change",
+      "reason": "Keeps the eligibility and no-progress condition visible beside the already-bold 4/6-hour thresholds; prevents memorizing the durations alone.",
+      "style": "bold"
+    },
+    {
+      "objectiveId": "complicated-labor",
+      "section": "Guideline supplement: how gestational age changes PROM care",
+      "exact_text": "They do not replace intrapartum GBS prophylaxis when indicated",
+      "reason": "Important distinction between latency antibiotics and indicated intrapartum prophylaxis.",
+      "style": "underline"
+    },
+    {
+      "objectiveId": "complicated-labor",
+      "section": "Guideline supplement: slow labor versus active-phase arrest",
+      "exact_text": "These criteria never require waiting through hemorrhage, tachysystole with compromise, or another emergency.",
+      "reason": "Preserves the emergency exception to otherwise memorable labor-arrest timing.",
+      "style": "red"
+    },
+    {
+      "objectiveId": "assisted-cesarean-birth",
+      "section": "Guideline supplement: recovery after anesthesia",
+      "exact_text": "Excessive sleepiness, slow/ineffective breathing, falling saturation or unstable observations needs urgent review.",
+      "reason": "Actual postoperative deterioration cues and the required escalation stand out.",
+      "style": "red"
+    },
+    {
+      "objectiveId": "assisted-cesarean-birth",
+      "section": "Guideline supplement: pain relief and safe mobility",
+      "exact_text": "Check total acetaminophen across combination products.",
+      "reason": "Concise medication-safety check with a practical student/nursing application.",
+      "style": "bold"
+    },
+    {
+      "objectiveId": "other-birth-emergencies",
+      "section": "Guideline supplement: AFE resuscitation and reassessment",
+      "exact_text": "Begin CPR/AED response immediately.",
+      "reason": "The immediate lifesaving action currently has less emphasis than later resuscitation details.",
+      "style": "bold+red"
+    },
+    {
+      "objectiveId": "other-birth-emergencies",
+      "section": "Guideline supplement: AFE resuscitation and reassessment",
+      "exact_text": "With the fundus at/above the umbilicus",
+      "reason": "Keeps the condition for the following uterine-displacement/resuscitative-delivery instructions visible.",
+      "style": "bold"
+    },
+    {
+      "objectiveId": "other-birth-emergencies",
+      "section": "Guideline supplement: AFE resuscitation and reassessment",
+      "exact_text": "do not delay resuscitation for an operating-room transfer.",
+      "reason": "Time-critical caution complements the CSV's already-emphasized delivery goal.",
+      "style": "red"
+    },
+    {
+      "objectiveId": "other-birth-emergencies",
+      "section": "Guideline supplement: inversion recognition and first response",
+      "exact_text": "Hold uterotonics during reduction",
+      "reason": "Critical exception to routine atony treatment; pairs with the restart condition after replacement.",
+      "style": "red"
+    },
+    {
+      "objectiveId": "other-birth-emergencies",
+      "section": "Guideline supplement: after the uterus is replaced",
+      "exact_text": "Once replacement is confirmed, give ordered uterotonics",
+      "reason": "Highlights the condition-dependent reversal from holding uterotonics during reduction to giving them after confirmed replacement.",
+      "style": "bold"
+    }
+  ],
+  "sourceOriginalSha256": "3dde0d8ff4af9567efa6431697f52e7868aa99026ab60768873385f437de3e2c",
+  "sourceNormalization": "Repository CSV uses LF line endings; every field is identical to the supplied CRLF file."
+}

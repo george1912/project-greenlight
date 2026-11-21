@@ -9,6 +9,7 @@ for(const match of html.matchAll(/<script src="([^?]+)\?[^\"]+" defer><\/script>
 const course=vm.runInContext('obCourse',context),objectives=vm.runInContext('obStudyObjectives',context);
 const completed=new Set(JSON.parse(fs.readFileSync(path.join(root,'docs/ob-objectives-map.json'),'utf8')).completedObjectiveIds);
 const escapeHTML=text=>String(text).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const withoutEmphasis=markup=>markup.replace(/<(strong|em|span) data-ob-emphasis="[a-z ]+">([^<]*)<\/\1>/g,'$2');
 const render=route=>{context.location.hash=route;vm.runInContext('render()',context);return main.innerHTML;};
 const ids=markup=>[...markup.matchAll(/data-objective="([^"]+)"/g)].map(match=>match[1]);
 const sorted=values=>Array.from(values).sort();
@@ -23,7 +24,7 @@ for(const week of course.weeks){
  const expected=objectives.filter(o=>week.reviewOf?o.weekIds.some(id=>week.reviewOf.includes(id)):o.weekIds.includes(week.id));
  const markup=render('#/ob-final/'+week.id);assert.deepEqual(sorted(ids(markup)),sorted(expected.map(o=>o.id)),week.id);
  assert.equal(new Set(ids(markup)).size,ids(markup).length,'No duplicate review objectives');
- for(const objective of expected){assert(markup.includes(escapeHTML(objective.text)));assert(markup.includes(`data-objective="${objective.id}"`));}
+ for(const objective of expected){assert(withoutEmphasis(markup).includes(escapeHTML(objective.text)));assert(markup.includes(`data-objective="${objective.id}"`));}
  assert(markup.indexOf('class="ob-presentations"')<markup.indexOf('class="ob-objectives"')||week.reviewOf, 'Weekly presentations precede objectives');
  if(!week.reviewOf){assert(markup.includes('<details class="ob-presentations"><summary>'));assert(markup.indexOf('class="ob-week-infographic"')<markup.indexOf('class="ob-objectives"'));}
  assert(markup.includes('based on the syllabus, exam blueprint, and teaching presentations'));
@@ -32,7 +33,7 @@ for(const week of course.weeks){
 for(const topic of course.topics){
  const expected=objectives.filter(o=>o.topicIds.includes(topic.id));assert(expected.length>=4,topic.id);
  const markup=render('#/ob-final/topic/'+topic.id);assert.deepEqual(sorted(ids(markup)),sorted(expected.map(o=>o.id)),topic.id);
- for(const objective of expected)assert(markup.includes(escapeHTML(objective.text)));
+ for(const objective of expected)assert(withoutEmphasis(markup).includes(escapeHTML(objective.text)));
  assert(markup.indexOf('class="ob-presentations"')<markup.indexOf('class="ob-objectives"'));
  assert(markup.includes('<details class="ob-presentations"><summary>'));
  assert(!markup.includes('<details class="ob-presentations" open'));

@@ -1,0 +1,682 @@
+page,section,exact_text,transformation,reason
+#/ob-final/study-guide,Intro,the topic list is not exhaustive,italic,scope caution
+#/ob-final/study-guide,How to organize your notes,Priorities & first actions,bold,exam high-yield
+#/ob-final/study-guide,How to organize your notes,Side effects & safety,bold,safety
+#/ob-final/study-guide,Cumulative review,Exams I and II,bold,exam scope
+#/ob-final/week-1,Objective 01 — Family-centered obstetric nursing | prompt,"culturally responsive, family-centered care",bold,key term
+#/ob-final/week-1,Objective 01 — Family-centered obstetric nursing | prompt,"communication, consent, advocacy",bold,key term
+#/ob-final/week-1,Objective 01 — Family-centered obstetric nursing | Quick answer,Prevent failure to rescue by recognizing deterioration,bold,first action
+#/ob-final/week-1,Objective 01 — Family-centered obstetric nursing | The nurse’s role: safe care with the patient and family,The patient defines who their family and support people are,bold,key term
+#/ob-final/week-1,Objective 01 — Family-centered obstetric nursing | The nurse’s role: safe care with the patient and family,"never replaces the patient’s own voice, privacy, or consent",bold,key distinction
+#/ob-final/week-1,"Objective 01 — Family-centered obstetric nursing | Safety, risk management, and failure to rescue",Sentinel event: a serious patient-safety event meeting Joint Commission criteria,bold,definition
+#/ob-final/week-1,"Objective 01 — Family-centered obstetric nursing | Safety, risk management, and failure to rescue",failing to prevent serious deterioration from a complication through timely recognition and response,bold,definition
+#/ob-final/week-1,"Objective 01 — Family-centered obstetric nursing | Safety, risk management, and failure to rescue","Use SBAR (Situation, Background, Assessment, Recommendation)",bold,exam high-yield
+#/ob-final/week-1,"Objective 01 — Family-centered obstetric nursing | Safety, risk management, and failure to rescue",one unanswered call is not the end of escalation,bold,safety caution
+#/ob-final/week-1,"Objective 01 — Family-centered obstetric nursing | Safety, risk management, and failure to rescue",Assess and activate the hemorrhage response rather than assuming normal lochia,bold+red,first action
+#/ob-final/week-1,"Objective 01 — Family-centered obstetric nursing | What the nurse does across pregnancy, birth, and recovery","heavy bleeding, chest pain, difficulty breathing, severe or persistent headache, vision changes, or fever",red,warning sign
+#/ob-final/week-1,"Objective 01 — Family-centered obstetric nursing | What the nurse does across pregnancy, birth, and recovery",up to a year after birth,bold,key fact
+#/ob-final/week-1,Objective 01 — Family-centered obstetric nursing | Communication and culturally responsive care,instead of relying on a partner or child for clinical interpretation,bold,common trap
+#/ob-final/week-1,Objective 01 — Family-centered obstetric nursing | Communication and culturally responsive care,"do not infer them from appearance, ethnicity, or religion",bold,key distinction
+#/ob-final/week-1,"Objective 01 — Family-centered obstetric nursing | Consent, advocacy, and privacy",A signature alone does not show understanding or voluntary agreement.,bold,common trap
+#/ob-final/week-1,"Objective 01 — Family-centered obstetric nursing | Consent, advocacy, and privacy",Family members do not override that patient’s decision.,bold,key principle
+#/ob-final/week-1,"Objective 01 — Family-centered obstetric nursing | Teaching, support systems, and community resources",Giving a phone number alone does not confirm that support was obtained.,bold,common trap
+#/ob-final/week-1,Objective 01 — Family-centered obstetric nursing | Care settings and team roles,"Midwifery is a model of care, not a building.",bold,key distinction
+#/ob-final/week-1,Objective 01 — Family-centered obstetric nursing | Care settings and team roles,A bedside RN is not automatically a midwife,bold,common trap
+#/ob-final/week-1,Objective 01 — Family-centered obstetric nursing | Population health: what the lecture’s statistics mean,"live births per 1,000 women aged 15–44",bold,definition
+#/ob-final/week-1,Objective 01 — Family-centered obstetric nursing | Population health: what the lecture’s statistics mean,within 42 days after it ends,bold,critical value
+#/ob-final/week-1,Objective 01 — Family-centered obstetric nursing | Population health: what the lecture’s statistics mean,these measures are not interchangeable,underline,contrast pair
+#/ob-final/week-1,Objective 01 — Family-centered obstetric nursing | Population health: what the lecture’s statistics mean,neonatal mortality concerns deaths in the first 28 days,bold,definition
+#/ob-final/week-1,Objective 01 — Family-centered obstetric nursing | Ethical issues and professional responsibility,Pregnancy alone does not erase an adult patient’s decision-making rights.,bold,key principle
+#/ob-final/week-1,Objective 02 — Maternal adaptations to pregnancy | prompt,findings that need further evaluation,bold,key term
+#/ob-final/week-1,Objective 02 — Maternal adaptations to pregnancy | Quick answer,"bleeding, severe pain, chest symptoms, fever, or concerning neurologic symptoms must not be dismissed",red,warning sign
+#/ob-final/week-1,"Objective 02 — Maternal adaptations to pregnancy | Dating, trimesters, term, and viability",About 40 gestational weeks/280 days equals about 38 weeks after fertilization.,bold,critical value
+#/ob-final/week-1,"Objective 02 — Maternal adaptations to pregnancy | Dating, trimesters, term, and viability",Preterm birth is before 37 weeks.,bold,definition
+#/ob-final/week-1,"Objective 02 — Maternal adaptations to pregnancy | Dating, trimesters, term, and viability",Early term: 37 weeks 0 days–38 weeks 6 days; full term: 39 weeks 0 days–40 weeks 6 days; late term: 41 weeks 0 days–41 weeks 6 days; postterm: 42 weeks or later.,bold,exam high-yield
+#/ob-final/week-1,"Objective 02 — Maternal adaptations to pregnancy | Reproductive changes: uterus, cervix, vagina, and breasts",The fundus is near the symphysis pubis around 12 weeks and the umbilicus around 20 weeks,bold,critical value
+#/ob-final/week-1,"Objective 02 — Maternal adaptations to pregnancy | Reproductive changes: uterus, cervix, vagina, and breasts",Goodell = soft cervix; Chadwick = bluish/purple cervix or vaginal tissue from vascularity; Hegar = soft lower uterine segment.,bold,exam high-yield
+#/ob-final/week-1,"Objective 02 — Maternal adaptations to pregnancy | Reproductive changes: uterus, cervix, vagina, and breasts",Braxton Hicks contractions are typically irregular and do not produce progressive cervical change,underline,contrast pair
+#/ob-final/week-1,Objective 02 — Maternal adaptations to pregnancy | Cardiovascular and blood changes,resting pulse commonly rises about 10–20 beats/min,bold,critical value
+#/ob-final/week-1,Objective 02 — Maternal adaptations to pregnancy | Cardiovascular and blood changes,"Plasma expands more than red-cell mass, lowering measured hemoglobin/hematocrit by dilution.",bold,key fact
+#/ob-final/week-1,Objective 02 — Maternal adaptations to pregnancy | Cardiovascular and blood changes,Turn laterally and reassess.,bold,first action
+#/ob-final/week-1,Objective 02 — Maternal adaptations to pregnancy | Cardiovascular and blood changes,Pregnancy is hypercoagulable.,bold,key fact
+#/ob-final/week-1,Objective 02 — Maternal adaptations to pregnancy | Cardiovascular and blood changes,"Unilateral leg pain/swelling, chest pain, sudden shortness of breath, syncope, or severe/persistent headache or visual change need urgent assessment.",red,warning sign
+#/ob-final/week-1,Objective 02 — Maternal adaptations to pregnancy | Respiratory changes,mild compensated respiratory alkalosis,bold,key term
+#/ob-final/week-1,Objective 02 — Maternal adaptations to pregnancy | Respiratory changes,Do not label acute respiratory distress a normal effect of the diaphragm moving upward.,red,safety caution
+#/ob-final/week-1,"Objective 02 — Maternal adaptations to pregnancy | Gastrointestinal, oral, and urinary changes","Persistent vomiting, inability to keep fluids down, dehydration, severe abdominal pain, or bleeding need assessment.",red,warning sign
+#/ob-final/week-1,"Objective 02 — Maternal adaptations to pregnancy | Gastrointestinal, oral, and urinary changes","frequency alone does not diagnose a UTI, and lack of symptoms does not exclude asymptomatic bacteriuria",underline,contrast pair
+#/ob-final/week-1,Objective 02 — Maternal adaptations to pregnancy | Musculoskeletal and skin changes,Melasma is facial hyperpigmentation; linea nigra is the dark abdominal midline; striae are stretch marks.,bold,definition
+#/ob-final/week-1,Objective 02 — Maternal adaptations to pregnancy | Musculoskeletal and skin changes,"New intense itching, especially on palms/soles or without a rash, should be reported because it can indicate a pregnancy-related liver condition.",red,warning sign
+#/ob-final/week-1,Objective 02 — Maternal adaptations to pregnancy | Hormones: connect the name with the job,A positive test alone does not establish the pregnancy’s location or viability.,bold,common trap
+#/ob-final/week-1,Objective 02 — Maternal adaptations to pregnancy | Shared-deck essentials: pregnancy signs and GTPAL,"Presumptive signs are patient-reported, such as amenorrhea, nausea, fatigue, or quickening.",bold,definition
+#/ob-final/week-1,Objective 02 — Maternal adaptations to pregnancy | Shared-deck essentials: pregnancy signs and GTPAL,Probable signs include the cervical changes and positive hCG.,bold,definition
+#/ob-final/week-1,Objective 02 — Maternal adaptations to pregnancy | Shared-deck essentials: pregnancy signs and GTPAL,"Positive signs directly demonstrate the fetus, such as ultrasound visualization or fetal cardiac activity distinct from the maternal pulse.",bold,definition
+#/ob-final/week-1,Objective 02 — Maternal adaptations to pregnancy | Shared-deck essentials: pregnancy signs and GTPAL,G = all pregnancies including the current one; T = births at or after 37 weeks; P = births from 20 weeks to before 37 weeks; A = pregnancy losses before 20 weeks; L = living children.,bold,exam high-yield
+#/ob-final/week-1,Objective 02 — Maternal adaptations to pregnancy | Shared-deck essentials: pregnancy signs and GTPAL,"T/P count pregnancies delivered, not infants; twins count once in T/P but twice in L if both live.",underline,common trap
+#/ob-final/week-1,Objective 02 — Maternal adaptations to pregnancy | Shared-deck essentials: nutrition and weight gain,iron 27 mg and folate 600 micrograms dietary folate equivalents (DFE),bold,critical value
+#/ob-final/week-1,Objective 02 — Maternal adaptations to pregnancy | Shared-deck essentials: nutrition and weight gain,Iron is measured here in mg; folate in micrograms.,bold,common trap
+#/ob-final/week-1,Objective 02 — Maternal adaptations to pregnancy | Shared-deck essentials: nutrition and weight gain,"underweight <18.5, 28–40 lb; BMI 18.5–24.9, 25–35 lb; BMI 25–29.9, 15–25 lb; BMI ≥30, 11–20 lb",bold,critical value
+#/ob-final/week-1,Objective 02 — Maternal adaptations to pregnancy | Shared-deck essentials: nutrition and weight gain,Heat deli meats/hot dogs to 165°F or until steaming hot,bold,critical value
+#/ob-final/week-1,Objective 02 — Maternal adaptations to pregnancy | Apply it: expected finding or concern?,do not reassure the patient that normal pregnancy increases oxygen demand,red,safety caution
+#/ob-final/week-1,Objective 03 — Psychological adaptation and support | prompt,"assess family support, coping, cultural preferences, and safety",bold,key term
+#/ob-final/week-1,Objective 03 — Psychological adaptation and support | Quick answer,privately and without assuming every family follows the same pattern,bold,key distinction
+#/ob-final/week-1,Objective 03 — Psychological adaptation and support | Emotional adaptation over time,Ambivalence means mixed feelings—not automatic rejection of the pregnancy.,bold,definition
+#/ob-final/week-1,Objective 03 — Psychological adaptation and support | Emotional adaptation over time,"Quickening = the pregnant person first perceives fetal movement, often around 16–20 weeks.",bold,definition
+#/ob-final/week-1,Objective 03 — Psychological adaptation and support | Emotional adaptation over time,Lightening = descent of the presenting part into the pelvis later in pregnancy.,bold,definition
+#/ob-final/week-1,Objective 03 — Psychological adaptation and support | Emotional adaptation over time,The lecture uses “lightening” for fetal movement; that wording is corrected here.,bold,common trap
+#/ob-final/week-1,"Objective 03 — Psychological adaptation and support | Assess coping, mood, and body image","a positive screen needs assessment and a follow-up plan, not a label or a handout alone",bold,common trap
+#/ob-final/week-1,Objective 03 — Psychological adaptation and support | Expected emotional variation versus a safety concern,"Persistent sadness, loss of interest, severe or intrusive anxiety, panic, inability to function, escalating substance use, or a history of serious mental illness warrants prompt clinical review",red,warning sign
+#/ob-final/week-1,Objective 03 — Psychological adaptation and support | Expected emotional variation versus a safety concern,"Thoughts of self-harm or harm to others, hallucinations, delusions, severe confusion, or immediate violence risk require urgent assessment",bold+red,warning sign
+#/ob-final/week-1,Objective 03 — Psychological adaptation and support | Expected emotional variation versus a safety concern,Do not dismiss them as normal pregnancy hormones or leave a patient at immediate risk without appropriate support.,red,safety caution
+#/ob-final/week-1,"Objective 03 — Psychological adaptation and support | Partners, siblings, and the wider family","Do not presume a partner is present, supportive, or safe.",bold,key distinction
+#/ob-final/week-1,"Objective 03 — Psychological adaptation and support | Partners, siblings, and the wider family","sympathetic symptoms (couvade, such as nausea or appetite/weight changes)",bold,definition
+#/ob-final/week-1,"Objective 03 — Psychological adaptation and support | Partners, siblings, and the wider family",never leave an infant alone with a young child,red,safety caution
+#/ob-final/week-1,"Objective 03 — Psychological adaptation and support | Culture, sexuality, and communication",Sexual activity is generally safe in an uncomplicated pregnancy when the clinician has not advised restrictions.,bold,key fact
+#/ob-final/week-1,"Objective 03 — Psychological adaptation and support | Culture, sexuality, and communication",intact membranes alone do not establish safety,bold,common trap
+#/ob-final/week-1,Objective 03 — Psychological adaptation and support | Assess intimate-partner violence and practical barriers,Screen without the partner or family member present,bold,first action
+#/ob-final/week-1,Objective 03 — Psychological adaptation and support | Assess intimate-partner violence and practical barriers,Routinely screen; affirm feelings and assess abuse; document objective findings; assess immediate safety; review options and referrals.,bold,exam high-yield
+#/ob-final/week-1,Objective 03 — Psychological adaptation and support | Assess intimate-partner violence and practical barriers,Avoid confronting the partner or forcing a disclosure or decision.,red,safety caution
+#/ob-final/week-1,Objective 03 — Psychological adaptation and support | Nursing plan and quick application,do not chart the problem as lack of motivation,bold,common trap
+#/ob-final/week-1,Objective 04 — Conception and fetal development | prompt,"the functions of the placenta, umbilical cord, amniotic fluid, and fetal circulation",bold,key term
+#/ob-final/week-1,Objective 04 — Conception and fetal development | Quick answer,Always distinguish weeks after fertilization from LMP-based gestational weeks.,bold,key distinction
+#/ob-final/week-1,Objective 04 — Conception and fetal development | Quick answer,Organ formation is concentrated in the embryonic period; the fetal period emphasizes growth and maturation.,underline,contrast pair
+#/ob-final/week-1,Objective 04 — Conception and fetal development | Reproductive cycle: match the ovarian and uterine phases,Cycle day 1 is the first day of menstrual bleeding.,bold,definition
+#/ob-final/week-1,Objective 04 — Conception and fetal development | Reproductive cycle: match the ovarian and uterine phases,"After implantation, hCG helps maintain the corpus luteum until placental hormone production can sustain pregnancy.",bold,key fact
+#/ob-final/week-1,"Objective 04 — Conception and fetal development | Fertilization, cell division, and implantation",Fertilization usually occurs in the ampulla/outer portion of the fallopian tube.,bold,key fact
+#/ob-final/week-1,"Objective 04 — Conception and fetal development | Fertilization, cell division, and implantation",zygote → morula (solid cell cluster) → blastocyst (fluid-filled structure with inner and outer cell populations),bold,exam high-yield
+#/ob-final/week-1,"Objective 04 — Conception and fetal development | Fertilization, cell division, and implantation",A positive test does not show whether implantation is intrauterine,bold,common trap
+#/ob-final/week-1,"Objective 04 — Conception and fetal development | Fertilization, cell division, and implantation",pain or bleeding with a possible pregnancy requires appropriate assessment for ectopic pregnancy,red,warning sign
+#/ob-final/week-1,"Objective 04 — Conception and fetal development | Developmental stages, germ layers, and time scales",Approximately weeks 3–8 after fertilization (about gestational weeks 5–10): major organ structures are laid down.,bold,critical value
+#/ob-final/week-1,"Objective 04 — Conception and fetal development | Developmental stages, germ layers, and time scales",Ectoderm contributes to nervous system and epidermal/sensory structures.,bold,definition
+#/ob-final/week-1,"Objective 04 — Conception and fetal development | Developmental stages, germ layers, and time scales","Mesoderm contributes to muscle, bone, cardiovascular, urinary, and reproductive structures.",bold,definition
+#/ob-final/week-1,"Objective 04 — Conception and fetal development | Developmental stages, germ layers, and time scales",Endoderm contributes to epithelial linings of digestive/respiratory systems and organs such as liver and pancreas.,bold,definition
+#/ob-final/week-1,"Objective 04 — Conception and fetal development | Membranes, placenta, and pregnancy hormones",Maternal and fetal blood normally remain in separate circulations,bold,key fact
+#/ob-final/week-1,"Objective 04 — Conception and fetal development | Membranes, placenta, and pregnancy hormones","Many drugs, alcohol, and some infections can cross.",bold,common trap
+#/ob-final/week-1,Objective 04 — Conception and fetal development | Umbilical cord and amniotic fluid,The single umbilical vein carries relatively oxygen-rich blood from placenta to fetus.,bold,key fact
+#/ob-final/week-1,Objective 04 — Conception and fetal development | Umbilical cord and amniotic fluid,Two umbilical arteries carry relatively oxygen-poor blood and waste from fetus to placenta.,bold,key fact
+#/ob-final/week-1,Objective 04 — Conception and fetal development | Umbilical cord and amniotic fluid,"Vessel names describe direction relative to the fetal heart, not oxygen content.",underline,common trap
+#/ob-final/week-1,Objective 04 — Conception and fetal development | Fetal circulation: trace the blood and name the three shunts,"Directs a portion of umbilical venous blood toward the inferior vena cava, bypassing much of the hepatic circulation.",bold,definition
+#/ob-final/week-1,Objective 04 — Conception and fetal development | Fetal circulation: trace the blood and name the three shunts,Allows right-to-left flow from right atrium to left atrium.,bold,definition
+#/ob-final/week-1,Objective 04 — Conception and fetal development | Fetal circulation: trace the blood and name the three shunts,"Much right-ventricular output travels from pulmonary artery through the ductus arteriosus into the descending aorta, bypassing the high-resistance fetal lungs.",bold,definition
+#/ob-final/week-1,Objective 04 — Conception and fetal development | Developmental milestones and twins,Doppler heart tones are often detectable around 10–12 gestational weeks; perceived movement/quickening often occurs around 16–20 weeks.,bold,critical value
+#/ob-final/week-1,Objective 04 — Conception and fetal development | Developmental milestones and twins,Do not read “breathing movements” or a surfactant milestone as proof that an infant can breathe independently.,bold,common trap
+#/ob-final/week-1,Objective 04 — Conception and fetal development | Developmental milestones and twins,identical twins do not always share one placenta,bold,common trap
+#/ob-final/week-1,Objective 04 — Conception and fetal development | Genetics: screening versus diagnosis,a positive screen is not a confirmed diagnosis and a negative screen cannot rule out every condition,underline,key distinction
+#/ob-final/week-1,Objective 04 — Conception and fetal development | Genetics: screening versus diagnosis,CVS usually samples chorionic villi at 10–13 weeks; amniocentesis usually samples fluid at 15–20 weeks,bold,critical value
+#/ob-final/week-1,Objective 04 — Conception and fetal development | Genetics: screening versus diagnosis,CVS does not directly evaluate open neural-tube defects.,bold,common trap
+#/ob-final/week-2,Objective 01 — Conception and fetal development | prompt,"the functions of the placenta, umbilical cord, amniotic fluid, and fetal circulation",bold,key term
+#/ob-final/week-2,Objective 01 — Conception and fetal development | Quick answer,Always distinguish weeks after fertilization from LMP-based gestational weeks.,bold,key distinction
+#/ob-final/week-2,Objective 01 — Conception and fetal development | Quick answer,Organ formation is concentrated in the embryonic period; the fetal period emphasizes growth and maturation.,underline,contrast pair
+#/ob-final/week-2,Objective 01 — Conception and fetal development | Reproductive cycle: match the ovarian and uterine phases,Cycle day 1 is the first day of menstrual bleeding.,bold,definition
+#/ob-final/week-2,Objective 01 — Conception and fetal development | Reproductive cycle: match the ovarian and uterine phases,"After implantation, hCG helps maintain the corpus luteum until placental hormone production can sustain pregnancy.",bold,key fact
+#/ob-final/week-2,"Objective 01 — Conception and fetal development | Fertilization, cell division, and implantation",Fertilization usually occurs in the ampulla/outer portion of the fallopian tube.,bold,key fact
+#/ob-final/week-2,"Objective 01 — Conception and fetal development | Fertilization, cell division, and implantation",zygote → morula (solid cell cluster) → blastocyst (fluid-filled structure with inner and outer cell populations),bold,exam high-yield
+#/ob-final/week-2,"Objective 01 — Conception and fetal development | Fertilization, cell division, and implantation",A positive test does not show whether implantation is intrauterine,bold,common trap
+#/ob-final/week-2,"Objective 01 — Conception and fetal development | Fertilization, cell division, and implantation",pain or bleeding with a possible pregnancy requires appropriate assessment for ectopic pregnancy,red,warning sign
+#/ob-final/week-2,"Objective 01 — Conception and fetal development | Developmental stages, germ layers, and time scales",Approximately weeks 3–8 after fertilization (about gestational weeks 5–10): major organ structures are laid down.,bold,critical value
+#/ob-final/week-2,"Objective 01 — Conception and fetal development | Developmental stages, germ layers, and time scales",Ectoderm contributes to nervous system and epidermal/sensory structures.,bold,definition
+#/ob-final/week-2,"Objective 01 — Conception and fetal development | Developmental stages, germ layers, and time scales","Mesoderm contributes to muscle, bone, cardiovascular, urinary, and reproductive structures.",bold,definition
+#/ob-final/week-2,"Objective 01 — Conception and fetal development | Developmental stages, germ layers, and time scales",Endoderm contributes to epithelial linings of digestive/respiratory systems and organs such as liver and pancreas.,bold,definition
+#/ob-final/week-2,"Objective 01 — Conception and fetal development | Membranes, placenta, and pregnancy hormones",Maternal and fetal blood normally remain in separate circulations,bold,key fact
+#/ob-final/week-2,"Objective 01 — Conception and fetal development | Membranes, placenta, and pregnancy hormones","Many drugs, alcohol, and some infections can cross.",bold,common trap
+#/ob-final/week-2,Objective 01 — Conception and fetal development | Umbilical cord and amniotic fluid,The single umbilical vein carries relatively oxygen-rich blood from placenta to fetus.,bold,key fact
+#/ob-final/week-2,Objective 01 — Conception and fetal development | Umbilical cord and amniotic fluid,Two umbilical arteries carry relatively oxygen-poor blood and waste from fetus to placenta.,bold,key fact
+#/ob-final/week-2,Objective 01 — Conception and fetal development | Umbilical cord and amniotic fluid,"Vessel names describe direction relative to the fetal heart, not oxygen content.",underline,common trap
+#/ob-final/week-2,Objective 01 — Conception and fetal development | Fetal circulation: trace the blood and name the three shunts,"Directs a portion of umbilical venous blood toward the inferior vena cava, bypassing much of the hepatic circulation.",bold,definition
+#/ob-final/week-2,Objective 01 — Conception and fetal development | Fetal circulation: trace the blood and name the three shunts,Allows right-to-left flow from right atrium to left atrium.,bold,definition
+#/ob-final/week-2,Objective 01 — Conception and fetal development | Fetal circulation: trace the blood and name the three shunts,"Much right-ventricular output travels from pulmonary artery through the ductus arteriosus into the descending aorta, bypassing the high-resistance fetal lungs.",bold,definition
+#/ob-final/week-2,Objective 01 — Conception and fetal development | Developmental milestones and twins,Doppler heart tones are often detectable around 10–12 gestational weeks; perceived movement/quickening often occurs around 16–20 weeks.,bold,critical value
+#/ob-final/week-2,Objective 01 — Conception and fetal development | Developmental milestones and twins,Do not read “breathing movements” or a surfactant milestone as proof that an infant can breathe independently.,bold,common trap
+#/ob-final/week-2,Objective 01 — Conception and fetal development | Developmental milestones and twins,identical twins do not always share one placenta,bold,common trap
+#/ob-final/week-2,Objective 01 — Conception and fetal development | Genetics: screening versus diagnosis,a positive screen is not a confirmed diagnosis and a negative screen cannot rule out every condition,underline,key distinction
+#/ob-final/week-2,Objective 01 — Conception and fetal development | Genetics: screening versus diagnosis,CVS usually samples chorionic villi at 10–13 weeks; amniocentesis usually samples fluid at 15–20 weeks,bold,critical value
+#/ob-final/week-2,Objective 01 — Conception and fetal development | Genetics: screening versus diagnosis,CVS does not directly evaluate open neural-tube defects.,bold,common trap
+#/ob-final/week-2,Objective 02 — Recognizing pregnancy | prompt,"presumptive, probable, and positive signs",underline,contrast trio
+#/ob-final/week-2,Objective 02 — Recognizing pregnancy | Quick answer,positive signs provide direct evidence,bold,definition
+#/ob-final/week-2,Objective 02 — Recognizing pregnancy | Quick answer,A positive hCG test is a probable sign,underline,common trap
+#/ob-final/week-2,Objective 02 — Recognizing pregnancy | Quick answer,"Pain, bleeding, fainting, or shoulder pain needs urgent assessment",bold+red,warning sign
+#/ob-final/week-2,Objective 02 — Recognizing pregnancy | Presumptive: what the patient reports,Quickening is subjective,bold,key fact
+#/ob-final/week-2,Objective 02 — Recognizing pregnancy | Probable: findings that suggest pregnancy,Goodell sign = softening of the cervix,bold,definition
+#/ob-final/week-2,Objective 02 — Recognizing pregnancy | Probable: findings that suggest pregnancy,Chadwick sign = bluish-purple cervix/vaginal tissue,bold,definition
+#/ob-final/week-2,Objective 02 — Recognizing pregnancy | Probable: findings that suggest pregnancy,Hegar sign = softening of the lower uterine segment,bold,definition
+#/ob-final/week-2,Objective 02 — Recognizing pregnancy | Positive: evidence from the fetus,Compare the maternal pulse to avoid mistaking maternal circulation for fetal activity,bold,safety caution
+#/ob-final/week-2,Objective 02 — Recognizing pregnancy | Positive: evidence from the fetus,movement only reported by the patient remains presumptive,underline,contrast pair
+#/ob-final/week-2,"Objective 02 — Recognizing pregnancy | Pregnancy testing: timing, limits, and follow-up",first-morning urine can improve detection,bold,exam high-yield
+#/ob-final/week-2,"Objective 02 — Recognizing pregnancy | Pregnancy testing: timing, limits, and follow-up",hCG may be present in ectopic pregnancy,red,safety caution
+#/ob-final/week-2,"Objective 02 — Recognizing pregnancy | Pregnancy testing: timing, limits, and follow-up",do not wait for a repeat home test,bold+red,warning sign
+#/ob-final/week-2,Objective 03 — Obstetric history and GTPAL | prompt,"gravida, parity, and GTPAL",bold,key terms
+#/ob-final/week-2,Objective 03 — Obstetric history and GTPAL | Quick answer,"Gravida counts all pregnancies, including the current pregnancy",bold,definition
+#/ob-final/week-2,Objective 03 — Obstetric history and GTPAL | Quick answer,"GTPAL = total pregnancies, term births, preterm births, losses before 20 weeks, and children currently living",bold,definition
+#/ob-final/week-2,Objective 03 — Obstetric history and GTPAL | Quick answer,"T and P count pregnancies delivered, not individual babies",bold,key distinction
+#/ob-final/week-2,Objective 03 — Obstetric history and GTPAL | Quick answer,Twins count as one pregnancy and one birth event but can add two to L,underline,common trap
+#/ob-final/week-2,"Objective 03 — Obstetric history and GTPAL | Decode G, parity, and GTPAL",This course uses 20 weeks,bold,critical value
+#/ob-final/week-2,"Objective 03 — Obstetric history and GTPAL | Decode G, parity, and GTPAL",Pregnancies delivered at 37 weeks 0 days or later,bold,critical value
+#/ob-final/week-2,"Objective 03 — Obstetric history and GTPAL | Decode G, parity, and GTPAL",Pregnancies delivered from 20 weeks 0 days through 36 weeks 6 days,bold,critical value
+#/ob-final/week-2,"Objective 03 — Obstetric history and GTPAL | Decode G, parity, and GTPAL","P here means preterm, whereas P in simple G/P means overall parity",underline,common trap
+#/ob-final/week-2,Objective 03 — Obstetric history and GTPAL | Calculate in a consistent order,"for an ongoing pregnancy, G = T + P + A + 1",bold,exam high-yield
+#/ob-final/week-2,Objective 03 — Obstetric history and GTPAL | Calculate in a consistent order,"after all pregnancies have ended, G = T + P + A",bold,exam high-yield
+#/ob-final/week-2,Objective 03 — Obstetric history and GTPAL | Worked example: twins and the living count,"GTPAL does not reveal previous cesarean birth, hemorrhage, preeclampsia, birth trauma, or neonatal complications",bold,key distinction
+#/ob-final/week-2,Objective 04 — Naegele’s rule and due dates | prompt,when menstrual history or ultrasound dating changes the assessment,bold,key distinction
+#/ob-final/week-2,Objective 04 — Naegele’s rule and due dates | Quick answer,"Naegele’s rule uses the FIRST day of the last menstrual period: subtract 3 months, add 7 days, then add 1 year",bold,exam high-yield
+#/ob-final/week-2,Objective 04 — Naegele’s rule and due dates | Quick answer,assumes a regular 28-day cycle with ovulation around day 14,bold,key assumption
+#/ob-final/week-2,Objective 04 — Naegele’s rule and due dates | Quick answer,"It is an estimate, not a guaranteed birth date",underline,common trap
+#/ob-final/week-2,Objective 04 — Naegele’s rule and due dates | Quick answer,Early ultrasound and the clinician’s documented best obstetric estimate guide dating,bold,key distinction
+#/ob-final/week-2,Objective 04 — Naegele’s rule and due dates | Use the rule and check the calendar,"not the last day of bleeding, the positive test date, or the date of intercourse",bold,common trap
+#/ob-final/week-2,Objective 04 — Naegele’s rule and due dates | Use the rule and check the calendar,Forty weeks = 280 days from the LMP,bold,critical value
+#/ob-final/week-2,Objective 04 — Naegele’s rule and due dates | Worked examples from the lecture,The final August date printed on the second lecture example is a slide error,bold,correction
+#/ob-final/week-2,Objective 04 — Naegele’s rule and due dates | When menstrual dating is less reliable,Known embryo age and transfer date guide dating after IVF,bold,key distinction
+#/ob-final/week-2,Objective 04 — Naegele’s rule and due dates | How ultrasound changes the assessment,First-trimester ultrasound through 13 weeks 6 days,bold,exam high-yield
+#/ob-final/week-2,Objective 04 — Naegele’s rule and due dates | How ultrasound changes the assessment,later growth scans should not routinely reset the due date,bold,key distinction
+#/ob-final/week-2,Objective 04 — Naegele’s rule and due dates | How ultrasound changes the assessment,A smaller third-trimester fetus may have a growth problem rather than a younger gestational age,underline,common trap
+#/ob-final/week-2,Objective 04 — Naegele’s rule and due dates | How ultrasound changes the assessment,An EDD is not proof that fetal lungs are mature or justification for an elective early delivery,bold,safety caution
+#/ob-final/week-2,Objective 05 — Prenatal assessment and monitoring | prompt,which findings require follow-up or urgent reporting,bold,key distinction
+#/ob-final/week-2,Objective 05 — Prenatal assessment and monitoring | Initial history: establish the baseline and risks,Do not wait for the next appointment to address an urgent finding,red,safety caution
+#/ob-final/week-2,Objective 05 — Prenatal assessment and monitoring | Initial examination and maternal measurements,New systolic BP ≥140 or diastolic BP ≥90 requires prompt evaluation,bold,critical value
+#/ob-final/week-2,Objective 05 — Prenatal assessment and monitoring | Initial examination and maternal measurements,Severe-range BP ≥160 systolic or ≥110 diastolic needs immediate escalation,bold+red,critical value
+#/ob-final/week-2,Objective 05 — Prenatal assessment and monitoring | Early labs: connect each test to its purpose,"A urine culture screens for asymptomatic bacteriuria, which can progress to pyelonephritis",bold,exam high-yield
+#/ob-final/week-2,Objective 05 — Prenatal assessment and monitoring | Early labs: connect each test to its purpose,A positive aneuploidy screen is a risk result,bold,key distinction
+#/ob-final/week-2,Objective 05 — Prenatal assessment and monitoring | Infection results: what changes in care?,MMR is a live vaccine and is not given during pregnancy,red,safety caution
+#/ob-final/week-2,Objective 05 — Prenatal assessment and monitoring | Infection results: what changes in care?,the exposed infant needs hepatitis B vaccine plus HBIG within 12 hours of birth,bold,critical value
+#/ob-final/week-2,Objective 05 — Prenatal assessment and monitoring | Follow-up visits and the screening timeline,"about every 4 weeks to 28 weeks, every 2 weeks to 36 weeks, then weekly",bold,exam high-yield
+#/ob-final/week-2,Objective 05 — Prenatal assessment and monitoring | Glucose screening: distinguish screen from diagnosis,"fasting 95, 1 hour 180, 2 hours 155, and 3 hours 140 mg/dL",bold,critical value
+#/ob-final/week-2,Objective 05 — Prenatal assessment and monitoring | Glucose screening: distinguish screen from diagnosis,diagnosis generally requires at least two abnormal values,bold,exam high-yield
+#/ob-final/week-2,"Objective 05 — Prenatal assessment and monitoring | Fetal growth, heart activity, and movement",Later-pregnancy baseline fetal heart rate is generally 110–160 beats/min,bold,critical value
+#/ob-final/week-2,"Objective 05 — Prenatal assessment and monitoring | Fetal growth, heart activity, and movement","do not wait 12 hours, until tomorrow, or for juice to “fix” it",bold+red,warning sign
+#/ob-final/week-2,"Objective 05 — Prenatal assessment and monitoring | Fetal growth, heart activity, and movement",A home Doppler cannot confirm fetal well-being,bold,key distinction
+#/ob-final/week-2,Objective 05 — Prenatal assessment and monitoring | Report promptly: connect the cue to the next action,Preeclampsia can occur without proteinuria,bold,key distinction
+#/ob-final/week-2,Objective 05 — Prenatal assessment and monitoring | Report promptly: connect the cue to the next action,Unilateral leg swelling/pain needs urgent evaluation for a clot,red,warning sign
+#/ob-final/week-2,Objective 06 — Discomforts and warning signs | prompt,Distinguish normal discomforts from warning signs that need prompt evaluation,bold,key distinction
+#/ob-final/week-2,Objective 06 — Discomforts and warning signs | Quick answer,Review medicines and supplements with the prenatal team instead of assuming OTC means safe,bold,safety caution
+#/ob-final/week-2,Objective 06 — Discomforts and warning signs | Quick answer,"Bleeding, leaking fluid, preterm contractions, reduced fetal movement, and cardiopulmonary symptoms must not be dismissed as normal pregnancy",bold+red,warning sign
+#/ob-final/week-2,"Objective 06 — Discomforts and warning signs | Nausea, reflux, and constipation","Inability to keep fluids down, reduced/dark urine, dizziness, weight loss, blood in vomit, or severe pain",red,warning sign
+#/ob-final/week-2,"Objective 06 — Discomforts and warning signs | Nausea, reflux, and constipation","Persistent upper abdominal pain with headache/visual symptoms is a warning sign, not simply reflux",red,warning sign
+#/ob-final/week-2,Objective 06 — Discomforts and warning signs | Urinary frequency and vaginal discharge,Frequency alone does not establish a UTI,bold,common trap
+#/ob-final/week-2,Objective 06 — Discomforts and warning signs | Urinary frequency and vaginal discharge,A gush or ongoing watery trickle may be ruptured membranes,red,warning sign
+#/ob-final/week-2,"Objective 06 — Discomforts and warning signs | Fatigue, breast tenderness, and mild breathlessness","Sudden dyspnea, breathlessness at rest, chest pain, fainting, or difficulty breathing when lying down needs urgent/emergency evaluation",bold+red,warning sign
+#/ob-final/week-2,"Objective 06 — Discomforts and warning signs | Backache, leg cramps, and body mechanics","One-sided calf pain, warmth, redness, or swelling is not a routine cramp",red,warning sign
+#/ob-final/week-2,"Objective 06 — Discomforts and warning signs | Backache, leg cramps, and body mechanics",avoid massaging the leg,red,safety caution
+#/ob-final/week-2,"Objective 06 — Discomforts and warning signs | Backache, leg cramps, and body mechanics","Persistent low backache with contractions, pelvic pressure, bleeding, or fluid leakage before 37 weeks can be preterm labor",red,warning sign
+#/ob-final/week-2,"Objective 06 — Discomforts and warning signs | Dependent edema, varicosities, and hemorrhoids",Do not restrict fluids or take diuretics without an order,red,safety caution
+#/ob-final/week-2,"Objective 06 — Discomforts and warning signs | Dependent edema, varicosities, and hemorrhoids","Sudden swelling of face/hands, especially with severe headache, visual disturbance, upper abdominal pain, or high BP, needs prompt evaluation for a hypertensive disorder",red,warning sign
+#/ob-final/week-2,Objective 06 — Discomforts and warning signs | Braxton Hicks versus contractions that need assessment,"Before 37 weeks, seek prompt assessment for possible preterm labor",red,warning sign
+#/ob-final/week-2,Objective 06 — Discomforts and warning signs | Safety check: when comfort measures are not enough,"Call promptly for fever ≥100.4°F (38°C), persistent vomiting/dehydration, severe headache/visual changes, severe abdominal pain, vaginal bleeding, fluid leakage, or preterm-labor symptoms",red,warning sign
+#/ob-final/week-2,Objective 07 — Nutrition and health promotion | Quick answer,Do not abruptly stop essential treatment; untreated illness and withdrawal can also harm pregnancy,red,safety caution
+#/ob-final/week-2,"Objective 07 — Nutrition and health promotion | Food, energy, and weight-gain goals",about +340 calories/day in the second and +450 in the third,bold,critical value
+#/ob-final/week-2,"Objective 07 — Nutrition and health promotion | Food, energy, and weight-gain goals",BMI <18.5: 28–40 lb,bold,critical value
+#/ob-final/week-2,"Objective 07 — Nutrition and health promotion | Food, energy, and weight-gain goals",BMI 18.5–24.9: 25–35 lb,bold,critical value
+#/ob-final/week-2,"Objective 07 — Nutrition and health promotion | Food, energy, and weight-gain goals",BMI 25–29.9: 15–25 lb,bold,critical value
+#/ob-final/week-2,"Objective 07 — Nutrition and health promotion | Food, energy, and weight-gain goals",BMI ≥30: generally 11–20 lb,bold,critical value
+#/ob-final/week-2,Objective 07 — Nutrition and health promotion | Key nutrients and supplement safety,Folic acid before conception and early pregnancy helps prevent neural-tube defects,bold,exam high-yield
+#/ob-final/week-2,Objective 07 — Nutrition and health promotion | Key nutrients and supplement safety,400–800 mcg/day,bold,critical value
+#/ob-final/week-2,Objective 07 — Nutrition and health promotion | Key nutrients and supplement safety,Pregnancy RDA = 27 mg/day,bold,critical value
+#/ob-final/week-2,"Objective 07 — Nutrition and health promotion | Food safety, fish, and caffeine",Heat deli meats/hot dogs to 165°F or steaming hot,bold,critical value
+#/ob-final/week-2,"Objective 07 — Nutrition and health promotion | Food safety, fish, and caffeine",Aim for 8–12 oz/week (2–3 four-ounce servings) of varied cooked lower-mercury fish,bold,critical value
+#/ob-final/week-2,"Objective 07 — Nutrition and health promotion | Food safety, fish, and caffeine",Keep total caffeine below 200 mg/day,bold,critical value
+#/ob-final/week-2,"Objective 07 — Nutrition and health promotion | Activity, rest, hygiene, and everyday safety",aim for at least 150 minutes/week of moderate activity,bold,critical value
+#/ob-final/week-2,"Objective 07 — Nutrition and health promotion | Activity, rest, hygiene, and everyday safety","Stop exercise for bleeding, fluid leakage, dizziness, chest pain, breathing difficulty before exertion, calf pain/swelling, or regular painful contractions",red,warning sign
+#/ob-final/week-2,"Objective 07 — Nutrition and health promotion | Medicines, alcohol, tobacco, and other exposures","There is no known safe amount, time, or type of alcohol in pregnancy",bold,safety caution
+#/ob-final/week-2,"Objective 07 — Nutrition and health promotion | Medicines, alcohol, tobacco, and other exposures",Do not abruptly stop seizure medicines or anticoagulation,red,safety caution
+#/ob-final/week-2,Objective 07 — Nutrition and health promotion | Immunizations: timing and purpose,Do not use the live intranasal influenza vaccine,red,safety caution
+#/ob-final/week-2,Objective 07 — Nutrition and health promotion | Immunizations: timing and purpose,"Give during each pregnancy, preferably early in the 27–36-week window",bold,critical value
+#/ob-final/week-2,Objective 07 — Nutrition and health promotion | Immunizations: timing and purpose,at 32 weeks 0 days–36 weeks 6 days,bold,critical value
+#/ob-final/week-2,Objective 07 — Nutrition and health promotion | Immunizations: timing and purpose,Live MMR and varicella are deferred until postpartum when indicated,red,safety caution
+#/ob-final/week-2,Objective 05 — Prenatal assessment and monitoring | Follow-up visits and the screening timeline,36 weeks 0 days–37 weeks 6 days,bold,critical value
+#/ob-final/week-2,Objective 05 — Prenatal assessment and monitoring | Follow-up visits and the screening timeline,24–28 weeks,bold,critical value
+#/ob-final/week-2,"Objective 05 — Prenatal assessment and monitoring | Fetal growth, heart activity, and movement",10 movements within up to 2 hours,bold,critical value
+#/ob-final/week-3,Objective 01 — Assessing a high-risk pregnancy | Quick answer,risk can exist before conception or develop suddenly,bold,key concept
+#/ob-final/week-3,Objective 01 — Assessing a high-risk pregnancy | Quick answer,"calls for a plan, not a prediction of a poor outcome",bold,key concept
+#/ob-final/week-3,Objective 01 — Assessing a high-risk pregnancy | Quick answer,escalate new warning signs immediately,bold,first action
+#/ob-final/week-3,"Objective 01 — Assessing a high-risk pregnancy | Recognize maternal, fetal, and pregnancy-related risks",Distinguish a screening concern from a confirmed diagnosis,underline,key distinction
+#/ob-final/week-3,Objective 01 — Assessing a high-risk pregnancy | Assess the whole patient and prioritize the findings,Instability takes priority over completing a routine history,bold,first action
+#/ob-final/week-3,Objective 01 — Assessing a high-risk pregnancy | Assess the whole patient and prioritize the findings,a falling platelet count or worsening BP matters even before every diagnostic criterion is met,bold,warning sign
+#/ob-final/week-3,Objective 01 — Assessing a high-risk pregnancy | Match surveillance and referrals to the problem,A nonstress test (NST) evaluates fetal heart-rate reactivity,bold,definition
+#/ob-final/week-3,Objective 01 — Assessing a high-risk pregnancy | Match surveillance and referrals to the problem,"a biophysical profile (BPP) adds ultrasound assessment of movement, tone, breathing, and fluid",bold,definition
+#/ob-final/week-3,Objective 01 — Assessing a high-risk pregnancy | Build and evaluate the nursing plan,routine strict bed rest is not a proven treatment for every high-risk condition and can cause harm,bold,common trap
+#/ob-final/week-3,Objective 01 — Assessing a high-risk pregnancy | Apply it: a risk factor versus an emergency,"Severe headache, visual changes, upper abdominal pain, or severe-range BP",red,warning signs
+#/ob-final/week-3,Objective 01 — Assessing a high-risk pregnancy | Apply it: a risk factor versus an emergency,"Bleeding with faintness, severe pain, chest pain, severe dyspnea, seizure, or reduced fetal movement",bold+red,warning signs
+#/ob-final/week-3,Objective 02 — Early pregnancy complications | prompt,"pregnancy loss, ectopic pregnancy, gestational trophoblastic disease, cervical insufficiency, and hyperemesis",bold,key distinction
+#/ob-final/week-3,Objective 02 — Early pregnancy complications | Quick answer,ectopic pregnancy can cause internal hemorrhage,red,warning
+#/ob-final/week-3,Objective 02 — Early pregnancy complications | Quick answer,Neither one hCG value nor an assumed “doubling” rule independently proves location or viability,bold,common trap
+#/ob-final/week-3,Objective 02 — Early pregnancy complications | Pregnancy loss: distinguish the lecture terms,"bleeding, sometimes cramps, with a closed cervix",bold,definition
+#/ob-final/week-3,Objective 02 — Early pregnancy complications | Pregnancy loss: distinguish the lecture terms,cervical dilation with bleeding/cramping suggests loss is progressing,bold,definition
+#/ob-final/week-3,Objective 02 — Early pregnancy complications | Pregnancy loss: distinguish the lecture terms,requires urgent antibiotics and source control,bold+red,first action
+#/ob-final/week-3,Objective 02 — Early pregnancy complications | Pregnancy loss: distinguish the lecture terms,The slide uses three consecutive losses; contemporary assessment may begin after two losses,underline,common trap
+#/ob-final/week-3,Objective 02 — Early pregnancy complications | Ectopic pregnancy: recognize rupture and follow treatment,absence of risk factors does not rule it out,bold,common trap
+#/ob-final/week-3,Objective 02 — Early pregnancy complications | Ectopic pregnancy: recognize rupture and follow treatment,"Sudden severe abdominal/shoulder pain, dizziness/syncope, tachycardia, or hypotension",bold+red,warning signs
+#/ob-final/week-3,Objective 02 — Early pregnancy complications | Ectopic pregnancy: recognize rupture and follow treatment,do not wait for serial laboratory results,red,first action
+#/ob-final/week-3,Objective 02 — Early pregnancy complications | Gestational trophoblastic disease: molar pregnancy and follow-up,"a partial mole may contain abnormal fetal tissue, so not every molar pregnancy is an “empty sac.”",underline,key distinction
+#/ob-final/week-3,Objective 02 — Early pregnancy complications | Cervical insufficiency: painless dilation is the clue,"SMFM uses ≤25 mm in midpregnancy for a short cervix, not a universal <3-cm rule",bold,critical value
+#/ob-final/week-3,Objective 02 — Early pregnancy complications | Cervical insufficiency: painless dilation is the clue,Cerclage is not automatic for every short cervix or multiple pregnancy,bold,common trap
+#/ob-final/week-3,Objective 02 — Early pregnancy complications | Hyperemesis: restore hydration and nutrition safely,thiamine is given before dextrose-containing fluids/nutrition to reduce Wernicke encephalopathy risk,red,safety priority
+#/ob-final/week-3,Objective 02 — Early pregnancy complications | Hyperemesis: restore hydration and nutrition safely,Do not delay emergency glucose treatment for severe hypoglycemia,red,first action
+#/ob-final/week-3,Objective 03 — Placenta previa and placental abruption | prompt,placenta previa and placental abruption,bold,key distinction
+#/ob-final/week-3,Objective 03 — Placenta previa and placental abruption | Quick answer,classically causes painless bright-red bleeding,bold,definition
+#/ob-final/week-3,Objective 03 — Placenta previa and placental abruption | Quick answer,Bleeding may be concealed in abruption,red,warning
+#/ob-final/week-3,Objective 03 — Placenta previa and placental abruption | Quick answer,Do not perform a digital vaginal examination until previa has been excluded,bold+red,safety caution
+#/ob-final/week-3,"Objective 03 — Placenta previa and placental abruption | Placenta previa: location, risks, and expected pattern",Placenta overlies the internal cervical os,bold,definition
+#/ob-final/week-3,"Objective 03 — Placenta previa and placental abruption | Placenta previa: location, risks, and expected pattern",a low-lying placenta is near but not covering it,underline,key distinction
+#/ob-final/week-3,Objective 03 — Placenta previa and placental abruption | Placental abruption: separation and hidden blood loss,Worsening fetal heart rate or maternal status may be the first sign of severe concealed bleeding,bold,warning sign
+#/ob-final/week-3,Objective 03 — Placenta previa and placental abruption | Diagnostic approach and examination precautions,"A normal ultrasound does not rule out abruption, which is primarily a clinical diagnosis",bold,common trap
+#/ob-final/week-3,Objective 03 — Placenta previa and placental abruption | Diagnostic approach and examination precautions,No digital vaginal examination before previa is excluded,bold+red,safety caution
+#/ob-final/week-3,Objective 03 — Placenta previa and placental abruption | Nursing priorities: stabilize while the team evaluates,Do not delay resuscitation because the initial hemoglobin looks normal,red,first action
+#/ob-final/week-3,Objective 03 — Placenta previa and placental abruption | Birth planning and evaluation,A persistent placenta covering the os generally requires cesarean birth,bold,exam high-yield
+#/ob-final/week-3,Objective 03 — Placenta previa and placental abruption | Birth planning and evaluation,Cesarean is not automatic in every case,bold,key distinction
+#/ob-final/week-3,Objective 04 — Diabetes: screening and assessment | prompt,pregestational diabetes from gestational diabetes,bold,key distinction
+#/ob-final/week-3,Objective 04 — Diabetes: screening and assessment | Quick answer,maternal insulin does not cross in clinically meaningful amounts,underline,key distinction
+#/ob-final/week-3,Objective 04 — Diabetes: screening and assessment | Quick answer,"50-g screen, then a fasting 100-g/3-hour OGTT",bold,exam high-yield
+#/ob-final/week-3,Objective 04 — Diabetes: screening and assessment | Quick answer,A positive screen is not the same as a diagnosis,bold,common trap
+#/ob-final/week-3,"Objective 04 — Diabetes: screening and assessment | Types, timing, and pregnancy metabolism","A1GDM is managed without medication; A2GDM requires medication, often insulin",underline,key distinction
+#/ob-final/week-3,Objective 04 — Diabetes: screening and assessment | Step 1: screening and early assessment,Screen for GDM at 24–28 weeks,bold,critical value
+#/ob-final/week-3,Objective 04 — Diabetes: screening and assessment | Step 1: screening and early assessment,"a cutoff of 130, 135, or 140 mg/dL triggers diagnostic testing",bold,critical value
+#/ob-final/week-3,Objective 04 — Diabetes: screening and assessment | Step 2: interpret the course’s diagnostic OGTT,Fasting 95; 1 hour 180; 2 hours 155; 3 hours 140 mg/dL,bold,critical value
+#/ob-final/week-3,Objective 04 — Diabetes: screening and assessment | Step 2: interpret the course’s diagnostic OGTT,Values AT OR ABOVE the thresholds are abnormal,bold,critical value
+#/ob-final/week-3,Objective 04 — Diabetes: screening and assessment | Step 2: interpret the course’s diagnostic OGTT,At least two of the FOUR values are generally required under this approach,bold,key distinction
+#/ob-final/week-3,Objective 04 — Diabetes: screening and assessment | Step 2: interpret the course’s diagnostic OGTT,the slide’s “two out of three” is an error,bold,common trap
+#/ob-final/week-3,"Objective 04 — Diabetes: screening and assessment | Connect glucose exposure to maternal, fetal, and newborn risks","Excess glucose → fetal hyperinsulinemia → increased growth/adiposity, macrosomia",bold,key concept
+#/ob-final/week-3,"Objective 04 — Diabetes: screening and assessment | Connect glucose exposure to maternal, fetal, and newborn risks",Placental glucose supply stops while the newborn’s insulin may remain high → neonatal hypoglycemia,bold,exam high-yield
+#/ob-final/week-3,Objective 04 — Diabetes: screening and assessment | Nursing assessment and diagnostic limits,raises concern for DKA even with less dramatic hyperglycemia in pregnancy,red,warning
+#/ob-final/week-3,Objective 05 — Diabetes: nursing care and teaching | prompt,"glucose monitoring, nutrition, activity, prescribed medication, and fetal surveillance",bold,exam high-yield
+#/ob-final/week-3,Objective 05 — Diabetes: nursing care and teaching | Quick answer,essential insulin must not be stopped simply because the patient is vomiting or not eating,red,safety caution
+#/ob-final/week-3,Objective 05 — Diabetes: nursing care and teaching | Monitoring: connect the number to its timing,"fasting <95 mg/dL, 1-hour after meals <140, or 2-hour after meals <120",bold,critical value
+#/ob-final/week-3,Objective 05 — Diabetes: nursing care and teaching | Monitoring: connect the number to its timing,do not confuse these treatment goals with diagnostic OGTT thresholds,underline,common trap
+#/ob-final/week-3,Objective 05 — Diabetes: nursing care and teaching | Medication teaching and changing insulin needs,Preferred pharmacologic treatment for many pregnancies complicated by diabetes,bold,exam high-yield
+#/ob-final/week-3,Objective 05 — Diabetes: nursing care and teaching | Medication teaching and changing insulin needs,metformin and glyburide cross the placenta and are not recommended as first-line agents,bold,exam high-yield
+#/ob-final/week-3,"Objective 05 — Diabetes: nursing care and teaching | Hypoglycemia: recognize, treat, and reassess",For glucose <70 mg/dL,bold,critical value
+#/ob-final/week-3,"Objective 05 — Diabetes: nursing care and teaching | Hypoglycemia: recognize, treat, and reassess","15 g of fast-acting carbohydrate, rechecks in 15 minutes",bold,first action
+#/ob-final/week-3,"Objective 05 — Diabetes: nursing care and teaching | Hypoglycemia: recognize, treat, and reassess",Give nothing by mouth,red,safety caution
+#/ob-final/week-3,"Objective 05 — Diabetes: nursing care and teaching | Hyperglycemia, illness, and DKA",Never stop basal insulin in type 1 diabetes without a supervised replacement plan,red,safety caution
+#/ob-final/week-3,Objective 05 — Diabetes: nursing care and teaching | Fetal surveillance and intrapartum care,Birth timing/mode is individualized rather than automatic cesarean for diabetes,underline,key distinction
+#/ob-final/week-3,Objective 05 — Diabetes: nursing care and teaching | Postpartum and long-term follow-up,Arrange a fasting 75-g OGTT at 4–12 weeks postpartum using NONPREGNANCY criteria,bold,critical value
+#/ob-final/week-3,Objective 05 — Diabetes: nursing care and teaching | Postpartum and long-term follow-up,lifelong diabetes screening at least every 1–3 years,bold,exam high-yield
+#/ob-final/week-3,Objective 06 — Hypertension and preeclampsia | prompt,"chronic hypertension, gestational hypertension, and preeclampsia",bold,key distinction
+#/ob-final/week-3,Objective 06 — Hypertension and preeclampsia | Quick answer,Preeclampsia does not require proteinuria when other diagnostic features are present,bold,common trap
+#/ob-final/week-3,Objective 06 — Hypertension and preeclampsia | Classify the disorder and recognize overlap,Present before pregnancy or diagnosed before 20 weeks,bold,definition
+#/ob-final/week-3,Objective 06 — Hypertension and preeclampsia | Diagnostic assessment: use correct measurements and units,Systolic ≥140 OR diastolic ≥90 mm Hg,bold,critical value
+#/ob-final/week-3,Objective 06 — Hypertension and preeclampsia | Diagnostic assessment: use correct measurements and units,Systolic ≥160 OR diastolic ≥110 needs immediate escalation,bold+red,critical value
+#/ob-final/week-3,Objective 06 — Hypertension and preeclampsia | Diagnostic assessment: use correct measurements and units,Do not wait the slide’s 6 hours,red,first action
+#/ob-final/week-3,Objective 06 — Hypertension and preeclampsia | Diagnostic assessment: use correct measurements and units,within 30–60 minutes of confirmed severe hypertension,bold,critical value
+#/ob-final/week-3,Objective 06 — Hypertension and preeclampsia | Diagnostic assessment: use correct measurements and units,Proteinuria: ≥300 mg/24 hours or urine protein/creatinine ratio ≥0.3,bold,critical value
+#/ob-final/week-3,Objective 06 — Hypertension and preeclampsia | Severe features and findings that need escalation,"platelets <100,000/µL",bold,critical value
+#/ob-final/week-3,Objective 06 — Hypertension and preeclampsia | Severe features and findings that need escalation,creatinine >1.1 mg/dL/doubling,bold,critical value
+#/ob-final/week-3,Objective 06 — Hypertension and preeclampsia | Severe features and findings that need escalation,edema alone is not diagnostic,bold,common trap
+#/ob-final/week-3,Objective 06 — Hypertension and preeclampsia | Why mother and fetus are at risk,Excess IV fluid can worsen pulmonary edema,red,safety caution
+#/ob-final/week-3,"Objective 06 — Hypertension and preeclampsia | Nursing care, prevention, and follow-up","low-dose aspirin 81 mg/day starting at 12–28 weeks, ideally before 16 weeks",bold,critical value
+#/ob-final/week-3,"Objective 06 — Hypertension and preeclampsia | Nursing care, prevention, and follow-up",magnesium prevents/treats seizures rather than replacing BP control,underline,key distinction
+#/ob-final/week-3,"Objective 06 — Hypertension and preeclampsia | Nursing care, prevention, and follow-up",Risk does not disappear immediately after birth,bold,warning
+#/ob-final/week-3,"Objective 07 — Eclampsia, HELLP, and medication safety | prompt",eclampsia and HELLP syndrome,bold,key distinction
+#/ob-final/week-3,"Objective 07 — Eclampsia, HELLP, and medication safety | Quick answer",Magnesium sulfate prevents/treats seizures; antihypertensives treat severe BP,underline,key distinction
+#/ob-final/week-3,"Objective 07 — Eclampsia, HELLP, and medication safety | Quick answer","HELLP = hemolysis, elevated liver enzymes, and low platelets",bold,definition
+#/ob-final/week-3,"Objective 07 — Eclampsia, HELLP, and medication safety | During a seizure: protect oxygenation and prevent injury",Do not restrain the limbs or place anything in the mouth,red,safety caution
+#/ob-final/week-3,"Objective 07 — Eclampsia, HELLP, and medication safety | During a seizure: protect oxygenation and prevent injury",Stabilize the mother before deciding timing/mode of birth,bold,first action
+#/ob-final/week-3,"Objective 07 — Eclampsia, HELLP, and medication safety | Magnesium therapy: indication and safe administration",4–6-g loading dose followed by 1–2 g/hour,bold,critical value
+#/ob-final/week-3,"Objective 07 — Eclampsia, HELLP, and medication safety | Monitor effect and distinguish toxicity",respirations <12/min or urine output <25–30 mL/hour,bold,critical value
+#/ob-final/week-3,"Objective 07 — Eclampsia, HELLP, and medication safety | Monitor effect and distinguish toxicity",do not wait for those limits if the patient deteriorates,red,first action
+#/ob-final/week-3,"Objective 07 — Eclampsia, HELLP, and medication safety | Suspected magnesium toxicity: stop, call, support",Stop the magnesium infusion and call the obstetric/emergency team,bold+red,first action
+#/ob-final/week-3,"Objective 07 — Eclampsia, HELLP, and medication safety | Suspected magnesium toxicity: stop, call, support","the ordered antidote, calcium gluconate",bold,exam high-yield
+#/ob-final/week-3,"Objective 07 — Eclampsia, HELLP, and medication safety | HELLP: connect each letter with the evidence","A platelet count <100,000/µL is a common complete-HELLP criterion",bold,critical value
+#/ob-final/week-3,"Objective 07 — Eclampsia, HELLP, and medication safety | HELLP: connect each letter with the evidence","A count <150,000 is abnormal in some contexts but is not by itself a diagnosis of HELLP",underline,key distinction
+#/ob-final/week-3,"Objective 07 — Eclampsia, HELLP, and medication safety | Antihypertensives and evaluation of the response",oral immediate-release nifedipine is not given sublingually,red,safety caution
+#/ob-final/week-3,"Objective 07 — Eclampsia, HELLP, and medication safety | Antihypertensives and evaluation of the response",Do not increase magnesium because the original diagnosis involved hyperreflexia,red,common trap
+#/ob-final/week-3,Objective 08 — Membrane rupture and preterm risk | prompt,"PROM, PPROM, and preterm labor",bold,key distinction
+#/ob-final/week-3,Objective 08 — Membrane rupture and preterm risk | Quick answer,PROM means membranes rupture before labor; PPROM is PROM before 37 weeks,bold,definition
+#/ob-final/week-3,Objective 08 — Membrane rupture and preterm risk | Quick answer,Avoid unnecessary digital examinations,red,safety caution
+#/ob-final/week-3,Objective 08 — Membrane rupture and preterm risk | Separate the terms and recognize presenting cues,“PROM” does not always mean preterm,underline,common trap
+#/ob-final/week-3,Objective 08 — Membrane rupture and preterm risk | Assess suspected rupture without increasing risk,new bradycardia after a gush requires urgent evaluation for cord complications,bold+red,warning
+#/ob-final/week-3,Objective 08 — Membrane rupture and preterm risk | Assess suspected rupture without increasing risk,an equivocal result requires clinical follow-up rather than certainty from nitrazine alone,bold,common trap
+#/ob-final/week-3,Objective 08 — Membrane rupture and preterm risk | Assess suspected rupture without increasing risk,Avoid routine/repeated digital cervical examinations unless needed for an imminent birth or specific emergency,red,safety caution
+#/ob-final/week-3,Objective 08 — Membrane rupture and preterm risk | Collaborative management depends on gestation and stability,Do not promise that the leak will seal or that waiting guarantees fetal benefit,bold,safety caution
+#/ob-final/week-3,Objective 08 — Membrane rupture and preterm risk | Collaborative management depends on gestation and stability,"Fever, uterine tenderness, foul fluid, or maternal/fetal tachycardia warrants evaluation",red,warning signs
+#/ob-final/week-3,Objective 08 — Membrane rupture and preterm risk | Know what each medication is intended to do,commonly at 24–33 weeks 6 days,bold,critical value
+#/ob-final/week-3,Objective 08 — Membrane rupture and preterm risk | Know what each medication is intended to do,do not delay indicated birth to finish a course,red,first action
+#/ob-final/week-3,Objective 08 — Membrane rupture and preterm risk | Know what each medication is intended to do,"fetal neuroprotection with anticipated very preterm birth, generally before 32 weeks",bold,exam high-yield
+#/ob-final/week-3,Objective 08 — Membrane rupture and preterm risk | Know what each medication is intended to do,Do not teach prolonged/outpatient terbutaline or long-term magnesium as a standard prevention plan,bold,safety caution
+#/ob-final/week-3,Objective 08 — Membrane rupture and preterm risk | Nursing follow-up and return precautions,suspected rupture needs assessment even if the leakage later seems to stop,bold,warning
+#/ob-final/week-3,Objective 09 — Alloimmunization and infection prevention | prompt,Rh and ABO incompatibility,bold,key distinction
+#/ob-final/week-3,Objective 09 — Alloimmunization and infection prevention | Quick answer,antibodies may cross the placenta and cause fetal/newborn hemolysis,bold,key concept
+#/ob-final/week-3,Objective 09 — Alloimmunization and infection prevention | Rh incompatibility: explain sensitization and fetal risk,Do not assume the first fetus is safe,bold,common trap
+#/ob-final/week-3,Objective 09 — Alloimmunization and infection prevention | Screening and indicated Rh immune globulin,anti-D is commonly given around 28 weeks and within 72 hours after an Rh-positive newborn,bold,critical value
+#/ob-final/week-3,Objective 09 — Alloimmunization and infection prevention | Screening and indicated Rh immune globulin,The antenatal dose does not automatically replace the postpartum dose,underline,common trap
+#/ob-final/week-3,Objective 09 — Alloimmunization and infection prevention | Screening and indicated Rh immune globulin,RhIg prevents sensitization; it does not erase existing anti-D or treat an already anemic fetus,underline,key distinction
+#/ob-final/week-3,Objective 09 — Alloimmunization and infection prevention | ABO incompatibility: newborn follow-up still matters,There is no ABO equivalent of routine maternal anti-D prophylaxis,bold,exam high-yield
+#/ob-final/week-3,"Objective 09 — Alloimmunization and infection prevention | TORCH: toxoplasmosis, rubella, and syphilis","live MMR is given before pregnancy or postpartum when indicated, not during pregnancy",red,safety caution
+#/ob-final/week-3,Objective 09 — Alloimmunization and infection prevention | TORCH: CMV and herpes simplex,arrange timely saliva/urine PCR testing in the first 21 days,bold,critical value
+#/ob-final/week-3,Objective 09 — Alloimmunization and infection prevention | TORCH: CMV and herpes simplex,Active genital lesions or prodromal symptoms generally indicate cesarean birth,bold,exam high-yield
+#/ob-final/week-3,Objective 09 — Alloimmunization and infection prevention | TORCH: CMV and herpes simplex,"TORCH is a reminder of possible congenital/perinatal infections, not one diagnosis",underline,key distinction
+#/ob-final/week-3,Objective 09 — Alloimmunization and infection prevention | GBS: current-pregnancy screening and intrapartum prevention,Routine vaginal–rectal culture at 36 weeks 0 days–37 weeks 6 days,bold,critical value
+#/ob-final/week-3,Objective 09 — Alloimmunization and infection prevention | GBS: current-pregnancy screening and intrapartum prevention,"Four hours of appropriate antibiotics before birth is ideal, but necessary obstetric care must not be delayed solely to achieve that interval",bold,first action
+#/ob-final/week-3,Objective 10 — Amniotic fluid disorders and multiple gestation | prompt,oligohydramnios and polyhydramnios,bold,key distinction
+#/ob-final/week-3,Objective 10 — Amniotic fluid disorders and multiple gestation | Quick answer,Chorionicity/amnionicity—not just whether twins are identical—guides surveillance and birth planning,underline,key distinction
+#/ob-final/week-3,Objective 10 — Amniotic fluid disorders and multiple gestation | Fluid physiology and ultrasound measurements,"These are estimates, not exact liters",underline,common trap
+#/ob-final/week-3,Objective 10 — Amniotic fluid disorders and multiple gestation | Fluid physiology and ultrasound measurements,Oligohydramnios commonly uses DVP <2 cm or AFI ≤5 cm,bold,critical value
+#/ob-final/week-3,Objective 10 — Amniotic fluid disorders and multiple gestation | Fluid physiology and ultrasound measurements,SMFM defines polyhydramnios in singletons as DVP ≥8 cm or AFI ≥24 cm,bold,critical value
+#/ob-final/week-3,Objective 10 — Amniotic fluid disorders and multiple gestation | Oligohydramnios: find the reason for low fluid,Do not interpret the slide’s “isolated low fluid is not associated with risk” as universal reassurance,bold,common trap
+#/ob-final/week-3,Objective 10 — Amniotic fluid disorders and multiple gestation | Polyhydramnios: excess urine or impaired swallowing,"increased risk of malpresentation, preterm labor, cord prolapse after rupture, abruption, and postpartum hemorrhage from overdistension",bold,warning
+#/ob-final/week-3,Objective 10 — Amniotic fluid disorders and multiple gestation | Polyhydramnios: excess urine or impaired swallowing,SMFM advises against indomethacin solely to reduce fluid,bold,exam high-yield
+#/ob-final/week-3,"Objective 10 — Amniotic fluid disorders and multiple gestation | Multiple gestation: assess placentas, sacs, and growth",Monochorionic twins can develop twin–twin transfusion syndrome (TTTS),bold,exam high-yield
+#/ob-final/week-3,"Objective 10 — Amniotic fluid disorders and multiple gestation | Multiple gestation: assess placentas, sacs, and growth",twins do not automatically require cesarean,bold,common trap
+#/ob-final/week-3,"Objective 10 — Amniotic fluid disorders and multiple gestation | Nursing surveillance, teaching, and evaluation",urgent fetal assessment is important because of cord-prolapse risk,bold,first action
+#/ob-final/week-3,Objective 11 — Placental emergencies and hemorrhage response | prompt,"shock or coagulopathy, including DIC",bold,key distinction
+#/ob-final/week-3,Objective 11 — Placental emergencies and hemorrhage response | Quick answer,Visible blood loss can underestimate abruption,red,warning
+#/ob-final/week-3,Objective 11 — Placental emergencies and hemorrhage response | Quick answer,Do not perform a digital vaginal exam before previa is excluded,bold+red,safety caution
+#/ob-final/week-3,Objective 11 — Placental emergencies and hemorrhage response | First response: recognize severity and summon the team,Activate the hemorrhage pathway early,bold,first action
+#/ob-final/week-3,Objective 11 — Placental emergencies and hemorrhage response | First response: recognize severity and summon the team,No digital vaginal examination until previa is excluded,bold+red,safety caution
+#/ob-final/week-3,Objective 11 — Placental emergencies and hemorrhage response | Restore perfusion and prepare blood-product support,An initially normal hemoglobin does not exclude acute hemorrhage,bold,common trap
+#/ob-final/week-3,Objective 11 — Placental emergencies and hemorrhage response | DIC: simultaneous clotting and bleeding,it is not merely “a low platelet count.”,underline,common trap
+#/ob-final/week-3,Objective 11 — Placental emergencies and hemorrhage response | DIC: simultaneous clotting and bleeding,"Fibrinogen normally rises in pregnancy, so a falling or unexpectedly low value matters",bold,exam high-yield
+#/ob-final/week-3,Objective 11 — Placental emergencies and hemorrhage response | DIC: simultaneous clotting and bleeding,Do not delay action until every test is abnormal,red,first action
+#/ob-final/week-3,Objective 11 — Placental emergencies and hemorrhage response | Prepare for birth and communicate the plan,Maternal resuscitation and preparation for indicated birth occur together,bold,first action
+#/ob-final/week-3,Objective 11 — Placental emergencies and hemorrhage response | Reassess through birth and postpartum,"Persistent tachycardia, oliguria, or oozing",red,warning
+#/ob-final/week-3,Objective 11 — Placental emergencies and hemorrhage response | Reassess through birth and postpartum,Completion of birth does not mean hemorrhage or DIC has resolved,bold,warning
+#/ob-final/week-3,Objective 02 — Early pregnancy complications | Ectopic pregnancy: recognize rupture and follow treatment,"Selected stable, unruptured cases may receive methotrexate",bold,exam high-yield
+#/ob-final/week-3,"Objective 06 — Hypertension and preeclampsia | Nursing care, prevention, and follow-up",Delivery of the placenta is central to definitive management,bold,exam high-yield
+#/ob-final/week-3,Objective 11 — Placental emergencies and hemorrhage response | DIC: simultaneous clotting and bleeding,Widespread coagulation consumes platelets/fibrinogen,bold,mechanism
+#/ob-final/week-3,Objective 11 — Placental emergencies and hemorrhage response | DIC: simultaneous clotting and bleeding,"Oozing from IV/puncture sites, mucosal bleeding",red,warning signs
+#/ob-final/week-3,Objective 11 — Placental emergencies and hemorrhage response | Restore perfusion and prepare blood-product support,Do not apply routine oxygen solely to treat a fetal tracing,bold,key distinction
+#/ob-final/week-5,Objective 01 — Preparing for labor and birth | prompt,Distinguish true from false labor,bold,key distinction
+#/ob-final/week-5,Objective 01 — Preparing for labor and birth | Quick answer,progressive cervical dilation/effacement,bold,key distinction
+#/ob-final/week-5,Objective 01 — Preparing for labor and birth | Quick answer,onset to full dilation; full dilation to birth; birth to placenta; and early recovery,bold,exam high-yield
+#/ob-final/week-5,Objective 01 — Preparing for labor and birth | Recognize approaching labor and distinguish true from false labor,Lightening is descent into the pelvis,bold,definition
+#/ob-final/week-5,Objective 01 — Preparing for labor and birth | Recognize approaching labor and distinguish true from false labor,Contractions continue despite position changes,bold,key distinction
+#/ob-final/week-5,Objective 01 — Preparing for labor and birth | Recognize approaching labor and distinguish true from false labor,"rupture, bleeding, decreased movement",red,warning signs
+#/ob-final/week-5,Objective 01 — Preparing for labor and birth | Use the 5 P’s to explain progress,Passageway = bony pelvis and soft tissues,bold,definition
+#/ob-final/week-5,Objective 01 — Preparing for labor and birth | Use the 5 P’s to explain progress,Passenger = fetus and placenta,bold,definition
+#/ob-final/week-5,Objective 01 — Preparing for labor and birth | Use the 5 P’s to explain progress,Relaxation between contractions allows placental blood flow to recover,bold,key concept
+#/ob-final/week-5,"Objective 01 — Preparing for labor and birth | Separate dilation, effacement, engagement, and station",Dilation = opening from 0 to 10 cm,bold,definition
+#/ob-final/week-5,"Objective 01 — Preparing for labor and birth | Separate dilation, effacement, engagement, and station",Effacement = thinning/shortening from 0% to 100%,bold,definition
+#/ob-final/week-5,"Objective 01 — Preparing for labor and birth | Separate dilation, effacement, engagement, and station","0 at the spines, negative above, positive below",bold,definition
+#/ob-final/week-5,"Objective 01 — Preparing for labor and birth | Identify fetal lie, presentation, attitude, and position",Presentation is the part entering first,bold,definition
+#/ob-final/week-5,"Objective 01 — Preparing for labor and birth | Identify fetal lie, presentation, attitude, and position",Engagement → descent → flexion → internal rotation → extension → external rotation/restitution → expulsion,bold,exam high-yield
+#/ob-final/week-5,Objective 01 — Preparing for labor and birth | First and second stages: cervical progress and birth,"latent (about 0–5 cm), active beginning at 6 cm, and transition (8–10 cm)",bold,critical values
+#/ob-final/week-5,"Objective 01 — Preparing for labor and birth | Third and fourth stages: placenta, recovery, and support","a rising/globular uterus, cord lengthening, and a gush/trickle of blood",bold,definition
+#/ob-final/week-5,"Objective 01 — Preparing for labor and birth | Third and fourth stages: placenta, recovery, and support",up to 4 hours,bold,key fact
+#/ob-final/week-5,Objective 02 — Maternal assessment during labor | prompt,"contractions, membrane status, pain, coping, and birth preferences",bold,exam high-yield
+#/ob-final/week-5,Objective 02 — Maternal assessment during labor | prompt,changes requiring escalation,bold,key concept
+#/ob-final/week-5,Objective 02 — Maternal assessment during labor | Quick answer,rather than treating a monitor reading in isolation,bold,common trap
+#/ob-final/week-5,Objective 02 — Maternal assessment during labor | Admission history and birth preferences,prior birth methods and uterine incision type,bold,key fact
+#/ob-final/week-5,"Objective 02 — Maternal assessment during labor | Assess contractions, membranes, and fetal position",Frequency: beginning of one to beginning of the next,bold,definition
+#/ob-final/week-5,"Objective 02 — Maternal assessment during labor | Assess contractions, membranes, and fetal position",Duration: beginning to end of one contraction,bold,definition
+#/ob-final/week-5,"Objective 02 — Maternal assessment during labor | Assess contractions, membranes, and fetal position",Green/particulate fluid may indicate meconium,red,warning sign
+#/ob-final/week-5,Objective 02 — Maternal assessment during labor | Prepare for and document indicated vaginal assessment,Limit unnecessary repeated examinations,bold,safety caution
+#/ob-final/week-5,Objective 02 — Maternal assessment during labor | Prepare for and document indicated vaginal assessment,Unexplained bleeding or suspected previa requires review before a digital examination,bold+red,safety caution
+#/ob-final/week-5,Objective 02 — Maternal assessment during labor | Ongoing maternal assessment and coping,do not dismiss a concerning change as automatically normal,bold,common trap
+#/ob-final/week-5,"Objective 02 — Maternal assessment during labor | Documentation, communication, and escalation","Escalate significant bleeding, persistent maternal instability, respiratory suppression/hypotension after medication",red,escalation triggers
+#/ob-final/week-5,"Objective 02 — Maternal assessment during labor | Documentation, communication, and escalation",timely reporting and follow-up for abnormal FHR patterns,bold,key concept
+#/ob-final/week-5,Objective 03 — Fetal monitoring methods | prompt,intermittent assessment and external and internal electronic monitoring,bold,key distinction
+#/ob-final/week-5,Objective 03 — Fetal monitoring methods | prompt,the requirements for internal monitoring,bold,exam high-yield
+#/ob-final/week-5,Objective 03 — Fetal monitoring methods | Quick answer,The external ultrasound transducer detects FHR; the external toco tracks contraction timing,bold,key distinction
+#/ob-final/week-5,Objective 03 — Fetal monitoring methods | Quick answer,Internal monitoring requires ruptured membranes and suitable access/presentation,bold,exam high-yield
+#/ob-final/week-5,Objective 03 — Fetal monitoring methods | Intermittent assessment and the lecture’s timing examples,does not provide the same continuous paper pattern for detailed variability/deceleration analysis,bold,key limitation
+#/ob-final/week-5,Objective 03 — Fetal monitoring methods | Intermittent assessment and the lecture’s timing examples,"first-stage intervals of 30 minutes for low risk/15 for high risk, and second-stage intervals of 15/5 minutes",bold,critical values
+#/ob-final/week-5,Objective 03 — Fetal monitoring methods | External EFM: ultrasound and toco do different jobs,"Placed where the fetal heart is best heard, generally over the fetal back",bold,key fact
+#/ob-final/week-5,Objective 03 — Fetal monitoring methods | External EFM: ultrasound and toco do different jobs,its displayed height is not a reliable measurement of true contraction strength,bold,common trap
+#/ob-final/week-5,Objective 03 — Fetal monitoring methods | Internal EFM: scalp electrode and IUPC,"ruptured membranes, at least about 2 cm dilation, and an accessible presenting part low enough for placement",bold,critical values
+#/ob-final/week-5,Objective 03 — Fetal monitoring methods | Internal EFM: scalp electrode and IUPC,"An IUPC measures contraction pressure, including intensity and resting pressure",bold,definition
+#/ob-final/week-5,Objective 03 — Fetal monitoring methods | Internal EFM: scalp electrode and IUPC,It does not itself record the FHR,underline,key distinction
+#/ob-final/week-5,"Objective 03 — Fetal monitoring methods | Interpret and communicate, whichever method is used","what is the finding called, what does it mean, and what should be done?",bold,exam high-yield
+#/ob-final/week-5,Objective 04 — Read a fetal heart rate strip | prompt,"Use a consistent sequence to assess a strip: baseline, variability, accelerations, decelerations, and uterine activity",bold,exam high-yield
+#/ob-final/week-5,Objective 04 — Read a fetal heart rate strip | prompt,recognize tachysystole,bold,key term
+#/ob-final/week-5,Objective 04 — Read a fetal heart rate strip | Quick answer,The lecture’s usual baseline is 110–160 bpm and moderate variability is 6–25 bpm,bold,critical values
+#/ob-final/week-5,Objective 04 — Read a fetal heart rate strip | Quick answer,"Measure contraction frequency start-to-start, duration start-to-end, and the relaxation interval between contractions",bold,definition
+#/ob-final/week-5,Objective 04 — Read a fetal heart rate strip | Quick answer,Excessive activity can reduce the time available for placental perfusion,bold,key concept
+#/ob-final/week-5,Objective 04 — Read a fetal heart rate strip | Baseline: establish the reference before naming changes,"Estimate the mean FHR in a 10-minute window, rounded to 5 bpm, excluding accelerations, decelerations, and marked variability",bold,definition
+#/ob-final/week-5,Objective 04 — Read a fetal heart rate strip | Baseline: establish the reference before naming changes,A sustained baseline >160 is tachycardia; <110 is bradycardia,bold,critical values
+#/ob-final/week-5,Objective 04 — Read a fetal heart rate strip | Variability: describe the fluctuations around baseline,Absent = not detectable; minimal = detectable but ≤5 bpm; moderate = 6–25 bpm; marked = >25 bpm,bold,critical values
+#/ob-final/week-5,Objective 04 — Read a fetal heart rate strip | Variability: describe the fluctuations around baseline,Moderate variability is reassuring at the time assessed,bold,key concept
+#/ob-final/week-5,Objective 04 — Read a fetal heart rate strip | Variability: describe the fluctuations around baseline,Minimal or absent variability alone does not prove fetal acidemia,bold,common trap
+#/ob-final/week-5,Objective 04 — Read a fetal heart rate strip | Accelerations and decelerations: name and time the event,a rise ≥15 bpm lasting ≥15 seconds but <2 minutes,bold,critical values
+#/ob-final/week-5,Objective 04 — Read a fetal heart rate strip | Accelerations and decelerations: name and time the event,the lecture’s “less than 30 seconds” confuses the rapid onset with the full duration,bold,common trap
+#/ob-final/week-5,"Objective 04 — Read a fetal heart rate strip | Uterine activity: frequency, duration, intensity, and rest",The resting interval runs from the end of one contraction to the start of the next,bold,definition
+#/ob-final/week-5,"Objective 04 — Read a fetal heart rate strip | Uterine activity: frequency, duration, intensity, and rest","More than 5 contractions in 10 minutes, averaged over 30 minutes",bold,critical value
+#/ob-final/week-5,"Objective 04 — Read a fetal heart rate strip | Uterine activity: frequency, duration, intensity, and rest",do not wait for the averaging window to finish before responding to acute compromise,red,safety caution
+#/ob-final/week-5,Objective 04 — Read a fetal heart rate strip | Finish with a complete interpretation,document the change rather than only writing “provider notified.”,bold,common trap
+#/ob-final/week-5,Objective 05 — Decelerations and tracing categories | prompt,"early, variable, late, and prolonged decelerations",bold,exam high-yield
+#/ob-final/week-5,Objective 05 — Decelerations and tracing categories | prompt,"Category I, II, and III patterns",bold,exam high-yield
+#/ob-final/week-5,Objective 05 — Decelerations and tracing categories | Quick answer,Early decelerations gradually mirror the contraction and are linked with head compression,bold,definition
+#/ob-final/week-5,Objective 05 — Decelerations and tracing categories | Quick answer,variable decelerations are abrupt and commonly reflect cord compression,bold,definition
+#/ob-final/week-5,Objective 05 — Decelerations and tracing categories | Quick answer,late decelerations are delayed and suggest impaired uteroplacental exchange,bold,definition
+#/ob-final/week-5,Objective 05 — Decelerations and tracing categories | Quick answer,A prolonged deceleration is a drop ≥15 bpm lasting 2 to <10 minutes,bold,critical values
+#/ob-final/week-5,Objective 05 — Decelerations and tracing categories | Quick answer,"Category I is reassuring, II requires evaluation and continued surveillance, and III requires urgent assessment/intervention",bold,exam high-yield
+#/ob-final/week-5,Objective 05 — Decelerations and tracing categories | Early versus late: compare timing with the contraction,Early decelerations alone are not evidence of fetal distress,bold,common trap
+#/ob-final/week-5,Objective 05 — Decelerations and tracing categories | Early versus late: compare timing with the contraction,the nadir follows the contraction peak and recovery occurs later,bold,definition
+#/ob-final/week-5,Objective 05 — Decelerations and tracing categories | Variable and prolonged decelerations,A tracing does not by itself identify which cause is present; urgently assess the patient and obtain help,red,safety caution
+#/ob-final/week-5,Objective 05 — Decelerations and tracing categories | Category I: all reassuring criteria must fit,Baseline 110–160 bpm with moderate variability,bold,critical values
+#/ob-final/week-5,Objective 05 — Decelerations and tracing categories | Category I: all reassuring criteria must fit,No late or variable decelerations; early decelerations may be present or absent,bold,definition
+#/ob-final/week-5,Objective 05 — Decelerations and tracing categories | Category II: evaluate the indeterminate pattern,Indeterminate is not the same as reassuring,underline,key distinction
+#/ob-final/week-5,Objective 05 — Decelerations and tracing categories | Category III: the missing combination matters,"Absent baseline variability PLUS recurrent late decelerations, recurrent variable decelerations, or bradycardia; OR a sinusoidal pattern",bold+red,critical values
+#/ob-final/week-5,Objective 05 — Decelerations and tracing categories | Category III: the missing combination matters,"If the abnormal pattern does not resolve, prepare for expedited birth as directed",red,first action
+#/ob-final/week-5,Objective 06 — Choose the first nursing action | prompt,"identify the priority concern, select and explain the first nursing action",bold,exam high-yield
+#/ob-final/week-5,Objective 06 — Choose the first nursing action | Quick answer,"name the finding, interpret its likely meaning, choose an action aimed at the cause, and reassess",bold,exam high-yield
+#/ob-final/week-5,Objective 06 — Choose the first nursing action | Quick answer,do not use the same treatment automatically for every pattern,bold,common trap
+#/ob-final/week-5,Objective 06 — Choose the first nursing action | Choose the first action from the whole situation,promptly reposition laterally and address the apparent contributor,bold,first action
+#/ob-final/week-5,Objective 06 — Choose the first nursing action | Choose the first action from the whole situation,stop oxytocin when excessive stimulation or a concerning pattern requires it,bold,first action
+#/ob-final/week-5,Objective 06 — Choose the first nursing action | Choose the first action from the whole situation,Obtain urgent help in parallel for severe/persistent abnormalities,red,first action
+#/ob-final/week-5,Objective 06 — Choose the first nursing action | Supplied strip 1: early decelerations — page 27,continue appropriate observation and labor support rather than treating early decelerations alone as an emergency,underline,key distinction
+#/ob-final/week-5,Objective 06 — Choose the first nursing action | Supplied strip 2: late decelerations — page 28,"Promptly reposition on the side; assess maternal BP and uterine activity, stop oxytocin when indicated, and notify the provider",bold,first action
+#/ob-final/week-5,Objective 06 — Choose the first nursing action | Supplied strip 2: late decelerations — page 28,Persistent/recurrent deterioration requires further team assessment and an expedited-birth plan when indicated,red,escalation
+#/ob-final/week-5,Objective 06 — Choose the first nursing action | Compare the lecture’s variable and prolonged responses,evaluate for cord prolapse when indicated,bold,safety caution
+#/ob-final/week-5,Objective 06 — Choose the first nursing action | Compare the lecture’s variable and prolonged responses,Do not delay escalation to complete a routine strip description,red,safety caution
+#/ob-final/week-5,Objective 06 — Choose the first nursing action | Compare the lecture’s variable and prolonged responses,Current guidance does not recommend routine oxygen for an abnormal tracing when maternal oxygen saturation is normal,bold,safety clarification
+#/ob-final/week-5,Objective 06 — Choose the first nursing action | Document the response and the next step,“Repositioned and notified” is incomplete without the follow-up assessment,bold,common trap
+#/ob-final/week-5,Objective 06 — Choose the first nursing action | Document the response and the next step,priority concern → first action and reason → further interventions/escalation → evidence of response,bold,exam high-yield
+#/ob-final/week-5,"Objective 07 — Comfort, analgesia, and anesthesia | prompt","nonpharmacological comfort measures, systemic analgesia, regional anesthesia, and general anesthesia",bold,key distinction
+#/ob-final/week-5,"Objective 07 — Comfort, analgesia, and anesthesia | prompt","contraindications, adverse effects, and the nursing response to complications",bold,exam high-yield
+#/ob-final/week-5,"Objective 07 — Comfort, analgesia, and anesthesia | Quick answer",respiratory depression after systemic medication and hypotension after neuraxial anesthesia,bold,key risks
+#/ob-final/week-5,"Objective 07 — Comfort, analgesia, and anesthesia | Nonpharmacological comfort and labor support",A doula supports labor and coping and is not the same role as a midwife,underline,key distinction
+#/ob-final/week-5,"Objective 07 — Comfort, analgesia, and anesthesia | Nonpharmacological comfort and labor support",follow the actual unit’s eligibility criteria rather than treating that as a universal rule,bold,common trap
+#/ob-final/week-5,"Objective 07 — Comfort, analgesia, and anesthesia | Systemic analgesia: relief with sedation/respiratory risk",Monitor mother and newborn for respiratory depression/sedation,red,warning sign
+#/ob-final/week-5,"Objective 07 — Comfort, analgesia, and anesthesia | Systemic analgesia: relief with sedation/respiratory risk",naloxone availability does not replace airway and respiratory assessment,bold,common trap
+#/ob-final/week-5,"Objective 07 — Comfort, analgesia, and anesthesia | Regional and local techniques: distinguish the sites",these spaces are not interchangeable,underline,key distinction
+#/ob-final/week-5,"Objective 07 — Comfort, analgesia, and anesthesia | Regional and local techniques: distinguish the sites",risks include hypotension and post-dural-puncture headache,bold,key risks
+#/ob-final/week-5,"Objective 07 — Comfort, analgesia, and anesthesia | Regional and local techniques: distinguish the sites",Pudendal block targets perineal/vaginal/vulvar pain,bold,definition
+#/ob-final/week-5,"Objective 07 — Comfort, analgesia, and anesthesia | Nursing preparation, contraindications, and monitoring","Review refusal, anticoagulation/bleeding disorders, injection-site infection, allergy",bold,contraindications
+#/ob-final/week-5,"Objective 07 — Comfort, analgesia, and anesthesia | Nursing preparation, contraindications, and monitoring",BP about every 5 minutes initially,bold,critical value
+#/ob-final/week-5,"Objective 07 — Comfort, analgesia, and anesthesia | Nursing preparation, contraindications, and monitoring",the slide’s fixed 2-liter preload is not a universal order; fluids are individualized,bold,common trap
+#/ob-final/week-5,"Objective 07 — Comfort, analgesia, and anesthesia | Nursing preparation, contraindications, and monitoring",Neuraxial analgesia does not need to wait for an arbitrary >5-cm dilation,bold,key concept
+#/ob-final/week-5,"Objective 07 — Comfort, analgesia, and anesthesia | General anesthesia and respiratory emergencies",effective ventilation and the neonatal resuscitation response take priority,bold+red,first action
+#/ob-final/week-5,"Objective 07 — Comfort, analgesia, and anesthesia | General anesthesia and respiratory emergencies",Do not use the slide’s neonatal naloxone dose table as a substitute for resuscitation,red,safety caution
+#/ob-final/week-5,Objective 08 — Induction and augmentation safety | prompt,"cervical ripening, induction, augmentation, and amniotomy",bold,exam high-yield
+#/ob-final/week-5,Objective 08 — Induction and augmentation safety | prompt,changes in uterine or fetal status that require action,bold,key concept
+#/ob-final/week-5,Objective 08 — Induction and augmentation safety | Quick answer,Induction initiates labor; augmentation strengthens labor that has already begun,bold,key distinction
+#/ob-final/week-5,Objective 08 — Induction and augmentation safety | Quick answer,Cervical ripening prepares an unfavorable cervix for the process,bold,definition
+#/ob-final/week-5,Objective 08 — Induction and augmentation safety | Preparation and contraindications from the lecture,"placenta previa, vasa previa, and prior cesarean",bold,contraindications
+#/ob-final/week-5,Objective 08 — Induction and augmentation safety | Preparation and contraindications from the lecture,prior cesarean is not a blanket prohibition of every induction method,bold,common trap
+#/ob-final/week-5,Objective 08 — Induction and augmentation safety | Preparation and contraindications from the lecture,Unprotected fetal vessels cross or lie near the cervical opening,bold,definition
+#/ob-final/week-5,Objective 08 — Induction and augmentation safety | Cervical ripening: understand the purpose and drug checks,dinoprostone (Cervidil) and misoprostol (Cytotec),bold,exam high-yield
+#/ob-final/week-5,Objective 08 — Induction and augmentation safety | Cervical ripening: understand the purpose and drug checks,Escalate excessive contractions or an abnormal fetal response rather than automatically giving the next dose,red,safety caution
+#/ob-final/week-5,Objective 08 — Induction and augmentation safety | Cervical ripening: understand the purpose and drug checks,Do not use the slide’s “two Cervidil doses 12 hours apart” as a universal regimen,red,safety caution
+#/ob-final/week-5,"Objective 08 — Induction and augmentation safety | Oxytocin: monitor the patient, not just the pump setting","verify the ordered concentration, units, pump rate, and escalation schedule",bold,safety check
+#/ob-final/week-5,"Objective 08 — Induction and augmentation safety | Oxytocin: monitor the patient, not just the pump setting",More frequent/longer contractions are not automatically better if perfusion/recovery is impaired,bold,common trap
+#/ob-final/week-5,"Objective 08 — Induction and augmentation safety | Oxytocin: monitor the patient, not just the pump setting","an initial infusion rate, not an IV push/loading bolus",bold+red,safety caution
+#/ob-final/week-5,Objective 08 — Induction and augmentation safety | Amniotomy: relate membrane care to the lecture’s risks,Reassess FHR promptly and record the rupture time and fluid amount/color/odor,bold,first action
+#/ob-final/week-5,Objective 08 — Induction and augmentation safety | Amniotomy: relate membrane care to the lecture’s risks,The lecture warns about cord prolapse when the presenting part is not engaged,red,warning sign
+#/ob-final/week-5,Objective 08 — Induction and augmentation safety | When uterine or fetal findings require action,"Stop/reduce oxytocin as indicated by the safety protocol, reposition, assess maternal BP and FHR, and contact the provider",bold,first action
+#/ob-final/week-5,Objective 08 — Induction and augmentation safety | When uterine or fetal findings require action,Persistent compromise requires urgent escalation and possible birth preparation,red,escalation
+#/ob-final/week-5,Objective 03 — Fetal monitoring methods | Quick answer,A fetal scalp electrode records fetal cardiac activity,bold,definition
+#/ob-final/week-6,Objective 01 — Complicated labor and membrane rupture | prompt,preterm and post-term labor,underline,contrast pair
+#/ob-final/week-6,Objective 01 — Complicated labor and membrane rupture | prompt,dysfunctional and precipitous labor,underline,contrast pair
+#/ob-final/week-6,Objective 01 — Complicated labor and membrane rupture | Preterm labor: recognize the pattern and risks,Preterm labor occurs before 37 completed weeks,bold,definition
+#/ob-final/week-6,Objective 01 — Complicated labor and membrane rupture | Preterm labor: recognize the pattern and risks,Prematurity describes gestational age; low birth weight describes weight.,underline,key distinction
+#/ob-final/week-6,Objective 01 — Complicated labor and membrane rupture | Preterm assessment and teaching: act on symptoms,do not delay evaluation to complete the slide’s one-hour rest/hydration trial,red,safety caution
+#/ob-final/week-6,Objective 01 — Complicated labor and membrane rupture | Preterm treatment: separate the medication purposes,Betamethasone promotes fetal maturation,bold,key drug purpose
+#/ob-final/week-6,Objective 01 — Complicated labor and membrane rupture | Preterm treatment: separate the medication purposes,"for fetal neuroprotection, not routine PPROM tocolysis",underline,contrast pair
+#/ob-final/week-6,Objective 01 — Complicated labor and membrane rupture | PROM and PPROM: identify what ruptured and when,PROM means prelabor rupture of membranes,bold,definition
+#/ob-final/week-6,Objective 01 — Complicated labor and membrane rupture | Guideline supplement: confirm rupture and reduce infection risk,Avoid routine repeated digital cervical examinations,red,safety caution
+#/ob-final/week-6,Objective 01 — Complicated labor and membrane rupture | PROM and PPROM: compare the management priorities,suspected infection or compromise needs prompt reassessment rather than waiting out a clock,bold,key principle
+#/ob-final/week-6,Objective 01 — Complicated labor and membrane rupture | Guideline supplement: how gestational age changes PROM care,expectant care does not extend beyond 37 weeks,bold,key limit
+#/ob-final/week-6,Objective 01 — Complicated labor and membrane rupture | Guideline supplement: how gestational age changes PROM care,"Infection, abruption, cord prolapse, or nonreassuring fetal status",red,warning signs
+#/ob-final/week-6,Objective 01 — Complicated labor and membrane rupture | Suspected intraamniotic infection: recognize and escalate,"Maternal fever, fetal tachycardia, uterine tenderness, and foul-smelling amniotic fluid",red,recognition cluster
+#/ob-final/week-6,Objective 01 — Complicated labor and membrane rupture | Suspected intraamniotic infection: recognize and escalate,Do not wait until rupture has lasted 24 hours,red,safety caution
+#/ob-final/week-6,Objective 01 — Complicated labor and membrane rupture | Post-term pregnancy: surveillance and birth planning,Post-term begins at 42 weeks,bold,definition
+#/ob-final/week-6,Objective 01 — Complicated labor and membrane rupture | Dysfunctional labor: connect the cause with the pattern,hypertonic dysfunction from hypotonic uterine inertia,underline,contrast pair
+#/ob-final/week-6,Objective 01 — Complicated labor and membrane rupture | Guideline supplement: slow labor versus active-phase arrest,Active labor begins at 6 cm,bold,key threshold
+#/ob-final/week-6,Objective 01 — Complicated labor and membrane rupture | Guideline supplement: slow labor versus active-phase arrest,4 hours of adequate uterine activity or 6 hours of inadequate activity with oxytocin,bold,key criteria
+#/ob-final/week-6,Objective 01 — Complicated labor and membrane rupture | Precipitous labor: prepare for a rapidly changing birth,labor lasting <3 hours,bold,definition
+#/ob-final/week-6,Objective 02 — Assisted vaginal and cesarean birth | prompt,operative vaginal and cesarean birth,bold,key terms
+#/ob-final/week-6,Objective 02 — Assisted vaginal and cesarean birth | Quick answer,change in birth route if assistance is unsuccessful,bold,key point
+#/ob-final/week-6,Objective 02 — Assisted vaginal and cesarean birth | Birth route: connect the indication with the situation,VBAC means vaginal birth after cesarean,bold,definition
+#/ob-final/week-6,Objective 02 — Assisted vaginal and cesarean birth | Preparation and consent: make the plan understandable,"full cervical dilation, ruptured membranes, known head position/station",bold,key prerequisites
+#/ob-final/week-6,Objective 02 — Assisted vaginal and cesarean birth | Guideline supplement: cesarean preparation and prevention,prophylactic antibiotics before skin incision,bold,key timing
+#/ob-final/week-6,Objective 02 — Assisted vaginal and cesarean birth | Guideline supplement: cesarean preparation and prevention,sequential compression devices before cesarean and until fully ambulatory,bold,key prevention
+#/ob-final/week-6,Objective 02 — Assisted vaginal and cesarean birth | Forceps and vacuum: watch progress and fetal response,descent must occur to continue vacuum use,bold,key rule
+#/ob-final/week-6,Objective 02 — Assisted vaginal and cesarean birth | Forceps and vacuum: watch progress and fetal response,not permission to keep pulling,bold,common trap
+#/ob-final/week-6,Objective 02 — Assisted vaginal and cesarean birth | Birth trauma: distinguish perineal and newborn injuries,First degree: skin/superficial tissue. Second: perineal muscles.,bold,exam high-yield
+#/ob-final/week-6,Objective 02 — Assisted vaginal and cesarean birth | Birth trauma: distinguish perineal and newborn injuries,Third: anal sphincter. Fourth: extends into rectal mucosa.,bold,exam high-yield
+#/ob-final/week-6,Objective 02 — Assisted vaginal and cesarean birth | Cesarean anesthesia: connect monitoring with the risk,Maternal hypotension can reduce fetal perfusion,red,warning sign
+#/ob-final/week-6,Objective 02 — Assisted vaginal and cesarean birth | Cesarean anesthesia: connect monitoring with the risk,Epidural medication enters the epidural space; spinal medication enters the intrathecal space.,underline,key distinction
+#/ob-final/week-6,Objective 02 — Assisted vaginal and cesarean birth | Guideline supplement: recovery after anesthesia,neuraxial opioids can cause delayed respiratory depression,red,safety caution
+#/ob-final/week-6,Objective 02 — Assisted vaginal and cesarean birth | Recovery monitoring: assess the whole postpartum patient,Cesarean birth does not eliminate vaginal bleeding.,bold,key distinction
+#/ob-final/week-6,Objective 02 — Assisted vaginal and cesarean birth | Recovery monitoring: assess the whole postpartum patient,increasing respirations or low saturation as abnormal,red,warning sign
+#/ob-final/week-6,Objective 02 — Assisted vaginal and cesarean birth | Guideline supplement: pain relief and safe mobility,Do not use Homan’s sign to screen for DVT,red,safety caution
+#/ob-final/week-6,"Objective 02 — Assisted vaginal and cesarean birth | Guideline supplement: intake, voiding and newborn care","Persistent vomiting, marked distention or worsening abdominal pain",red,warning signs
+#/ob-final/week-6,Objective 02 — Assisted vaginal and cesarean birth | Guideline supplement: incision care and recovery at home,within 3 weeks and comprehensive care by 12 weeks,bold,key timing
+#/ob-final/week-6,Objective 02 — Assisted vaginal and cesarean birth | Guideline supplement: warning signs and readiness for discharge,"Chest pain, trouble breathing, fainting, uncontrolled heavy bleeding",bold+red,emergency warning signs
+#/ob-final/week-6,Objective 02 — Assisted vaginal and cesarean birth | Guideline supplement: warning signs and readiness for discharge,Fever ≥38°C/100.4°F,red,critical value
+#/ob-final/week-6,Objective 03 — Shoulder dystocia | Quick answer,Never apply fundal pressure or forceful traction,bold+red,safety caution
+#/ob-final/week-6,Objective 03 — Shoulder dystocia | Quick answer,McRoberts positioning and directed suprapubic pressure,bold,key maneuvers
+#/ob-final/week-6,Objective 03 — Shoulder dystocia | Recognition: act when the shoulder is impacted,Do not wait 2 minutes to call shoulder dystocia,red,safety caution
+#/ob-final/week-6,Objective 03 — Shoulder dystocia | Contributing risks: prepare without assuming certainty,macrosomia as >4000 g,bold,definition
+#/ob-final/week-6,Objective 03 — Shoulder dystocia | Contributing risks: prepare without assuming certainty,Risk factors do not reliably predict every event.,bold,key principle
+#/ob-final/week-6,Objective 03 — Shoulder dystocia | Immediate nursing role: coordinate people and communication,elapsed-time announcements at 30-second to 1-minute intervals,bold,key timing
+#/ob-final/week-6,Objective 03 — Shoulder dystocia | Corrective maneuvers: understand the nurse’s assisting role,thighs sharply flexed toward the abdomen/chest,bold,key technique
+#/ob-final/week-6,Objective 03 — Shoulder dystocia | Corrective maneuvers: understand the nurse’s assisting role,apply pressure just above the pubic bone,bold,key technique
+#/ob-final/week-6,Objective 03 — Shoulder dystocia | Actions to avoid: prevent additional injury,pressure over the uterine fundus can worsen impaction,red,safety caution
+#/ob-final/week-6,Objective 03 — Shoulder dystocia | Actions to avoid: prevent additional injury,"Do not use forceful, jerking, or excessive downward traction",bold+red,safety caution
+#/ob-final/week-6,Objective 03 — Shoulder dystocia | Timing and documentation: make the sequence clear,No duration is a guaranteed safe window,bold,key principle
+#/ob-final/week-6,Objective 03 — Shoulder dystocia | After birth: assess both patients and explain the event,observe arm movement/symmetry,bold,key assessment
+#/ob-final/week-6,Objective 03 — Shoulder dystocia | After birth: assess both patients and explain the event,"hemorrhage, rectal injury, and pubic injury",bold,maternal complications
+#/ob-final/week-6,Objective 04 — Placental emergencies and hemorrhage response | prompt,"shock or coagulopathy, including DIC",bold,key focus
+#/ob-final/week-6,Objective 04 — Placental emergencies and hemorrhage response | Quick answer,Visible blood loss can underestimate abruption,red,key principle
+#/ob-final/week-6,Objective 04 — Placental emergencies and hemorrhage response | Quick answer,Do not perform a digital vaginal exam before previa is excluded,bold+red,safety caution
+#/ob-final/week-6,Objective 04 — Placental emergencies and hemorrhage response | First response: recognize severity and summon the team,Activate the hemorrhage pathway early,bold,first action
+#/ob-final/week-6,Objective 04 — Placental emergencies and hemorrhage response | First response: recognize severity and summon the team,No digital vaginal examination until previa is excluded.,bold+red,safety caution
+#/ob-final/week-6,Objective 04 — Placental emergencies and hemorrhage response | Restore perfusion and prepare blood-product support,An initially normal hemoglobin does not exclude acute hemorrhage.,bold,common trap
+#/ob-final/week-6,Objective 04 — Placental emergencies and hemorrhage response | Restore perfusion and prepare blood-product support,Do not apply routine oxygen solely to treat a fetal tracing,bold,key distinction
+#/ob-final/week-6,Objective 04 — Placental emergencies and hemorrhage response | DIC: simultaneous clotting and bleeding,Widespread coagulation consumes platelets/fibrinogen,bold,mechanism
+#/ob-final/week-6,Objective 04 — Placental emergencies and hemorrhage response | DIC: simultaneous clotting and bleeding,"Oozing from IV/puncture sites, mucosal bleeding",red,warning signs
+#/ob-final/week-6,Objective 04 — Placental emergencies and hemorrhage response | DIC: simultaneous clotting and bleeding,Do not delay action until every test is abnormal.,red,safety caution
+#/ob-final/week-6,Objective 04 — Placental emergencies and hemorrhage response | Prepare for birth and communicate the plan,Maternal resuscitation and preparation for indicated birth occur together.,bold,key principle
+#/ob-final/week-6,Objective 04 — Placental emergencies and hemorrhage response | Reassess through birth and postpartum,"Persistent tachycardia, oliguria, or oozing",red,warning signs
+#/ob-final/week-6,Objective 04 — Placental emergencies and hemorrhage response | Reassess through birth and postpartum,Completion of birth does not mean hemorrhage or DIC has resolved.,bold,key principle
+#/ob-final/week-6,Objective 05 — Other emergencies in the labor lectures | prompt,"cord prolapse, uterine rupture, amniotic fluid embolism, and uterine inversion",bold,key terms
+#/ob-final/week-6,Objective 05 — Other emergencies in the labor lectures | Quick answer,Uterine inversion is the uterus turning inside out,bold,definition
+#/ob-final/week-6,Objective 05 — Other emergencies in the labor lectures | Cord prolapse: relieve compression while preparing birth,Watch FHR after membrane rupture/amniotomy,bold,key assessment
+#/ob-final/week-6,Objective 05 — Other emergencies in the labor lectures | Cord prolapse: relieve compression while preparing birth,elevate the presenting part off the cord,bold,first action
+#/ob-final/week-6,Objective 05 — Other emergencies in the labor lectures | Cord prolapse: relieve compression while preparing birth,do not try to push it back above the fetus,red,safety caution
+#/ob-final/week-6,Objective 05 — Other emergencies in the labor lectures | Uterine rupture: treat the cue cluster as an emergency,"Abnormal FHR, loss of fetal station, abdominal pain/rigidity, and shock",red,cue cluster
+#/ob-final/week-6,Objective 05 — Other emergencies in the labor lectures | Uterine rupture: treat the cue cluster as an emergency,do not wait for every listed sign,red,key principle
+#/ob-final/week-6,Objective 05 — Other emergencies in the labor lectures | Amniotic fluid embolism: support breathing and circulation,"Sudden hypotension, hypoxia, cardiovascular collapse, and coagulopathy",red,cue cluster
+#/ob-final/week-6,Objective 05 — Other emergencies in the labor lectures | Amniotic fluid embolism: support breathing and circulation,fetal cells alone do not confirm it,bold,key distinction
+#/ob-final/week-6,Objective 05 — Other emergencies in the labor lectures | Guideline supplement: AFE resuscitation and reassessment,manual left uterine displacement during compressions,bold,key technique
+#/ob-final/week-6,Objective 05 — Other emergencies in the labor lectures | Guideline supplement: AFE resuscitation and reassessment,birth by 5 minutes if circulation has not returned,bold,key timing
+#/ob-final/week-6,Objective 05 — Other emergencies in the labor lectures | Guideline supplement: inversion recognition and first response,the usual abdominal fundus may be absent,bold,key cue
+#/ob-final/week-6,Objective 05 — Other emergencies in the labor lectures | Guideline supplement: inversion recognition and first response,Do not apply routine fundal massage or cord traction,red,safety caution
+#/ob-final/week-6,Objective 05 — Other emergencies in the labor lectures | Guideline supplement: inversion recognition and first response,Do not attempt to remove an attached placenta before replacement.,red,safety caution
+#/ob-final/week-6,Objective 05 — Other emergencies in the labor lectures | Guideline supplement: after the uterus is replaced,successful replacement alone does not prove hemorrhage has resolved,bold,key principle
+#/ob-final/week-6,"Objective 05 — Other emergencies in the labor lectures | Shared response: communicate, reassess and hand off",Routine oxygen for an abnormal FHR in a normally oxygenated mother is not recommended,bold,key distinction
+#/ob-final/week-6,Objective 04 — Placental emergencies and hemorrhage response | DIC: simultaneous clotting and bleeding,"Fibrinogen normally rises in pregnancy, so a falling or unexpectedly low value matters",bold,exam high-yield
+#/ob-final/week-6,Objective 04 — Placental emergencies and hemorrhage response | DIC: simultaneous clotting and bleeding,it is not merely “a low platelet count.”,underline,common trap
+#/ob-final/week-7,Objective 01 — Expected postpartum recovery | prompt,Explain uterine involution,bold,key term
+#/ob-final/week-7,Objective 01 — Expected postpartum recovery | prompt,lochia progression,bold,key term
+#/ob-final/week-7,Objective 01 — Expected postpartum recovery | prompt,distinguish them from findings needing follow-up,underline,contrast pair
+#/ob-final/week-7,Objective 02 — Systematic postpartum assessment | prompt,BUBBLEHE framework,bold,exam high-yield
+#/ob-final/week-7,"Objective 03 — Vital signs, labs, and elimination | prompt",urinary retention,bold,key term
+#/ob-final/week-7,"Objective 03 — Vital signs, labs, and elimination | prompt",the effect of bladder distention on recovery,bold,key mechanism
+#/ob-final/week-7,Objective 04 — Comfort and physical recovery | prompt,perineal or incision healing,bold,key term
+#/ob-final/week-7,Objective 04 — Comfort and physical recovery | prompt,after vaginal or cesarean birth,bold,key fact
+#/ob-final/week-7,Objective 05 — Attachment and family adaptation | prompt,maternal role adaptation,bold,key term
+#/ob-final/week-7,Objective 05 — Attachment and family adaptation | prompt,barriers to bonding,bold,key term
+#/ob-final/week-7,Objective 06 — Discharge teaching and follow-up | prompt,warning signs,red,warning sign
+#/ob-final/week-7,Objective 06 — Discharge teaching and follow-up | prompt,Rh prophylaxis,bold,exam high-yield
+#/ob-final/week-7,Objective 07 — Recognize postpartum hemorrhage | prompt,uterine atony,bold,exam high-yield
+#/ob-final/week-7,Objective 07 — Recognize postpartum hemorrhage | prompt,"uterine tone, bleeding, pain, and hemodynamic findings",bold,key assessment
+#/ob-final/week-7,Objective 08 — Respond to hemorrhage and shock | prompt,the first nursing action,bold,first action
+#/ob-final/week-7,Objective 08 — Respond to hemorrhage and shock | prompt,quantified blood loss,bold,key term
+#/ob-final/week-7,Objective 08 — Respond to hemorrhage and shock | prompt,prescribed uterotonics and their precautions,bold,exam high-yield
+#/ob-final/week-7,Objective 09 — Subinvolution and delayed bleeding | prompt,delayed uterine involution,bold,key term
+#/ob-final/week-7,Objective 09 — Subinvolution and delayed bleeding | prompt,recurrent bleeding,red,warning sign
+#/ob-final/week-7,Objective 09 — Subinvolution and delayed bleeding | prompt,when to seek urgent care,red,warning sign
+#/ob-final/week-7,Objective 10 — Postpartum infections | prompt,"endometritis, wound or urinary infection, and mastitis",bold,key comparison set
+#/ob-final/week-7,Objective 10 — Postpartum infections | prompt,local and systemic findings,underline,contrast pair
+#/ob-final/week-7,Objective 10 — Postpartum infections | prompt,signs requiring urgent escalation,red,warning sign
+#/ob-final/week-7,Objective 11 — Thromboembolism and urgent warning signs | prompt,concerning leg findings,underline,contrast pair
+#/ob-final/week-7,Objective 11 — Thromboembolism and urgent warning signs | prompt,symptoms of a possible pulmonary emergency,underline,contrast pair
+#/ob-final/week-7,Objective 11 — Thromboembolism and urgent warning signs | prompt,immediate nursing priorities,bold,first action
+#/ob-final/week-7,"Objective 12 — Blues, depression, anxiety, and psychosis | prompt","postpartum blues, depression, anxiety or intrusive thoughts, and psychosis",bold,key comparison set
+#/ob-final/week-7,"Objective 12 — Blues, depression, anxiety, and psychosis | prompt",identify when urgent intervention is needed,bold,escalation
+#/ob-final/week-9,Objective 01 — Transition and Apgar scoring | prompt,respiratory and circulatory adaptation,bold,key term
+#/ob-final/week-9,Objective 01 — Transition and Apgar scoring | prompt,Calculate an Apgar score from a case,bold,exam high-yield
+#/ob-final/week-9,Objective 01 — Transition and Apgar scoring | prompt,alongside ongoing assessment,bold,key distinction
+#/ob-final/week-9,Objective 02 — Head-to-toe newborn assessment | prompt,expected findings and those requiring follow-up,underline,contrast pair
+#/ob-final/week-9,Objective 03 — Normal variations and concerning findings | prompt,common newborn skin findings and head-shape variations,underline,contrast pair
+#/ob-final/week-9,Objective 03 — Normal variations and concerning findings | prompt,findings suggesting injury or illness,underline,contrast pair
+#/ob-final/week-9,Objective 03 — Normal variations and concerning findings | prompt,"molding, caput, cephalohematoma, and subgaleal bleeding",bold,key comparison set
+#/ob-final/week-9,Objective 04 — Gestational age and growth classification | prompt,Ballard assessment,bold,exam high-yield
+#/ob-final/week-9,Objective 04 — Gestational age and growth classification | prompt,gestational age from size for gestational age,underline,contrast pair
+#/ob-final/week-9,Objective 04 — Gestational age and growth classification | prompt,"SGA, AGA, or LGA",bold,exam high-yield
+#/ob-final/week-9,"Objective 05 — Routine care, prophylaxis, and screening | prompt",prescribed prophylaxis,bold,exam high-yield
+#/ob-final/week-9,"Objective 05 — Routine care, prophylaxis, and screening | prompt",newborn screening,bold,key term
+#/ob-final/week-9,Objective 06 — Newborn discharge readiness | prompt,Teach caregivers about safe sleep,bold,exam high-yield
+#/ob-final/week-9,Objective 06 — Newborn discharge readiness | prompt,signs of illness,red,warning sign
+#/ob-final/week-9,Objective 07 — Newborn nutrition and milk changes | prompt,progression from colostrum to mature milk,bold,key term
+#/ob-final/week-9,Objective 07 — Newborn nutrition and milk changes | prompt,Compare breast milk and formula,underline,contrast pair
+#/ob-final/week-9,"Objective 08 — Positioning, latch, and feeding support | prompt","positioning, latch, and milk transfer",bold,key assessment
+#/ob-final/week-9,"Objective 08 — Positioning, latch, and feeding support | prompt",ineffective feeding or persistent pain,red,warning sign
+#/ob-final/week-9,"Objective 08 — Positioning, latch, and feeding support | prompt",when lactation referral is needed,bold,escalation
+#/ob-final/week-9,Objective 09 — Evaluate feeding adequacy | prompt,"weight trends, urine and stool patterns, and hydration findings",bold,key assessment
+#/ob-final/week-9,"Objective 10 — Milk expression, storage, and maternal needs | prompt","safe milk expression, storage, thawing, and handling",bold,key term
+#/ob-final/week-9,Objective 11 — Formula preparation and bottle safety | prompt,"safe preparation, dilution, handling, storage, and disposal",bold,key term
+#/ob-final/week-9,Objective 11 — Formula preparation and bottle safety | prompt,responsive feeding,bold,key term
+#/ob-final/week-9,Objective 12 — Feeding precautions and supplementation | prompt,circumstances requiring feeding precautions,bold,safety caution
+#/ob-final/week-9,Objective 12 — Feeding precautions and supplementation | prompt,direct breastfeeding from use of expressed milk,underline,contrast pair
+#/ob-final/week-10,Objective 01 — Transition and Apgar scoring | prompt,respiratory and circulatory adaptation,bold,key term
+#/ob-final/week-10,Objective 01 — Transition and Apgar scoring | prompt,Calculate an Apgar score from a case,bold,exam high-yield
+#/ob-final/week-10,Objective 01 — Transition and Apgar scoring | prompt,alongside ongoing assessment,bold,key distinction
+#/ob-final/week-10,Objective 02 — Head-to-toe newborn assessment | prompt,expected findings and those requiring follow-up,underline,contrast pair
+#/ob-final/week-10,Objective 03 — Gestational age and growth classification | prompt,Ballard assessment,bold,exam high-yield
+#/ob-final/week-10,Objective 03 — Gestational age and growth classification | prompt,gestational age from size for gestational age,underline,contrast pair
+#/ob-final/week-10,Objective 03 — Gestational age and growth classification | prompt,"SGA, AGA, or LGA",bold,exam high-yield
+#/ob-final/week-10,Objective 04 — Newborn discharge readiness | prompt,Teach caregivers about safe sleep,bold,exam high-yield
+#/ob-final/week-10,Objective 04 — Newborn discharge readiness | prompt,signs of illness,red,warning sign
+#/ob-final/week-10,Objective 05 — Prematurity and high-risk assessment | prompt,"prematurity, growth restriction, and macrosomia",bold,key comparison set
+#/ob-final/week-10,Objective 05 — Prematurity and high-risk assessment | prompt,thermal support,bold,exam high-yield
+#/ob-final/week-10,Objective 06 — Respiratory distress and first actions | prompt,"RDS, transient tachypnea, and meconium aspiration",bold,key comparison set
+#/ob-final/week-10,Objective 06 — Respiratory distress and first actions | prompt,immediate priorities,bold,first action
+#/ob-final/week-10,Objective 07 — Temperature instability and hypoglycemia | prompt,"cold stress, oxygen demand, and glucose needs",bold,key mechanism
+#/ob-final/week-10,Objective 07 — Temperature instability and hypoglycemia | prompt,at risk for hypoglycemia,red,warning sign
+#/ob-final/week-10,"Objective 08 — Jaundice, hemolysis, and phototherapy | prompt",expected bilirubin changes from concerning jaundice,underline,contrast pair
+#/ob-final/week-10,"Objective 08 — Jaundice, hemolysis, and phototherapy | prompt",phototherapy care,bold,key term
+#/ob-final/week-10,Objective 09 — Sepsis and gastrointestinal complications | prompt,concerning for necrotizing enterocolitis,bold+red,exam high-yield
+#/ob-final/week-10,Objective 09 — Sepsis and gastrointestinal complications | prompt,urgent reporting,red,escalation
+#/ob-final/week-10,Objective 10 — Ongoing care of a preterm newborn | prompt,oxygen therapy and complications such as retinopathy,bold,key term
+#/ob-final/week-10,Objective 10 — Ongoing care of a preterm newborn | prompt,"readiness for feeding, growth, and safe transition home",bold,discharge criteria
+#/ob-final/august-4,Objective 01 — Individualized contraceptive counseling | prompt,reversible and permanent contraceptive options,underline,contrast pair
+#/ob-final/august-4,Objective 01 — Individualized contraceptive counseling | prompt,"benefits, risks, and return to fertility",bold,key term
+#/ob-final/august-4,Objective 01 — Individualized contraceptive counseling | prompt,STI-prevention needs,bold,key distinction
+#/ob-final/august-4,Objective 02 — Hormonal methods and safety | prompt,combined hormonal and progestin-only methods,underline,contrast pair
+#/ob-final/august-4,Objective 02 — Hormonal methods and safety | prompt,important contraindications,bold,safety caution
+#/ob-final/august-4,Objective 02 — Hormonal methods and safety | prompt,warning signs,red,warning sign
+#/ob-final/august-4,"Objective 03 — Missed pills, patches, and rings | prompt","missed-pill, delayed-patch, or displaced-ring",bold,key term
+#/ob-final/august-4,"Objective 03 — Missed pills, patches, and rings | prompt",the next action,bold,first action
+#/ob-final/august-4,"Objective 03 — Missed pills, patches, and rings | prompt",backup contraception,bold,exam high-yield
+#/ob-final/august-4,"Objective 04 — IUDs, implants, and injections | prompt",copper and hormonal IUDs,underline,contrast pair
+#/ob-final/august-4,"Objective 04 — IUDs, implants, and injections | prompt",concerning symptoms,bold,safety caution
+#/ob-final/august-4,"Objective 04 — IUDs, implants, and injections | prompt",return to fertility after discontinuation,bold,key term
+#/ob-final/august-4,"Objective 05 — Barrier methods, fertility awareness, and LAM | prompt",the criteria for LAM,bold,exam high-yield
+#/ob-final/august-4,"Objective 05 — Barrier methods, fertility awareness, and LAM | prompt",pregnancy prevention from STI protection,underline,contrast pair
+#/ob-final/august-4,Objective 06 — Emergency and permanent contraception | prompt,timing and follow-up,bold,exam high-yield
+#/ob-final/august-4,Objective 06 — Emergency and permanent contraception | prompt,tubal sterilization and vasectomy,bold,key term
+#/ob-final/august-4,Objective 06 — Emergency and permanent contraception | prompt,backup requirements,bold,exam high-yield
+#/ob-final/august-4,Objective 07 — Fertility and reproductive planning | prompt,genetic assessment or counseling,bold,key term
+#/ob-final/august-4,Objective 08 — STI assessment and vaginal discharge | prompt,"trichomoniasis, chlamydia, and gonorrhea",bold,key comparison set
+#/ob-final/august-4,Objective 08 — STI assessment and vaginal discharge | prompt,candidiasis and bacterial vaginosis,bold,key comparison set
+#/ob-final/august-4,Objective 08 — STI assessment and vaginal discharge | prompt,Distinguish these from other causes of vaginal symptoms,underline,contrast pair
+#/ob-final/august-4,"Objective 09 — Syphilis, HPV, and genital herpes | prompt",the stages and findings of syphilis,bold,exam high-yield
+#/ob-final/august-4,"Objective 09 — Syphilis, HPV, and genital herpes | prompt",HPV and genital herpes,underline,contrast pair
+#/ob-final/august-4,"Objective 09 — Syphilis, HPV, and genital herpes | prompt",pregnancy or newborn implications,bold,safety caution
+#/ob-final/august-4,Objective 10 — PID and reproductive complications | prompt,ascending infection,bold,key mechanism
+#/ob-final/august-4,Objective 10 — PID and reproductive complications | prompt,teaching about reproductive complications,bold,key concept
+#/ob-final/august-4,"Objective 11 — HIV, hepatitis, and perinatal prevention | prompt",transmission prevention,bold,key term
+#/ob-final/august-4,"Objective 11 — HIV, hepatitis, and perinatal prevention | prompt",viral-load monitoring,bold,exam high-yield
+#/ob-final/august-4,"Objective 11 — HIV, hepatitis, and perinatal prevention | prompt",individualized feeding counseling,bold,key term
+#/ob-final/august-4,"Objective 12 — Treatment, partners, and follow-up | prompt",partner management,bold,exam high-yield
+#/ob-final/august-4,"Objective 12 — Treatment, partners, and follow-up | prompt",test-of-cure or repeat screening,bold,key term
+#/ob-final/august-4,"Objective 12 — Treatment, partners, and follow-up | prompt",prevention of reinfection,bold,key term
