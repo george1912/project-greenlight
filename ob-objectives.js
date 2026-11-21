@@ -3963,36 +3963,1172 @@ const obStudyObjectives = [
     ]
   },
   {
-    id:'normal-labor-process',weekIds:['week-5'],topicIds:[],title:'Preparing for labor and birth',
-    text:'Distinguish true from false labor and explain the stages of labor, cervical changes, fetal position and descent, and factors affecting labor progress. Relate these findings to preparation and supportive nursing care.',answer:[]
+    "id": "normal-labor-process",
+    "weekIds": [
+      "week-5"
+    ],
+    "topicIds": [],
+    "title": "Preparing for labor and birth",
+    "text": "Distinguish true from false labor and explain the stages of labor, cervical changes, fetal position and descent, and factors affecting labor progress. Relate these findings to preparation and supportive nursing care.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "True labor produces progressive cervical dilation/effacement with contractions that become more regular, stronger, and closer together; false labor does not produce progressive cervical change.",
+          "The lecture organizes progress around the 5 P’s, fetal lie/presentation/position/station, and the cardinal movements of birth.",
+          "Know the four stages: onset to full dilation; full dilation to birth; birth to placenta; and early recovery. Match assessment, preparation, and support to the stage."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Recognize approaching labor and distinguish true from false labor",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Premonitory signs",
+                "text": "Cervical softening/change, lightening, bloody show, increased energy, Braxton Hicks contractions, and possible rupture of membranes. Lightening is descent into the pelvis; these warning signs do not independently establish active labor."
+              },
+              {
+                "label": "False labor",
+                "text": "Often irregular, does not become progressively stronger/closer, may decrease with walking/rest or position change, and causes no progressive dilation/effacement."
+              },
+              {
+                "label": "True labor and reporting",
+                "text": "Contractions continue despite position changes and accompany cervical change/descent. Ask frequency, duration, strength, progression, and leakage. The lecture’s contraction-timing example is not a reason to delay assessment for rupture, bleeding, decreased movement, or another concern."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Use the 5 P’s to explain progress",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Passageway and passenger",
+                "text": "Passageway = bony pelvis and soft tissues, including cervix/vagina. Passenger = fetus and placenta. Pelvic shape, fetal size, flexion, and presentation affect the fit; a pelvis label alone does not guarantee the birth route."
+              },
+              {
+                "label": "Powers",
+                "text": "Involuntary contractions thin/dilate the cervix and move the presenting part downward; maternal bearing-down efforts contribute in the second stage. Relaxation between contractions allows placental blood flow to recover."
+              },
+              {
+                "label": "Position and psychological response",
+                "text": "Maternal position can affect comfort and descent. Anxiety, fatigue, preparation, information, support, and trust affect coping; explain what is happening and offer the patient meaningful choices."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Separate dilation, effacement, engagement, and station",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Cervical change",
+                "text": "Dilation = opening from 0 to 10 cm. Effacement = thinning/shortening from 0% to 100%. They can occur together; complete dilation ends the first stage."
+              },
+              {
+                "label": "Station and engagement",
+                "text": "Station describes the presenting part relative to the maternal ischial spines: 0 at the spines, negative above, positive below. The lecture uses −4 to +4 and associates engagement with 0 station."
+              },
+              {
+                "label": "Assessment connection",
+                "text": "Document dilation, effacement, position, station, membrane status, and fluid findings together. Sutures/fontanelles help identify the fetal head’s orientation; molding is overlapping of cranial bones during passage."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Identify fetal lie, presentation, attitude, and position",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Lie and presentation",
+                "text": "Lie compares fetal and maternal spines: longitudinal versus transverse. Presentation is the part entering first: cephalic, breech, or shoulder. The lecture shows vertex, military, brow, and face cephalic presentations, plus frank, complete, and footling breech."
+              },
+              {
+                "label": "Attitude",
+                "text": "Relationship of fetal parts to one another. Flexion with chin toward the chest presents a smaller head diameter; extension changes the diameter that must pass through the pelvis."
+              },
+              {
+                "label": "Position",
+                "text": "Three letters describe the fetal landmark in the maternal pelvis: mother’s left/right; occiput (O), mentum (M), or sacrum (S); then anterior/posterior/transverse. Read the lecture’s LOA/ROA/LOP/ROP diagrams from the mother’s perspective."
+              },
+              {
+                "label": "Cardinal movements",
+                "text": "Engagement → descent → flexion → internal rotation → extension → external rotation/restitution → expulsion. Follow the diagrams as the head aligns with the pelvis and the shoulders rotate for birth."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "First and second stages: cervical progress and birth",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "First stage",
+                "text": "Labor onset to 10 cm. The lecture’s phases are latent (about 0–5 cm), active beginning at 6 cm, and transition (8–10 cm). Contractions generally become longer, stronger, and closer; individual timing varies."
+              },
+              {
+                "label": "Coping and preparation",
+                "text": "Early labor may bring excitement/talkativeness; active/transition labor may bring intense concentration, fatigue, shaking, nausea, irritability, or rectal pressure. Stay present, offer brief reassurance, reinforce breathing, allow rest, and protect privacy."
+              },
+              {
+                "label": "Second stage",
+                "text": "Complete dilation to birth. Assess descent, contractions, maternal vital signs/coping, and fetal response; prepare the room and assist with positioning and pushing. If an urge occurs before dilation is confirmed, stay with the patient and seek assessment."
+              },
+              {
+                "label": "Timing clarification",
+                "text": "The slides include different example stage lengths and delayed-pushing advice. Treat these as teaching descriptions, not automatic time limits or a routine 90-minute delay; follow the current individualized pushing/birth plan."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Third and fourth stages: placenta, recovery, and support",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Third stage",
+                "text": "Birth to placental expulsion. Separation signs include a rising/globular uterus, cord lengthening, and a gush/trickle of blood. Assist with ordered care, repair/counts, uterotonic administration, and assessment of tone, bleeding, vital signs, and anesthesia recovery."
+              },
+              {
+                "label": "Fourth stage",
+                "text": "The first several hours of recovery, described as up to 4 hours in the lecture. Frequent vital signs, fundal/bleeding assessment, bladder assessment, and evaluation of maternal stability continue. A firm fundus is one finding; assess the whole patient."
+              },
+              {
+                "label": "Support and preferences",
+                "text": "Involve the chosen support person, explain procedures, revisit the birth/pain plan, and support skin-to-skin contact and feeding initiation when appropriate. Assess maternal–fetal tolerance throughout rather than judging progress by dilation alone."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Reorganized from Processes of Labor & Birth, pages 6–10, 14–23, 28–47, and 49–68. Keeps the lecture’s terminology and stage descriptions; the brief timing clarification avoids using example durations or delayed pushing as universal instructions.",
+    "answerSources": [
+      {
+        "title": "Assigned lecture — Processes of labor & birth",
+        "url": "#/ob-final/presentation/labor-and-birth"
+      },
+      {
+        "title": "Safety clarification — ACOG first and second stage management",
+        "url": "https://www.acog.org/clinical/clinical-guidance/clinical-practice-guideline/articles/2024/01/first-and-second-stage-labor-management"
+      }
+    ]
   },
   {
-    id:'labor-nursing-assessment',weekIds:['week-5'],topicIds:[],title:'Maternal assessment during labor',
-    text:'Describe admission and ongoing maternal assessment during labor, including contractions, membrane status, pain, coping, and birth preferences. Explain documentation, communication, and recognition of changes requiring escalation.',answer:[]
+    "id": "labor-nursing-assessment",
+    "weekIds": [
+      "week-5"
+    ],
+    "topicIds": [],
+    "title": "Maternal assessment during labor",
+    "text": "Describe admission and ongoing maternal assessment during labor, including contractions, membrane status, pain, coping, and birth preferences. Explain documentation, communication, and recognition of changes requiring escalation.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Admission assessment combines the presenting concern, pregnancy/birth history, current maternal–fetal findings, and the patient’s preferences and support needs.",
+          "Continue to assess contractions, membrane/fluid status, maternal vital signs, pain/coping, cervical progress when indicated, and fetal response as labor changes.",
+          "Document findings and the response to care, communicate changes promptly, and escalate concerning maternal or fetal findings rather than treating a monitor reading in isolation."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Admission history and birth preferences",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Pregnancy and obstetric data",
+                "text": "Confirm EDD/gestation, GTPAL, prior birth methods and uterine incision type, previous hemorrhage/placental or hypertensive problems, prenatal tests/treatments, and current complications. Review medicines, allergies, and relevant test results."
+              },
+              {
+                "label": "Presenting complaint",
+                "text": "Ask when contractions began, frequency/duration/intensity, pain location and progression, leakage/rupture, vaginal bleeding, and the last fetal movement. Review available ultrasound/NST findings and treatments already received."
+              },
+              {
+                "label": "Preferences and support",
+                "text": "Discuss the written birth plan if present, childbirth preparation, pain-management choices, desired support, intervention preferences, infant feeding, and newborn plans. Assess practical needs and explain any change to the plan."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Assess contractions, membranes, and fetal position",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Contractions",
+                "text": "Frequency: beginning of one to beginning of the next. Duration: beginning to end of one contraction. Intensity: palpation or internal pressure measurement when indicated. Note relaxation/resting time as well as the contraction peaks."
+              },
+              {
+                "label": "Membranes and fluid",
+                "text": "Record intact versus ruptured, time of rupture, fluid amount, color, odor, and particulate matter. Green/particulate fluid may indicate meconium and requires assessment of the fetal picture, not an isolated conclusion from color."
+              },
+              {
+                "label": "Abdominal assessment",
+                "text": "Use the lecture’s Leopold maneuvers to identify fundal contents, fetal back, the presenting part, and the cephalic prominence. The fetal back helps locate the best point to hear the heart rate."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Prepare for and document indicated vaginal assessment",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Before examination",
+                "text": "Explain the procedure, obtain cooperation/consent, check relevant allergies, assemble supplies, provide positioning/draping/privacy, and tell the patient before touching. Limit unnecessary repeated examinations."
+              },
+              {
+                "label": "Record the findings",
+                "text": "Dilation, effacement, position, station, membrane status, and fluid characteristics. Relate these findings to contractions and the patient’s symptoms rather than documenting a cervical number alone."
+              },
+              {
+                "label": "Safety clarification",
+                "text": "Unexplained bleeding or suspected previa requires review before a digital examination; rupture increases the importance of minimizing unnecessary examinations. Follow the examination precautions and orders appropriate to the patient."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Ongoing maternal assessment and coping",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Physiologic assessment",
+                "text": "Trend BP, pulse, respirations, temperature, intake/output, hydration/IV needs, and bladder distention. The lecture notes that labor changes heart rate, breathing, and metabolic demand; do not dismiss a concerning change as automatically normal."
+              },
+              {
+                "label": "Comfort and emotional response",
+                "text": "Reassess pain, fatigue, coping, response to medicines/positioning, and the support person’s needs. Increasing pressure or a changed behavioral/pain pattern may accompany labor progress and warrants assessment."
+              },
+              {
+                "label": "Frequency",
+                "text": "Increase observation as labor, pushing, treatment, or risk changes. The slides include frequent checks in active labor and early recovery; use the unit’s required schedule and reassess after an intervention."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Documentation, communication, and escalation",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Record maternal findings, contraction pattern, membrane/fluid observations, fetal tracing assessment, cervical findings, medicines/interventions, preferences, and the response over time.",
+              "Communicate the actual findings and trends to the CNM/physician, including actions already taken and whether they helped. The lecture emphasizes timely reporting and follow-up for abnormal FHR patterns.",
+              "Escalate significant bleeding, persistent maternal instability, respiratory suppression/hypotension after medication, concerning fluid findings with other signs, or unresolved fetal abnormalities. Continue assessment while help and further treatment are arranged."
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Based on Processes of Labor & Birth, pages 2–5, 24–35, 47–51, and 54–68, and Fetal & Maternal Monitoring, pages 2–8 and 50–51. The examination precaution is consistent with the previously assigned placental-bleeding material; no new assessment framework is introduced.",
+    "answerSources": [
+      {
+        "title": "Assigned lecture — Processes of labor & birth",
+        "url": "#/ob-final/presentation/labor-and-birth"
+      },
+      {
+        "title": "Assigned lecture — Fetal & maternal monitoring in labor",
+        "url": "#/ob-final/presentation/fetal-monitoring"
+      }
+    ]
   },
   {
-    id:'monitoring-methods',weekIds:['week-5'],topicIds:['fetal-monitoring'],title:'Fetal monitoring methods',
-    text:'Compare intermittent assessment and external and internal electronic monitoring. Explain what each method measures, its limitations, the requirements for internal monitoring, and the nurse’s safety responsibilities.',answer:[]
+    "id": "monitoring-methods",
+    "weekIds": [
+      "week-5"
+    ],
+    "topicIds": [
+      "fetal-monitoring"
+    ],
+    "title": "Fetal monitoring methods",
+    "text": "Compare intermittent assessment and external and internal electronic monitoring. Explain what each method measures, its limitations, the requirements for internal monitoring, and the nurse’s safety responsibilities.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Intermittent auscultation assesses the fetal heart at planned intervals; external EFM displays fetal heart rate and uterine activity continuously when used.",
+          "The external ultrasound transducer detects FHR; the external toco tracks contraction timing. A fetal scalp electrode records fetal cardiac activity, while an IUPC measures uterine pressure internally.",
+          "Internal monitoring requires ruptured membranes and suitable access/presentation. Choose the method for the clinical situation and verify signal quality, maternal pulse, patient comfort, and ongoing interpretation."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Intermittent assessment and the lecture’s timing examples",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Purpose and limitations",
+                "text": "Intermittent auscultation can be appropriate for selected laboring patients and supports periodic assessment of the response to labor. It does not provide the same continuous paper pattern for detailed variability/deceleration analysis as EFM."
+              },
+              {
+                "label": "Lecture schedule",
+                "text": "Slide 5 describes an initial 10–20-minute assessment, then first-stage intervals of 30 minutes for low risk/15 for high risk, and second-stage intervals of 15/5 minutes respectively. Treat these as the lecture’s schedule; actual monitoring follows risk, labor stage, and unit policy."
+              },
+              {
+                "label": "Nursing responsibility",
+                "text": "Complete the maternal/prenatal risk assessment, assess with contractions, compare with the maternal pulse when needed, document findings, and escalate changes or the need for a different monitoring method."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "External EFM: ultrasound and toco do different jobs",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Ultrasound transducer",
+                "text": "Placed where the fetal heart is best heard, generally over the fetal back. Produces the FHR tracing used to assess baseline, variability, accelerations, and decelerations. Reposition when contact is lost."
+              },
+              {
+                "label": "Tocotransducer",
+                "text": "Placed over the fundus to display contraction timing, frequency, and duration. Clarification: its displayed height is not a reliable measurement of true contraction strength or resting pressure; palpation adds information."
+              },
+              {
+                "label": "Artifact and limitations",
+                "text": "Movement, transducer position, and maternal heart rate can distort the tracing. Assess the patient and equipment before assuming an abrupt change is a fetal event; a reassuring-looking display still needs interpretation in context."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Internal EFM: scalp electrode and IUPC",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Fetal scalp electrode",
+                "text": "A spiral electrode attaches to the presenting fetal scalp and records cardiac activity more directly. The lecture requires ruptured membranes, at least about 2 cm dilation, and an accessible presenting part low enough for placement."
+              },
+              {
+                "label": "Intrauterine pressure catheter",
+                "text": "An IUPC measures contraction pressure, including intensity and resting pressure, from inside the uterus. It provides information an external toco cannot quantify. It does not itself record the FHR."
+              },
+              {
+                "label": "Safety and limitations",
+                "text": "These are invasive methods requiring appropriate selection and trained insertion; assess membrane/presentation status and follow procedure precautions. Internal monitoring can improve signal quality but does not eliminate the need to verify the signal, reassess the patient, or interpret the tracing."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Interpret and communicate, whichever method is used",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "The lecture’s goal is to recognize declining reserve/possible fetal compromise and guide interventions while following maternal hemodynamic stability and uterine activity.",
+              "Ask the three lecture questions: what is the finding called, what does it mean, and what should be done? Record the assessment, actions, communication, and response.",
+              "Support position changes and comfort as monitoring allows. Explain the reason for external or internal equipment and respond promptly to loss of contact or concerning findings."
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "From Fetal & Maternal Monitoring, pages 2–18, and Processes of Labor & Birth, pages 30–35 and 47–48. Clarifies the external toco’s measurement limits and the lecture’s overly absolute “no maternal artifact” wording.",
+    "answerSources": [
+      {
+        "title": "Assigned lecture — Fetal & maternal monitoring in labor",
+        "url": "#/ob-final/presentation/fetal-monitoring"
+      },
+      {
+        "title": "Assigned lecture — Processes of labor & birth",
+        "url": "#/ob-final/presentation/labor-and-birth"
+      }
+    ]
   },
   {
-    id:'fhr-strip-assessment',weekIds:['week-5'],topicIds:['fetal-monitoring'],title:'Read a fetal heart rate strip',
-    text:'Use a consistent sequence to assess a strip: baseline, variability, accelerations, decelerations, and uterine activity. Interpret contraction frequency, duration, and resting intervals and recognize tachysystole.',answer:[]
+    "id": "fhr-strip-assessment",
+    "weekIds": [
+      "week-5"
+    ],
+    "topicIds": [
+      "fetal-monitoring"
+    ],
+    "title": "Read a fetal heart rate strip",
+    "text": "Use a consistent sequence to assess a strip: baseline, variability, accelerations, decelerations, and uterine activity. Interpret contraction frequency, duration, and resting intervals and recognize tachysystole.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Read the tracing in a consistent order: baseline, variability, accelerations, decelerations, and uterine activity; then interpret the whole pattern with maternal findings.",
+          "The lecture’s usual baseline is 110–160 bpm and moderate variability is 6–25 bpm. Assess the tracing over time rather than classifying one peak or dip alone.",
+          "Measure contraction frequency start-to-start, duration start-to-end, and the relaxation interval between contractions. Excessive activity can reduce the time available for placental perfusion."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Baseline: establish the reference before naming changes",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "How to read it",
+                "text": "Estimate the mean FHR in a 10-minute window, rounded to 5 bpm, excluding accelerations, decelerations, and marked variability. The usual range taught is 110–160 bpm."
+              },
+              {
+                "label": "Tachycardia versus bradycardia",
+                "text": "A sustained baseline >160 is tachycardia; <110 is bradycardia. A brief rise/drop is assessed as an acceleration/deceleration rather than automatically becoming a new baseline."
+              },
+              {
+                "label": "Check the context",
+                "text": "Confirm tracing quality and compare the maternal pulse when needed. Maternal hypotension, hemorrhage/anemia, hypertension, medications, and uterine activity can affect the fetal response discussed in the lecture."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Variability: describe the fluctuations around baseline",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Four descriptions",
+                "text": "Absent = not detectable; minimal = detectable but ≤5 bpm; moderate = 6–25 bpm; marked = >25 bpm. The ≤5 boundary clarifies the slide’s “<5” shorthand."
+              },
+              {
+                "label": "Why it matters",
+                "text": "The lecture connects variability with sympathetic/parasympathetic activity and fetal oxygenation. Moderate variability is reassuring at the time assessed; reduced variability requires evaluation with the rest of the tracing."
+              },
+              {
+                "label": "Interpretation clarification",
+                "text": "Minimal or absent variability alone does not prove fetal acidemia. Review the rate, decelerations, medications, maternal status, and progression rather than turning one finding into a diagnosis."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Accelerations and decelerations: name and time the event",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Term acceleration",
+                "text": "The usual term definition is a rise ≥15 bpm lasting ≥15 seconds but <2 minutes. Definition clarification: the lecture’s “less than 30 seconds” confuses the rapid onset with the full duration."
+              },
+              {
+                "label": "Describe a drop",
+                "text": "Record its depth/duration, gradual versus abrupt onset/recovery, and relationship to the contraction. Early, late, and variable patterns are distinguished by this timing/shape, not by the lowest number alone."
+              },
+              {
+                "label": "Use both traces",
+                "text": "Line up the FHR event with contraction onset, peak, and end. Review whether events recur and whether baseline/variability recover between contractions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Uterine activity: frequency, duration, intensity, and rest",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Frequency and duration",
+                "text": "Frequency is beginning-to-beginning; duration is beginning-to-end of one contraction. The resting interval runs from the end of one contraction to the start of the next."
+              },
+              {
+                "label": "Intensity and resting tone",
+                "text": "Use palpation or an IUPC when indicated. External toco peak height does not establish true strength; note whether the uterus relaxes between contractions."
+              },
+              {
+                "label": "Tachysystole clarification",
+                "text": "More than 5 contractions in 10 minutes, averaged over 30 minutes. This supplies the precise term requested by the objective for what the slides describe as hyperstimulation. Document whether FHR abnormalities accompany it; do not wait for the averaging window to finish before responding to acute compromise."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Finish with a complete interpretation",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "State the baseline, variability, accelerations, deceleration type/timing, and contraction pattern together; then assign the tracing category using all required features.",
+              "Decide whether observation, a corrective action, or urgent escalation is needed. Reassess after treatment and document the change rather than only writing “provider notified.”",
+              "Use the supplied examples: variability on pages 36–39, early/late decelerations on pages 27–28, variable on page 29, and prolonged on page 33 of Fetal & Maternal Monitoring."
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "From Fetal & Maternal Monitoring, pages 18–40 and 43–45, and Processes of Labor & Birth, pages 46–48. Short definition clarifications correct the acceleration duration/minimal-variability boundary and define tachysystole already requested by the objective.",
+    "answerSources": [
+      {
+        "title": "Assigned lecture — Fetal & maternal monitoring in labor",
+        "url": "#/ob-final/presentation/fetal-monitoring"
+      },
+      {
+        "title": "Assigned lecture — Processes of labor & birth",
+        "url": "#/ob-final/presentation/labor-and-birth"
+      },
+      {
+        "title": "Definition clarification — AHRQ fetal monitoring terminology",
+        "url": "https://www.ahrq.gov/patient-safety/settings/labor-delivery/perinatal-care/modules/strategies/safe-electronic-tool.html"
+      },
+      {
+        "title": "Definition clarification — NICHD fetal monitoring workshop",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1552-6909.2008.00284.x"
+      }
+    ]
   },
   {
-    id:'fhr-patterns',weekIds:['week-5'],topicIds:['fetal-monitoring'],title:'Decelerations and tracing categories',
-    text:'Distinguish early, variable, late, and prolonged decelerations by their shape and relationship to contractions. Interpret Category I, II, and III patterns and connect the findings with likely causes.',answer:[]
+    "id": "fhr-patterns",
+    "weekIds": [
+      "week-5"
+    ],
+    "topicIds": [
+      "fetal-monitoring"
+    ],
+    "title": "Decelerations and tracing categories",
+    "text": "Distinguish early, variable, late, and prolonged decelerations by their shape and relationship to contractions. Interpret Category I, II, and III patterns and connect the findings with likely causes.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Early decelerations gradually mirror the contraction and are linked with head compression; variable decelerations are abrupt and commonly reflect cord compression; late decelerations are delayed and suggest impaired uteroplacental exchange.",
+          "A prolonged deceleration is a drop ≥15 bpm lasting 2 to <10 minutes. Assess the cause and response promptly rather than waiting for it to become a baseline change.",
+          "Category I is reassuring, II requires evaluation and continued surveillance, and III requires urgent assessment/intervention. The category depends on the combined findings, especially variability."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Early versus late: compare timing with the contraction",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Early",
+                "text": "Gradual fall/recovery, with the nadir near the contraction peak and recovery as the contraction resolves. The lecture links this to fetal head compression, often in active/second-stage labor. Early decelerations alone are not evidence of fetal distress."
+              },
+              {
+                "label": "Late",
+                "text": "Gradual fall/recovery displaced later than the contraction; the nadir follows the contraction peak and recovery occurs later. The lecture lists hypotension, hypertension, post-term placental changes, and excessive oxytocin-related activity as contributors."
+              },
+              {
+                "label": "How to distinguish",
+                "text": "Compare both traces rather than simply calling every rounded dip early. Use the supplied page 27 early and page 28 late illustrations; their relative timing is the teaching point."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Variable and prolonged decelerations",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Variable",
+                "text": "Abrupt fall and return, with variable timing/shape relative to contractions; commonly related to cord compression. Assess baseline and variability, recurrence, and recovery, not just whether the dip forms a V."
+              },
+              {
+                "label": "Prolonged",
+                "text": "Definition clarification: ≥15-bpm decrease lasting ≥2 but <10 minutes. The slide gives the lower boundary; the upper boundary distinguishes this from a sustained baseline change."
+              },
+              {
+                "label": "Causes to review",
+                "text": "The lecture lists excessive uterine activity, hypotension/hypoxia, abruption, rupture, and cord problems among possible prolonged-deceleration causes. A tracing does not by itself identify which cause is present; urgently assess the patient and obtain help."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Category I: all reassuring criteria must fit",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Baseline 110–160 bpm with moderate variability.",
+              "No late or variable decelerations; early decelerations may be present or absent.",
+              "Accelerations may be present or absent. Continue appropriate monitoring; no single feature substitutes for the full category definition."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Category II: evaluate the indeterminate pattern",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "What belongs here",
+                "text": "Findings not meeting Category I or III. Lecture examples include tachycardia, bradycardia with preserved variability, minimal/marked variability, prolonged decelerations, and recurrent late/variable decelerations when the Category III combination is absent."
+              },
+              {
+                "label": "What it means",
+                "text": "Indeterminate is not the same as reassuring and does not independently prove abnormal acid–base status. Assess the whole picture, address contributing causes, communicate, and reassess over time."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Category III: the missing combination matters",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Definition clarification",
+                "text": "Absent baseline variability PLUS recurrent late decelerations, recurrent variable decelerations, or bradycardia; OR a sinusoidal pattern. The lecture’s Category III list must be read with the absent-variability requirement rather than treating each listed rate/deceleration as automatically Category III."
+              },
+              {
+                "label": "Nursing significance",
+                "text": "Urgently evaluate and begin corrective actions with the team. If the abnormal pattern does not resolve, prepare for expedited birth as directed. Continue maternal/fetal assessment and document actions and response."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Based on Fetal & Maternal Monitoring, pages 25–33 and 40–49. Keeps the lecture’s pattern comparisons; clearly marked definition clarifications supply the prolonged-deceleration upper boundary and the required Category III combination.",
+    "answerSources": [
+      {
+        "title": "Assigned lecture — Fetal & maternal monitoring in labor",
+        "url": "#/ob-final/presentation/fetal-monitoring"
+      },
+      {
+        "title": "Definition clarification — NICHD fetal monitoring workshop",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1552-6909.2008.00284.x"
+      },
+      {
+        "title": "Safety clarification — ACOG fetal heart rate monitoring guideline",
+        "url": "https://journals.lww.com/greenjournal/fulltext/2025/10000/acog_clinical_practice_guideline_no_.22.aspx"
+      }
+    ]
   },
   {
-    id:'fhr-priorities',weekIds:['week-5'],topicIds:['fetal-monitoring'],title:'Choose the first nursing action',
-    text:'For a practice strip, identify the priority concern, select and explain the first nursing action, describe further interventions and escalation, and state how you would evaluate the response. Practice applying this sequence to two different strips.',answer:[]
+    "id": "fhr-priorities",
+    "weekIds": [
+      "week-5"
+    ],
+    "topicIds": [
+      "fetal-monitoring"
+    ],
+    "title": "Choose the first nursing action",
+    "text": "For a practice strip, identify the priority concern, select and explain the first nursing action, describe further interventions and escalation, and state how you would evaluate the response. Practice applying this sequence to two different strips.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Use the lecture’s sequence: name the finding, interpret its likely meaning, choose an action aimed at the cause, and reassess.",
+          "Repositioning, stopping/reducing oxytocin when indicated, correcting maternal hypotension, and timely provider communication recur throughout the slides; do not use the same treatment automatically for every pattern.",
+          "Practice with the supplied early and late tracings on pages 27–28, then use the variable/prolonged examples and treatment slides to compare how the response changes."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Choose the first action from the whole situation",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Immediate assessment",
+                "text": "Check the patient, tracing quality/maternal pulse when needed, baseline/variability, decelerations, contraction activity, and recent changes such as analgesia, rupture, pushing, or oxytocin."
+              },
+              {
+                "label": "Act and communicate",
+                "text": "For concerning decelerations, promptly reposition laterally and address the apparent contributor; stop oxytocin when excessive stimulation or a concerning pattern requires it. Obtain urgent help in parallel for severe/persistent abnormalities."
+              },
+              {
+                "label": "Match the cause",
+                "text": "Hypotension calls for assessment and ordered circulatory treatment; recurrent variable patterns may lead to cord assessment and prescribed amnioinfusion; excessive contractions require reducing uterine stimulation. Internal monitors improve selected measurements but do not themselves correct hypoxia."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Supplied strip 1: early decelerations — page 27",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Identify and interpret",
+                "text": "The supplied tracing is labeled early; the gradual dips roughly mirror the contractions. The lecture explanation is head compression."
+              },
+              {
+                "label": "Priority response",
+                "text": "First complete the baseline/variability and maternal assessment. If the rest of the tracing is reassuring, continue appropriate observation and labor support rather than treating early decelerations alone as an emergency."
+              },
+              {
+                "label": "Evaluate",
+                "text": "Watch for recovery between contractions and any new late/variable changes or worsening variability. This illustration teaches timing; it does not provide a full patient history or justify inventing a complete clinical scenario."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Supplied strip 2: late decelerations — page 28",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Identify and interpret",
+                "text": "The supplied tracing is labeled late; the FHR nadirs follow the contraction peaks and recovery is delayed. The lecture links the pattern to uteroplacental insufficiency."
+              },
+              {
+                "label": "Priority response",
+                "text": "Promptly reposition on the side; assess maternal BP and uterine activity, stop oxytocin when indicated, and notify the provider while continuing corrective care. Give ordered fluids/treatment for the contributing condition."
+              },
+              {
+                "label": "Evaluate and escalate",
+                "text": "Reassess whether the dips resolve, variability and recovery improve, and maternal status stabilizes. Persistent/recurrent deterioration requires further team assessment and an expedited-birth plan when indicated. Do not infer the entire category solely from this cropped pattern example."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Compare the lecture’s variable and prolonged responses",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Variable — pages 29 and 46",
+                "text": "Reposition, assess rate/variability and recurrence, communicate, evaluate for cord prolapse when indicated, and prepare for ordered amnioinfusion or other treatment. Reduce/stop oxytocin when appropriate."
+              },
+              {
+                "label": "Prolonged — pages 33 and 48–49",
+                "text": "Call promptly, assess maternal status and uterine activity, reposition, stop oxytocin when indicated, and prepare for additional intervention/birth if unresolved. Do not delay escalation to complete a routine strip description."
+              },
+              {
+                "label": "Oxygen safety clarification",
+                "text": "The slides list routine mask oxygen. Current guidance does not recommend routine oxygen for an abnormal tracing when maternal oxygen saturation is normal; use it for maternal hypoxia or another clinical indication."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Document the response and the next step",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Record the pattern and maternal/contraction findings, action time, provider communication/orders, and fetal response after each intervention.",
+              "Describe what improved or persisted, and whether monitoring or the birth plan changed. “Repositioned and notified” is incomplete without the follow-up assessment emphasized by the lecture.",
+              "For each supplied strip, state: priority concern → first action and reason → further interventions/escalation → evidence of response. Use the actual slide findings instead of adding fictional patient measurements."
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Uses the supplied early/late strips (pages 27–28), variable/prolonged examples (29 and 33), and management slides (34, 40, 42, 46–51) in Fetal & Maternal Monitoring. No invented patient case or exact measurement is added to the images. The routine-oxygen advice receives a brief safety clarification.",
+    "answerSources": [
+      {
+        "title": "Assigned lecture — Fetal & maternal monitoring in labor",
+        "url": "#/ob-final/presentation/fetal-monitoring"
+      },
+      {
+        "title": "Safety clarification — ACOG fetal heart rate monitoring guideline",
+        "url": "https://journals.lww.com/greenjournal/fulltext/2025/10000/acog_clinical_practice_guideline_no_.22.aspx"
+      }
+    ]
   },
   {
-    id:'labor-comfort-medication',weekIds:['week-5'],topicIds:[],title:'Comfort, analgesia, and anesthesia',
-    text:'Compare nonpharmacological comfort measures, systemic analgesia, regional anesthesia, and general anesthesia. Explain maternal and fetal assessments, contraindications, adverse effects, and the nursing response to complications.',answer:[]
+    "id": "labor-comfort-medication",
+    "weekIds": [
+      "week-5"
+    ],
+    "topicIds": [],
+    "title": "Comfort, analgesia, and anesthesia",
+    "text": "Compare nonpharmacological comfort measures, systemic analgesia, regional anesthesia, and general anesthesia. Explain maternal and fetal assessments, contraindications, adverse effects, and the nursing response to complications.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Begin with the patient’s choices, coping, support, and prior experience; nonpharmacological and pharmacological measures can be combined and revisited as labor changes.",
+          "Compare systemic opioids with epidural/spinal, pudendal/local, and general anesthesia by the area/degree of relief, timing, and maternal/fetal effects.",
+          "Monitor especially for respiratory depression after systemic medication and hypotension after neuraxial anesthesia; prepare and reassess before, during, and after treatment."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Nonpharmacological comfort and labor support",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Measures in the slides",
+                "text": "Relaxation/breathing, imagery, music, chosen touch/massage, effleurage (light circular abdominal touch), counterpressure, position changes, and water therapy within the unit’s eligibility rules. What works early may need to change later."
+              },
+              {
+                "label": "Patient choice",
+                "text": "Ask about cultural/religious preferences, prior experiences, anxiety, and the desired support person. A doula supports labor and coping and is not the same role as a midwife. Avoid assuming everyone wants the same touch, position, or medication."
+              },
+              {
+                "label": "Evaluate",
+                "text": "Check comfort, coping, fatigue, and maternal/fetal tolerance. Offer another approach or medication when measures are insufficient. The lecture restricts hydrotherapy to intact membranes; follow the actual unit’s eligibility criteria rather than treating that as a universal rule."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Systemic analgesia: relief with sedation/respiratory risk",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Examples and role",
+                "text": "The lecture lists IV opioids such as morphine, butorphanol, and nalbuphine, with other sedating medicines also named. These can reduce pain but do not provide the same localized block as epidural or spinal anesthesia."
+              },
+              {
+                "label": "Timing and assessment",
+                "text": "Review the ordered drug, recent doses, allergies, labor progress/likelihood of birth, maternal respirations/consciousness/BP, and fetal status. Placental drug exposure and timing near birth matter; a dilation number alone is not a universal medication cutoff."
+              },
+              {
+                "label": "Adverse effect and response",
+                "text": "Monitor mother and newborn for respiratory depression/sedation. Support breathing, summon help, and give prescribed reversal/treatment when indicated; naloxone availability does not replace airway and respiratory assessment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Regional and local techniques: distinguish the sites",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Epidural and combined spinal–epidural",
+                "text": "Epidural medicine is delivered into the epidural space, often through a catheter; spinal/intrathecal medicine enters the intrathecal space. A combined technique uses both. Clarification: these spaces are not interchangeable."
+              },
+              {
+                "label": "Spinal",
+                "text": "The lecture describes rapid onset and use mainly for cesarean anesthesia; risks include hypotension and post-dural-puncture headache. The anesthesia team determines the technique and degree of block."
+              },
+              {
+                "label": "Pudendal and local",
+                "text": "Pudendal block targets perineal/vaginal/vulvar pain for second-stage or operative/perineal procedures. Local lidocaine may be used for repair. These do not provide the same coverage as a neuraxial block."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Nursing preparation, contraindications, and monitoring",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Before regional anesthesia",
+                "text": "Confirm informed consent, IV access, relevant history/medicines and ordered assessments. Prepare equipment, support positioning, and assess maternal BP and fetal status. Review refusal, anticoagulation/bleeding disorders, injection-site infection, allergy, and relevant cardiovascular/volume problems with anesthesia."
+              },
+              {
+                "label": "After placement",
+                "text": "Frequent BP checks, respiratory/level-of-block assessment, and fetal monitoring. The lecture emphasizes BP about every 5 minutes initially, then at the ordered interval. Assess bladder distention, motor/sensory effects, and safe positioning/movement."
+              },
+              {
+                "label": "Hypotension",
+                "text": "Reposition, alert anesthesia/provider, and give ordered fluid/vasopressor treatment while assessing fetal response. Safety clarification: the slide’s fixed 2-liter preload is not a universal order; fluids are individualized."
+              },
+              {
+                "label": "Timing clarification",
+                "text": "Neuraxial analgesia does not need to wait for an arbitrary >5-cm dilation. The timing, suitability, and monitoring plan depend on the patient and anesthesia team."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "General anesthesia and respiratory emergencies",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Use in the lecture",
+                "text": "May be needed for urgent cesarean birth or when regional techniques are unsuitable. It produces unconsciousness and requires an anesthesia airway/ventilation plan; do not equate every prior spinal operation or cardiac diagnosis with an automatic contraindication to regional anesthesia."
+              },
+              {
+                "label": "Nursing care",
+                "text": "Assist preparation/consent as circumstances allow, verify readiness, and monitor recovery, consciousness, breathing, BP, bleeding, and newborn transition with the team."
+              },
+              {
+                "label": "Newborn safety clarification",
+                "text": "For a newborn with ineffective breathing after medication exposure, effective ventilation and the neonatal resuscitation response take priority. Do not use the slide’s neonatal naloxone dose table as a substitute for resuscitation; doses and reversal decisions follow the responsible clinical team."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Evaluate comfort and safety together",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Reassess reported relief, coping, maternal respirations/consciousness and BP, fetal response, motor/sensory recovery, bladder needs, and readiness for safe movement.",
+              "Communicate inadequate relief, excessive sedation, hypotension, breathing changes, or a concerning fetal response promptly; continue support even when medication is used.",
+              "Include the patient in the next step and explain changes to the pain plan. The goal is effective, acceptable relief with ongoing maternal/fetal safety."
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "Based on Pain Management in Labor, pages 2–18, and the labor-support material in Processes of Labor & Birth, pages 49–50. Brief safety clarifications address anatomy, fixed dilation/fluid rules, overly broad contraindications, and prioritizing newborn ventilation over the slide’s reversal-dose table.",
+    "answerSources": [
+      {
+        "title": "Assigned lecture — Pain management in labor",
+        "url": "#/ob-final/presentation/labor-pain-management"
+      },
+      {
+        "title": "Assigned lecture — Processes of labor & birth",
+        "url": "#/ob-final/presentation/labor-and-birth"
+      },
+      {
+        "title": "Safety clarification — ASA obstetric anesthesia guidance",
+        "url": "https://doi.org/10.1097/aln.0000000000000935"
+      },
+      {
+        "title": "Safety clarification — AHA/AAP neonatal resuscitation",
+        "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation"
+      }
+    ]
   },
   {
-    id:'induction-augmentation',weekIds:['week-5'],topicIds:[],title:'Induction and augmentation safety',
-    text:'Explain preparation and nursing monitoring for cervical ripening, induction, augmentation, and amniotomy. Identify contraindications, medication safety concerns, and changes in uterine or fetal status that require action.',answer:[]
+    "id": "induction-augmentation",
+    "weekIds": [
+      "week-5"
+    ],
+    "topicIds": [],
+    "title": "Induction and augmentation safety",
+    "text": "Explain preparation and nursing monitoring for cervical ripening, induction, augmentation, and amniotomy. Identify contraindications, medication safety concerns, and changes in uterine or fetal status that require action.",
+    "answer": [
+      {
+        "type": "overview",
+        "items": [
+          "Induction initiates labor; augmentation strengthens labor that has already begun. Cervical ripening prepares an unfavorable cervix for the process.",
+          "The supplied slides cover vaginal prostaglandins and IV oxytocin, emphasizing the risk of excessive contractions and maternal/fetal compromise.",
+          "Before and during treatment, review the indication, birth history/contraindications, cervical and membrane findings, uterine activity, fetal status, and response to each intervention."
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Preparation and contraindications from the lecture",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Prepare and explain",
+                "text": "Confirm the plan and ordered agent, discuss the procedure, assess the cervix’s readiness, review previous birth/uterine incision history, and obtain baseline maternal/fetal and contraction findings."
+              },
+              {
+                "label": "Contraindications and placental concerns",
+                "text": "The slides name placenta previa, vasa previa, and prior cesarean. Safety clarification: prior cesarean is not a blanket prohibition of every induction method; the uterine incision, proposed drug, and obstetric plan matter."
+              },
+              {
+                "label": "Vasa previa clarification",
+                "text": "Unprotected fetal vessels cross or lie near the cervical opening. An off-center or velamentous insertion alone does not establish vasa previa. Confirm the diagnosis and birth plan before proceeding with a membrane/labor intervention."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Cervical ripening: understand the purpose and drug checks",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Purpose and examples",
+                "text": "The lecture describes prostaglandins to soften/ripen the cervix when it is not favorable: dinoprostone (Cervidil) and misoprostol (Cytotec). Follow the specific ordered product, route, and administration instructions."
+              },
+              {
+                "label": "Observe the response",
+                "text": "Monitor contractions and FHR before/after treatment, maternal symptoms, and cervical/labor changes. Escalate excessive contractions or an abnormal fetal response rather than automatically giving the next dose."
+              },
+              {
+                "label": "Medication safety clarification",
+                "text": "Do not use the slide’s “two Cervidil doses 12 hours apart” as a universal regimen. The insert has removal and oxytocin-spacing requirements, and prostaglandin use after a uterine scar requires drug-specific review. This summary does not supply a replacement dosing schedule."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Oxytocin: monitor the patient, not just the pump setting",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "Purpose",
+                "text": "Oxytocin can initiate labor or strengthen ineffective contractions. The lecture emphasizes a carefully titrated IV infusion; verify the ordered concentration, units, pump rate, and escalation schedule."
+              },
+              {
+                "label": "Watch maternal and fetal tolerance",
+                "text": "Assess contraction frequency, duration, relaxation/resting tone, labor progress, maternal status, and the FHR response. More frequent/longer contractions are not automatically better if perfusion/recovery is impaired."
+              },
+              {
+                "label": "Dosing clarification",
+                "text": "The slide’s milliunits/minute starting rate is an initial infusion rate, not an IV push/loading bolus. Use the actual medication order and unit protocol rather than treating the lecture’s example concentration/titration as a universal prescription."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Amniotomy: relate membrane care to the lecture’s risks",
+        "blocks": [
+          {
+            "type": "facts",
+            "items": [
+              {
+                "label": "What it means",
+                "text": "Amniotomy is intentional rupture of the membranes as part of an ordered labor plan. Review presenting-part position/engagement, fetal status, and the indication before the procedure."
+              },
+              {
+                "label": "Assessment afterward",
+                "text": "Reassess FHR promptly and record the rupture time and fluid amount/color/odor. The lecture warns about cord prolapse when the presenting part is not engaged; a new concerning FHR change after rupture needs prompt assessment and escalation."
+              },
+              {
+                "label": "Limit of the supplied material",
+                "text": "These PDFs discuss membrane status, rupture/cord risk, and monitoring but do not provide a complete amniotomy protocol. Use the responsible clinician’s procedure plan; no additional procedural checklist or new induction method is invented here."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "When uterine or fetal findings require action",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Recognize contractions that are too frequent, prolonged, or poorly separated, especially with decelerations or a change in variability. Use the tachysystole definition in the strip-reading objective.",
+              "Stop/reduce oxytocin as indicated by the safety protocol, reposition, assess maternal BP and FHR, and contact the provider; withhold further ripening medication and follow product-specific removal instructions when indicated.",
+              "Give ordered treatment for the likely cause and reassess contractions, resting intervals, maternal status, and the fetal pattern. Persistent compromise requires urgent escalation and possible birth preparation."
+            ]
+          }
+        ]
+      }
+    ],
+    "answerReviewedOn": "2026-11-21",
+    "answerSourceNote": "From Processes of Labor & Birth, pages 7–13, 24–28, and 42–48, and Fetal & Maternal Monitoring, pages 46–50. Keeps to the named methods; flags the incomplete amniotomy protocol and clarifies unsafe blanket scar/drug/dose instructions without adding a new dosing regimen.",
+    "answerSources": [
+      {
+        "title": "Assigned lecture — Processes of labor & birth",
+        "url": "#/ob-final/presentation/labor-and-birth"
+      },
+      {
+        "title": "Assigned lecture — Fetal & maternal monitoring in labor",
+        "url": "#/ob-final/presentation/fetal-monitoring"
+      },
+      {
+        "title": "Medication clarification — CERVIDIL prescribing information",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f3bc9031-0620-4a50-b440-f661cadfeb1d"
+      },
+      {
+        "title": "Safety clarification — ACOG labor induction",
+        "url": "https://www.acog.org/womens-health/faqs/labor-induction"
+      }
+    ]
   },
   {
     id:'complicated-labor',weekIds:['week-6'],topicIds:[],title:'Complicated labor and membrane rupture',

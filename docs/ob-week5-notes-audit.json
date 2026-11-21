@@ -1,0 +1,784 @@
+{
+  "weekId": "week-5",
+  "reviewedOn": "2026-11-21",
+  "basis": "The next teaching week after Week 3; Week 4 is Exam I. All eight existing objectives are populated in the established three-bullet Quick answer / collapsed-topic format. The user requested fidelity to the original PDFs and minimal additional information. Notes reorganize the supplied content, use actual supplied examples, and avoid new topics, fictional cases, replacement dosing tables, or an invented amniotomy protocol. Brief definition/safety clarifications are labeled and listed separately.",
+  "sources": [
+    {
+      "deckId": "labor-and-birth",
+      "path": "ob-presentations/labor-and-birth/original.pdf",
+      "pages": 68,
+      "sha256": "7d0bfad234e40224b17b8690d58b7f33cb1897d93b2c4dd5d77605cb0bbb41ca"
+    },
+    {
+      "deckId": "fetal-monitoring",
+      "path": "ob-presentations/fetal-monitoring/original.pdf",
+      "pages": 51,
+      "sha256": "1707601718ca499878f32b4156bdf698458b7299ef39e1836bcbe68ae3e6e048"
+    },
+    {
+      "deckId": "labor-pain-management",
+      "path": "ob-presentations/labor-pain-management/original.pdf",
+      "pages": 18,
+      "sha256": "3ee863e8897fda8f0a64073ee89c2fab1e8daf54cf8811cb601308c33bf637a2"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "normal-labor-process",
+      "title": "Preparing for labor and birth",
+      "lectureRanges": [
+        {
+          "deckId": "labor-and-birth",
+          "firstPage": 6,
+          "lastPage": 10
+        },
+        {
+          "deckId": "labor-and-birth",
+          "firstPage": 14,
+          "lastPage": 23
+        },
+        {
+          "deckId": "labor-and-birth",
+          "firstPage": 28,
+          "lastPage": 47
+        },
+        {
+          "deckId": "labor-and-birth",
+          "firstPage": 49,
+          "lastPage": 68
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "True versus false labor and preparation",
+          "noteTopic": "Recognize approaching labor and distinguish true from false labor"
+        },
+        {
+          "requirement": "Factors influencing progress",
+          "noteTopic": "Use the 5 P’s to explain progress"
+        },
+        {
+          "requirement": "Cervical changes, station, and descent",
+          "noteTopic": "Separate dilation, effacement, engagement, and station"
+        },
+        {
+          "requirement": "Fetal position, orientation, and movement through birth",
+          "noteTopic": "Identify fetal lie, presentation, attitude, and position"
+        },
+        {
+          "requirement": "Stages one/two and supportive nursing care",
+          "noteTopic": "First and second stages: cervical progress and birth"
+        },
+        {
+          "requirement": "Stages three/four, preparation, and family support",
+          "noteTopic": "Third and fourth stages: placenta, recovery, and support"
+        }
+      ],
+      "topics": [
+        "Recognize approaching labor and distinguish true from false labor",
+        "Use the 5 P’s to explain progress",
+        "Separate dilation, effacement, engagement, and station",
+        "Identify fetal lie, presentation, attitude, and position",
+        "First and second stages: cervical progress and birth",
+        "Third and fourth stages: placenta, recovery, and support"
+      ],
+      "reviewSources": [
+        {
+          "title": "Assigned lecture — Processes of labor & birth",
+          "url": "#/ob-final/presentation/labor-and-birth"
+        },
+        {
+          "title": "Safety clarification — ACOG first and second stage management",
+          "url": "https://www.acog.org/clinical/clinical-guidance/clinical-practice-guideline/articles/2024/01/first-and-second-stage-labor-management"
+        }
+      ]
+    },
+    {
+      "id": "labor-nursing-assessment",
+      "title": "Maternal assessment during labor",
+      "lectureRanges": [
+        {
+          "deckId": "labor-and-birth",
+          "firstPage": 2,
+          "lastPage": 5
+        },
+        {
+          "deckId": "labor-and-birth",
+          "firstPage": 24,
+          "lastPage": 35
+        },
+        {
+          "deckId": "labor-and-birth",
+          "firstPage": 47,
+          "lastPage": 51
+        },
+        {
+          "deckId": "labor-and-birth",
+          "firstPage": 54,
+          "lastPage": 68
+        },
+        {
+          "deckId": "fetal-monitoring",
+          "firstPage": 2,
+          "lastPage": 8
+        },
+        {
+          "deckId": "fetal-monitoring",
+          "firstPage": 50,
+          "lastPage": 51
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Admission history, coping, support, and preferences",
+          "noteTopic": "Admission history and birth preferences"
+        },
+        {
+          "requirement": "Contractions, membranes, and abdominal assessment",
+          "noteTopic": "Assess contractions, membranes, and fetal position"
+        },
+        {
+          "requirement": "Cervical findings, preparation, and examination safety",
+          "noteTopic": "Prepare for and document indicated vaginal assessment"
+        },
+        {
+          "requirement": "Ongoing maternal observations and comfort",
+          "noteTopic": "Ongoing maternal assessment and coping"
+        },
+        {
+          "requirement": "Documentation, communication, and escalation",
+          "noteTopic": "Documentation, communication, and escalation"
+        }
+      ],
+      "topics": [
+        "Admission history and birth preferences",
+        "Assess contractions, membranes, and fetal position",
+        "Prepare for and document indicated vaginal assessment",
+        "Ongoing maternal assessment and coping",
+        "Documentation, communication, and escalation"
+      ],
+      "reviewSources": [
+        {
+          "title": "Assigned lecture — Processes of labor & birth",
+          "url": "#/ob-final/presentation/labor-and-birth"
+        },
+        {
+          "title": "Assigned lecture — Fetal & maternal monitoring in labor",
+          "url": "#/ob-final/presentation/fetal-monitoring"
+        }
+      ]
+    },
+    {
+      "id": "monitoring-methods",
+      "title": "Fetal monitoring methods",
+      "lectureRanges": [
+        {
+          "deckId": "fetal-monitoring",
+          "firstPage": 2,
+          "lastPage": 18
+        },
+        {
+          "deckId": "labor-and-birth",
+          "firstPage": 30,
+          "lastPage": 35
+        },
+        {
+          "deckId": "labor-and-birth",
+          "firstPage": 47,
+          "lastPage": 48
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Intermittent assessment, use, timing, and limitations",
+          "noteTopic": "Intermittent assessment and the lecture’s timing examples"
+        },
+        {
+          "requirement": "External monitoring measurements and limitations",
+          "noteTopic": "External EFM: ultrasound and toco do different jobs"
+        },
+        {
+          "requirement": "Internal monitoring measurements, requirements, and safety",
+          "noteTopic": "Internal EFM: scalp electrode and IUPC"
+        },
+        {
+          "requirement": "Nursing interpretation and communication responsibilities",
+          "noteTopic": "Interpret and communicate, whichever method is used"
+        }
+      ],
+      "topics": [
+        "Intermittent assessment and the lecture’s timing examples",
+        "External EFM: ultrasound and toco do different jobs",
+        "Internal EFM: scalp electrode and IUPC",
+        "Interpret and communicate, whichever method is used"
+      ],
+      "reviewSources": [
+        {
+          "title": "Assigned lecture — Fetal & maternal monitoring in labor",
+          "url": "#/ob-final/presentation/fetal-monitoring"
+        },
+        {
+          "title": "Assigned lecture — Processes of labor & birth",
+          "url": "#/ob-final/presentation/labor-and-birth"
+        }
+      ]
+    },
+    {
+      "id": "fhr-strip-assessment",
+      "title": "Read a fetal heart rate strip",
+      "lectureRanges": [
+        {
+          "deckId": "fetal-monitoring",
+          "firstPage": 18,
+          "lastPage": 40
+        },
+        {
+          "deckId": "fetal-monitoring",
+          "firstPage": 43,
+          "lastPage": 45
+        },
+        {
+          "deckId": "labor-and-birth",
+          "firstPage": 46,
+          "lastPage": 48
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Baseline assessment",
+          "noteTopic": "Baseline: establish the reference before naming changes"
+        },
+        {
+          "requirement": "Variability assessment",
+          "noteTopic": "Variability: describe the fluctuations around baseline"
+        },
+        {
+          "requirement": "Accelerations and decelerations",
+          "noteTopic": "Accelerations and decelerations: name and time the event"
+        },
+        {
+          "requirement": "Uterine timing, resting intervals, and tachysystole",
+          "noteTopic": "Uterine activity: frequency, duration, intensity, and rest"
+        },
+        {
+          "requirement": "Consistent complete strip-reading sequence",
+          "noteTopic": "Finish with a complete interpretation"
+        }
+      ],
+      "topics": [
+        "Baseline: establish the reference before naming changes",
+        "Variability: describe the fluctuations around baseline",
+        "Accelerations and decelerations: name and time the event",
+        "Uterine activity: frequency, duration, intensity, and rest",
+        "Finish with a complete interpretation"
+      ],
+      "reviewSources": [
+        {
+          "title": "Assigned lecture — Fetal & maternal monitoring in labor",
+          "url": "#/ob-final/presentation/fetal-monitoring"
+        },
+        {
+          "title": "Assigned lecture — Processes of labor & birth",
+          "url": "#/ob-final/presentation/labor-and-birth"
+        },
+        {
+          "title": "Definition clarification — AHRQ fetal monitoring terminology",
+          "url": "https://www.ahrq.gov/patient-safety/settings/labor-delivery/perinatal-care/modules/strategies/safe-electronic-tool.html"
+        },
+        {
+          "title": "Definition clarification — NICHD fetal monitoring workshop",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1552-6909.2008.00284.x"
+        }
+      ]
+    },
+    {
+      "id": "fhr-patterns",
+      "title": "Decelerations and tracing categories",
+      "lectureRanges": [
+        {
+          "deckId": "fetal-monitoring",
+          "firstPage": 25,
+          "lastPage": 33
+        },
+        {
+          "deckId": "fetal-monitoring",
+          "firstPage": 40,
+          "lastPage": 49
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Early/late shape, timing, and causes",
+          "noteTopic": "Early versus late: compare timing with the contraction"
+        },
+        {
+          "requirement": "Variable/prolonged shape, duration, and causes",
+          "noteTopic": "Variable and prolonged decelerations"
+        },
+        {
+          "requirement": "Category I interpretation",
+          "noteTopic": "Category I: all reassuring criteria must fit"
+        },
+        {
+          "requirement": "Category II interpretation",
+          "noteTopic": "Category II: evaluate the indeterminate pattern"
+        },
+        {
+          "requirement": "Category III interpretation and urgency",
+          "noteTopic": "Category III: the missing combination matters"
+        }
+      ],
+      "topics": [
+        "Early versus late: compare timing with the contraction",
+        "Variable and prolonged decelerations",
+        "Category I: all reassuring criteria must fit",
+        "Category II: evaluate the indeterminate pattern",
+        "Category III: the missing combination matters"
+      ],
+      "reviewSources": [
+        {
+          "title": "Assigned lecture — Fetal & maternal monitoring in labor",
+          "url": "#/ob-final/presentation/fetal-monitoring"
+        },
+        {
+          "title": "Definition clarification — NICHD fetal monitoring workshop",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1552-6909.2008.00284.x"
+        },
+        {
+          "title": "Safety clarification — ACOG fetal heart rate monitoring guideline",
+          "url": "https://journals.lww.com/greenjournal/fulltext/2025/10000/acog_clinical_practice_guideline_no_.22.aspx"
+        }
+      ]
+    },
+    {
+      "id": "fhr-priorities",
+      "title": "Choose the first nursing action",
+      "lectureRanges": [
+        {
+          "deckId": "fetal-monitoring",
+          "firstPage": 8,
+          "lastPage": 8
+        },
+        {
+          "deckId": "fetal-monitoring",
+          "firstPage": 18,
+          "lastPage": 18
+        },
+        {
+          "deckId": "fetal-monitoring",
+          "firstPage": 27,
+          "lastPage": 29
+        },
+        {
+          "deckId": "fetal-monitoring",
+          "firstPage": 33,
+          "lastPage": 34
+        },
+        {
+          "deckId": "fetal-monitoring",
+          "firstPage": 40,
+          "lastPage": 51
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Identify concern, first action, and rationale",
+          "noteTopic": "Choose the first action from the whole situation"
+        },
+        {
+          "requirement": "Apply the sequence to the first supplied strip",
+          "noteTopic": "Supplied strip 1: early decelerations — page 27"
+        },
+        {
+          "requirement": "Apply the sequence to the second supplied strip",
+          "noteTopic": "Supplied strip 2: late decelerations — page 28"
+        },
+        {
+          "requirement": "Further interventions, different causes, and escalation",
+          "noteTopic": "Compare the lecture’s variable and prolonged responses"
+        },
+        {
+          "requirement": "Evaluate and document the response",
+          "noteTopic": "Document the response and the next step"
+        }
+      ],
+      "topics": [
+        "Choose the first action from the whole situation",
+        "Supplied strip 1: early decelerations — page 27",
+        "Supplied strip 2: late decelerations — page 28",
+        "Compare the lecture’s variable and prolonged responses",
+        "Document the response and the next step"
+      ],
+      "reviewSources": [
+        {
+          "title": "Assigned lecture — Fetal & maternal monitoring in labor",
+          "url": "#/ob-final/presentation/fetal-monitoring"
+        },
+        {
+          "title": "Safety clarification — ACOG fetal heart rate monitoring guideline",
+          "url": "https://journals.lww.com/greenjournal/fulltext/2025/10000/acog_clinical_practice_guideline_no_.22.aspx"
+        }
+      ]
+    },
+    {
+      "id": "labor-comfort-medication",
+      "title": "Comfort, analgesia, and anesthesia",
+      "lectureRanges": [
+        {
+          "deckId": "labor-pain-management",
+          "firstPage": 2,
+          "lastPage": 18
+        },
+        {
+          "deckId": "labor-and-birth",
+          "firstPage": 49,
+          "lastPage": 50
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Nonpharmacological measures and patient preferences",
+          "noteTopic": "Nonpharmacological comfort and labor support"
+        },
+        {
+          "requirement": "Systemic analgesia, timing, assessment, and adverse effects",
+          "noteTopic": "Systemic analgesia: relief with sedation/respiratory risk"
+        },
+        {
+          "requirement": "Regional, spinal, pudendal, and local comparisons",
+          "noteTopic": "Regional and local techniques: distinguish the sites"
+        },
+        {
+          "requirement": "Preparation, contraindications, hypotension, and monitoring",
+          "noteTopic": "Nursing preparation, contraindications, and monitoring"
+        },
+        {
+          "requirement": "General anesthesia and emergency respiratory response",
+          "noteTopic": "General anesthesia and respiratory emergencies"
+        },
+        {
+          "requirement": "Evaluation of relief, maternal/fetal effects, and recovery",
+          "noteTopic": "Evaluate comfort and safety together"
+        }
+      ],
+      "topics": [
+        "Nonpharmacological comfort and labor support",
+        "Systemic analgesia: relief with sedation/respiratory risk",
+        "Regional and local techniques: distinguish the sites",
+        "Nursing preparation, contraindications, and monitoring",
+        "General anesthesia and respiratory emergencies",
+        "Evaluate comfort and safety together"
+      ],
+      "reviewSources": [
+        {
+          "title": "Assigned lecture — Pain management in labor",
+          "url": "#/ob-final/presentation/labor-pain-management"
+        },
+        {
+          "title": "Assigned lecture — Processes of labor & birth",
+          "url": "#/ob-final/presentation/labor-and-birth"
+        },
+        {
+          "title": "Safety clarification — ASA obstetric anesthesia guidance",
+          "url": "https://doi.org/10.1097/aln.0000000000000935"
+        },
+        {
+          "title": "Safety clarification — AHA/AAP neonatal resuscitation",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation"
+        }
+      ]
+    },
+    {
+      "id": "induction-augmentation",
+      "title": "Induction and augmentation safety",
+      "lectureRanges": [
+        {
+          "deckId": "labor-and-birth",
+          "firstPage": 7,
+          "lastPage": 13
+        },
+        {
+          "deckId": "labor-and-birth",
+          "firstPage": 24,
+          "lastPage": 28
+        },
+        {
+          "deckId": "labor-and-birth",
+          "firstPage": 42,
+          "lastPage": 48
+        },
+        {
+          "deckId": "fetal-monitoring",
+          "firstPage": 46,
+          "lastPage": 50
+        }
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Induction/augmentation preparation and contraindications",
+          "noteTopic": "Preparation and contraindications from the lecture"
+        },
+        {
+          "requirement": "Cervical ripening and medication safety",
+          "noteTopic": "Cervical ripening: understand the purpose and drug checks"
+        },
+        {
+          "requirement": "Oxytocin augmentation/induction monitoring",
+          "noteTopic": "Oxytocin: monitor the patient, not just the pump setting"
+        },
+        {
+          "requirement": "Amniotomy and the supplied material’s limits",
+          "noteTopic": "Amniotomy: relate membrane care to the lecture’s risks"
+        },
+        {
+          "requirement": "Act on uterine/fetal changes and evaluate response",
+          "noteTopic": "When uterine or fetal findings require action"
+        }
+      ],
+      "topics": [
+        "Preparation and contraindications from the lecture",
+        "Cervical ripening: understand the purpose and drug checks",
+        "Oxytocin: monitor the patient, not just the pump setting",
+        "Amniotomy: relate membrane care to the lecture’s risks",
+        "When uterine or fetal findings require action"
+      ],
+      "reviewSources": [
+        {
+          "title": "Assigned lecture — Processes of labor & birth",
+          "url": "#/ob-final/presentation/labor-and-birth"
+        },
+        {
+          "title": "Assigned lecture — Fetal & maternal monitoring in labor",
+          "url": "#/ob-final/presentation/fetal-monitoring"
+        },
+        {
+          "title": "Medication clarification — CERVIDIL prescribing information",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f3bc9031-0620-4a50-b440-f661cadfeb1d"
+        },
+        {
+          "title": "Safety clarification — ACOG labor induction",
+          "url": "https://www.acog.org/womens-health/faqs/labor-induction"
+        }
+      ]
+    }
+  ],
+  "visualReview": [
+    {
+      "deckId": "labor-and-birth",
+      "pages": [
+        16,
+        18,
+        22,
+        23,
+        25,
+        36,
+        39,
+        41,
+        43
+      ],
+      "purpose": "Pelvis, head/fontanelle landmarks, vaginal assessment, lie/attitude/position, and station diagrams reviewed in full-page contact sheets."
+    },
+    {
+      "deckId": "fetal-monitoring",
+      "pages": [
+        10,
+        14,
+        15,
+        16,
+        24,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        33,
+        36,
+        37,
+        38,
+        39,
+        46,
+        47,
+        48,
+        49
+      ],
+      "purpose": "Reviewed equipment diagrams, acceleration/pattern comparisons, actual early/late/variable/prolonged strips, variability examples, and image-only management slides. Pages 27 and 28 are the two practice-strip examples, not pages 46–49 (which are text management slides). No fabricated full-window measurements or category labels inferred from cropped illustrations."
+    },
+    {
+      "deckId": "labor-pain-management",
+      "pages": [
+        6,
+        16
+      ],
+      "purpose": "Reviewed labor-position and epidural-position/anatomy diagrams."
+    }
+  ],
+  "clarifications": [
+    {
+      "issue": "Example labor durations and delayed pushing treated as universal instructions",
+      "handling": "Preserves stage/phase teaching but avoids automatic time limits or a routine 90-minute pushing delay.",
+      "sources": [
+        "https://www.acog.org/clinical/clinical-guidance/clinical-practice-guideline/articles/2024/01/first-and-second-stage-labor-management"
+      ]
+    },
+    {
+      "issue": "External toco suggests quantitative pressure and internal monitoring promises no artifact",
+      "handling": "Clarifies external timing versus true IUPC pressure measurement and retains signal verification responsibility.",
+      "sources": [
+        "https://www.ahrq.gov/patient-safety/settings/labor-delivery/perinatal-care/modules/strategies/safe-electronic-tool.html"
+      ]
+    },
+    {
+      "issue": "Acceleration duration <30 seconds; minimal variability <5; prolonged duration missing upper limit",
+      "handling": "Labels usual term acceleration ≥15 bpm for ≥15 seconds to <2 minutes, minimal detectable variability ≤5 bpm, and prolonged deceleration ≥2 to <10 minutes as definition clarifications.",
+      "sources": [
+        "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1552-6909.2008.00284.x",
+        "https://www.ahrq.gov/patient-safety/settings/labor-delivery/perinatal-care/modules/strategies/safe-electronic-tool.html"
+      ]
+    },
+    {
+      "issue": "Tachysystole is named in the objective but not numerically defined in the slides",
+      "handling": "Adds only the necessary definition, >5 contractions/10 minutes averaged over 30 minutes, with immediate response to acute compromise rather than waiting.",
+      "sources": [
+        "https://www.ahrq.gov/patient-safety/settings/labor-delivery/perinatal-care/modules/strategies/safe-electronic-tool.html"
+      ]
+    },
+    {
+      "issue": "Minimal/absent variability alone said to indicate acidemia; Category III list omits combination",
+      "handling": "Explains that low variability alone does not prove acidemia and identifies absent variability plus recurrent late/variable decelerations or bradycardia, or a sinusoidal pattern.",
+      "sources": [
+        "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1552-6909.2008.00284.x",
+        "https://journals.lww.com/greenjournal/fulltext/2025/10000/acog_clinical_practice_guideline_no_.22.aspx"
+      ]
+    },
+    {
+      "issue": "Routine oxygen and internal monitors presented as general correction for FHR abnormalities",
+      "handling": "Labels oxygen guidance for maternal hypoxia/clinical indication; internal monitors improve measurement rather than correcting oxygenation by themselves.",
+      "sources": [
+        "https://journals.lww.com/greenjournal/fulltext/2025/10000/acog_clinical_practice_guideline_no_.22.aspx"
+      ]
+    },
+    {
+      "issue": "Epidural anatomy, >5-cm delay, and fixed 2-liter preload",
+      "handling": "Separates epidural/intrathecal spaces, qualifies arbitrary dilation and fluid rules, and defers individual contraindications/administration to anesthesia.",
+      "sources": [
+        "https://doi.org/10.1097/aln.0000000000000935"
+      ]
+    },
+    {
+      "issue": "Newborn naloxone dose table could displace neonatal resuscitation",
+      "handling": "Does not reproduce the dose table; emphasizes ventilation/resuscitation first for ineffective breathing.",
+      "sources": [
+        "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation"
+      ]
+    },
+    {
+      "issue": "All prior cesareans treated as induction contraindication; vasa previa equated with off-center insertion",
+      "handling": "Qualifies scar/method-specific eligibility and defines the relevant fetal-vessel location. Does not introduce additional induction methods.",
+      "sources": [
+        "https://www.acog.org/womens-health/faqs/labor-induction"
+      ]
+    },
+    {
+      "issue": "Universal Cervidil repeat doses and oxytocin loading-dose wording",
+      "handling": "Defers dosing/removal/spacing to actual product orders; identifies oxytocin as a titrated infusion rather than an IV push. No replacement dose table is added.",
+      "sources": [
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f3bc9031-0620-4a50-b440-f661cadfeb1d"
+      ]
+    }
+  ],
+  "materialLimits": [
+    {
+      "objectiveId": "induction-augmentation",
+      "handling": "The PDFs do not give a complete amniotomy protocol. The notes define it and connect it with supplied membrane/engagement/cord-risk and monitoring material; the gap is explicitly identified."
+    }
+  ],
+  "preservedCompletedObjectives": [
+    {
+      "id": "family-centered-care",
+      "sha256": "70a0b3b2ece86eb8bf63f3096dc4920845f670ac30dd63c330d90b1181792671"
+    },
+    {
+      "id": "pregnancy-adaptations",
+      "sha256": "cf195c48ab0f0f1ac71c5cded8f7ade851b4982250c7fb49821e9c42fb7401c2"
+    },
+    {
+      "id": "pregnancy-psychosocial-care",
+      "sha256": "a8fc5c78a886aac82d8136712864eaabd54876c1ceaec7f416e1ac74de96f7bf"
+    },
+    {
+      "id": "conception-fetal-development",
+      "sha256": "a977e1cfd51356225669fd1b760339b7310344d798eb56b69bd1dfb8487ebe3e"
+    },
+    {
+      "id": "pregnancy-signs",
+      "sha256": "d84d6ebc86af9ccf967fc27f093e1962d0012f37730f7c6ed42f09df0e17856a"
+    },
+    {
+      "id": "obstetric-history-gtpal",
+      "sha256": "70b17bd7266c0e4a5f3cbccdd7ec5bf7afff46deb2a254895cf9b814fc7449f5"
+    },
+    {
+      "id": "estimated-due-date",
+      "sha256": "4c7fb355ae71583d39b8eadc5cf27390b0a8cda16b575c5be8be739432901f17"
+    },
+    {
+      "id": "prenatal-assessment",
+      "sha256": "6b6348d843955794ec685927ab731331b7231d2f0ecc6bad6b5fb35faa1fba4e"
+    },
+    {
+      "id": "pregnancy-discomforts",
+      "sha256": "34c498545e7a2cfbaaed7ecbadb19f82b6b852084fdc5d1fe72c8dd230e0da8e"
+    },
+    {
+      "id": "prenatal-nutrition-teaching",
+      "sha256": "83e1f0e7ee44b5408a6c51eb18c495ba50bb04abfcfada596d3c25c1edacb0da"
+    },
+    {
+      "id": "high-risk-pregnancy-assessment",
+      "sha256": "58ac88980195a296e5d2deee1a458f1f13a5ee7bdb3e7ad8ae36890462d21a8b"
+    },
+    {
+      "id": "early-pregnancy-complications",
+      "sha256": "ad306f6df18fd34dee9ffb08bd37d1f7f6dc399d62d7fe4c989c4f4911c58696"
+    },
+    {
+      "id": "placental-bleeding",
+      "sha256": "707c745c51110fb3dae06c67efed3e4a5abdd952a8b3f86c9a6680800c2ac69d"
+    },
+    {
+      "id": "diabetes-assessment",
+      "sha256": "d339f75477a7e32654b26c0b34a13e69d00853d964c3b2146e327f88224b46d7"
+    },
+    {
+      "id": "diabetes-nursing-management",
+      "sha256": "094361a09b9d7defe6b6573413678eeabc31c2cefd846f72181120f949a70d37"
+    },
+    {
+      "id": "hypertensive-disorders",
+      "sha256": "c8593c799384dbaee342a6b08ce90a44dd2287055dc5595d8afb7ef1fae45307"
+    },
+    {
+      "id": "eclampsia-magnesium-hellp",
+      "sha256": "cf3ccd761f55857d196adbf4cf5b18d4c7fdda6eeb37291c54abecd98fcf9d0a"
+    },
+    {
+      "id": "pregnancy-prom-preterm",
+      "sha256": "a2ab601a785d8e285014984761f78364211d07fba602e986c4bfae92493e7df8"
+    },
+    {
+      "id": "rh-abo-infections",
+      "sha256": "274d6e23637b7dc15ef4f825f7d2520b59559325e07f4d688c2601917a133ef8"
+    },
+    {
+      "id": "fluid-multiples-pregnancy",
+      "sha256": "17dc96e563f057c24236fd7cf495942c7753c675986f571e2cfdeac9651c0e0e"
+    },
+    {
+      "id": "placental-emergency-response",
+      "sha256": "528bb4f4558dc54218e43d5c1eabe9d6d496b93fc77377b941f68b49a7c6ef7e"
+    }
+  ],
+  "sharedViews": "All eight answers are reused in the existing Week 8 review; four also appear on the existing fetal-monitoring exam-topic page. Routing, source PDFs/previews, infographic/presentation order, videos, practice and navigation are unchanged.",
+  "limits": "Source-led educational summary. Checks verify coverage, source integrity, shared safe rendering and preservation; they are not independent clinical validation."
+}
