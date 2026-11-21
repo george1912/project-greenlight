@@ -483,3 +483,17 @@ details.ob-presentations>.ob-deck-grid{padding:16px;grid-template-columns:minmax
 
 .ob-note-sources>summary:before{content:'+';display:inline-block;width:20px;font-weight:600}
 .ob-note-sources[open]>summary:before{content:'−'}
+
+/* OB breadcrumbs show the hierarchy; the parent link is easy to tap. */
+.ob-page-navigation{margin:22px 0 0;display:flex;align-items:flex-start;gap:12px 24px;flex-wrap:wrap}
+.ob-breadcrumb{margin:0;flex:1;min-width:0;font-size:14px;line-height:1.5}
+.ob-breadcrumb ol{display:flex;align-items:center;flex-wrap:wrap;gap:0 8px;list-style:none;padding:0;margin:0}
+.ob-breadcrumb li{display:flex;align-items:center;gap:8px;min-width:0;max-width:100%;overflow-wrap:anywhere}
+.ob-breadcrumb a{display:inline-flex;align-items:center;min-height:44px;padding:8px 4px;color:var(--green);font-weight:500;text-underline-offset:4px}
+.ob-breadcrumb a:hover{background:var(--mint)}
+.ob-crumb-separator{color:var(--muted)}
+.ob-breadcrumb [aria-current=page]{color:var(--ink);padding:10px 4px}
+.ob-back-link{display:inline-flex;align-items:center;justify-content:center;min-height:44px;max-width:100%;padding:10px 16px;border:1px solid var(--green);background:var(--white);color:var(--green);font-size:16px;line-height:1.4;font-weight:500;text-decoration:none;overflow-wrap:anywhere}
+.ob-back-link:hover{background:var(--mint)}
+.ob-page-navigation~.guide-bottom a{display:inline-flex;align-items:center;min-height:44px;font-size:15px;line-height:1.5}
+@media(max-width:680px){.ob-page-navigation{display:block;margin-top:16px}.ob-breadcrumb li[aria-current=page]{flex-basis:100%;padding-top:0}.ob-back-link{margin-top:8px}.ob-page-navigation~.guide-bottom{flex-wrap:wrap}}

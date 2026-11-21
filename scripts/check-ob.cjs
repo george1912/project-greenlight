@@ -7,6 +7,23 @@ for(const file of ['content.js','presentations.js','conditions.js','videos.js','
 const course=vm.runInContext('obCourse',s);
 assert(main.innerHTML.includes('class="exam-card" href="#/final"'));assert(main.innerHTML.includes('class="exam-card" href="#/ob-final"'));
 function render(route){s.location.hash=route;vm.runInContext('render()',s);return main.innerHTML;}
+function navigation(route){
+ const markup=render(route).match(/<div class="ob-page-navigation">([\s\S]*?)<\/div>/)[1];
+ assert.equal((markup.match(/aria-current="page"/g)||[]).length,1);
+ assert(markup.includes('<ol>')&&markup.includes('class="ob-back-link"'));
+ assert(!markup.includes(`href="${route}"`),'Current page is a label, not a self-link');
+ return markup;
+}
+assert(!navigation('#/ob-final').includes('href="#/ob-final"'));
+assert(navigation('#/ob-final/week-1').includes('All weekly materials'));
+assert(navigation('#/ob-final/topic/feeding').includes('All exam topics'));
+assert(navigation('#/ob-final/practice/exam-1').includes('href="#/ob-final/practice"'));
+assert(navigation('#/ob-final/podcast').includes('Exam topics'));
+render('#/ob-final/week-2');
+assert(navigation('#/ob-final/presentation/fetal-development').includes('Back to Week 2 materials'));
+render('#/');
+assert(navigation('#/ob-final/presentation/fetal-development').includes('Back to Week 1 materials'),'Direct presentation visit has a stable parent');
+assert(navigation('#/ob-final/presentation/postpartum-care/postpartum-hemorrhage').includes('Back to Postpartum complications'));
 assert(!render('#/ob-final').includes('href="#/ob-final/practice"'));
 const practiceGuide=render('#/ob-final/study-guide');assert.equal((practiceGuide.match(/href="#\/ob-final\/practice"/g)||[]).length,1);
 const practice=render('#/ob-final/practice');assert.equal((practice.match(/class="ob-topic-card"/g)||[]).length,3);
@@ -36,4 +53,4 @@ render('#/final');assert(s.document.title.includes('Med-Surg III'));render('#/fi
 const html=fs.readFileSync(path.join(root,'index.html'),'utf8'),workflow=fs.readFileSync(path.join(root,'.github/workflows/pages.yml'),'utf8');
 for(const file of ['ob-content.js','ob-posters.js','ob-objectives.js','ob-question-map.js','ob-question-quizzes.js','ob-presentations.js','ob-practice-data.js','ob-practice.js','ob.js']){assert(html.includes(`src="${file}?`));assert(workflow.includes(file));}
 const recovery=fs.readFileSync(path.join(root,'404.html'),'utf8').match(/<script>([\s\S]*?)<\/script>/)[1];let redirected='';vm.runInNewContext(recovery,{URL,location:{pathname:'/project-greenlight/ob-final/topic/feeding',search:'?source=class',origin:'https://george1912.github.io',replace(url){redirected=url;}}});assert.equal(redirected,'https://george1912.github.io/project-greenlight/?source=class#/ob-final/topic/feeding');
-console.log('Passed: two course cards, OB guide before weeks, all 11 blueprint groups/counts, 10 syllabus sessions, cumulative focus items, honest Week 8/August 4 labels, empty study banks, no source downloads, related links, safe invalid routes, redirects and preserved Med-Surg pages.');
+console.log('Passed: two course cards, OB guide before weeks, all 11 blueprint groups/counts, 10 syllabus sessions, cumulative focus items, honest Week 8/August 4 labels, empty study banks, no source downloads, related links, safe invalid routes, semantic breadcrumbs, parent links, shared-week presentation returns, redirects and preserved Med-Surg pages.');
