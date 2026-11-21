@@ -44,7 +44,9 @@ function render(route) {
 }
 function verifyPage(route, expectedObjectives) {
   const markup = render(route);
-  const actual = [...markup.matchAll(/data-objective="([^"]+)"[\s\S]*?<\/details>/g)];
+  // Objectives can contain nested source and practice disclosures.
+  const markers = [...markup.matchAll(/data-objective="([^"]+)"/g)];
+  const actual = markers.map((match, index) => [markup.slice(match.index, markers[index + 1]?.index), match[1]]);
   assert.equal(actual.length, expectedObjectives.length, route);
   for (const [, id] of actual) assert(expectedObjectives.some(o => o.id === id));
   for (const objective of expectedObjectives) {

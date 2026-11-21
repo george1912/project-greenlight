@@ -25,7 +25,7 @@
     "examTopics": 11
   },
   "noteStorage": "obStudyObjectives[].answer",
-  "clinicalAnswersIncluded": false,
+  "clinicalAnswersIncluded": true,
   "nursingOutline": [
     "Overview & key concepts",
     "Risk factors & prevention",
@@ -1078,5 +1078,8 @@
         "stis"
       ]
     }
+  ],
+  "completedObjectiveIds": [
+    "family-centered-care"
   ]
 }

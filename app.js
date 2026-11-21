@@ -7,10 +7,11 @@ let disposePoster = () => {};
 let disposeSectionQuizzes = () => {};
 let disposeFocusedReview = () => {};
 const escapeHTML = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
-function studyContent(blocks) {
+function studyContent(blocks, headingTag = 'h5') {
+  const subheading = headingTag === 'h4' ? 'h4' : 'h5';
   return blocks.map(block => {
     if (typeof block === 'string') return `<p>${escapeHTML(block)}</p>`;
-    if (block.type === 'heading') return `<h5>${escapeHTML(block.text)}</h5>`;
+    if (block.type === 'heading') return `<${subheading}>${escapeHTML(block.text)}</${subheading}>`;
     if (block.type === 'list') return `<ul>${block.items.map(item => `<li>${escapeHTML(item)}</li>`).join('')}</ul>`;
     return `<p>${escapeHTML(block.text)}</p>`;
   }).join('');

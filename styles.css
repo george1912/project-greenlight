@@ -473,3 +473,13 @@ details.ob-presentations>.ob-deck-grid{padding:16px;grid-template-columns:minmax
 
 .ob-topic-resources{margin-top:28px}
 @media(max-width:800px){.ob-topic-resources>div[data-ob-poster] .poster-image-button{width:100%}.ob-topic-resources>div[data-ob-poster] .condition-poster-image{width:100%;max-height:none}}
+
+.ob-study-objective .answer-area h4{font:500 23px/1.35 var(--pixel);color:var(--green);margin:24px 0 10px}
+.ob-study-objective .answer-area h3+h4{margin-top:16px}
+.ob-study-objective .answer-area li{margin:10px 0}
+.ob-note-sources{margin-top:24px;border-top:1px solid var(--line);padding-top:12px}
+.ob-study-objective .ob-note-sources>summary{display:block;list-style:revert;padding:8px 0;background:transparent;border:0;font-size:16px;color:var(--green);cursor:pointer}
+.ob-study-objective .answer-area .ob-note-sources p,.ob-study-objective .answer-area .ob-note-sources li{font-size:14px;line-height:1.65;overflow-wrap:anywhere}
+
+.ob-note-sources>summary:before{content:'+';display:inline-block;width:20px;font-weight:600}
+.ob-note-sources[open]>summary:before{content:'−'}

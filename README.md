@@ -192,3 +192,7 @@ Run `node scripts/check-ob-videos.cjs` for source identity, exact objective plac
 ### Weekly materials first
 
 OB weekly pages begin with the main infographic (visible on phones and expandable in the poster viewer), a closed presentation/handout list, and the weekly outline, followed by study objectives, TikToks and practice. Additional weekly infographics remain in individual disclosures beneath the main image. The final-exam guide keeps its topic order. Topic pages also lead with the main infographic and a collapsed presentation list above the objectives; expanding it retains the topic-specific page-range links. Week 8 retains its links and nested review objectives rather than inventing a new infographic or presentation.
+
+### Family-centered obstetric nursing notes
+
+Week 1 objective 01 now has completed study notes in `obStudyObjectives[].answer`, expanded from the supplied handwritten notes and Historical Context lecture. They cover the nurse’s role across pregnancy, birth and recovery; risk management, sentinel events and maternal/newborn failure to rescue; communication and teach-back; culturally responsive care; consent, privacy and advocacy; childbirth/feeding education; community support; and hospital/midwifery/birth-center roles. A collapsed source list records the clinical references checked November 20, 2026. The “bad outcomes” shorthand is clarified to distinguish sentinel events from other poor outcomes. All other objective answers remain ready for the user’s notes; TikToks and questions keep their existing placement.

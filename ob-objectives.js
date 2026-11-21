@@ -1,10 +1,141 @@
 /* Authored study prompts based on the supplied syllabus, Exam 3 blueprint, and teaching PDFs.
-   These are not verbatim faculty objectives. Notes are intentionally empty and shared by both views.
+   These are not verbatim faculty objectives. Notes are shared by weekly and topic views; populated when the user supplies material.
    Add studyContent-compatible blocks to an objective's answer array when notes are supplied. */
 const obStudyObjectives = [
   {
     id:'family-centered-care',weekIds:['week-1'],topicIds:[],title:'Family-centered obstetric nursing',
-    text:'Explain the nurse’s role in safe, culturally responsive, family-centered care across pregnancy, birth, and recovery. Include communication, consent, advocacy, and available support systems.',answer:[]
+    text:'Explain the nurse’s role in safe, culturally responsive, family-centered care across pregnancy, birth, and recovery. Include communication, consent, advocacy, and available support systems.',answer:[
+    {
+        "type": "heading",
+        "text": "The nurse’s role: safe care with the patient and family"
+    },
+    "Family-centered obstetric nursing treats pregnancy, birth, and recovery as both a health-care experience and a major family transition. The nurse assesses and protects the pregnant or postpartum patient and the fetus/newborn, teaches practical skills, coordinates care, and supports informed decisions. The patient defines who their family and support people are and how they should participate; family involvement never replaces the patient’s own voice, privacy, or consent.",
+    {
+        "type": "heading",
+        "text": "Safety, risk management, and failure to rescue"
+    },
+    {
+        "type": "list",
+        "items": [
+            "Risk management means identifying hazards, preventing avoidable harm, and learning from errors and near misses. Use patient identification, medication/allergy checks, infection prevention, accurate handoffs, appropriate maternal and newborn monitoring, and timely documentation. Follow unit protocols and work within your training and scope.",
+            "Sentinel event: a serious patient-safety event meeting Joint Commission criteria, such as a care-related event resulting in death, severe harm, or permanent harm rather than the expected course of illness. Some specified events qualify regardless of the outcome. “Bad outcome” is a lecture shorthand, not the definition; use the organization’s current event criteria and reporting process.",
+            "Failure to rescue means failing to prevent serious deterioration from a complication through timely recognition and response. A complication can arise despite good care; failing to recognize it, relay the concern, or react appropriately can turn a treatable problem into major harm. This applies to maternal and newborn care.",
+            "Nursing response: recognize a change, assess promptly, summon appropriate help, communicate clearly, initiate actions permitted by emergency protocols, and reassess. Use SBAR (Situation, Background, Assessment, Recommendation) and closed-loop communication (the receiver repeats key information and the sender confirms it). If the response is delayed or the patient worsens, use the chain of command or rapid-response/emergency system; one unanswered call is not the end of escalation.",
+            "Example: a postpartum patient becomes pale and dizzy with increasing bleeding. Assess and activate the hemorrhage response rather than assuming normal lochia. A newborn with apnea, cyanosis, or worsening respiratory effort likewise needs immediate assessment and the neonatal emergency response. Document observations, actions, notifications, and responses objectively."
+        ]
+    },
+    {
+        "type": "heading",
+        "text": "What the nurse does across pregnancy, birth, and recovery"
+    },
+    {
+        "type": "list",
+        "items": [
+            "During pregnancy: assess history, baseline health, pregnancy risks, emotional well-being, learning needs, and access to care. Reinforce the prenatal plan, prepare the family for birth and infant care, teach when to seek help, and coordinate referrals and follow-up.",
+            "During labor and birth: reassess the patient and fetus as indicated, provide comfort and emotional support, explain what is happening, help the chosen support person participate, and collaborate with the obstetric/midwifery, anesthesia, and neonatal teams. Report changes promptly and prepare for a different plan when clinical needs change.",
+            "During recovery: assess maternal recovery and newborn adaptation, support bonding when clinically appropriate, help with feeding and newborn-care skills, and assess the family’s ability to manage at home. Arrange maternal and newborn follow-up and confirm who to contact after discharge.",
+            "Warning-sign teaching: seek immediate care for concerning symptoms such as heavy bleeding, chest pain, difficulty breathing, severe or persistent headache, vision changes, or fever. Pregnancy-related complications can occur during pregnancy and up to a year after birth. Give a clear action plan rather than simply saying “call if needed.”"
+        ]
+    },
+    {
+        "type": "heading",
+        "text": "Communication and culturally responsive care"
+    },
+    {
+        "type": "list",
+        "items": [
+            "Introduce yourself and your role, listen without interrupting, validate concerns, and use plain language. Ask “What matters most to you?” and “Who would you like involved?” Explain changes in the care plan and make time for questions.",
+            "Use a qualified interpreter when needed instead of relying on a partner or child for clinical interpretation. Provide accessible written or visual information. Use teach-back: “To check how clearly I explained this, tell me what you would do if the bleeding became heavy.” Re-teach without blaming the patient.",
+            "Ask about the individual’s beliefs, language, modesty, food preferences, spiritual practices, and birth/feeding preferences; do not infer them from appearance, ethnicity, or religion. Accommodate safe practices and discuss safety concerns respectfully when a preference conflicts with the proposed plan.",
+            "Use trauma-informed care: explain before touching or examining, ask permission, protect privacy, and offer choices and pauses whenever possible. Speak directly to the patient, even when family members are present."
+        ]
+    },
+    {
+        "type": "heading",
+        "text": "Consent, advocacy, and privacy"
+    },
+    {
+        "type": "list",
+        "items": [
+            "Informed consent is an ongoing discussion of the proposed care, expected benefits, material risks, alternatives, and the option to decline. A signature alone does not show understanding or voluntary agreement.",
+            "The clinician responsible for the procedure explains it; the nurse supports communication, checks for unanswered questions or coercion, reinforces information within scope, and follows policy for consent verification or witnessing. If the patient does not understand or changes their mind, pause a nonurgent procedure and contact the responsible clinician rather than treating the signed form as permission to proceed.",
+            "Respect an adult patient’s informed choice, including refusal, when they have decision-making capacity. Discuss concerns without threats or pressure. Family members do not override that patient’s decision. Follow applicable policy and law when capacity, emergency care, or surrogate decision making is involved.",
+            "Advocate when pain, symptoms, or concerns are dismissed. Communicate the patient’s preferences and request review when the plan is unclear or unsafe. Obtain permission before sharing information with support people, and provide private time for sensitive assessment such as intimate-partner violence or other safety concerns."
+        ]
+    },
+    {
+        "type": "heading",
+        "text": "Teaching, support systems, and community resources"
+    },
+    {
+        "type": "list",
+        "items": [
+            "Nurses may provide childbirth education through hospital, private, or community-funded classes. Tailor teaching to readiness, language, literacy, and resources; include coping skills, support-person participation, feeding, newborn care, and warning signs.",
+            "Provide breastfeeding/chestfeeding education and practical support within competence, and refer to a lactation specialist when needed. Respect the patient’s feeding decisions and include safe formula preparation and feeding teaching when relevant.",
+            "Assess barriers such as transportation, cost, food insecurity, housing, work, child care, and limited support. Collaborate with social work/case management and connect the family with public-health clinics, community programs, peer groups, and chosen faith/community supports.",
+            "Examples: WIC offers eligible families nutrition services, breastfeeding support, and health-care referrals. Voluntary HRSA-funded home-visiting programs can provide education, parenting support, and resource connections; local eligibility and availability vary. Also consider perinatal mental-health services, safety resources, and bereavement support when indicated.",
+            "Make referrals usable: confirm contact details, accessibility, eligibility, and transportation needs, and check that the patient understands the next step. Giving a phone number alone does not confirm that support was obtained."
+        ]
+    },
+    {
+        "type": "heading",
+        "text": "Care settings and team roles"
+    },
+    {
+        "type": "list",
+        "items": [
+            "Hospital care: patients may receive care through a private obstetric practice, a hospital-based team, or a midwifery service. The nurse provides ongoing assessment, support, education, and coordination; availability of obstetric, anesthesia, operative, and neonatal services depends on the facility.",
+            "Birth center: often provides midwife-led care for appropriately selected patients with uncomplicated pregnancies. The team must reassess eligibility and have consultation and transfer arrangements for complications. A home-like setting still requires clinical assessment and an emergency plan.",
+            "Midwifery is a model of care, not a building. Midwives can work in hospitals, birth centers, offices, and, where permitted and appropriate, homes. A bedside RN is not automatically a midwife; a certified nurse-midwife has additional advanced-practice education and credentials. A doula provides nonmedical support and does not replace the nurse, midwife, or obstetric clinician."
+        ]
+    },
+    {
+        "type": "heading",
+        "text": "Evaluate the care and remember the priorities"
+    },
+    "Effective care means the patient feels heard, understands their choices, can teach back key warning signs and self-care skills, and has a realistic follow-up and support plan. The nurse reassesses both clinical status and understanding, documents the response, and adapts the plan when needs change.",
+    "Exam recall: ASSESS the patient and family → LISTEN and respect preferences → EXPLAIN and support consent → ACT and escalate for safety → TEACH and connect resources → REASSESS. Family-centered care includes the chosen family while keeping the patient’s autonomy and maternal/newborn safety central."
+],
+    answerReviewedOn:'2026-11-20',
+    answerSourceNote:'Expanded from your handwritten notes and the Historical Context presentation (pages 9–10 and 14–16), with the clinical terminology and patient-rights guidance checked against the sources below.',
+    answerSources:[
+    {
+        "title": "WHO — Respectful maternal and newborn care",
+        "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/quality-of-care/respectful-care"
+    },
+    {
+        "title": "ACOG — Informed consent and shared decision making",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2021/02/informed-consent-and-shared-decision-making-in-obstetrics-and-gynecology"
+    },
+    {
+        "title": "Joint Commission — Sentinel event policy and procedures",
+        "url": "https://www.jointcommission.org/en-us/knowledge-library/support-center/standards-interpretation/sentinel-event-policy-and-procedures"
+    },
+    {
+        "title": "AHRQ PSNet — Failure to Rescue",
+        "url": "https://psnet.ahrq.gov/primer/failure-rescue"
+    },
+    {
+        "title": "CDC Hear Her — Urgent maternal warning signs",
+        "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+    },
+    {
+        "title": "Public Health Agency of Canada — Family-centred care during pregnancy",
+        "url": "https://www.canada.ca/en/public-health/services/publications/healthy-living/maternity-newborn-care-guidelines-chapter-3.html"
+    },
+    {
+        "title": "HRSA — Maternal, Infant, and Early Childhood Home Visiting",
+        "url": "https://www.hrsa.gov/services/maternal-infant-early-childhood-home-visiting-program"
+    },
+    {
+        "title": "USDA — WIC frequently asked questions",
+        "url": "https://www.fna.usda.gov/wic/faqs"
+    },
+    {
+        "title": "American College of Nurse-Midwives — Midwifery FAQs",
+        "url": "https://midwife.org/faqs/"
+    }
+]
   },
   {
     id:'pregnancy-adaptations',weekIds:['week-1'],topicIds:['antepartum-prenatal'],title:'Maternal adaptations to pregnancy',
