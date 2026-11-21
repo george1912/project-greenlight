@@ -24,13 +24,23 @@ const VideoLibrary = (() => {
       <span class="video-preview-action"><span aria-hidden="true">▷</span> Watch here${v.duration ? ` · ${escapeHTML(v.duration)}` : ''}</span>
     </button>`;
   }
-  function card(v, index) {
+  function card(v, index, collection = 'med-surg') {
     return `<article class="video-card" data-platform="${v.platform}" data-search="${escapeHTML(`${v.title} ${v.creator} ${v.description}`.toLowerCase())}">
-      <div class="video-slot" data-video-index="${index}">${preview(v)}</div>
-      <div class="video-meta">${v.platform}${v.duration ? ` · ${escapeHTML(v.duration)}` : ''}</div>
-      <h3>${escapeHTML(v.title)}</h3><p class="video-creator">${escapeHTML(v.creator)}</p><p>${escapeHTML(v.description)}</p>
+      <div class="video-slot" data-video-index="${index}" data-video-collection="${collection}">${preview(v)}</div>
+      <div class="video-meta">${v.platform}${v.duration ? ` · ${escapeHTML(v.duration)}` : ''}${v.videoType ? ` · ${v.videoType === 'nursing' ? 'Nursing care' : 'Concept'}` : ''}</div>
+      <${collection === 'ob' ? 'h4' : 'h3'}>${escapeHTML(v.title)}</${collection === 'ob' ? 'h4' : 'h3'}><p class="video-creator">${escapeHTML(v.creator)}</p><p>${escapeHTML(v.description)}</p>
+      ${v.credential ? `<p class="video-credential">${escapeHTML(v.credential)} <span>(creator-reported)</span></p>` : ''}
+      ${v.notes ? `<p class="video-fit-note">${escapeHTML(v.notes)}</p>` : ''}
       <a class="video-source${v.platform === 'TikTok' ? ' video-source-tiktok' : ''}" href="${escapeHTML(v.url)}" target="_blank" rel="noopener noreferrer">${v.platform === 'TikTok' ? 'Play on TikTok' : 'Open on YouTube'} ↗</a>
     </article>`;
+  }
+  function objectiveSection(objectiveID) {
+    if (typeof obVideoResources === 'undefined') return '';
+    const items = obVideoResources.filter(v => !v.pending && v.objectiveId === objectiveID);
+    if (!items.length) return '';
+    return `<section class="video-resources ob-objective-videos" aria-label="Study videos"><h3>Watch &amp; understand <span class="ob-video-count">${items.length} ${items.length === 1 ? 'video' : 'videos'}</span></h3>
+      <p class="video-context">Creator videos supplement your course materials. Descriptions are supplied resource summaries; coverage and accuracy may vary.</p>
+      <div class="video-grid">${items.map(v => card(v, obVideoResources.indexOf(v), 'ob')).join('')}</div></section>`;
   }
   function section(topic) {
     const items = available(topic);
@@ -48,7 +58,11 @@ const VideoLibrary = (() => {
     return topic ? `<details class="condition-section condition-video-section" id="condition-videos"><summary><span class="objective-number" aria-hidden="true">17</span><h2 id="video-resources-title">Video resources</h2><span class="expand-icon" aria-hidden="true"></span></summary><div class="condition-body">${content}</div></details>` : content;
   }
   function mount(root) {
-    const host = root.querySelector('.video-resources'); if (!host) return () => {};
+    // OB pages have a resource section in each objective, including Week 8's review groups.
+    // Delegate across the page so switching objectives still leaves only one player mounted.
+    const firstHost = root.querySelector('.video-resources'); if (!firstHost) return () => {};
+    const host = root.querySelector('.ob-objective-videos') ? root : firstHost;
+    const resourceForSlot = slot => (slot.dataset.videoCollection === 'ob' ? obVideoResources : videoResources)[Number(slot.dataset.videoIndex)];
     let active = null;
     const search = host.querySelector('[data-video-search]'), platform = host.querySelector('[data-video-platform]');
     const platformButtons = [...host.querySelectorAll('[data-video-platform-button]')];
@@ -78,7 +92,7 @@ const VideoLibrary = (() => {
     }
     const reset = slot => {
       if (active?.slot === slot) stop();
-      const v = videoResources[Number(slot.dataset.videoIndex)];
+      const v = resourceForSlot(slot);
       slot.classList.remove('video-slot-active','video-slot-vertical');
       slot.innerHTML = preview(v); thumbnails();
     };
@@ -91,8 +105,9 @@ const VideoLibrary = (() => {
         else { const slot = card.querySelector('.video-slot'); if (slot.classList.contains('video-slot-active')) reset(slot); }
       });
       host.querySelectorAll('[data-video-topic]').forEach(group => { group.hidden = !Array.from(group.querySelectorAll('.video-card')).some(c => !c.hidden); });
-      host.querySelector('.video-results').textContent = `${count} ${count === 1 ? 'video' : 'videos'} shown`;
-      host.querySelector('.video-no-results').hidden = count > 0;
+      const results = host.querySelector('.video-results'), noResults = host.querySelector('.video-no-results');
+      if (results) results.textContent = `${count} ${count === 1 ? 'video' : 'videos'} shown`;
+      if (noResults) noResults.hidden = count > 0;
     }
     search?.addEventListener('input',filter); platform?.addEventListener('change',filter);
     platformButtons.forEach(button => button.addEventListener('click', () => {
@@ -105,13 +120,18 @@ const VideoLibrary = (() => {
       if (!disclosure.open && active) reset(active.slot);
       else thumbnails();
     });
+    const objectiveDisclosures = [...host.querySelectorAll('.ob-study-objective, .ob-objective-review')];
+    const onObjectiveToggle = event => {
+      if (!event.currentTarget.open && active && event.currentTarget.contains(active.slot)) reset(active.slot);
+    };
+    objectiveDisclosures.forEach(item => item.addEventListener('toggle', onObjectiveToggle));
     filter(); thumbnails();
-    host.addEventListener('click', e => {
+    function onClick(e) {
       const button = e.target.closest('.video-load, .video-close, .video-retry'); if (!button) return;
       const slot = button.closest('.video-slot');
       if (button.classList.contains('video-close')) { reset(slot); slot.querySelector('button').focus(); return; }
       if (active) reset(active.slot);
-      const v = videoResources[Number(slot.dataset.videoIndex)];
+      const v = resourceForSlot(slot);
       const youtube = v.platform === 'YouTube';
       if (!(youtube ? /^[\w-]{11}$/ : /^\d+$/).test(v.id)) return;
       slot.classList.add('video-slot-active');
@@ -183,8 +203,13 @@ const VideoLibrary = (() => {
       }
       thumbnails();
 
-    });
-    return () => { stop(); thumbnailObserver?.disconnect(); };
+    }
+    host.addEventListener('click', onClick);
+    return () => {
+      stop(); thumbnailObserver?.disconnect();
+      host.removeEventListener('click', onClick);
+      objectiveDisclosures.forEach(item => item.removeEventListener('toggle', onObjectiveToggle));
+    };
   }
-  return { section, mount, available, loadYouTubeAPI };
+  return { section, objectiveSection, mount, available, loadYouTubeAPI };
 })();

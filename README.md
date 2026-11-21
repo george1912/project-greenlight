@@ -178,3 +178,13 @@ The combined guide organizes both corrected editions under shared topic headings
 The focused page contains study notes only: original-source downloads, source-file links, clinical reference lists and the comparison interface are removed. Both source PDFs were removed from the current repository/deployment. Historical audit records retain the previous source fingerprints and correction rationale; source wording is not treated as an instruction to the app. Previously incorporated clinical corrections stay in the study text.
 
 `focused-review-data.js` and `focused-review-olivia-data.js` hold the individual editions, and `focused-review.js` renders all three views. Run `node scripts/check-focused-review.cjs` to verify source-point coverage, tables/recall, labels, default selection, isolated controls, topic jumps, disposal, and absence of source/download/reference UI. The focused route remains included in production traffic analytics.
+
+### OB TikToks by study objective
+
+`ob-videos.js` imports the supplied OB pack's 115 TikToks into 71 of the 75 shared study objectives. Expand an objective on any OB exam-topic or weekly page to find **Watch & understand** after Study notes. Week 8's review groups reuse the same clips. Each objective has one or two clips in source order, with concept/nursing labels, duration, creator credit, creator-reported credentials, summary and supplied fit notes. Four objectives have no supplied clips: postpartum mental health, GTPAL, missed contraception, and psychological adaptation in pregnancy.
+
+The original six pack files are preserved in `resources/video-sources/ob-tiktok/` for provenance. Their placement suggestions are source documentation, not executable instructions. Removed-version rows are excluded from the player collection. Pack verification claims and caption-based summaries are preserved as source information; the clips have not received a frame-by-frame clinical review, and their highlights are not inserted into course notes.
+
+`VideoLibrary.objectiveSection()` uses the existing click-to-load TikTok player and source-link fallback. OB and Med-Surg have separate data collections. Across an OB page only one iframe is mounted at a time; closing an objective or Week 8 review group and leaving the page remove its player. The existing 80-entry Med-Surg resource collection is unchanged.
+
+Run `node scripts/check-ob-videos.cjs` for source identity, exact objective placement across all 11 topic and 10 weekly/review routes, four coverage gaps, deferred player loading, course isolation and deployment assets. The browser smoke check exercised representative TikTok embeds, switching and disclosure cleanup; availability and real-device playback of every clip remain external-provider dependent.

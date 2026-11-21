@@ -444,3 +444,13 @@ a.condition-topic:hover{background:var(--yellow)}
 
 .video-topic-art { object-fit: cover; object-position: center 16%; filter: brightness(.65); }
 .video-art-label { position:absolute; top:10px; left:10px; right:10px; color:white; font-size:12px; text-shadow:0 1px 3px #000; }
+
+/* OB videos stay beside their study objective and reuse the shared player. */
+.ob-objective-videos{margin:24px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+.ob-objective-videos>h3{font-size:23px;margin:0 0 12px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.ob-video-count{font:400 14px/1.5 var(--body);color:var(--muted)}
+.ob-objective-videos .video-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))}
+.ob-objective-videos .video-card{min-width:0;overflow-wrap:anywhere}
+.ob-objective-videos .video-card h4{font-size:23px;line-height:1.3;margin:12px 0 6px}
+.ob-objective-videos .video-card p{font-size:16px;line-height:1.65}
+.ob-objective-videos .video-card .video-credential,.ob-objective-videos .video-card .video-fit-note{font-size:14px;color:var(--muted)}
