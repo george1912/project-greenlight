@@ -15,12 +15,9 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  publish:
+  build:
     runs-on: ubuntu-slim
     timeout-minutes: 10
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Check out website
         uses: actions/checkout@v6
@@ -38,6 +35,14 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: _site
+  publish:
+    needs: build
+    runs-on: ubuntu-slim
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Publish website
         id: deployment
         uses: actions/deploy-pages@v4
