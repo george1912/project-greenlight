@@ -455,18 +455,21 @@ a.condition-topic:hover{background:var(--yellow)}
 .ob-objective-videos .video-card p{font-size:16px;line-height:1.65}
 .ob-objective-videos .video-card .video-credential,.ob-objective-videos .video-card .video-fit-note{font-size:14px;color:var(--muted)}
 
-/* Weekly study starts with the infographic and compact presentation list. */
+/* OB study starts with the infographic and compact presentation list. */
 .ob-week-resources{margin-top:28px;min-width:0}
 .ob-week-infographic,.ob-week-materials{min-width:0}
-.ob-week-materials>.ob-presentations{margin:0 0 24px;border:1px solid var(--line);background:var(--white)}
-.ob-week-materials>.ob-presentations>summary{display:flex;align-items:center;gap:12px;list-style:none;padding:16px;cursor:pointer}
-.ob-week-materials>.ob-presentations>summary::-webkit-details-marker{display:none}
-.ob-week-materials>.ob-presentations>summary h2{font-size:24px;line-height:1.3;margin:0;flex:1}
+details.ob-presentations{margin:0 0 24px;border:1px solid var(--line);background:var(--white)}
+details.ob-presentations>summary{display:flex;align-items:center;gap:12px;list-style:none;padding:16px;cursor:pointer}
+details.ob-presentations>summary::-webkit-details-marker{display:none}
+details.ob-presentations>summary h2{font-size:24px;line-height:1.3;margin:0;flex:1}
 .ob-presentation-count{font:400 14px/1.5 var(--body);color:var(--muted)}
-.ob-week-materials>.ob-presentations[open]>summary{border-bottom:1px solid var(--line)}
-.ob-week-materials>.ob-presentations[open]>summary .expand-icon:before{content:'−'}
-.ob-week-materials>.ob-presentations>summary:focus-visible{outline:3px solid #ac542f;outline-offset:4px}
-.ob-week-materials>.ob-presentations>.ob-deck-grid{padding:16px;grid-template-columns:minmax(0,1fr)}
+details.ob-presentations[open]>summary{border-bottom:1px solid var(--line)}
+details.ob-presentations[open]>summary .expand-icon:before{content:'−'}
+details.ob-presentations>summary:focus-visible{outline:3px solid #ac542f;outline-offset:4px}
+details.ob-presentations>.ob-deck-grid{padding:16px;grid-template-columns:minmax(0,1fr)}
 .ob-week-materials>.ob-week-outline{margin-top:0}
 .ob-week-infographic>.ob-poster-list h2{font-size:23px}
 @media(max-width:800px){.ob-week-infographic>div[data-ob-poster] .poster-image-button{width:100%}.ob-week-infographic>div[data-ob-poster] .condition-poster-image{width:100%;max-height:none}}
+
+.ob-topic-resources{margin-top:28px}
+@media(max-width:800px){.ob-topic-resources>div[data-ob-poster] .poster-image-button{width:100%}.ob-topic-resources>div[data-ob-poster] .condition-poster-image{width:100%;max-height:none}}

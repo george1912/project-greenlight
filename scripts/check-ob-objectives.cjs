@@ -32,7 +32,10 @@ for(const topic of course.topics){
  const expected=objectives.filter(o=>o.topicIds.includes(topic.id));assert(expected.length>=4,topic.id);
  const markup=render('#/ob-final/topic/'+topic.id);assert.deepEqual(sorted(ids(markup)),sorted(expected.map(o=>o.id)),topic.id);
  for(const objective of expected)assert(markup.includes(escapeHTML(objective.text)));
- assert(markup.indexOf('class="ob-objectives"')<markup.indexOf('class="ob-presentations"'));
+ assert(markup.indexOf('class="ob-presentations"')<markup.indexOf('class="ob-objectives"'));
+ assert(markup.includes('<details class="ob-presentations"><summary>'));
+ assert(!markup.includes('<details class="ob-presentations" open'));
+ assert(markup.indexOf('class="condition-poster"')<markup.indexOf('class="ob-objectives"'));
  assert(markup.includes('Ready for your notes'));assert(!markup.includes('class="ob-notes-pending"'));
  assert(!markup.includes('download')&&!markup.includes('Syllabus(1).pdf'));
 }

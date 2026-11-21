@@ -44,7 +44,7 @@ const OBStudy = (() => {
   }
   function deckSection(items, topicID = '', {collapsible = false} = {}) {
     if (!items.length) return '';
-    if (collapsible) return `<details class="ob-presentations"><summary><h2>Presentations &amp; handouts</h2><span class="ob-presentation-count">${items.length}</span><span class="expand-icon" aria-hidden="true"></span></summary><div class="ob-deck-grid">${items.map(deck=>deckCard(deck)).join('')}</div></details>`;
+    if (collapsible) return `<details class="ob-presentations"><summary><h2>${topicID ? 'Presentations for this exam topic' : 'Presentations &amp; handouts'}</h2><span class="ob-presentation-count">${items.length}</span><span class="expand-icon" aria-hidden="true"></span></summary><div class="ob-deck-grid">${items.map(deck=>deckCard(deck,topicID)).join('')}</div></details>`;
     return `<section class="ob-presentations"><h2>${topicID ? 'Presentations for this exam topic' : 'Presentations & handouts'}</h2>${topicID ? '<p class="section-copy">Open the relevant pages, then use the reader to explore the full presentation.</p>' : ''}<div class="ob-deck-grid">${items.map(deck=>deckCard(deck,topicID)).join('')}</div></section>`;
   }
   function presentationPage(deck, focus = null) {
@@ -116,10 +116,9 @@ const OBStudy = (() => {
     const populated = course.sections.filter(section=>topic.content[section.id]?.length);
     const prompts = topicObjectives(topic);
     const [primaryPoster, ...relatedPosters] = obExamPosters[topic.id];
-    main.innerHTML = `${breadcrumb(topic.title,true)}<section class="hero condition-hero"><p class="eyebrow">OB FINAL EXAM / ${topic.group==='main'?'MAIN EXAM TOPIC':'CUMULATIVE REVIEW'}</p><h1>${escapeHTML(topic.title)}</h1><p class="hero-copy">${questionLabel(topic)} in the supplied blueprint.</p></section><div class="condition-intro-with-poster">${posterPreview(primaryPoster)}<div class="condition-navigation"><section class="condition-focus"><h2>Exam focus</h2><ul>${topic.focus.map(text=>`<li>${escapeHTML(text)}</li>`).join('')}</ul></section>${relatedWeeks(topic)}${posterList(relatedPosters, 'Related posters')}</div></div>
-      ${objectiveSection(prompts)}
-      ${deckSection(decks().filter(deck=>deck.focus.some(item=>item.topicId===topic.id)),topic.id)}
+    main.innerHTML = `${breadcrumb(topic.title,true)}<section class="hero condition-hero"><p class="eyebrow">OB FINAL EXAM / ${topic.group==='main'?'MAIN EXAM TOPIC':'CUMULATIVE REVIEW'}</p><h1>${escapeHTML(topic.title)}</h1><p class="hero-copy">${questionLabel(topic)} in the supplied blueprint.</p></section><div class="condition-intro-with-poster ob-topic-resources">${posterPreview(primaryPoster)}<div class="condition-navigation">${deckSection(decks().filter(deck=>deck.focus.some(item=>item.topicId===topic.id)),topic.id,{collapsible:true})}<section class="condition-focus"><h2>Exam focus</h2><ul>${topic.focus.map(text=>`<li>${escapeHTML(text)}</li>`).join('')}</ul></section>${relatedWeeks(topic)}${posterList(relatedPosters, 'Related posters')}</div></div>
       ${topic.id==='newborn-complications' ? '<p class="ob-content-note">Use your high-risk newborn lecture notes alongside the available PDFs; the current presentations cover parts of this topic.</p>' : ''}
+      ${objectiveSection(prompts)}
       ${populated.length ? `<div class="condition-sections">${populated.map(section=>`<details class="condition-section"><summary><h2>${escapeHTML(section.title)}</h2><span class="expand-icon" aria-hidden="true"></span></summary><div class="condition-body">${conditionBlocks(topic.content[section.id])}</div></details>`).join('')}</div>` : prompts.length ? '' : '<section class="ob-notes-pending"><h2>Study notes</h2><p>This topic is ready for your notes. Detailed explanations and practice material will be added here.</p></section>'}
       <nav class="guide-bottom"><a class="text-link" href="#/ob-final/study-guide">All OB study guide topics</a><a class="text-link" href="#/ob-final">OB exam overview</a></nav>`;
     mountPosters();
