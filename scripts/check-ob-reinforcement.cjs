@@ -41,6 +41,16 @@ const completed=new Set(JSON.parse(fs.readFileSync(path.join(root,'docs/ob-objec
 assert(objectives.every(o=>Boolean(o.answer.length)===completed.has(o.id)),'Note completion agrees with the objective audit');
 assert(objectives.filter(o=>o.weekIds.includes('week-1')).every(o=>o.answer.length),'All Week 1 notes are preserved');
 assert(!Object.keys(bank.sections).some(id=>id.startsWith('sti-')),'Do not invent an STI bank from unrelated questions');
+const week1=render('#/ob-final/week-1');
+assert(week1.includes('<h2>Practice questions</h2>'));assert(week1.includes('8 questions available here.'));
+assert.equal((week1.match(/data-ob-practice-open=/g)||[]).length,1);assert(week1.includes('data-ob-practice-open="conception-fetal-development"'));
+assert(week1.indexOf('class="ob-week-infographic"')<week1.indexOf('class="ob-practice-overview"'));assert(week1.indexOf('class="ob-practice-overview"')<week1.indexOf('class="ob-objectives"'));
+assert(week1.includes('Practice questions (8)'));assert(!week1.includes('data-practice-question='));
+for(const week of course.weeks){
+ const markup=render('#/ob-final/'+week.id),shortcuts=[...markup.matchAll(/data-ob-practice-open="([^"]+)"/g)].map(m=>m[1]).sort();
+ assert.deepEqual(shortcuts,sections(markup),'Every existing question section has a visible entry: '+week.id);
+ if(shortcuts.length>4)assert(markup.includes('<details class="ob-practice-topic-list"><summary>'),'Long topic lists stay compact');
+}
 assert(answers.get(83).answer.includes('unreliable'));assert(answers.get(95).answer.includes('within 3 weeks'));assert(answers.get(195).answer.includes('6 cm'));
 assert(answers.get(103).answer.includes('100/min or greater'));assert(!answers.get(216).answer.includes('Reposition, oxygen'));
 assert(answers.get(307).answer.includes('threshold chart'));assert(answers.get(540).question.includes('obsessive-compulsive'));
@@ -60,4 +70,25 @@ if(arg){
  }
 }
 const workflow=fs.readFileSync(path.join(root,'.github/workflows/pages.yml'),'utf8');for(const asset of ['ob-question-map.js','ob-question-quizzes.js','ob-practice-questions'])assert(workflow.includes(asset));
-console.log('Passed: all 541 source rows and keys, 50 mapped sections, shuffled choices, grading, clinical corrections, exact weekly/exam placement, weekly-only infant review, collapsed lazy panels, preserved completed Week 1 notes, other blank study-note areas, and publication assets.');
+async function checkPracticeShortcut(){
+ const events=()=>({handlers:new Map(),addEventListener(type,fn){this.handlers.set(type,fn);},removeEventListener(type,fn){assert.equal(this.handlers.get(type),fn);this.handlers.delete(type);}});
+ const host=events(),button=Object.assign(events(),{dataset:{obPracticeOpen:'conception-fetal-development'}}),body={innerHTML:''};
+ const review={tagName:'DETAILS',open:false,parentElement:host},objective={tagName:'DETAILS',open:false,parentElement:review};
+ let isOpen=false,focused=false,scrolled=false,fetches=0;
+ const panel=Object.assign(events(),{dataset:{practiceTopic:'ob-review',practiceSection:'conception-fetal-development'},parentElement:objective,
+  querySelector(selector){return selector==='.section-practice-body'?body:selector==='summary'?{focus(options){assert(options.preventScroll);focused=true;}}:null;},
+  scrollIntoView(options){assert.equal(options.block,'start');scrolled=true;}});
+ Object.defineProperty(panel,'open',{get(){return isOpen;},set(value){const changed=isOpen!==value;isOpen=value;if(changed)queueMicrotask(()=>this.handlers.get('toggle')?.());}});
+ host.querySelectorAll=selector=>selector==='.section-practice'?[panel]:selector==='[data-ob-practice-open]'?[button]:[];
+ const c={console,queueMicrotask,escapeHTML:value=>String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char])),fetch:async url=>{fetches++;assert.equal(url,'ob-practice-questions/ob-review.json?v=20261120-ob-reinforcement');return {ok:true,json:async()=>bank};}};
+ vm.createContext(c);for(const file of ['section-quizzes.js','ob-question-map.js','ob-question-quizzes.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),c,{filename:file});
+ const practice=vm.runInContext('OBReinforcement',c),dispose=practice.mount(host);
+ assert.equal(fetches,0,'Do not fetch until the practice shortcut is used');button.handlers.get('click')();await new Promise(resolve=>setImmediate(resolve));
+ assert(review.open&&objective.open&&panel.open,'Open every enclosing review/objective and the question panel');assert(focused&&scrolled);
+ assert.equal(fetches,1);assert(body.innerHTML.includes('Question 1 of 8'));assert.equal((body.innerHTML.match(/data-practice-question=/g)||[]).length,1);
+ assert(body.innerHTML.includes('Check answer'));assert(!body.innerHTML.includes('<strong>Correct answer'));
+ button.handlers.get('click')();await new Promise(resolve=>setImmediate(resolve));assert.equal(fetches,1,'Reuse loaded questions');
+ dispose();assert.equal(button.handlers.size,0);assert.equal(panel.handlers.size,0);assert.equal(host.handlers.size,0);
+ console.log('Passed: all 541 source rows/keys, 50 mapped sections, exact weekly/exam placement and visible shortcuts, Week 1’s 8 questions, one-click ancestor opening/focus/scroll/lazy load, one question at a time, hidden feedback, cleanup, preserved notes and publication assets.');
+}
+checkPracticeShortcut().catch(error=>{console.error(error);process.exitCode=1;});

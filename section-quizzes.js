@@ -6,8 +6,8 @@ function createSectionPractice({directory='practice-questions',version='20261116
     if (!selected.length) return 'unanswered';
     return selected.length === correct.length && selected.every((value, index) => value === correct[index]) ? 'correct' : 'incorrect';
   }
-  function section(topic, sectionID) {
-    return `<details class="section-practice" data-practice-topic="${escapeHTML(topic)}" data-practice-section="${escapeHTML(sectionID)}"><summary><span>Quiz yourself</span><span class="section-practice-caption">Practice & feedback</span></summary><div class="section-practice-body"><p class="section-practice-status" role="status">Open to practice this section.</p></div></details>`;
+  function section(topic, sectionID, {label='Quiz yourself',caption='Practice & feedback'} = {}) {
+    return `<details class="section-practice" data-practice-topic="${escapeHTML(topic)}" data-practice-section="${escapeHTML(sectionID)}"><summary><span>${escapeHTML(label)}</span><span class="section-practice-caption">${escapeHTML(caption)}</span></summary><div class="section-practice-body"><p class="section-practice-status" role="status">Open to practice this section.</p></div></details>`;
   }
   function load(topic) {
     if (!banks.has(topic)) {
