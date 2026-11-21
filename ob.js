@@ -56,8 +56,8 @@ const OBStudy = (() => {
   function overview() {
     document.title = 'OB Final Exam · Project Green Light';
     main.innerHTML = `${breadcrumb('Overview')}<section class="hero exam-hero"><p class="eyebrow">${course.code} / ${course.term.toUpperCase()}</p><h1>OB<br><span>Final Exam.</span></h1><p class="hero-copy">Your exam guide and weekly course materials.</p></section>${guideEntry()}
-      <section class="ob-weekly" aria-labelledby="ob-weekly-title"><div class="section-heading"><h2 id="ob-weekly-title">Weekly materials</h2></div><div class="ob-week-grid">${course.weeks.filter(week=>week.group==='main').map(weekCard).join('')}</div></section>
-      <details class="ob-earlier-weeks"><summary>Earlier weeks for cumulative review</summary><div class="ob-week-grid">${course.weeks.filter(week=>week.group==='earlier').map(weekCard).join('')}</div></details><nav class="guide-bottom"><a class="text-link" href="#/">Back to the study shelf</a></nav>`;
+      <section class="ob-weekly" aria-labelledby="ob-weekly-title"><div class="section-heading"><h2 id="ob-weekly-title">Weekly materials</h2></div><div class="ob-week-grid">${course.weeks.map(weekCard).join('')}</div></section>
+      <nav class="guide-bottom"><a class="text-link" href="#/">Back to the study shelf</a></nav>`;
   }
   function studyGuide() {
     document.title = 'OB final exam study guide · Project Green Light';

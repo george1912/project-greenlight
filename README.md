@@ -4,7 +4,7 @@ A growing nursing school study hub. Static HTML, CSS, and JavaScript; ready for 
 
 ## OB final exam framework
 
-The Study Shelf now has separate Med-Surg III and **OB Final Exam** entries. `#/ob-final` places the large final-exam study-guide button above weekly materials; `#/ob-final/study-guide` contains the supplied Exam 3 blueprint’s seven main topics and four cumulative review groups. Topic routes are `#/ob-final/topic/<id>` and weekly routes are `#/ob-final/week-<number>`, with the unnumbered August 4 session at `#/ob-final/august-4`.
+The Study Shelf now has separate Med-Surg III and **OB Final Exam** entries. `#/ob-final` places the large final-exam study-guide button above weekly materials, shown in syllabus order from Week 1 through Week 10 and then the August 4 session; `#/ob-final/study-guide` contains the supplied Exam 3 blueprint’s seven main topics and four cumulative review groups. Topic routes are `#/ob-final/topic/<id>` and weekly routes are `#/ob-final/week-<number>`, with the unnumbered August 4 session at `#/ob-final/august-4`.
 
 `ob-content.js` holds the Summer 2026 syllabus sessions, topic/week mappings, approximate blueprint question ranges, and empty notes/practice/resource fields. `ob.js` renders these in the established site layout. The individual topic pages show the actual blueprint focus points and related weeks; study explanations and quizzes are deliberately pending. The 16-section nursing template is ready for future populated `content` blocks. The blueprint and syllabus PDFs remain unhosted.
 
