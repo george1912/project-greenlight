@@ -520,6 +520,13 @@ details.ob-presentations>.ob-deck-grid{padding:16px;grid-template-columns:minmax
 [data-ob-emphasis~="italic"]{font-style:italic}
 [data-ob-emphasis~="red"]{color:#b3261e}
 [data-ob-emphasis~="underline"]{text-decoration-line:underline;text-decoration-thickness:.08em;text-underline-offset:.16em;text-decoration-skip-ink:auto}
+
+/* Optional reading link; the regular study layout and disclosures stay intact. */
+.study-reader-link{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:.5rem .85rem;margin-top:1rem;border:1px solid var(--green);border-radius:4px;color:var(--green);background:var(--white);font-family:var(--body);font-size:1rem;line-height:1.5;text-underline-offset:.2em}
+.condition-slides+.study-reader-link{margin-inline-start:1rem}
+.week-intro .study-reader-link{flex-shrink:0;margin-top:0}
+@media(max-width:480px){.condition-slides+.study-reader-link{margin-inline-start:0;display:flex;width:fit-content}}
+@media print{.study-reader-link{display:none}}
 .ob-note-topic>summary:focus-visible{outline:3px solid #ac542f;outline-offset:3px}
 .ob-practice-overview{margin:28px 0;padding:18px;border:2px solid var(--green);background:var(--white)}
 .ob-practice-overview h2{margin:0 0 10px;font-size:28px}

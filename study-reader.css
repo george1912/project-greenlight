@@ -1,0 +1,32 @@
+:root{color-scheme:light dark;--paper:#fffefa;--ink:#22352b;--green:#245644;--line:#cbd3c8}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{max-width:72ch;margin:0 auto;padding:1.25rem max(1.25rem,env(safe-area-inset-right)) 2rem max(1.25rem,env(safe-area-inset-left));background:var(--paper);color:var(--ink);font:1.125rem/1.75 Georgia,"Times New Roman",serif;overflow-wrap:anywhere}
+a{color:var(--green);text-underline-offset:.2em}
+a:focus-visible,summary:focus-visible{outline:3px solid #ac542f;outline-offset:4px}
+.skip-link{position:absolute;top:-100px;left:1rem;background:var(--paper);padding:.75rem}
+.skip-link:focus{top:1rem}
+main:focus{outline:none}
+.reader-tools,footer{font-family:system-ui,sans-serif;font-size:1rem}
+.reader-tools{border-bottom:1px solid var(--line);padding-bottom:1rem;margin-bottom:2rem}
+.reader-back,.reader-help summary{display:inline-flex;align-items:center;min-height:44px;padding:.5rem 0}
+.reader-help summary{display:list-item;cursor:pointer;width:fit-content}
+.reader-help p{margin:.5rem 0}
+.reader-context{font:1rem/1.5 system-ui,sans-serif;color:var(--green)}
+h1,h2,h3,h4,h5,h6{font-family:system-ui,sans-serif;line-height:1.3;text-wrap:balance}
+h1{font-size:2rem;margin:.5rem 0 2rem}
+h2{font-size:1.5rem;margin:2.5rem 0 1rem}
+h3{font-size:1.2rem;margin:1.75rem 0 .75rem}
+h4,h5,h6{font-size:1.125rem;margin:1.5rem 0 .5rem}
+p{margin:.75rem 0 1rem}
+ul,ol{padding-inline-start:1.5rem}
+li+li{margin-top:.6rem}
+.objective-prompt{border-inline-start:3px solid var(--line);padding-inline-start:1rem}
+.note-sources{border-top:1px solid var(--line);margin-top:1.75rem;padding-top:.5rem}
+strong,[data-ob-emphasis~="bold"]{font-weight:700}
+[data-ob-emphasis~="italic"]{font-style:italic}
+[data-ob-emphasis~="red"]{color:#b3261e}
+[data-ob-emphasis~="underline"]{text-decoration:underline;text-underline-offset:.16em}
+footer{border-top:1px solid var(--line);margin-top:3rem;padding-top:1rem}
+@media(prefers-color-scheme:dark){:root{--paper:#18211d;--ink:#f1f5ee;--green:#b5dcc5;--line:#647569}[data-ob-emphasis~="red"]{color:#ffb4ab}}
+@media print{.reader-tools,.skip-link,footer{display:none}body{max-width:none;padding:0;background:#fff;color:#000;font-size:12pt}a{color:inherit}h2,h3,h4{break-after:avoid}}

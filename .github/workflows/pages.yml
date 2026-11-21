@@ -23,6 +23,10 @@ jobs:
         uses: actions/checkout@v6
       - name: Configure Pages
         uses: actions/configure-pages@v5
+      - name: Set up Node for study articles
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
       - name: Prepare static website
         run: |
           mkdir -p _site
@@ -31,6 +35,10 @@ jobs:
           cp -R ob-presentations _site/
           cp ob-posters.js ob-question-map.js ob-question-quizzes.js _site/
           cp -R ob-practice-questions _site/
+          cp study-reader.js _site/
+          node scripts/prepare-study-reader.cjs _site
+      - name: Check study articles
+        run: node scripts/check-study-reader.cjs
       - name: Upload website
         uses: actions/upload-pages-artifact@v4
         with:

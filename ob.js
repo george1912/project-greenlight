@@ -139,7 +139,7 @@ const OBStudy = (() => {
     const populated = course.sections.filter(section=>topic.content[section.id]?.length);
     const prompts = topicObjectives(topic);
     const [primaryPoster, ...relatedPosters] = obExamPosters[topic.id];
-    main.innerHTML = `${breadcrumb(topic.title,{parents:[examParent],backLabel:'All exam topics'})}<section class="hero condition-hero"><p class="eyebrow">OB FINAL EXAM / ${topic.group==='main'?'MAIN EXAM TOPIC':'CUMULATIVE REVIEW'}</p><h1>${escapeHTML(topic.title)}</h1><p class="hero-copy">${questionLabel(topic)} in the supplied blueprint.</p></section><div class="condition-intro-with-poster ob-topic-resources">${posterPreview(primaryPoster)}<div class="condition-navigation">${deckSection(decks().filter(deck=>deck.focus.some(item=>item.topicId===topic.id)),topic.id,{collapsible:true})}<section class="condition-focus"><h2>Exam focus</h2><ul>${topic.focus.map(text=>`<li>${escapeHTML(text)}</li>`).join('')}</ul></section>${relatedWeeks(topic)}${posterList(relatedPosters, 'Related posters')}</div></div>
+    main.innerHTML = `${breadcrumb(topic.title,{parents:[examParent],backLabel:'All exam topics'})}<section class="hero condition-hero"><p class="eyebrow">OB FINAL EXAM / ${topic.group==='main'?'MAIN EXAM TOPIC':'CUMULATIVE REVIEW'}</p><h1>${escapeHTML(topic.title)}</h1><p class="hero-copy">${questionLabel(topic)} in the supplied blueprint.</p>${typeof StudyReader!=='undefined'?StudyReader.link(topicURL(topic)):''}</section><div class="condition-intro-with-poster ob-topic-resources">${posterPreview(primaryPoster)}<div class="condition-navigation">${deckSection(decks().filter(deck=>deck.focus.some(item=>item.topicId===topic.id)),topic.id,{collapsible:true})}<section class="condition-focus"><h2>Exam focus</h2><ul>${topic.focus.map(text=>`<li>${escapeHTML(text)}</li>`).join('')}</ul></section>${relatedWeeks(topic)}${posterList(relatedPosters, 'Related posters')}</div></div>
       ${topic.id==='newborn-complications' ? '<p class="ob-content-note">Use your high-risk newborn lecture notes alongside the available PDFs; the current presentations cover parts of this topic.</p>' : ''}
       ${typeof OBReinforcement!=='undefined'?OBReinforcement.overview(prompts):''}
       ${objectiveSection(prompts)}
@@ -152,7 +152,7 @@ const OBStudy = (() => {
     document.title = `${week.label} · OB Final Exam · Project Green Light`;
     const topics = course.topics.filter(topic=>topic.weekIds.includes(week.id));
     const [primaryPoster, ...relatedPosters] = obWeeklyPosters[week.id] || [];
-    main.innerHTML = `${breadcrumb(week.label,{backLabel:'All weekly materials'})}<section class="hero condition-hero"><p class="eyebrow">${course.code} / ${escapeHTML(week.label.toUpperCase())} / ${escapeHTML(week.date.toUpperCase())} / 2026</p><h1>${escapeHTML(week.title)}</h1></section>
+    main.innerHTML = `${breadcrumb(week.label,{backLabel:'All weekly materials'})}<section class="hero condition-hero"><p class="eyebrow">${course.code} / ${escapeHTML(week.label.toUpperCase())} / ${escapeHTML(week.date.toUpperCase())} / 2026</p><h1>${escapeHTML(week.title)}</h1>${typeof StudyReader!=='undefined'?StudyReader.link(weekURL(week)):''}</section>
       <div class="ob-week-resources${primaryPoster ? ' condition-intro-with-poster' : ''}">
       ${primaryPoster ? `<div class="ob-week-infographic">${posterPreview(primaryPoster)}${posterList(relatedPosters, 'More infographics')}</div>` : ''}
       <div class="ob-week-materials">${deckSection(decks().filter(deck=>deck.weekIds.includes(week.id)), '', {collapsible:true})}
