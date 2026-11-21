@@ -1,0 +1,1646 @@
+{
+  "weekId": "august-4",
+  "reviewedOn": "2026-11-21",
+  "basis": "Completes all 12 August 4 objectives from the two original assigned PDFs. Each answer begins with three Quick answer bullets, followed by independently collapsed short fact topics and original reader links first in the collapsed sources. Necessary clinical updates are labeled; detailed fertility assessment is a visibly labeled guideline supplement because no dedicated infertility/genetics lecture was supplied. No fictional cases, new drug-dose table or universal local protocol is invented.",
+  "sources": [
+    {
+      "deckId": "contraception",
+      "path": "ob-presentations/contraception/original.pdf",
+      "pages": 35,
+      "sha256": "152b5a1183858a35371b5c41ba78f2a3abf87bb1bc5973aeecc1533417deb85b"
+    },
+    {
+      "deckId": "stis",
+      "path": "ob-presentations/stis/original.pdf",
+      "pages": 27,
+      "sha256": "a35b1718583b209a0414aaa8a8a1c62ebac4439d3e909b44c7af6be3e3aa47a1"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "contraceptive-choice",
+      "title": "Individualized contraceptive counseling",
+      "originalMetadataSha256": "de0a7f06c1aeb709e0ea8caf920931040f7cd98174687f7568dfbd81d5fde83a",
+      "lectureRanges": [
+        {
+          "deckId": "contraception",
+          "firstPage": 2,
+          "lastPage": 7
+        },
+        {
+          "deckId": "contraception",
+          "firstPage": 11,
+          "lastPage": 13
+        },
+        {
+          "deckId": "contraception",
+          "firstPage": 17,
+          "lastPage": 19
+        },
+        {
+          "deckId": "contraception",
+          "firstPage": 28,
+          "lastPage": 31
+        }
+      ],
+      "topics": [
+        "Start with reproductive goals and informed choice",
+        "Compare effectiveness and daily workload",
+        "Benefits, risks and return to fertility",
+        "Postpartum, breastfeeding and STI needs",
+        "Make the plan usable and reassess"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Patient history, reproductive goals, preferences and informed counseling",
+          "noteTopic": "Start with reproductive goals and informed choice"
+        },
+        {
+          "requirement": "Reversible/permanent effectiveness and correct use",
+          "noteTopic": "Compare effectiveness and daily workload"
+        },
+        {
+          "requirement": "Benefits, risks and return to fertility",
+          "noteTopic": "Benefits, risks and return to fertility"
+        },
+        {
+          "requirement": "Breastfeeding and STI prevention needs",
+          "noteTopic": "Postpartum, breastfeeding and STI needs"
+        },
+        {
+          "requirement": "Usable plan, teach-back and follow-up",
+          "noteTopic": "Make the plan usable and reassess"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Contraception (original supplied PDF)",
+          "url": "#/ob-final/presentation/contraception"
+        },
+        {
+          "title": "CDC: contraceptive eligibility and contraindication clarification",
+          "url": "https://www.cdc.gov/contraception/hcp/usspr/classifications-mec-contraception.html"
+        },
+        {
+          "title": "CDC: IUD eligibility, backup and follow-up clarification",
+          "url": "https://www.cdc.gov/contraception/hcp/usspr/intrauterine-contraception.html"
+        },
+        {
+          "title": "CDC: permanent-method counseling and clearance clarification",
+          "url": "https://www.cdc.gov/contraception/hcp/usspr/permanent-contraception.html"
+        },
+        {
+          "title": "CDC: all three LAM criteria clarification",
+          "url": "https://www.cdc.gov/contraception/hcp/usmec/lactational-amenorrhea-method.html"
+        }
+      ],
+      "scope": "Preserves the lecture’s patient-centered comparison; clarifies typical-use tiers, eligibility, breastfeeding and autonomy rather than repeating dated failure rates or restrictive sterilization claims."
+    },
+    {
+      "id": "hormonal-contraception-safety",
+      "title": "Hormonal methods and safety",
+      "originalMetadataSha256": "e1f5fe89bf92fc3f86ff3e82aa13cba3256ed3b18ebaa69c09cf0da3bb115087",
+      "lectureRanges": [
+        {
+          "deckId": "contraception",
+          "firstPage": 11,
+          "lastPage": 17
+        }
+      ],
+      "topics": [
+        "Compare combined and progestin-only methods",
+        "Screen for estrogen-related contraindications",
+        "Postpartum, breastfeeding and breast cancer",
+        "Expected effects versus warning signs",
+        "Medication interactions and follow-up"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Combined versus progestin-only methods and mechanism",
+          "noteTopic": "Compare combined and progestin-only methods"
+        },
+        {
+          "requirement": "Contraindications and pre-use assessment",
+          "noteTopic": "Screen for estrogen-related contraindications"
+        },
+        {
+          "requirement": "Postpartum, lactation and breast-cancer safety",
+          "noteTopic": "Postpartum, breastfeeding and breast cancer"
+        },
+        {
+          "requirement": "Expected adverse effects and urgent warning signs",
+          "noteTopic": "Expected effects versus warning signs"
+        },
+        {
+          "requirement": "Medicine interactions and product-specific follow-up",
+          "noteTopic": "Medication interactions and follow-up"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Contraception (original supplied PDF)",
+          "url": "#/ob-final/presentation/contraception"
+        },
+        {
+          "title": "CDC: contraceptive eligibility and contraindication clarification",
+          "url": "https://www.cdc.gov/contraception/hcp/usspr/classifications-mec-contraception.html"
+        },
+        {
+          "title": "CDC: combined-method use and missed-dose clarification",
+          "url": "https://www.cdc.gov/contraception/hcp/usspr/combined-hormonal-contraceptives.html"
+        },
+        {
+          "title": "CDC: product-specific progestin-only pill clarification",
+          "url": "https://www.cdc.gov/contraception/hcp/usspr/progestin-only-pills.html"
+        },
+        {
+          "title": "DailyMed: ANNOVERA product-specific safety clarification",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=eb18194f-2021-41fa-8bdf-31e0c0eb646b"
+        }
+      ],
+      "scope": "Clarifies estrogen-specific risk, postpartum restrictions, breast-cancer eligibility, product differences and interaction teaching. No universal “safe in breast cancer,” patch-weight cutoff or seven-day backup rule is repeated."
+    },
+    {
+      "id": "missed-contraception",
+      "title": "Missed pills, patches, and rings",
+      "originalMetadataSha256": "98f3060d88833f23d1a9ec5611e300d4dcef18a7d118571c77d404c492ca2aa7",
+      "lectureRanges": [
+        {
+          "deckId": "contraception",
+          "firstPage": 12,
+          "lastPage": 14
+        },
+        {
+          "deckId": "contraception",
+          "firstPage": 22,
+          "lastPage": 24
+        }
+      ],
+      "topics": [
+        "Before applying any missed-use rule",
+        "Current guidance: one late or missed combined active pill",
+        "Current guidance: two or more missed combined active pills",
+        "Current guidance: norethindrone or norgestrel POP",
+        "Current guidance: drospirenone POP",
+        "Current guidance: delayed or detached combined patch",
+        "Current guidance: etonogestrel/ethinyl estradiol ring",
+        "Product clarification: ANNOVERA and final teach-back"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Exact formulation, time, active/placebo and exposure assessment",
+          "noteTopic": "Before applying any missed-use rule"
+        },
+        {
+          "requirement": "Single combined active-pill error",
+          "noteTopic": "Current guidance: one late or missed combined active pill"
+        },
+        {
+          "requirement": "Multiple combined active-pill errors, backup and EC",
+          "noteTopic": "Current guidance: two or more missed combined active pills"
+        },
+        {
+          "requirement": "Traditional POP missed use and two-day backup",
+          "noteTopic": "Current guidance: norethindrone or norgestrel POP"
+        },
+        {
+          "requirement": "Drospirenone POP missed use and seven-day backup",
+          "noteTopic": "Current guidance: drospirenone POP"
+        },
+        {
+          "requirement": "Delayed/detached patch next action, backup and EC",
+          "noteTopic": "Current guidance: delayed or detached combined patch"
+        },
+        {
+          "requirement": "Displaced/delayed etonogestrel/EE ring next action, backup and EC",
+          "noteTopic": "Current guidance: etonogestrel/ethinyl estradiol ring"
+        },
+        {
+          "requirement": "ANNOVERA-specific exception, hormonal restart and teach-back",
+          "noteTopic": "Product clarification: ANNOVERA and final teach-back"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Contraception (original supplied PDF)",
+          "url": "#/ob-final/presentation/contraception"
+        },
+        {
+          "title": "CDC: combined-method use and missed-dose clarification",
+          "url": "https://www.cdc.gov/contraception/hcp/usspr/combined-hormonal-contraceptives.html"
+        },
+        {
+          "title": "CDC: product-specific progestin-only pill clarification",
+          "url": "https://www.cdc.gov/contraception/hcp/usspr/progestin-only-pills.html"
+        },
+        {
+          "title": "DailyMed: ANNOVERA product-specific safety clarification",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=eb18194f-2021-41fa-8bdf-31e0c0eb646b"
+        },
+        {
+          "title": "CDC: emergency contraception and restart-timing clarification",
+          "url": "https://www.cdc.gov/contraception/hcp/usspr/emergency-contraception.html"
+        }
+      ],
+      "scope": "The original missed-method table is outdated. Labeled current guidance separates combined pills, two POP formulations, patches, etonogestrel/EE rings and ANNOVERA; no single three-hour or two-day rule is applied to all products."
+    },
+    {
+      "id": "iud-implant-care",
+      "title": "IUDs, implants, and injections",
+      "originalMetadataSha256": "51176960ee61f87b10a899e4911fbd6b7ee9aaac689826b94cea1a2340a70057",
+      "lectureRanges": [
+        {
+          "deckId": "contraception",
+          "firstPage": 8,
+          "lastPage": 13
+        }
+      ],
+      "topics": [
+        "Copper versus levonorgestrel IUDs",
+        "IUD eligibility and insertion safety",
+        "IUD follow-up and warning symptoms",
+        "The implant: duration, effects and care",
+        "DMPA: scheduled injections and late-dose decisions",
+        "Return to fertility and method-specific evaluation"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Copper versus LNG-IUD mechanism, effects and duration",
+          "noteTopic": "Copper versus levonorgestrel IUDs"
+        },
+        {
+          "requirement": "IUD eligibility and insertion precautions",
+          "noteTopic": "IUD eligibility and insertion safety"
+        },
+        {
+          "requirement": "IUD backup, warning symptoms and follow-up",
+          "noteTopic": "IUD follow-up and warning symptoms"
+        },
+        {
+          "requirement": "Implant eligibility, effects, duration, warning symptoms and follow-up",
+          "noteTopic": "The implant: duration, effects and care"
+        },
+        {
+          "requirement": "DMPA eligibility review, effects, interval and late reinjection",
+          "noteTopic": "DMPA: scheduled injections and late-dose decisions"
+        },
+        {
+          "requirement": "Method-specific fertility return and continuing evaluation",
+          "noteTopic": "Return to fertility and method-specific evaluation"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Contraception (original supplied PDF)",
+          "url": "#/ob-final/presentation/contraception"
+        },
+        {
+          "title": "CDC: IUD eligibility, backup and follow-up clarification",
+          "url": "https://www.cdc.gov/contraception/hcp/usspr/intrauterine-contraception.html"
+        },
+        {
+          "title": "CDC: contraceptive eligibility and contraindication clarification",
+          "url": "https://www.cdc.gov/contraception/hcp/usspr/classifications-mec-contraception.html"
+        },
+        {
+          "title": "FDA: Nexplanon approved-label duration clarification (NDA 021529)",
+          "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021529"
+        },
+        {
+          "title": "Paragard: labeled duration and mechanism clarification",
+          "url": "https://www.paragard.com/"
+        },
+        {
+          "title": "CDC: injection interval and late-dose clarification",
+          "url": "https://www.cdc.gov/contraception/hcp/usspr/injectables.html"
+        },
+        {
+          "title": "NIH MedlinePlus: LNG-IUD labeled durations clarification",
+          "url": "https://medlineplus.gov/druginfo/meds/a613047.html"
+        },
+        {
+          "title": "Liletta: contraceptive versus heavy-bleeding duration clarification",
+          "url": "https://www.liletta.com/faqs"
+        }
+      ],
+      "scope": "Updates product durations and eligibility, separates IUD/implant/injection backup and fertility return, and replaces mandatory follow-up or infection myths with current method-specific care."
+    },
+    {
+      "id": "barrier-fertility-lam",
+      "title": "Barrier methods, fertility awareness, and LAM",
+      "originalMetadataSha256": "0c005b99066e1e9e42f98285aedbbd782a33cda580d0d5d6123d3191fb3d8f63",
+      "lectureRanges": [
+        {
+          "deckId": "contraception",
+          "firstPage": 19,
+          "lastPage": 21
+        },
+        {
+          "deckId": "contraception",
+          "firstPage": 25,
+          "lastPage": 28
+        }
+      ],
+      "topics": [
+        "External and internal condoms: use correctly",
+        "Diaphragm, cervical cap, sponge and spermicide",
+        "Fertility signs: temperature and cervical mucus",
+        "Calendar calculation: correct the lecture’s reversed rule",
+        "LAM: all criteria must remain true",
+        "Withdrawal, abstinence and choosing a practical method"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Correct condom use and STI protection",
+          "noteTopic": "External and internal condoms: use correctly"
+        },
+        {
+          "requirement": "Other barriers, spermicide and limitations",
+          "noteTopic": "Diaphragm, cervical cap, sponge and spermicide"
+        },
+        {
+          "requirement": "Temperature/mucus interpretation and fertility-awareness use",
+          "noteTopic": "Fertility signs: temperature and cervical mucus"
+        },
+        {
+          "requirement": "Calendar method correction and limitations",
+          "noteTopic": "Calendar calculation: correct the lecture’s reversed rule"
+        },
+        {
+          "requirement": "Apply all LAM criteria and transition when a criterion fails",
+          "noteTopic": "LAM: all criteria must remain true"
+        },
+        {
+          "requirement": "Withdrawal/abstinence limitations and teach-back",
+          "noteTopic": "Withdrawal, abstinence and choosing a practical method"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Contraception (original supplied PDF)",
+          "url": "#/ob-final/presentation/contraception"
+        },
+        {
+          "title": "CDC: all three LAM criteria clarification",
+          "url": "https://www.cdc.gov/contraception/hcp/usmec/lactational-amenorrhea-method.html"
+        },
+        {
+          "title": "Office on Women’s Health: fertile-window calculation clarification",
+          "url": "https://womenshealth.gov/pregnancy/you-get-pregnant/trying-conceive"
+        },
+        {
+          "title": "CDC: contraceptive eligibility and contraindication clarification",
+          "url": "https://www.cdc.gov/contraception/hcp/usspr/classifications-mec-contraception.html"
+        }
+      ],
+      "scope": "Retains barrier and fertility-sign teaching, corrects the reversed calendar formula, and adds the complete LAM criteria. Avoids false safe-temperature ranges, universal device wear limits or assuming all barriers prevent STIs."
+    },
+    {
+      "id": "emergency-permanent-contraception",
+      "title": "Emergency and permanent contraception",
+      "originalMetadataSha256": "1339d724b651c4d9e4e81201275aa49a48d5e173c886ec0b993e143b7623046e",
+      "lectureRanges": [
+        {
+          "deckId": "contraception",
+          "firstPage": 7,
+          "lastPage": 7
+        },
+        {
+          "deckId": "contraception",
+          "firstPage": 22,
+          "lastPage": 24
+        },
+        {
+          "deckId": "contraception",
+          "firstPage": 29,
+          "lastPage": 31
+        }
+      ],
+      "topics": [
+        "Emergency contraception: choose by timing and suitability",
+        "Mechanism and what emergency contraception does not do",
+        "Restart after levonorgestrel versus ulipristal",
+        "Emergency-contraception follow-up",
+        "Tubal sterilization: permanence and informed consent",
+        "Vasectomy: backup until confirmed clearance",
+        "Possible pregnancy after sterilization"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "EC choice and timing",
+          "noteTopic": "Emergency contraception: choose by timing and suitability"
+        },
+        {
+          "requirement": "EC mechanism and distinction from established pregnancy/abortion",
+          "noteTopic": "Mechanism and what emergency contraception does not do"
+        },
+        {
+          "requirement": "LNG versus UPA restart and backup",
+          "noteTopic": "Restart after levonorgestrel versus ulipristal"
+        },
+        {
+          "requirement": "EC effects, testing and urgent follow-up",
+          "noteTopic": "Emergency-contraception follow-up"
+        },
+        {
+          "requirement": "Tubal permanence, consent, effectiveness and recovery",
+          "noteTopic": "Tubal sterilization: permanence and informed consent"
+        },
+        {
+          "requirement": "Vasectomy permanence, backup and confirmed semen clearance",
+          "noteTopic": "Vasectomy: backup until confirmed clearance"
+        },
+        {
+          "requirement": "Pregnancy after sterilization and ectopic warning symptoms",
+          "noteTopic": "Possible pregnancy after sterilization"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Contraception (original supplied PDF)",
+          "url": "#/ob-final/presentation/contraception"
+        },
+        {
+          "title": "CDC: emergency contraception and restart-timing clarification",
+          "url": "https://www.cdc.gov/contraception/hcp/usspr/emergency-contraception.html"
+        },
+        {
+          "title": "CDC: permanent-method counseling and clearance clarification",
+          "url": "https://www.cdc.gov/contraception/hcp/usspr/permanent-contraception.html"
+        },
+        {
+          "title": "CDC: IUD eligibility, backup and follow-up clarification",
+          "url": "https://www.cdc.gov/contraception/hcp/usspr/intrauterine-contraception.html"
+        }
+      ],
+      "scope": "Corrects emergency-contraception windows, mechanism and restart timing; excludes an unsourced universal Yuzpe pill count. Permanent-method consent, reversal and backup are clarified without repeating dated legal rules or unsupported risk percentages."
+    },
+    {
+      "id": "fertility-reproductive-planning",
+      "title": "Fertility and reproductive planning",
+      "originalMetadataSha256": "b738eb5ba30f370994e8fa79251075386d8d40e5b9bac5c6d8a1b6cbed826751",
+      "lectureRanges": [
+        {
+          "deckId": "contraception",
+          "firstPage": 2,
+          "lastPage": 5
+        },
+        {
+          "deckId": "stis",
+          "firstPage": 11,
+          "lastPage": 12
+        },
+        {
+          "deckId": "stis",
+          "firstPage": 18,
+          "lastPage": 18
+        }
+      ],
+      "topics": [
+        "Guideline supplement: goals, timing and access",
+        "Guideline supplement: reproductive and general history",
+        "Guideline supplement: evaluate contributing factors in parallel",
+        "Guideline supplement: genetic assessment and informed choices",
+        "Guideline supplement: support, referral and follow-through"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Respectful goals, access and referral timing; original PDF limits",
+          "noteTopic": "Guideline supplement: goals, timing and access"
+        },
+        {
+          "requirement": "Individual/partner reproductive and general history",
+          "noteTopic": "Guideline supplement: reproductive and general history"
+        },
+        {
+          "requirement": "Parallel contributing-factor assessment and test limits",
+          "noteTopic": "Guideline supplement: evaluate contributing factors in parallel"
+        },
+        {
+          "requirement": "Genetic history, informed testing and genetic counseling",
+          "noteTopic": "Guideline supplement: genetic assessment and informed choices"
+        },
+        {
+          "requirement": "Emotional/practical support, referral and follow-through",
+          "noteTopic": "Guideline supplement: support, referral and follow-through"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Contraception (original supplied PDF)",
+          "url": "#/ob-final/presentation/contraception"
+        },
+        {
+          "title": "Sexually transmitted infections (original supplied PDF)",
+          "url": "#/ob-final/presentation/stis"
+        },
+        {
+          "title": "ASRM: fertility evaluation, referral and assessment supplement",
+          "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/fertility-evaluation-of-infertile-women-a-committee-opinion-2026"
+        }
+      ],
+      "scope": "No dedicated infertility/genetic-counseling PDF was supplied. Original reproductive-goal counseling and STI/PID tubal-risk context are retained; every detailed assessment/referral topic is explicitly labeled a guideline supplement, not attributed to a missing lecture."
+    },
+    {
+      "id": "sti-assessment-discharge",
+      "title": "STI assessment and vaginal discharge",
+      "originalMetadataSha256": "fbd70e3742cc8dc2b7a4fcb342e950a3f9359667ee46cf085021e131e0594228",
+      "lectureRanges": [
+        {
+          "deckId": "stis",
+          "firstPage": 2,
+          "lastPage": 12
+        },
+        {
+          "deckId": "stis",
+          "firstPage": 20,
+          "lastPage": 20
+        },
+        {
+          "deckId": "stis",
+          "firstPage": 27,
+          "lastPage": 27
+        }
+      ],
+      "topics": [
+        "History, risk and a safe examination",
+        "Testing: distinguish screening, microscopy and NAAT",
+        "Trichomoniasis: sexually transmitted protozoal infection",
+        "Chlamydia: often silent, potentially damaging",
+        "Gonorrhea: site matters and resistance matters",
+        "Candidiasis: compare with an STI",
+        "Bacterial vaginosis: dysbiosis and diagnostic criteria",
+        "Integrate findings and explain the next step"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Assessment cues, exposure risks, consent and urgent symptoms",
+          "noteTopic": "History, risk and a safe examination"
+        },
+        {
+          "requirement": "Diagnostic specimen/site selection, pH/microscopy and NAAT limits",
+          "noteTopic": "Testing: distinguish screening, microscopy and NAAT"
+        },
+        {
+          "requirement": "Trichomoniasis cues, diagnosis and management",
+          "noteTopic": "Trichomoniasis: sexually transmitted protozoal infection"
+        },
+        {
+          "requirement": "Chlamydia cues, testing and management",
+          "noteTopic": "Chlamydia: often silent, potentially damaging"
+        },
+        {
+          "requirement": "Gonorrhea cues, testing, resistance and management",
+          "noteTopic": "Gonorrhea: site matters and resistance matters"
+        },
+        {
+          "requirement": "Candida comparison, risk factors and pregnancy safety",
+          "noteTopic": "Candidiasis: compare with an STI"
+        },
+        {
+          "requirement": "BV comparison, Amsel criteria and partner update",
+          "noteTopic": "Bacterial vaginosis: dysbiosis and diagnostic criteria"
+        },
+        {
+          "requirement": "Coinfection/other causes, result communication and evaluation",
+          "noteTopic": "Integrate findings and explain the next step"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Sexually transmitted infections (original supplied PDF)",
+          "url": "#/ob-final/presentation/stis"
+        },
+        {
+          "title": "CDC: vaginal-discharge assessment and testing clarification",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/vaginal-discharge.htm"
+        },
+        {
+          "title": "CDC: chlamydia testing, pregnancy treatment and follow-up clarification",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm"
+        },
+        {
+          "title": "CDC: gonorrhea therapy and test-of-cure clarification",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm"
+        },
+        {
+          "title": "CDC: trichomoniasis therapy, partners and retesting clarification",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/trichomoniasis.htm"
+        },
+        {
+          "title": "CDC: candidiasis and pregnancy-treatment clarification",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/candidiasis.htm"
+        },
+        {
+          "title": "ACOG: recurrent BV partner-treatment update clarification",
+          "url": "https://www.acog.org/news/news-releases/2025/10/acog-recommends-concurrent-sexual-partner-treatment-recurrent-bacterial-vaginosis-first-time"
+        }
+      ],
+      "scope": "Uses the lecture’s comparison and risk assessment, while clarifying NAAT versus urine culture, overlapping symptoms, candidiasis units/pregnancy treatment and the 2025 recurrent-BV partner update. Neither identity nor discharge appearance alone establishes a diagnosis."
+    },
+    {
+      "id": "syphilis-hpv-hsv",
+      "title": "Syphilis, HPV, and genital herpes",
+      "originalMetadataSha256": "b621a8b2751d5a8de431aa3e0176152f2a68e22c062536cb1c5704167a052ee1",
+      "lectureRanges": [
+        {
+          "deckId": "stis",
+          "firstPage": 4,
+          "lastPage": 4
+        },
+        {
+          "deckId": "stis",
+          "firstPage": 13,
+          "lastPage": 17
+        },
+        {
+          "deckId": "stis",
+          "firstPage": 27,
+          "lastPage": 27
+        }
+      ],
+      "topics": [
+        "Syphilis stages and urgent manifestations",
+        "Syphilis testing, treatment and follow-up",
+        "Syphilis in pregnancy and the newborn",
+        "Genital herpes: HSV-1 and HSV-2",
+        "HSV treatment, counseling and follow-up",
+        "HSV around birth: history is not the whole decision",
+        "HPV: warts, cancer risk and assessment",
+        "HPV vaccine: current prevention teaching"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Syphilis stages, findings and urgent neurologic/ocular concerns",
+          "noteTopic": "Syphilis stages and urgent manifestations"
+        },
+        {
+          "requirement": "Syphilis tests, stage-specific treatment and follow-up",
+          "noteTopic": "Syphilis testing, treatment and follow-up"
+        },
+        {
+          "requirement": "Pregnancy treatment and congenital-syphilis prevention",
+          "noteTopic": "Syphilis in pregnancy and the newborn"
+        },
+        {
+          "requirement": "HSV pattern, transmission and testing",
+          "noteTopic": "Genital herpes: HSV-1 and HSV-2"
+        },
+        {
+          "requirement": "HSV treatment, prevention, counseling and follow-up",
+          "noteTopic": "HSV treatment, counseling and follow-up"
+        },
+        {
+          "requirement": "HSV pregnancy, birth and newborn implications",
+          "noteTopic": "HSV around birth: history is not the whole decision"
+        },
+        {
+          "requirement": "HPV warts versus cancer, assessment, treatment and screening",
+          "noteTopic": "HPV: warts, cancer risk and assessment"
+        },
+        {
+          "requirement": "HPV vaccination and pregnancy precautions",
+          "noteTopic": "HPV vaccine: current prevention teaching"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Sexually transmitted infections (original supplied PDF)",
+          "url": "#/ob-final/presentation/stis"
+        },
+        {
+          "title": "CDC: syphilis stage, testing and treatment clarification",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/syphilis.htm"
+        },
+        {
+          "title": "CDC: syphilis pregnancy-treatment clarification",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/syphilis-pregnancy.htm"
+        },
+        {
+          "title": "CDC: genital HSV, suppression and pregnancy clarification",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/herpes.htm"
+        },
+        {
+          "title": "CDC: current HPV vaccination clarification",
+          "url": "https://www.cdc.gov/hpv/hcp/vaccination-considerations/"
+        }
+      ],
+      "scope": "Preserves the lecture’s infection patterns while correcting stage-independent syphilis dosing, HSV-1 transmission, nonspecific lesion photos, neonatal-risk generalization and obsolete HPV vaccine details. No lesion image alone is used as a diagnosis."
+    },
+    {
+      "id": "pid-complications",
+      "title": "PID and reproductive complications",
+      "originalMetadataSha256": "b81f6d6618c11aad7db2e9625da8869e29f59c3216c32e6479b5652f92a6123d",
+      "lectureRanges": [
+        {
+          "deckId": "stis",
+          "firstPage": 11,
+          "lastPage": 12
+        },
+        {
+          "deckId": "stis",
+          "firstPage": 18,
+          "lastPage": 18
+        }
+      ],
+      "topics": [
+        "Ascending infection and reproductive damage",
+        "Recognize cues and investigate promptly",
+        "Prescribed therapy and nursing priorities",
+        "Hospitalization and the 72-hour reassessment",
+        "Partners, fertility and prevention teaching"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Ascending polymicrobial infection and reproductive complications",
+          "noteTopic": "Ascending infection and reproductive damage"
+        },
+        {
+          "requirement": "Diagnostic cues, pregnancy/emergency evaluation and tests",
+          "noteTopic": "Recognize cues and investigate promptly"
+        },
+        {
+          "requirement": "Prompt prescribed therapy and nursing priorities",
+          "noteTopic": "Prescribed therapy and nursing priorities"
+        },
+        {
+          "requirement": "Admission criteria and 72-hour reassessment",
+          "noteTopic": "Hospitalization and the 72-hour reassessment"
+        },
+        {
+          "requirement": "Partner treatment, retesting and future reproductive risks",
+          "noteTopic": "Partners, fertility and prevention teaching"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Sexually transmitted infections (original supplied PDF)",
+          "url": "#/ob-final/presentation/stis"
+        },
+        {
+          "title": "CDC: PID assessment, treatment and reassessment clarification",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/pid.htm"
+        },
+        {
+          "title": "CDC: chlamydia testing, pregnancy treatment and follow-up clarification",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm"
+        },
+        {
+          "title": "CDC: gonorrhea therapy and test-of-cure clarification",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm"
+        }
+      ],
+      "scope": "Expands the original PID cause/cue/complication outline with clearly labeled assessment and care clarifications; clinical diagnosis, outpatient versus inpatient treatment and 72-hour reassessment replace universal laparoscopy/IV claims."
+    },
+    {
+      "id": "hiv-hepatitis-perinatal-care",
+      "title": "HIV, hepatitis, and perinatal prevention",
+      "originalMetadataSha256": "d90dc8ce540f2731ff87353c57f7f316f76291b70c4433b49c512dcdfe95caec",
+      "lectureRanges": [
+        {
+          "deckId": "stis",
+          "firstPage": 4,
+          "lastPage": 4
+        },
+        {
+          "deckId": "stis",
+          "firstPage": 19,
+          "lastPage": 19
+        },
+        {
+          "deckId": "stis",
+          "firstPage": 21,
+          "lastPage": 27
+        }
+      ],
+      "topics": [
+        "Screen and prevent exposure without stigma",
+        "HIV: ART, monitoring and what U=U means",
+        "HIV birth planning and newborn prevention",
+        "HIV and feeding: informed, supported planning",
+        "Hepatitis A, B and C: separate routes and prevention",
+        "HBV: maternal assessment and infant prevention",
+        "HCV infant follow-up and hepatitis feeding counseling"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Screening, confirmation, exposure prevention and ART versus PrEP",
+          "noteTopic": "Screen and prevent exposure without stigma"
+        },
+        {
+          "requirement": "HIV treatment, viral-load monitoring and route-specific U=U",
+          "noteTopic": "HIV: ART, monitoring and what U=U means"
+        },
+        {
+          "requirement": "HIV birth planning and risk-based infant prevention",
+          "noteTopic": "HIV birth planning and newborn prevention"
+        },
+        {
+          "requirement": "Individualized HIV feeding counseling and continued monitoring",
+          "noteTopic": "HIV and feeding: informed, supported planning"
+        },
+        {
+          "requirement": "Hepatitis A/B/C transmission, treatment and prevention distinctions",
+          "noteTopic": "Hepatitis A, B and C: separate routes and prevention"
+        },
+        {
+          "requirement": "HBV maternal assessment, birth prophylaxis and infant vaccine/testing follow-up",
+          "noteTopic": "HBV: maternal assessment and infant prevention"
+        },
+        {
+          "requirement": "HCV testing/infant follow-up and individualized hepatitis feeding counseling",
+          "noteTopic": "HCV infant follow-up and hepatitis feeding counseling"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Sexually transmitted infections (original supplied PDF)",
+          "url": "#/ob-final/presentation/stis"
+        },
+        {
+          "title": "NIH: HIV assessment and monitoring during pregnancy clarification",
+          "url": "https://clinicalinfo.hiv.gov/en/guidelines/perinatal/antepartum-care-initial-evaluation-monitoring-hiv-assessments-during-pregnancy"
+        },
+        {
+          "title": "NIH: HIV viral load and birth-planning clarification",
+          "url": "https://clinicalinfo.hiv.gov/en/guidelines/perinatal/intrapartum-care"
+        },
+        {
+          "title": "NIH: HIV infant-feeding and prevention clarification",
+          "url": "https://clinicalinfo.hiv.gov/en/guidelines/perinatal/preventing-transmission-infant-feeding?view=brief"
+        },
+        {
+          "title": "CDC: perinatal HBV infant prevention clarification",
+          "url": "https://www.cdc.gov/hepatitis-b/hcp/perinatal-provider-overview/vaccine-administration.html"
+        },
+        {
+          "title": "CDC: hepatitis C screening and infant follow-up clarification",
+          "url": "https://www.cdc.gov/hepatitis-c/hcp/diagnosis-testing/index.html"
+        },
+        {
+          "title": "CDC: hepatitis B/C feeding clarification",
+          "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/illnesses-conditions/hepatitis-b-c.html"
+        },
+        {
+          "title": "CDC: hepatitis A prevention clarification",
+          "url": "https://www.cdc.gov/hepatitis-a/prevention/"
+        }
+      ],
+      "scope": "Keeps the lecture’s screening, ART and perinatal-prevention framework; clarifies route-specific U=U, viral-load birth planning, risk-based infant prophylaxis, shared feeding counseling and distinct hepatitis types. Avoids a universal two-week infant regimen or statements that HCV carriers cannot transmit."
+    },
+    {
+      "id": "sti-treatment-partner-teaching",
+      "title": "Treatment, partners, and follow-up",
+      "originalMetadataSha256": "5ffb8cfb14044c622fcdd69e31ac356f1aacc797141a2cc378b63280cc974da6",
+      "lectureRanges": [
+        {
+          "deckId": "stis",
+          "firstPage": 7,
+          "lastPage": 19
+        },
+        {
+          "deckId": "stis",
+          "firstPage": 21,
+          "lastPage": 27
+        }
+      ],
+      "topics": [
+        "Select and administer the right prescribed treatment",
+        "Pregnancy-specific precautions",
+        "Adherence, symptom care and result communication",
+        "Partner management: infection-specific and nonjudgmental",
+        "Abstinence, barriers and preventing reinfection",
+        "Test-of-cure versus retesting for reinfection",
+        "Teach-back and evaluation"
+      ],
+      "outlineCoverage": [
+        {
+          "requirement": "Appropriate prescribed infection-specific therapy and unit/order checks",
+          "noteTopic": "Select and administer the right prescribed treatment"
+        },
+        {
+          "requirement": "Pregnancy-specific precautions",
+          "noteTopic": "Pregnancy-specific precautions"
+        },
+        {
+          "requirement": "Adherence, symptom evaluation and pending results",
+          "noteTopic": "Adherence, symptom care and result communication"
+        },
+        {
+          "requirement": "Partner care, EPT and condition-specific exceptions",
+          "noteTopic": "Partner management: infection-specific and nonjudgmental"
+        },
+        {
+          "requirement": "Abstinence/barrier teaching and reinfection prevention",
+          "noteTopic": "Abstinence, barriers and preventing reinfection"
+        },
+        {
+          "requirement": "Test-of-cure versus retesting and reassessment",
+          "noteTopic": "Test-of-cure versus retesting for reinfection"
+        },
+        {
+          "requirement": "Teach-back, urgent return and outcome evaluation",
+          "noteTopic": "Teach-back and evaluation"
+        }
+      ],
+      "reviewSources": [
+        {
+          "title": "Sexually transmitted infections (original supplied PDF)",
+          "url": "#/ob-final/presentation/stis"
+        },
+        {
+          "title": "CDC: chlamydia testing, pregnancy treatment and follow-up clarification",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm"
+        },
+        {
+          "title": "CDC: gonorrhea therapy and test-of-cure clarification",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm"
+        },
+        {
+          "title": "CDC: trichomoniasis therapy, partners and retesting clarification",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/trichomoniasis.htm"
+        },
+        {
+          "title": "CDC: candidiasis and pregnancy-treatment clarification",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/candidiasis.htm"
+        },
+        {
+          "title": "ACOG: recurrent BV partner-treatment update clarification",
+          "url": "https://www.acog.org/news/news-releases/2025/10/acog-recommends-concurrent-sexual-partner-treatment-recurrent-bacterial-vaginosis-first-time"
+        },
+        {
+          "title": "CDC: syphilis pregnancy-treatment clarification",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/syphilis-pregnancy.htm"
+        },
+        {
+          "title": "CDC: genital HSV, suppression and pregnancy clarification",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/herpes.htm"
+        },
+        {
+          "title": "CDC: PID assessment, treatment and reassessment clarification",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/pid.htm"
+        }
+      ],
+      "scope": "Consolidates the lecture’s treatment/partner teaching without copying erroneous units or creating a new dose table. Clearly distinguishes pregnancy precautions, organism-specific partner plans, clinical reassessment, test-of-cure and three-month reinfection testing."
+    }
+  ],
+  "preservedCompletedObjectives": [
+    {
+      "id": "family-centered-care",
+      "sha256": "70a0b3b2ece86eb8bf63f3096dc4920845f670ac30dd63c330d90b1181792671"
+    },
+    {
+      "id": "pregnancy-adaptations",
+      "sha256": "cf195c48ab0f0f1ac71c5cded8f7ade851b4982250c7fb49821e9c42fb7401c2"
+    },
+    {
+      "id": "pregnancy-psychosocial-care",
+      "sha256": "a8fc5c78a886aac82d8136712864eaabd54876c1ceaec7f416e1ac74de96f7bf"
+    },
+    {
+      "id": "conception-fetal-development",
+      "sha256": "a977e1cfd51356225669fd1b760339b7310344d798eb56b69bd1dfb8487ebe3e"
+    },
+    {
+      "id": "pregnancy-signs",
+      "sha256": "d84d6ebc86af9ccf967fc27f093e1962d0012f37730f7c6ed42f09df0e17856a"
+    },
+    {
+      "id": "obstetric-history-gtpal",
+      "sha256": "70b17bd7266c0e4a5f3cbccdd7ec5bf7afff46deb2a254895cf9b814fc7449f5"
+    },
+    {
+      "id": "estimated-due-date",
+      "sha256": "4c7fb355ae71583d39b8eadc5cf27390b0a8cda16b575c5be8be739432901f17"
+    },
+    {
+      "id": "prenatal-assessment",
+      "sha256": "6b6348d843955794ec685927ab731331b7231d2f0ecc6bad6b5fb35faa1fba4e"
+    },
+    {
+      "id": "pregnancy-discomforts",
+      "sha256": "34c498545e7a2cfbaaed7ecbadb19f82b6b852084fdc5d1fe72c8dd230e0da8e"
+    },
+    {
+      "id": "prenatal-nutrition-teaching",
+      "sha256": "83e1f0e7ee44b5408a6c51eb18c495ba50bb04abfcfada596d3c25c1edacb0da"
+    },
+    {
+      "id": "high-risk-pregnancy-assessment",
+      "sha256": "58ac88980195a296e5d2deee1a458f1f13a5ee7bdb3e7ad8ae36890462d21a8b"
+    },
+    {
+      "id": "early-pregnancy-complications",
+      "sha256": "ad306f6df18fd34dee9ffb08bd37d1f7f6dc399d62d7fe4c989c4f4911c58696"
+    },
+    {
+      "id": "placental-bleeding",
+      "sha256": "707c745c51110fb3dae06c67efed3e4a5abdd952a8b3f86c9a6680800c2ac69d"
+    },
+    {
+      "id": "diabetes-assessment",
+      "sha256": "d339f75477a7e32654b26c0b34a13e69d00853d964c3b2146e327f88224b46d7"
+    },
+    {
+      "id": "diabetes-nursing-management",
+      "sha256": "094361a09b9d7defe6b6573413678eeabc31c2cefd846f72181120f949a70d37"
+    },
+    {
+      "id": "hypertensive-disorders",
+      "sha256": "c8593c799384dbaee342a6b08ce90a44dd2287055dc5595d8afb7ef1fae45307"
+    },
+    {
+      "id": "eclampsia-magnesium-hellp",
+      "sha256": "cf3ccd761f55857d196adbf4cf5b18d4c7fdda6eeb37291c54abecd98fcf9d0a"
+    },
+    {
+      "id": "pregnancy-prom-preterm",
+      "sha256": "a2ab601a785d8e285014984761f78364211d07fba602e986c4bfae92493e7df8"
+    },
+    {
+      "id": "rh-abo-infections",
+      "sha256": "274d6e23637b7dc15ef4f825f7d2520b59559325e07f4d688c2601917a133ef8"
+    },
+    {
+      "id": "fluid-multiples-pregnancy",
+      "sha256": "17dc96e563f057c24236fd7cf495942c7753c675986f571e2cfdeac9651c0e0e"
+    },
+    {
+      "id": "normal-labor-process",
+      "sha256": "b55ba5250d8dbc3f88c551be736418952d6ebf1a66341bc5d5d550dcafc5c5f4"
+    },
+    {
+      "id": "labor-nursing-assessment",
+      "sha256": "51eecfc874b5ecc7f956a4527500f4ab43790624925455e33b361eaef3db1138"
+    },
+    {
+      "id": "monitoring-methods",
+      "sha256": "29a00577b42d3fd5b69c403b3014e53161fe2635a6e637b16578acf93010daac"
+    },
+    {
+      "id": "fhr-strip-assessment",
+      "sha256": "a6a31f52d11398179b459d3ae919b226c760d9410eb68716691abebcd3381a63"
+    },
+    {
+      "id": "fhr-patterns",
+      "sha256": "55d736bced31e3f903cf3e03b85d5b2ea9e76c682d0ef45ff5269cbf7cbf37cb"
+    },
+    {
+      "id": "fhr-priorities",
+      "sha256": "c5f77e4885ea7ac00eaf2a2428c8be195602b2cc4e646946552983c15edfa27a"
+    },
+    {
+      "id": "labor-comfort-medication",
+      "sha256": "43debdc4bebe66782ea977c4fe524b259c50e47dbeffddf6320d6e7595c84c21"
+    },
+    {
+      "id": "induction-augmentation",
+      "sha256": "a21c21dff0b36b1a19f2b9f966ac38276e584b0871ca33c4774b6efbbc6f14c2"
+    },
+    {
+      "id": "complicated-labor",
+      "sha256": "dbfa4f53b59403adb8f0e1b8148910bcfe155c41353d4075fbfb7026c84b44fd"
+    },
+    {
+      "id": "assisted-cesarean-birth",
+      "sha256": "e18bb1ae3b2d153c39c30296e8849b2ae26c2c667b8dde9a6d26a84849628aa4"
+    },
+    {
+      "id": "shoulder-dystocia",
+      "sha256": "5b84d05572cac4ed63f9a5158bf8c6310b64cdd23987ac2e4fab963f6ce226ec"
+    },
+    {
+      "id": "placental-emergency-response",
+      "sha256": "528bb4f4558dc54218e43d5c1eabe9d6d496b93fc77377b941f68b49a7c6ef7e"
+    },
+    {
+      "id": "other-birth-emergencies",
+      "sha256": "e16f05346676b038a75b440593aafc083a1f10a697c815436cfe3d237f16c861"
+    },
+    {
+      "id": "postpartum-physiology",
+      "sha256": "736b7f87980f3a06b0e2c932aa6324a044ecb7ef8cc9a6c8759912c16d6eb8a6"
+    },
+    {
+      "id": "postpartum-assessment",
+      "sha256": "b7e13530e090470d46f5aafaef3644f8d316747400410fdfce5b4bc7e528afd8"
+    },
+    {
+      "id": "postpartum-labs-elimination",
+      "sha256": "8a6d3f4029b68e392d929a10085506abefba4b6bea6097f46253081bdff44215"
+    },
+    {
+      "id": "postpartum-comfort-mobility",
+      "sha256": "3cacc9d4c53b0e1136ab17d16502a82c764b69494e6175154a01049e57af5888"
+    },
+    {
+      "id": "postpartum-family-adaptation",
+      "sha256": "7812d6d7bf91e100d43bea0147edccf6da32bd35722f271ee8226645541b454c"
+    },
+    {
+      "id": "postpartum-discharge",
+      "sha256": "ffd0b3e3294032b7d7f3de83d85508582ac813156a836a1879c9801be9b33c4c"
+    },
+    {
+      "id": "postpartum-hemorrhage-assessment",
+      "sha256": "6650b75ca4741912d2469d888082b322fd37b273c18ad2d87aa51e65af562101"
+    },
+    {
+      "id": "postpartum-hemorrhage-management",
+      "sha256": "19a79c51e42a73c6bf2b2d7b2a81ff916c2e2d7f299c09d26d608694c0ec017b"
+    },
+    {
+      "id": "postpartum-subinvolution",
+      "sha256": "471e66ff4e78f7ddb5a09a48a6177a571d86f85f51aa7a06ce78460ab922cff2"
+    },
+    {
+      "id": "postpartum-infections",
+      "sha256": "a38a1743dd91340d916c0421b83da8bddd2c7be24f49dd6aad0e9b8c40d7b7a6"
+    },
+    {
+      "id": "postpartum-thromboembolism",
+      "sha256": "33186bc29d8a69b42128da382acf65fc791e22ebab5a92606e6f2610793caebf"
+    },
+    {
+      "id": "postpartum-mental-health",
+      "sha256": "a26dcbe1b99f2f1db741a5510e59b3244c2a27aff834c96bbe472bf2962f1eed"
+    },
+    {
+      "id": "newborn-transition-apgar",
+      "sha256": "e596f9093f4fb86cfc2fed347465f07071d67fd02d9f548cd81c4a88abbd416b"
+    },
+    {
+      "id": "newborn-head-to-toe",
+      "sha256": "9c379df40ef765b28e28b35996c82a01b4c73b1d748a2eb21fa3e16dc89dd4bc"
+    },
+    {
+      "id": "newborn-variants",
+      "sha256": "9d74a29ad1cdc21bd13191ae5c5e4b5188f7f860a98f9e8621b1db9bea4dd65e"
+    },
+    {
+      "id": "newborn-gestational-assessment",
+      "sha256": "3e6cd66b73e39090816efa468518f4d5433b7743e63c3933c3746049a9265e09"
+    },
+    {
+      "id": "newborn-routine-care",
+      "sha256": "1340b543410e357d9138c2eed805fb44e464eb50b15dcb101b9d3cea6c6e1d56"
+    },
+    {
+      "id": "newborn-discharge-teaching",
+      "sha256": "ffe597b88b6139a62da949720d7e5145870af8101a42454a93a150582583dda8"
+    },
+    {
+      "id": "feeding-needs-milk-changes",
+      "sha256": "1022dbce5a755c4fdee6aced93a694ace5e1be816d38e69ac2a1ae77c6bc7478"
+    },
+    {
+      "id": "breastfeeding-latch-support",
+      "sha256": "c8ce8e7f2a065d5d7d3c8d67612c8fc816df445a21c17735a6adbad735b6c3da"
+    },
+    {
+      "id": "feeding-adequacy",
+      "sha256": "0a865b3f85a4e05cf6d8365eacb8b433d30fccb9c68d84ecf0975bf1c33d7487"
+    },
+    {
+      "id": "milk-expression-storage",
+      "sha256": "b2d341dc8a7006aca11bc0c8c65cde94320106c0d2fc97b7953b9cf8a9fe14fb"
+    },
+    {
+      "id": "formula-preparation",
+      "sha256": "3c9894582dac7a4413d7c006bfcc58d65648aee22d03f0fa7e7c9a0c592ba127"
+    },
+    {
+      "id": "feeding-special-circumstances",
+      "sha256": "d14a316d26230aa3c0ecef1f3339820b72f61902bf8d0e957f6bd13a98bb54d7"
+    },
+    {
+      "id": "prematurity-high-risk",
+      "sha256": "605fdd1372f9f7ba5c5f3317fc6ba2634bda067811d7ec96ded5f22a3e16c903"
+    },
+    {
+      "id": "newborn-respiratory-distress",
+      "sha256": "16ee3b1462c2d7e4a8bdd56047b4aaddd51cdaf5d98cb5728c7ef4ae69f19c9d"
+    },
+    {
+      "id": "newborn-temperature-glucose",
+      "sha256": "10c506af78777e7f51c0b9a616e0ab7f7872fe40dfe7e432a919b70aa5b20526"
+    },
+    {
+      "id": "newborn-jaundice",
+      "sha256": "e41a0b87714e40a753e6e329d61dbc9bcb89e9710970bb1da379ef0ca69fb116"
+    },
+    {
+      "id": "newborn-sepsis-nec",
+      "sha256": "976a25977083db11b0784e0bc80ed9bd47844d751e829840d54d9538d65eecb6"
+    },
+    {
+      "id": "preterm-ongoing-care",
+      "sha256": "c02f4079693af2a53630d890af3c8a9b6e4eaec89b9d6e38f8818d472a7c550c"
+    }
+  ],
+  "preservedOtherObjectives": [
+    {
+      "id": "family-centered-care",
+      "sha256": "70a0b3b2ece86eb8bf63f3096dc4920845f670ac30dd63c330d90b1181792671"
+    },
+    {
+      "id": "pregnancy-adaptations",
+      "sha256": "cf195c48ab0f0f1ac71c5cded8f7ade851b4982250c7fb49821e9c42fb7401c2"
+    },
+    {
+      "id": "pregnancy-psychosocial-care",
+      "sha256": "a8fc5c78a886aac82d8136712864eaabd54876c1ceaec7f416e1ac74de96f7bf"
+    },
+    {
+      "id": "conception-fetal-development",
+      "sha256": "a977e1cfd51356225669fd1b760339b7310344d798eb56b69bd1dfb8487ebe3e"
+    },
+    {
+      "id": "pregnancy-signs",
+      "sha256": "d84d6ebc86af9ccf967fc27f093e1962d0012f37730f7c6ed42f09df0e17856a"
+    },
+    {
+      "id": "obstetric-history-gtpal",
+      "sha256": "70b17bd7266c0e4a5f3cbccdd7ec5bf7afff46deb2a254895cf9b814fc7449f5"
+    },
+    {
+      "id": "estimated-due-date",
+      "sha256": "4c7fb355ae71583d39b8eadc5cf27390b0a8cda16b575c5be8be739432901f17"
+    },
+    {
+      "id": "prenatal-assessment",
+      "sha256": "6b6348d843955794ec685927ab731331b7231d2f0ecc6bad6b5fb35faa1fba4e"
+    },
+    {
+      "id": "pregnancy-discomforts",
+      "sha256": "34c498545e7a2cfbaaed7ecbadb19f82b6b852084fdc5d1fe72c8dd230e0da8e"
+    },
+    {
+      "id": "prenatal-nutrition-teaching",
+      "sha256": "83e1f0e7ee44b5408a6c51eb18c495ba50bb04abfcfada596d3c25c1edacb0da"
+    },
+    {
+      "id": "high-risk-pregnancy-assessment",
+      "sha256": "58ac88980195a296e5d2deee1a458f1f13a5ee7bdb3e7ad8ae36890462d21a8b"
+    },
+    {
+      "id": "early-pregnancy-complications",
+      "sha256": "ad306f6df18fd34dee9ffb08bd37d1f7f6dc399d62d7fe4c989c4f4911c58696"
+    },
+    {
+      "id": "placental-bleeding",
+      "sha256": "707c745c51110fb3dae06c67efed3e4a5abdd952a8b3f86c9a6680800c2ac69d"
+    },
+    {
+      "id": "diabetes-assessment",
+      "sha256": "d339f75477a7e32654b26c0b34a13e69d00853d964c3b2146e327f88224b46d7"
+    },
+    {
+      "id": "diabetes-nursing-management",
+      "sha256": "094361a09b9d7defe6b6573413678eeabc31c2cefd846f72181120f949a70d37"
+    },
+    {
+      "id": "hypertensive-disorders",
+      "sha256": "c8593c799384dbaee342a6b08ce90a44dd2287055dc5595d8afb7ef1fae45307"
+    },
+    {
+      "id": "eclampsia-magnesium-hellp",
+      "sha256": "cf3ccd761f55857d196adbf4cf5b18d4c7fdda6eeb37291c54abecd98fcf9d0a"
+    },
+    {
+      "id": "pregnancy-prom-preterm",
+      "sha256": "a2ab601a785d8e285014984761f78364211d07fba602e986c4bfae92493e7df8"
+    },
+    {
+      "id": "rh-abo-infections",
+      "sha256": "274d6e23637b7dc15ef4f825f7d2520b59559325e07f4d688c2601917a133ef8"
+    },
+    {
+      "id": "fluid-multiples-pregnancy",
+      "sha256": "17dc96e563f057c24236fd7cf495942c7753c675986f571e2cfdeac9651c0e0e"
+    },
+    {
+      "id": "normal-labor-process",
+      "sha256": "b55ba5250d8dbc3f88c551be736418952d6ebf1a66341bc5d5d550dcafc5c5f4"
+    },
+    {
+      "id": "labor-nursing-assessment",
+      "sha256": "51eecfc874b5ecc7f956a4527500f4ab43790624925455e33b361eaef3db1138"
+    },
+    {
+      "id": "monitoring-methods",
+      "sha256": "29a00577b42d3fd5b69c403b3014e53161fe2635a6e637b16578acf93010daac"
+    },
+    {
+      "id": "fhr-strip-assessment",
+      "sha256": "a6a31f52d11398179b459d3ae919b226c760d9410eb68716691abebcd3381a63"
+    },
+    {
+      "id": "fhr-patterns",
+      "sha256": "55d736bced31e3f903cf3e03b85d5b2ea9e76c682d0ef45ff5269cbf7cbf37cb"
+    },
+    {
+      "id": "fhr-priorities",
+      "sha256": "c5f77e4885ea7ac00eaf2a2428c8be195602b2cc4e646946552983c15edfa27a"
+    },
+    {
+      "id": "labor-comfort-medication",
+      "sha256": "43debdc4bebe66782ea977c4fe524b259c50e47dbeffddf6320d6e7595c84c21"
+    },
+    {
+      "id": "induction-augmentation",
+      "sha256": "a21c21dff0b36b1a19f2b9f966ac38276e584b0871ca33c4774b6efbbc6f14c2"
+    },
+    {
+      "id": "complicated-labor",
+      "sha256": "dbfa4f53b59403adb8f0e1b8148910bcfe155c41353d4075fbfb7026c84b44fd"
+    },
+    {
+      "id": "assisted-cesarean-birth",
+      "sha256": "e18bb1ae3b2d153c39c30296e8849b2ae26c2c667b8dde9a6d26a84849628aa4"
+    },
+    {
+      "id": "shoulder-dystocia",
+      "sha256": "5b84d05572cac4ed63f9a5158bf8c6310b64cdd23987ac2e4fab963f6ce226ec"
+    },
+    {
+      "id": "placental-emergency-response",
+      "sha256": "528bb4f4558dc54218e43d5c1eabe9d6d496b93fc77377b941f68b49a7c6ef7e"
+    },
+    {
+      "id": "other-birth-emergencies",
+      "sha256": "e16f05346676b038a75b440593aafc083a1f10a697c815436cfe3d237f16c861"
+    },
+    {
+      "id": "postpartum-physiology",
+      "sha256": "736b7f87980f3a06b0e2c932aa6324a044ecb7ef8cc9a6c8759912c16d6eb8a6"
+    },
+    {
+      "id": "postpartum-assessment",
+      "sha256": "b7e13530e090470d46f5aafaef3644f8d316747400410fdfce5b4bc7e528afd8"
+    },
+    {
+      "id": "postpartum-labs-elimination",
+      "sha256": "8a6d3f4029b68e392d929a10085506abefba4b6bea6097f46253081bdff44215"
+    },
+    {
+      "id": "postpartum-comfort-mobility",
+      "sha256": "3cacc9d4c53b0e1136ab17d16502a82c764b69494e6175154a01049e57af5888"
+    },
+    {
+      "id": "postpartum-family-adaptation",
+      "sha256": "7812d6d7bf91e100d43bea0147edccf6da32bd35722f271ee8226645541b454c"
+    },
+    {
+      "id": "postpartum-discharge",
+      "sha256": "ffd0b3e3294032b7d7f3de83d85508582ac813156a836a1879c9801be9b33c4c"
+    },
+    {
+      "id": "postpartum-hemorrhage-assessment",
+      "sha256": "6650b75ca4741912d2469d888082b322fd37b273c18ad2d87aa51e65af562101"
+    },
+    {
+      "id": "postpartum-hemorrhage-management",
+      "sha256": "19a79c51e42a73c6bf2b2d7b2a81ff916c2e2d7f299c09d26d608694c0ec017b"
+    },
+    {
+      "id": "postpartum-subinvolution",
+      "sha256": "471e66ff4e78f7ddb5a09a48a6177a571d86f85f51aa7a06ce78460ab922cff2"
+    },
+    {
+      "id": "postpartum-infections",
+      "sha256": "a38a1743dd91340d916c0421b83da8bddd2c7be24f49dd6aad0e9b8c40d7b7a6"
+    },
+    {
+      "id": "postpartum-thromboembolism",
+      "sha256": "33186bc29d8a69b42128da382acf65fc791e22ebab5a92606e6f2610793caebf"
+    },
+    {
+      "id": "postpartum-mental-health",
+      "sha256": "a26dcbe1b99f2f1db741a5510e59b3244c2a27aff834c96bbe472bf2962f1eed"
+    },
+    {
+      "id": "newborn-transition-apgar",
+      "sha256": "e596f9093f4fb86cfc2fed347465f07071d67fd02d9f548cd81c4a88abbd416b"
+    },
+    {
+      "id": "newborn-head-to-toe",
+      "sha256": "9c379df40ef765b28e28b35996c82a01b4c73b1d748a2eb21fa3e16dc89dd4bc"
+    },
+    {
+      "id": "newborn-variants",
+      "sha256": "9d74a29ad1cdc21bd13191ae5c5e4b5188f7f860a98f9e8621b1db9bea4dd65e"
+    },
+    {
+      "id": "newborn-gestational-assessment",
+      "sha256": "3e6cd66b73e39090816efa468518f4d5433b7743e63c3933c3746049a9265e09"
+    },
+    {
+      "id": "newborn-routine-care",
+      "sha256": "1340b543410e357d9138c2eed805fb44e464eb50b15dcb101b9d3cea6c6e1d56"
+    },
+    {
+      "id": "newborn-discharge-teaching",
+      "sha256": "ffe597b88b6139a62da949720d7e5145870af8101a42454a93a150582583dda8"
+    },
+    {
+      "id": "feeding-needs-milk-changes",
+      "sha256": "1022dbce5a755c4fdee6aced93a694ace5e1be816d38e69ac2a1ae77c6bc7478"
+    },
+    {
+      "id": "breastfeeding-latch-support",
+      "sha256": "c8ce8e7f2a065d5d7d3c8d67612c8fc816df445a21c17735a6adbad735b6c3da"
+    },
+    {
+      "id": "feeding-adequacy",
+      "sha256": "0a865b3f85a4e05cf6d8365eacb8b433d30fccb9c68d84ecf0975bf1c33d7487"
+    },
+    {
+      "id": "milk-expression-storage",
+      "sha256": "b2d341dc8a7006aca11bc0c8c65cde94320106c0d2fc97b7953b9cf8a9fe14fb"
+    },
+    {
+      "id": "formula-preparation",
+      "sha256": "3c9894582dac7a4413d7c006bfcc58d65648aee22d03f0fa7e7c9a0c592ba127"
+    },
+    {
+      "id": "feeding-special-circumstances",
+      "sha256": "d14a316d26230aa3c0ecef1f3339820b72f61902bf8d0e957f6bd13a98bb54d7"
+    },
+    {
+      "id": "prematurity-high-risk",
+      "sha256": "605fdd1372f9f7ba5c5f3317fc6ba2634bda067811d7ec96ded5f22a3e16c903"
+    },
+    {
+      "id": "newborn-respiratory-distress",
+      "sha256": "16ee3b1462c2d7e4a8bdd56047b4aaddd51cdaf5d98cb5728c7ef4ae69f19c9d"
+    },
+    {
+      "id": "newborn-temperature-glucose",
+      "sha256": "10c506af78777e7f51c0b9a616e0ab7f7872fe40dfe7e432a919b70aa5b20526"
+    },
+    {
+      "id": "newborn-jaundice",
+      "sha256": "e41a0b87714e40a753e6e329d61dbc9bcb89e9710970bb1da379ef0ca69fb116"
+    },
+    {
+      "id": "newborn-sepsis-nec",
+      "sha256": "976a25977083db11b0784e0bc80ed9bd47844d751e829840d54d9538d65eecb6"
+    },
+    {
+      "id": "preterm-ongoing-care",
+      "sha256": "c02f4079693af2a53630d890af3c8a9b6e4eaec89b9d6e38f8818d472a7c550c"
+    }
+  ],
+  "visualReview": [
+    {
+      "deckId": "contraception",
+      "pages": [
+        6,
+        14,
+        20,
+        21,
+        26,
+        27,
+        29,
+        30,
+        31,
+        32
+      ],
+      "purpose": "Reviewed effectiveness image, dated missed-use table, barrier diagrams, reversed calendar formula, mucus/calendar diagrams and sterilization figures. A baby-with-IUD photograph supplies no failure-rate estimate."
+    },
+    {
+      "deckId": "stis",
+      "pages": [
+        3,
+        4,
+        9,
+        13,
+        15,
+        17,
+        19,
+        26
+      ],
+      "purpose": "Reviewed infection classification, fetal/neonatal effects, diagnostic illustrations and HIV figure. Did not diagnose HSV from the nonspecific genital lesion photograph or infer that all conditions in the classification are sexually acquired."
+    }
+  ],
+  "emphasis": {
+    "newBoldSpans": 115,
+    "earlierAdditions": 334,
+    "earlierReviewSha256": "201658fbebcf64d71822e0c672513e52ccda44751e2c434f67c9d5e8b167ac89",
+    "storage": "docs/readability/ob-readability-review.json",
+    "handling": "Exact scoped bold spans in the existing safe formatting layer. No raw Markdown or HTML in note data; all earlier additions and CSV decisions preserved."
+  },
+  "materialLimits": [
+    {
+      "objectiveId": "fertility-reproductive-planning",
+      "handling": "No dedicated infertility/genetic-counseling PDF was supplied. Original reproductive-goal counseling and STI/PID tubal-risk context are retained; every detailed assessment/referral topic is explicitly labeled a guideline supplement, not attributed to a missing lecture."
+    },
+    {
+      "objectiveId": "emergency-permanent-contraception",
+      "handling": "Original abortion medication/law slides are outside the existing 12 objectives and are not expanded. Consent requirements remain jurisdiction/funding-specific; no dated universal waiting period is prescribed."
+    },
+    {
+      "objectiveId": "missed-contraception",
+      "handling": "Product-specific scenarios are answered by explicit decision boundaries; no patient facts or fictional worked case is added. Current CDC guidance and ANNOVERA label are clearly separated from the older lecture table."
+    },
+    {
+      "objectiveId": "sti-treatment-partner-teaching",
+      "handling": "Treatment concepts and named prescribed medicines are covered; dose selection, exceptions, drug-interaction management and individual orders remain with the actual clinician/local plan."
+    }
+  ],
+  "clarifications": [
+    {
+      "issue": "Dated method durations and broad IUD exclusions",
+      "handling": "Nexplanon updated to five years using the 2026 FDA label; LNG-IUD brands retain distinct contraceptive durations and copper labeled ten years. Nulliparity/short future pregnancy plans are not automatic contraindications.",
+      "sources": [
+        "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021529",
+        "https://medlineplus.gov/druginfo/meds/a613047.html",
+        "https://www.liletta.com/faqs",
+        "https://www.paragard.com/",
+        "https://www.cdc.gov/contraception/hcp/usspr/intrauterine-contraception.html"
+      ],
+      "labelEvidence": [
+        "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/021529s027lbl.pdf",
+        "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/018680Orig1s074.pdf"
+      ]
+    },
+    {
+      "issue": "Universal hormonal safety, backup and missed-use rules",
+      "handling": "Separate estrogen risk and current breast-cancer eligibility; distinguish POP formulations, combined pills, patch, etonogestrel/EE ring and ANNOVERA timing. Review exact medicines rather than claiming all antibiotics cause failure.",
+      "sources": [
+        "https://www.cdc.gov/contraception/hcp/usspr/classifications-mec-contraception.html",
+        "https://www.cdc.gov/contraception/hcp/usspr/combined-hormonal-contraceptives.html",
+        "https://www.cdc.gov/contraception/hcp/usspr/progestin-only-pills.html",
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=eb18194f-2021-41fa-8bdf-31e0c0eb646b"
+      ]
+    },
+    {
+      "issue": "Reversed calendar arithmetic and incomplete lactational amenorrhea criteria",
+      "handling": "Correct shortest minus 18/longest minus 11; explain temperature limitations and all LAM criteria including feeding gaps.",
+      "sources": [
+        "https://womenshealth.gov/pregnancy/you-get-pregnant/trying-conceive",
+        "https://www.cdc.gov/contraception/hcp/usmec/lactational-amenorrhea-method.html"
+      ]
+    },
+    {
+      "issue": "Older EC windows, packaging/mechanism claims, sterilization consent and clearance",
+      "handling": "Use timely method-specific EC and restart; distinguish prevention from ending established pregnancy. Emphasize voluntary permanence and semen clearance rather than universal consent days, ejaculation counts or three-month HSG for every tubal procedure.",
+      "sources": [
+        "https://www.cdc.gov/contraception/hcp/usspr/emergency-contraception.html",
+        "https://www.cdc.gov/contraception/hcp/usspr/permanent-contraception.html"
+      ]
+    },
+    {
+      "issue": "No dedicated infertility or genetics lecture",
+      "handling": "Use ASRM assessment/referral guidance in explicitly labeled supplement topics; retain original reproductive-goal and tubal-infection context and avoid invented course content.",
+      "sources": [
+        "https://www.asrm.org/practice-guidance/practice-committee-documents/fertility-evaluation-of-infertile-women-a-committee-opinion-2026"
+      ]
+    },
+    {
+      "issue": "STI diagnosis/treatment shortcuts, Candida units and outdated BV partner teaching",
+      "handling": "Use NAAT/site-based testing and distinguish BV/yeast; pregnancy topical azoles; avoid microgram typo. Label 2025 recurrent-BV partner-treatment update and distinguish three-month retesting from cure tests.",
+      "sources": [
+        "https://www.cdc.gov/std/treatment-guidelines/vaginal-discharge.htm",
+        "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+        "https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm",
+        "https://www.cdc.gov/std/treatment-guidelines/trichomoniasis.htm",
+        "https://www.cdc.gov/std/treatment-guidelines/candidiasis.htm",
+        "https://www.acog.org/news/news-releases/2025/10/acog-recommends-concurrent-sexual-partner-treatment-recurrent-bacterial-vaginosis-first-time"
+      ]
+    },
+    {
+      "issue": "HSV type/transmission/neonatal risks, syphilis stage-independent therapy and old HPV vaccine",
+      "handling": "Both HSV types can be genital; distinguish near-delivery acquisition from recurrent history. Use stage-specific penicillin and pregnancy desensitization, current 9-valent HPV vaccine and age-based schedules.",
+      "sources": [
+        "https://www.cdc.gov/std/treatment-guidelines/herpes.htm",
+        "https://www.cdc.gov/std/treatment-guidelines/syphilis.htm",
+        "https://www.cdc.gov/std/treatment-guidelines/syphilis-pregnancy.htm",
+        "https://www.cdc.gov/hpv/hcp/vaccination-considerations/"
+      ]
+    },
+    {
+      "issue": "PID always requires laparoscopy/IV therapy",
+      "handling": "Clinical early empiric treatment, pregnancy/emergency assessment, selected admission and documented 72-hour reassessment.",
+      "sources": [
+        "https://www.cdc.gov/std/treatment-guidelines/pid.htm"
+      ]
+    },
+    {
+      "issue": "HIV U=U overgeneralization, fixed infant regimen and hepatitis transmission errors",
+      "handling": "Distinguish sexual U=U from breastmilk risk, use late-pregnancy viral load and risk-based neonatal plans, clarify HBV vaccine/HBIG and HCV infant RNA testing, and distinguish hepatitis types/feeding guidance.",
+      "sources": [
+        "https://clinicalinfo.hiv.gov/en/guidelines/perinatal/antepartum-care-initial-evaluation-monitoring-hiv-assessments-during-pregnancy",
+        "https://clinicalinfo.hiv.gov/en/guidelines/perinatal/intrapartum-care",
+        "https://clinicalinfo.hiv.gov/en/guidelines/perinatal/preventing-transmission-infant-feeding?view=brief",
+        "https://www.cdc.gov/hepatitis-b/hcp/perinatal-provider-overview/vaccine-administration.html",
+        "https://www.cdc.gov/hepatitis-c/hcp/diagnosis-testing/index.html",
+        "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/illnesses-conditions/hepatitis-b-c.html",
+        "https://www.cdc.gov/hepatitis-a/prevention/"
+      ]
+    }
+  ],
+  "sharedViews": "All 12 answers appear in August 4. Six also populate the existing Contraception exam topic and five the STI exam topic; fertility remains weekly-only as originally mapped. Reader articles derive the same notes. All earlier notes, objective order/prompts/mappings, original PDFs/previews, media, practice banks/access and navigation/materials layout are preserved.",
+  "limits": "Source-led study notes with labeled current guidance, not an individualized order set, independent clinical validation or physical-device Safari test."
+}

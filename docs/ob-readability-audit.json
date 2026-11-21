@@ -14,8 +14,8 @@
     "already-emphasized": 3,
     "adjusted": 9
   },
-  "uniqueRules": 962,
-  "scopes": 499,
+  "uniqueRules": 1077,
+  "scopes": 588,
   "additions": [
     {
       "objectiveId": "complicated-labor",
@@ -2354,6 +2354,811 @@
       "exact_text": "stable temperature, an acceptable breathing/apnea plan, adequate nutrition/growth and resolved or managed acute problems",
       "style": "bold",
       "reason": "Week 10 study emphasis: important assessment, distinction, risk or nursing action."
+    },
+    {
+      "objectiveId": "contraceptive-choice",
+      "section": "Quick answer",
+      "exact_text": "reproductive goals, medical eligibility, preferences and ability to use the method",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "contraceptive-choice",
+      "section": "Quick answer",
+      "exact_text": "user-dependent methods require consistent correct use",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "contraceptive-choice",
+      "section": "Quick answer",
+      "exact_text": "Condoms add STI protection",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "contraceptive-choice",
+      "section": "Start with reproductive goals and informed choice",
+      "exact_text": "The patient chooses after understandable counseling",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "contraceptive-choice",
+      "section": "Compare effectiveness and daily workload",
+      "exact_text": "IUDs and the implant have fewer than 1 pregnancy per 100 users in the first year",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "contraceptive-choice",
+      "section": "Benefits, risks and return to fertility",
+      "exact_text": "Reversible does not mean every method has the same return-to-fertility timing",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "contraceptive-choice",
+      "section": "Postpartum, breastfeeding and STI needs",
+      "exact_text": "Breastfeeding alone is not a complete contraception plan",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "contraceptive-choice",
+      "section": "Make the plan usable and reassess",
+      "exact_text": "how to start, what backup is needed, what to do after an error and when to seek care",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "hormonal-contraception-safety",
+      "section": "Quick answer",
+      "exact_text": "Combined hormonal contraception contains estrogen plus progestin",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "hormonal-contraception-safety",
+      "section": "Quick answer",
+      "exact_text": "migraine with aura, clot risk, hypertension, smoking and postpartum timing",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "hormonal-contraception-safety",
+      "section": "Quick answer",
+      "exact_text": "urgent clot/stroke symptoms",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "hormonal-contraception-safety",
+      "section": "Compare combined and progestin-only methods",
+      "exact_text": "Estrogen adds important cardiovascular/clot restrictions",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "hormonal-contraception-safety",
+      "section": "Screen for estrogen-related contraindications",
+      "exact_text": "migraine with aura, severe hypertension, prior thrombosis/thrombophilia and major cardiovascular disease",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "hormonal-contraception-safety",
+      "section": "Postpartum, breastfeeding and breast cancer",
+      "exact_text": "Combined hormonal methods are contraindicated in the first 21 days after birth",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "hormonal-contraception-safety",
+      "section": "Expected effects versus warning signs",
+      "exact_text": "Chest pain/breathlessness, one-sided leg pain/swelling, sudden severe headache, weakness or vision change",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "hormonal-contraception-safety",
+      "section": "Medication interactions and follow-up",
+      "exact_text": "Enzyme-inducing medicines can reduce some hormonal methods’ effectiveness",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "missed-contraception",
+      "section": "Quick answer",
+      "exact_text": "the exact product, active versus placebo dose, elapsed time and cycle week",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "missed-contraception",
+      "section": "Quick answer",
+      "exact_text": "combined pills and traditional POPs do not share one missed-dose rule",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "missed-contraception",
+      "section": "Quick answer",
+      "exact_text": "ulipristal changes the timing of hormonal restart",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "missed-contraception",
+      "section": "Before applying any missed-use rule",
+      "exact_text": "Count time from when the active dose or replacement was due",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "missed-contraception",
+      "section": "Current guidance: one late or missed combined active pill",
+      "exact_text": "Take it as soon as possible and continue the pack",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "missed-contraception",
+      "section": "Current guidance: two or more missed combined active pills",
+      "exact_text": "take the most recent missed pill now, discard earlier missed pills and continue",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "missed-contraception",
+      "section": "Current guidance: norethindrone or norgestrel POP",
+      "exact_text": "more than three hours late counts as missed",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "missed-contraception",
+      "section": "Current guidance: drospirenone POP",
+      "exact_text": "take it promptly and continue",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "missed-contraception",
+      "section": "Current guidance: delayed or detached combined patch",
+      "exact_text": "Identify the actual patch and how long delivery was interrupted",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "missed-contraception",
+      "section": "Current guidance: etonogestrel/ethinyl estradiol ring",
+      "exact_text": "This guidance is specific to this ring formulation",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "missed-contraception",
+      "section": "Product clarification: ANNOVERA and final teach-back",
+      "exact_text": "More than two continuous or cumulative hours out during a 21-day use interval requires backup until seven consecutive days in place",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "iud-implant-care",
+      "section": "Quick answer",
+      "exact_text": "Copper and LNG-IUDs and the implant are highly effective reversible methods",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "iud-implant-care",
+      "section": "Quick answer",
+      "exact_text": "the actual product’s current labeled duration",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "iud-implant-care",
+      "section": "Quick answer",
+      "exact_text": "DMPA can delay fertility return after discontinuation",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "iud-implant-care",
+      "section": "Copper versus levonorgestrel IUDs",
+      "exact_text": "Paragard is labeled for up to 10 years",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "iud-implant-care",
+      "section": "IUD eligibility and insertion safety",
+      "exact_text": "Adolescence, never having given birth, or wanting pregnancy in one to two years is not by itself a contraindication",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "iud-implant-care",
+      "section": "IUD follow-up and warning symptoms",
+      "exact_text": "Condoms remain relevant for STI prevention",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "iud-implant-care",
+      "section": "The implant: duration, effects and care",
+      "exact_text": "The 2026 FDA label permits Nexplanon use for up to five years",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "iud-implant-care",
+      "section": "DMPA: scheduled injections and late-dose decisions",
+      "exact_text": "Repeat DMPA every 13 weeks",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "iud-implant-care",
+      "section": "Return to fertility and method-specific evaluation",
+      "exact_text": "IUD and implant removal generally allows prompt return to fertility; DMPA may delay ovulation for months",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "barrier-fertility-lam",
+      "section": "Quick answer",
+      "exact_text": "Condoms can reduce STI transmission",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "barrier-fertility-lam",
+      "section": "Quick answer",
+      "exact_text": "correct daily observations and avoiding unprotected sex during the method’s fertile interval",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "barrier-fertility-lam",
+      "section": "Quick answer",
+      "exact_text": "no menses, fully/nearly fully breastfeeding and less than six months postpartum",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "barrier-fertility-lam",
+      "section": "External and internal condoms: use correctly",
+      "exact_text": "Use either an external or internal condom, not both together",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "barrier-fertility-lam",
+      "section": "Diaphragm, cervical cap, sponge and spermicide",
+      "exact_text": "at least six hours after the last intercourse",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "barrier-fertility-lam",
+      "section": "Fertility signs: temperature and cervical mucus",
+      "exact_text": "One temperature or an absolute temperature range does not prove a “safe day.”",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "barrier-fertility-lam",
+      "section": "Calendar calculation: correct the lecture’s reversed rule",
+      "exact_text": "shortest cycle minus 18 estimates the first fertile day; longest cycle minus 11 estimates the last",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "barrier-fertility-lam",
+      "section": "LAM: all criteria must remain true",
+      "exact_text": "amenorrhea, less than six months since birth, and full or nearly full breastfeeding",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "barrier-fertility-lam",
+      "section": "Withdrawal, abstinence and choosing a practical method",
+      "exact_text": "withdrawal does not prevent STIs",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "emergency-permanent-contraception",
+      "section": "Quick answer",
+      "exact_text": "as soon as possible after unprotected sex or method failure",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "emergency-permanent-contraception",
+      "section": "Quick answer",
+      "exact_text": "Ulipristal and levonorgestrel require different hormonal-restart instructions",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "emergency-permanent-contraception",
+      "section": "Quick answer",
+      "exact_text": "vasectomy needs semen-analysis clearance before relying on it",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "emergency-permanent-contraception",
+      "section": "Emergency contraception: choose by timing and suitability",
+      "exact_text": "CDC advises emergency contraceptive pills as soon as possible within five days",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "emergency-permanent-contraception",
+      "section": "Mechanism and what emergency contraception does not do",
+      "exact_text": "Emergency contraception does not interrupt an established pregnancy",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "emergency-permanent-contraception",
+      "section": "Restart after levonorgestrel versus ulipristal",
+      "exact_text": "Use condoms or abstain for seven days",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "emergency-permanent-contraception",
+      "section": "Restart after levonorgestrel versus ulipristal",
+      "exact_text": "Wait at least five days before starting/resuming hormonal contraception",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "emergency-permanent-contraception",
+      "section": "Emergency-contraception follow-up",
+      "exact_text": "Obtain a pregnancy test if no bleed occurs within three weeks",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "emergency-permanent-contraception",
+      "section": "Tubal sterilization: permanence and informed consent",
+      "exact_text": "Discuss alternatives, procedure/anesthesia risks and uncertain reversal",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "emergency-permanent-contraception",
+      "section": "Vasectomy: backup until confirmed clearance",
+      "exact_text": "Use another contraceptive method until postvasectomy semen analysis confirms success",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "emergency-permanent-contraception",
+      "section": "Possible pregnancy after sterilization",
+      "exact_text": "Sterilization can rarely fail",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "fertility-reproductive-planning",
+      "section": "Quick answer",
+      "exact_text": "the person’s reproductive goals and a respectful, nonblaming history",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "fertility-reproductive-planning",
+      "section": "Quick answer",
+      "exact_text": "12 months if younger than 35, six months if 35 or older, or earlier for known risks",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "fertility-reproductive-planning",
+      "section": "Quick answer",
+      "exact_text": "the detailed fertility assessment below is a labeled supplement",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "fertility-reproductive-planning",
+      "section": "Guideline supplement: goals, timing and access",
+      "exact_text": "No dedicated infertility evaluation or genetics lecture is present",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "fertility-reproductive-planning",
+      "section": "Guideline supplement: reproductive and general history",
+      "exact_text": "cycle regularity, prior pregnancies/losses, pregnancy attempts, contraceptive cessation, pelvic infection and pelvic surgery",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "fertility-reproductive-planning",
+      "section": "Guideline supplement: evaluate contributing factors in parallel",
+      "exact_text": "ovulation, uterine/tubal factors and semen assessment when applicable",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "fertility-reproductive-planning",
+      "section": "Guideline supplement: genetic assessment and informed choices",
+      "exact_text": "family history of inherited disease, congenital conditions and relevant reproductive outcomes",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "fertility-reproductive-planning",
+      "section": "Guideline supplement: support, referral and follow-through",
+      "exact_text": "Acknowledge distress without blame or promising a pregnancy",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "sti-assessment-discharge",
+      "section": "Quick answer",
+      "exact_text": "site-appropriate testing; many STIs have no symptoms",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "sti-assessment-discharge",
+      "section": "Quick answer",
+      "exact_text": "Trichomoniasis, chlamydia and gonorrhea require infection-specific treatment and partner care",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "sti-assessment-discharge",
+      "section": "Quick answer",
+      "exact_text": "appearance or a negative wet mount alone cannot rule infection in or out",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "sti-assessment-discharge",
+      "section": "History, risk and a safe examination",
+      "exact_text": "partners, practices, protection, past STIs and pregnancy goals/possibility",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "sti-assessment-discharge",
+      "section": "Testing: distinguish screening, microscopy and NAAT",
+      "exact_text": "NAAT is preferred for chlamydia/gonorrhea",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "sti-assessment-discharge",
+      "section": "Trichomoniasis: sexually transmitted protozoal infection",
+      "exact_text": "Any partner can be asymptomatic and still need assessment/treatment",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "sti-assessment-discharge",
+      "section": "Chlamydia: often silent, potentially damaging",
+      "exact_text": "asymptomatic infection is common",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "sti-assessment-discharge",
+      "section": "Gonorrhea: site matters and resistance matters",
+      "exact_text": "Gonorrhea can ascend and cause PID",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "sti-assessment-discharge",
+      "section": "Candidiasis: compare with an STI",
+      "exact_text": "Marked itching, vulvar redness and thick curdy discharge",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "sti-assessment-discharge",
+      "section": "Bacterial vaginosis: dysbiosis and diagnostic criteria",
+      "exact_text": "BV differs from candidiasis and trichomoniasis",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "sti-assessment-discharge",
+      "section": "Integrate findings and explain the next step",
+      "exact_text": "More than one infection or a noninfectious cause can be present",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "syphilis-hpv-hsv",
+      "section": "Quick answer",
+      "exact_text": "Syphilis is a staged bacterial infection; HPV and HSV are distinct viral infections",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "syphilis-hpv-hsv",
+      "section": "Quick answer",
+      "exact_text": "Penicillin is essential for syphilis in pregnancy",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "syphilis-hpv-hsv",
+      "section": "Quick answer",
+      "exact_text": "HPV vaccination prevents new infection rather than treating existing disease",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "syphilis-hpv-hsv",
+      "section": "Syphilis stages and urgent manifestations",
+      "exact_text": "painless chancre",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "syphilis-hpv-hsv",
+      "section": "Syphilis testing, treatment and follow-up",
+      "exact_text": "treponemal and quantitative nontreponemal tests together",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "syphilis-hpv-hsv",
+      "section": "Syphilis in pregnancy and the newborn",
+      "exact_text": "Timely maternal penicillin and documented follow-up protect the fetus",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "syphilis-hpv-hsv",
+      "section": "Genital herpes: HSV-1 and HSV-2",
+      "exact_text": "Both HSV-1 and HSV-2 can cause genital herpes",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "syphilis-hpv-hsv",
+      "section": "HSV treatment, counseling and follow-up",
+      "exact_text": "Antivirals reduce symptoms/shedding but do not cure latent HSV",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "syphilis-hpv-hsv",
+      "section": "HSV around birth: history is not the whole decision",
+      "exact_text": "New acquisition near delivery carries much greater neonatal risk than recurrent established infection",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "syphilis-hpv-hsv",
+      "section": "HPV: warts, cancer risk and assessment",
+      "exact_text": "genital warts or persistent high-risk infection associated with cancer",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "syphilis-hpv-hsv",
+      "section": "HPV vaccine: current prevention teaching",
+      "exact_text": "9-valent Gardasil 9",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "pid-complications",
+      "section": "Quick answer",
+      "exact_text": "ascending, often polymicrobial infection of the upper reproductive tract",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "pid-complications",
+      "section": "Quick answer",
+      "exact_text": "exclude pregnancy-related emergencies and begin indicated treatment early",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "pid-complications",
+      "section": "Quick answer",
+      "exact_text": "Reassess within 72 hours",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "pid-complications",
+      "section": "Ascending infection and reproductive damage",
+      "exact_text": "PID is often polymicrobial",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "pid-complications",
+      "section": "Recognize cues and investigate promptly",
+      "exact_text": "cervical-motion, uterine or adnexal tenderness",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "pid-complications",
+      "section": "Prescribed therapy and nursing priorities",
+      "exact_text": "Start prescribed empiric therapy promptly when PID is suspected",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "pid-complications",
+      "section": "Hospitalization and the 72-hour reassessment",
+      "exact_text": "Not every PID case requires IV treatment",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "pid-complications",
+      "section": "Partners, fertility and prevention teaching",
+      "exact_text": "Avoid sex until the treatment course is complete, symptoms resolve and partners are treated",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "hiv-hepatitis-perinatal-care",
+      "section": "Quick answer",
+      "exact_text": "screening, prompt treatment, prevention counseling and reliable follow-up",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "hiv-hepatitis-perinatal-care",
+      "section": "Quick answer",
+      "exact_text": "ART adherence and late-pregnancy viral load guide birth and infant plans",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "hiv-hepatitis-perinatal-care",
+      "section": "Quick answer",
+      "exact_text": "HBV-exposed infants need timely vaccine plus HBIG",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "hiv-hepatitis-perinatal-care",
+      "section": "Screen and prevent exposure without stigma",
+      "exact_text": "A positive screening result needs the appropriate confirmatory pathway and linkage to care",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "hiv-hepatitis-perinatal-care",
+      "section": "HIV: ART, monitoring and what U=U means",
+      "exact_text": "Continue or initiate effective prescribed ART and support adherence",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "hiv-hepatitis-perinatal-care",
+      "section": "HIV birth planning and newborn prevention",
+      "exact_text": "HIV RNA >1000 copies/mL or unknown near birth generally supports scheduled cesarean at 38 weeks",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "hiv-hepatitis-perinatal-care",
+      "section": "HIV and feeding: informed, supported planning",
+      "exact_text": "breastfeeding transmission risk is less than 1% but not zero",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "hiv-hepatitis-perinatal-care",
+      "section": "Hepatitis A, B and C: separate routes and prevention",
+      "exact_text": "“not sexually transmitted” is too absolute",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "hiv-hepatitis-perinatal-care",
+      "section": "HBV: maternal assessment and infant prevention",
+      "exact_text": "Screen for HBsAg in each pregnancy",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "hiv-hepatitis-perinatal-care",
+      "section": "HBV: maternal assessment and infant prevention",
+      "exact_text": "hepatitis B vaccine and HBIG within 12 hours",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "hiv-hepatitis-perinatal-care",
+      "section": "HCV infant follow-up and hepatitis feeding counseling",
+      "exact_text": "Perinatally exposed infants need HCV RNA NAT at 2–6 months",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "sti-treatment-partner-teaching",
+      "section": "Quick answer",
+      "exact_text": "the confirmed/suspected infection, pregnancy status, allergies and exposure site",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "sti-treatment-partner-teaching",
+      "section": "Quick answer",
+      "exact_text": "Partner management and avoiding sex during treatment prevent reinfection",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "sti-treatment-partner-teaching",
+      "section": "Quick answer",
+      "exact_text": "test-of-cure, repeat screening for reinfection and symptom reassessment",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "sti-treatment-partner-teaching",
+      "section": "Select and administer the right prescribed treatment",
+      "exact_text": "One medicine does not cover every cause of discharge or genital lesions",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "sti-treatment-partner-teaching",
+      "section": "Pregnancy-specific precautions",
+      "exact_text": "Use pregnancy-appropriate therapy",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "sti-treatment-partner-teaching",
+      "section": "Adherence, symptom care and result communication",
+      "exact_text": "medicine name, schedule, duration and what to do after vomiting or a missed dose",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "sti-treatment-partner-teaching",
+      "section": "Partner management: infection-specific and nonjudgmental",
+      "exact_text": "Current trichomoniasis partners need concurrent treatment",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "sti-treatment-partner-teaching",
+      "section": "Abstinence, barriers and preventing reinfection",
+      "exact_text": "and until partners are treated and symptoms resolve",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "sti-treatment-partner-teaching",
+      "section": "Test-of-cure versus retesting for reinfection",
+      "exact_text": "Chlamydia in pregnancy: NAAT about four weeks after treatment. Pharyngeal gonorrhea: test-of-cure at 7–14 days",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
+    },
+    {
+      "objectiveId": "sti-treatment-partner-teaching",
+      "section": "Teach-back and evaluation",
+      "exact_text": "what they are taking, when sex can resume, who needs partner care and when to return/test",
+      "style": "bold",
+      "reason": "August 4 study emphasis: important comparison, eligibility, timing, assessment or nursing action."
     }
   ],
   "records": [
@@ -11218,7 +12023,7 @@
   ],
   "boundaries": "Formatting applies only to named OB prompts, quick answers, note-topic text, and four guide spans. Shared objectives reuse the same rules. Headings, sources, navigation, quiz/practice content, video text, posters and question counts retain their existing appearance. No wording, capitalization, note order or objective mappings are changed.",
   "contentHashes": {
-    "ob-objectives.js": "062dd19304367c0b4f3506bb16619221a18d29fa1addbb08641beff5fa4f9df8",
+    "ob-objectives.js": "2a805a68bfde42d14a9615400fa75da8b30b66fb54abfdf82d9d5e5ae01c25af",
     "ob-content.js": "674b4aea2d633c1ec63fd7f6c4bc45054eb9ed27b18bae92b08396ab0937e33e",
     "ob-videos.js": "0f5c784bdc9261dec46f9b70fac805f7beae693eb69ec328318b3f68238733bd",
     "ob-question-map.js": "f558aa64e688383b259e107d755b3c5b838657363c3fed9f1241af4501d63eab",
@@ -11236,13 +12041,13 @@
     "#/ob-final/week-8": "a39e1e7228820b25220498840ecf3fd7ac7077d127b26ca6e3915c96d6c768c6",
     "#/ob-final/week-9": "21e0c0c8b2653c0e928f8d77034af9813603f66a8cef92da223ee25b485631f4",
     "#/ob-final/week-10": "e77d4fec702266a8c2ead911359ebe0ddc77b37744577b7adee03bdf34578252",
-    "#/ob-final/august-4": "77b61aaeaef40b044bd5dc3ef1c4d6c9a628a15800dc1f1a7e43e22600e43fd1",
+    "#/ob-final/august-4": "84f6991406b709352e4b73f8985cf410b83234b1161230b8a795acd9cdcb80e8",
     "#/ob-final/topic/normal-postpartum": "85d12aa45709ec97f6e213b1fd1403f0ca4d551367e9f53a5c8cac1d95a6f848",
     "#/ob-final/topic/postpartum-complications": "af9e64a566d945c75be2a133a68f6a6d63d595397fb5f87aa8d45a984fe166f4",
     "#/ob-final/topic/normal-newborn": "9a31300793496c93c70c4260b7c88d56757f8aa1a3dbc2c28b2d1a9c933456c6",
     "#/ob-final/topic/newborn-complications": "133808a73856833d62654dfb0b68ce21c875271a5a5e76661950396b41f13876",
-    "#/ob-final/topic/contraception": "86540cf86128dbb7624134667358398d61040e604c5190f4d9857c3a97b5b7b0",
-    "#/ob-final/topic/stis": "da8a4403109f8fc89cb8c9f7d42f0501d820bfaccbb07f47abab576638635dc3",
+    "#/ob-final/topic/contraception": "681af7936affcbc381df77329157e7ff7f95807ef0d3bf2445f4348cef8f1bf7",
+    "#/ob-final/topic/stis": "070197f73f5f60c7cd52f193318b79702a082bd48c5f05b725403896ec61bc20",
     "#/ob-final/topic/feeding": "5332fbdc908bec2e9e610b6de6df939f66a04aa7fdc6a881310f3a24e267b76f",
     "#/ob-final/topic/antepartum-prenatal": "f7f5af65b077389b8cfdeafc297ac91edcf86646a6404a1a32662df98550290f",
     "#/ob-final/topic/pregnancy-complications": "4e061dd5dd3db782ed47bc15da8a1b7ff70d78d58758975896fc006567c06f2c",

@@ -1142,6 +1142,18 @@
     "newborn-temperature-glucose",
     "newborn-jaundice",
     "newborn-sepsis-nec",
-    "preterm-ongoing-care"
+    "preterm-ongoing-care",
+    "contraceptive-choice",
+    "hormonal-contraception-safety",
+    "missed-contraception",
+    "iud-implant-care",
+    "barrier-fertility-lam",
+    "emergency-permanent-contraception",
+    "fertility-reproductive-planning",
+    "sti-assessment-discharge",
+    "syphilis-hpv-hsv",
+    "pid-complications",
+    "hiv-hepatitis-perinatal-care",
+    "sti-treatment-partner-teaching"
   ]
 }

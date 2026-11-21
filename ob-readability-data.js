@@ -4845,5 +4845,643 @@ const obReadabilityRules = {
       "text": "stable temperature, an acceptable breathing/apnea plan, adequate nutrition/growth and resolved or managed acute problems",
       "style": "bold"
     }
+  ],
+  "contraceptive-choice|Quick answer": [
+    {
+      "text": "reproductive goals, medical eligibility, preferences and ability to use the method",
+      "style": "bold"
+    },
+    {
+      "text": "user-dependent methods require consistent correct use",
+      "style": "bold"
+    },
+    {
+      "text": "Condoms add STI protection",
+      "style": "bold"
+    }
+  ],
+  "contraceptive-choice|Start with reproductive goals and informed choice": [
+    {
+      "text": "The patient chooses after understandable counseling",
+      "style": "bold"
+    }
+  ],
+  "contraceptive-choice|Compare effectiveness and daily workload": [
+    {
+      "text": "IUDs and the implant have fewer than 1 pregnancy per 100 users in the first year",
+      "style": "bold"
+    }
+  ],
+  "contraceptive-choice|Benefits, risks and return to fertility": [
+    {
+      "text": "Reversible does not mean every method has the same return-to-fertility timing",
+      "style": "bold"
+    }
+  ],
+  "contraceptive-choice|Postpartum, breastfeeding and STI needs": [
+    {
+      "text": "Breastfeeding alone is not a complete contraception plan",
+      "style": "bold"
+    }
+  ],
+  "contraceptive-choice|Make the plan usable and reassess": [
+    {
+      "text": "how to start, what backup is needed, what to do after an error and when to seek care",
+      "style": "bold"
+    }
+  ],
+  "hormonal-contraception-safety|Quick answer": [
+    {
+      "text": "Combined hormonal contraception contains estrogen plus progestin",
+      "style": "bold"
+    },
+    {
+      "text": "migraine with aura, clot risk, hypertension, smoking and postpartum timing",
+      "style": "bold"
+    },
+    {
+      "text": "urgent clot/stroke symptoms",
+      "style": "bold"
+    }
+  ],
+  "hormonal-contraception-safety|Compare combined and progestin-only methods": [
+    {
+      "text": "Estrogen adds important cardiovascular/clot restrictions",
+      "style": "bold"
+    }
+  ],
+  "hormonal-contraception-safety|Screen for estrogen-related contraindications": [
+    {
+      "text": "migraine with aura, severe hypertension, prior thrombosis/thrombophilia and major cardiovascular disease",
+      "style": "bold"
+    }
+  ],
+  "hormonal-contraception-safety|Postpartum, breastfeeding and breast cancer": [
+    {
+      "text": "Combined hormonal methods are contraindicated in the first 21 days after birth",
+      "style": "bold"
+    }
+  ],
+  "hormonal-contraception-safety|Expected effects versus warning signs": [
+    {
+      "text": "Chest pain/breathlessness, one-sided leg pain/swelling, sudden severe headache, weakness or vision change",
+      "style": "bold"
+    }
+  ],
+  "hormonal-contraception-safety|Medication interactions and follow-up": [
+    {
+      "text": "Enzyme-inducing medicines can reduce some hormonal methods’ effectiveness",
+      "style": "bold"
+    }
+  ],
+  "missed-contraception|Quick answer": [
+    {
+      "text": "the exact product, active versus placebo dose, elapsed time and cycle week",
+      "style": "bold"
+    },
+    {
+      "text": "combined pills and traditional POPs do not share one missed-dose rule",
+      "style": "bold"
+    },
+    {
+      "text": "ulipristal changes the timing of hormonal restart",
+      "style": "bold"
+    }
+  ],
+  "missed-contraception|Before applying any missed-use rule": [
+    {
+      "text": "Count time from when the active dose or replacement was due",
+      "style": "bold"
+    }
+  ],
+  "missed-contraception|Current guidance: one late or missed combined active pill": [
+    {
+      "text": "Take it as soon as possible and continue the pack",
+      "style": "bold"
+    }
+  ],
+  "missed-contraception|Current guidance: two or more missed combined active pills": [
+    {
+      "text": "take the most recent missed pill now, discard earlier missed pills and continue",
+      "style": "bold"
+    }
+  ],
+  "missed-contraception|Current guidance: norethindrone or norgestrel POP": [
+    {
+      "text": "more than three hours late counts as missed",
+      "style": "bold"
+    }
+  ],
+  "missed-contraception|Current guidance: drospirenone POP": [
+    {
+      "text": "take it promptly and continue",
+      "style": "bold"
+    }
+  ],
+  "missed-contraception|Current guidance: delayed or detached combined patch": [
+    {
+      "text": "Identify the actual patch and how long delivery was interrupted",
+      "style": "bold"
+    }
+  ],
+  "missed-contraception|Current guidance: etonogestrel/ethinyl estradiol ring": [
+    {
+      "text": "This guidance is specific to this ring formulation",
+      "style": "bold"
+    }
+  ],
+  "missed-contraception|Product clarification: ANNOVERA and final teach-back": [
+    {
+      "text": "More than two continuous or cumulative hours out during a 21-day use interval requires backup until seven consecutive days in place",
+      "style": "bold"
+    }
+  ],
+  "iud-implant-care|Quick answer": [
+    {
+      "text": "Copper and LNG-IUDs and the implant are highly effective reversible methods",
+      "style": "bold"
+    },
+    {
+      "text": "the actual product’s current labeled duration",
+      "style": "bold"
+    },
+    {
+      "text": "DMPA can delay fertility return after discontinuation",
+      "style": "bold"
+    }
+  ],
+  "iud-implant-care|Copper versus levonorgestrel IUDs": [
+    {
+      "text": "Paragard is labeled for up to 10 years",
+      "style": "bold"
+    }
+  ],
+  "iud-implant-care|IUD eligibility and insertion safety": [
+    {
+      "text": "Adolescence, never having given birth, or wanting pregnancy in one to two years is not by itself a contraindication",
+      "style": "bold"
+    }
+  ],
+  "iud-implant-care|IUD follow-up and warning symptoms": [
+    {
+      "text": "Condoms remain relevant for STI prevention",
+      "style": "bold"
+    }
+  ],
+  "iud-implant-care|The implant: duration, effects and care": [
+    {
+      "text": "The 2026 FDA label permits Nexplanon use for up to five years",
+      "style": "bold"
+    }
+  ],
+  "iud-implant-care|DMPA: scheduled injections and late-dose decisions": [
+    {
+      "text": "Repeat DMPA every 13 weeks",
+      "style": "bold"
+    }
+  ],
+  "iud-implant-care|Return to fertility and method-specific evaluation": [
+    {
+      "text": "IUD and implant removal generally allows prompt return to fertility; DMPA may delay ovulation for months",
+      "style": "bold"
+    }
+  ],
+  "barrier-fertility-lam|Quick answer": [
+    {
+      "text": "Condoms can reduce STI transmission",
+      "style": "bold"
+    },
+    {
+      "text": "correct daily observations and avoiding unprotected sex during the method’s fertile interval",
+      "style": "bold"
+    },
+    {
+      "text": "no menses, fully/nearly fully breastfeeding and less than six months postpartum",
+      "style": "bold"
+    }
+  ],
+  "barrier-fertility-lam|External and internal condoms: use correctly": [
+    {
+      "text": "Use either an external or internal condom, not both together",
+      "style": "bold"
+    }
+  ],
+  "barrier-fertility-lam|Diaphragm, cervical cap, sponge and spermicide": [
+    {
+      "text": "at least six hours after the last intercourse",
+      "style": "bold"
+    }
+  ],
+  "barrier-fertility-lam|Fertility signs: temperature and cervical mucus": [
+    {
+      "text": "One temperature or an absolute temperature range does not prove a “safe day.”",
+      "style": "bold"
+    }
+  ],
+  "barrier-fertility-lam|Calendar calculation: correct the lecture’s reversed rule": [
+    {
+      "text": "shortest cycle minus 18 estimates the first fertile day; longest cycle minus 11 estimates the last",
+      "style": "bold"
+    }
+  ],
+  "barrier-fertility-lam|LAM: all criteria must remain true": [
+    {
+      "text": "amenorrhea, less than six months since birth, and full or nearly full breastfeeding",
+      "style": "bold"
+    }
+  ],
+  "barrier-fertility-lam|Withdrawal, abstinence and choosing a practical method": [
+    {
+      "text": "withdrawal does not prevent STIs",
+      "style": "bold"
+    }
+  ],
+  "emergency-permanent-contraception|Quick answer": [
+    {
+      "text": "as soon as possible after unprotected sex or method failure",
+      "style": "bold"
+    },
+    {
+      "text": "Ulipristal and levonorgestrel require different hormonal-restart instructions",
+      "style": "bold"
+    },
+    {
+      "text": "vasectomy needs semen-analysis clearance before relying on it",
+      "style": "bold"
+    }
+  ],
+  "emergency-permanent-contraception|Emergency contraception: choose by timing and suitability": [
+    {
+      "text": "CDC advises emergency contraceptive pills as soon as possible within five days",
+      "style": "bold"
+    }
+  ],
+  "emergency-permanent-contraception|Mechanism and what emergency contraception does not do": [
+    {
+      "text": "Emergency contraception does not interrupt an established pregnancy",
+      "style": "bold"
+    }
+  ],
+  "emergency-permanent-contraception|Restart after levonorgestrel versus ulipristal": [
+    {
+      "text": "Use condoms or abstain for seven days",
+      "style": "bold"
+    },
+    {
+      "text": "Wait at least five days before starting/resuming hormonal contraception",
+      "style": "bold"
+    }
+  ],
+  "emergency-permanent-contraception|Emergency-contraception follow-up": [
+    {
+      "text": "Obtain a pregnancy test if no bleed occurs within three weeks",
+      "style": "bold"
+    }
+  ],
+  "emergency-permanent-contraception|Tubal sterilization: permanence and informed consent": [
+    {
+      "text": "Discuss alternatives, procedure/anesthesia risks and uncertain reversal",
+      "style": "bold"
+    }
+  ],
+  "emergency-permanent-contraception|Vasectomy: backup until confirmed clearance": [
+    {
+      "text": "Use another contraceptive method until postvasectomy semen analysis confirms success",
+      "style": "bold"
+    }
+  ],
+  "emergency-permanent-contraception|Possible pregnancy after sterilization": [
+    {
+      "text": "Sterilization can rarely fail",
+      "style": "bold"
+    }
+  ],
+  "fertility-reproductive-planning|Quick answer": [
+    {
+      "text": "the person’s reproductive goals and a respectful, nonblaming history",
+      "style": "bold"
+    },
+    {
+      "text": "12 months if younger than 35, six months if 35 or older, or earlier for known risks",
+      "style": "bold"
+    },
+    {
+      "text": "the detailed fertility assessment below is a labeled supplement",
+      "style": "bold"
+    }
+  ],
+  "fertility-reproductive-planning|Guideline supplement: goals, timing and access": [
+    {
+      "text": "No dedicated infertility evaluation or genetics lecture is present",
+      "style": "bold"
+    }
+  ],
+  "fertility-reproductive-planning|Guideline supplement: reproductive and general history": [
+    {
+      "text": "cycle regularity, prior pregnancies/losses, pregnancy attempts, contraceptive cessation, pelvic infection and pelvic surgery",
+      "style": "bold"
+    }
+  ],
+  "fertility-reproductive-planning|Guideline supplement: evaluate contributing factors in parallel": [
+    {
+      "text": "ovulation, uterine/tubal factors and semen assessment when applicable",
+      "style": "bold"
+    }
+  ],
+  "fertility-reproductive-planning|Guideline supplement: genetic assessment and informed choices": [
+    {
+      "text": "family history of inherited disease, congenital conditions and relevant reproductive outcomes",
+      "style": "bold"
+    }
+  ],
+  "fertility-reproductive-planning|Guideline supplement: support, referral and follow-through": [
+    {
+      "text": "Acknowledge distress without blame or promising a pregnancy",
+      "style": "bold"
+    }
+  ],
+  "sti-assessment-discharge|Quick answer": [
+    {
+      "text": "site-appropriate testing; many STIs have no symptoms",
+      "style": "bold"
+    },
+    {
+      "text": "Trichomoniasis, chlamydia and gonorrhea require infection-specific treatment and partner care",
+      "style": "bold"
+    },
+    {
+      "text": "appearance or a negative wet mount alone cannot rule infection in or out",
+      "style": "bold"
+    }
+  ],
+  "sti-assessment-discharge|History, risk and a safe examination": [
+    {
+      "text": "partners, practices, protection, past STIs and pregnancy goals/possibility",
+      "style": "bold"
+    }
+  ],
+  "sti-assessment-discharge|Testing: distinguish screening, microscopy and NAAT": [
+    {
+      "text": "NAAT is preferred for chlamydia/gonorrhea",
+      "style": "bold"
+    }
+  ],
+  "sti-assessment-discharge|Trichomoniasis: sexually transmitted protozoal infection": [
+    {
+      "text": "Any partner can be asymptomatic and still need assessment/treatment",
+      "style": "bold"
+    }
+  ],
+  "sti-assessment-discharge|Chlamydia: often silent, potentially damaging": [
+    {
+      "text": "asymptomatic infection is common",
+      "style": "bold"
+    }
+  ],
+  "sti-assessment-discharge|Gonorrhea: site matters and resistance matters": [
+    {
+      "text": "Gonorrhea can ascend and cause PID",
+      "style": "bold"
+    }
+  ],
+  "sti-assessment-discharge|Candidiasis: compare with an STI": [
+    {
+      "text": "Marked itching, vulvar redness and thick curdy discharge",
+      "style": "bold"
+    }
+  ],
+  "sti-assessment-discharge|Bacterial vaginosis: dysbiosis and diagnostic criteria": [
+    {
+      "text": "BV differs from candidiasis and trichomoniasis",
+      "style": "bold"
+    }
+  ],
+  "sti-assessment-discharge|Integrate findings and explain the next step": [
+    {
+      "text": "More than one infection or a noninfectious cause can be present",
+      "style": "bold"
+    }
+  ],
+  "syphilis-hpv-hsv|Quick answer": [
+    {
+      "text": "Syphilis is a staged bacterial infection; HPV and HSV are distinct viral infections",
+      "style": "bold"
+    },
+    {
+      "text": "Penicillin is essential for syphilis in pregnancy",
+      "style": "bold"
+    },
+    {
+      "text": "HPV vaccination prevents new infection rather than treating existing disease",
+      "style": "bold"
+    }
+  ],
+  "syphilis-hpv-hsv|Syphilis stages and urgent manifestations": [
+    {
+      "text": "painless chancre",
+      "style": "bold"
+    }
+  ],
+  "syphilis-hpv-hsv|Syphilis testing, treatment and follow-up": [
+    {
+      "text": "treponemal and quantitative nontreponemal tests together",
+      "style": "bold"
+    }
+  ],
+  "syphilis-hpv-hsv|Syphilis in pregnancy and the newborn": [
+    {
+      "text": "Timely maternal penicillin and documented follow-up protect the fetus",
+      "style": "bold"
+    }
+  ],
+  "syphilis-hpv-hsv|Genital herpes: HSV-1 and HSV-2": [
+    {
+      "text": "Both HSV-1 and HSV-2 can cause genital herpes",
+      "style": "bold"
+    }
+  ],
+  "syphilis-hpv-hsv|HSV treatment, counseling and follow-up": [
+    {
+      "text": "Antivirals reduce symptoms/shedding but do not cure latent HSV",
+      "style": "bold"
+    }
+  ],
+  "syphilis-hpv-hsv|HSV around birth: history is not the whole decision": [
+    {
+      "text": "New acquisition near delivery carries much greater neonatal risk than recurrent established infection",
+      "style": "bold"
+    }
+  ],
+  "syphilis-hpv-hsv|HPV: warts, cancer risk and assessment": [
+    {
+      "text": "genital warts or persistent high-risk infection associated with cancer",
+      "style": "bold"
+    }
+  ],
+  "syphilis-hpv-hsv|HPV vaccine: current prevention teaching": [
+    {
+      "text": "9-valent Gardasil 9",
+      "style": "bold"
+    }
+  ],
+  "pid-complications|Quick answer": [
+    {
+      "text": "ascending, often polymicrobial infection of the upper reproductive tract",
+      "style": "bold"
+    },
+    {
+      "text": "exclude pregnancy-related emergencies and begin indicated treatment early",
+      "style": "bold"
+    },
+    {
+      "text": "Reassess within 72 hours",
+      "style": "bold"
+    }
+  ],
+  "pid-complications|Ascending infection and reproductive damage": [
+    {
+      "text": "PID is often polymicrobial",
+      "style": "bold"
+    }
+  ],
+  "pid-complications|Recognize cues and investigate promptly": [
+    {
+      "text": "cervical-motion, uterine or adnexal tenderness",
+      "style": "bold"
+    }
+  ],
+  "pid-complications|Prescribed therapy and nursing priorities": [
+    {
+      "text": "Start prescribed empiric therapy promptly when PID is suspected",
+      "style": "bold"
+    }
+  ],
+  "pid-complications|Hospitalization and the 72-hour reassessment": [
+    {
+      "text": "Not every PID case requires IV treatment",
+      "style": "bold"
+    }
+  ],
+  "pid-complications|Partners, fertility and prevention teaching": [
+    {
+      "text": "Avoid sex until the treatment course is complete, symptoms resolve and partners are treated",
+      "style": "bold"
+    }
+  ],
+  "hiv-hepatitis-perinatal-care|Quick answer": [
+    {
+      "text": "screening, prompt treatment, prevention counseling and reliable follow-up",
+      "style": "bold"
+    },
+    {
+      "text": "ART adherence and late-pregnancy viral load guide birth and infant plans",
+      "style": "bold"
+    },
+    {
+      "text": "HBV-exposed infants need timely vaccine plus HBIG",
+      "style": "bold"
+    }
+  ],
+  "hiv-hepatitis-perinatal-care|Screen and prevent exposure without stigma": [
+    {
+      "text": "A positive screening result needs the appropriate confirmatory pathway and linkage to care",
+      "style": "bold"
+    }
+  ],
+  "hiv-hepatitis-perinatal-care|HIV: ART, monitoring and what U=U means": [
+    {
+      "text": "Continue or initiate effective prescribed ART and support adherence",
+      "style": "bold"
+    }
+  ],
+  "hiv-hepatitis-perinatal-care|HIV birth planning and newborn prevention": [
+    {
+      "text": "HIV RNA >1000 copies/mL or unknown near birth generally supports scheduled cesarean at 38 weeks",
+      "style": "bold"
+    }
+  ],
+  "hiv-hepatitis-perinatal-care|HIV and feeding: informed, supported planning": [
+    {
+      "text": "breastfeeding transmission risk is less than 1% but not zero",
+      "style": "bold"
+    }
+  ],
+  "hiv-hepatitis-perinatal-care|Hepatitis A, B and C: separate routes and prevention": [
+    {
+      "text": "“not sexually transmitted” is too absolute",
+      "style": "bold"
+    }
+  ],
+  "hiv-hepatitis-perinatal-care|HBV: maternal assessment and infant prevention": [
+    {
+      "text": "Screen for HBsAg in each pregnancy",
+      "style": "bold"
+    },
+    {
+      "text": "hepatitis B vaccine and HBIG within 12 hours",
+      "style": "bold"
+    }
+  ],
+  "hiv-hepatitis-perinatal-care|HCV infant follow-up and hepatitis feeding counseling": [
+    {
+      "text": "Perinatally exposed infants need HCV RNA NAT at 2–6 months",
+      "style": "bold"
+    }
+  ],
+  "sti-treatment-partner-teaching|Quick answer": [
+    {
+      "text": "the confirmed/suspected infection, pregnancy status, allergies and exposure site",
+      "style": "bold"
+    },
+    {
+      "text": "Partner management and avoiding sex during treatment prevent reinfection",
+      "style": "bold"
+    },
+    {
+      "text": "test-of-cure, repeat screening for reinfection and symptom reassessment",
+      "style": "bold"
+    }
+  ],
+  "sti-treatment-partner-teaching|Select and administer the right prescribed treatment": [
+    {
+      "text": "One medicine does not cover every cause of discharge or genital lesions",
+      "style": "bold"
+    }
+  ],
+  "sti-treatment-partner-teaching|Pregnancy-specific precautions": [
+    {
+      "text": "Use pregnancy-appropriate therapy",
+      "style": "bold"
+    }
+  ],
+  "sti-treatment-partner-teaching|Adherence, symptom care and result communication": [
+    {
+      "text": "medicine name, schedule, duration and what to do after vomiting or a missed dose",
+      "style": "bold"
+    }
+  ],
+  "sti-treatment-partner-teaching|Partner management: infection-specific and nonjudgmental": [
+    {
+      "text": "Current trichomoniasis partners need concurrent treatment",
+      "style": "bold"
+    }
+  ],
+  "sti-treatment-partner-teaching|Abstinence, barriers and preventing reinfection": [
+    {
+      "text": "and until partners are treated and symptoms resolve",
+      "style": "bold"
+    }
+  ],
+  "sti-treatment-partner-teaching|Test-of-cure versus retesting for reinfection": [
+    {
+      "text": "Chlamydia in pregnancy: NAAT about four weeks after treatment. Pharyngeal gonorrhea: test-of-cure at 7–14 days",
+      "style": "bold"
+    }
+  ],
+  "sti-treatment-partner-teaching|Teach-back and evaluation": [
+    {
+      "text": "what they are taking, when sex can resume, who needs partner care and when to return/test",
+      "style": "bold"
+    }
   ]
 };
