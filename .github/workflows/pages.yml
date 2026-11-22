@@ -38,6 +38,7 @@ jobs:
           cp study-reader.js _site/
           cp ob-mnemonics-data.js ob-mnemonics.js ob-mnemonics.css _site/
           cp ob-note-review-data.js ob-note-review.js ob-note-review.css ob-question-notes.js _site/
+          cp ob-skills-data.js ob-skills.js ob-skills.css _site/
           node scripts/prepare-study-reader.cjs _site
       - name: Check study articles
         run: node scripts/check-study-reader.cjs
@@ -47,6 +48,7 @@ jobs:
         run: |
           node scripts/check-ob-note-review.cjs
           node scripts/check-ob-embedded-coverage.cjs
+          node scripts/check-ob-skills.cjs
       - name: Upload website
         uses: actions/upload-pages-artifact@v4
         with:

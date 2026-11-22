@@ -1,0 +1,58 @@
+{
+  "reviewedOn": "2026-11-22",
+  "scope": "General OB-only skills hub, independent of final exam routes; 13 guides and five practice calculators.",
+  "uiChanges": [
+    {
+      "path": "app.js",
+      "beforeSha256": "e904e565ee0815377e040f2142dcfb69eba9ccca44caa6f72603a467ef55a5d6",
+      "afterSha256": "5adb3afdd84f5ca6e5f4234c5d3be28c2a8791d931df71c159bf9eb4e93ea55d"
+    }
+  ],
+  "preservedContent": [
+    {
+      "path": "ob-objectives.js",
+      "sha256": "813da3c856cb8af008dba8cb867ead31945e35a877e02de3c359d792bf64ff41"
+    },
+    {
+      "path": "ob-question-notes.js",
+      "sha256": "16754d3380d7b24497f8312a3b0bdd22287b774e491eff03e0b42fb8f97ae331"
+    },
+    {
+      "path": "ob-practice-questions/ob-review.json",
+      "sha256": "fbb19965fbc6ac2f6230113e27d0836508d6bcfdc4605bb5c44499b03addd527"
+    },
+    {
+      "path": "ob-practice-data.js",
+      "sha256": "c74ed6f5f4ed2881fff8c5cbe7918f48b1c78271c655da8079731952f02ba2d0"
+    },
+    {
+      "path": "ob-practice.js",
+      "sha256": "de1e70ff91121a1e8bcda07fbe4434f095b4286ce46302e582b71a50472317ac"
+    },
+    {
+      "path": "ob-note-review.js",
+      "sha256": "e1a045769f28773a2b9b81b21718ffaa734b82f75f6d7eea34831c56db57a7ce"
+    },
+    {
+      "path": "ob-note-review-data.js",
+      "sha256": "cb7a7c63a8f91a1011f5aff210415b1c03f0b65e26852368fe04f39f5bc3ed3b"
+    },
+    {
+      "path": "ob-readability-data.js",
+      "sha256": "8bc3abada404781b3cabc151138f60c1c757e0dd95bd51c1b8ab579340f5fb56"
+    },
+    {
+      "path": "study-reader.js",
+      "sha256": "39bd25f7510f3f79fc54a6f39c79b557c9e7d8e24f1228be687ca7f8b5a13ff9"
+    },
+    {
+      "path": "conditions.js",
+      "sha256": "11e6fbdde21b91ae56f973a9344629185c7db78b876511a03cba9ae06edab981"
+    },
+    {
+      "path": "content.js",
+      "sha256": "b9adc09a8b5cb9ce61dadda7e4abb3c200e757c31e25042dcaba4d08d0868a6f"
+    }
+  ],
+  "sourceNotes": "Existing OB course notes and original slides are linked alongside current primary clinical guidance. Calculator inputs are study examples, processed locally without storage or network submission."
+}

@@ -68,6 +68,7 @@ function renderHome() {
           <span class="open-guide">Open exam overview</span>
         </div>
       </a>
+      ${typeof OBSkills!=='undefined'?OBSkills.entry():''}
       <div class="future-space"><span class="pixel-plus" aria-hidden="true">+</span><div><h3>Room for what’s next.</h3></div></div>
     </section>`;
 }
@@ -242,7 +243,8 @@ function render(focus = false) {
   disposePoster(); disposePoster = () => {};
   disposeSectionQuizzes(); disposeSectionQuizzes = () => {};
   disposeFocusedReview(); disposeFocusedReview = () => {};
-  if (typeof OBStudy !== 'undefined' && OBStudy.render(route)) { /* OB pages share the site shell. */ }
+  if (typeof OBSkills !== 'undefined' && OBSkills.render(route)) { /* General OB skills have their own routes. */ }
+  else if (typeof OBStudy !== 'undefined' && OBStudy.render(route)) { /* OB pages share the site shell. */ }
   else if (route === '#/final/study-guide') renderStudyGuide();
   else if (route === '#/final/focused-review') renderFocusedReview();
   else if (route.startsWith('#/final/condition/') && Object.prototype.hasOwnProperty.call(conditionNotes, route.slice('#/final/condition/'.length))) renderCondition(conditionNotes[route.slice('#/final/condition/'.length)]);
@@ -264,6 +266,7 @@ function render(focus = false) {
       main.innerHTML = '<section class="hero"><p class="eyebrow">A SMALL DETOUR</p><h1>Let’s head home.</h1><p>This study page hasn’t been added yet.</p><a class="text-link" href="#/">← Back to the study shelf</a></section>';
     }
   }
+  if (typeof OBSkills !== 'undefined') OBSkills.decorate(route);
   if (typeof SiteAnalytics !== 'undefined') SiteAnalytics.page(route, document.title);
   disposeVideos = VideoLibrary.mount(main);
   if (focus) { main.focus({ preventScroll: true }); window.scrollTo(0, 0); }
