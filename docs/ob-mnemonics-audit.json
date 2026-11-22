@@ -1,0 +1,4369 @@
+{
+  "reviewedOn": "2026-11-21",
+  "baselineCommit": "9b3301cfbe6b286847be91be7e0c8238b173753f",
+  "sourceArchive": {
+    "path": "/Users/george/Library/Mobile Documents/com~apple~CloudDocs/Live/08_2026/Downloads_cloud_repo/ob-final-exam-mnemonics.zip",
+    "sha256": "05a1e6d936650e7bce210ba6214bf9295292c6f18800b850f005bfcfe3bfd994"
+  },
+  "basis": "The archive is content input, not an instruction source. Its renderer was not executed and its embedded placement/verification claims were independently reviewed. All 29 mnemonics are added as accessible text in an eight-category library. Contradictory illustrations are archived outside the deployment instead of silently displaying uncorrected teaching. Existing notes, question banks, posters, seven memory-sheet mnemonics and page layouts remain intact; an additive route extension supplies compact related links. The seven existing memory-sheet aids are indexed by title/category only and always link to the unchanged original sheet.",
+  "categories": [
+    {
+      "id": "antepartum",
+      "title": "Pregnancy & prenatal care",
+      "description": "Pregnancy signs, fetal circulation and assessment."
+    },
+    {
+      "id": "pregnancy-complications",
+      "title": "Pregnancy complications",
+      "description": "Bleeding, diabetes, hypertension and infection."
+    },
+    {
+      "id": "labor-birth",
+      "title": "Labor & birth",
+      "description": "Progress, birth injuries and team responses."
+    },
+    {
+      "id": "postpartum",
+      "title": "Postpartum",
+      "description": "Recovery, assessment and warning signs."
+    },
+    {
+      "id": "newborn",
+      "title": "Newborn",
+      "description": "Adaptation, assessment, warmth and safe sleep."
+    },
+    {
+      "id": "feeding",
+      "title": "Feeding",
+      "description": "Latch and safe milk handling."
+    },
+    {
+      "id": "contraception",
+      "title": "Contraception",
+      "description": "LAM criteria and device durations."
+    },
+    {
+      "id": "stis",
+      "title": "STIs",
+      "description": "Vaginal symptoms and clinical assessment."
+    }
+  ],
+  "originals": [
+    {
+      "id": "post-birth",
+      "n": 1,
+      "path": "docs/mnemonics/originals/01-post-birth.png",
+      "sha256": "a26c54a27e0fe2fbba3f7cfab3a1889df88e77c6efff146679ea40c58112cd35",
+      "width": 1200,
+      "height": 1272,
+      "presentation": "Original archived; reviewed HTML card replaces conflicting image"
+    },
+    {
+      "id": "reeda",
+      "n": 2,
+      "path": "docs/mnemonics/originals/02-reeda.png",
+      "sha256": "26816a21c544c78936a016ab1dfecd943651562a63a0f9d379dcf6fa8da41672",
+      "width": 1200,
+      "height": 940,
+      "presentation": "Original archived; reviewed HTML card replaces conflicting image"
+    },
+    {
+      "id": "lochia",
+      "n": 3,
+      "path": "posters/ob/mnemonics/03-lochia.png",
+      "sha256": "076d70a0f8f16bda9c6be990c6d0279b7f15569178ddfe7a57e4c703fe9c4f43",
+      "width": 1200,
+      "height": 792,
+      "presentation": "Optional original illustration; visible reviewed text supplies context"
+    },
+    {
+      "id": "virchow",
+      "n": 4,
+      "path": "posters/ob/mnemonics/04-virchow.png",
+      "sha256": "dbd842bc9c2787f42b9481f1895ec79065dad8d316d58e9f660137e14fa24ef0",
+      "width": 1200,
+      "height": 792,
+      "presentation": "Optional original illustration; visible reviewed text supplies context"
+    },
+    {
+      "id": "uterotonics",
+      "n": 5,
+      "path": "posters/ob/mnemonics/05-uterotonics.png",
+      "sha256": "9596b965eb5195119e0abe13228386dbc2c36b235d50c311ca3a60176525dc74",
+      "width": 1200,
+      "height": 750,
+      "presentation": "Optional original illustration; visible reviewed text supplies context"
+    },
+    {
+      "id": "rubin-phases",
+      "n": 6,
+      "path": "posters/ob/mnemonics/06-rubin-phases.png",
+      "sha256": "fca575730117981f494a83682deeb2319ac4c753bb31f5bdab3e2d403830157b",
+      "width": 1200,
+      "height": 824,
+      "presentation": "Optional original illustration; visible reviewed text supplies context"
+    },
+    {
+      "id": "abcs-safe-sleep",
+      "n": 7,
+      "path": "docs/mnemonics/originals/07-abcs-safe-sleep.png",
+      "sha256": "d88d8a030271459db5bf103dad6d7711a8405af8e717eae860cac2c7d436ba5a",
+      "width": 1200,
+      "height": 756,
+      "presentation": "Original archived; reviewed HTML card replaces conflicting image"
+    },
+    {
+      "id": "caput-cephalo",
+      "n": 8,
+      "path": "posters/ob/mnemonics/08-caput-cephalo.png",
+      "sha256": "e4d601cf65dccc84154324371a972b27f34534bb80aea4c2dfff6cd6b8d409e0",
+      "width": 1200,
+      "height": 852,
+      "presentation": "Optional original illustration; visible reviewed text supplies context"
+    },
+    {
+      "id": "term-staircase",
+      "n": 9,
+      "path": "posters/ob/mnemonics/09-term-staircase.png",
+      "sha256": "b0933f98c491cfedb7ab36a5fc0f44d69dc981ce8a1496615d64e9e8e4ed73d9",
+      "width": 1200,
+      "height": 866,
+      "presentation": "Optional original illustration; visible reviewed text supplies context"
+    },
+    {
+      "id": "heat-loss",
+      "n": 10,
+      "path": "posters/ob/mnemonics/10-heat-loss.png",
+      "sha256": "0cedad2545394398d186a3a8f8a7dd3167c11259d9cc5c020a3acbb842c69444",
+      "width": 1200,
+      "height": 898,
+      "presentation": "Optional original illustration; visible reviewed text supplies context"
+    },
+    {
+      "id": "rds-ttn-mas",
+      "n": 11,
+      "path": "docs/mnemonics/originals/11-rds-ttn-mas.png",
+      "sha256": "7a5fd3541df35e057b877a4393365d4a0512a698711f6d2cbb0f2c9497b09db6",
+      "width": 1200,
+      "height": 888,
+      "presentation": "Original archived; reviewed HTML card replaces conflicting image"
+    },
+    {
+      "id": "fontanelles",
+      "n": 12,
+      "path": "posters/ob/mnemonics/12-fontanelles.png",
+      "sha256": "94f134d1042460b8d3916f140ee7354bd10b96cbfb0c0b228c12c269db29641d",
+      "width": 1200,
+      "height": 718,
+      "presentation": "Optional original illustration; visible reviewed text supplies context"
+    },
+    {
+      "id": "fetal-shunts",
+      "n": 13,
+      "path": "docs/mnemonics/originals/13-fetal-shunts.png",
+      "sha256": "d361724c89cf4cf8ed45fa1095584848614886e5ac10d8af90e7234d54763c5c",
+      "width": 1200,
+      "height": 888,
+      "presentation": "Original archived; reviewed HTML card replaces conflicting image"
+    },
+    {
+      "id": "latch",
+      "n": 14,
+      "path": "posters/ob/mnemonics/14-latch.png",
+      "sha256": "adc7b8c38a24be60509a2db94ce54971da7568f309f68f14aa4bc11ca070ce25",
+      "width": 1200,
+      "height": 940,
+      "presentation": "Optional original illustration; visible reviewed text supplies context"
+    },
+    {
+      "id": "milk-storage",
+      "n": 15,
+      "path": "posters/ob/mnemonics/15-milk-storage.png",
+      "sha256": "71ff38a4524534030f4296f9867a8eba8bb2ba1906e59cf5dc37301a657f1daa",
+      "width": 1200,
+      "height": 792,
+      "presentation": "Optional original illustration; visible reviewed text supplies context"
+    },
+    {
+      "id": "lam",
+      "n": 16,
+      "path": "posters/ob/mnemonics/16-lam.png",
+      "sha256": "372108cca7f6c2ece9e86f85da99627d71fca3545af253bebc54d1e1c4d7f19a",
+      "width": 1200,
+      "height": 792,
+      "presentation": "Optional original illustration; visible reviewed text supplies context"
+    },
+    {
+      "id": "iud-years",
+      "n": 17,
+      "path": "posters/ob/mnemonics/17-iud-years.png",
+      "sha256": "c156e8303b8a1748ed92b971bf660b16a598e6967b4403aede7589df799a0a34",
+      "width": 1200,
+      "height": 866,
+      "presentation": "Optional original illustration; visible reviewed text supplies context"
+    },
+    {
+      "id": "amsel",
+      "n": 18,
+      "path": "posters/ob/mnemonics/18-amsel.png",
+      "sha256": "4dcdeae146d3da6c00a01d37573583a346ba5f885cb1980bfc29c4b8d5d15ac2",
+      "width": 1200,
+      "height": 830,
+      "presentation": "Optional original illustration; visible reviewed text supplies context"
+    },
+    {
+      "id": "previa-abruption",
+      "n": 19,
+      "path": "docs/mnemonics/originals/19-previa-abruption.png",
+      "sha256": "05ebca680c8a5694d3e7b7c73ad1008e5fa6fdfb6d5044561358709a85d38408",
+      "width": 1200,
+      "height": 782,
+      "presentation": "Original archived; reviewed HTML card replaces conflicting image"
+    },
+    {
+      "id": "magnesium-3rs",
+      "n": 20,
+      "path": "docs/mnemonics/originals/20-magnesium-3rs.png",
+      "sha256": "c4da49c1367de7025df953d354174344b95cce5db98c59ab77b809a6e55eada5",
+      "width": 1200,
+      "height": 828,
+      "presentation": "Original archived; reviewed HTML card replaces conflicting image"
+    },
+    {
+      "id": "preeclampsia-bp",
+      "n": 21,
+      "path": "docs/mnemonics/originals/21-preeclampsia-bp.png",
+      "sha256": "d5f48bd0c5610286680c622bbec59fedf85da9de3cf838855a5d7f38c8380c99",
+      "width": 1200,
+      "height": 886,
+      "presentation": "Original archived; reviewed HTML card replaces conflicting image"
+    },
+    {
+      "id": "torch",
+      "n": 22,
+      "path": "docs/mnemonics/originals/22-torch.png",
+      "sha256": "a6b31b4378d53a37865027a8b5cfbd46b9d5738a8cc613684d93ef52242b1c3c",
+      "width": 1200,
+      "height": 1100,
+      "presentation": "Original archived; reviewed HTML card replaces conflicting image"
+    },
+    {
+      "id": "ogtt-numbers",
+      "n": 23,
+      "path": "posters/ob/mnemonics/23-ogtt-numbers.png",
+      "sha256": "a8b0cf5f07d0dccb21c78297718d4dbf7fa82d38604365d553ebfb0d50efd34d",
+      "width": 1200,
+      "height": 902,
+      "presentation": "Optional original illustration; visible reviewed text supplies context"
+    },
+    {
+      "id": "helperr",
+      "n": 24,
+      "path": "docs/mnemonics/originals/24-helperr.png",
+      "sha256": "138a01c352adce40d0519d594de28c9aad2d32679f1ee7c061ffbf5d588f21d9",
+      "width": 1200,
+      "height": 1124,
+      "presentation": "Original archived; reviewed HTML card replaces conflicting image"
+    },
+    {
+      "id": "five-ps",
+      "n": 25,
+      "path": "posters/ob/mnemonics/25-five-ps.png",
+      "sha256": "c2c4d8ad1f27a08ba8165fcbbce454667bb3e8c66d3dbd907c49cd4d359a1bd2",
+      "width": 1200,
+      "height": 968,
+      "presentation": "Optional original illustration; visible reviewed text supplies context"
+    },
+    {
+      "id": "laceration-degrees",
+      "n": 26,
+      "path": "posters/ob/mnemonics/26-laceration-degrees.png",
+      "sha256": "d29a4d540acbdb11fa424c8f82e0a4f1097c57415aa4b77316e97415593e84ea",
+      "width": 1200,
+      "height": 866,
+      "presentation": "Optional original illustration; visible reviewed text supplies context"
+    },
+    {
+      "id": "intraamniotic-infection",
+      "n": 27,
+      "path": "posters/ob/mnemonics/27-intraamniotic-infection.png",
+      "sha256": "5171c5e0d8aa39ce3daf1238443796f5891edc079102de60377597998139c94e",
+      "width": 1200,
+      "height": 934,
+      "presentation": "Optional original illustration; visible reviewed text supplies context"
+    },
+    {
+      "id": "cervical-signs",
+      "n": 28,
+      "path": "posters/ob/mnemonics/28-cervical-signs.png",
+      "sha256": "2bb00924d6d3297140e5874001a132662ce8ab9b03aeab606405227d40cbb277",
+      "width": 1200,
+      "height": 824,
+      "presentation": "Optional original illustration; visible reviewed text supplies context"
+    },
+    {
+      "id": "pregnancy-signs",
+      "n": 29,
+      "path": "posters/ob/mnemonics/29-pregnancy-signs.png",
+      "sha256": "02f463060e3a2355aaa1e9e9536e858cc541539903ee8b65b71ca283e027fbb4",
+      "width": 1200,
+      "height": 852,
+      "presentation": "Optional original illustration; visible reviewed text supplies context"
+    }
+  ],
+  "edits": [
+    {
+      "id": "post-birth",
+      "n": 1,
+      "reason": "Correct attribution and distinguish emergency action from prompt contact; remove the unsupported claim that fainting and seizures are interchangeable. Include the current AWHONN low-temperature warning too.",
+      "original": {
+        "hook": "Postpartum warning signs after discharge",
+        "items": [
+          {
+            "k": "P",
+            "v": "Pain in chest"
+          },
+          {
+            "k": "O",
+            "v": "Obstructed breathing"
+          },
+          {
+            "k": "S",
+            "v": "Seizures"
+          },
+          {
+            "k": "T",
+            "v": "Thoughts of harming self or baby"
+          },
+          {
+            "k": "B",
+            "v": "Bleeding, heavy or increasing"
+          },
+          {
+            "k": "I",
+            "v": "Incision not healing"
+          },
+          {
+            "k": "R",
+            "v": "Red or swollen leg"
+          },
+          {
+            "k": "T",
+            "v": "Temperature 100.4 F (38 C) or higher"
+          },
+          {
+            "k": "H",
+            "v": "Headache, severe, or vision change"
+          }
+        ],
+        "n": 1,
+        "note": "The ACOG standard. The site notes list fainting where ACOG has seizures; same red-flag family. Any one of these means urgent assessment, do not wait for the scheduled visit.",
+        "section": "Postpartum",
+        "slug": "post-birth",
+        "source": "Week 7",
+        "title": "POST-BIRTH"
+      },
+      "reviewed": {
+        "hook": "Postpartum warning signs after discharge",
+        "items": [
+          {
+            "k": "P",
+            "v": "Pain in chest"
+          },
+          {
+            "k": "O",
+            "v": "Obstructed breathing"
+          },
+          {
+            "k": "S",
+            "v": "Seizures"
+          },
+          {
+            "k": "T",
+            "v": "Thoughts of harming self or baby"
+          },
+          {
+            "k": "B",
+            "v": "Bleeding, heavy or increasing"
+          },
+          {
+            "k": "I",
+            "v": "Incision not healing"
+          },
+          {
+            "k": "R",
+            "v": "Red or swollen leg"
+          },
+          {
+            "k": "T",
+            "v": "Temperature ≥100.4°F (38°C) or ≤96.8°F (36°C)."
+          },
+          {
+            "k": "H",
+            "v": "Headache, severe, or vision change"
+          }
+        ],
+        "note": "AWHONN’s POST-BIRTH warning signs: chest pain, breathing difficulty, seizures or thoughts of harm need emergency help. Other listed signs need prompt clinical contact; if care cannot be reached, seek emergency care. Fainting is also concerning and is not interchangeable with seizures. Tell the team when you gave birth.",
+        "context": ""
+      },
+      "references": [
+        {
+          "title": "AWHONN: POST-BIRTH warning signs",
+          "url": "https://saveyourlife.awhonn.org/"
+        }
+      ]
+    },
+    {
+      "id": "reeda",
+      "n": 2,
+      "reason": "Limit the side-lying examination advice to perineal inspection, rather than every surgical incision.",
+      "original": {
+        "hook": "Perineal and incision assessment",
+        "items": [
+          {
+            "k": "R",
+            "v": "Redness"
+          },
+          {
+            "k": "E",
+            "v": "Edema"
+          },
+          {
+            "k": "E",
+            "v": "Ecchymosis"
+          },
+          {
+            "k": "D",
+            "v": "Drainage"
+          },
+          {
+            "k": "A",
+            "v": "Approximation"
+          }
+        ],
+        "n": 2,
+        "note": "Assess the repair or incision in side-lying or Sims position. Worsening redness, drainage, or separation is a flag, not expected recovery.",
+        "section": "Postpartum",
+        "slug": "reeda",
+        "source": "Week 7",
+        "title": "REEDA"
+      },
+      "reviewed": {
+        "hook": "Perineal and incision assessment",
+        "items": [
+          {
+            "k": "R",
+            "v": "Redness"
+          },
+          {
+            "k": "E",
+            "v": "Edema"
+          },
+          {
+            "k": "E",
+            "v": "Ecchymosis"
+          },
+          {
+            "k": "D",
+            "v": "Drainage"
+          },
+          {
+            "k": "A",
+            "v": "Approximation"
+          }
+        ],
+        "note": "Assess redness, swelling, bruising, drainage and wound-edge approximation. Side-lying/Sims can help perineal inspection; assess a cesarean incision in an appropriate comfortable position. Worsening redness, drainage, separation or fever needs review.",
+        "context": ""
+      },
+      "references": []
+    },
+    {
+      "id": "abcs-safe-sleep",
+      "n": 7,
+      "reason": "Replace a prevention guarantee and clarify that “alone” does not mean a separate room.",
+      "original": {
+        "hook": "Three letters that prevent SIDS",
+        "items": [
+          {
+            "k": "A",
+            "v": "Alone: baby sleeps alone, no bed-sharing"
+          },
+          {
+            "k": "B",
+            "v": "Back: on the back for every sleep"
+          },
+          {
+            "k": "C",
+            "v": "Crib: firm flat surface, empty crib, nothing loose"
+          }
+        ],
+        "n": 7,
+        "note": "No blankets, pillows, or toys in the sleep space. Every sleep, every time, including naps.",
+        "section": "Newborn",
+        "slug": "abcs-safe-sleep",
+        "source": "Weeks 9-10",
+        "title": "ABCs of Safe Sleep"
+      },
+      "reviewed": {
+        "hook": "Three letters for safer infant sleep",
+        "items": [
+          {
+            "k": "A",
+            "v": "Alone on a separate infant sleep surface; share a room, not a bed."
+          },
+          {
+            "k": "B",
+            "v": "Back: on the back for every sleep"
+          },
+          {
+            "k": "C",
+            "v": "Crib: firm flat surface, empty crib, nothing loose"
+          }
+        ],
+        "note": "Back for every sleep on a firm, flat, level surface with no loose bedding, pillows or toys. Room-share without bed-sharing, ideally for at least the first six months. These measures reduce risk; they do not guarantee prevention of SIDS.",
+        "context": ""
+      },
+      "references": [
+        {
+          "title": "NICHD: safe sleep environment",
+          "url": "https://safetosleep.nichd.nih.gov/reduce-risk/safe-sleep-environment"
+        }
+      ]
+    },
+    {
+      "id": "rds-ttn-mas",
+      "n": 11,
+      "reason": "Surfactant may be deficient rather than wholly absent; distinguish exposure from aspiration and preserve current suction safety.",
+      "original": {
+        "hook": "Three causes of newborn breathing trouble",
+        "items": [
+          {
+            "k": "RDS",
+            "v": "Respiratory distress syndrome: no surfactant, stiff lungs, mostly preterm."
+          },
+          {
+            "k": "TTN",
+            "v": "Transient tachypnea: lung fluid not cleared, often term or late preterm, often after cesarean without labor. Improves over days."
+          },
+          {
+            "k": "MAS",
+            "v": "Meconium aspiration: meconium breathed in, blocks and inflames airways, often postterm or meconium-stained fluid."
+          }
+        ],
+        "n": 11,
+        "note": "Signs overlap, so use birth history and the exam together. RDS is a surfactant problem, TTN is a fluid problem, MAS is a blockage problem.",
+        "section": "Newborn",
+        "slug": "rds-ttn-mas",
+        "source": "Week 10",
+        "title": "RDS, TTN, MAS"
+      },
+      "reviewed": {
+        "hook": "Three causes of newborn breathing trouble",
+        "items": [
+          {
+            "k": "RDS",
+            "v": "Respiratory distress syndrome: insufficient surfactant promotes alveolar collapse, especially in preterm infants."
+          },
+          {
+            "k": "TTN",
+            "v": "Transient tachypnea: lung fluid not cleared, often term or late preterm, often after cesarean without labor. Improves over days."
+          },
+          {
+            "k": "MAS",
+            "v": "Meconium aspiration: meconium breathed in, blocks and inflames airways, often postterm or meconium-stained fluid."
+          }
+        ],
+        "note": "RDS is primarily a surfactant problem; TTN is delayed fluid clearance; MAS involves aspiration with obstruction/inflammation. Signs overlap, so assess history and condition. Meconium-stained fluid alone does not diagnose aspiration or justify routine suctioning.",
+        "context": ""
+      },
+      "references": [
+        {
+          "title": "NHLBI: newborn respiratory distress syndrome",
+          "url": "https://www.nhlbi.nih.gov/health/respiratory-distress-syndrome"
+        }
+      ]
+    },
+    {
+      "id": "fetal-shunts",
+      "n": 13,
+      "reason": "Correct the foramen-ovale function, partial liver bypass and misleading claim that each shunt skips a separate organ in serial order.",
+      "original": {
+        "hook": "Three fetal shunts, in blood-flow order",
+        "items": [
+          {
+            "k": "Liver",
+            "v": "Ductus venosus bypasses the liver, sending umbilical blood toward the inferior vena cava."
+          },
+          {
+            "k": "Heart",
+            "v": "Foramen ovale bypasses the right-to-left heart circuit, right atrium to left atrium."
+          },
+          {
+            "k": "Lungs",
+            "v": "Ductus arteriosus bypasses the lungs, pulmonary artery to descending aorta."
+          }
+        ],
+        "n": 13,
+        "note": "Each shunt skips one organ. The cord rule: 1 vein in (oxygen-rich), 2 arteries out (oxygen-poor).",
+        "section": "Newborn",
+        "slug": "fetal-shunts",
+        "source": "Weeks 1-2",
+        "title": "Liver, Heart, Lungs"
+      },
+      "reviewed": {
+        "hook": "Three fetal shunts and the pathways they bypass",
+        "items": [
+          {
+            "k": "Liver",
+            "v": "Ductus venosus directs some umbilical venous blood toward the inferior vena cava, bypassing much of the liver."
+          },
+          {
+            "k": "Heart",
+            "v": "Foramen ovale allows right atrium → left atrium flow, bypassing much of the lung circulation."
+          },
+          {
+            "k": "Lungs",
+            "v": "Ductus arteriosus connects pulmonary artery → descending aorta, bypassing much of the lung circulation."
+          }
+        ],
+        "note": "These are branching pathways, not a single stream passing through all three shunts. One umbilical vein brings relatively oxygen-rich blood toward the fetus; two umbilical arteries return blood toward the placenta.",
+        "context": ""
+      },
+      "references": [
+        {
+          "title": "CHOP: fetal circulation",
+          "url": "https://www.chop.edu/conditions-diseases/fetal-circulation"
+        }
+      ]
+    },
+    {
+      "id": "milk-storage",
+      "n": 15,
+      "reason": "State the fresh-milk scope and distinguish thawed/leftover clocks without changing the supplied illustration.",
+      "original": {
+        "hook": "Breast milk storage clocks",
+        "items": [
+          {
+            "k": "4 hours",
+            "v": "At room temperature, up to 77 F (25 C)"
+          },
+          {
+            "k": "4 days",
+            "v": "Refrigerated, up to 40 F (4 C)"
+          },
+          {
+            "k": "6 months",
+            "v": "Freezer best, up to 12 months acceptable, at 0 F (-18 C)"
+          }
+        ],
+        "n": 15,
+        "note": "Never microwave milk and never refreeze fully thawed milk. Thaw in the refrigerator or lukewarm water.",
+        "section": "Feeding",
+        "slug": "milk-storage",
+        "source": "Week 9",
+        "title": "4, 4, 6"
+      },
+      "reviewed": {
+        "hook": "Breast milk storage clocks",
+        "items": [
+          {
+            "k": "4 hours",
+            "v": "At room temperature, up to 77 F (25 C)"
+          },
+          {
+            "k": "4 days",
+            "v": "Refrigerated, up to 40 F (4 C)"
+          },
+          {
+            "k": "6 months",
+            "v": "Freezer best, up to 12 months acceptable, at 0 F (-18 C)"
+          }
+        ],
+        "note": "Never microwave milk and never refreeze fully thawed milk. Thaw in the refrigerator or lukewarm water. Once fully thawed in the refrigerator, use within 24 hours; use within two hours after warming or bringing to room temperature. Use milk left after a feed within two hours.",
+        "context": "For freshly expressed milk for a healthy term infant at home. Hospital/preterm instructions may differ."
+      },
+      "references": [
+        {
+          "title": "CDC: breast milk storage",
+          "url": "https://www.cdc.gov/breastfeeding/breast-milk-preparation-and-storage/handling-breastmilk.html"
+        }
+      ]
+    },
+    {
+      "id": "lam",
+      "n": 16,
+      "reason": "Make clear that the age criterion concerns the infant.",
+      "original": {
+        "hook": "Lactational amenorrhea needs all three",
+        "items": [
+          {
+            "k": "A",
+            "v": "Amenorrhea: no periods since birth"
+          },
+          {
+            "k": "A",
+            "v": "Age under 6 months"
+          },
+          {
+            "k": "A",
+            "v": "All breastmilk: full or nearly full breastfeeding"
+          }
+        ],
+        "n": 16,
+        "note": "Feeding gaps no longer than 4 hours by day, 6 by night. All three must hold. One fails, LAM fails.",
+        "section": "Contraception",
+        "slug": "lam",
+        "source": "Week 7, Aug 4",
+        "title": "LAM and the 3 A's"
+      },
+      "reviewed": {
+        "hook": "Lactational amenorrhea needs all three",
+        "items": [
+          {
+            "k": "A",
+            "v": "Amenorrhea: no periods since birth"
+          },
+          {
+            "k": "A",
+            "v": "Age: the infant is younger than six months."
+          },
+          {
+            "k": "A",
+            "v": "All breastmilk: full or nearly full breastfeeding"
+          }
+        ],
+        "note": "Feeding gaps no longer than 4 hours by day, 6 by night. All three must hold. One fails, LAM fails.",
+        "context": "All three criteria must remain true, including feeding gaps no longer than four hours by day and six hours by night."
+      },
+      "references": [
+        {
+          "title": "CDC: lactational amenorrhea method",
+          "url": "https://www.cdc.gov/contraception/hcp/usmec/lactational-amenorrhea-method.html"
+        }
+      ]
+    },
+    {
+      "id": "previa-abruption",
+      "n": 19,
+      "reason": "Qualify classic patterns; avoid diagnosing from pain or blood color alone.",
+      "original": {
+        "hook": "The most-tested OB contrast pair",
+        "items": [
+          {
+            "k": "Previa",
+            "v": "Painless, bright-red bleeding, soft nontender uterus. Placenta covers the cervical opening."
+          },
+          {
+            "k": "Abruption",
+            "v": "Painful, dark-red bleeding, rigid tender uterus. Placenta separates early; blood can hide behind it."
+          }
+        ],
+        "n": 19,
+        "note": "No digital vaginal exam before previa is excluded. In abruption, visible bleeding can underestimate severity, and DIC is a risk.",
+        "section": "High-Risk Classics",
+        "slug": "previa-abruption",
+        "source": "Week 3",
+        "title": "Painless Previa, Painful Abruption"
+      },
+      "reviewed": {
+        "hook": "The most-tested OB contrast pair",
+        "items": [
+          {
+            "k": "Previa",
+            "v": "Classically painless bright-red bleeding with a soft uterus; placenta covers the cervical opening."
+          },
+          {
+            "k": "Abruption",
+            "v": "Often pain, uterine tenderness/firmness and possible bleeding; placenta separates early and blood may be concealed."
+          }
+        ],
+        "note": "Patterns overlap: pain, blood color or visible amount cannot establish or exclude either diagnosis. No digital vaginal examination before previa is excluded. Assess maternal perfusion and fetal status urgently; abruption can cause shock or DIC.",
+        "context": ""
+      },
+      "references": []
+    },
+    {
+      "id": "magnesium-3rs",
+      "n": 20,
+      "reason": "Complete the immediate toxicity response beyond “reach for” the antidote; retain individual hold parameters.",
+      "original": {
+        "hook": "Check before you give it and while it runs",
+        "items": [
+          {
+            "k": "R",
+            "v": "Respirations: rate and effort"
+          },
+          {
+            "k": "R",
+            "v": "Reflexes: deep tendon reflexes"
+          },
+          {
+            "k": "R",
+            "v": "Renal: urine output"
+          }
+        ],
+        "n": 20,
+        "note": "Toxicity signs: respirations under 12 per minute, urine output under 25 to 30 mL per hour, absent or decreasing reflexes. If any R fails, stop the drip and reach for calcium gluconate.",
+        "section": "High-Risk Classics",
+        "slug": "magnesium-3rs",
+        "source": "Week 3",
+        "title": "Magnesium and the 3 R's"
+      },
+      "reviewed": {
+        "hook": "Check before you give it and while it runs",
+        "items": [
+          {
+            "k": "R",
+            "v": "Respirations: rate and effort"
+          },
+          {
+            "k": "R",
+            "v": "Reflexes: deep tendon reflexes"
+          },
+          {
+            "k": "R",
+            "v": "Renal: urine output"
+          }
+        ],
+        "note": "Absent/decreasing reflexes, respiratory depression or oliguria are concerning; common escalation values include respirations <12/min or urine <25–30 mL/hour, with local hold parameters. For suspected toxicity: stop magnesium, call the emergency/obstetric team, support breathing and prepare prescribed calcium gluconate. Do not wait for a laboratory result or give an antidote without the actual order/protocol.",
+        "context": ""
+      },
+      "references": []
+    },
+    {
+      "id": "preeclampsia-bp",
+      "n": 21,
+      "reason": "Separate hypertension from preeclampsia diagnosis and make OR boundaries explicit.",
+      "original": {
+        "hook": "Two blood pressure lines in preeclampsia",
+        "items": [
+          {
+            "k": "140/90",
+            "v": "Preeclampsia starts here: systolic 140 or diastolic 90 or higher, on repeat measures."
+          },
+          {
+            "k": "160/110",
+            "v": "Severe: confirm within about 15 minutes, treat within 30 to 60 minutes."
+          }
+        ],
+        "n": 21,
+        "note": "Severe features: Head (persistent severe headache), Eyes (visual change), Belly (right-upper-quadrant or epigastric pain). Labs: platelets under 100,000, creatinine over 1.1. Preeclampsia does not require proteinuria.",
+        "section": "High-Risk Classics",
+        "slug": "preeclampsia-bp",
+        "source": "Week 3",
+        "title": "140/90 Is the Door, 160/110 Is the Alarm"
+      },
+      "reviewed": {
+        "hook": "Two blood pressure lines in preeclampsia",
+        "items": [
+          {
+            "k": "140 or 90",
+            "v": "Hypertension threshold: systolic ≥140 OR diastolic ≥90 mm Hg on appropriate repeat measurements."
+          },
+          {
+            "k": "160 or 110",
+            "v": "Severe-range BP: systolic ≥160 OR diastolic ≥110 mm Hg needs immediate escalation, prompt confirmation and timely prescribed treatment."
+          }
+        ],
+        "note": "BP alone does not diagnose preeclampsia. New hypertension after 20 weeks plus proteinuria OR qualifying organ dysfunction supports the diagnosis; chronic hypertension can have superimposed disease. Persistent severe BP is commonly confirmed within about 15 minutes and treated within 30–60 minutes of confirmation; do not wait hours or for proteinuria.",
+        "context": ""
+      },
+      "references": [
+        {
+          "title": "ACOG: preeclampsia and high blood pressure",
+          "url": "https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy"
+        }
+      ]
+    },
+    {
+      "id": "torch",
+      "n": 22,
+      "reason": "Qualify the indication for CMV testing and specify genital lesions/prodrome at labor, rather than any HSV lesion.",
+      "original": {
+        "hook": "Infections that can reach the fetus",
+        "items": [
+          {
+            "k": "T",
+            "v": "Toxoplasmosis: cook meat, wash produce, let someone else handle cat litter."
+          },
+          {
+            "k": "O",
+            "v": "Other, syphilis in these notes: transplacental infection, treat with penicillin."
+          },
+          {
+            "k": "R",
+            "v": "Rubella: early infection can cause heart, eye, and hearing problems. MMR before pregnancy or postpartum, never during."
+          },
+          {
+            "k": "C",
+            "v": "CMV: can cause hearing loss and growth or neurologic problems. Test by saliva or urine PCR in the first 21 days."
+          },
+          {
+            "k": "H",
+            "v": "Herpes simplex: most neonatal infection happens during birth. Active lesions usually mean cesarean."
+          }
+        ],
+        "n": 22,
+        "note": "TORCH is a reminder of possible congenital and perinatal infections, not a diagnosis by itself.",
+        "section": "High-Risk Classics",
+        "slug": "torch",
+        "source": "Week 3",
+        "title": "TORCH"
+      },
+      "reviewed": {
+        "hook": "Infections that can reach the fetus",
+        "items": [
+          {
+            "k": "T",
+            "v": "Toxoplasmosis: cook meat, wash produce, let someone else handle cat litter."
+          },
+          {
+            "k": "O",
+            "v": "Other, syphilis in these notes: transplacental infection, treat with penicillin."
+          },
+          {
+            "k": "R",
+            "v": "Rubella: early infection can cause heart, eye, and hearing problems. MMR before pregnancy or postpartum, never during."
+          },
+          {
+            "k": "C",
+            "v": "CMV: congenital infection can affect hearing, growth or neurologic development. When suspected, collect appropriate saliva/urine testing within 21 days."
+          },
+          {
+            "k": "H",
+            "v": "Herpes simplex: most neonatal infection is acquired during birth. Genital lesions or prodrome at labor generally indicate cesarean birth."
+          }
+        ],
+        "note": "TORCH is a reminder of possible congenital and perinatal infections, not a diagnosis by itself.",
+        "context": ""
+      },
+      "references": []
+    },
+    {
+      "id": "ogtt-numbers",
+      "n": 23,
+      "reason": "Make the units and diagnostic-test distinction visible.",
+      "original": {
+        "hook": "Carpenter-Coustan glucose tolerance numbers",
+        "items": [
+          {
+            "k": "95",
+            "v": "Fasting"
+          },
+          {
+            "k": "180",
+            "v": "1 hour"
+          },
+          {
+            "k": "155",
+            "v": "2 hours"
+          },
+          {
+            "k": "140",
+            "v": "3 hours"
+          }
+        ],
+        "n": 23,
+        "note": "100-gram, 3-hour test. At or above a threshold is abnormal; at least two of the four values are needed for a GDM diagnosis. Screen first with the 50-gram, 1-hour challenge at 24 to 28 weeks.",
+        "section": "High-Risk Classics",
+        "slug": "ogtt-numbers",
+        "source": "Weeks 2-3",
+        "title": "95, 180, 155, 140"
+      },
+      "reviewed": {
+        "hook": "Carpenter-Coustan glucose tolerance numbers",
+        "items": [
+          {
+            "k": "95",
+            "v": "Fasting"
+          },
+          {
+            "k": "180",
+            "v": "1 hour"
+          },
+          {
+            "k": "155",
+            "v": "2 hours"
+          },
+          {
+            "k": "140",
+            "v": "3 hours"
+          }
+        ],
+        "note": "100-gram, 3-hour test. At or above a threshold is abnormal; at least two of the four values are needed for a GDM diagnosis. Screen first with the 50-gram, 1-hour challenge at 24 to 28 weeks.",
+        "context": "All four thresholds are in mg/dL. These are diagnostic 100-g test values, not glucose treatment targets or the 50-g screen cutoffs."
+      },
+      "references": []
+    },
+    {
+      "id": "helperr",
+      "n": 24,
+      "reason": "Correct the supplied H-E-L-L-E-R-R spelling to HELPERR and remove the claim that every step is a compulsory sequence.",
+      "original": {
+        "hook": "Shoulder dystocia, step by step",
+        "items": [
+          {
+            "k": "H",
+            "v": "Help: call for help, start timing from birth of the head"
+          },
+          {
+            "k": "E",
+            "v": "Evaluate for episiotomy"
+          },
+          {
+            "k": "L",
+            "v": "Legs: McRoberts, thighs sharply flexed toward the abdomen"
+          },
+          {
+            "k": "L",
+            "v": "Lift: suprapubic pressure just above the pubic bone"
+          },
+          {
+            "k": "E",
+            "v": "Enter: internal rotation, the Woods screw"
+          },
+          {
+            "k": "R",
+            "v": "Remove the posterior arm"
+          },
+          {
+            "k": "R",
+            "v": "Roll to all-fours, the Gaskin maneuver"
+          }
+        ],
+        "n": 24,
+        "note": "Never fundal pressure, never forceful jerking or downward traction on the head. The site notes cover Help, Legs, Pressure, and Enter; the full HELPERR sequence is the clinical standard.",
+        "section": "Labor and Birth",
+        "slug": "helperr",
+        "source": "Week 6",
+        "title": "HELPERR"
+      },
+      "reviewed": {
+        "hook": "Recall the shoulder-dystocia team response",
+        "items": [
+          {
+            "k": "H",
+            "v": "Help: call for help, start timing from birth of the head"
+          },
+          {
+            "k": "E",
+            "v": "Evaluate for episiotomy"
+          },
+          {
+            "k": "L",
+            "v": "Legs: McRoberts, thighs sharply flexed toward the abdomen"
+          },
+          {
+            "k": "P",
+            "v": "Pressure: directed suprapubic pressure above the pubic bone."
+          },
+          {
+            "k": "E",
+            "v": "Enter: internal rotation, the Woods screw"
+          },
+          {
+            "k": "R",
+            "v": "Remove the posterior arm"
+          },
+          {
+            "k": "R",
+            "v": "Roll to all-fours, the Gaskin maneuver"
+          }
+        ],
+        "note": "A team memory aid, not a mandatory order or a bedside training protocol. Call for help immediately and assist within training. Episiotomy may create room for internal maneuvers but does not relieve the bony obstruction. Internal rotation, posterior-arm delivery and all-fours positioning are clinician-directed options. Never fundal pressure or forceful head/neck traction.",
+        "context": ""
+      },
+      "references": [
+        {
+          "title": "RCOG: shoulder dystocia",
+          "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/shoulder-dystocia-green-top-guideline-no-42/"
+        }
+      ]
+    },
+    {
+      "id": "intraamniotic-infection",
+      "n": 27,
+      "reason": "Avoid waiting for every classic finding before evaluating suspected infection.",
+      "original": {
+        "hook": "Four cues of suspected intraamniotic infection",
+        "items": [
+          {
+            "k": "Fever",
+            "v": "Maternal fever"
+          },
+          {
+            "k": "Fast",
+            "v": "Fetal tachycardia"
+          },
+          {
+            "k": "Tender",
+            "v": "Uterine tenderness"
+          },
+          {
+            "k": "Foul",
+            "v": "Foul-smelling amniotic fluid"
+          }
+        ],
+        "n": 27,
+        "note": "Suspected intraamniotic infection means recognize and escalate. Mother and baby both need assessment and the team needs to know.",
+        "section": "Labor and Birth",
+        "slug": "intraamniotic-infection",
+        "source": "Week 6",
+        "title": "Fever, Fast Heart, Tender Uterus, Foul Fluid"
+      },
+      "reviewed": {
+        "hook": "Four cues of suspected intraamniotic infection",
+        "items": [
+          {
+            "k": "Fever",
+            "v": "Maternal fever"
+          },
+          {
+            "k": "Fast",
+            "v": "Fetal tachycardia"
+          },
+          {
+            "k": "Tender",
+            "v": "Uterine tenderness"
+          },
+          {
+            "k": "Foul",
+            "v": "Foul-smelling amniotic fluid"
+          }
+        ],
+        "note": "Suspected intraamniotic infection means recognize and escalate. Mother and baby both need assessment and the team needs to know.",
+        "context": "Recognition cues, not a checklist requiring all four findings. Escalate a concerning pattern promptly; the clinical team determines diagnosis and treatment."
+      },
+      "references": []
+    }
+  ],
+  "mapping": [
+    {
+      "id": "post-birth",
+      "categoryId": "postpartum",
+      "objectiveIds": [
+        "postpartum-discharge"
+      ],
+      "weekIds": [
+        "week-7"
+      ],
+      "topicIds": [
+        "normal-postpartum"
+      ]
+    },
+    {
+      "id": "reeda",
+      "categoryId": "postpartum",
+      "objectiveIds": [
+        "postpartum-assessment",
+        "postpartum-comfort-mobility",
+        "assisted-cesarean-birth"
+      ],
+      "weekIds": [
+        "week-7",
+        "week-6"
+      ],
+      "topicIds": [
+        "normal-postpartum"
+      ]
+    },
+    {
+      "id": "lochia",
+      "categoryId": "postpartum",
+      "objectiveIds": [
+        "postpartum-physiology",
+        "postpartum-assessment"
+      ],
+      "weekIds": [
+        "week-7"
+      ],
+      "topicIds": [
+        "normal-postpartum"
+      ]
+    },
+    {
+      "id": "virchow",
+      "categoryId": "postpartum",
+      "objectiveIds": [
+        "postpartum-thromboembolism"
+      ],
+      "weekIds": [
+        "week-7"
+      ],
+      "topicIds": [
+        "postpartum-complications"
+      ]
+    },
+    {
+      "id": "uterotonics",
+      "categoryId": "postpartum",
+      "objectiveIds": [
+        "postpartum-hemorrhage-management"
+      ],
+      "weekIds": [
+        "week-7"
+      ],
+      "topicIds": [
+        "postpartum-complications"
+      ]
+    },
+    {
+      "id": "rubin-phases",
+      "categoryId": "postpartum",
+      "objectiveIds": [
+        "postpartum-family-adaptation"
+      ],
+      "weekIds": [
+        "week-7"
+      ],
+      "topicIds": [
+        "normal-postpartum"
+      ]
+    },
+    {
+      "id": "abcs-safe-sleep",
+      "categoryId": "newborn",
+      "objectiveIds": [
+        "newborn-discharge-teaching"
+      ],
+      "weekIds": [
+        "week-9",
+        "week-10"
+      ],
+      "topicIds": [
+        "normal-newborn"
+      ]
+    },
+    {
+      "id": "caput-cephalo",
+      "categoryId": "newborn",
+      "objectiveIds": [
+        "newborn-variants"
+      ],
+      "weekIds": [
+        "week-9"
+      ],
+      "topicIds": [
+        "normal-newborn"
+      ]
+    },
+    {
+      "id": "term-staircase",
+      "categoryId": "newborn",
+      "objectiveIds": [
+        "newborn-gestational-assessment"
+      ],
+      "weekIds": [
+        "week-9",
+        "week-10"
+      ],
+      "topicIds": [
+        "normal-newborn"
+      ]
+    },
+    {
+      "id": "heat-loss",
+      "categoryId": "newborn",
+      "objectiveIds": [
+        "newborn-temperature-glucose",
+        "newborn-routine-care"
+      ],
+      "weekIds": [
+        "week-10",
+        "week-9"
+      ],
+      "topicIds": [
+        "newborn-complications",
+        "normal-newborn"
+      ]
+    },
+    {
+      "id": "rds-ttn-mas",
+      "categoryId": "newborn",
+      "objectiveIds": [
+        "newborn-respiratory-distress"
+      ],
+      "weekIds": [
+        "week-10"
+      ],
+      "topicIds": [
+        "newborn-complications"
+      ]
+    },
+    {
+      "id": "fontanelles",
+      "categoryId": "newborn",
+      "objectiveIds": [
+        "newborn-head-to-toe"
+      ],
+      "weekIds": [
+        "week-9",
+        "week-10"
+      ],
+      "topicIds": [
+        "normal-newborn"
+      ]
+    },
+    {
+      "id": "fetal-shunts",
+      "categoryId": "antepartum",
+      "objectiveIds": [
+        "conception-fetal-development"
+      ],
+      "weekIds": [
+        "week-1",
+        "week-2"
+      ],
+      "topicIds": []
+    },
+    {
+      "id": "latch",
+      "categoryId": "feeding",
+      "objectiveIds": [
+        "breastfeeding-latch-support"
+      ],
+      "weekIds": [
+        "week-9"
+      ],
+      "topicIds": [
+        "feeding"
+      ]
+    },
+    {
+      "id": "milk-storage",
+      "categoryId": "feeding",
+      "objectiveIds": [
+        "milk-expression-storage"
+      ],
+      "weekIds": [
+        "week-9"
+      ],
+      "topicIds": [
+        "feeding"
+      ]
+    },
+    {
+      "id": "lam",
+      "categoryId": "contraception",
+      "objectiveIds": [
+        "barrier-fertility-lam",
+        "postpartum-discharge"
+      ],
+      "weekIds": [
+        "august-4",
+        "week-7"
+      ],
+      "topicIds": [
+        "contraception",
+        "normal-postpartum"
+      ]
+    },
+    {
+      "id": "iud-years",
+      "categoryId": "contraception",
+      "objectiveIds": [
+        "iud-implant-care"
+      ],
+      "weekIds": [
+        "august-4"
+      ],
+      "topicIds": [
+        "contraception"
+      ]
+    },
+    {
+      "id": "amsel",
+      "categoryId": "stis",
+      "objectiveIds": [
+        "sti-assessment-discharge"
+      ],
+      "weekIds": [
+        "august-4"
+      ],
+      "topicIds": [
+        "stis"
+      ]
+    },
+    {
+      "id": "previa-abruption",
+      "categoryId": "pregnancy-complications",
+      "objectiveIds": [
+        "placental-bleeding",
+        "placental-emergency-response"
+      ],
+      "weekIds": [
+        "week-3",
+        "week-6"
+      ],
+      "topicIds": [
+        "labor-emergencies"
+      ]
+    },
+    {
+      "id": "magnesium-3rs",
+      "categoryId": "pregnancy-complications",
+      "objectiveIds": [
+        "eclampsia-magnesium-hellp"
+      ],
+      "weekIds": [
+        "week-3"
+      ],
+      "topicIds": [
+        "pregnancy-complications"
+      ]
+    },
+    {
+      "id": "preeclampsia-bp",
+      "categoryId": "pregnancy-complications",
+      "objectiveIds": [
+        "hypertensive-disorders"
+      ],
+      "weekIds": [
+        "week-3"
+      ],
+      "topicIds": [
+        "pregnancy-complications"
+      ]
+    },
+    {
+      "id": "torch",
+      "categoryId": "pregnancy-complications",
+      "objectiveIds": [
+        "rh-abo-infections"
+      ],
+      "weekIds": [
+        "week-3"
+      ],
+      "topicIds": []
+    },
+    {
+      "id": "ogtt-numbers",
+      "categoryId": "pregnancy-complications",
+      "objectiveIds": [
+        "diabetes-assessment",
+        "prenatal-assessment"
+      ],
+      "weekIds": [
+        "week-3",
+        "week-2"
+      ],
+      "topicIds": [
+        "pregnancy-complications",
+        "antepartum-prenatal"
+      ]
+    },
+    {
+      "id": "helperr",
+      "categoryId": "labor-birth",
+      "objectiveIds": [
+        "shoulder-dystocia"
+      ],
+      "weekIds": [
+        "week-6"
+      ],
+      "topicIds": [
+        "labor-emergencies"
+      ]
+    },
+    {
+      "id": "five-ps",
+      "categoryId": "labor-birth",
+      "objectiveIds": [
+        "normal-labor-process",
+        "complicated-labor"
+      ],
+      "weekIds": [
+        "week-5",
+        "week-6"
+      ],
+      "topicIds": []
+    },
+    {
+      "id": "laceration-degrees",
+      "categoryId": "labor-birth",
+      "objectiveIds": [
+        "assisted-cesarean-birth"
+      ],
+      "weekIds": [
+        "week-6"
+      ],
+      "topicIds": []
+    },
+    {
+      "id": "intraamniotic-infection",
+      "categoryId": "labor-birth",
+      "objectiveIds": [
+        "complicated-labor",
+        "pregnancy-prom-preterm"
+      ],
+      "weekIds": [
+        "week-6",
+        "week-3"
+      ],
+      "topicIds": []
+    },
+    {
+      "id": "cervical-signs",
+      "categoryId": "antepartum",
+      "objectiveIds": [
+        "pregnancy-adaptations",
+        "pregnancy-signs"
+      ],
+      "weekIds": [
+        "week-1",
+        "week-2"
+      ],
+      "topicIds": [
+        "antepartum-prenatal"
+      ]
+    },
+    {
+      "id": "pregnancy-signs",
+      "categoryId": "antepartum",
+      "objectiveIds": [
+        "pregnancy-signs"
+      ],
+      "weekIds": [
+        "week-2"
+      ],
+      "topicIds": [
+        "antepartum-prenatal"
+      ]
+    }
+  ],
+  "preserved": [
+    {
+      "path": "app.js",
+      "sha256": "e904e565ee0815377e040f2142dcfb69eba9ccca44caa6f72603a467ef55a5d6"
+    },
+    {
+      "path": "ob-content.js",
+      "sha256": "674b4aea2d633c1ec63fd7f6c4bc45054eb9ed27b18bae92b08396ab0937e33e"
+    },
+    {
+      "path": "ob-objectives.js",
+      "sha256": "813da3c856cb8af008dba8cb867ead31945e35a877e02de3c359d792bf64ff41"
+    },
+    {
+      "path": "ob-posters.js",
+      "sha256": "c751d82edbfce3691eeceb85f785bc8e9874fd69616744c716e3b64adfd18593"
+    },
+    {
+      "path": "ob-practice-data.js",
+      "sha256": "c74ed6f5f4ed2881fff8c5cbe7918f48b1c78271c655da8079731952f02ba2d0"
+    },
+    {
+      "path": "ob-practice-questions/ob-review.json",
+      "sha256": "fbb19965fbc6ac2f6230113e27d0836508d6bcfdc4605bb5c44499b03addd527"
+    },
+    {
+      "path": "ob-practice.js",
+      "sha256": "de1e70ff91121a1e8bcda07fbe4434f095b4286ce46302e582b71a50472317ac"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/deck.json",
+      "sha256": "f6a2e19556b303a2e002b223b65d65ef37cf4a82926f0768160bac3527e93462"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/original.pdf",
+      "sha256": "9244bc5fc93a2a9808f23ac7e2a1872fd5b60f9076cef482367dc725717a006a"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-001.webp",
+      "sha256": "8aa019d9c753e9619f4927ae1e2706ade2758f0333d89a2a96397254faac3672"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-002.webp",
+      "sha256": "a1d59a25ef78b4b7897ca36223ff6f3769ff5c7474845d85e2d37fe329b56e35"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-003.webp",
+      "sha256": "f87bf9f94bed00cc92bdc1aa95343699ea8485ec9925a49f3630479ef291ce9f"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-004.webp",
+      "sha256": "b8b79f14634d03db5fb2200e4aff8e2c346f2174a0630203ce782c52eff29dad"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-005.webp",
+      "sha256": "9ea504a2d7547d1b90e662ee1f038fa4abb55e205ba4f7f9f7c0f34ac40ba5fe"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-006.webp",
+      "sha256": "47662f44edeb347036a1f031eabafb08b1558c77e8a5488c97dad987d2ee6297"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-007.webp",
+      "sha256": "8c1452e0f4e76445202890e352e0970422d6b7736c6e310f88fd4c6dda8c1a11"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-008.webp",
+      "sha256": "02a95ced138c20eabb192e88421b9ec53f0be3aa2f92bb4265da664ea61605f7"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-009.webp",
+      "sha256": "7247ea5f5604e1aa588950258263e3373a8b153bd0442784261173bdff6d5020"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-010.webp",
+      "sha256": "99f372d4aba6be84b2a8c4b2db422ae392903f7b305f4558e52b7c87768a9e2d"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-011.webp",
+      "sha256": "fa8d1a419d6ced25d4877a50aba14faf65c5e5d7987d84f03dca4ca58d9d0a6f"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-012.webp",
+      "sha256": "2326d103ac07ca28b5fdfd3275512b49a58715f1dcd67f2a9561b9b101984197"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-013.webp",
+      "sha256": "3ba5ddc0af70d419de896537c2a4a4d4d04ff0a502a1dc9412c581b478bcca80"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-014.webp",
+      "sha256": "f3ae49639f1f9940a78e6f69c851da82e964a3512d21602f689a3d9282316ec2"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-015.webp",
+      "sha256": "a46e81f1f3ac73ce060bfd5ca3946cac642b98f9f1055bb8ced4ee86d0edbe76"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-016.webp",
+      "sha256": "d7d4036258848d017fb55392288dd7d08cc2d5c0551333f1c75f265a64b5a4af"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-017.webp",
+      "sha256": "bbf6d4f3676051978f2ce44e977e1e7185e20f471034ad848dd435c5668598ad"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-018.webp",
+      "sha256": "e43a2e0b567b008a317c0fbd483366c4f4a6bd67eee22ac4a23770849538d664"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-019.webp",
+      "sha256": "d9a24b80c9c56704babfcd0e8a315a157ab299a778d0198e3811d863f6593d7c"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-020.webp",
+      "sha256": "36a07619a054924e182d313bc08576aa7febeda744cb2e69138d57215d7df91c"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-021.webp",
+      "sha256": "fb890b5510260e52f5014b24c27a3eefeba9f50582f3f85bc06564e8816168dd"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-022.webp",
+      "sha256": "7d4e1908931f3cc2b6f2fd0bf591cdbf9f9f7b224d3d68604626e15756f781c6"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-023.webp",
+      "sha256": "0808e8255c7f1e1447d7598612f89f90f52008522a485832666a8375c873da0d"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-024.webp",
+      "sha256": "0a799322822f0867aee48f25aa222ba956f7c0e6ec90a6d16997876798dc35c6"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-025.webp",
+      "sha256": "ed529df610af77560afc9353185363bbaaa193ee63448f82dcb256259cc2bed3"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-026.webp",
+      "sha256": "20b84325b6618d16e1cd87bb9246aac826f9181b57a0f88ba444f2f5b9c3ec77"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-027.webp",
+      "sha256": "ec38ccacda8457bc39b3b64558ea68ae7ef86513559463b4cf0bed0f0fa00d2b"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-028.webp",
+      "sha256": "b8df17dd926fcfa04eac608337871740935a78f7861e20fca680c9971b644a25"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-029.webp",
+      "sha256": "50a72ad9d62ba8a8e6a2edabb29e1dc55665174e412f21853e828f65d2ee9a9a"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-030.webp",
+      "sha256": "792a996a9b3a5a5c8ed76aaa474c6fd8263f0520d869b50392f59decfdc88b49"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-031.webp",
+      "sha256": "0b532ec462637ecf7a50812b13d10f82e6efb7c21fdacb00f7b33657cd9c7e2d"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-032.webp",
+      "sha256": "bbb16a6d28be687bfa09b1ff48cb1aebf2281369934a1ebd170a19cfe41f6d35"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-033.webp",
+      "sha256": "9dcd5e4d55be75406902d54d6eecf0b3620ae72160a5cb986596e53486e64a25"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-034.webp",
+      "sha256": "b07cf2a33d845ac7b81becbf44406e7a94e9f0924f1bc35b2d7c8c72c123d127"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-035.webp",
+      "sha256": "3785f456fc63783cdac2190afeb4b5e2c694c713bc4ebce33ca6614b62a1b3b6"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-036.webp",
+      "sha256": "7f824b42deeda5a21793f7de88e7816e7d08302d0445c888f2f6b5faa7a5bf08"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-037.webp",
+      "sha256": "33871caca46516690e81733102cedaf4ea1755655f221e735b0ce79f82ece50d"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-038.webp",
+      "sha256": "26e25a7cb5e13381d74d9da7a71fdf054f94760041faece7a31344d5445690a1"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-039.webp",
+      "sha256": "fbdcd1625a427e583e85d61cbb5097a9c8cd148cfe0ccdea694d911b141f0a81"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-040.webp",
+      "sha256": "69c8113018e59863dc19059916234f759aede1344d006a263aaab58ca486ac41"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-041.webp",
+      "sha256": "97b31ae028926f7a41de01252aa8645e71ce074ccc2dafd95bc0a717efce6740"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-042.webp",
+      "sha256": "caed463bf039c594d0405c5ba4732e390271553509a6bd745d63ae9ac26a0b52"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-043.webp",
+      "sha256": "b224c5db657f31bdd71faf7ade943a61007960eda76c0d0cb63ce056817da4ba"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-044.webp",
+      "sha256": "3d3dc1a8ae66cff7444d934fb1a15fe1938cd4ed1dc8d9564d990406670655b5"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-045.webp",
+      "sha256": "ddc031b24e4efffeecca084608b8b05bacfa41bd1ece1046abf7291e342d48e3"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-046.webp",
+      "sha256": "34b772eef08a0bc78acb24990d29e5bb2fe63214dc1590796113f5aef87a023d"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-047.webp",
+      "sha256": "bc7e3d0bd6e25c41409f2379699132e8e980fe3eb71f52364e2e839e708c9e8d"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-048.webp",
+      "sha256": "172922511024a214c8adfa4890b1af505c0c7116461877e7d400d9a1394fb670"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-049.webp",
+      "sha256": "f6adfc4a733d5cc30d341760a558301df8a3216b779d3737915ab53c47122bd2"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-050.webp",
+      "sha256": "ff212a140bd82993a4244012b123166b1a321ea56af18269b24821edf5ccaf2b"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-051.webp",
+      "sha256": "14321ff492a5b689b774e08435c1e7ded7d1bbf34fb358f70d1533b424235dc0"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-052.webp",
+      "sha256": "c7e35fafd3c0720d92f22f66180fe266f1459db08c3a5e618513ad06cd8d5283"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-053.webp",
+      "sha256": "fcbfbc2a96e5cd9a832c355c48308f6f7432d4559b19f25cc610f27bddedaee1"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-054.webp",
+      "sha256": "bd8aa7d124dd05cd0341dc873087d1149d2fad4affe6bdd7a0c22dd12b2cb41b"
+    },
+    {
+      "path": "ob-presentations/antepartum-risks/page-055.webp",
+      "sha256": "f4577db19802267147087b51a24a56c755e74cf7f3e8db3a45309e4a53e49ce8"
+    },
+    {
+      "path": "ob-presentations/contraception/deck.json",
+      "sha256": "755a5bb72de790fba94ee84c0879c77444025a5114604a83696108f2e8b64f49"
+    },
+    {
+      "path": "ob-presentations/contraception/original.pdf",
+      "sha256": "152b5a1183858a35371b5c41ba78f2a3abf87bb1bc5973aeecc1533417deb85b"
+    },
+    {
+      "path": "ob-presentations/contraception/page-001.webp",
+      "sha256": "af101fd1613cb985c94d84d77fcfa216734ece256e8f52dca9e2ba4fa5f07002"
+    },
+    {
+      "path": "ob-presentations/contraception/page-002.webp",
+      "sha256": "ae9fee80cdf9fc374339a53114a5cce7bb01b230ced07de66f0337667d5c87fa"
+    },
+    {
+      "path": "ob-presentations/contraception/page-003.webp",
+      "sha256": "2d07e2ff638e04693ca4ac41a69d72e62ba3203fd3818f309c50edecc5af57b9"
+    },
+    {
+      "path": "ob-presentations/contraception/page-004.webp",
+      "sha256": "0801cae4edec717654e0bef8f04e1c9dee12ab6bb15494b41ed6d0572a7360d6"
+    },
+    {
+      "path": "ob-presentations/contraception/page-005.webp",
+      "sha256": "1f9cb24059056272ca6e3a97eac2e19b8600b17be36f7cb685a2d0cf23defc5f"
+    },
+    {
+      "path": "ob-presentations/contraception/page-006.webp",
+      "sha256": "d010ed7fa16af23eadb1cc86eaf99ac2ad63e90441e2293f740d4439fcc7a4ed"
+    },
+    {
+      "path": "ob-presentations/contraception/page-007.webp",
+      "sha256": "bf86189c610fb330f0a222bb84d0cb58a43151f72b96af2a1ae3e05af45e4a64"
+    },
+    {
+      "path": "ob-presentations/contraception/page-008.webp",
+      "sha256": "2d898dee5c29db96774ef2b0c417d23b48c50afbd18250855205bd054fe5af1d"
+    },
+    {
+      "path": "ob-presentations/contraception/page-009.webp",
+      "sha256": "fae8199f5e9acfbf2755675eeac103e3f7bd9a91a85c5a80e6b57f2078aa6345"
+    },
+    {
+      "path": "ob-presentations/contraception/page-010.webp",
+      "sha256": "b763d5bc7b39d9fef6d3be42485652c945567a547d3cacc51b6f375a639edffe"
+    },
+    {
+      "path": "ob-presentations/contraception/page-011.webp",
+      "sha256": "6e8f8a4fc75a6968e46f04df6fb6a6635d563fb39ee547bc1e812981a2640995"
+    },
+    {
+      "path": "ob-presentations/contraception/page-012.webp",
+      "sha256": "b5e31cfa93cf0831b45c5683d3ee62c795a63ded84d3362f993b63e8dc84b27b"
+    },
+    {
+      "path": "ob-presentations/contraception/page-013.webp",
+      "sha256": "1ae795f1712140710653a077c9414a1529b2ca72daaa3669fab49cc7bcb24e9e"
+    },
+    {
+      "path": "ob-presentations/contraception/page-014.webp",
+      "sha256": "04d4b5b7b0ff0beaff015ed31fc6b5edf3474eb8a34dbf6c0464e0cb092282d1"
+    },
+    {
+      "path": "ob-presentations/contraception/page-015.webp",
+      "sha256": "4d3f50677a4e788f74c81ada1fc64cf34d7ca335e42608c5e34c1c14ea376621"
+    },
+    {
+      "path": "ob-presentations/contraception/page-016.webp",
+      "sha256": "aea17acc2622654dd80e8164177320682df6aaba0ceacec9dc1bb42df31de523"
+    },
+    {
+      "path": "ob-presentations/contraception/page-017.webp",
+      "sha256": "be6e045e72fc345739b89951293a53bb6c41815ad7807648dbc68d2cbda65964"
+    },
+    {
+      "path": "ob-presentations/contraception/page-018.webp",
+      "sha256": "420ce92dddfc45db8df2d52c3e30e168a136d4016eb89f39c8e9ebb29c3c9b1d"
+    },
+    {
+      "path": "ob-presentations/contraception/page-019.webp",
+      "sha256": "4ba336d748301a6f9b828ea713b801c0126100f1151c0c0f5d12a0c9b12cb389"
+    },
+    {
+      "path": "ob-presentations/contraception/page-020.webp",
+      "sha256": "f5620d7670e8ed921e22692a26ae2dc7c3fc198983e5dac65fe3c5ab02894439"
+    },
+    {
+      "path": "ob-presentations/contraception/page-021.webp",
+      "sha256": "307bdd6d36fc2adc555769e23648aa00579e1605120706be48538ae19c101af9"
+    },
+    {
+      "path": "ob-presentations/contraception/page-022.webp",
+      "sha256": "13ff9b7bc8e78391bd2ccef572943629cdc0a2932932bb89d542a7a58ca58695"
+    },
+    {
+      "path": "ob-presentations/contraception/page-023.webp",
+      "sha256": "673f917869a7e754be92bdd6227446f386e9f24cccc27ebf977ac80397d54510"
+    },
+    {
+      "path": "ob-presentations/contraception/page-024.webp",
+      "sha256": "4919b826f23800922e45ca15b712b93aa99cd61566eac5501ec63662e50889f8"
+    },
+    {
+      "path": "ob-presentations/contraception/page-025.webp",
+      "sha256": "9a116a924a4dfd7b25b08ad9a799eedf13507eee8541999af62bc3e2022dc1e0"
+    },
+    {
+      "path": "ob-presentations/contraception/page-026.webp",
+      "sha256": "bef4c43bb3c43a570e8e7bc7f29cad80bb56522e5c7c46d73cf7e8d5ab1e9435"
+    },
+    {
+      "path": "ob-presentations/contraception/page-027.webp",
+      "sha256": "09d218db2aeb5f4a14c5d0474b9fe53859120205a0091b78a0f5427247806cb5"
+    },
+    {
+      "path": "ob-presentations/contraception/page-028.webp",
+      "sha256": "a72817fd56234110c9200865008a6dbde02563ae346a36c99209760678ac0562"
+    },
+    {
+      "path": "ob-presentations/contraception/page-029.webp",
+      "sha256": "67e8337e39530faa71668ba9ba322234713b9aef94869d370c2737d15efa7a93"
+    },
+    {
+      "path": "ob-presentations/contraception/page-030.webp",
+      "sha256": "9dbe8a7560f52182848b643eb1cb14f2bd34d3102997fa95174f975e84e7cdb2"
+    },
+    {
+      "path": "ob-presentations/contraception/page-031.webp",
+      "sha256": "3080ec0e2384b3360b12617fae77284ceeed99cac5db4fea2aedadce88d3a913"
+    },
+    {
+      "path": "ob-presentations/contraception/page-032.webp",
+      "sha256": "d2af5bac9bdbd7ed8e87b7b1e4dff0bf8bb7b23eb7e4471982bbf3f199d2681e"
+    },
+    {
+      "path": "ob-presentations/contraception/page-033.webp",
+      "sha256": "2956c336ab72568521074afebe62d994793073627b950ccaf6e6813167a318a5"
+    },
+    {
+      "path": "ob-presentations/contraception/page-034.webp",
+      "sha256": "9858a664a35454b8258b174fd61f25b752bbe9310e31819f6df3b10f3fd88269"
+    },
+    {
+      "path": "ob-presentations/contraception/page-035.webp",
+      "sha256": "21b0ff04dd71c7894d3ea00191851c68f0c764938c9d85a69931589aae91691e"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/deck.json",
+      "sha256": "e7a04f8fc7dabdc8c40ab6a1648aa4feff696eedd0bfc1018091e5a74f5b6539"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/original.pdf",
+      "sha256": "61c2d92b25c1ad8c7c2ff9638552c8242fed192e64ae49f5c551b68f6355ba30"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-001.webp",
+      "sha256": "cc0287c6281000f40495648f5643501fd7e60b8271298ced9fc5946402196ae8"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-002.webp",
+      "sha256": "6b38d894bb575fa33b8055ea3089f5bd56fd23c2a3258ceb910542fdf7434d76"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-003.webp",
+      "sha256": "c6a020fa2464884e476b6d1fe470d8f72eb45760e7d3b069b7ee897c83cf2c8d"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-004.webp",
+      "sha256": "bca5c63daf66273dca1ca7be643e83191a321ebe9566357e8979dd27605021c4"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-005.webp",
+      "sha256": "5e905dbe2513b66647e386d10767e21614785da02fd530c058695c6d84725886"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-006.webp",
+      "sha256": "5f0440de5354c1ef3350096ea7c3f2700d4d1d9f9228b360bcc347093f6637b1"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-007.webp",
+      "sha256": "850ae21f12f0cdf1cb25dcd2b9324fdecdd34552a8e03b9b1580f63f3882cd87"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-008.webp",
+      "sha256": "2701e79dfc9b2ae04e624eb6220952aec38455df08c5caa487c84ef0611b34ef"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-009.webp",
+      "sha256": "ae557e46f67b35f4d4c368dbffca9a059189e533870a51758462e27e175bed92"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-010.webp",
+      "sha256": "7fac21a87ab27d7f4b90bf2478d6229081a6423673dee3dc249a75f6f7938e2b"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-011.webp",
+      "sha256": "806c688e1153a7ad047954467bf698ba445a3c106b54f5ea6523c88856e068f4"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-012.webp",
+      "sha256": "9cdf0a8933eef48e3f9fde30b2568ae646ec7cd91853075d9e9952e0571a593d"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-013.webp",
+      "sha256": "d43d5edc612477a53f367f9ab2979470ef9ff2b5bbcf3facee15486d7a40e4a8"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-014.webp",
+      "sha256": "1a38bd27c2046020f45a6c5d88c00bf0a518165c5bc8016280f8889076ff2610"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-015.webp",
+      "sha256": "7b2580cd9c1334243382091001d3eb7802efe0641ea9655b9f45261e694a43af"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-016.webp",
+      "sha256": "21b602c503573f843d351390616e59dbda63f5e679e85bdd4c119555fbba896a"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-017.webp",
+      "sha256": "997dbed88d201528b21cd961f25d979ce6f4d4dba61e1aae51c4c2fc1542abc5"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-018.webp",
+      "sha256": "0f2ba55bcb7c5363c688522a7377621d017de84dab8ba328025adf6c828693b7"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-019.webp",
+      "sha256": "4a02033a0d088521cd33fd652090ad57cbee15eac56247252b4a4814b9481b72"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-020.webp",
+      "sha256": "07f0730afefe4b05366a69781da42a18c26db690e72b6a079031085be84b7953"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-021.webp",
+      "sha256": "3881fa7c26fd0589772bb4a36d2728deffcd1e9788d748fa92aa58ef0266d69c"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-022.webp",
+      "sha256": "c6acd4d3fd16ed120e3b0ca24af4064fe15a1302a23cb6b87e03f9eac7fbbfc0"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-023.webp",
+      "sha256": "6a7c7278afb8313fddcea172d29cc70aacb0beb74dfbf9fe79a0f0f402eef9ca"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-024.webp",
+      "sha256": "db4f4ffd5d4b7d9d5b07e27c3bd8370d1df74615bd5997fca55509f10e666dcf"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-025.webp",
+      "sha256": "a34151d51c0db23db90672664eae9102a820a4a2a46636701c24a343a5bd4947"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/page-026.webp",
+      "sha256": "464bc2f5f81a5f21c82abcf90efdf26429cf3d24df0785f8188408b360e7f71c"
+    },
+    {
+      "path": "ob-presentations/fetal-development/deck.json",
+      "sha256": "39378e84e8b0d6e96b08de6f92543f746c3b4f448c86d6180c8149b8969c7d80"
+    },
+    {
+      "path": "ob-presentations/fetal-development/original.pdf",
+      "sha256": "e525c92498513e7b2a6c5bbb091bff8aaae9300f70d8cc20771e97b4e8adcd53"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-001.webp",
+      "sha256": "9efc53ea1b180d73ceb5807677149b3e009bc502c87d6e2df789456d41739231"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-002.webp",
+      "sha256": "523b0106de26e72cba558ba13064433cf9132397863ced7c6ff69ae72cc0bdfe"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-003.webp",
+      "sha256": "600ce201c95547f9b353073b0699d42179f6cf17ef3325486025aa12b16f2626"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-004.webp",
+      "sha256": "2f633fe5e0b05677bc7376d58f5f45d472c1195a239f2f47ec6801bb866f5a72"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-005.webp",
+      "sha256": "96071b0938634e7eeacb023b779a54706dfc9beaeca0ad1326edc04bb3bef9f0"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-006.webp",
+      "sha256": "382c948f187264aec4f851c6ddbdb087d90bcf372b7331f8b47336ed1566f61e"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-007.webp",
+      "sha256": "8e936f6d4d1c759f3d86cdc6202dc2a88c8462b68962dd087fc7886aa0adca73"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-008.webp",
+      "sha256": "56cf2ac052037d8b3ff17b4d16ea2833766e73b6540da1706d8dad9cc4bf6ad8"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-009.webp",
+      "sha256": "4a643d21f3bbefd83202db963f1cc5fa28cb4a9208660bb5d7539c51fa8a1e3a"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-010.webp",
+      "sha256": "ca7139928287a048864a8c6c0407c21b2b2d43658b677a06468707f09ba147f5"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-011.webp",
+      "sha256": "5af17f942f8b1778ef2cf4e3f6d133ff0bd0d0d64f1cdb6cb55a7f6a62c2f035"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-012.webp",
+      "sha256": "4fb2e9fe174a7bf95487be2c3e792b66f96c6ffd658d2652ea5bc1edc4b55372"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-013.webp",
+      "sha256": "55b8e953049fa6380bb02913923f63383cbb1e45e3c3f40298bd8147becc265e"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-014.webp",
+      "sha256": "f032e563411fdbe05f05b9d2f9f837928017ff35afe69a3cc88c702bb8d3bae6"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-015.webp",
+      "sha256": "74e3fae6be26fc73a9c5f2f539f3386c2c5a0fb715379be63c61cf9f078f8fcf"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-016.webp",
+      "sha256": "514d2b1c609a18be0db27cc1146fc08e1e6ddf8c4bb5bfcca49edd219188d6d4"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-017.webp",
+      "sha256": "1d02a6643a5f1ee812db692ad9c611b5e9b0c041ca8e73b7e4b1f1f1cc793754"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-018.webp",
+      "sha256": "15fc09ffc31b082a9364a749e93c6a729df6424b90a75396f68f313e13d49644"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-019.webp",
+      "sha256": "1a512710e66fbb6f4e6a1369e8815d087470375ace7cfb28cf7563bde8371c2d"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-020.webp",
+      "sha256": "a9e7e21b7c5ab8f579a20b0fd61c413f23420aadf4a178d882af71be0c488eca"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-021.webp",
+      "sha256": "3d3736eeca58496228a59a9e4e35501675959c697b8c5bc0062b09bb3e213fb7"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-022.webp",
+      "sha256": "62bf342a555e12be4027d58273d3727d835e974c393ec486d64f23260f0198ee"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-023.webp",
+      "sha256": "a8b11973e0479a294e78d4b57b11e115986605c7e723f5fb678f13358351b398"
+    },
+    {
+      "path": "ob-presentations/fetal-development/page-024.webp",
+      "sha256": "668dd22850416910ac23aff742c4536f15cc862768a12032621890cf737d905e"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/deck.json",
+      "sha256": "2d8bdda8a606db7192b5f4b5ee9bcf83c3f2598ad7701d3004ea5be671d113f4"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/original.pdf",
+      "sha256": "1707601718ca499878f32b4156bdf698458b7299ef39e1836bcbe68ae3e6e048"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-001.webp",
+      "sha256": "2816e3ad34b04aa95691d30f89653aa95be866b71a8ee953676f9e1dda28ddf3"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-002.webp",
+      "sha256": "b198f019b7d68f2d78f2018a5f045beba6a8bf85cada9f7745687336ca718114"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-003.webp",
+      "sha256": "c1698f47365f13e89ec62c0795e0000124fd6ee69defb8c76aefdd76095bb7a7"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-004.webp",
+      "sha256": "677ced117fa69a5e619954b7a713d2299e58768bcaaeaf202db157206d5b4cde"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-005.webp",
+      "sha256": "fed6bd7be8bd28bdd10ed28ecebe080fc4906296482e3b9449e0605bb2098d91"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-006.webp",
+      "sha256": "0b1eb88211b4fbb0d270937c9a820f246e6b2cddfaa1292ca130e632d8f27fe2"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-007.webp",
+      "sha256": "db5eae67f10c4d4b96e31354a889684fc7a31cd45fbf9991a18f83a8ff4305c5"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-008.webp",
+      "sha256": "01b51329772eaddab4cd4467d50a4b14364b4de0c0e9df55e7b1b0e3dd5d4162"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-009.webp",
+      "sha256": "62f45d44f09be4da772556269e94c70965a16a2674192451aaac1e6fdb6ca422"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-010.webp",
+      "sha256": "e0e0522f9584a365b94388cfbd1ae6e67e1866732d067f88f31f1e09ef17ec8b"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-011.webp",
+      "sha256": "8378e7c35d96a7eb2a1667f228f14905b2d5843523eccbd614b90e3f63aa3ba0"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-012.webp",
+      "sha256": "88bfdb76c5da884ee44720ceed59213b726e7a89dbf21d373d85a58b1a2e6368"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-013.webp",
+      "sha256": "6e504f98ea616033ef3256eeade79d66a3b12f699aa37145e7f1ac8f3b4a37f8"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-014.webp",
+      "sha256": "808363273a1e9139283d17d6efa10a4173dea2034730c289ac4d2f16169f218d"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-015.webp",
+      "sha256": "89ff40bf5f4acabc8c28499dd7813a047fcd4d4a08fde4849d5ebced4838189e"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-016.webp",
+      "sha256": "ff35cb725863582027002965eb0968e829b482f119d9d6fcf20dd61618ce2596"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-017.webp",
+      "sha256": "bacdae91e3fc79315de227b6a94ef34ae2c71543697f26f1ee0b83c830acbd41"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-018.webp",
+      "sha256": "af2b82d0a79b3df39e34276f1b6e4bc9c3733a197d629c9bbc39ae9f3f4125b7"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-019.webp",
+      "sha256": "e80433861e5da4ece93f43d11dc54fc2b548e412a9063b8153654c2e949bea7a"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-020.webp",
+      "sha256": "14900b167d813800b7bbd49ca828c11ba1ec1786fcb77ef72ee18b46e7c940ba"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-021.webp",
+      "sha256": "4aa64ca4edbc54808a03849388ec55a268ebd67d725ff15bd765a9ae4151ed45"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-022.webp",
+      "sha256": "22a896b0977b46423747a942e5db004ea2bafdf527bc0372f5c1280e21eea01f"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-023.webp",
+      "sha256": "eaf4da3a9025ae320440c68396f0a45eece8d31160d3c2ca7eb7876215991d05"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-024.webp",
+      "sha256": "65249f33c2c30105819f3af1b07d7d59eb318b5109b8d65ef5e2cdee1f0b4bcf"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-025.webp",
+      "sha256": "2c633210bc0e7c0edb988debc8f5784057a2d776a5e6321a7dde1bd110bfa8e2"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-026.webp",
+      "sha256": "90c9c60b3a080b9b3a08e720caacaa4e59f67aa91e7bbcdcdd6753261ad8493d"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-027.webp",
+      "sha256": "74ba3f1692ac1f9eb1825fa4afac74447348b31528442fb785cc307c937ac64b"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-028.webp",
+      "sha256": "1579e165da4a0153c3e2979df1fec6d4b22e76838165d474fd59fdea8c00a769"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-029.webp",
+      "sha256": "bd9bfca6d9e731d645c205dc057510a986df4ce854b87863fe6355046a8074ee"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-030.webp",
+      "sha256": "44e96850e6f44c91b09a1468b2d14fd3af9e362f61c4cae78897d6e5741c8965"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-031.webp",
+      "sha256": "94b47d675b10a8ed0d73242f87dc744df4286ae72d5d8f3358d67d076a257886"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-032.webp",
+      "sha256": "54cb5e9a0f223a4a285998add4ec6df7e84696131439ec1a282f194290e886c7"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-033.webp",
+      "sha256": "7d062a6d507320b58b93a2faa6a65db11b1ac9a611acfe029d5b1012e6652f45"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-034.webp",
+      "sha256": "9e50e4e25ad098288e292ef0ad780aac0e3bb52038cbd9ff4d82d82e6e25fb36"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-035.webp",
+      "sha256": "8281a0cd34e243be4952a65ec4cff375da8763bd7dcd2fab4be0e458d3113267"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-036.webp",
+      "sha256": "6e60779422fcc71867847c8797e0199b11517c8997b6dfb0c4aba9f0ac4971b7"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-037.webp",
+      "sha256": "4212dd0b620b0d26c278fab4aecb93a4ce1b7498e3f69ae2a0504b3f3255fc6a"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-038.webp",
+      "sha256": "9c6b5f97e96864512a5b91c6783c07fc393df5f979143a0f21c43e06b59bc244"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-039.webp",
+      "sha256": "ccc2e4af88a61c3b65593e8f09b6ed724e23021b4acf1a42a1b815c15a13510f"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-040.webp",
+      "sha256": "f172803be98d571fce43ad97f16841941bd9dd2ff3995ef2942c21f95b2b26e4"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-041.webp",
+      "sha256": "be3260a7903bcd7efe719e0922b6342ac572e0cd850f846ef0d786848bf98b0b"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-042.webp",
+      "sha256": "8eb89d6fa67b78ed75e8af39e76541a6b9b1da6df9de0157313847186644de07"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-043.webp",
+      "sha256": "5d5c65d7f8f58475623f8c311eeb36c040e6e79df87990c340df0a6b637d4f56"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-044.webp",
+      "sha256": "317837dd30cae463ff3aa27f4ec5f21a3366bb9f465319f0803636690927a3a3"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-045.webp",
+      "sha256": "46fceedbef235113153bd5aef8e103bc30fa27623b2e5363953f9e8d7c84d589"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-046.webp",
+      "sha256": "9fc9d241f9126e7c6056bcfa14af69409943765835b53176a3c1ddee4283d294"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-047.webp",
+      "sha256": "13f8f84f88561b19f35a6ab06f5a7307173eac2a19d10d0f46ba879cec0083e5"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-048.webp",
+      "sha256": "20ef5eba3185d588d5f37d6548576ecb9d92b354b93f896ee08fb720a54f7bf9"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-049.webp",
+      "sha256": "252bc97033c5f125f7b1d34e4ee96583efceed467a4e81ff75166966818b067b"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-050.webp",
+      "sha256": "5611cc095eafa0bf70b8841eb3a3980603fb68c1406b7f9b68da7ad451a9da7c"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/page-051.webp",
+      "sha256": "a510ab65baecbc3c78ce2b75bcddfa0279cb147f5e7a36929cc54375ecdb8862"
+    },
+    {
+      "path": "ob-presentations/historical-context/deck.json",
+      "sha256": "a7ee80b3482b8b881c33ee73656dc4b19852ac842ca760e6d8db005b3bf00df1"
+    },
+    {
+      "path": "ob-presentations/historical-context/original.pdf",
+      "sha256": "ecfbac51bca49acab837a42b4c5cf7e1b872a1ae5ab932bcf8d6e7783d705dfb"
+    },
+    {
+      "path": "ob-presentations/historical-context/page-001.webp",
+      "sha256": "d421724549f5940a7ed6788225b22c07d911f0fe9fefceadd2560cbb073fb457"
+    },
+    {
+      "path": "ob-presentations/historical-context/page-002.webp",
+      "sha256": "45db47734a7fc40a6cb8da77d6be24dafdb3a4a002ee66d4a83a210ce7135644"
+    },
+    {
+      "path": "ob-presentations/historical-context/page-003.webp",
+      "sha256": "8d4582bd6e1a6033ea2ece7e7b50157c5950af14edb3ae00bc163d649a351ae0"
+    },
+    {
+      "path": "ob-presentations/historical-context/page-004.webp",
+      "sha256": "e09f168e2e5345bf52a083353ddbc6b939b53b2a6c1a95fab6f85b913acbff8b"
+    },
+    {
+      "path": "ob-presentations/historical-context/page-005.webp",
+      "sha256": "f206c0b1a3ef13fbc1fdbd407c4fa167b6ac1c3d50374c1ad91780f6663b1dff"
+    },
+    {
+      "path": "ob-presentations/historical-context/page-006.webp",
+      "sha256": "27e698a9b5e05a4d14025c2c30fd72755955e49d96be961e4b7f810f746ddd0e"
+    },
+    {
+      "path": "ob-presentations/historical-context/page-007.webp",
+      "sha256": "e3f922052e73709537b381ad9fab34caeb5a961487734497c42497760ecf26db"
+    },
+    {
+      "path": "ob-presentations/historical-context/page-008.webp",
+      "sha256": "9d8f3a7dd1acdd6af37570b6dae5ed4f3ee26a9a83e988c153e62a62de6c1463"
+    },
+    {
+      "path": "ob-presentations/historical-context/page-009.webp",
+      "sha256": "58ca81d54b587b1a75ed660c62e090c79c1ce12ee1f983662a05b300d545c690"
+    },
+    {
+      "path": "ob-presentations/historical-context/page-010.webp",
+      "sha256": "de44c5d52fc1810da410678f5f127eb23d33a3d5a0c70ee6ef40531ecb19365d"
+    },
+    {
+      "path": "ob-presentations/historical-context/page-011.webp",
+      "sha256": "ab7a444100734dcaac68d8422a8dcd16777f92c6824ef3e3e25386528945414d"
+    },
+    {
+      "path": "ob-presentations/historical-context/page-012.webp",
+      "sha256": "cc5966232cf28ebb8ab173f0f3a31c462390e8ee17903dcd697b299c25ff4168"
+    },
+    {
+      "path": "ob-presentations/historical-context/page-013.webp",
+      "sha256": "0f8e69cce1dcdc46f08ae91065be631f1a5256c8d23c37a6ef5b096e27b0808a"
+    },
+    {
+      "path": "ob-presentations/historical-context/page-014.webp",
+      "sha256": "77cb3f869636e0f065224376c1ba1b3b76f1300a917b58e3edd2019cba9f9f3a"
+    },
+    {
+      "path": "ob-presentations/historical-context/page-015.webp",
+      "sha256": "f289edb4ddf89c847da22f4159fd936c768950c3e7356366f78f25fb67382b32"
+    },
+    {
+      "path": "ob-presentations/historical-context/page-016.webp",
+      "sha256": "3685dd49f5a1ccef9a7a014f5fd186b39fcfcbd177a7a65997e28a20e877d6cf"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/deck.json",
+      "sha256": "417b279f5bdd8c2293e211ad8f320a9dc8d74f27781d8e31ce87c70f5367102e"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/original.pdf",
+      "sha256": "a748668457a5f2187cd068866a6649c1c986da04428da98e37f9f4ee9f514339"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-001.webp",
+      "sha256": "14d954ea7d4b3c994f82175f668c99b67086587cebb63f259e09977c55cd37f1"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-002.webp",
+      "sha256": "76623137e8a17baec62af35f1dd1f05b7bb7439a09ab0d253f255d4f1e30625d"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-003.webp",
+      "sha256": "74db2937060c94915c9fd59c4cbf2f9ddb4361aed8e828f5a9a24772e7d5d893"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-004.webp",
+      "sha256": "83a04a48b7830eecaaf0e2c20a26c5aeb35436b962234f6f0a411536cca817de"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-005.webp",
+      "sha256": "918f9740ee13d6c03825a59cafa2438580a5f34b7a67b1b4e3941178d994b23d"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-006.webp",
+      "sha256": "7660b2eaa26cb06d4206e1bdd0fbb898d5b259a9f441555989063e7752272dd9"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-007.webp",
+      "sha256": "c8dc06334e3406d8b2f4869748623a030f7bb57facc296a6949204308068c873"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-008.webp",
+      "sha256": "b66d547dc2a5f6f8e14a4df2b092fe7e1d3d20a0c9a9b506aafbebd69538d0d5"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-009.webp",
+      "sha256": "381afe0388ace7e5d8d63b6e2491c0c86e3c86e69fbb9638fbdc94611b235fc9"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-010.webp",
+      "sha256": "72bbec18ddf42df8abdda092243f63ca9a3b8c7e5d9c4041aade1ec6096d4eba"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-011.webp",
+      "sha256": "9bec1de2433cd9382375d2f8cec2f184242bdfb5ef3a59cd1ec60c11c8485375"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-012.webp",
+      "sha256": "7bee57b372bde8203150e01b6d865c0aa90d78c4325ec61b412db4a07fb89f15"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-013.webp",
+      "sha256": "883eca7fa235e5ba85567fa843bb8d5567efe047ec7490902715d9110c1f7d7f"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-014.webp",
+      "sha256": "11e9b702a82122cda84a200c398898b61c41e536b169bd4e64e53faab21cb583"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-015.webp",
+      "sha256": "56f9cc6320b979dd69b224c984e2f786c85290e832ec8a0370d6e377ac995f0a"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-016.webp",
+      "sha256": "d9dd77795766e6f6ca8a1bc72959a9f9916d17832b9df37e17cf6b6bffc146bb"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-017.webp",
+      "sha256": "ae50d8f5f0fe4b36ce8d6313cef4652414ca27109473bc069ea3f4e6f55ca1eb"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-018.webp",
+      "sha256": "e3f727efe202f74c616e7d9418b1db2942dfd95116494c2af08708c63ce3338d"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-019.webp",
+      "sha256": "5582f2f68383356b0d8c3badb6a50b0c8fc251125f3e4bc748f80322352a3bb1"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-020.webp",
+      "sha256": "5eb52014388befb44fca1ec605f364ed709bd23b75614b8bd96897d64cf718cd"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-021.webp",
+      "sha256": "5c8d0d68b1a488dd8eff368937cadd5859db6741ef8559ae4912581113c7a4f1"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-022.webp",
+      "sha256": "e6fe670d8cee86232144816fb8e356a6caddcef64124195df1e52418f2a5134c"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-023.webp",
+      "sha256": "9afaf6c6817de1c8f6f48ea8cb43dfaf6b574d2a9ac0f368506668ca4773e660"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-024.webp",
+      "sha256": "91b0e65bf75f8ebe360f7a2ec02e349aad2292a772b99f3ebeae95874c4dea5d"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-025.webp",
+      "sha256": "53f439149986488fdf8ce1d28fe756f5de13bbcc0c7104af8eebe4def06a3948"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/page-026.webp",
+      "sha256": "1bf74be4de3e342592fda2f22ed2383afcf48f938f528a9f6f90e6c2a80f890a"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/deck.json",
+      "sha256": "764b5830b21ce10b4c1f3ed620afaebdeb94c1f9b3051dd6011eb98b9d50ec03"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/original.pdf",
+      "sha256": "7d0bfad234e40224b17b8690d58b7f33cb1897d93b2c4dd5d77605cb0bbb41ca"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-001.webp",
+      "sha256": "9cf1375b71f27171da131e96ecee17499002dc473381a1ecf8bb55045dee3816"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-002.webp",
+      "sha256": "e0be7a16281330bb220f5b0de1033486fb4eeac779f91798ebc4f35ed2133a4d"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-003.webp",
+      "sha256": "90717bdaa253df99eac601bb74a1e0270b4e746a7dbd79ecab17cffc08f6699a"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-004.webp",
+      "sha256": "bb269cca80455f402459a2fb03dfece40e388e573f68302e1734aec2f831658f"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-005.webp",
+      "sha256": "ca45e61ab471bcba42167986ac9cc62e233ec19acd72c847a3647b8920643b54"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-006.webp",
+      "sha256": "e366447bbb7db588d617c20629202543e372490791761f2ab5a83f2fdf1870f9"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-007.webp",
+      "sha256": "e9cd1a49e5c26c22fabff4f55d6cee89874ffbee46faea2f54926241c29e487d"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-008.webp",
+      "sha256": "e031856a4b7df8ad7a8041fd5d7730d4e2d60cc6bb2600c40d989e751d23df2c"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-009.webp",
+      "sha256": "c8a8dbd98b5ce661a372b7f26b79e9cf15da25dba1507474c9f72a5f95e94b79"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-010.webp",
+      "sha256": "25b54b00351afd55841ae8be6f2138092aa97d18bd4ca6ac13362c60cdb479dc"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-011.webp",
+      "sha256": "5db34c252ef127aa4dd9f6a3b54d668e7e232b0799abffb43270ef04856716f9"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-012.webp",
+      "sha256": "2639f73c35cc09fcac56b0ef70e05e0539846a959fa64cc5a9aba13aeb487d09"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-013.webp",
+      "sha256": "288cc1fd28d94ab7c05d362a315d058ad46e58099a6f83f9ba8c116bd71135fc"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-014.webp",
+      "sha256": "226e51b793ab442fbff7eeee1f57828683eb47b33e5eda1ea654d4dbf6dc9753"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-015.webp",
+      "sha256": "4f6e96824a78c4264e91803663d20943909661555dde492cc0f95a7590e3380c"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-016.webp",
+      "sha256": "e7535b5e2e8eb2a325f9df2fc644c382c347572c1e33539ce61c5a9f7bc65350"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-017.webp",
+      "sha256": "ea1e61deed6b85335e849ea092c4b8c394e420a4634389dfbd6a9ee9553e5f18"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-018.webp",
+      "sha256": "bedf41fda385e5545da8903ae90e94c2da8099c89d0c1e5c13abcc058da9c980"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-019.webp",
+      "sha256": "d23778803400b9d4687c8e2d2bb605a7443430dd706fd949a9ee11e5911c423e"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-020.webp",
+      "sha256": "24543bc7d021d8c9e9957fe503784e18e5cdc9d2ca8b80d3d2470d38201d3c6b"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-021.webp",
+      "sha256": "50b10ae0a3378faf28a58f6cc8c0b236731cbcbb4d4247a322fdd1a1e75dd224"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-022.webp",
+      "sha256": "1b5b927a5a0233ed0b2125b6ef3476565c8d2e216b6c6c7255cb88b9c6c91d38"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-023.webp",
+      "sha256": "0cd8ffcd9c076442855665c46e9e3027047b50260d425e14ee035971956eb012"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-024.webp",
+      "sha256": "a428c5445b0f6441d290e8e1fecfaa1fb9245563856473a904d454e0d41689de"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-025.webp",
+      "sha256": "e5da6e68f975539b2a0837a93796fe17aeb0ed2d630fe5d357e1b040d19b5225"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-026.webp",
+      "sha256": "2df1f659a2fabc0027cbed676f6fe1bbd165a0eca84cafbf75667e97e858c92b"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-027.webp",
+      "sha256": "62e591341233d2391e10ff4c31b64f0b84f3f477bcf13d1c4ca1c9fe8e087939"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-028.webp",
+      "sha256": "efb6f7e68a1eb87e2eac46d227a4c25ec7b1fbf34421a72a508b1e51442db549"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-029.webp",
+      "sha256": "e353f3176c7fa247d58a88b93134906a463b16a353f597c06b45cf1e65ade9b9"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-030.webp",
+      "sha256": "1915b463a973c7a28a45de67ce973ddaa8007602881296056c623e4145423a7c"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-031.webp",
+      "sha256": "8b9607d963325286e397eda4d3689d7b080e16c2f25c28c33b6f55d945969ee9"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-032.webp",
+      "sha256": "768544b25defa2fa317e30b556829f421a498aed54c616911739e340fa4f4096"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-033.webp",
+      "sha256": "78876eb3a8d7e0c01c5b57318f74970ecda103626ee87bbe64a35abc5c5c2882"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-034.webp",
+      "sha256": "450fc750b6684f6a8e5fbf7054c245443aad3cfcd1c75e9a19d1ecfe6339ed17"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-035.webp",
+      "sha256": "8378e7c35d96a7eb2a1667f228f14905b2d5843523eccbd614b90e3f63aa3ba0"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-036.webp",
+      "sha256": "d538be129379f11c1614ab01c4e7f525d72444d81585b8fabd793a75c83be13a"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-037.webp",
+      "sha256": "13f845a6b6bf580d60f4b3da764ef0ee8a9cc8684f44884eee1e8d25e8558ec7"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-038.webp",
+      "sha256": "838dc4113d0f1cb224a02a6155f7e1d57e8ab3d9857d4660a3459774d1c876ce"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-039.webp",
+      "sha256": "edb248c1a8500a73df0a622e8ac2b4885a58fef56bef22002579d2a0da242bd6"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-040.webp",
+      "sha256": "9576fae22e8762cbac02c3d714af3ee1eeda65a36ba460dac7cc5ec3d92d7363"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-041.webp",
+      "sha256": "c5de843eaa3b826538c87a837cdb5a69750d4dba6b4c52b2503e5040913b3568"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-042.webp",
+      "sha256": "d8120d16c790e3cdc1cd5df6228bef25fed51f76f297e3916e51514e56d6e54b"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-043.webp",
+      "sha256": "fa4723e8d63bbcbb837e384d03eb43add4ac8110025de96eccf158e715fcc7ed"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-044.webp",
+      "sha256": "6ed598f0766e0980fe6f0f810b24257f5010f570add83ddf9715aef17063d4d2"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-045.webp",
+      "sha256": "c69f0fc4546c332074a7557c97e2d807fae6d5b3527afba342e5dcb8a107dca3"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-046.webp",
+      "sha256": "7eb60cdb56c92bef33af9404a1f823d210b8902dbeac1f3c6c48a2eea1ba28ba"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-047.webp",
+      "sha256": "e79591940212b0f80f7e42eb24a0d68bba9545bcf4e9690ef93a42e2557e9158"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-048.webp",
+      "sha256": "6666135b39a0d0a66d06bc68b51d44ae3d1974096da8c81c9dcb2ff6973e7ed2"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-049.webp",
+      "sha256": "307eefa56bf567413a62226f77c7d6b97f20b27a9d2b6e24146180334fe98b70"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-050.webp",
+      "sha256": "4464a76a2ec1d8fa261dd5e334fdf709d5d3cb94c48d969e5d69cad20017eb8e"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-051.webp",
+      "sha256": "1d3efb5c103e8a47efaba532a63dc06d4f267df4b90d2173dc4d8f46835d6381"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-052.webp",
+      "sha256": "3ec6605e9f3a9f9077c7b56fb6026cb18bed160e39aa8dd7ebed497d9e552507"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-053.webp",
+      "sha256": "e8f5224c6544ef99a605d0f9ace1657cc462b02a2f70a5961fa354b4f5cfe1b6"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-054.webp",
+      "sha256": "b6dfb4a54ac55d54e3ae195e4657686ed73b18076487fd7b57b7d593b36ac724"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-055.webp",
+      "sha256": "5431f2e1d60c041d130ca7fe2dee60bd558e876e56aad011c7ba4ae903a402de"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-056.webp",
+      "sha256": "87a069f2053ca93494db5321f2623e5bc11696e447c8402c83c18856bde855cf"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-057.webp",
+      "sha256": "abd77381848a71e1c80a6104e1a28008ab64209c2a59131f11b038e8a8de0b49"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-058.webp",
+      "sha256": "b83947e6036aa321f5ce9dec657819c5f9c8a6fc2ed3c63b6dd0a75aec361705"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-059.webp",
+      "sha256": "93131c0ae12fa5ffbbff6a7a09d4a22031661948d74137bd2a11a622e278325e"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-060.webp",
+      "sha256": "7559d4e19d75f822613ca4e55d9cdbfe605601584538fa744da779d7090aee67"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-061.webp",
+      "sha256": "83ccb56c57230dd19de15728c8e3f39a2c54f0648bba3613453a475ba5bc66d1"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-062.webp",
+      "sha256": "cd74deeb5f00c447eda415f9ce4639c9eda77788758d29bcbec74e6f2dfb6620"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-063.webp",
+      "sha256": "8c8522fbeec55f1caa3da3c96d4181307462a66f2685c9fc533175b95b7deeb1"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-064.webp",
+      "sha256": "ec7b97c4dddd26ec099afb135af4a0d06976f7fe1c7f839ef27319e9ae28fd04"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-065.webp",
+      "sha256": "6542465f2204c92eae469866d0b253d6bb9d21f7510bfd41337a6abe96552a4e"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-066.webp",
+      "sha256": "1bf8b60bd0430bbaada6b9dc2e0a7e595454518ffa2364a9b2fbbf25e086e8ae"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-067.webp",
+      "sha256": "b2bb679ccc2b1585995b4ad17770997c695bf616091ba635c00207d3c9c494ba"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/page-068.webp",
+      "sha256": "fde3af6af3b7d97610e474f7609e4ab8eb7640da51dde67ebeb470ed2aeaadc6"
+    },
+    {
+      "path": "ob-presentations/labor-complications/deck.json",
+      "sha256": "88ca24a207163315ad533e405870802fa51916c528b12eea8bcbe3967cd96aca"
+    },
+    {
+      "path": "ob-presentations/labor-complications/original.pdf",
+      "sha256": "05776a93d78fee17bf34f2f96de3e9fde92303ee461cd1e4390bbb9cfd23c6be"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-001.webp",
+      "sha256": "bc096be1fdd1bfbc018fe8dbf2f66878cae59322e943bf7da3939254644add45"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-002.webp",
+      "sha256": "37d9d67a85d828b3067f7ace07ed8e5b8806843a92cd0e154262b5e74faf4620"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-003.webp",
+      "sha256": "577dc055fda9d8c55c6a2ecbe98fa5a510aafb66aa20a9c9353e2f660b1a54ea"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-004.webp",
+      "sha256": "f3d06f20840648c01c065aa3642084f2e4012d2c5cd3a0bbec9c2f865c81bf69"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-005.webp",
+      "sha256": "5fc67c5cf384492e4fc147e5747df6660120fbac5af098ed3c486e84e0c1490a"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-006.webp",
+      "sha256": "98d561b7725a452c1f80fbcd26c29ebc24f93478c1259eaf027023792602e340"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-007.webp",
+      "sha256": "3c52ab060f2bba634c55838b9916802d7eee36f58b07aa3ff78948c5b95abfe9"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-008.webp",
+      "sha256": "a0938096f0b851aa496a64dba1de9b22fa0d9136b08b259b05a3875e662f9138"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-009.webp",
+      "sha256": "fc6e7b37b150ac388c2df6b1aa41100febd9b27e08b1fff3f2e20b9e6abe930b"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-010.webp",
+      "sha256": "cb109791b6949286f2ecfc9605b80441479b40893a5da3152a9b94dc2c6fd859"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-011.webp",
+      "sha256": "6a1abd0a30095fee771af3846074d8c2a08bb943e3ec351b3fef2bb87e678abc"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-012.webp",
+      "sha256": "e7952e32cd364640f4f3ce90e6010d2aa91eacfbd35a7cf4f8c5c94eefedb1a0"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-013.webp",
+      "sha256": "cb4b58ee5031252d0a21d78d0999a1fcd1f3bb63d1d431d36f900a98f16f1271"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-014.webp",
+      "sha256": "14c2cb6267e55409dc81095a650bdec549e80a84436a87f31c90a858143c54e8"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-015.webp",
+      "sha256": "df9a88de432c324b2634ef45da6719eaa9b579cdec83deaf69232ea97f024039"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-016.webp",
+      "sha256": "dcfaec61ad2a9fb64b62538b412d02acb55d8bae780f76d7bdacb8f3fa6aabe0"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-017.webp",
+      "sha256": "8c740641c26645e786ffc10620a50b7302e54c19edb448165a8659809dcc5654"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-018.webp",
+      "sha256": "0fdddcfd9aad030a99f6d8826b7e2ada0795867a187d28d1cfa18e094b23654b"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-019.webp",
+      "sha256": "02bf269b2a9684f85b901d5d55acff1c8d6b78ecb4ad61b0698633a1543aa39b"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-020.webp",
+      "sha256": "590c69fae0316f7f81ff8edff6b1baaff83d2dc518413d462bdfff9d94c617ad"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-021.webp",
+      "sha256": "c34684ff11f4d8b271bb8c8274f19b23a77d2c3ddf406ea3efd9cf553bec991d"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-022.webp",
+      "sha256": "431fdf6600bad055c1acb3387360a55e7551e6a848e195985fd2e67cff63d73a"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-023.webp",
+      "sha256": "f47f5f3a13ae5b1026f57da70cd4718e26efad40d09be16326e25b42a1198037"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-024.webp",
+      "sha256": "7ffb5bf34988048c24f6c53b023a61c4cba738e674dbca3c96fbcedb549f9db2"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-025.webp",
+      "sha256": "7a7da6b8621fb5cfaba8d0f5e299c4ea1ec1d075112e0b924334cf911c1c503b"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-026.webp",
+      "sha256": "5e81bc1850b1d08257897e35e3445efc473ecdee6f33e76976911c3be0dbcf50"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-027.webp",
+      "sha256": "dbb1e0ef099dccd259a65e119a244a8f0fd33b3c12bf2d29dc14cc31835848bf"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-028.webp",
+      "sha256": "92c10b9cdf71f7c0f2416545d2d8e5b46b9c297c38b7c9959925228bd70914e0"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-029.webp",
+      "sha256": "9b0d3b5ca01281876085f4dec9a6f4117aa0e4931f50a2f54f3a4ac0c0445579"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-030.webp",
+      "sha256": "8b1541fc028abe8bd67ab0b2d21ebe76586c5ce7c4a8af358f77056496589ea2"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-031.webp",
+      "sha256": "5666424beb230e09ed083a4928f5e4e713f27f9ee65ab8c6378c50681bce15ab"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-032.webp",
+      "sha256": "a6a3473d6ea12458f67750dbc83dede1f05b4e50360363956ba2078502c94856"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-033.webp",
+      "sha256": "9dacade18fcb61b9048b8036f15770ec8a93f36153ebb5bdbb5751e6b9e8319c"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-034.webp",
+      "sha256": "8beee07bf56cb7ff2b02ef8931f46ece77b6e7ae266af5112d303ebd779e3ec6"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-035.webp",
+      "sha256": "737434593ed702a87144f90da35d6bdf09b2a4747dfe07605cea83add28871e7"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-036.webp",
+      "sha256": "0e29404e950da9571f2fce6dcaf9582054e586e9ad5741a8b18c9a6c4f53984f"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-037.webp",
+      "sha256": "e7f47120c3dc194c7bdfbeb20f7c0f0267f5bcddc10f4304bc98f9a38f7a05d9"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-038.webp",
+      "sha256": "60e6740f59d70763882e4ed83a83eaf74d2dd7bda8b837f2f6a8718795c71e1f"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-039.webp",
+      "sha256": "34f8e81bf25a1e839dcd09251fc95b94a1265007cd9d5fcb8f523e6819f821ad"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-040.webp",
+      "sha256": "63a9d6f2e382ae77e349eb7a2fabfb73e53964a7ea71f28ab20a8b3d8e4b4858"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-041.webp",
+      "sha256": "e3c53a0adf7461743321961570410f61ebf32be5389ad17757a396625249c3d1"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-042.webp",
+      "sha256": "a83995567d2d48ebd037807fbcd805e996e4b6597e005fec2a39e38e62722285"
+    },
+    {
+      "path": "ob-presentations/labor-complications/page-043.webp",
+      "sha256": "0120b6bf7314ef87117309f69c1d11e60a8ee96e4a7c65f35bc0eb6939ce01ce"
+    },
+    {
+      "path": "ob-presentations/labor-pain-management/deck.json",
+      "sha256": "2a4f67a2b4ff0db662565e8e3a886d2a0cfc2c07150f4fb6a2544373fcf6eea2"
+    },
+    {
+      "path": "ob-presentations/labor-pain-management/original.pdf",
+      "sha256": "3ee863e8897fda8f0a64073ee89c2fab1e8daf54cf8811cb601308c33bf637a2"
+    },
+    {
+      "path": "ob-presentations/labor-pain-management/page-001.webp",
+      "sha256": "1dff01cd6e061c8a6f2552fd0d27408c32ebd049e6b6ebfeccfa3ae8f9ccf85d"
+    },
+    {
+      "path": "ob-presentations/labor-pain-management/page-002.webp",
+      "sha256": "6da0af84d224aaeaaa9ebcf0d47aa1899dd8ce278d204e39dc1eb36d277b6409"
+    },
+    {
+      "path": "ob-presentations/labor-pain-management/page-003.webp",
+      "sha256": "351f4e8347c5bdcb34ccd260914e5da6e71ac6f8ced54547ebcc2485463baedf"
+    },
+    {
+      "path": "ob-presentations/labor-pain-management/page-004.webp",
+      "sha256": "658b45176961ea2f7d53ea0a9e050b696c8ac104b6fe6e2b78f6a1a53bfa48ea"
+    },
+    {
+      "path": "ob-presentations/labor-pain-management/page-005.webp",
+      "sha256": "32bdd2afeb2e6bed4c7c0ed83cdb6e003a75e3adab10a5ff7a2d2980f2e3af60"
+    },
+    {
+      "path": "ob-presentations/labor-pain-management/page-006.webp",
+      "sha256": "9e73ce5a14b8645770b3bd7aa2d5577b9a056dc794754e77a9f622d62841a7b0"
+    },
+    {
+      "path": "ob-presentations/labor-pain-management/page-007.webp",
+      "sha256": "8d7a352516787be7aed3631d9c50d80560e5d99dc09e8c8685dad58f93f59678"
+    },
+    {
+      "path": "ob-presentations/labor-pain-management/page-008.webp",
+      "sha256": "2b461cfe9aa0b9e7083456c98cb3afba50c2649ee4637f0cd96f9ed67123559d"
+    },
+    {
+      "path": "ob-presentations/labor-pain-management/page-009.webp",
+      "sha256": "920f36c165e21b712c4bc368eb840219228f386df1ab1b21f131afc841194e18"
+    },
+    {
+      "path": "ob-presentations/labor-pain-management/page-010.webp",
+      "sha256": "5d8c5733c3d5b5f8f07639a9d429a0daa8b2aff88ccab5ad9f66ff8f627edbdb"
+    },
+    {
+      "path": "ob-presentations/labor-pain-management/page-011.webp",
+      "sha256": "a588e404bd33936f14e664923a15e178d40ee969ff9df10cff275db08724f43f"
+    },
+    {
+      "path": "ob-presentations/labor-pain-management/page-012.webp",
+      "sha256": "cd8d08ef448635161d3f265872dafaebce28d4fc541806d45cad575272d6afea"
+    },
+    {
+      "path": "ob-presentations/labor-pain-management/page-013.webp",
+      "sha256": "02bf72ebe16ffcd9c3637d8a4d7bf75e87db09c50eba383eb463300777c894ec"
+    },
+    {
+      "path": "ob-presentations/labor-pain-management/page-014.webp",
+      "sha256": "1d1c745c9cbe3bfbea0cc57de7b835082f6ed37fa1df64fcf02a47f1e977ed48"
+    },
+    {
+      "path": "ob-presentations/labor-pain-management/page-015.webp",
+      "sha256": "54d02a29213df0b9228ffaaa75291cb816e66b885206560542db90be8be4639c"
+    },
+    {
+      "path": "ob-presentations/labor-pain-management/page-016.webp",
+      "sha256": "dd520dcaf42b70c0100eeae3199efc83d4e419d9a4e20b4e9144b7e882929c06"
+    },
+    {
+      "path": "ob-presentations/labor-pain-management/page-017.webp",
+      "sha256": "9a9f3d687b10d4d591fa0b2da70c62c5bb3fce60ff95bb105252078e2e6d64e9"
+    },
+    {
+      "path": "ob-presentations/labor-pain-management/page-018.webp",
+      "sha256": "77abd3078a5249f7b99afc3b8fef60fa92b2ed6b5fb20d737f5638d174ef601c"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/deck.json",
+      "sha256": "b8e8d0430002154a2e4b0d14b1bbd75f23abb52cc339b65add8743df29e3dacf"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/original.pdf",
+      "sha256": "cd6da4c5591ee5e2f4bbc827479dcd38f918562e32889e120046934fc13d47f6"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-001.webp",
+      "sha256": "9dc49bba0e24910c916348829432cc414e5ab7df9c9e4b2435762a370792c4a8"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-002.webp",
+      "sha256": "7d3b93b9af718f2aa0e986ee98390a330d65eb8c1d1d04ca649ed91e10e919b2"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-003.webp",
+      "sha256": "0774b197e7db01c784957a82705ee0436c5e213c8d9d73f3f6ec1ab35b601070"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-004.webp",
+      "sha256": "288c239eeb4c46487a6d072eba88d142da91880bacf3506293f41e9e35c0413f"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-005.webp",
+      "sha256": "2e90014ef950a23104af4041ef05a5d884908705781bfefc2044e68eed11b645"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-006.webp",
+      "sha256": "84d367b9fee59169258c774fedaa39d12be9f135752e11fa87ea5568e08f2302"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-007.webp",
+      "sha256": "40b9160ecdb1fa0026f3d16c1f18aa590a9175f97a7514d9f9afe637dea4fea0"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-008.webp",
+      "sha256": "72880a13874d08dd83f9ce61d47e83d171abc17241def5a66f8cd07bf3bd62ba"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-009.webp",
+      "sha256": "ebc21a699f9cebb5424e178b3aa857d77c898cb9d6ca261c611a6500f39bb806"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-010.webp",
+      "sha256": "99e7c2d5d58588f35bc80919dc547090f961692f11def2874beb4de5c8a55dbd"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-011.webp",
+      "sha256": "43800af4c255d784e213f2998e6a96c08e672dbf5f35b7009ca8bc60f5a93c14"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-012.webp",
+      "sha256": "e73a4a8f2759553b7d6f71834489379c3dae7ea2d216c8416510de3633819b87"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-013.webp",
+      "sha256": "c08b1aad51d79cb5c0801c3099279d1e70af50375238f13fda116f9d371bdd05"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-014.webp",
+      "sha256": "781bb9e97450c16df8bb0524980d22440854aaffdeb8a577a096e3a3152cd238"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-015.webp",
+      "sha256": "5d01ce1c10b087257ea08cf33b699f71cbed60a782162b3985deb8c0da6733e4"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-016.webp",
+      "sha256": "770fd0cc7f2f86ed70673a51a7913abdf827ef74f1f2d8b6c25b2502455a14e7"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-017.webp",
+      "sha256": "550fa3c1c76ca646596fe4b8b5c35b7a06d22ef84e9b903c6f342b87d9f540b4"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-018.webp",
+      "sha256": "9c1b0bb11ca56b9e20d69ac4fa0493da792fd1821673b55539024660eb77280a"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-019.webp",
+      "sha256": "486a9a981028205c4ec0e79080af0bb2a5ffd1214060018e26019758b9b2b0f0"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-020.webp",
+      "sha256": "04ca7fbfa42fc4e31389f63c9ef16275147924ebd28ecb3b2b11af3f7361c165"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-021.webp",
+      "sha256": "b8b7a28e3a0d0b1fbf9b6e55e2e1b1e844f872560cc3fb6a8ecc1ea0db999da6"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-022.webp",
+      "sha256": "fcb92b9c540ee8aa679d80eba2ff45884e10a035003ff715114e108756f61010"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-023.webp",
+      "sha256": "036104c3561c0fd19c03c9f0fff89a0af7053d217b4efeec5f5e5c6eea5e8aff"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-024.webp",
+      "sha256": "99d8dab1973cabaa5d544d65ef2ab649425aa416ca3d372e6b08b0a04ccf4ffc"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-025.webp",
+      "sha256": "b5fcf3c0d576f050aee3dc434d57b5cd4c51b0fd1d77138a60016b15a49d0ab3"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-026.webp",
+      "sha256": "1c8027f24925f3b1b887235972bc14f23c6433934a2ba3e3a2804919c4eb7a27"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-027.webp",
+      "sha256": "8170b7fdcdb40c2c970d68d0a9c7097b93df4622eb992f1840ae560055e84eab"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-028.webp",
+      "sha256": "d44d74afb4c1183c822b82ece718685f4b26b0c3d708380160e76c63a540f6b1"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-029.webp",
+      "sha256": "b58593d0342e6af04b5dd3383be50b7b9ad79221101abac404371f6c8322b43b"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-030.webp",
+      "sha256": "76fce522653c21d3ae42b05eb18e3bb8a33f1cf6f64bbfd84430c41964426610"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-031.webp",
+      "sha256": "5300064fcf2575388310330c41aef0e273350b32642c57cd253bf922b581ce76"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-032.webp",
+      "sha256": "21894652b72a1478f41da9f7bcc2a0cc39a0778c7f8f6752ce532967d5df3dc9"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-033.webp",
+      "sha256": "9ee06018a1d5eb94aa195b57e3212bfb70abfc67df5ca10a854f948086ff35e7"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-034.webp",
+      "sha256": "ebed4121e2600292c7ddffecbb2292e689b802930621c428400ee6ca59ce5952"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-035.webp",
+      "sha256": "c2dbd8e47b51737d44e7b02e4769b47243002410bb1ad0b55e420b7585a196f0"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-036.webp",
+      "sha256": "b9f01852a73263922a85885575784c29d2936242618faa31e74bf7319d0fba66"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/page-037.webp",
+      "sha256": "88ab25c814f287339a983e4b3a998dab75a216e9f1625148631ac2d9cc30a6bb"
+    },
+    {
+      "path": "ob-presentations/newborn-care-plan/deck.json",
+      "sha256": "ce0bf0f7c25783a30c83121f2670c24b4772065d60044f62dd96ae5787ecad61"
+    },
+    {
+      "path": "ob-presentations/newborn-care-plan/original.pdf",
+      "sha256": "fd0b963965ac0dc25dff1a82ba1558433470415ea2b02495a8c0b6ebec0ad52e"
+    },
+    {
+      "path": "ob-presentations/newborn-care-plan/page-001.webp",
+      "sha256": "880cb790f5acacf196d1f9db77bce53d85a296eb90e2a49acb4978342b1c1559"
+    },
+    {
+      "path": "ob-presentations/newborn-care-plan/page-002.webp",
+      "sha256": "1be4f27ced77a5d9db53fe77550342e265819d6bd66107b26e2526eda510ef16"
+    },
+    {
+      "path": "ob-presentations/newborn-care-plan/page-003.webp",
+      "sha256": "b28eb02cb254d56c700c2a76004d7b05b167a363c63749b5de278ec6f66f76f3"
+    },
+    {
+      "path": "ob-presentations/newborn-care-plan/page-004.webp",
+      "sha256": "6c1e97a25edd42d40b3675eff647ceabb7d3ab46462ee6b50f45c85f17534332"
+    },
+    {
+      "path": "ob-presentations/newborn-care-plan/page-005.webp",
+      "sha256": "f300a72d12b248045be3c9e0a9df0d6a2fa15b8378c7758d28477d5a28733497"
+    },
+    {
+      "path": "ob-presentations/newborn-care/deck.json",
+      "sha256": "b9d00e414689da7c0e9ff70bc22ff6013961d180927bf2c0764cae07c6b8af62"
+    },
+    {
+      "path": "ob-presentations/newborn-care/original.pdf",
+      "sha256": "f461ea9e420f11ab390e90500a33efb12514e0eaf40c4b1fe48ab0b131df036e"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-001.webp",
+      "sha256": "b653587999d01408c89c87105e79819d7b619ee362671224faca264fd1c4a1dd"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-002.webp",
+      "sha256": "f91597ac1dbcc5757d7e3347f32668ad7ad2e2e64953ecc5a261e509c6573a2f"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-003.webp",
+      "sha256": "a9b4ee785faf013ea61a5a34f9673c731eaa79439ab36cc9fce1c85fea536411"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-004.webp",
+      "sha256": "6ff0452ec1f1b5a206e5cf3e1b7105bae4a43f9ef105d7d26b6183fb405b6b8e"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-005.webp",
+      "sha256": "9a391724e024935c21d12ea8ccdc9869ae320ee1294a193e28a6c8db4dac5a5f"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-006.webp",
+      "sha256": "f6262de4660d0a182dfae9e11039e2726899f7173881b4d8869f9b8c26c543cc"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-007.webp",
+      "sha256": "8089b6e74d6251f219ac1f2ef796eed1daf944ebbd53494357b17cafb675127b"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-008.webp",
+      "sha256": "ce3406dad865c307131a4b5403e1726b7dd9b1e1542a1887fea5b50f39dac16b"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-009.webp",
+      "sha256": "189019bc6b407b2d1dd182c618ec8999cfe78ac6e15bc62b42b0f039274860bf"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-010.webp",
+      "sha256": "51c9a79377b317c1d4649866184525f425b5f733e396f7be7cbe5dbfd2a918f5"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-011.webp",
+      "sha256": "a6927b976f07c1f3dfb24645bc1ecf61b381a3f82828e0d7404ed237abb17681"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-012.webp",
+      "sha256": "93d9694eb693bf03f0d99e1f390a4244b2a7e980bea830445442ffdd24b615de"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-013.webp",
+      "sha256": "96b5c8aba07c3a62dbfcda9700f5c0834f17dcefbd5585d31da89202da92d041"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-014.webp",
+      "sha256": "deb9c3d7a44cd189586d357b7e81f9e978d8808e697e7e9a7ec2c4b57f809e50"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-015.webp",
+      "sha256": "f22ace51b4673e97da05b6ad7b8f7629c26f8b6e49bf24f9964fd7ab6041cc34"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-016.webp",
+      "sha256": "efafbe8979ff9bbf2a150e9697832f5a4760cf16434f2eb8670e1f8f575c03e6"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-017.webp",
+      "sha256": "372ae9a3903e0cce20849ce428abc65b73470b2ff62e96350989871a48b0cf84"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-018.webp",
+      "sha256": "45db73dd3b72c9ab472cb613c41a6e708bf8a2870e349b2d9bb70ba0b8b8c6a2"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-019.webp",
+      "sha256": "cb1917741057a9383cc0b7147e74aea6f955fae2f963071c77d06e52f3ca3298"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-020.webp",
+      "sha256": "758c0b79de11ecd0862f82585710be8849984a5847e0266fb21c77476200c5e7"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-021.webp",
+      "sha256": "bbfd61e841deacff536927efd370d505c00526bff1e4c6f1cad433ba531f96cd"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-022.webp",
+      "sha256": "1a3f518cdac1e17a8b5b3fd8bb26da40b170387efee93a9e7d68b21cad63173d"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-023.webp",
+      "sha256": "46cb71ed67fa1101fa86a93d3f2b1dd5389ca0e1baffc509d25690ece5db30a4"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-024.webp",
+      "sha256": "afeefadfc61db697a5f193ae45cd42ca03c84756ea6acbe6bfd2a32046eeac9c"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-025.webp",
+      "sha256": "7adf08e7509e0015690ecc4aa421a7da261e76b51abcd6656712bfc845d2c2dc"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-026.webp",
+      "sha256": "460b1fdc060c61039364fd3dc22ef9aaed6437d090fd2650b89e629337ce5838"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-027.webp",
+      "sha256": "76679eb5984eefcd367c5d21accf4eb721206925b3a16266a1d0c0a3c38d864a"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-028.webp",
+      "sha256": "38a7aefe84b8bcf621da4ef71c7b4750738ce551cb1c45b4a8c0ff2a5260e50d"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-029.webp",
+      "sha256": "6eb0752059c175d7978e521ce6f086bea99e0b270d9f87c2789668d81e8a81f7"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-030.webp",
+      "sha256": "393675aad6ad8e9b9aed1d8077638202bdf277b1f8c340deee223191426b0475"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-031.webp",
+      "sha256": "caf9180190fb28b235cea0686f88ad5eaa82bcee242a6b9b9361a134333a78ca"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-032.webp",
+      "sha256": "70040b31d4350007507a9013ab85698bf23c6ba08ad4378ccf5d9db7b1d38165"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-033.webp",
+      "sha256": "af48abc4549d9e4196a91c7f50ea1bb9cae1f114a7e27a0b5063b760ef7fc555"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-034.webp",
+      "sha256": "050b8bf3396f3734299f27f4120fc3863dcc087c06b762f0f0f614d7feee7cfe"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-035.webp",
+      "sha256": "cebdcf61e9c6dfb3ddb17e2d595959d1b76650147d028424c3d3c6642de0c1c2"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-036.webp",
+      "sha256": "3a2d9c1fefebdd425857f3fa5b51e9b53a2eb50171420d779b698808d2265cf1"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-037.webp",
+      "sha256": "e16cedda4bc72c268eb4cc5ea7440d275347ddca0282ab358f71ee1ba118a52e"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-038.webp",
+      "sha256": "47b51d2d6c0bcd1939e26d0444f02499e4dd2657117b6ceca616008f0d18d9a5"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-039.webp",
+      "sha256": "08957d618f7adc25687b292484d6c6ded6fb0fefa79e70916993a31c67580dae"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-040.webp",
+      "sha256": "fbc4d3d3896f91b5554cd9010b821a3e5a18f3a25eb9395689cf19b43dc9e138"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-041.webp",
+      "sha256": "6ec50150a65e50e0e834bba693de0716fbf045f593d5fdb9193d7ff7143ccdbb"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-042.webp",
+      "sha256": "bd8c047d6d0c41f9780f0cef9d94bef6ee0e977818bc4e9bfb3a6c3af31ae440"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-043.webp",
+      "sha256": "2a805b982bec2a905e1607b6d1be0c60f1e16255da90ca981dc986c88b864128"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-044.webp",
+      "sha256": "81030bd045521303372c70be6746dfd48c01a7ac78c17112e54dbea34d3986ee"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-045.webp",
+      "sha256": "0df5c6f0bb7327dcccefca2ce99f5538085cac75223e94c2119353532ff025a0"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-046.webp",
+      "sha256": "7e52062e1ff34bf57a1e9aec5bc220d6ce02ded22e6dbd884f91aa5d60c71411"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-047.webp",
+      "sha256": "b4b5778671792c8b5df73c5c8152b0c151835b3bb5f0bad3c23ec1a04347d48c"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-048.webp",
+      "sha256": "d042ae49ded7ac5e3b9fff00d4ad1268e0a14a69fea14893df3c788e38ae906c"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-049.webp",
+      "sha256": "626a0c8c9558591d09386dcf1c1d5e1e294c230e9a203d95c97e460d1762ec46"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-050.webp",
+      "sha256": "d9987e062e03511e0caa06344abd4ea493b05b93c07435e25645ea54592cd84b"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-051.webp",
+      "sha256": "b0c3c77887007cfed8a856507bebd3e65c7d3fff9c10d91f6a28d54643338bd9"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-052.webp",
+      "sha256": "46314557382f3c6b660d7f6dd74f720a4f1fd2ad5a21d13ab17cd6f78fb61472"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-053.webp",
+      "sha256": "967d25db31ae66d4ac292701c35c079a6cb87627541caec6358a12637e5639f5"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-054.webp",
+      "sha256": "31ffd9e910a39a096508cf261cc17375d3c5c70edb0ab57cb9f1f416b68d9d61"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-055.webp",
+      "sha256": "7c90c738b21ceeb0a8990636ee47f2765d9973529deda446822ab6293a6d7208"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-056.webp",
+      "sha256": "5a29d10d8182211c1d3fb63fe5611bf1e468988da1904771a8b2d2b528817e64"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-057.webp",
+      "sha256": "b7fcafb2ef30aaa3bace395d27dd9e0dca9ccaa554a3e1bd10a15117f8156d41"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-058.webp",
+      "sha256": "5eaab8ce4f875851d67780d49d98410959c840fa387de70e2272fb21d12cb3fc"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-059.webp",
+      "sha256": "b767bd5582ea2e771d74132ef1e4e0b0dbba8a3e4fa6d879c14f3d308d8899c6"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-060.webp",
+      "sha256": "a83f12d9415d99258e4e523112858ebfe081c90a7f1c5bc1a1743e817a7a4f38"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-061.webp",
+      "sha256": "17fa488fc50bcb3a58e28972d159f36a912cc23d1fd5b2005f17cb2e3e4d9621"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-062.webp",
+      "sha256": "0b1cb2631770257a77b65edc7a94949f2a91a14283b12642deb7ee366a22e5c8"
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-063.webp",
+      "sha256": "51a3cf87811f1feade9c3d5ef6deb3186c89ef7d7841ecdb2eb234a5c2b4a2dd"
+    },
+    {
+      "path": "ob-presentations/newborn-handout/deck.json",
+      "sha256": "0fae6af4c4c0fb28fc201b1a4b136a71f9a906f0d3795e0d503c2305bd09b041"
+    },
+    {
+      "path": "ob-presentations/newborn-handout/original.pdf",
+      "sha256": "f2e243c2e4c79d33582dacca79a2a4ce96e651455e0e59ee71369f65710856f3"
+    },
+    {
+      "path": "ob-presentations/newborn-handout/page-001.webp",
+      "sha256": "e8f16ffe863c8067ed2f9313f3e761abf8b1fa97cbce313c1e55b4fb13ee0b9b"
+    },
+    {
+      "path": "ob-presentations/newborn-handout/page-002.webp",
+      "sha256": "d6fdd665742f594f70ff339d2b53afb4f244b69f9d459720422a7f3746094eb7"
+    },
+    {
+      "path": "ob-presentations/newborn-handout/page-003.webp",
+      "sha256": "f3f157aaf7c3c3d7e420f9d0bcea55a4228865d6abdc2a93397e10e597edc07a"
+    },
+    {
+      "path": "ob-presentations/newborn-handout/page-004.webp",
+      "sha256": "4e4702f773777c69eb87ebd485800c5fbe208b3c979dcba3d3867dc5e04c9f57"
+    },
+    {
+      "path": "ob-presentations/newborn-handout/page-005.webp",
+      "sha256": "bd6b3c1befcb111ea3007bd09a14ec8fc87de89b9e11c6a269c8e381c1fa4ae2"
+    },
+    {
+      "path": "ob-presentations/newborn-handout/page-006.webp",
+      "sha256": "f2afc193f28eb5f088e224f9398bd2a22db10aebc7365c22f8c52a589cba57b7"
+    },
+    {
+      "path": "ob-presentations/newborn-handout/page-007.webp",
+      "sha256": "101bd8bc2d24ec7b15e61db8a02d193259fb89e66c66f62862937958bd1bf837"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/deck.json",
+      "sha256": "ae607a3894a103c488d5dcaa1c5693240504c2a6f425824afc20edb0360689e8"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/original.pdf",
+      "sha256": "8c7913d97c7a9f7bc6f8c5cf4064049cdcf057d396ff358c927940ab6a1165a6"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-001.webp",
+      "sha256": "0054323d860c29d3f9ed12a19708048f3f95ee943c769ed43b5666548d11206a"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-002.webp",
+      "sha256": "a13df1d8af1253faffe8936062a783072716d00525f9f50d4a39ce6c9c5cbf2d"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-003.webp",
+      "sha256": "f078298092c2bd8a4dfd0c5c315fbd67eee8f29e94e717740b3904692d3277a0"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-004.webp",
+      "sha256": "36d1a19b1bef8afd54440d6d87fa2468dddc4e4aa8bd6c5a0562eb3b9360fbe0"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-005.webp",
+      "sha256": "cb7e9a762c4d4f2956e198c9f756f93785eadaecb1b0aed7b66bf1f5860b7b90"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-006.webp",
+      "sha256": "ff59c1f5107935f90c9d8ab32371b436027fa63d0c068e55a63bc76d1b4978c3"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-007.webp",
+      "sha256": "9b8b5422b7a9ab192c4e2dc2fb9f8c105658766279bafede2adb2b2fd73edab7"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-008.webp",
+      "sha256": "7765e1df900108b55a938efdf855206252cf02039db1c3fcf0f40b74059f44af"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-009.webp",
+      "sha256": "78f3788a27db203f063994220db05720059adf501d921465b716833c7f6b3823"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-010.webp",
+      "sha256": "b91fe2e19d37a51ef2aa3bea5747f42106e6b654dfbeb2651bf8e5e6f733aa7c"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-011.webp",
+      "sha256": "fc7d145845651a25154bb383b08f12af15f13be17a84dadeb5b0beed5cb6bf08"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-012.webp",
+      "sha256": "b4412afec20a655ad84cb849c9cc43a503423c7db80e71470e17dae0451daf0e"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-013.webp",
+      "sha256": "e35cae03028802445ebef56900ec1c936aac0965d276a90ed1bec30417365919"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-014.webp",
+      "sha256": "5d8ace9362342db6c63f7676c3df0537b1c87974f97c22ab8fa9bc0bb15ae4c1"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-015.webp",
+      "sha256": "9d577d7da4ee7be34b304f27226ab6aa8c0760ed251a221c7304829c9de47410"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-016.webp",
+      "sha256": "246233a01ef2385810d90dd69bf89aa4d0d9b370c6e705752eb646ec5d8a37a4"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-017.webp",
+      "sha256": "ec321736d905b9ff5e5a51d709449c9dedb60f560a5c7db40910268909fa1807"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-018.webp",
+      "sha256": "6170fba8827c69e77c5feffce7e3aa3747b1a6970b04e4c9159c80a55f19f6a2"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-019.webp",
+      "sha256": "b7093a8d69a3cb22184170672384c12141ad6fe879f9d9144c10f320a38f980d"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-020.webp",
+      "sha256": "ef9a3156b19b7e5b33d73b7842b4904e19f718336476a213b65f0141c6fc2afc"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-021.webp",
+      "sha256": "9496ac920cf927a27505397712e26688d4c8b0f9101f0e268933996bc471b40b"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-022.webp",
+      "sha256": "54b00661eb4ec20b38b2df3e38e6d2f1c446ec08ed648cd079eae47d0930f686"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-023.webp",
+      "sha256": "b4b4e25a0a66bf1612079b32fd906abee7ffb5643bf66af6a977e07d6214bf45"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-024.webp",
+      "sha256": "87ef5f4459c2927382825c9f855eebb66b6f63e0c1a62633162fda2853210b4f"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-025.webp",
+      "sha256": "fb43a9a44083f47e7df9b69b8d96515a1394fceb466c9c610ffefdbba16a33e7"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-026.webp",
+      "sha256": "78be120119c068e53ac578b891370661c7a4e4f43f0c38dc01f4b5afe9539df0"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-027.webp",
+      "sha256": "7e01cb9a41ada2ba27c92be46a50de31c639a448b973b979e39fed322274275d"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-028.webp",
+      "sha256": "f951dbafe20b6555cfad47a89a46f5c902125490a73e4294b06804a013b68ce6"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-029.webp",
+      "sha256": "69c2dda52e480efc92024438452712cdc1f1b343e059836a7db6bf148f674ae3"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-030.webp",
+      "sha256": "4cd6df44358ead02e701e93d1d226f7dbb2f726d5b5982c15e373f5e64de74b1"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-031.webp",
+      "sha256": "f74c94887c149dd01cefe39da37d37c48fc295c33c04a1d51d6564d3ddb55786"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-032.webp",
+      "sha256": "6d23896480aeac64959acbc7b3573980f6f13b166bc7de96e6e8dc23df64eb8f"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-033.webp",
+      "sha256": "30ebf2fceddc1d13ed95c1873f1d3b97b6dc2381e0f5b1b9a85e8e1b1a1b0bbe"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-034.webp",
+      "sha256": "f8a4065aba6d884a9a94bf20fa9094172259dfa6d15ddc697a5c18733dab11a8"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-035.webp",
+      "sha256": "38f59e52dece92ce7b1c28da37949da5dce4dc7a05157b73cbc4e0a7c4fb0285"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-036.webp",
+      "sha256": "72abcc745d777171790bed3872901c3188f005a24299e5aef912c73e5ebbdcba"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-037.webp",
+      "sha256": "3d5fbc74afd113a1b43b5e81c27f2263e00264ebdc77592aac96a22b1e8f2040"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-038.webp",
+      "sha256": "2f5092d438d0fd9d88b5366ed1b4a5c96780b02fd5f687f29486df6b9b32613f"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-039.webp",
+      "sha256": "1ae4b597989cdf2e83df321b72c61877f14e7a41ccaecd89f50a8dbea93ba116"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-040.webp",
+      "sha256": "da8b51f6307906a6c9278f5906f681786a05ace6049343eeebdb915987029154"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-041.webp",
+      "sha256": "b0f86419225bc5508cb5460a767fc8b3229c22723da6ce9aa93b323d012a8f13"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-042.webp",
+      "sha256": "d1c49d7733c2a728366ba6eaca6d2dd5097a220d755af28ef09ba1807e7be182"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-043.webp",
+      "sha256": "98a0b92ede9724b8f2d5c978589315a3e337105d8de94fc795e7473df7cfea95"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-044.webp",
+      "sha256": "98c4c19b61fc39e0367e3ac22d778c44141328136b8b5555d7ecb15d76a897bb"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-045.webp",
+      "sha256": "840680375bb52f7b7d8a05e17a82822378cfaadd5f18e191dad2d3d748c12689"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-046.webp",
+      "sha256": "b7c446022b7dca460765cd4fcd8f991f3d752e82e58618016b3890d136fcb1bd"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-047.webp",
+      "sha256": "ede0e15fa37bf32cf665232e6e7ddef586a46487b8b0771940289005fe0817d4"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-048.webp",
+      "sha256": "a77a0b39d4158439e26b6764a1bfb0e2c2876dffbab2af3ef72b2aadc1a3e3b4"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-049.webp",
+      "sha256": "d1b2f1bef6452c56d831acd2ba62d8f836c03ac8945fa67290eed00e920888ac"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-050.webp",
+      "sha256": "6c03e8bc97ef1618daadf8c478dafbd2f4ad275943de608fc12e6fe3d75e9aee"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-051.webp",
+      "sha256": "14f63012e29db627fac2ef2456a27f7f759a7277ac35a8de113fe956ead6b76b"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-052.webp",
+      "sha256": "5215acab50ddd1c96e764acc81b9b616e7455e1e9adae1de2476f62c7b2b1aa7"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-053.webp",
+      "sha256": "437de441ce508fe0404fa5ae93a318bdeccddea6ce34cec2c33ab81c8189a44e"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-054.webp",
+      "sha256": "f003bae1fcf548dfa12cb5b0d636861ae9b42043089f4d1195ae9219514909ca"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-055.webp",
+      "sha256": "b1c316b7b367fb175228d81b23eeb5b87fc9ab00baa25153faef5f2268baa3ef"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-056.webp",
+      "sha256": "b6d307a2054b93393f92e447ba7cde2783bc117af40fbab1deaeb63cb9cc9f9a"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-057.webp",
+      "sha256": "c70f046088b11d268778035476e5cd74f046a84ccf3820a2235dd3a535344b22"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-058.webp",
+      "sha256": "490859605a181cfed10cd0b07d93986110b4a035c69c79e11374024136573e4f"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/page-059.webp",
+      "sha256": "fe40f86fa454f2d0ccd580315ab140f7d848ed3c3724ff017b4f4dae331c264f"
+    },
+    {
+      "path": "ob-presentations/postpartum-handout/deck.json",
+      "sha256": "6cff7a3190a189904868988e86d76495ea822ba791c351ea2b384815b7a2da3d"
+    },
+    {
+      "path": "ob-presentations/postpartum-handout/original.pdf",
+      "sha256": "a5d9e02a483829307e78209096eca54f35f3abe71b906a0d89524865e7228b3a"
+    },
+    {
+      "path": "ob-presentations/postpartum-handout/page-001.webp",
+      "sha256": "085a3d2921a09b6f96fbf33459945b716aa03d3a2e62c075b90dc5a0ecf770c2"
+    },
+    {
+      "path": "ob-presentations/postpartum-handout/page-002.webp",
+      "sha256": "73499ac84b3a046b180600e7c4c93d3833e4d2e99fa9380ff80513457dabde1e"
+    },
+    {
+      "path": "ob-presentations/postpartum-handout/page-003.webp",
+      "sha256": "ccbe01c0e098da05264e046fdad65024fe745f785ae608ee807c34a8c3390863"
+    },
+    {
+      "path": "ob-presentations/postpartum-handout/page-004.webp",
+      "sha256": "b401bf2c98e5ae28cb2f6d09f408ed6fefb47459fc1d795e05703214d349ecd6"
+    },
+    {
+      "path": "ob-presentations/postpartum-handout/page-005.webp",
+      "sha256": "099b270af50ee405fced4736dce4e02d35589355624e65db06debf85f035e382"
+    },
+    {
+      "path": "ob-presentations/postpartum-handout/page-006.webp",
+      "sha256": "cb5247f7b9d59b68d3d7755826822982ce3f171b4634baf9043c6018b783bb0a"
+    },
+    {
+      "path": "ob-presentations/postpartum-handout/page-007.webp",
+      "sha256": "60a193581dc7d5176c42cb2ea8a19bec85b77a8353570440443bc0bff71e816b"
+    },
+    {
+      "path": "ob-presentations/pregnancy-discomforts/deck.json",
+      "sha256": "47eefe781cd0b938b4eda7429a188f4af3e163aff808b941b9dbf5b7da16c7e7"
+    },
+    {
+      "path": "ob-presentations/pregnancy-discomforts/original.pdf",
+      "sha256": "99e3cc8e4f53833ac824b83db6a3fd6994682c012425a7cd28c817e657e2da1e"
+    },
+    {
+      "path": "ob-presentations/pregnancy-discomforts/page-001.webp",
+      "sha256": "d220fce4befb0e5153ad7c1816ed971f2427dab988e5858f02e42ca38b342ca9"
+    },
+    {
+      "path": "ob-presentations/pregnancy-discomforts/page-002.webp",
+      "sha256": "33f4df997dcc02de25b07275a51d29c24ab709b533df7a579ddba3cd4424f0a3"
+    },
+    {
+      "path": "ob-presentations/pregnancy-discomforts/page-003.webp",
+      "sha256": "de85aa29eab25e76242cccda88f3dd0937dc9e3eccb689e255b13bdfd6854efe"
+    },
+    {
+      "path": "ob-presentations/pregnancy-discomforts/page-004.webp",
+      "sha256": "5137b968698bdfe77565911eed240925da1b26779e72f94facd7795ba675ecf8"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/deck.json",
+      "sha256": "f223e6d7ef8bc29fc4a35fb2fb4fe79b596014ee3b81dcf9bf59dd3eec7a798f"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/original.pdf",
+      "sha256": "d6cb3a11c3331df15b164202aee3e92361d9d77fec2d36fe559093afb320b4d1"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-001.webp",
+      "sha256": "aba463242ec1943d20dd2027c81b6fda0a5f337578edb6fb560e11a9f02498c1"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-002.webp",
+      "sha256": "7c35d4d2f300b9bfd7c92a747ecd7ea2d5a1546e8458d54400d4c03632f1c060"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-003.webp",
+      "sha256": "1eb4b4db77762f0774e609a8dca58fbd65fad72b33b0ef572c0e5eb068cdf5c0"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-004.webp",
+      "sha256": "8a00ab3c770f6b811e08f7577c3fc2f710a23b19eb13cf0b27b9629344c76fe4"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-005.webp",
+      "sha256": "5e8f421061b98f9448c213fd9728f8ceeaf6c93b62df65f36be27a03ff72bfcc"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-006.webp",
+      "sha256": "c2f22b8bf795d490d3c977277a1941518c9cd5fa82c766a8a8a02abdbe637de9"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-007.webp",
+      "sha256": "ba4b4d39622962412454c3050af1cd9ab9ba95144920f05d1e282f20f247cdf8"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-008.webp",
+      "sha256": "7f4a24a6197614623b99a55ab1a76d1c239055712555f8174602156356c4317c"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-009.webp",
+      "sha256": "be1efbebc404b2d9187f324572c50232824d6e37e78b24179d810a2884d0b454"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-010.webp",
+      "sha256": "712390199c91ddd60b26b0b83d5edcaa1d2de1068fdb45e50d54bab51c5ac29e"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-011.webp",
+      "sha256": "2ffc9daab9dd133b18a0cd88772aa54f4aadae245d9a8495717a04f5019d876a"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-012.webp",
+      "sha256": "803afdf7752d489a1920db13f1df1796e39def2fed4f5673093b1e25e904d7b3"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-013.webp",
+      "sha256": "fe4730d01a327ac3bee7484337ec82ac3a7a19b54952009f88fec247b0977efb"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-014.webp",
+      "sha256": "90e6c2c9eb249ae960c4f8bdf1d7ed698a7bae51351b63c9ee19df4bba67cc83"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-015.webp",
+      "sha256": "051dbef434629cca13f4cee4cac038f336c4cf75655d6ee8338d9cd977dde154"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-016.webp",
+      "sha256": "c43998a5320a6897cef7595ef1ef54806b48545229fb048533904457cbf451d0"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-017.webp",
+      "sha256": "9f213d0cc380927d4bee4caff07cdaa741239e05a77e1ce54a74e768a710e3f9"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-018.webp",
+      "sha256": "5733051818be52946a994c503f0a97014a2b364bd0644ff4452c2bfd9f46ff47"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-019.webp",
+      "sha256": "43048da3f2d354cb3412805e684231ec38902eb728bf4994fe3709df7b081771"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-020.webp",
+      "sha256": "d249ad5c3c71c6bbe44c80d40b9dc5cef0f53d4a32715f9de4542231d8ddd2d7"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-021.webp",
+      "sha256": "8348dabe82cf26f69e97fbe280e2922e1e8df68f0123cb8ec71753d3c6f56b5d"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-022.webp",
+      "sha256": "a721d16ac3a125ddf17a58f85407efe8040be5e741e9b4eaab64d0077d734f1f"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-023.webp",
+      "sha256": "c56ba993052d6eea23da5a5730b865ea470c0b02e24ed1d455d61e07c4c65bad"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-024.webp",
+      "sha256": "3ecfa20cf1fe805cfb3df022b66e2fed1aeef43c429b5ad0403d60e680c487cb"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-025.webp",
+      "sha256": "0e90a437ef35ad4cb2f2936257185d61b91b57e74b8c825fcafe9036888b52c1"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-026.webp",
+      "sha256": "20d9b93049992c385e4c52178d74d3ee32d7cf97d5a0857f2c23bd42f65ff6b1"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-027.webp",
+      "sha256": "a94e64c2e0e6005a194c860b246c67516d9438cd58d6a88f325b32674eb72f69"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-028.webp",
+      "sha256": "a9c6af899f81642f49337081a4f2439dc18821d03e20c80c8e6bec71c9b4d1a2"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/page-029.webp",
+      "sha256": "77b6b247f2da2c7ad9b092500005420968d6c4bbde90815d50f08b554748b698"
+    },
+    {
+      "path": "ob-presentations/stis/deck.json",
+      "sha256": "579bc26f75afcfe9739d1b4c0a31f9c2319b8332f703aca62b9ee012d13fedda"
+    },
+    {
+      "path": "ob-presentations/stis/original.pdf",
+      "sha256": "a35b1718583b209a0414aaa8a8a1c62ebac4439d3e909b44c7af6be3e3aa47a1"
+    },
+    {
+      "path": "ob-presentations/stis/page-001.webp",
+      "sha256": "885a2c1773b5476e596826800500489c7c36c22527175382487a32ae6c6d0e1a"
+    },
+    {
+      "path": "ob-presentations/stis/page-002.webp",
+      "sha256": "8f29651727f6dddeecf0d72394a09a5ee3a107e4d5016430ef855f50fdc7a604"
+    },
+    {
+      "path": "ob-presentations/stis/page-003.webp",
+      "sha256": "e6034c2a6b1ab30d299c42ce0afc80ba946188ddd70074c33b62ff666fea7e71"
+    },
+    {
+      "path": "ob-presentations/stis/page-004.webp",
+      "sha256": "cbcbb30a9dd2b108373814eeb09c1550347764347e56f99113fb1d5cca16a623"
+    },
+    {
+      "path": "ob-presentations/stis/page-005.webp",
+      "sha256": "9a401f7415de6875b479fd766832d7e8e51a517e4b4e2368529c2135ded7cb04"
+    },
+    {
+      "path": "ob-presentations/stis/page-006.webp",
+      "sha256": "2505e70cb86e909ecfac9b0b88be773f9ea96cee78b93303e583ae6a18a2e53a"
+    },
+    {
+      "path": "ob-presentations/stis/page-007.webp",
+      "sha256": "31297d8342cebfa820bb82ff833e67ae51382fb378a9a8c830bef49f2948996f"
+    },
+    {
+      "path": "ob-presentations/stis/page-008.webp",
+      "sha256": "785c7f87f937dbd51865b487b2d0f1547168f92864623b25269805bdecb3cf7b"
+    },
+    {
+      "path": "ob-presentations/stis/page-009.webp",
+      "sha256": "ebe760e71ea47e134e1d50a7f2db03cac0071d751ba7fad81230b22b4a31fdc1"
+    },
+    {
+      "path": "ob-presentations/stis/page-010.webp",
+      "sha256": "f2988fa4a43666d68f4fc41adc4e9f6534a13d5a904b320f3cec07b5684e21f9"
+    },
+    {
+      "path": "ob-presentations/stis/page-011.webp",
+      "sha256": "873b84d1e5d16b6daa22b3fdc4029358cd384f6d1068927c2067f69884e27760"
+    },
+    {
+      "path": "ob-presentations/stis/page-012.webp",
+      "sha256": "89e6c103e56fe4d394e9436034b7b017805c402f9d9049f149fddf202f5ad367"
+    },
+    {
+      "path": "ob-presentations/stis/page-013.webp",
+      "sha256": "70458bf3f14581821e3ec7e87b57ce4c901da490490d99d47bb4a2cca03294ab"
+    },
+    {
+      "path": "ob-presentations/stis/page-014.webp",
+      "sha256": "3d5c3ca68f0a0ecbeb5fb1447cfdf819a23435cb2a24f0bad9788c5f128ccdd1"
+    },
+    {
+      "path": "ob-presentations/stis/page-015.webp",
+      "sha256": "8fedb08583426699fd277b5178c72b3afa8db523c44905418d080fd69b60f502"
+    },
+    {
+      "path": "ob-presentations/stis/page-016.webp",
+      "sha256": "ad1fcf2fba49afd02b391186af306ac6dcae85e556ff10c89e379d2c34da7353"
+    },
+    {
+      "path": "ob-presentations/stis/page-017.webp",
+      "sha256": "d718babb3efa4b3e35a79607d564d6e5ed0e07c1d26d912b9d5e53d3b5d10fc7"
+    },
+    {
+      "path": "ob-presentations/stis/page-018.webp",
+      "sha256": "e3b5a941e9ab62e877f8dec45f0c0161f046b623b787307132534b35ecc4256a"
+    },
+    {
+      "path": "ob-presentations/stis/page-019.webp",
+      "sha256": "2e1c87ae005f687fcd43dbcb32712559d2c2614d7f161e9e36d5de1747b84d96"
+    },
+    {
+      "path": "ob-presentations/stis/page-020.webp",
+      "sha256": "c1d640f3fc41ed64ab65b3374d5ce548a467084b38baab2c7182dd13165f37b8"
+    },
+    {
+      "path": "ob-presentations/stis/page-021.webp",
+      "sha256": "01507aaa5ab3c0f5c04fc9306535871b55cefd1133dd6b7cb2ed31ef94316f4c"
+    },
+    {
+      "path": "ob-presentations/stis/page-022.webp",
+      "sha256": "3a44d96c69cdae4ef41d24d0a364efaad438f8937480cd0afb92fabc9a423c44"
+    },
+    {
+      "path": "ob-presentations/stis/page-023.webp",
+      "sha256": "37602d37754330b3961925634e6bd1afa6e44871d1a919eed4a0f1abdb6f0734"
+    },
+    {
+      "path": "ob-presentations/stis/page-024.webp",
+      "sha256": "037276eacc1de98ff18a8b6fa103d0a268d7c88710f841e76e3b20f47a22572c"
+    },
+    {
+      "path": "ob-presentations/stis/page-025.webp",
+      "sha256": "e47a389d2bc5ddc3f915d5563873ce15f316f8b5bd196cacf3caebf3ddf988f1"
+    },
+    {
+      "path": "ob-presentations/stis/page-026.webp",
+      "sha256": "9b465ded24d19c2d38ad76397d5467bded60f47b2d0a0dd88c1ea6ec0d42d10d"
+    },
+    {
+      "path": "ob-presentations/stis/page-027.webp",
+      "sha256": "62bda913533d6c98893f8330cbe8ffa2b7e906507c358023c2b744997299dfd7"
+    },
+    {
+      "path": "ob-question-map.js",
+      "sha256": "f558aa64e688383b259e107d755b3c5b838657363c3fed9f1241af4501d63eab"
+    },
+    {
+      "path": "ob-question-quizzes.js",
+      "sha256": "f1b09b63029dc2c6c98b172db6665769b9069bba17302c94a6ea3d9ed0fca0d9"
+    },
+    {
+      "path": "ob-readability-data.js",
+      "sha256": "8bc3abada404781b3cabc151138f60c1c757e0dd95bd51c1b8ab579340f5fb56"
+    },
+    {
+      "path": "ob-readability.js",
+      "sha256": "f16954d60094c5c3ced0c0fbaa75c212e752d68537a5a5d25065ee9290bb171a"
+    },
+    {
+      "path": "ob-videos.js",
+      "sha256": "0f5c784bdc9261dec46f9b70fac805f7beae693eb69ec328318b3f68238733bd"
+    },
+    {
+      "path": "ob.js",
+      "sha256": "e08c2420f34871e6e51258fd200946fd27780b3c12732bccee9fcb633030371e"
+    },
+    {
+      "path": "posters/ob/00-memory-tricks.png",
+      "sha256": "3bb42980e75930b30d6df2363b2a1d7a67d41a1b497d6b2d03bc50ab688a37f1"
+    },
+    {
+      "path": "posters/ob/01-intro-ob-nursing.png",
+      "sha256": "cedc32eb09e15deaba89959695f178200edc7d6ab180ab227a005e80a1037344"
+    },
+    {
+      "path": "posters/ob/02-changes-of-pregnancy.png",
+      "sha256": "20cc9bde6701ef712ec271b4b79b1f94c2af737e956aae4233c4fc46843bbb84"
+    },
+    {
+      "path": "posters/ob/03-fetal-development.png",
+      "sha256": "37ebfe02c09c21e45b87b363b255750fdf292c405dc90fa3bfe0ac0f2e6bf0ad"
+    },
+    {
+      "path": "posters/ob/04-signs-of-pregnancy.png",
+      "sha256": "143e7ce3ff9cb54b7df610d33618cc1941b0e63d278a5f2ecbeb54e3b456e755"
+    },
+    {
+      "path": "posters/ob/05-prenatal-care.png",
+      "sha256": "0fa3b7bdec956165da1105674f39a14f8efb90ca40a93cc105d5cb5746e02123"
+    },
+    {
+      "path": "posters/ob/06-nutrition-in-pregnancy.png",
+      "sha256": "c59cc39ca7a0361b1bef7d36fb6f6f7814bb01266a3db26222fff349c44fdfc8"
+    },
+    {
+      "path": "posters/ob/07-early-pregnancy-complications.png",
+      "sha256": "6ee4f922b1f41a57dc8fa697e750b7d2b54bc48d7a6bb3e37c72758a0dfa3e9f"
+    },
+    {
+      "path": "posters/ob/08-hemorrhagic-complications-pregnancy.png",
+      "sha256": "23093db48c206b0b248d3dec42e5bc34e8cfb8f361f9895461b9aa597042ff19"
+    },
+    {
+      "path": "posters/ob/09-hypertensive-disorders-pregnancy.png",
+      "sha256": "0ae002b3eaf97df8be23bcf0f1da628c5aa1d0c203adb17ab8e466172da65b35"
+    },
+    {
+      "path": "posters/ob/10-diabetes-in-pregnancy.png",
+      "sha256": "3d04259cb3ddf1f2ddd9bc30a79ef2c919311148806d3f830c065d8aeb613423"
+    },
+    {
+      "path": "posters/ob/11-high-risk-pregnancy.png",
+      "sha256": "59bf177fea4026422bb3119ff4b56d7f56bed730a17a77abb982c082e99e4023"
+    },
+    {
+      "path": "posters/ob/12-preparing-for-labor.png",
+      "sha256": "528d030f787180857574725bd085a83b4c5c74d8ed8cbc6cee53c41b7d2ff0b7"
+    },
+    {
+      "path": "posters/ob/13-normal-labor-birth.png",
+      "sha256": "8b335180f6a17caa0ccdb7e537864ed2de33bd98250a8e082b7472d01356a048"
+    },
+    {
+      "path": "posters/ob/14-fetal-monitoring.png",
+      "sha256": "d1105f3ababa458f782873367982bc91d2459332b1728c56e96033b28cd26828"
+    },
+    {
+      "path": "posters/ob/15-labor-comfort-pain.png",
+      "sha256": "533b61de086a90f21c4b2e2dffc6bc747949a6bbcfd4a3638dd0e5e9296e6549"
+    },
+    {
+      "path": "posters/ob/16-labor-complications.png",
+      "sha256": "46799f9dc8b115db1c33505843082e38e76ce63b7da5329421d4784132b84ab7"
+    },
+    {
+      "path": "posters/ob/17-cesarean-birth.png",
+      "sha256": "221d4db478da0fb5bcff3ff72b335448942ef3687c01aaf2d3909f3cd32315d2"
+    },
+    {
+      "path": "posters/ob/18-ob-emergencies.png",
+      "sha256": "8b4690e2bf9de29c37e87ef4d66195773949f329c2bcc84a74bd237dafcdb8a4"
+    },
+    {
+      "path": "posters/ob/19-normal-postpartum-care.png",
+      "sha256": "86dbcb2e2a5ed35bf442cb61b6243a0dce48f63454dac782601eac65db26690a"
+    },
+    {
+      "path": "posters/ob/20-postpartum-complications.png",
+      "sha256": "0bf0c6e80d4637d082c8949fedd4ad86f8e294f010ced1412a548f561d62f0c9"
+    },
+    {
+      "path": "posters/ob/21-normal-newborn-care.png",
+      "sha256": "341707620a188a6f7f2ecd70f86bdf64eea405eb9d87372927727b3c83249e30"
+    },
+    {
+      "path": "posters/ob/22-breast-formula-feeding.png",
+      "sha256": "d9d2a70d0e653cc1f2e76530b1d36550b23a6351c6c9f257036eccae37ad5a99"
+    },
+    {
+      "path": "posters/ob/23-newborn-complications-prematurity.png",
+      "sha256": "42969e87d056753f8c9a1df3d5543e9bbd654bd62971c769377dd77cf563b06e"
+    },
+    {
+      "path": "posters/ob/24-contraception.png",
+      "sha256": "0ac01ca319dbe31445a697c4395b081b309490453e906e1c27676ffec5485ec8"
+    },
+    {
+      "path": "posters/ob/25-sexually-transmitted-infections.png",
+      "sha256": "f0db898782f541fffedec5ee76a037557b89f4293588f28e6ac229d671fa6170"
+    },
+    {
+      "path": "study-reader.css",
+      "sha256": "83f18210a137b963a7fca13c9e65d201c037f71822b858d60987da7d75e62c44"
+    },
+    {
+      "path": "study-reader.js",
+      "sha256": "765c011e25417935df7fde4b8d50eb857318a04824e5487197df6c7986354460"
+    },
+    {
+      "path": "styles.css",
+      "sha256": "226b2d739f4c6021303c9279db72d2d6bca1dabe7c2da97e7ee46fac58771b66"
+    }
+  ],
+  "scope": "Memory aids supplement full notes. Clarified wording is displayed in the new cards only. No existing clinical text, objective mapping, question, image or source PDF is altered. Source scripts and handoff instructions are not deployed.",
+  "existingIndex": [
+    {
+      "title": "VEAL CHOP",
+      "categoryId": "labor-birth",
+      "objectiveIds": [
+        "fhr-patterns",
+        "fhr-priorities",
+        "fhr-strip-assessment"
+      ],
+      "weekIds": [
+        "week-5"
+      ],
+      "topicIds": [
+        "fetal-monitoring"
+      ]
+    },
+    {
+      "title": "BUBBLE-HE",
+      "categoryId": "postpartum",
+      "objectiveIds": [
+        "postpartum-assessment"
+      ],
+      "weekIds": [
+        "week-7"
+      ],
+      "topicIds": [
+        "normal-postpartum"
+      ]
+    },
+    {
+      "title": "4 Ts",
+      "categoryId": "postpartum",
+      "objectiveIds": [
+        "postpartum-hemorrhage-assessment",
+        "postpartum-hemorrhage-management"
+      ],
+      "weekIds": [
+        "week-7"
+      ],
+      "topicIds": [
+        "postpartum-complications"
+      ]
+    },
+    {
+      "title": "ACHES",
+      "categoryId": "contraception",
+      "objectiveIds": [
+        "hormonal-contraception-safety"
+      ],
+      "weekIds": [
+        "august-4"
+      ],
+      "topicIds": [
+        "contraception"
+      ]
+    },
+    {
+      "title": "APGAR",
+      "categoryId": "newborn",
+      "objectiveIds": [
+        "newborn-transition-apgar"
+      ],
+      "weekIds": [
+        "week-9",
+        "week-10"
+      ],
+      "topicIds": [
+        "normal-newborn"
+      ]
+    },
+    {
+      "title": "GTPAL",
+      "categoryId": "antepartum",
+      "objectiveIds": [
+        "obstetric-history-gtpal",
+        "pregnancy-adaptations"
+      ],
+      "weekIds": [
+        "week-2",
+        "week-1"
+      ],
+      "topicIds": [
+        "antepartum-prenatal"
+      ]
+    },
+    {
+      "title": "HELLP",
+      "categoryId": "pregnancy-complications",
+      "objectiveIds": [
+        "eclampsia-magnesium-hellp"
+      ],
+      "weekIds": [
+        "week-3"
+      ],
+      "topicIds": [
+        "pregnancy-complications"
+      ]
+    }
+  ],
+  "browserQA": {
+    "environment": "Local preview in the in-app browser; narrow layout checked at an observed 325 CSS-pixel inner width. Not a physical iPhone/Safari test.",
+    "verified": [
+      "Category hub and default-closed cards",
+      "HELPERR corrected letters and selectable text",
+      "Card-to-Week 6 return and contextual Back to Week 6 links",
+      "Existing poster enlargement and close controls",
+      "Existing shoulder-dystocia practice shortcut opens and lazy-loads the two-question panel",
+      "Narrow-screen category/card layout without horizontal overflow",
+      "Only the expanded milk-storage illustration loaded; the closed LATCH illustration remained unloaded"
+    ],
+    "preview": "/Users/george/.codex/visualizations/2026/11/21/01a1fbc6-418f-7532-bb58-c78d85e28530/ob-mnemonic-library.jpg"
+  }
+}

@@ -1,0 +1,45 @@
+/* Scoped additions for the optional OB mnemonic library. */
+.ob-mnemonic-entry{margin:0 0 24px;border:1px solid var(--line);border-radius:12px;background:#f2f4ec}
+.ob-mnemonic-entry>a{display:flex;align-items:center;gap:12px;padding:14px 18px;text-decoration:none;color:var(--ink);min-height:48px}
+.ob-mnemonic-entry strong{color:var(--green);font-size:16px}
+.ob-mnemonic-entry span{font-size:14px;color:var(--muted)}
+.ob-mnemonic-entry span:last-child{margin-left:auto;color:var(--green);font-size:22px}
+.ob-mnemonic-categories{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:0 0 28px}
+.ob-mnemonic-categories a{display:flex;flex-direction:column;align-items:flex-start;gap:7px;padding:18px;border:1px solid var(--line);border-radius:12px;text-decoration:none;color:var(--ink);background:#fffefa;min-width:0;overflow-wrap:anywhere}
+.ob-mnemonic-categories a[aria-current=page]{border:2px solid var(--green);padding:17px;background:#f2f4ec}
+.ob-mnemonic-categories strong{color:var(--green);font-size:17px}
+.ob-mnemonic-categories span,.ob-mnemonic-categories p{font-size:14px;color:var(--muted);line-height:1.5;margin:0}
+.ob-mnemonic-group{margin:0 0 28px}
+.ob-mnemonic-group>h2{font-size:25px;margin:24px 0 14px}
+.ob-mnemonic-card{border:1px solid var(--line);border-radius:14px;margin:0 0 12px;background:#fffefa;overflow:hidden}
+.ob-mnemonic-card>summary{display:flex;align-items:center;gap:14px;padding:19px 20px;cursor:pointer;list-style:none;min-height:64px}
+.ob-mnemonic-card>summary::-webkit-details-marker{display:none}
+.ob-mnemonic-card>summary::after{content:'+';font-size:25px;color:var(--green);margin-left:auto;flex-shrink:0}
+.ob-mnemonic-card[open]>summary::after{content:'−'}
+.ob-mnemonic-card[open]>summary{background:#f2f4ec;border-bottom:3px solid #ba744e}
+.ob-mnemonic-number{font-size:13px;color:var(--muted);flex-shrink:0}
+.ob-mnemonic-card>summary strong{font-size:20px;color:var(--green);line-height:1.4;overflow-wrap:anywhere}
+.ob-mnemonic-hook{display:block;font-size:15px;color:var(--muted);line-height:1.5;margin-top:4px}
+.ob-mnemonic-body{padding:22px;max-width:100%;overflow-wrap:anywhere}
+.ob-mnemonic-facts{margin:0}
+.ob-mnemonic-facts>div{display:grid;grid-template-columns:minmax(55px,100px) minmax(0,1fr);gap:18px;border-bottom:1px solid var(--line);padding:13px 0}
+.ob-mnemonic-facts>div:first-child{padding-top:0}
+.ob-mnemonic-facts dt{font-weight:700;color:var(--green);font-size:18px}
+.ob-mnemonic-facts dd{margin:0;font-size:17px;line-height:1.65;color:var(--ink)}
+.ob-mnemonic-note,.ob-mnemonic-context{font-size:16px;line-height:1.7;color:var(--ink);max-width:76ch}
+.ob-mnemonic-context{margin:0 0 18px}
+.ob-mnemonic-note{padding:16px;background:#f2f4ec;border-left:3px solid #ba744e;border-radius:0 8px 8px 0;margin:20px 0}
+.ob-mnemonic-study-links h3{font-size:16px;margin:20px 0 8px}
+.ob-mnemonic-study-links ul,.ob-mnemonic-references ul{margin:0;padding-left:20px;line-height:1.7;font-size:15px}
+.ob-mnemonic-study-links li{margin-bottom:7px}
+.ob-mnemonic-illustration,.ob-mnemonic-references{margin:18px 0;font-size:15px}
+.ob-mnemonic-illustration summary,.ob-mnemonic-references summary{padding:12px 0;cursor:pointer;color:var(--green);min-height:44px}
+.ob-mnemonic-illustration img{display:block;width:100%;max-width:720px;height:auto;margin:12px 0;border-radius:8px}
+.ob-mnemonic-scope{font-size:14px;color:var(--muted);line-height:1.6;max-width:75ch;margin-top:24px}
+.ob-mnemonic-entry a:focus-visible,.ob-mnemonic-categories a:focus-visible,.ob-mnemonic-card summary:focus-visible,.ob-mnemonic-body a:focus-visible{outline:3px solid var(--green);outline-offset:3px}
+@media(max-width:760px){.ob-mnemonic-categories{grid-template-columns:repeat(2,minmax(0,1fr))}.ob-mnemonic-entry>a{flex-wrap:wrap;gap:5px 10px}.ob-mnemonic-entry a>span:not(:last-child){flex-basis:calc(100% - 30px);order:3}.ob-mnemonic-entry a>span:last-child{order:2}.ob-mnemonic-card>summary{padding:15px 13px;gap:10px}.ob-mnemonic-card>summary strong{font-size:18px}.ob-mnemonic-body{padding:18px 15px}.ob-mnemonic-facts>div{grid-template-columns:minmax(45px,80px) minmax(0,1fr);gap:12px}.ob-mnemonic-facts dd{font-size:16px}}
+@media(max-width:390px){.ob-mnemonic-categories a{padding:14px}.ob-mnemonic-categories a[aria-current=page]{padding:13px}.ob-mnemonic-facts>div{grid-template-columns:1fr;gap:5px}}
+.ob-mnemonic-browse{margin:0 0 22px;border-bottom:1px solid var(--line)}
+.ob-mnemonic-browse>summary{cursor:pointer;color:var(--green);font-size:15px;padding:13px 0;min-height:44px}
+.ob-mnemonic-browse .ob-mnemonic-categories{margin-top:12px}
+@media(max-width:420px){.ob-mnemonic-categories{grid-template-columns:1fr}.ob-mnemonic-categories a{gap:5px}.ob-mnemonic-categories strong{font-size:17px}}
