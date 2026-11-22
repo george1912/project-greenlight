@@ -1,0 +1,269 @@
+{
+  "date": "2026-11-22",
+  "scope": "Embedded practice within OB final-material notes (Weeks 7, 9 and 10, including their exam-topic and Week 8 review views). Standalone practice exams and other courses are unchanged.",
+  "baselineCommit": "33c043582160e4ece46238f274c3b6734e987e06",
+  "uiChanges": [
+    {
+      "path": "section-quizzes.js",
+      "beforeSha256": "c63c974c9bd783a50414a0a3a3ca9f5261a596e739a033ae722e1d8a8e9fd866",
+      "afterSha256": "1c9ba2b3d726aaf0f50129cf259ff2b41c4503a3fdf86a677654d88e7a551be6"
+    },
+    {
+      "path": "ob-question-quizzes.js",
+      "beforeSha256": "f1b09b63029dc2c6c98b172db6665769b9069bba17302c94a6ea3d9ed0fca0d9",
+      "afterSha256": "05b291aa45cd336920039c85af6fe0a36f514e6cd195804bd7f65dcdafa48e09"
+    }
+  ],
+  "unchangedContent": [
+    {
+      "path": "ob-objectives.js",
+      "sha256": "813da3c856cb8af008dba8cb867ead31945e35a877e02de3c359d792bf64ff41"
+    },
+    {
+      "path": "ob-readability-data.js",
+      "sha256": "8bc3abada404781b3cabc151138f60c1c757e0dd95bd51c1b8ab579340f5fb56"
+    },
+    {
+      "path": "ob-practice-questions/ob-review.json",
+      "sha256": "fbb19965fbc6ac2f6230113e27d0836508d6bcfdc4605bb5c44499b03addd527"
+    },
+    {
+      "path": "ob-question-map.js",
+      "sha256": "f558aa64e688383b259e107d755b3c5b838657363c3fed9f1241af4501d63eab"
+    },
+    {
+      "path": "ob-practice-data.js",
+      "sha256": "c74ed6f5f4ed2881fff8c5cbe7918f48b1c78271c655da8079731952f02ba2d0"
+    },
+    {
+      "path": "ob-practice.js",
+      "sha256": "de1e70ff91121a1e8bcda07fbe4434f095b4286ce46302e582b71a50472317ac"
+    },
+    {
+      "path": "quiz-review.js",
+      "sha256": "f033cf15b3ecd415dcade7b4279c07f31fcd85229388e8c6ed0e594c3117c53c"
+    },
+    {
+      "path": "ob.js",
+      "sha256": "e08c2420f34871e6e51258fd200946fd27780b3c12732bccee9fcb633030371e"
+    },
+    {
+      "path": "app.js",
+      "sha256": "e904e565ee0815377e040f2142dcfb69eba9ccca44caa6f72603a467ef55a5d6"
+    }
+  ],
+  "unlinkedQuestions": [
+    {
+      "id": "OBR-0010",
+      "sectionId": "postpartum-physiology",
+      "prompt": "What is the function of the decidua?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0091",
+      "sectionId": "postpartum-physiology",
+      "prompt": "What is the normal postpartum weight loss?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0387",
+      "sectionId": "postpartum-physiology",
+      "prompt": "What should the nurse know about postpartum thyroid function?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0388",
+      "sectionId": "postpartum-physiology",
+      "prompt": "What is postpartum thyroiditis?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0364",
+      "sectionId": "postpartum-labs-elimination",
+      "prompt": "What is the normal postpartum glucose?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0374",
+      "sectionId": "postpartum-comfort-mobility",
+      "prompt": "What is an episiotomy?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0375",
+      "sectionId": "postpartum-comfort-mobility",
+      "prompt": "What are the degrees of perineal lacerations?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0036",
+      "sectionId": "postpartum-hemorrhage-assessment",
+      "prompt": "What is placenta accreta?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0037",
+      "sectionId": "postpartum-hemorrhage-assessment",
+      "prompt": "What is placenta increta?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0038",
+      "sectionId": "postpartum-hemorrhage-assessment",
+      "prompt": "What is placenta percreta?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0033",
+      "sectionId": "postpartum-hemorrhage-management",
+      "prompt": "What is the role of misoprostol (Cytotec) in PPH?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0389",
+      "sectionId": "postpartum-hemorrhage-management",
+      "prompt": "Which pituitary complication can follow severe postpartum hemorrhage?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0390",
+      "sectionId": "postpartum-hemorrhage-management",
+      "prompt": "What is Sheehan syndrome?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0391",
+      "sectionId": "postpartum-hemorrhage-management",
+      "prompt": "What are the signs of Sheehan syndrome?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0392",
+      "sectionId": "postpartum-hemorrhage-management",
+      "prompt": "What is the management of Sheehan syndrome?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0160",
+      "sectionId": "newborn-head-to-toe",
+      "prompt": "What is the normal newborn hematocrit?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0161",
+      "sectionId": "newborn-head-to-toe",
+      "prompt": "What is the normal newborn hemoglobin?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0162",
+      "sectionId": "newborn-head-to-toe",
+      "prompt": "What is the normal newborn WBC count?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0163",
+      "sectionId": "newborn-head-to-toe",
+      "prompt": "What is the normal newborn platelet count?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0164",
+      "sectionId": "newborn-head-to-toe",
+      "prompt": "Normal newborn blood values",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0167",
+      "sectionId": "newborn-head-to-toe",
+      "prompt": "Lab values: newborn",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0460",
+      "sectionId": "newborn-head-to-toe",
+      "prompt": "What is the normal newborn pain assessment?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0186",
+      "sectionId": "newborn-variants",
+      "prompt": "What is the normal newborn hiccups?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0187",
+      "sectionId": "newborn-variants",
+      "prompt": "What is the normal newborn sneezing?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0421",
+      "sectionId": "newborn-discharge-teaching",
+      "prompt": "What is the normal newborn shaken baby syndrome prevention?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0422",
+      "sectionId": "newborn-discharge-teaching",
+      "prompt": "What is the normal newborn immunization education?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0436",
+      "sectionId": "newborn-discharge-teaching",
+      "prompt": "What is the normal newborn choking prevention?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0463",
+      "sectionId": "newborn-discharge-teaching",
+      "prompt": "What is the normal newborn swaddling?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0464",
+      "sectionId": "newborn-discharge-teaching",
+      "prompt": "What is the normal newborn non-nutritive sucking?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0465",
+      "sectionId": "newborn-discharge-teaching",
+      "prompt": "What is the normal newborn pacifier use?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0451",
+      "sectionId": "prematurity-high-risk",
+      "prompt": "What is the normal newborn blood transfusion?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0281",
+      "sectionId": "preterm-ongoing-care",
+      "prompt": "What is intraventricular hemorrhage (IVH)?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0283",
+      "sectionId": "preterm-ongoing-care",
+      "prompt": "What is patent ductus arteriosus (PDA)?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0284",
+      "sectionId": "preterm-ongoing-care",
+      "prompt": "What are the signs of PDA?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    },
+    {
+      "id": "OBR-0285",
+      "sectionId": "preterm-ongoing-care",
+      "prompt": "What is the management of PDA?",
+      "reason": "The existing notes do not explain this specific point sufficiently for a useful review link."
+    }
+  ],
+  "linkedQuestionCount": 336,
+  "scopedQuestionCount": 371
+}

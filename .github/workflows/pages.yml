@@ -37,11 +37,14 @@ jobs:
           cp -R ob-practice-questions _site/
           cp study-reader.js _site/
           cp ob-mnemonics-data.js ob-mnemonics.js ob-mnemonics.css _site/
+          cp ob-note-review-data.js ob-note-review.js ob-note-review.css _site/
           node scripts/prepare-study-reader.cjs _site
       - name: Check study articles
         run: node scripts/check-study-reader.cjs
       - name: Check mnemonic additions
         run: node scripts/check-ob-mnemonics.cjs
+      - name: Check embedded question review links
+        run: node scripts/check-ob-note-review.cjs
       - name: Upload website
         uses: actions/upload-pages-artifact@v4
         with:

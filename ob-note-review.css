@@ -1,0 +1,6 @@
+.ob-note-review-action{margin:14px 0 0}
+.ob-note-review-button{display:inline-flex;align-items:center;gap:10px;min-height:44px;max-width:100%;padding:9px 13px;border:1px solid var(--green);border-radius:3px;background:var(--paper);color:var(--green);font:600 14px/1.5 var(--body);text-align:left;cursor:pointer}
+.ob-note-review-button:hover{background:var(--mint)}
+.ob-note-review-button:focus-visible{outline:3px solid #ac542f;outline-offset:3px}
+.ob-note-topic:has(.ob-note-review-return){scroll-margin-top:20px}
+.ob-note-topic-body>.ob-note-review-return{margin:0 0 16px}

@@ -1,6 +1,6 @@
 /* Shared section-practice behavior, with one question visible per OB objective. */
 const OBReinforcement = (() => {
-  const practice = SectionQuizzes.create({directory:'ob-practice-questions',version:'20261120-ob-reinforcement',oneAtATime:true,intro:'questions to reinforce this topic. Check each answer for a brief explanation.'});
+  const practice = SectionQuizzes.create({directory:'ob-practice-questions',version:'20261120-ob-reinforcement',oneAtATime:true,intro:'questions to reinforce this topic. Check each answer for a brief explanation.',feedbackExtra:question=>typeof OBNoteReview!=='undefined'?OBNoteReview.feedback(question):''});
   function section(id) {
     const count=obQuestionMap.sections[id];
     return count ? practice.section('ob-review',id,{label:`Practice questions (${count})`,caption:'One question at a time · feedback after each answer'}) : '';
@@ -16,6 +16,7 @@ const OBReinforcement = (() => {
   }
   function mount(root) {
     const disposePractice=practice.mount(root);
+    const disposeReview=typeof OBNoteReview!=='undefined'?OBNoteReview.mount(root):()=>{};
     const shortcuts=[...root.querySelectorAll('[data-ob-practice-open]')];
     const listeners=shortcuts.map(button=>{
       const open=()=>{
@@ -29,7 +30,7 @@ const OBReinforcement = (() => {
       button.addEventListener('click',open);
       return ()=>button.removeEventListener('click',open);
     });
-    return ()=>{listeners.forEach(remove=>remove());disposePractice();};
+    return ()=>{listeners.forEach(remove=>remove());disposeReview();disposePractice();};
   }
   function weeklyExtras(week) {
     const groups=obQuestionMap.extras.filter(group=>group.weekIds.includes(week.id));

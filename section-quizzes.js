@@ -1,5 +1,5 @@
 /* Section practice loads only when opened. Answers stay in this browser tab's memory. */
-function createSectionPractice({directory='practice-questions',version='20261116-section-practice',oneAtATime=false,intro='questions to reinforce the notes above. Check each answer for an explanation.'} = {}) {
+function createSectionPractice({directory='practice-questions',version='20261116-section-practice',oneAtATime=false,intro='questions to reinforce the notes above. Check each answer for an explanation.',feedbackExtra=()=>''} = {}) {
   const banks = new Map(), attempts = new Map(), positions = new Map();
   function grade(question, values) {
     const selected = [...new Set(values)].sort(), correct = [...question.correct].sort();
@@ -25,7 +25,7 @@ function createSectionPractice({directory='practice-questions',version='20261116
     return `<form class="section-practice-question" data-practice-question="${escapeHTML(question.id)}"><fieldset ${attempt.checked ? 'disabled' : ''} aria-describedby="practice-hint-${question.id}"><legend><span class="section-practice-number">Question ${index + 1}</span>${escapeHTML(question.prompt)}</legend><p class="section-practice-hint" id="practice-hint-${question.id}">${question.type === 'sata' ? 'Select all that apply. Choose every correct answer and no others.' : 'Choose one answer.'}</p><div class="quiz-options">${question.options.map(option => {
       const selected = attempt.selected.includes(option.id), correct = result && question.correct.includes(option.id), wrong = result && selected && !correct;
       return `<label class="quiz-option${correct ? ' choice-correct' : wrong ? ' choice-wrong' : ''}"><input type="${question.type === 'sata' ? 'checkbox' : 'radio'}" name="${question.id}" value="${option.id}" ${selected ? 'checked' : ''}><span class="quiz-option-letter">${option.id}.</span><span class="quiz-option-copy">${escapeHTML(option.text)}<span class="quiz-option-note">${correct ? '✓ Correct answer' : wrong ? '✕ Your answer' : ''}</span></span></label>`;
-    }).join('')}</div></fieldset><div class="section-practice-feedback" tabindex="-1" role="status" ${result ? '' : 'hidden'}>${result ? feedback(question, attempt.selected) : ''}</div><p class="section-practice-error" role="alert"></p><div class="section-practice-actions"><button type="submit" ${attempt.checked ? 'hidden' : ''}>Check answer</button><button type="reset" ${attempt.checked ? '' : 'hidden'}>Try again</button></div></form>`;
+    }).join('')}</div></fieldset><div class="section-practice-feedback" tabindex="-1" role="status" ${result ? '' : 'hidden'}>${result ? feedback(question, attempt.selected) + feedbackExtra(question) : ''}</div><p class="section-practice-error" role="alert"></p><div class="section-practice-actions"><button type="submit" ${attempt.checked ? 'hidden' : ''}>Check answer</button><button type="reset" ${attempt.checked ? '' : 'hidden'}>Try again</button></div></form>`;
   }
   function feedback(question, selected) {
     const result = grade(question, selected), answer = question.options.filter(option => question.correct.includes(option.id)).map(option => `${option.id}. ${option.text}`).join('; ');
