@@ -4,3 +4,5 @@
 .ob-note-review-button:focus-visible{outline:3px solid #ac542f;outline-offset:3px}
 .ob-note-topic:has(.ob-note-review-return){scroll-margin-top:20px}
 .ob-note-topic-body>.ob-note-review-return{margin:0 0 16px}
+.ob-note-supplement-sources{border-top:1px solid var(--line);margin-top:16px;padding-top:12px;font-size:12px;overflow-wrap:anywhere}
+.ob-note-supplement-sources ul{padding-left:20px;margin-bottom:0}

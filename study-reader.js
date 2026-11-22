@@ -51,6 +51,7 @@ const StudyReader = (() => {
       if (typeof block === 'string') return `<p>${format(block, scope)}</p>`;
       if (block.type === 'overview') return `<section><${heading}>Quick answer</${heading}><ul>${block.items.map(item => `<li>${format(item, objectiveID + '|Quick answer')}</li>`).join('')}</ul></section>`;
       if (block.type === 'group') return `<section><${heading}>${escape(block.title)}</${heading}>${blocks(block.blocks, {objectiveID, section:block.title, level:level + 1})}</section>`;
+      if (block.type === 'references') return `<section class="note-sources"><p>${escape(block.text)}</p>${references(block.items)}</section>`;
       if (block.type === 'facts') return block.items.map(item => `<p><strong>${escape(item.label)}</strong>: ${format(item.text, scope)}</p>`).join('');
       if (block.type === 'list') return `<ul>${block.items.map(item => `<li>${format(item, scope)}</li>`).join('')}</ul>`;
       if (block.type === 'heading') return `<${heading}>${escape(block.text)}</${heading}>`;
@@ -66,7 +67,7 @@ const StudyReader = (() => {
       const ob = page.kind === 'ob';
       const sourceNote = ob && objective.answerSources?.length ? `<section class="note-sources"><h3>Sources for these notes</h3><p>${escape(objective.answerSourceNote)} Reviewed ${escape(objective.answerReviewedOn)}.</p>${references(objective.answerSources)}</section>` : '';
       const pending = ob ? 'Ready for your notes. Write your explanation in your own words; we’ll add it here when you’re ready.' : 'This space is ready for the answer. Study content will be added here.';
-      return `<section id="${escape(objective.id)}"><h2>${escape(objective.title)}</h2><p class="objective-prompt">${format(objective.text, ob ? objective.id + '|prompt' : '')}</p>${objective.answer.length ? blocks(objective.answer, {objectiveID:ob ? objective.id : ''}) : `<p>${pending}</p>`}${sourceNote}</section>`;
+      return `<section id="${escape(objective.id)}"><h2>${escape(objective.title)}</h2><p class="objective-prompt">${format(objective.text, ob ? objective.id + '|prompt' : '')}</p>${objective.answer.length ? blocks([...objective.answer,...(ob&&typeof OBQuestionNotes!=='undefined'?OBQuestionNotes.groups(objective.id):[])], {objectiveID:ob ? objective.id : ''}) : `<p>${pending}</p>`}${sourceNote}</section>`;
     }).join('');
   }
 

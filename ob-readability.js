@@ -3,7 +3,7 @@ const OBReadability = (() => {
   const allowedStyles = new Set(['bold', 'italic', 'red', 'underline']);
   function format(value, scope) {
     const text = String(value);
-    const rules = typeof obReadabilityRules !== 'undefined' && Object.hasOwn(obReadabilityRules, scope) ? obReadabilityRules[scope] : [];
+    const rules = (typeof obReadabilityRules !== 'undefined' && Object.hasOwn(obReadabilityRules, scope) ? obReadabilityRules[scope] : []).concat(typeof OBQuestionNotes!=='undefined'?OBQuestionNotes.rules(scope):[]);
     const ranges = [];
     for (const rule of rules) {
       const start = text.indexOf(rule.text);

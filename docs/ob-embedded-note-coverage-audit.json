@@ -1,0 +1,857 @@
+{
+  "reviewedOn": "2026-11-22",
+  "baselineCommit": "d59e9766b35e7fa8866b9fae744f87475d70d553",
+  "scope": "All 371 embedded questions in the final-material objectives (Weeks 7, 9 and 10, their exam-topic views and Week 8 review). Standalone exams and earlier-week/background banks are outside this pass.",
+  "scopedQuestionCount": 371,
+  "linkedQuestionCount": 371,
+  "unlinkedQuestions": [],
+  "closedQuestionIds": [
+    "OBR-0010",
+    "OBR-0091",
+    "OBR-0387",
+    "OBR-0388",
+    "OBR-0364",
+    "OBR-0374",
+    "OBR-0375",
+    "OBR-0036",
+    "OBR-0037",
+    "OBR-0038",
+    "OBR-0033",
+    "OBR-0389",
+    "OBR-0390",
+    "OBR-0391",
+    "OBR-0392",
+    "OBR-0160",
+    "OBR-0161",
+    "OBR-0162",
+    "OBR-0163",
+    "OBR-0164",
+    "OBR-0167",
+    "OBR-0460",
+    "OBR-0186",
+    "OBR-0187",
+    "OBR-0421",
+    "OBR-0422",
+    "OBR-0436",
+    "OBR-0463",
+    "OBR-0464",
+    "OBR-0465",
+    "OBR-0451",
+    "OBR-0281",
+    "OBR-0283",
+    "OBR-0284",
+    "OBR-0285"
+  ],
+  "supplementTopics": 32,
+  "uiChanges": [
+    {
+      "path": "ob.js",
+      "beforeSha256": "e08c2420f34871e6e51258fd200946fd27780b3c12732bccee9fcb633030371e",
+      "afterSha256": "c28cdf98d42f2967515e09bf9ae3c57e61e804d53b7e51aff344d340cae210f6"
+    },
+    {
+      "path": "study-reader.js",
+      "beforeSha256": "765c011e25417935df7fde4b8d50eb857318a04824e5487197df6c7986354460",
+      "afterSha256": "39bd25f7510f3f79fc54a6f39c79b557c9e7d8e24f1228be687ca7f8b5a13ff9"
+    },
+    {
+      "path": "ob-readability.js",
+      "beforeSha256": "f16954d60094c5c3ced0c0fbaa75c212e752d68537a5a5d25065ee9290bb171a",
+      "afterSha256": "5bb77d1b142780c2141e94c78220eae04c2e8473a1db983b8505e9878fd17a23"
+    },
+    {
+      "path": "ob-note-review-data.js",
+      "beforeSha256": "56a8501fa5e8dc1f87a2c8c5258ab6b9852a7801b2b1cd669b6d2ca82faee85f",
+      "afterSha256": "cb7a7c63a8f91a1011f5aff210415b1c03f0b65e26852368fe04f39f5bc3ed3b"
+    },
+    {
+      "path": "ob-note-review.css",
+      "beforeSha256": "f7b7125c7c7f1cc5272e4291fd35ae64232c7c319ac70798c0097b503d492534",
+      "afterSha256": "767c7e736c165e2d0fc16c465e5bc5adcc68a559c53f6b2c06b582fc281eec0f"
+    }
+  ],
+  "preservedContent": [
+    {
+      "path": "ob-objectives.js",
+      "sha256": "813da3c856cb8af008dba8cb867ead31945e35a877e02de3c359d792bf64ff41"
+    },
+    {
+      "path": "ob-content.js",
+      "sha256": "674b4aea2d633c1ec63fd7f6c4bc45054eb9ed27b18bae92b08396ab0937e33e"
+    },
+    {
+      "path": "ob-practice-questions/ob-review.json",
+      "sha256": "fbb19965fbc6ac2f6230113e27d0836508d6bcfdc4605bb5c44499b03addd527"
+    },
+    {
+      "path": "ob-question-map.js",
+      "sha256": "f558aa64e688383b259e107d755b3c5b838657363c3fed9f1241af4501d63eab"
+    },
+    {
+      "path": "ob-practice-data.js",
+      "sha256": "c74ed6f5f4ed2881fff8c5cbe7918f48b1c78271c655da8079731952f02ba2d0"
+    },
+    {
+      "path": "ob-practice.js",
+      "sha256": "de1e70ff91121a1e8bcda07fbe4434f095b4286ce46302e582b71a50472317ac"
+    },
+    {
+      "path": "quiz-review.js",
+      "sha256": "f033cf15b3ecd415dcade7b4279c07f31fcd85229388e8c6ed0e594c3117c53c"
+    },
+    {
+      "path": "ob-readability-data.js",
+      "sha256": "8bc3abada404781b3cabc151138f60c1c757e0dd95bd51c1b8ab579340f5fb56"
+    },
+    {
+      "path": "docs/readability/ob-readability-review.json",
+      "sha256": "7300c4154607303b3a3641089262ef95a8e4d3ca4411d6c03d6ceead6991ff5a"
+    }
+  ],
+  "sourcePDFs": [
+    {
+      "path": "ob-presentations/antepartum-risks/original.pdf",
+      "sha256": "9244bc5fc93a2a9808f23ac7e2a1872fd5b60f9076cef482367dc725717a006a"
+    },
+    {
+      "path": "ob-presentations/contraception/original.pdf",
+      "sha256": "152b5a1183858a35371b5c41ba78f2a3abf87bb1bc5973aeecc1533417deb85b"
+    },
+    {
+      "path": "ob-presentations/diabetes-in-pregnancy/original.pdf",
+      "sha256": "61c2d92b25c1ad8c7c2ff9638552c8242fed192e64ae49f5c551b68f6355ba30"
+    },
+    {
+      "path": "ob-presentations/fetal-development/original.pdf",
+      "sha256": "e525c92498513e7b2a6c5bbb091bff8aaae9300f70d8cc20771e97b4e8adcd53"
+    },
+    {
+      "path": "ob-presentations/fetal-monitoring/original.pdf",
+      "sha256": "1707601718ca499878f32b4156bdf698458b7299ef39e1836bcbe68ae3e6e048"
+    },
+    {
+      "path": "ob-presentations/historical-context/original.pdf",
+      "sha256": "ecfbac51bca49acab837a42b4c5cf7e1b872a1ae5ab932bcf8d6e7783d705dfb"
+    },
+    {
+      "path": "ob-presentations/infant-feeding/original.pdf",
+      "sha256": "a748668457a5f2187cd068866a6649c1c986da04428da98e37f9f4ee9f514339"
+    },
+    {
+      "path": "ob-presentations/labor-and-birth/original.pdf",
+      "sha256": "7d0bfad234e40224b17b8690d58b7f33cb1897d93b2c4dd5d77605cb0bbb41ca"
+    },
+    {
+      "path": "ob-presentations/labor-complications/original.pdf",
+      "sha256": "05776a93d78fee17bf34f2f96de3e9fde92303ee461cd1e4390bbb9cfd23c6be"
+    },
+    {
+      "path": "ob-presentations/labor-pain-management/original.pdf",
+      "sha256": "3ee863e8897fda8f0a64073ee89c2fab1e8daf54cf8811cb601308c33bf637a2"
+    },
+    {
+      "path": "ob-presentations/maternal-adaptation/original.pdf",
+      "sha256": "cd6da4c5591ee5e2f4bbc827479dcd38f918562e32889e120046934fc13d47f6"
+    },
+    {
+      "path": "ob-presentations/newborn-care/original.pdf",
+      "sha256": "f461ea9e420f11ab390e90500a33efb12514e0eaf40c4b1fe48ab0b131df036e"
+    },
+    {
+      "path": "ob-presentations/newborn-care-plan/original.pdf",
+      "sha256": "fd0b963965ac0dc25dff1a82ba1558433470415ea2b02495a8c0b6ebec0ad52e"
+    },
+    {
+      "path": "ob-presentations/newborn-handout/original.pdf",
+      "sha256": "f2e243c2e4c79d33582dacca79a2a4ce96e651455e0e59ee71369f65710856f3"
+    },
+    {
+      "path": "ob-presentations/postpartum-care/original.pdf",
+      "sha256": "8c7913d97c7a9f7bc6f8c5cf4064049cdcf057d396ff358c927940ab6a1165a6"
+    },
+    {
+      "path": "ob-presentations/postpartum-handout/original.pdf",
+      "sha256": "a5d9e02a483829307e78209096eca54f35f3abe71b906a0d89524865e7228b3a"
+    },
+    {
+      "path": "ob-presentations/pregnancy-discomforts/original.pdf",
+      "sha256": "99e3cc8e4f53833ac824b83db6a3fd6994682c012425a7cd28c817e657e2da1e"
+    },
+    {
+      "path": "ob-presentations/prenatal-nursing-care/original.pdf",
+      "sha256": "d6cb3a11c3331df15b164202aee3e92361d9d77fec2d36fe559093afb320b4d1"
+    },
+    {
+      "path": "ob-presentations/stis/original.pdf",
+      "sha256": "a35b1718583b209a0414aaa8a8a1c62ebac4439d3e909b44c7af6be3e3aa47a1"
+    }
+  ],
+  "supplements": [
+    {
+      "objectiveId": "postpartum-physiology",
+      "title": "Decidua, lochia and recovery terminology",
+      "questionIds": [
+        "OBR-0002",
+        "OBR-0008",
+        "OBR-0010"
+      ],
+      "references": [
+        {
+          "title": "Original postpartum care PDF · pages 9–13",
+          "url": "#/ob-final/presentation/postpartum-care"
+        },
+        {
+          "title": "Merck Manual: postpartum physiology and care",
+          "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/postpartum-care-and-associated-disorders/postpartum-care"
+        }
+      ]
+    },
+    {
+      "objectiveId": "postpartum-physiology",
+      "title": "Weight, skin and reproductive recovery",
+      "questionIds": [
+        "OBR-0091",
+        "OBR-0399",
+        "OBR-0400",
+        "OBR-0401",
+        "OBR-0516",
+        "OBR-0517",
+        "OBR-0524",
+        "OBR-0525"
+      ],
+      "references": [
+        {
+          "title": "Original postpartum care PDF · pages 13, 25–26, 32",
+          "url": "#/ob-final/presentation/postpartum-care"
+        },
+        {
+          "title": "Mayo Clinic: postpartum body changes",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/labor-and-delivery/in-depth/postpartum-care/art-20047233"
+        }
+      ]
+    },
+    {
+      "objectiveId": "postpartum-physiology",
+      "title": "Postpartum thyroid dysfunction",
+      "questionIds": [
+        "OBR-0387",
+        "OBR-0388"
+      ],
+      "references": [
+        {
+          "title": "American Thyroid Association: postpartum thyroiditis",
+          "url": "https://www.thyroid.org/postpartum-thyroiditis/"
+        }
+      ]
+    },
+    {
+      "objectiveId": "postpartum-physiology",
+      "title": "Circulatory and respiratory readjustment",
+      "questionIds": [
+        "OBR-0394",
+        "OBR-0395",
+        "OBR-0509",
+        "OBR-0510"
+      ],
+      "references": [
+        {
+          "title": "Original postpartum care PDF · pages 27–29",
+          "url": "#/ob-final/presentation/postpartum-care"
+        }
+      ]
+    },
+    {
+      "objectiveId": "postpartum-assessment",
+      "title": "Assessment timing: use the schedule and the patient",
+      "questionIds": [
+        "OBR-0011",
+        "OBR-0502"
+      ],
+      "references": [
+        {
+          "title": "Original postpartum care PDF · pages 33–38",
+          "url": "#/ob-final/presentation/postpartum-care"
+        },
+        {
+          "title": "Merck Manual: postpartum physiology and care",
+          "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/postpartum-care-and-associated-disorders/postpartum-care"
+        }
+      ]
+    },
+    {
+      "objectiveId": "postpartum-labs-elimination",
+      "title": "Vital-sign reference points and warning thresholds",
+      "questionIds": [
+        "OBR-0025",
+        "OBR-0059",
+        "OBR-0060",
+        "OBR-0061",
+        "OBR-0062",
+        "OBR-0063",
+        "OBR-0064",
+        "OBR-0511",
+        "OBR-0512",
+        "OBR-0513",
+        "OBR-0514"
+      ],
+      "references": [
+        {
+          "title": "Original postpartum care PDF · pages 27–30",
+          "url": "#/ob-final/presentation/postpartum-care"
+        },
+        {
+          "title": "ACOG: conditions to watch for after childbirth",
+          "url": "https://www.acog.org/womens-health/experts-and-stories/the-latest/3-conditions-to-watch-for-after-childbirth"
+        }
+      ]
+    },
+    {
+      "objectiveId": "postpartum-labs-elimination",
+      "title": "Platelets, glucose and output: useful numbers with context",
+      "questionIds": [
+        "OBR-0363",
+        "OBR-0364",
+        "OBR-0365",
+        "OBR-0366",
+        "OBR-0393",
+        "OBR-0506"
+      ],
+      "references": [
+        {
+          "title": "Original postpartum care PDF · pages 28–30, 39",
+          "url": "#/ob-final/presentation/postpartum-care"
+        },
+        {
+          "title": "NHLBI: platelet-count interpretation",
+          "url": "https://www.nhlbi.nih.gov/health/platelet-disorders/diagnosis"
+        },
+        {
+          "title": "NIDDK: glucose testing and interpretation",
+          "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis"
+        }
+      ]
+    },
+    {
+      "objectiveId": "postpartum-comfort-mobility",
+      "title": "Episiotomy and the four degrees of perineal tears",
+      "questionIds": [
+        "OBR-0374",
+        "OBR-0375"
+      ],
+      "references": [
+        {
+          "title": "Original postpartum care PDF · page 38",
+          "url": "#/ob-final/presentation/postpartum-care"
+        },
+        {
+          "title": "RCOG: perineal tears and episiotomies",
+          "url": "https://www.rcog.org.uk/for-the-public/perineal-tears-and-episiotomies-in-childbirth/"
+        }
+      ]
+    },
+    {
+      "objectiveId": "postpartum-comfort-mobility",
+      "title": "Healing, mobility and comfort over time",
+      "questionIds": [
+        "OBR-0016",
+        "OBR-0074",
+        "OBR-0078",
+        "OBR-0271",
+        "OBR-0377",
+        "OBR-0397",
+        "OBR-0398",
+        "OBR-0518",
+        "OBR-0519",
+        "OBR-0520",
+        "OBR-0521",
+        "OBR-0527",
+        "OBR-0528"
+      ],
+      "references": [
+        {
+          "title": "Original postpartum care PDF · pages 13, 33–43",
+          "url": "#/ob-final/presentation/postpartum-care"
+        },
+        {
+          "title": "Mayo Clinic: recovery, perineal discomfort and body changes",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/labor-and-delivery/in-depth/postpartum-care/art-20047233"
+        }
+      ]
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-assessment",
+      "title": "Placenta accreta spectrum: depth predicts risk",
+      "questionIds": [
+        "OBR-0036",
+        "OBR-0037",
+        "OBR-0038"
+      ],
+      "references": [
+        {
+          "title": "ACOG: accreta, increta and percreta definitions",
+          "url": "https://www.acog.org/womens-health/dictionary"
+        },
+        {
+          "title": "ACOG: placenta accreta spectrum care",
+          "url": "https://www.acog.org/clinical/clinical-guidance/obstetric-care-consensus/articles/2018/12/placenta-accreta-spectrum"
+        }
+      ]
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-assessment",
+      "title": "Atony, inversion and rupture: different emergencies",
+      "questionIds": [
+        "OBR-0039",
+        "OBR-0040",
+        "OBR-0041",
+        "OBR-0042",
+        "OBR-0043"
+      ],
+      "references": [
+        {
+          "title": "Original postpartum handout PDF · page 2",
+          "url": "#/ob-final/presentation/postpartum-handout"
+        },
+        {
+          "title": "Original labor complications PDF · page 42",
+          "url": "#/ob-final/presentation/labor-complications"
+        }
+      ]
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-management",
+      "title": "Misoprostol and consumptive coagulopathy",
+      "questionIds": [
+        "OBR-0033",
+        "OBR-0044",
+        "OBR-0045",
+        "OBR-0046",
+        "OBR-0047"
+      ],
+      "references": [
+        {
+          "title": "WHO: consolidated postpartum-haemorrhage guidance",
+          "url": "https://www.who.int/publications/i/item/9789240116115/"
+        },
+        {
+          "title": "Original postpartum handout PDF · pages 2, 5",
+          "url": "#/ob-final/presentation/postpartum-handout"
+        },
+        {
+          "title": "Merck Manual: DIC",
+          "url": "https://www.merckmanuals.com/professional/hematology-and-oncology/coagulation-disorders/disseminated-intravascular-coagulation-dic"
+        }
+      ]
+    },
+    {
+      "objectiveId": "postpartum-hemorrhage-management",
+      "title": "Sheehan syndrome after severe hemorrhage",
+      "questionIds": [
+        "OBR-0389",
+        "OBR-0390",
+        "OBR-0391",
+        "OBR-0392"
+      ],
+      "references": [
+        {
+          "title": "Pituitary Foundation: Sheehan syndrome",
+          "url": "https://www.pituitary.org.uk/information/sheehans-syndrome/"
+        }
+      ]
+    },
+    {
+      "objectiveId": "postpartum-infections",
+      "title": "Engorgement, bacterial mastitis and abscess",
+      "questionIds": [
+        "OBR-0069",
+        "OBR-0070",
+        "OBR-0071",
+        "OBR-0072",
+        "OBR-0073"
+      ],
+      "references": [
+        {
+          "title": "Original postpartum care PDF · pages 20–23",
+          "url": "#/ob-final/presentation/postpartum-care"
+        },
+        {
+          "title": "Academy of Breastfeeding Medicine: mastitis spectrum protocol",
+          "url": "https://www.bfmed.org/assets/ABM%20Protocol%20%2336.pdf"
+        }
+      ]
+    },
+    {
+      "objectiveId": "newborn-head-to-toe",
+      "title": "Newborn laboratory values: study ranges and clinical interpretation",
+      "questionIds": [
+        "OBR-0160",
+        "OBR-0161",
+        "OBR-0162",
+        "OBR-0163",
+        "OBR-0164",
+        "OBR-0167"
+      ],
+      "references": [
+        {
+          "title": "University of Iowa: pediatric reference ranges",
+          "url": "https://www.healthcare.uiowa.edu/path_handbook/appendix/heme/pediatric_normals.html"
+        },
+        {
+          "title": "NICE: neonatal infection assessment",
+          "url": "https://www.nice.org.uk/guidance/ng195"
+        }
+      ]
+    },
+    {
+      "objectiveId": "newborn-head-to-toe",
+      "title": "Measurements, reflex timing and behavior",
+      "questionIds": [
+        "OBR-0110",
+        "OBR-0114",
+        "OBR-0115",
+        "OBR-0117",
+        "OBR-0118",
+        "OBR-0119",
+        "OBR-0121",
+        "OBR-0122",
+        "OBR-0165",
+        "OBR-0172",
+        "OBR-0188"
+      ],
+      "references": [
+        {
+          "title": "Original newborn care PDF · pages 11, 17–18, 33–40",
+          "url": "#/ob-final/presentation/newborn-care"
+        },
+        {
+          "title": "Original newborn handout PDF · pages 3–5",
+          "url": "#/ob-final/presentation/newborn-handout"
+        }
+      ]
+    },
+    {
+      "objectiveId": "newborn-head-to-toe",
+      "title": "Head, mouth and genital findings to recognize",
+      "questionIds": [
+        "OBR-0133",
+        "OBR-0134",
+        "OBR-0135",
+        "OBR-0136",
+        "OBR-0137",
+        "OBR-0138",
+        "OBR-0139",
+        "OBR-0143"
+      ],
+      "references": [
+        {
+          "title": "Original newborn care PDF · pages 17–34",
+          "url": "#/ob-final/presentation/newborn-care"
+        },
+        {
+          "title": "Original newborn handout PDF · pages 3–4",
+          "url": "#/ob-final/presentation/newborn-handout"
+        }
+      ]
+    },
+    {
+      "objectiveId": "newborn-head-to-toe",
+      "title": "Assess newborn pain and reassess comfort",
+      "questionIds": [
+        "OBR-0460"
+      ],
+      "references": [
+        {
+          "title": "Canadian Paediatric Society: newborn pain assessment and management",
+          "url": "https://cps.ca/en/documents/position/managing-pain-in-newborns"
+        }
+      ]
+    },
+    {
+      "objectiveId": "newborn-variants",
+      "title": "Hiccups and sneezing versus illness",
+      "questionIds": [
+        "OBR-0186",
+        "OBR-0187"
+      ],
+      "references": [
+        {
+          "title": "Original newborn care PDF · page 35",
+          "url": "#/ob-final/presentation/newborn-care"
+        },
+        {
+          "title": "AAP: how a newborn behaves",
+          "url": "https://www.healthychildren.org/English/ages-stages/baby/Pages/How-Your-Newborn-Behaves.aspx"
+        }
+      ]
+    },
+    {
+      "objectiveId": "newborn-routine-care",
+      "title": "Screening methods, everyday hygiene and indicated suction",
+      "questionIds": [
+        "OBR-0169",
+        "OBR-0170",
+        "OBR-0175",
+        "OBR-0179",
+        "OBR-0180",
+        "OBR-0319",
+        "OBR-0425",
+        "OBR-0426",
+        "OBR-0432",
+        "OBR-0435",
+        "OBR-0438",
+        "OBR-0439",
+        "OBR-0461",
+        "OBR-0462"
+      ],
+      "references": [
+        {
+          "title": "Original newborn care PDF · pages 43–48",
+          "url": "#/ob-final/presentation/newborn-care"
+        },
+        {
+          "title": "Original newborn handout PDF · pages 5–6",
+          "url": "#/ob-final/presentation/newborn-handout"
+        },
+        {
+          "title": "CPS: procedural comfort and analgesia",
+          "url": "https://cps.ca/en/documents/position/managing-pain-in-newborns"
+        }
+      ]
+    },
+    {
+      "objectiveId": "newborn-discharge-teaching",
+      "title": "Crying, choking prevention and a caregiver coping plan",
+      "questionIds": [
+        "OBR-0421",
+        "OBR-0436"
+      ],
+      "references": [
+        {
+          "title": "AAP: responding to a baby’s cries",
+          "url": "https://www.healthychildren.org/English/ages-stages/baby/crying-colic/pages/Responding-to-Your-Babys-Cries.aspx"
+        },
+        {
+          "title": "AAP: choking prevention",
+          "url": "https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Choking-Prevention.aspx"
+        }
+      ]
+    },
+    {
+      "objectiveId": "newborn-discharge-teaching",
+      "title": "Swaddling, pacifiers and non-nutritive sucking",
+      "questionIds": [
+        "OBR-0463",
+        "OBR-0464",
+        "OBR-0465"
+      ],
+      "references": [
+        {
+          "title": "AAP: safe swaddling",
+          "url": "https://www.healthychildren.org/English/ages-stages/baby/diapers-clothing/Pages/Swaddling-Is-it-Safe.aspx"
+        },
+        {
+          "title": "AAP: safe sleep and pacifiers",
+          "url": "https://www.healthychildren.org/English/ages-stages/baby/sleep/Pages/Preventing-SIDS.aspx"
+        }
+      ]
+    },
+    {
+      "objectiveId": "newborn-discharge-teaching",
+      "title": "Immunizations: explain the purpose and arrange the next dose",
+      "questionIds": [
+        "OBR-0422"
+      ],
+      "references": [
+        {
+          "title": "AAP: vaccines needed in early childhood",
+          "url": "https://www.healthychildren.org/english/safety-prevention/immunizations/pages/your-babys-first-vaccines.aspx"
+        },
+        {
+          "title": "Original newborn care PDF · pages 43–46",
+          "url": "#/ob-final/presentation/newborn-care"
+        }
+      ]
+    },
+    {
+      "objectiveId": "feeding-needs-milk-changes",
+      "title": "Feeding goals and the early milk timeline",
+      "questionIds": [
+        "OBR-0181",
+        "OBR-0381",
+        "OBR-0522"
+      ],
+      "references": [
+        {
+          "title": "Original infant feeding PDF · pages 5–12",
+          "url": "#/ob-final/presentation/infant-feeding"
+        },
+        {
+          "title": "NICHD: human-milk feeding and safe sleep",
+          "url": "https://safetosleep.nichd.nih.gov/safe-sleep/breastfeeding"
+        }
+      ]
+    },
+    {
+      "objectiveId": "feeding-adequacy",
+      "title": "First void, stool transition and growth after early loss",
+      "questionIds": [
+        "OBR-0149",
+        "OBR-0151",
+        "OBR-0309",
+        "OBR-0430"
+      ],
+      "references": [
+        {
+          "title": "Original infant feeding PDF · page 22",
+          "url": "#/ob-final/presentation/infant-feeding"
+        },
+        {
+          "title": "Original newborn care PDF · pages 14–18",
+          "url": "#/ob-final/presentation/newborn-care"
+        },
+        {
+          "title": "AAP: first office visit at 3–5 days",
+          "url": "https://www.aap.org/en/patient-care/newborn-and-infant-nutrition/newborn-and-infant-health-assessment-and-promotion/first-office-visit-3-5-days/"
+        }
+      ]
+    },
+    {
+      "objectiveId": "formula-preparation",
+      "title": "Choosing formula and responsive bottle feeding",
+      "questionIds": [
+        "OBR-0184",
+        "OBR-0185",
+        "OBR-0424"
+      ],
+      "references": [
+        {
+          "title": "CDC: choosing an infant formula",
+          "url": "https://www.cdc.gov/infant-toddler-nutrition/formula-feeding/choosing-a-formula.html"
+        },
+        {
+          "title": "Original infant feeding PDF · pages 23–26",
+          "url": "#/ob-final/presentation/infant-feeding"
+        }
+      ]
+    },
+    {
+      "objectiveId": "prematurity-high-risk",
+      "title": "Neonatal transfusion: indication, checks and reaction response",
+      "questionIds": [
+        "OBR-0451"
+      ],
+      "references": [
+        {
+          "title": "Royal Children’s Hospital: neonatal transfusion indications",
+          "url": "https://www.rch.org.au/bloodtrans/special_transfusions/Neonatal_transfusions/"
+        },
+        {
+          "title": "Royal Children’s Hospital: reaction response",
+          "url": "https://www.rch.org.au/bloodtrans/adverse_effects/Adverse_effects_of_transfusion/"
+        }
+      ]
+    },
+    {
+      "objectiveId": "preterm-ongoing-care",
+      "title": "Intraventricular hemorrhage and neurologic follow-up",
+      "questionIds": [
+        "OBR-0281"
+      ],
+      "references": [
+        {
+          "title": "CPS: preterm brain imaging and IVH",
+          "url": "https://cps.ca/en/documents/position/routine-imaging-of-preterm-neonatal-brain"
+        }
+      ]
+    },
+    {
+      "objectiveId": "preterm-ongoing-care",
+      "title": "Patent ductus arteriosus: recognize and monitor the shunt",
+      "questionIds": [
+        "OBR-0283",
+        "OBR-0284",
+        "OBR-0285"
+      ],
+      "references": [
+        {
+          "title": "Original newborn care PDF · pages 9–10",
+          "url": "#/ob-final/presentation/newborn-care"
+        },
+        {
+          "title": "CPS: PDA management in preterm infants",
+          "url": "https://cps.ca/en/documents/position/patent-ductus-arteriosus"
+        }
+      ]
+    },
+    {
+      "objectiveId": "preterm-ongoing-care",
+      "title": "Gavage feeding versus parenteral nutrition",
+      "questionIds": [
+        "OBR-0456",
+        "OBR-0457"
+      ],
+      "references": [
+        {
+          "title": "NICE: neonatal parenteral nutrition",
+          "url": "https://www.nice.org.uk/guidance/ng154/chapter/Recommendations"
+        },
+        {
+          "title": "CPS: preterm feeding and discharge planning",
+          "url": "https://cps.ca/en/documents/position/discharge-planning-of-the-preterm-infant"
+        }
+      ]
+    },
+    {
+      "objectiveId": "newborn-jaundice",
+      "title": "Direct bilirubin and escalation beyond phototherapy",
+      "questionIds": [
+        "OBR-0305",
+        "OBR-0158",
+        "OBR-0159",
+        "OBR-0453"
+      ],
+      "references": [
+        {
+          "title": "AAP: 2022 hyperbilirubinemia guideline",
+          "url": "https://publications.aap.org/pediatrics/article/150/3/e2022058859/188726/Clinical-Practice-Guideline-Revision-Management"
+        }
+      ]
+    },
+    {
+      "objectiveId": "newborn-sepsis-nec",
+      "title": "GBS timing and infection-risk cues",
+      "questionIds": [
+        "OBR-0444",
+        "OBR-0448",
+        "OBR-0449",
+        "OBR-0450"
+      ],
+      "references": [
+        {
+          "title": "CDC: clinical overview of GBS disease",
+          "url": "https://www.cdc.gov/group-b-strep/hcp/clinical-overview/index.html"
+        },
+        {
+          "title": "NICE: neonatal infection",
+          "url": "https://www.nice.org.uk/guidance/ng195"
+        }
+      ]
+    }
+  ],
+  "clarifications": [
+    "Question-bank numerical intervals and timing examples are explicitly distinguished from universal clinical targets.",
+    "Newborn CBC reference intervals depend on age, sampling and the local laboratory.",
+    "Weight/healing/reflex timelines are approximate, not mandatory milestones.",
+    "New material is additive, sourced and closed by default; original authored notes and question keys are unchanged."
+  ],
+  "visualSourceReview": [
+    {
+      "path": "ob-presentations/newborn-care/page-035.webp",
+      "finding": "Reflex table: Moro 3–6 months; grasp/tonic neck 3–4; rooting 4–6; sneeze persists."
+    },
+    {
+      "path": "ob-presentations/newborn-care/page-040.webp",
+      "finding": "Vital-sign table with variable ranges; no single universal blood pressure or temperature reading."
+    }
+  ]
+}

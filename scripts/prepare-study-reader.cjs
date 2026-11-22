@@ -6,7 +6,7 @@ const root = path.resolve(__dirname, '..');
 function loadReader() {
   const context = {escapeHTML:value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]))};
   vm.createContext(context);
-  for (const file of ['content.js', 'conditions.js', 'ob-content.js', 'ob-objectives.js', 'ob-readability-data.js', 'ob-readability.js', 'study-reader.js']) {
+  for (const file of ['content.js', 'conditions.js', 'ob-content.js', 'ob-objectives.js', 'ob-question-notes.js', 'ob-readability-data.js', 'ob-readability.js', 'study-reader.js']) {
     vm.runInContext(fs.readFileSync(path.join(root, file), 'utf8'), context, {filename:file});
   }
   return vm.runInContext('StudyReader', context);

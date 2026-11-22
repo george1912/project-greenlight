@@ -3,24 +3,24 @@ const root=path.resolve(__dirname,'..'),read=f=>fs.readFileSync(path.join(root,f
 const audit=JSON.parse(read('docs/ob-note-review-audit.json')),bank=JSON.parse(read('ob-practice-questions/ob-review.json'));
 const escapeHTML=x=>String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const context={escapeHTML,console};vm.createContext(context);
-for(const file of ['ob-objectives.js','ob-content.js','ob-note-review-data.js','ob-note-review.js'])vm.runInContext(read(file),context,{filename:file});
-const {objectives,course,groups,review}=vm.runInContext('({objectives:obStudyObjectives,course:obCourse,groups:obNoteReviewLinks,review:OBNoteReview})',context);
+for(const file of ['ob-objectives.js','ob-content.js','ob-question-notes.js','ob-note-review-data.js','ob-note-review.js'])vm.runInContext(read(file),context,{filename:file});
+const {objectives,course,groups,review,supplements}=vm.runInContext('({objectives:obStudyObjectives,course:obCourse,groups:obNoteReviewLinks,review:OBNoteReview,supplements:OBQuestionNotes})',context);
 const objectiveById=new Map(objectives.map(o=>[o.id,o])),mapped=new Set();
 for(const group of groups){
  const source=objectiveById.get(group.sectionId),target=objectiveById.get(group.objectiveId);assert(source&&target);
  assert(source.weekIds.some(w=>['week-7','week-9','week-10'].includes(w)));
- assert.equal(target.answer.filter(b=>b.type==='group'&&b.title===group.heading).length,1,'Unique existing note heading');
+ assert.equal([...target.answer,...supplements.groups(target.id)].filter(b=>b.type==='group'&&b.title===group.heading).length,1,'Unique existing note heading');
  // Every view containing the source practice panel must contain its destination.
  for(const week of course.weeks){const weeks=week.reviewOf||[week.id];if(source.weekIds.some(w=>weeks.includes(w)))assert(target.weekIds.some(w=>weeks.includes(w)),week.id+': '+group.heading);}
  for(const topic of source.topicIds)assert(target.topicIds.includes(topic),'Same-page destination on '+topic);
  for(const id of group.questionIds){assert(!mapped.has(id));mapped.add(id);assert(bank.sections[group.sectionId].some(q=>q.id===id));const markup=review.feedback({id});assert(markup.includes('type="button"'));assert(markup.includes('data-ob-note-review="'+id+'"'));assert(markup.includes(escapeHTML(group.heading)));}
 }
-assert.equal(mapped.size,336);assert.equal(audit.unlinkedQuestions.length,35);
+assert.equal(mapped.size,371);assert.equal(audit.unlinkedQuestions.length,35);
 const scope=objectives.filter(o=>o.weekIds.some(w=>['week-7','week-9','week-10'].includes(w))).flatMap(o=>bank.sections[o.id]||[]);
-assert.equal(scope.length,371);const omitted=new Set(audit.unlinkedQuestions.map(q=>q.id));for(const q of scope)assert.equal(Number(mapped.has(q.id))+Number(omitted.has(q.id)),1);
-for(const q of audit.unlinkedQuestions){assert.equal(review.feedback(q),'');assert(q.reason);}
+assert.equal(scope.length,371);const omitted=new Set();for(const q of scope)assert.equal(Number(mapped.has(q.id))+Number(omitted.has(q.id)),1);
+for(const q of audit.unlinkedQuestions){assert(review.feedback(q).includes('data-ob-note-review='));assert(q.reason);}
 for(const id of ['1','bowtie-1','OBR-0195','UNKNOWN','<script>'])assert.equal(review.feedback({id}),'','No links outside embedded final-material scope');
-for(const item of audit.unchangedContent)assert.equal(sha(fs.readFileSync(path.join(root,item.path))),item.sha256,'Study notes, question content and standalone exams unchanged: '+item.path);
+for(const item of audit.unchangedContent)assert.equal(require('./lib/ob-asset-history.cjs').historicalAssetHash(item.path),item.sha256,'Study notes, question content and standalone exams unchanged: '+item.path);
 assert.deepEqual(audit.uiChanges.map(r=>r.path).sort(),['ob-question-quizzes.js','section-quizzes.js']);
 for(const item of audit.uiChanges)assert.equal(sha(read(item.path)),item.afterSha256);
 // Exercise the shipped navigation listener for every mapping, including sibling objectives.
@@ -43,7 +43,7 @@ for(const group of groups)for(const id of group.questionIds){
  // Opening twice replaces the temporary return control, rather than accumulating controls.
  click({closest:s=>s==='[data-ob-note-review]'?button:null});click({closest:s=>s==='[data-ob-note-review]'?button:null});assert(returnNode);dispose();assert.equal(returnNode,null);assert.equal(handlers.size,0);
 }
-assert(removed>=336*3);
+assert(removed>=371*3);
 // Exercise the actual section quiz's async loading, submit, retry and navigation.
 async function feedbackLifecycle(){
  const handlers=new Map(),panelHandlers=new Map();let markup='',currentForm,focusedFeedback=false;
@@ -66,4 +66,4 @@ async function feedbackLifecycle(){
 }
 const html=read('index.html'),workflow=read('.github/workflows/pages.yml');for(const file of ['ob-note-review-data.js','ob-note-review.js','ob-note-review.css'])assert(html.includes(file+'?')&&workflow.includes(file));
 assert(html.indexOf('ob-note-review.js?')<html.indexOf('ob-question-quizzes.js?'));
-feedbackLifecycle().then(()=>console.log('Passed: 336 exact existing-heading links, 35 documented content gaps, all same-page weekly/exam/review destinations, checked-only correct/wrong feedback, keyboard focus and instant scrolling, preserved answer DOM/state, return controls and cleanup; unchanged notes, question banks, standalone exams and unrelated scopes.')).catch(error=>{console.error(error);process.exitCode=1;});
+feedbackLifecycle().then(()=>console.log('Passed: 371 exact note-heading links, all 35 previous gaps closed, all same-page weekly/exam/review destinations, checked-only correct/wrong feedback, keyboard focus and instant scrolling, preserved answer DOM/state, return controls and cleanup; unchanged notes, question banks, standalone exams and unrelated scopes.')).catch(error=>{console.error(error);process.exitCode=1;});

@@ -22,20 +22,7 @@ const obNoteReviewLinks = [
     "heading": "Lochia: compare color, amount, odor and trend",
     "questionIds": [
       "OBR-0007",
-      "OBR-0008",
       "OBR-0077"
-    ]
-  },
-  {
-    "sectionId": "postpartum-physiology",
-    "objectiveId": "postpartum-physiology",
-    "heading": "Fluid, circulation and breathing: normal shifts versus deterioration",
-    "questionIds": [
-      "OBR-0394",
-      "OBR-0395",
-      "OBR-0509",
-      "OBR-0510",
-      "OBR-0513"
     ]
   },
   {
@@ -45,21 +32,7 @@ const obNoteReviewLinks = [
     "questionIds": [
       "OBR-0385",
       "OBR-0386",
-      "OBR-0402",
-      "OBR-0524",
-      "OBR-0525"
-    ]
-  },
-  {
-    "sectionId": "postpartum-physiology",
-    "objectiveId": "postpartum-physiology",
-    "heading": "Perineum, abdomen, pelvic floor and skin",
-    "questionIds": [
-      "OBR-0399",
-      "OBR-0400",
-      "OBR-0401",
-      "OBR-0516",
-      "OBR-0517"
+      "OBR-0402"
     ]
   },
   {
@@ -67,8 +40,7 @@ const obNoteReviewLinks = [
     "objectiveId": "postpartum-physiology",
     "heading": "Put expected findings in context",
     "questionIds": [
-      "OBR-0001",
-      "OBR-0002"
+      "OBR-0001"
     ]
   },
   {
@@ -85,9 +57,7 @@ const obNoteReviewLinks = [
     "heading": "Start with safety, history and the course mnemonic",
     "questionIds": [
       "OBR-0020",
-      "OBR-0021",
-      "OBR-0011",
-      "OBR-0502"
+      "OBR-0021"
     ]
   },
   {
@@ -108,23 +78,6 @@ const obNoteReviewLinks = [
     ]
   },
   {
-    "sectionId": "postpartum-assessment",
-    "objectiveId": "postpartum-labs-elimination",
-    "heading": "Vital signs: assess the patient behind the number",
-    "questionIds": [
-      "OBR-0025",
-      "OBR-0059",
-      "OBR-0060",
-      "OBR-0061",
-      "OBR-0062",
-      "OBR-0063",
-      "OBR-0064",
-      "OBR-0511",
-      "OBR-0512",
-      "OBR-0514"
-    ]
-  },
-  {
     "sectionId": "postpartum-labs-elimination",
     "objectiveId": "postpartum-labs-elimination",
     "heading": "CBC and fluid shifts: avoid false reassurance",
@@ -132,9 +85,7 @@ const obNoteReviewLinks = [
       "OBR-0360",
       "OBR-0361",
       "OBR-0362",
-      "OBR-0363",
       "OBR-0505",
-      "OBR-0506",
       "OBR-0507",
       "OBR-0508"
     ]
@@ -146,9 +97,7 @@ const obNoteReviewLinks = [
     "questionIds": [
       "OBR-0023",
       "OBR-0081",
-      "OBR-0365",
-      "OBR-0371",
-      "OBR-0393"
+      "OBR-0371"
     ]
   },
   {
@@ -167,8 +116,7 @@ const obNoteReviewLinks = [
     "heading": "Bowel recovery and constipation",
     "questionIds": [
       "OBR-0079",
-      "OBR-0080",
-      "OBR-0366"
+      "OBR-0080"
     ]
   },
   {
@@ -176,12 +124,8 @@ const obNoteReviewLinks = [
     "objectiveId": "postpartum-comfort-mobility",
     "heading": "Perineum and hemorrhoids: reduce swelling and protect healing",
     "questionIds": [
-      "OBR-0078",
       "OBR-0373",
-      "OBR-0376",
-      "OBR-0377",
-      "OBR-0518",
-      "OBR-0519"
+      "OBR-0376"
     ]
   },
   {
@@ -189,10 +133,7 @@ const obNoteReviewLinks = [
     "objectiveId": "postpartum-comfort-mobility",
     "heading": "Cesarean incision and safe movement",
     "questionIds": [
-      "OBR-0016",
-      "OBR-0270",
-      "OBR-0271",
-      "OBR-0520"
+      "OBR-0270"
     ]
   },
   {
@@ -200,7 +141,6 @@ const obNoteReviewLinks = [
     "objectiveId": "postpartum-comfort-mobility",
     "heading": "Breast discomfort: support the chosen feeding plan",
     "questionIds": [
-      "OBR-0074",
       "OBR-0075",
       "OBR-0379"
     ]
@@ -212,10 +152,7 @@ const obNoteReviewLinks = [
     "questionIds": [
       "OBR-0089",
       "OBR-0090",
-      "OBR-0092",
-      "OBR-0397",
-      "OBR-0398",
-      "OBR-0521"
+      "OBR-0092"
     ]
   },
   {
@@ -223,16 +160,7 @@ const obNoteReviewLinks = [
     "objectiveId": "postpartum-discharge",
     "heading": "Check readiness and teach self-care",
     "questionIds": [
-      "OBR-0093",
-      "OBR-0527"
-    ]
-  },
-  {
-    "sectionId": "postpartum-comfort-mobility",
-    "objectiveId": "postpartum-family-adaptation",
-    "heading": "Becoming a parent and partner adjustment",
-    "questionIds": [
-      "OBR-0528"
+      "OBR-0093"
     ]
   },
   {
@@ -360,12 +288,7 @@ const obNoteReviewLinks = [
     "objectiveId": "postpartum-hemorrhage-assessment",
     "heading": "Retained tissue, inversion and coagulation problems",
     "questionIds": [
-      "OBR-0027",
-      "OBR-0039",
-      "OBR-0040",
-      "OBR-0041",
-      "OBR-0042",
-      "OBR-0043"
+      "OBR-0027"
     ]
   },
   {
@@ -389,14 +312,6 @@ const obNoteReviewLinks = [
   {
     "sectionId": "postpartum-hemorrhage-management",
     "objectiveId": "postpartum-hemorrhage-management",
-    "heading": "Restore perfusion and prepare the team’s treatment",
-    "questionIds": [
-      "OBR-0047"
-    ]
-  },
-  {
-    "sectionId": "postpartum-hemorrhage-management",
-    "objectiveId": "postpartum-hemorrhage-management",
     "heading": "Uterotonics: purpose and the key safety checks",
     "questionIds": [
       "OBR-0031",
@@ -410,16 +325,6 @@ const obNoteReviewLinks = [
     "heading": "Treat the cause and continue escalation",
     "questionIds": [
       "OBR-0035"
-    ]
-  },
-  {
-    "sectionId": "postpartum-hemorrhage-management",
-    "objectiveId": "postpartum-hemorrhage-assessment",
-    "heading": "Retained tissue, inversion and coagulation problems",
-    "questionIds": [
-      "OBR-0044",
-      "OBR-0045",
-      "OBR-0046"
     ]
   },
   {
@@ -441,18 +346,6 @@ const obNoteReviewLinks = [
       "OBR-0066",
       "OBR-0067",
       "OBR-0068"
-    ]
-  },
-  {
-    "sectionId": "postpartum-infections",
-    "objectiveId": "postpartum-infections",
-    "heading": "Mastitis: inflammation is not always bacterial infection",
-    "questionIds": [
-      "OBR-0069",
-      "OBR-0070",
-      "OBR-0071",
-      "OBR-0072",
-      "OBR-0073"
     ]
   },
   {
@@ -561,9 +454,7 @@ const obNoteReviewLinks = [
       "OBR-0097",
       "OBR-0108",
       "OBR-0109",
-      "OBR-0110",
-      "OBR-0111",
-      "OBR-0165"
+      "OBR-0111"
     ]
   },
   {
@@ -572,16 +463,7 @@ const obNoteReviewLinks = [
     "heading": "Measurements, head and face",
     "questionIds": [
       "OBR-0113",
-      "OBR-0114",
-      "OBR-0115",
       "OBR-0132",
-      "OBR-0133",
-      "OBR-0134",
-      "OBR-0135",
-      "OBR-0136",
-      "OBR-0137",
-      "OBR-0138",
-      "OBR-0139",
       "OBR-0166",
       "OBR-0168"
     ]
@@ -616,7 +498,6 @@ const obNoteReviewLinks = [
     "objectiveId": "newborn-head-to-toe",
     "heading": "Genitalia and anus",
     "questionIds": [
-      "OBR-0143",
       "OBR-0146"
     ]
   },
@@ -635,12 +516,7 @@ const obNoteReviewLinks = [
     "heading": "Neurologic findings and primitive reflexes",
     "questionIds": [
       "OBR-0116",
-      "OBR-0117",
-      "OBR-0118",
-      "OBR-0119",
-      "OBR-0120",
-      "OBR-0121",
-      "OBR-0122"
+      "OBR-0120"
     ]
   },
   {
@@ -648,9 +524,7 @@ const obNoteReviewLinks = [
     "objectiveId": "newborn-head-to-toe",
     "heading": "Behavior, senses and documentation",
     "questionIds": [
-      "OBR-0171",
-      "OBR-0172",
-      "OBR-0188"
+      "OBR-0171"
     ]
   },
   {
@@ -697,29 +571,9 @@ const obNoteReviewLinks = [
   {
     "sectionId": "newborn-routine-care",
     "objectiveId": "newborn-routine-care",
-    "heading": "Airway and warmth: support transition safely",
-    "questionIds": [
-      "OBR-0435"
-    ]
-  },
-  {
-    "sectionId": "newborn-routine-care",
-    "objectiveId": "newborn-routine-care",
     "heading": "Identification and everyday safety",
     "questionIds": [
       "OBR-0437"
-    ]
-  },
-  {
-    "sectionId": "newborn-routine-care",
-    "objectiveId": "newborn-routine-care",
-    "heading": "Skin, diaper and cord care",
-    "questionIds": [
-      "OBR-0179",
-      "OBR-0180",
-      "OBR-0425",
-      "OBR-0426",
-      "OBR-0432"
     ]
   },
   {
@@ -729,15 +583,6 @@ const obNoteReviewLinks = [
     "questionIds": [
       "OBR-0176",
       "OBR-0177"
-    ]
-  },
-  {
-    "sectionId": "newborn-routine-care",
-    "objectiveId": "newborn-routine-care",
-    "heading": "Hepatitis B: verify maternal status and infant timing",
-    "questionIds": [
-      "OBR-0175",
-      "OBR-0319"
     ]
   },
   {
@@ -754,9 +599,6 @@ const obNoteReviewLinks = [
     "objectiveId": "newborn-routine-care",
     "heading": "Hearing and pulse-ox screening: add the follow-through",
     "questionIds": [
-      "OBR-0169",
-      "OBR-0170",
-      "OBR-0438",
       "OBR-0441",
       "OBR-0442"
     ]
@@ -767,17 +609,7 @@ const obNoteReviewLinks = [
     "heading": "Circumcision: preparation, comfort and observation",
     "questionIds": [
       "OBR-0178",
-      "OBR-0427",
-      "OBR-0461",
-      "OBR-0462"
-    ]
-  },
-  {
-    "sectionId": "newborn-routine-care",
-    "objectiveId": "newborn-head-to-toe",
-    "heading": "Measurements, head and face",
-    "questionIds": [
-      "OBR-0439"
+      "OBR-0427"
     ]
   },
   {
@@ -847,11 +679,9 @@ const obNoteReviewLinks = [
     "objectiveId": "feeding-needs-milk-changes",
     "heading": "Milk production and milk release",
     "questionIds": [
-      "OBR-0381",
       "OBR-0382",
       "OBR-0383",
       "OBR-0384",
-      "OBR-0522",
       "OBR-0523"
     ]
   },
@@ -861,14 +691,6 @@ const obNoteReviewLinks = [
     "heading": "Human milk and formula: explain without blame",
     "questionIds": [
       "OBR-0182"
-    ]
-  },
-  {
-    "sectionId": "feeding-needs-milk-changes",
-    "objectiveId": "breastfeeding-latch-support",
-    "heading": "Cues, timing and a sleepy infant",
-    "questionIds": [
-      "OBR-0181"
     ]
   },
   {
@@ -906,45 +728,10 @@ const obNoteReviewLinks = [
   },
   {
     "sectionId": "feeding-adequacy",
-    "objectiveId": "feeding-adequacy",
-    "heading": "Weight trend: quantify and interpret the loss",
-    "questionIds": [
-      "OBR-0151",
-      "OBR-0309"
-    ]
-  },
-  {
-    "sectionId": "feeding-adequacy",
-    "objectiveId": "feeding-adequacy",
-    "heading": "Urine and stool: use age-related trends",
-    "questionIds": [
-      "OBR-0149",
-      "OBR-0430"
-    ]
-  },
-  {
-    "sectionId": "feeding-adequacy",
     "objectiveId": "breastfeeding-latch-support",
     "heading": "Cues, timing and a sleepy infant",
     "questionIds": [
       "OBR-0150"
-    ]
-  },
-  {
-    "sectionId": "formula-preparation",
-    "objectiveId": "formula-preparation",
-    "heading": "Product and dilution: read the label together",
-    "questionIds": [
-      "OBR-0184",
-      "OBR-0424"
-    ]
-  },
-  {
-    "sectionId": "formula-preparation",
-    "objectiveId": "formula-preparation",
-    "heading": "Responsive bottle feeding",
-    "questionIds": [
-      "OBR-0185"
     ]
   },
   {
@@ -969,14 +756,6 @@ const obNoteReviewLinks = [
     "heading": "Guideline supplement: nutrition and developmental care",
     "questionIds": [
       "OBR-0459"
-    ]
-  },
-  {
-    "sectionId": "prematurity-high-risk",
-    "objectiveId": "newborn-sepsis-nec",
-    "heading": "Guideline supplement: urgent evaluation and prescribed care",
-    "questionIds": [
-      "OBR-0450"
     ]
   },
   {
@@ -1086,7 +865,6 @@ const obNoteReviewLinks = [
     "heading": "Measure bilirubin and use the right chart",
     "questionIds": [
       "OBR-0304",
-      "OBR-0305",
       "OBR-0306",
       "OBR-0307"
     ]
@@ -1096,7 +874,6 @@ const obNoteReviewLinks = [
     "objectiveId": "newborn-jaundice",
     "heading": "Phototherapy: purpose and safe device care",
     "questionIds": [
-      "OBR-0158",
       "OBR-0452"
     ]
   },
@@ -1105,19 +882,7 @@ const obNoteReviewLinks = [
     "objectiveId": "newborn-jaundice",
     "heading": "Follow-up, rebound and urgent neurologic findings",
     "questionIds": [
-      "OBR-0159",
-      "OBR-0428",
-      "OBR-0453"
-    ]
-  },
-  {
-    "sectionId": "newborn-sepsis-nec",
-    "objectiveId": "newborn-sepsis-nec",
-    "heading": "Source connection and infection risk",
-    "questionIds": [
-      "OBR-0444",
-      "OBR-0448",
-      "OBR-0449"
+      "OBR-0428"
     ]
   },
   {
@@ -1141,25 +906,393 @@ const obNoteReviewLinks = [
   {
     "sectionId": "preterm-ongoing-care",
     "objectiveId": "preterm-ongoing-care",
-    "heading": "Guideline supplement: assess feeding readiness",
+    "heading": "Guideline supplement: retinopathy and eye follow-up",
     "questionIds": [
-      "OBR-0456"
+      "OBR-0282"
+    ]
+  },
+  {
+    "sectionId": "postpartum-physiology",
+    "objectiveId": "postpartum-physiology",
+    "heading": "Decidua, lochia and recovery terminology",
+    "questionIds": [
+      "OBR-0002",
+      "OBR-0008",
+      "OBR-0010"
+    ]
+  },
+  {
+    "sectionId": "postpartum-physiology",
+    "objectiveId": "postpartum-physiology",
+    "heading": "Weight, skin and reproductive recovery",
+    "questionIds": [
+      "OBR-0091",
+      "OBR-0399",
+      "OBR-0400",
+      "OBR-0401",
+      "OBR-0516",
+      "OBR-0517",
+      "OBR-0524",
+      "OBR-0525"
+    ]
+  },
+  {
+    "sectionId": "postpartum-physiology",
+    "objectiveId": "postpartum-physiology",
+    "heading": "Postpartum thyroid dysfunction",
+    "questionIds": [
+      "OBR-0387",
+      "OBR-0388"
+    ]
+  },
+  {
+    "sectionId": "postpartum-physiology",
+    "objectiveId": "postpartum-physiology",
+    "heading": "Circulatory and respiratory readjustment",
+    "questionIds": [
+      "OBR-0394",
+      "OBR-0395",
+      "OBR-0509",
+      "OBR-0510"
+    ]
+  },
+  {
+    "sectionId": "postpartum-assessment",
+    "objectiveId": "postpartum-assessment",
+    "heading": "Assessment timing: use the schedule and the patient",
+    "questionIds": [
+      "OBR-0011",
+      "OBR-0502"
+    ]
+  },
+  {
+    "sectionId": "postpartum-assessment",
+    "objectiveId": "postpartum-labs-elimination",
+    "heading": "Vital-sign reference points and warning thresholds",
+    "questionIds": [
+      "OBR-0025",
+      "OBR-0059",
+      "OBR-0060",
+      "OBR-0061",
+      "OBR-0062",
+      "OBR-0063",
+      "OBR-0064",
+      "OBR-0511",
+      "OBR-0512",
+      "OBR-0514"
+    ]
+  },
+  {
+    "sectionId": "postpartum-physiology",
+    "objectiveId": "postpartum-labs-elimination",
+    "heading": "Vital-sign reference points and warning thresholds",
+    "questionIds": [
+      "OBR-0513"
+    ]
+  },
+  {
+    "sectionId": "postpartum-labs-elimination",
+    "objectiveId": "postpartum-labs-elimination",
+    "heading": "Platelets, glucose and output: useful numbers with context",
+    "questionIds": [
+      "OBR-0363",
+      "OBR-0364",
+      "OBR-0365",
+      "OBR-0366",
+      "OBR-0393",
+      "OBR-0506"
+    ]
+  },
+  {
+    "sectionId": "postpartum-comfort-mobility",
+    "objectiveId": "postpartum-comfort-mobility",
+    "heading": "Episiotomy and the four degrees of perineal tears",
+    "questionIds": [
+      "OBR-0374",
+      "OBR-0375"
+    ]
+  },
+  {
+    "sectionId": "postpartum-comfort-mobility",
+    "objectiveId": "postpartum-comfort-mobility",
+    "heading": "Healing, mobility and comfort over time",
+    "questionIds": [
+      "OBR-0016",
+      "OBR-0074",
+      "OBR-0078",
+      "OBR-0271",
+      "OBR-0377",
+      "OBR-0397",
+      "OBR-0398",
+      "OBR-0518",
+      "OBR-0519",
+      "OBR-0520",
+      "OBR-0521",
+      "OBR-0527",
+      "OBR-0528"
+    ]
+  },
+  {
+    "sectionId": "postpartum-hemorrhage-assessment",
+    "objectiveId": "postpartum-hemorrhage-assessment",
+    "heading": "Placenta accreta spectrum: depth predicts risk",
+    "questionIds": [
+      "OBR-0036",
+      "OBR-0037",
+      "OBR-0038"
+    ]
+  },
+  {
+    "sectionId": "postpartum-hemorrhage-assessment",
+    "objectiveId": "postpartum-hemorrhage-assessment",
+    "heading": "Atony, inversion and rupture: different emergencies",
+    "questionIds": [
+      "OBR-0039",
+      "OBR-0040",
+      "OBR-0041",
+      "OBR-0042",
+      "OBR-0043"
+    ]
+  },
+  {
+    "sectionId": "postpartum-hemorrhage-management",
+    "objectiveId": "postpartum-hemorrhage-management",
+    "heading": "Misoprostol and consumptive coagulopathy",
+    "questionIds": [
+      "OBR-0033",
+      "OBR-0044",
+      "OBR-0045",
+      "OBR-0046",
+      "OBR-0047"
+    ]
+  },
+  {
+    "sectionId": "postpartum-hemorrhage-management",
+    "objectiveId": "postpartum-hemorrhage-management",
+    "heading": "Sheehan syndrome after severe hemorrhage",
+    "questionIds": [
+      "OBR-0389",
+      "OBR-0390",
+      "OBR-0391",
+      "OBR-0392"
+    ]
+  },
+  {
+    "sectionId": "postpartum-infections",
+    "objectiveId": "postpartum-infections",
+    "heading": "Engorgement, bacterial mastitis and abscess",
+    "questionIds": [
+      "OBR-0069",
+      "OBR-0070",
+      "OBR-0071",
+      "OBR-0072",
+      "OBR-0073"
+    ]
+  },
+  {
+    "sectionId": "newborn-head-to-toe",
+    "objectiveId": "newborn-head-to-toe",
+    "heading": "Newborn laboratory values: study ranges and clinical interpretation",
+    "questionIds": [
+      "OBR-0160",
+      "OBR-0161",
+      "OBR-0162",
+      "OBR-0163",
+      "OBR-0164",
+      "OBR-0167"
+    ]
+  },
+  {
+    "sectionId": "newborn-head-to-toe",
+    "objectiveId": "newborn-head-to-toe",
+    "heading": "Measurements, reflex timing and behavior",
+    "questionIds": [
+      "OBR-0110",
+      "OBR-0114",
+      "OBR-0115",
+      "OBR-0117",
+      "OBR-0118",
+      "OBR-0119",
+      "OBR-0121",
+      "OBR-0122",
+      "OBR-0165",
+      "OBR-0172",
+      "OBR-0188"
+    ]
+  },
+  {
+    "sectionId": "newborn-head-to-toe",
+    "objectiveId": "newborn-head-to-toe",
+    "heading": "Head, mouth and genital findings to recognize",
+    "questionIds": [
+      "OBR-0133",
+      "OBR-0134",
+      "OBR-0135",
+      "OBR-0136",
+      "OBR-0137",
+      "OBR-0138",
+      "OBR-0139",
+      "OBR-0143"
+    ]
+  },
+  {
+    "sectionId": "newborn-head-to-toe",
+    "objectiveId": "newborn-head-to-toe",
+    "heading": "Assess newborn pain and reassess comfort",
+    "questionIds": [
+      "OBR-0460"
+    ]
+  },
+  {
+    "sectionId": "newborn-variants",
+    "objectiveId": "newborn-variants",
+    "heading": "Hiccups and sneezing versus illness",
+    "questionIds": [
+      "OBR-0186",
+      "OBR-0187"
+    ]
+  },
+  {
+    "sectionId": "newborn-routine-care",
+    "objectiveId": "newborn-routine-care",
+    "heading": "Screening methods, everyday hygiene and indicated suction",
+    "questionIds": [
+      "OBR-0169",
+      "OBR-0170",
+      "OBR-0175",
+      "OBR-0179",
+      "OBR-0180",
+      "OBR-0319",
+      "OBR-0425",
+      "OBR-0426",
+      "OBR-0432",
+      "OBR-0435",
+      "OBR-0438",
+      "OBR-0439",
+      "OBR-0461",
+      "OBR-0462"
+    ]
+  },
+  {
+    "sectionId": "newborn-discharge-teaching",
+    "objectiveId": "newborn-discharge-teaching",
+    "heading": "Crying, choking prevention and a caregiver coping plan",
+    "questionIds": [
+      "OBR-0421",
+      "OBR-0436"
+    ]
+  },
+  {
+    "sectionId": "newborn-discharge-teaching",
+    "objectiveId": "newborn-discharge-teaching",
+    "heading": "Swaddling, pacifiers and non-nutritive sucking",
+    "questionIds": [
+      "OBR-0463",
+      "OBR-0464",
+      "OBR-0465"
+    ]
+  },
+  {
+    "sectionId": "newborn-discharge-teaching",
+    "objectiveId": "newborn-discharge-teaching",
+    "heading": "Immunizations: explain the purpose and arrange the next dose",
+    "questionIds": [
+      "OBR-0422"
+    ]
+  },
+  {
+    "sectionId": "feeding-needs-milk-changes",
+    "objectiveId": "feeding-needs-milk-changes",
+    "heading": "Feeding goals and the early milk timeline",
+    "questionIds": [
+      "OBR-0181",
+      "OBR-0381",
+      "OBR-0522"
+    ]
+  },
+  {
+    "sectionId": "feeding-adequacy",
+    "objectiveId": "feeding-adequacy",
+    "heading": "First void, stool transition and growth after early loss",
+    "questionIds": [
+      "OBR-0149",
+      "OBR-0151",
+      "OBR-0309",
+      "OBR-0430"
+    ]
+  },
+  {
+    "sectionId": "formula-preparation",
+    "objectiveId": "formula-preparation",
+    "heading": "Choosing formula and responsive bottle feeding",
+    "questionIds": [
+      "OBR-0184",
+      "OBR-0185",
+      "OBR-0424"
+    ]
+  },
+  {
+    "sectionId": "prematurity-high-risk",
+    "objectiveId": "prematurity-high-risk",
+    "heading": "Neonatal transfusion: indication, checks and reaction response",
+    "questionIds": [
+      "OBR-0451"
     ]
   },
   {
     "sectionId": "preterm-ongoing-care",
     "objectiveId": "preterm-ongoing-care",
-    "heading": "Guideline supplement: nutrition, growth and feeding evaluation",
+    "heading": "Intraventricular hemorrhage and neurologic follow-up",
     "questionIds": [
+      "OBR-0281"
+    ]
+  },
+  {
+    "sectionId": "preterm-ongoing-care",
+    "objectiveId": "preterm-ongoing-care",
+    "heading": "Patent ductus arteriosus: recognize and monitor the shunt",
+    "questionIds": [
+      "OBR-0283",
+      "OBR-0284",
+      "OBR-0285"
+    ]
+  },
+  {
+    "sectionId": "preterm-ongoing-care",
+    "objectiveId": "preterm-ongoing-care",
+    "heading": "Gavage feeding versus parenteral nutrition",
+    "questionIds": [
+      "OBR-0456",
       "OBR-0457"
     ]
   },
   {
-    "sectionId": "preterm-ongoing-care",
-    "objectiveId": "preterm-ongoing-care",
-    "heading": "Guideline supplement: retinopathy and eye follow-up",
+    "sectionId": "newborn-jaundice",
+    "objectiveId": "newborn-jaundice",
+    "heading": "Direct bilirubin and escalation beyond phototherapy",
     "questionIds": [
-      "OBR-0282"
+      "OBR-0305",
+      "OBR-0158",
+      "OBR-0159",
+      "OBR-0453"
+    ]
+  },
+  {
+    "sectionId": "newborn-sepsis-nec",
+    "objectiveId": "newborn-sepsis-nec",
+    "heading": "GBS timing and infection-risk cues",
+    "questionIds": [
+      "OBR-0444",
+      "OBR-0448",
+      "OBR-0449"
+    ]
+  },
+  {
+    "sectionId": "prematurity-high-risk",
+    "objectiveId": "newborn-sepsis-nec",
+    "heading": "GBS timing and infection-risk cues",
+    "questionIds": [
+      "OBR-0450"
     ]
   }
 ];
